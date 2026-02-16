@@ -15,6 +15,11 @@ Name     Test Room~
 Desc     First line
 Second line
 ~
+#EXDESC
+ExDescKey    sign plaque~
+ExDesc       A test sign.
+~
+#ENDEXDESC
 #EXIT
 Direction north~
 ToRoom    101
@@ -57,5 +62,8 @@ Desc     Second desc~
     }
     if room.Exits["north"] != 101 {
         t.Fatalf("expected north exit to 101")
+    }
+    if room.ExDescs["sign"] != "A test sign." {
+        t.Fatalf("expected exdesc for sign")
     }
 }

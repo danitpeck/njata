@@ -20,6 +20,7 @@ type Room struct {
     Name        string
     Description string
     Exits       map[string]int
+    ExDescs     map[string]string
 }
 
 type RoomView struct {
@@ -42,6 +43,7 @@ func CreateDefaultWorld() *World {
         Name:        "The Crossroads",
         Description: "A simple stone path crosses here, leading to all corners of the land.",
         Exits:       map[string]int{},
+        ExDescs:     map[string]string{},
     }
 
     return &World{
@@ -204,6 +206,28 @@ func (w *World) DescribeRoom(player *Player) (RoomView, error) {
         Exits:       exits,
         Others:      others,
     }, nil
+}
+
+func (w *World) FindRoomExDesc(player *Player, keyword string) (string, bool) {
+    w.mu.RLock()
+    defer w.mu.RUnlock()
+
+    room, ok := w.rooms[player.Location]
+    if !ok {
+        return "", false
+    }
+
+    if room.ExDescs == nil {
+        return "", false
+    }
+
+    key := strings.ToLower(strings.TrimSpace(keyword))
+    if key == "" {
+        return "", false
+    }
+
+    value, ok := room.ExDescs[key]
+    return value, ok
 }
 
 func (w *World) MovePlayer(player *Player, direction string) (RoomView, error) {

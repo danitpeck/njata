@@ -75,7 +75,7 @@ func parseRoomsFromFile(path string) (map[int]*game.Room, error) {
         }
 
         if line == "#ROOM" {
-            current = &game.Room{Exits: map[string]int{}}
+            current = &game.Room{Exits: map[string]int{}, ExDescs: map[string]string{}}
             continue
         }
 
@@ -115,6 +115,14 @@ func parseRoomsFromFile(path string) (map[int]*game.Room, error) {
             if direction != "" && toRoom > 0 {
                 current.Exits[direction] = toRoom
             }
+        case line == "#EXDESC":
+            keys, desc, err := readExDesc(scanner)
+            if err != nil {
+                return nil, err
+            }
+            for _, key := range keys {
+                current.ExDescs[key] = desc
+            }
         }
     }
 
@@ -123,6 +131,50 @@ func parseRoomsFromFile(path string) (map[int]*game.Room, error) {
     }
 
     return rooms, nil
+}
+
+func readExDesc(scanner *bufio.Scanner) ([]string, string, error) {
+    var keys []string
+    var desc string
+
+    for scanner.Scan() {
+        line := strings.TrimSpace(scanner.Text())
+        if line == "#ENDEXDESC" {
+            return keys, desc, nil
+        }
+
+        switch {
+        case strings.HasPrefix(line, "ExDescKey"):
+            value, err := readTildeText(fieldRemainder(line, "ExDescKey"), scanner)
+            if err != nil {
+                return nil, "", err
+            }
+            keys = normalizeKeys(value)
+        case strings.HasPrefix(line, "ExDesc"):
+            value, err := readTildeText(fieldRemainder(line, "ExDesc"), scanner)
+            if err != nil {
+                return nil, "", err
+            }
+            desc = value
+        }
+    }
+
+    if err := scanner.Err(); err != nil {
+        return nil, "", err
+    }
+
+    return keys, desc, nil
+}
+
+func normalizeKeys(value string) []string {
+    fields := strings.Fields(strings.ToLower(value))
+    keys := make([]string, 0, len(fields))
+    for _, field := range fields {
+        if field != "" {
+            keys = append(keys, field)
+        }
+    }
+    return keys
 }
 
 func readExit(scanner *bufio.Scanner) (string, int, error) {

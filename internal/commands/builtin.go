@@ -18,6 +18,22 @@ func RegisterBuiltins(registry *Registry) {
 }
 
 func cmdLook(ctx Context, args string) {
+    trimmed := strings.TrimSpace(args)
+    if trimmed != "" {
+        keyword := trimmed
+        if strings.HasPrefix(strings.ToLower(trimmed), "in ") {
+            keyword = strings.TrimSpace(trimmed[3:])
+        }
+
+        if desc, ok := ctx.World.FindRoomExDesc(ctx.Player, keyword); ok {
+            ctx.Output.WriteLine(desc)
+            return
+        }
+
+        ctx.Output.WriteLine("You see nothing special.")
+        return
+    }
+
     view, err := ctx.World.DescribeRoom(ctx.Player)
     if err != nil {
         ctx.Output.WriteLine("You are nowhere.")
