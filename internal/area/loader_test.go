@@ -8,32 +8,44 @@ import (
 
 func TestLoadRoomsFromDir(t *testing.T) {
     dir := t.TempDir()
-    content := `#FUSSAREA
-#ROOM
-Vnum     100
-Name     Test Room~
-Desc     First line
-Second line
-~
-#EXDESC
-ExDescKey    sign plaque~
-ExDesc       A test sign.
-~
-#ENDEXDESC
-#EXIT
-Direction north~
-ToRoom    101
-#ENDEXIT
-#ENDROOM
+    content := `{
+  "name": "Test Area",
+  "author": "Test Author",
+  "rooms": {
+    "100": {
+      "vnum": 100,
+      "name": "Test Room",
+      "description": "First line\nSecond line",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 101
+      },
+      "exdescs": {
+        "sign": "A test sign.",
+        "plaque": "A test sign."
+      },
+      "area_name": "Test Area",
+      "area_author": "Test Author"
+    },
+    "101": {
+      "vnum": 101,
+      "name": "Second Room",
+      "description": "Second desc",
+      "sector": "city",
+      "flags": {},
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Test Area",
+      "area_author": "Test Author"
+    }
+  }
+}`
 
-#ROOM
-Vnum     101
-Name     Second Room~
-Desc     Second desc~
-#ENDROOM
-`
-
-    filePath := filepath.Join(dir, "sample.are")
+    filePath := filepath.Join(dir, "sample.json")
     if err := os.WriteFile(filePath, []byte(content), 0644); err != nil {
         t.Fatalf("write file: %v", err)
     }
@@ -59,6 +71,12 @@ Desc     Second desc~
     }
     if room.Description != "First line\nSecond line" {
         t.Fatalf("unexpected room desc: %s", room.Description)
+    }
+    if room.Sector != "city" {
+        t.Fatalf("expected sector city, got %s", room.Sector)
+    }
+    if !room.Flags["nomob"] || !room.Flags["indoors"] {
+        t.Fatalf("expected nomob and indoors flags")
     }
     if room.Exits["north"] != 101 {
         t.Fatalf("expected north exit to 101")

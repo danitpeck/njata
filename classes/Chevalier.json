@@ -1,0 +1,20 @@
+{
+  "name": "Chevalier",
+  "class_id": 1,
+  "races": 33508352,
+  "attr_prime": 2,
+  "attr_second": 1,
+  "attr_deficient": 0,
+  "weapon": 10313,
+  "guild": 3022,
+  "thac0": 18,
+  "thac32": 6,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 0,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

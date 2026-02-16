@@ -1,0 +1,1372 @@
+{
+  "name": "Immak Woods",
+  "author": "Shadwen",
+  "rooms": {
+    "8000": {
+      "vnum": 8000,
+      "name": "Immak Woods",
+      "description": "Coming across some thick dark grass, tall, beautiful redwoods become\nvisible swaying in the wind. The leaves on the ground can be heard\ncrunching under the pressure of the scurrying woodland creatures. The\nsweet succulent smell of honey drifts calmly through the atmosphere,\naccompanied by the harmonic sound of chirping birds.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8001,
+        "south": 1435
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8001": {
+      "vnum": 8001,
+      "name": "Immak Woods",
+      "description": "Coming across some thick dark grass, tall, beautiful redwoods become\nvisible swaying in the wind. The leaves on the ground can be heard\ncrunching under the pressure of the scurrying woodland creatures. The\nsweet succulent smell of honey drifts calmly through the atmosphere,\naccompanied by the harmonic sound of chirping birds.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8002,
+        "south": 8000,
+        "west": 8003
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8002": {
+      "vnum": 8002,
+      "name": "The Druid Shack",
+      "description": "A bearskin rug lays on the floor here, taking up a decent amount of space.\nQuite a few pieces of weaponry and armor pervade the walls, hung by wooden\nstakes, and polished to shiny perfection. A huge pot with a ladel rests in\nthe northwest part of the shack, no doubt used for brewing potions for\nwary travellers that tend to pass by. There are numerous candles spread\nabout for convenient lighting purposes, and a lantern placed directly\nabove the pot.",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 8073,
+        "west": 8001
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8003": {
+      "vnum": 8003,
+      "name": "Immak Woods",
+      "description": "Coming across some thick dark grass, tall, beautiful redwoods become\nvisible swaying in the wind. The leaves on the ground can be heard\ncrunching under the pressure of the scurrying woodland creatures. The\nsweet succulent smell of honey drifts calmly through the atmosphere,\naccompanied by the harmonic sound of chirping birds.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8001,
+        "north": 8078,
+        "west": 8004
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8004": {
+      "vnum": 8004,
+      "name": "The path to the Grove.",
+      "description": "A well-used game trail leads to the south where the trees thin out a bit\ninto a more even placement.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8003,
+        "south": 8005
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8005": {
+      "vnum": 8005,
+      "name": "Approaching the Grove.",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8004,
+        "south": 8006
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8006": {
+      "vnum": 8006,
+      "name": "Entrance to the Grove",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8005,
+        "south": 8007
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8007": {
+      "vnum": 8007,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8008,
+        "north": 8006,
+        "south": 8022,
+        "west": 8023
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8008": {
+      "vnum": 8008,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8009,
+        "south": 8017,
+        "west": 8007
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8009": {
+      "vnum": 8009,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8010,
+        "south": 8016,
+        "west": 8008
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8010": {
+      "vnum": 8010,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 8011,
+        "southwest": 8016,
+        "west": 8009
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8011": {
+      "vnum": 8011,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8010,
+        "south": 8012,
+        "west": 8016
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8012": {
+      "vnum": 8012,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8011,
+        "south": 8013,
+        "west": 8015
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8013": {
+      "vnum": 8013,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8012,
+        "west": 8014
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8014": {
+      "vnum": 8014,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8013,
+        "north": 8015,
+        "west": 8019
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8015": {
+      "vnum": 8015,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8012,
+        "north": 8016,
+        "south": 8014,
+        "west": 8018
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8016": {
+      "vnum": 8016,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8011,
+        "north": 8009,
+        "northeast": 8010,
+        "south": 8015,
+        "west": 8017
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8017": {
+      "vnum": 8017,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8016,
+        "north": 8008,
+        "south": 8018,
+        "west": 8022
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8018": {
+      "vnum": 8018,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8015,
+        "north": 8017,
+        "south": 8019,
+        "west": 8021
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8019": {
+      "vnum": 8019,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies. There is an\nodd looking bookshelf to the west, along with the visible top of a\ntombstone with a book on it.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8014,
+        "north": 8018,
+        "west": 8020
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8020": {
+      "vnum": 8020,
+      "name": "Blessed Shrine of the Unicorn",
+      "description": "This place seems a bit out of the ordinary. It seems to be the shrine of a\nunicorn, hence the extremely large unicorn that seems to be reading out of\na book on the ground. Straight down the center of the shrine, there is a\nflat-topped tombstone that reads \"Here lies knowledge, mother nature's\nmedicine\". A large tome that reads \"The Tome of Knowledge\" sits propped up\non the tombstone. On either side of the tombstone lies shelves full of\nbooks. Grass pervades the ground, clearly being the food that feeds the\nknowledgeable unicorn.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8019,
+        "north": 8021,
+        "west": 8026
+      },
+      "exdescs": {
+        "tombstone": "A large tombstone is here decaying over time."
+      },
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8021": {
+      "vnum": 8021,
+      "name": "Approaching the Shrine",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies. To the south\nthere is a tall unicorn hovering over a book. There is also a tall\ntombstone with a large book on top of it.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8018,
+        "north": 8022,
+        "south": 8020,
+        "west": 8025
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8022": {
+      "vnum": 8022,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8017,
+        "north": 8007,
+        "south": 8021,
+        "west": 8024
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8023": {
+      "vnum": 8023,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8007,
+        "south": 8024,
+        "west": 8030
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8024": {
+      "vnum": 8024,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8022,
+        "north": 8023,
+        "south": 8025,
+        "west": 8029
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8025": {
+      "vnum": 8025,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8021,
+        "north": 8024,
+        "south": 8026,
+        "west": 8028
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8026": {
+      "vnum": 8026,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies. There is\nan odd looking bookshelf to the east, along with the visible top of a\ntombstone with a book on it.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8020,
+        "north": 8025,
+        "west": 8027
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8027": {
+      "vnum": 8027,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8026,
+        "north": 8028,
+        "west": 8034
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8028": {
+      "vnum": 8028,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8025,
+        "north": 8029,
+        "south": 8027,
+        "west": 8033
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8029": {
+      "vnum": 8029,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8024,
+        "north": 8030,
+        "south": 8028,
+        "west": 8032
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8030": {
+      "vnum": 8030,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8023,
+        "south": 8029,
+        "west": 8031
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8031": {
+      "vnum": 8031,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8030,
+        "south": 8032
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8032": {
+      "vnum": 8032,
+      "name": "A Mound of Dirt",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 8035,
+        "east": 8029,
+        "north": 8031,
+        "south": 8033
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8033": {
+      "vnum": 8033,
+      "name": "Wandering the Grove",
+      "description": "This area is covered in the tracks of various animals and the scent of\nfresh green grass. Shrubbery can be seen growing all around, while roses\nfight for sun. Extremely tall sunflowers also compete for space, as the\nheads of the flowers follow the sun and stretch to the skies.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8028,
+        "north": 8032,
+        "south": 8034
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8034": {
+      "vnum": 8034,
+      "name": "Wandering the Grove",
+      "description": "Doe tracks are scattered all over the ground here. A pile of sticks bunched\nup block off the exits south and west. To the east, the back of a\nbookshelf is barely visible, along with the flattened top of a tombstone.\nThe sweet smell of honey wafts in from the north, joined by the sound of\nbuzzing bees doing what looks like a ritual around a pear tree.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8027,
+        "north": 8033
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8035": {
+      "vnum": 8035,
+      "name": "Down the Tunnel",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 8036,
+        "up": 8032
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8036": {
+      "vnum": 8036,
+      "name": "Farther down the Tunnel",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 8037,
+        "up": 8035
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8037": {
+      "vnum": 8037,
+      "name": "Entering the Ant Colony",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 8038,
+        "up": 8036
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8038": {
+      "vnum": 8038,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "up": 8037,
+        "west": 8039
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8039": {
+      "vnum": 8039,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8038,
+        "west": 8040
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8040": {
+      "vnum": 8040,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8039,
+        "south": 8041
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8041": {
+      "vnum": 8041,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8040,
+        "south": 8042
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8042": {
+      "vnum": 8042,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8041,
+        "south": 8043
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8043": {
+      "vnum": 8043,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8046,
+        "north": 8042,
+        "south": 8045,
+        "west": 8044
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8044": {
+      "vnum": 8044,
+      "name": "Tunnelers Resting Spot",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8043
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8045": {
+      "vnum": 8045,
+      "name": "Tunnelers Resting Spot",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8043
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8046": {
+      "vnum": 8046,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 8047,
+        "west": 8043
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8047": {
+      "vnum": 8047,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 8048,
+        "west": 8046
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8048": {
+      "vnum": 8048,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8049,
+        "north": 8047
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8049": {
+      "vnum": 8049,
+      "name": "Ant Carved Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 8050,
+        "west": 8048
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8050": {
+      "vnum": 8050,
+      "name": "Entering Guarded Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8051,
+        "up": 8049
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8051": {
+      "vnum": 8051,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8052,
+        "south": 8050
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8052": {
+      "vnum": 8052,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8053,
+        "south": 8051
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8053": {
+      "vnum": 8053,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8054,
+        "south": 8052
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8054": {
+      "vnum": 8054,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8055,
+        "west": 8053
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8055": {
+      "vnum": 8055,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 8056,
+        "west": 8054
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8056": {
+      "vnum": 8056,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8055,
+        "south": 8057
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8057": {
+      "vnum": 8057,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8058,
+        "north": 8056,
+        "south": 8059
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8058": {
+      "vnum": 8058,
+      "name": "Guard Station",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "west": 8057
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8059": {
+      "vnum": 8059,
+      "name": "Guarded Ant Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 8060,
+        "north": 8057
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8060": {
+      "vnum": 8060,
+      "name": "Royal Tunnel Entrance",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "south": 8061,
+        "up": 8059
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8061": {
+      "vnum": 8061,
+      "name": "Royal Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8060,
+        "south": 8062
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8062": {
+      "vnum": 8062,
+      "name": "Royal Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8061,
+        "south": 8063,
+        "west": 8064
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8063": {
+      "vnum": 8063,
+      "name": "Royal Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8062,
+        "west": 8065
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8064": {
+      "vnum": 8064,
+      "name": "Royal Guards Cove",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8062
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8065": {
+      "vnum": 8065,
+      "name": "Royal Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8063,
+        "west": 8066
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8066": {
+      "vnum": 8066,
+      "name": "Royal Tunnels",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8065,
+        "south": 8067
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8067": {
+      "vnum": 8067,
+      "name": "Breeding Cove",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 8071,
+        "east": 8068,
+        "north": 8066,
+        "south": 8070,
+        "west": 8069
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8068": {
+      "vnum": 8068,
+      "name": "Breeding Cove",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "west": 8067
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8069": {
+      "vnum": 8069,
+      "name": "Breeding Cove",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8067
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8070": {
+      "vnum": 8070,
+      "name": "Breeding Cove",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8067
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8071": {
+      "vnum": 8071,
+      "name": "Royal Guards Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 8072,
+        "east": 8076,
+        "north": 8074,
+        "south": 8075,
+        "up": 8067,
+        "west": 8077
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8072": {
+      "vnum": 8072,
+      "name": "Royal Chambers",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "up": 8071
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8073": {
+      "vnum": 8073,
+      "name": "Thornes Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "up": 8002
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8074": {
+      "vnum": 8074,
+      "name": "Royal Guards Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 8071
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8075": {
+      "vnum": 8075,
+      "name": "Royal Guards Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8071
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8076": {
+      "vnum": 8076,
+      "name": "Royal Guards Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "west": 8071
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8077": {
+      "vnum": 8077,
+      "name": "Royal Guards Hideout",
+      "description": "",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8071
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8078": {
+      "vnum": 8078,
+      "name": "Well Ridden Path",
+      "description": "Coming across some thick dark grass, tall, beautiful redwoods become\nvisible swaying in the wind. The leaves on the ground can be heard\ncrunching under the pressure of the scurrying woodland creatures. The\nsweet succulent smell of honey drifts calmly through the atmosphere,\naccompanied by the harmonic sound of chirping birds. The ground is covered\nin hoofprints that appear to become more clustered together to the north.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8079,
+        "south": 8003
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8079": {
+      "vnum": 8079,
+      "name": "Well Ridden Path",
+      "description": "The path is packed down hard here and covered in wagon tracks and hoof\nprints from a multitude of travellers. To the west, smoke can be seen from\na set of campfires. Loud laughter can also be heard, it would appear that\nsomeone is camping just off the road and making no attempts to keep their\npresence hidden from travelling the road.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8080,
+        "north": 8087,
+        "south": 8078,
+        "west": 8090
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8080": {
+      "vnum": 8080,
+      "name": "Well Ridden Path",
+      "description": "The path is packed down hard here and covered in hoof prints. In the\ndistance to the west, campfire smoke can be seen.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8081,
+        "west": 8079
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8081": {
+      "vnum": 8081,
+      "name": "Well Ridden Path",
+      "description": "The path is packed down hard here and covered in hoof prints. The forest is\nneatly trimmed away from the path here.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8082,
+        "west": 8080
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8082": {
+      "vnum": 8082,
+      "name": "Well Ridden Path",
+      "description": "The path is packed down hard here and covered in hoof prints. The forest is\nneatly trimmed away from the path here.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8083,
+        "west": 8081
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8083": {
+      "vnum": 8083,
+      "name": "Approaching a Stable",
+      "description": "The path is packed down hard here and covered in hoof prints. The forest is\nneatly trimmed away from the path here. To the north a stable can be seen\nselling horses to travellers.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8084,
+        "south": 8082
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8084": {
+      "vnum": 8084,
+      "name": "Outside the Stable",
+      "description": "A modest stable is just north of here adjoining a small house. Smoke\nbillows from the chimney and it looks like a rather comfortable place.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8085,
+        "south": 8083
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8085": {
+      "vnum": 8085,
+      "name": "Inside the Stable",
+      "description": "Here in the stable the floor is covered in hay, multiple enclosures hold a\nvariety of horses. Salt licks, saddles and various tack equipment can be\nfound hanging all over.",
+      "sector": "forest",
+      "flags": {
+        "petshop": true
+      },
+      "exits": {
+        "south": 8084
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8086": {
+      "vnum": 8086,
+      "name": "Stables",
+      "description": "This shouldn't connect to anything, it's purely a place to store animals that\ncan be purchased at the stablemaster.",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8087": {
+      "vnum": 8087,
+      "name": "Road through the Woods",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "north": 8088,
+        "south": 8079
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8088": {
+      "vnum": 8088,
+      "name": "Road through the Woods",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "north": 8089,
+        "south": 8087
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8089": {
+      "vnum": 8089,
+      "name": "Road through the Woods",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "north": 5102,
+        "south": 8088
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8090": {
+      "vnum": 8090,
+      "name": "Bandit Camp",
+      "description": "Tents and cookfires are set up here. It would appear that a rather large\nencampment of bandits have set up here just off the road, hoping to catch\nunwary passersby on their way along the road between Sedna and Immak.",
+      "sector": "forest",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "east": 8079,
+        "north": 8091
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8091": {
+      "vnum": 8091,
+      "name": "Bandit Camp",
+      "description": "Tents and cookfires are set up here. It would appear that a rather large\nencampment of bandits have set up here just off the road, hoping to catch\nunwary passersby on their way along the road between Sedna and Immak.",
+      "sector": "forest",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "south": 8090
+      },
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    },
+    "8099": {
+      "vnum": 8099,
+      "name": "Last Room",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Immak Woods",
+      "area_author": "Shadwen"
+    }
+  }
+}

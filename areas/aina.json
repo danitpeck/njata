@@ -1,0 +1,2266 @@
+{
+  "name": "Incomplete City",
+  "author": "Zoie",
+  "rooms": {
+    "4700": {
+      "vnum": 4700,
+      "name": "The North Gate of Aina",
+      "description": "This is within the high, arched entrance into the port city of Aina.\nGreat stone gargoyles guard the gate on either side and seem to watch over\nthe road into the city. The gates stand open, but they appear thick and\nsturdy, and would be impossible to break through if they were shut. A wide,\nrocky road leads away from the city to the north, leading towards the Pardor\nMountains in the distance. To the south, just within the arch in the Town\nSquare, and beyond that, the winding streets of the city.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4701
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4701": {
+      "vnum": 4701,
+      "name": "Gate Square",
+      "description": "This wide, cobbled square marks the entrance into the port city of Aina.\nWide, winding streets lead away to the south, east and west among the tall\nbuildings and to the north are the gates of the city, the entrance guarded by\ntwo enormous stone gargoyles. The buildings and shops around the square are\nas varied and as unusual as the people. Some of them have solid, rock\nfronts, reminiscent of the gothic structures of ages past, while others\nbear the more modern polished fronts which hint at elegance.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4702,
+        "north": 4700,
+        "south": 4737,
+        "west": 4731
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4702": {
+      "vnum": 4702,
+      "name": "Wall Road",
+      "description": "This is a narrow road which leads east and west between the city walls and\nthe backs of various buildings which stand to the south. The position of the\nstreet means that it is in almost constant shadow during the day. A few\nlanterns hang from wall brackets but that does little to dispel the night\nshadows. To the west stands the Gate Square.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4703,
+        "west": 4701
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4703": {
+      "vnum": 4703,
+      "name": "Wall Road",
+      "description": "This part of Wall Road is better lighted and more populated than the rest of\nit, but this is probably due to the guard post which can just be made out\nat the end of the road to the east. On one side of the road are the backs of\nvarious tall buildings and to the north is the city wall, both barriers\neffectively serving to block out the majority of the light. The road leads\nboth east and west from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4704,
+        "west": 4702
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4704": {
+      "vnum": 4704,
+      "name": "Wall Road",
+      "description": "To the east of here is a small intersection with another road that goes\nsouth into Aina's poor district. The road is in a bad state of affair, and\nthough it is more populated than the rest of the street, it is still an\nunsafe road to travel along. Wall Road leads to the east and the west from\nhere.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4705,
+        "west": 4703
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4705": {
+      "vnum": 4705,
+      "name": "An Intersection on Wall Road",
+      "description": "A small, dirty, cramped street leads south from here, into the poor district\nof the city. Even from here many of the buildings can be seen to look\nWall road leads to the east from here, towards a guard post which is set\ninto the wall at the end of the street, and west, following the wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4706,
+        "south": 4709,
+        "west": 4704
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4706": {
+      "vnum": 4706,
+      "name": "Wall Road",
+      "description": "From here, Wall Road leads to the east and the west, following the line of\nthe great northern wall of the city. On the opposite side of the street,\nthe backs of tall building tower over the road, blocking out the light\nduring most of the day. Just east of here another small road leads to the\nsouth into the poorer sections of the city.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4707,
+        "west": 4705
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4707": {
+      "vnum": 4707,
+      "name": "Wall Road",
+      "description": "A small road leads south from here into the poor district of the city. The\nsign beside the street reads: Penny Avenue, and the narrow, cramped road\nlooks dirty and in a bad state of repair. Wall Road leads west from here,\nfollowing the city wall in the direction of the entrance gate. To the east\nis a small, but fully manned Guard Station.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4708,
+        "south": 4710,
+        "west": 4706
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4708": {
+      "vnum": 4708,
+      "name": "A Guard Station",
+      "description": "This small building is a guard station, built for use by the patrolling\ncity guards. It is sparsely furnished but not completely devoid of home\ncomforts. A fireplace has been built on one wall and it crackles quietly.\nA wooden table and chairs rest in the centre of the room, the chairs both\ncurrently unoccupied.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "west": 4707
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4709": {
+      "vnum": 4709,
+      "name": "Rogue's Alley",
+      "description": "This dirty, narrow little alleyway runs to the south and joins up with\nWall Road to the north. The backs of tall buildings are on either side,\nclose together and blocking out most of the light. A strange smell comes\nfrom piles of discarded litter on the ground and the occasional rat can\nbe seen shuffling through the refuse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4705,
+        "south": 4713
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4710": {
+      "vnum": 4710,
+      "name": "Penny Avenue",
+      "description": "This is the northern end of Penny Avenue, a narrow street running north and\nsouth through the poor district of the city. The houses and shops along the\nroadside are badly rundown and many of them appear as little more than\nhovels. These people out on the streets look downtrodden and unhealthy, many\nof them dressed in rags that appear never to have been washed. To the north\nis an intersection with Wall Road, and Penny Avenue continues to the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4707,
+        "south": 4714
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4711": {
+      "vnum": 4711,
+      "name": "The Broken Arrow",
+      "description": "This rundown inn is one of the worst run establishments in the city. The\nwalls and windows are streaked with dirt and grime and many of the tables\nare chipped or splintered. Foul smoke hangs in a continuous cloud in the\nupper part of the room and the smell of the place is nothing short of\ndisgusting. A filthy, poc-marked counter lines the western wall and the\nexit to the tavern lies to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4712
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4712": {
+      "vnum": 4712,
+      "name": "Outside a Small Tavern",
+      "description": "The small alleyway ends here at a chipped wooden door, a sign above it\nproclaiming it to be a tavern: The Broken Arrow. Dirty, fogged windows are\nbuilt into the wall next to the door but it is impossible to see through\nthem. Raised voices and the clanking of ale mugs can be heard from within.\nThe alley runs a short distance to the east where it joins up with another\nrunning to the north and south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4713,
+        "west": 4711
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4713": {
+      "vnum": 4713,
+      "name": "Rogue's Alley",
+      "description": "The alleyway continues to the north and the south, passing between the tall,\ndark backs of buildings. Another, smaller alley leads to the west and voices\ncan be heard coming from that direction. Litter and other, more unpleasant\nitems cover the ground and the smell is strong enough to turn even an\nogre's stomach.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4709,
+        "south": 4716,
+        "west": 4712
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4714": {
+      "vnum": 4714,
+      "name": "Penny Avenue",
+      "description": "The rundown, ramshackle buildings on either side of the street give Penny\nAvenue a feeling of hopelessness that is reflected on the faces of the\npeople who live here. Cracks zigzag the walls of many of the hovels and\nseveral of them have broken or missing window panes. The road itself is\ncracked and there are many holes in it's surface making it almost impossible\nfor carts or horses, if any had wanted to travel the road.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4710,
+        "south": 4718
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4715": {
+      "vnum": 4715,
+      "name": "Steps on the Sea Wall",
+      "description": "These stone steps are cut into the Sea Wall, and lead down to a curious\nledge that is cut into the wall about half way down. Below that, the sea\nwashes up against the stone, occassionally sending waves crashing down on\nit. The stone steps lead upwards, back to the wharf.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4717,
+        "up": 4805
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4716": {
+      "vnum": 4716,
+      "name": "Rogue's Alley",
+      "description": "The alley comes to an end here at a tall brick wall. A large pile of litter\nand rubbish has been dumped at the foot of the wall and the smell could\nalmost be described as a physical presence. Flies and a dozen other winged\ninsects buzz around the disgusting pile. The alleyway continues to the north\nbetween the backs of several buildings.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4713
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4717": {
+      "vnum": 4717,
+      "name": "A Curious Stone Ledge",
+      "description": "This narrow stone ledge has been cut into the side of the Sea Wall. It\ndoes not appear to serve any obvious purpose, there being no room to moor\na boat, and the ledge leading nowhere. Stone steps lead up from the ledge\nto the Wharf, someway above.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "up": 4715,
+        "west": 4849
+      },
+      "exdescs": {
+        "ledge": "The ledge is wide enough to the west that a single person\ncould make their way in that direction, being careful with\ntheir footing, though if there is anything to be found there,\nthat would take some investigating to discover.",
+        "stone": "The ledge is wide enough to the west that a single person\ncould make their way in that direction, being careful with\ntheir footing, though if there is anything to be found there,\nthat would take some investigating to discover."
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4718": {
+      "vnum": 4718,
+      "name": "Penny Avenue",
+      "description": "Tightly packed buildings crowd the road on either side of it, many of them\nin such a bad state of repair that they seem ready to fall down at the\nslightest breeze. The road itself leads to the north and south, but it is\ncracked and pitted, making travel along its arduous. The people that can\nbe seen on the road appear ragged and many are in sore need of a meal.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4714,
+        "south": 4719
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4719": {
+      "vnum": 4719,
+      "name": "Penny Avenue",
+      "description": "Penny Avenue ends here and a short distance to the south stands the infamous\nHangman's Square. The Avenue itself leads to the north through a large\nsection of Aina's poor district, a fact made painfully obvious by the state\nof repair of the buildings along the roadside. Many of the people are\ndressed in old rags and look pitiful indeed.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4718,
+        "south": 4720
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4720": {
+      "vnum": 4720,
+      "name": "Hangman's Square",
+      "description": "This is Hangman's Square, a large, paved area where the prisoner's of Aina\nare brought and hung. The gallows can be seen some way to the west, creaking\nslightly in the breeze. To the north runs Penny Avenue, a narrow, rundown\nstreet running through Aina's poor district. Beggar's Row leads to the east\nand appears in as bad a condition as Penny.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4722,
+        "north": 4719,
+        "west": 4721
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4721": {
+      "vnum": 4721,
+      "name": "Gallow's Corner",
+      "description": "This small corner of Hangman's Square is known as Gallow's Corner, named\nafter the platform and noose that has stood here for as long as anyone can\nremember. There is a large space around the gallows to allow for\nspectator's, the gruesome display being a popular pastime among the\npopulation of the poor district. The rest of the square can be reached to\nthe east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4720
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4722": {
+      "vnum": 4722,
+      "name": "Beggar's Row",
+      "description": "This is Beggar's Row, a rundown, refuse ridden street in the poor district.\nThe buildings are little more than hovels and appear ready to fall down if\na strong breeze blew by. Litter and garbage fill the gutters and the smell\nfrom some of the people is almost enough to empty ones stomach of its\ncontents. The street continues to the east, while the infamous Hangman's\nSquare can be accessed to the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4723,
+        "west": 4720
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4723": {
+      "vnum": 4723,
+      "name": "Beggar's Row",
+      "description": "Beggar's Row continues to the east and west from here, past rundown, and\nin many instances, derelict buildings. The general atmosphere on the street\nis one of hoplessness and despair. The people appear worn and bedraggled\nand pass by with barely a glance at anything other than the ground. The\nsmall houses and buildings beside the road are ready to collapse and many\nare nothing more than shacks.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4724,
+        "west": 4722
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4724": {
+      "vnum": 4724,
+      "name": "Beggar's Row",
+      "description": "Beggar's Row becomes narrower here, if that is possible and passes\nbetween an overhang as two houses connect across the street. The\nsmell in this small tunnel is nothing less than atrocious, and rats\nare everywhere, sniffing at the large piles of refuse that are heaped\nagainst the walls. The road continues to the east and west from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4725,
+        "west": 4723
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4725": {
+      "vnum": 4725,
+      "name": "Beggar's Row",
+      "description": "Beggar's Row ends here but a small, rather scruffy looking tavern stands to\nthe north, the strong smell of ale and smoke wafting from its open doors.\nThe sign outside declares it to be the Drunken Dragon. Backed up against\nthe city wall to the east is a small food cart which sells very little\nthat is edible if the smell is anything to go by. Beggar's Row continues\nto the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4730,
+        "north": 4726,
+        "west": 4724
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4726": {
+      "vnum": 4726,
+      "name": "The Drunken Dragon",
+      "description": "This is the crowded common room of the Drunken Dragon Tavern. The top\nhalf of the room is filled with a constant haze of pipe smoke, which seems\nto writhe and turn as though it was alive. The muted voices of the few\npatrons and the clanking of ale tankards are the only noises to be heard\nfrom the room, making the place seem more like a morgue than a tavern. The\ndoorway stands to the south, leading out onto Beggar's Row.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4727,
+        "south": 4725
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4727": {
+      "vnum": 4727,
+      "name": "A Dark Back Alley",
+      "description": "This short alley is littered with refuse and old piles of rotting food. The\nsmell is nothing short of indescribable, and the flies buzzing around the\narea are incredibly bothersome. A cramped shop stands at the end of the dark\nalley to the north, and the back entrance to the Drunken Dragon stands to\nthe south, its muted light spilling out of the open door into the alley.\nA second, smaller alley is to the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4729,
+        "south": 4726,
+        "west": 4728
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4728": {
+      "vnum": 4728,
+      "name": "A Dead End",
+      "description": "The alley comes to an abrupt end here at a blank wall. Rubbish and other\nmore unpleasant things form a small pile at the base of the wall but other\nthan that, the alley is more or less empty, not counting the ever present\ncloud of buzzing flies. Another dark alley is to the east, bigger than\nthis but no more cleaner.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4727
+      },
+      "exdescs": {
+        "blank": "The wall is made up from bricks, most of them of uniform size,\nexcept for one in the center of the wall.",
+        "brick": "One brick in particular is much larger than the rest, and looks\nlike it isn't mortared in as well as the rest. It makes one almost\nwant to push it back into the wall.",
+        "bricks": "One brick in particular is much larger than the rest, and looks\nlike it isn't mortared in as well as the rest. It makes one almost\nwant to push it back into the wall.",
+        "wall": "The wall is made up from bricks, most of them of uniform size,\nexcept for one in the center of the wall."
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4729": {
+      "vnum": 4729,
+      "name": "Telvik's Knives",
+      "description": "This small hovel serves as a knife shop, the wares stacked crudely and\ncarelessly on various racks around the interior. Many of them appear blunt\nor otherwise useless but there are some that look in fairly good condition.\nThe location, and muted light in this shop hints that maybe the shop is\nnot entirely legal. The exit stands to the south, leading into a dark\nalleyway.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4727
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4730": {
+      "vnum": 4730,
+      "name": "A Food Cart",
+      "description": "A cart is pushed up against the city wall here and serves as a stall,\noffering food, or the closest thing to food that can be found in the poor\ndistrict. An ominous cloud of flies hang over the cart, and if the smell\nis not bad enough, the mere appearance of the food could be enough to\nturn even an ogre's stomach. Beggar's Row is to the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "west": 4725
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4731": {
+      "vnum": 4731,
+      "name": "Wall Road",
+      "description": "This is Wall Road, a narrow road that leads east and west between the city\nwall and the backs of houses and buildings to the south. The street is\nrarely busy but it is possible to reach several of the city's more popular\ndistricts along several of the intersecting roads. The high walls throw the\nstreet into darkness during most of the day and night, the street lamps\ndoing little to illuminate the area.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4701,
+        "west": 4732
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4732": {
+      "vnum": 4732,
+      "name": "Wall Road",
+      "description": "This long, narrow street is known as Wall Road, and it travels east and west\nbetween the town wall to the north, and the backs of various buildings to\nthe south. The confined, narrow space of the street means that it is in\nshadow for much of the day, and as such, is not very popular. Lanterns hang\nfrom the wall for use during the night, but many of them have been broken,\nand those that haven't give off very little light.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4731,
+        "west": 4733
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4733": {
+      "vnum": 4733,
+      "name": "Wall Road",
+      "description": "Wall Road runs to the east and the west from here, the tall city wall\ntowering above to the north. Further west can be seen another road\nleading away to the south, and it appears to be a busy, popular road. To\nthe east, the road leads as far as the eye can see.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4732,
+        "west": 4734
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4734": {
+      "vnum": 4734,
+      "name": "An Intersection on Wall Road",
+      "description": "Another wider, busier road intersects Wall Road here and leads south. A sign\non the wall states it to be Merchants Way. From the amount of people visible\non the street, it appears to be an extremely busy thoroughfare, popular for\nmost of the day. Wall Road itself leads to the east and the west from here,\nfollowing the great north wall of the city.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4733,
+        "south": 4752,
+        "west": 4735
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4735": {
+      "vnum": 4735,
+      "name": "Wall Road",
+      "description": "This is Wall Road. To the west there is an intersection with Prince Kelmer's\nMile. The great city walls tower over this road, throwing it into shadow\nand making it a popular haunt for thieves and bandits. Wall Road also continues\nto the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4734,
+        "west": 4736
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4736": {
+      "vnum": 4736,
+      "name": "The Corner of Wall Road and Prince Kelmer's Mile",
+      "description": "This is the point at which Prince Kelmer's Mile and Wall Road converge. The\nnarrow, cramped street which runs east is Wall Road, an unpopular street\nwith the majority of the citizens. To the south, the wider, busier street\nof Prince Kelmer's Mile runs through the center of the trading district.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4735,
+        "south": 4753
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4737": {
+      "vnum": 4737,
+      "name": "The King's Parade",
+      "description": "This is The King's Parade, a wide, well maintained road which connects the\ntwo main squares of the city. Tall buildings of wood and stone line the\nstreet on each side, many of them flying the banners of their currently\nsupported Lord. To the north is the Gate Square and beyond that the gates\nof the city. The Parade itself continues to the south, past houses and\nshops.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4701,
+        "south": 4738
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4738": {
+      "vnum": 4738,
+      "name": "The King's Parade",
+      "description": "The King's Parade continues to the north and south, passing between tall,\nelegant buildings. A number of trees grace the roadside, giving the street\na more presentable appearance than the rest of the city. There is a weapon\nshop a short distance to the south and in the distance to the north, the\ncity gates can just be made out.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4737,
+        "south": 4739
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4739": {
+      "vnum": 4739,
+      "name": "Outside The King's Armaments",
+      "description": "A small shop stands to the west of here, the sign outside the door naming it\nas the King's Armaments, obviously a weapons shop. A sign is upon the wall\nnext to the shop's doorway. The parade itself leads to the north and south.\nThe parade is lined with trees adding to the picturesque feeling of the city.\nThe tall, elegant looking buildings add to the charm of the street.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4738,
+        "south": 4741,
+        "west": 4740
+      },
+      "exdescs": {
+        "sign": "Hours of Operation\n     4am - 10pm"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4740": {
+      "vnum": 4740,
+      "name": "The King's Armaments",
+      "description": "This large, well kept shop is obviously one of the finest weapon stores in\nthe city. Elegant swords and powerful looking axes hang from the walls\nalongside sharp daggers and strong maces. A long wooden counter completely\ndominates one wall and the exit to the shop is to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4739
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4741": {
+      "vnum": 4741,
+      "name": "The King's Parade",
+      "description": "The King's Parade comes to an end someway to the south at the large central\nsquare of Aina, where a large number of people can be seen going about their\nbusiness. The Parade continues to the north, past tall buildings and shops\nwhich line the street on either side. The cobblestones on the road are\nwell-maintained, and the street seems much more hospitable than the rest of\nthe city as a whole.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4739,
+        "south": 4742
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4742": {
+      "vnum": 4742,
+      "name": "Central Square",
+      "description": "This large square is the centre, and meeting point of the town. Streets lead\naway to the north, south and west, and the area is crowded at most hours of\nthe day, even late at night. The large buildings surrounding the square give\nit a closed in feeling but the sound of splashing water from the stone\nfountain in the middle of the square help to soothe the nerves.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4741,
+        "south": 4773,
+        "west": 4743
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4743": {
+      "vnum": 4743,
+      "name": "Merchant's Way",
+      "description": "This narrow street is known as Merchant's way and is the traditional area\nfor traders and merchants to sell their wares. People crowd the street,\nmaking it difficult to travel along, but the many shops on either side make\nit the ideal place for buying equipment. Another, wider street lies to the\neast running north and south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4742,
+        "west": 4744
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4744": {
+      "vnum": 4744,
+      "name": "Merchant's Way",
+      "description": "The narrow, crowded conditions of Merchant's Way make it difficult to travel\nalong, but the many shops and stalls along it's length make it the perfect\nplace to buy needed items and equipment. The sign of a mageware shop can be\nseen outside a small building a short way to the west and the street\ncontinues to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4743,
+        "west": 4745
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4745": {
+      "vnum": 4745,
+      "name": "Outside the Mageware Shop",
+      "description": "The sign of the star and crescent moon mark the shop to the south as a\nmageware shop. That, and the intricate runes that have been carved all over\nthe outer walls. A small sign is upon the wall next to the doorway of the\nshop. Merchant's Way continues to the east and west, all sections of the\nstreet being crowded and cramped. Merchant's Way bends to the north a short\ndistance further west from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4744,
+        "south": 4751,
+        "west": 4746
+      },
+      "exdescs": {
+        "sign": "Hours of Operation\n     4am - 10pm"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4746": {
+      "vnum": 4746,
+      "name": "Merchant's Way",
+      "description": "Merchant's Way, a cluttered, busy, cramped street which runs east and west\nis the centre of Aina's Trading District. It is narrow and the tall\nbuildings on either side cast a constant shadow during the day. The bustle\nof people is a steady flow and it is hard to move along the street without\na good deal of effort. The way turns north and east from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4745,
+        "north": 4747
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4747": {
+      "vnum": 4747,
+      "name": "Merchant's Way",
+      "description": "Merchant's Way broadens slightly here, but does little to ease the cramped\nconditions evident all along the length of the street. Merchants and traders\nyell out from the doorways of their shops or from the front of their carts\nselling items that you couldn't imagine anyone wanting. A toothpick made\nfrom the wood of the morgaz jungle is for sale at one cart, said to heal\nthe poison of the Muanga Beetle, while in another shop you can see a jar\nfilled with what appears to be newt's legs, the shopkeeper announcing to\nall that they are the prime ingredients for a spell of protection against\nthe bite of a Greater Blood Beetle.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4748,
+        "south": 4746
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4748": {
+      "vnum": 4748,
+      "name": "Outside Elwinian's Armour",
+      "description": "The entrance to a large, grand looking armour shop is to the west. The sign\nhanging above the entrance is beautifully carved with the image of a sword\nclashing against an obviously excellent suit of chain armour. The words\nbeneath it read: Elwinian's Armour. Merchants Way continues to the north,\nthrough a gauntlet of traders and merchants competing with each other\nto sell the citizens their goods, and it also continues to the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4750,
+        "south": 4747,
+        "west": 4749
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4749": {
+      "vnum": 4749,
+      "name": "Elwinian's Armour",
+      "description": "This shop is large and obviously popular among the citizens and visitors of\nthe city. The interior is large and spacey, all of the items for sale being\ngiven ample room on the display shelves and cabinets. Lamps hang from the\nroof, giving the shop a bright illumination. A long wooden counter,\nsmooth and carefully polished takes up part of one wall. The exit to the\nshop lies to the east, beyond which is Merchant's Way.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4748
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4750": {
+      "vnum": 4750,
+      "name": "Merchant's Way",
+      "description": "Merchant's Way is a narrow, cramped street, which also serves as the centre\nof the Aina Trading disctrict. Merchants and traders hawk their wares along\nstreet at most hours of the day or night, and the area seems to be forever\ncongested by the throng of people all eager to view the wares. The road\ncontinues to the north, and to the south you can see the doorway of a large\narmour shop.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4752,
+        "south": 4748
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4751": {
+      "vnum": 4751,
+      "name": "The Aina Mageware Shop",
+      "description": "The interior of this small shop is dark and musty, the only window being a\nsmall, circular pane of glass on the northern wall beside the door. The\nwall shelves, and indeed the entire room is filled with arcane and obviously\nmagical items. Jars and bottles of every shape and description fill the\nshelves which seem to be everywhere in the cluttered shop. A low wooden\ncounter stands in the corner and the exit to the shop is to the north.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4745
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4752": {
+      "vnum": 4752,
+      "name": "Merchant's Way",
+      "description": "This is Merchant's Way, a busy, cramped street in the Trader's District of\nAina. A throng of people mill about the area, viewing the goods on sale.\nMerchants and Traders hawk their wares from carts or shop doorways, each one\ntrying to compete with the other and creating a confusion of noise. The\nroad leads to the north where it becomes Wall Street running east and west,\nand south, where it passes various shops and stalls.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4734,
+        "south": 4750
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4753": {
+      "vnum": 4753,
+      "name": "Prince Kelmer's Mile",
+      "description": "This is Prince Kelmer's Mile, a wide street, so named because of the Prince\nwho had once hidden in one of the houses when the royal family of Aina was\nmassacred in a revolt. The road is clean and presentable and is traditionally\nthe street where the city's traders make their homes. The mile continues\nto the south and to the north where it meets wall road, a narrow street\nwhich follows the city wall to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4736,
+        "south": 4754
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4754": {
+      "vnum": 4754,
+      "name": "Prince Kelmer's Mile",
+      "description": "Prince Kelmer's Mile is intersected here by another short road known as Royal\nWay which runs to the west. The Mile itself leads to the north and to\nthe south, between rows of tall, presentable houses, the homes of merchants,\ntraders and craftsmen. Trees have been planted at various intervals along\nthe roadside, and add to the charm of the street. Some distance to the north\nis an intersection where the Mile joins up with Wall Road that leads away\nto the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4753,
+        "south": 4755,
+        "west": 4756
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4755": {
+      "vnum": 4755,
+      "name": "Prince Kelmer's Mile",
+      "description": "This is Prince Kelmer's Mile, a wide pleasant street in the trading\ndistrict of Aina. Though there are few shops along the street, it is\ntraditionally where merchants and traders make their homes, and as such,\nmany of the houses are large and expensive looking, with bold, impressive\nfronts that catch the eye. The street leads away to the north and the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4754,
+        "south": 4760
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4756": {
+      "vnum": 4756,
+      "name": "Royal Way",
+      "description": "This short, narrow street is known as Royal Way and serves to connect Prince\nKelmer's Mile, which is to the east, and Prince Kelmer's Square to the west.\nThe road is narrow but several tall, beautiful buildings stand at the\nroadside, overshadowing the street during most of the daylight hours.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4754,
+        "west": 4757
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4757": {
+      "vnum": 4757,
+      "name": "Prince Kelmer's Square",
+      "description": "This small square is known as Prince Kelmer's Square after the young prince\nwho was known to have frequented the tavern here in secret. The tavern in\nquestion stands to the north, a small, cozy looking building between two\ntall houses. The sign outside the door reads: The Ogre's Noggin. On the\nsouthern side of the square is a small supply shop, known as Orin's\nSupplies. A sign is upon the wall next to the doorway of the store. A short,\nnarrow street leads away from the square to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4756,
+        "north": 4758,
+        "south": 4759
+      },
+      "exdescs": {
+        "sign": "Hours of Operation\n      4am - 10pm"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4758": {
+      "vnum": 4758,
+      "name": "The Ogre's Noggin",
+      "description": "This small inn seems more suited to a country lane than a busy port city\nsuch as Aina. A small fire burns in the hearth and the lanterns placed\naround the walls give the room a healthy glow. The patrons talk amongst\nthemselves goodnaturedly and raise their glasses in greeting. Although not\nparticularly busy, the inn seems more full than it actually is. A doorway\nleads from the tavern to the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4757
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4759": {
+      "vnum": 4759,
+      "name": "Kel's Supplies",
+      "description": "This small, tidy shop is known as Kel's Supplies. Various items line the\nwalls, everything the average traveler would need, from waterskins to\nlanterns. The room is light and several large windows look out the front of\nthe shop onto the square. A doorway on the same wall leads from the building\nonto Prince Kelmer's Square.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4757
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4760": {
+      "vnum": 4760,
+      "name": "Prince Kelmer's Mile",
+      "description": "This long, wide street is known as Prince Kelmer's Mile and runs all the way\nthrough the trading district of the city. Large, expensive buildings line\nthe street on each side, each one seeming more impressive than the last.\nLooking north, a short street can be seen intersecting this one and leading\nto the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4755,
+        "south": 4761
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4761": {
+      "vnum": 4761,
+      "name": "Prince Kelmer's Mile",
+      "description": "Prince Kelmer's Mile narrows slightly here as it approaches the city stables\na short distance to the south. The road itself runs to the north and south,\nlined by tall houses and, in places, rows of trees. The road is in a good\nstate of repair, despite the considerable traffic it seems to receive, and\nthe people in view appear proud of the road.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4760,
+        "south": 4762
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4762": {
+      "vnum": 4762,
+      "name": "Outside the Aina Stables",
+      "description": "The Aina stables are to the east of here, large double doors marking the\nentrance. The snorting of animals and the odd clip of their hooves drift\nin the air coming from beyond the entrance. Prince Kelmer's Mile, leads\nto the north and south from here, the street widening slightly in both\ndirections.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4763,
+        "north": 4761,
+        "south": 4831
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4763": {
+      "vnum": 4763,
+      "name": "The Aina Stables",
+      "description": "These are the Aina stables, some of the finest in the land. They are big,\nwith dozens of stalls along either side of the central alley. The sounds\nof animals snorting softly, as well as the occasional hoof clop fill the\nair. A layer of hay covers the floor, and despite the building's use,\nit smells surpisingly pleasant. Large double doors lead out onto\nthe street to the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "west": 4762
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4764": {
+      "vnum": 4764,
+      "name": "Stable storeroom",
+      "description": "This is the Aina stables storeroom",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4765": {
+      "vnum": 4765,
+      "name": "The Corner of Two Streets",
+      "description": "This is Prince Kelmer's Mile, a long, narrow road which runs north and south\nthrough the trading district of Aina. Another, wider and more elegant\nroad leads away to the east, tall buildings and beautiful trees lining the\nstreet on either side.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4766,
+        "north": 4831,
+        "south": 4827
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4766": {
+      "vnum": 4766,
+      "name": "The King's Parade",
+      "description": "This is close to the end of King's Parade, and slightly to the west can\nbe seen the point where Prince Kelmer's Mile connects to this road, leading\nnorth and south. The Parade itself also leads to the east, past exquisite\nbuildings and shops, which stand out against the rest of the city like\ngold in a pauper's hut.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4767,
+        "west": 4765
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4767": {
+      "vnum": 4767,
+      "name": "The King's Parade",
+      "description": "King's Parade leads to the east and west from here, tall, elegant,\ngothic-looking buildings line the street on either side. Trees have been\nplanted outside many of the houses and shops, and they add to the charm\nand grace of the road. Slightly to the east can be seen another, smaller\nstreet leading away from the parade to the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4768,
+        "west": 4766
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4768": {
+      "vnum": 4768,
+      "name": "An Intersection on The King's Parade",
+      "description": "Another broad street intersects The King's Parade at this point and leads\naway south. A sign on the corner of the street states it to be Wharf Street.\nThe scent of the ocean is filling the air, wafting up from the south.\nThe King's Parade continues to the east past the city's bank and west\ndeeper into town.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4769,
+        "south": 4784,
+        "west": 4767
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4769": {
+      "vnum": 4769,
+      "name": "Outside Ershin's Repairs",
+      "description": "To the north is a large building, a sign outside the door naming it as\nErshin's Repairs. The building is of solid construction, the bottom half\nbeing made from blocks of stone and the top half a mixture of both wood\nand stone. The King's Parade leads to the east and the west, between tall,\nand expensive looking buildings.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4770,
+        "north": 4780,
+        "west": 4768
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4770": {
+      "vnum": 4770,
+      "name": "The King's Parade",
+      "description": "This wide, tree-lined street is known as The King's Parade and is the most\nimpressive street in the city. Tall, well-built buildings stand on either\nside of the street, overshadowing the road like an overprotective parent.\nThere is no sign of litter on the street and the people that can be seen\nall well dressed and are obviously of noble blood to judge from their\nregal standing. The road leads to the east and the west, and an open\ndoorway leads north into a large, ornate building, the golden sign on\nthe wall proclaiming it as the Aina Branch of the Bank of Darkstone.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4771,
+        "north": 4847,
+        "west": 4769
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4771": {
+      "vnum": 4771,
+      "name": "The King's Parade",
+      "description": "The King's Parade bends to the west here, but appears no less impressive\nthan the rest of the street. The people that walk by on the road are\nfashionably dressed in expensive clothes and extravagant finery. The\nbuildings too are impressive, and the great gothic and stone fronts give the\nstreet a sense of grandeur that cannot be found anywhere else in Aina.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4772,
+        "west": 4770
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4772": {
+      "vnum": 4772,
+      "name": "The King's Parade",
+      "description": "King's Parade is a wide, tree lined street which runs north and south\nthrough Aina's Centre. The street bends to the west someway to the south,\nbut continues onwards to the north where it meets up eventually with Central\nSquare which can be seen in the distance. The buildings on either side of\nthe street seem to be vying with each other to become the largest, most\nimpressive buildings in the city. It seems as though each one is more\nmarvelous than the last.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4773,
+        "south": 4771
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4773": {
+      "vnum": 4773,
+      "name": "The King's Parade",
+      "description": "This is the southern stretch of The King's Parade, leading south between\ntall, elegant buildings, and lines of trees which have been planted along\nthe roadside. To the north is the Central Square, a large, busy area that\nis Aina's busy centre. The road is in good repair and seems to be kept up\nwell, bustling as it is.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4742,
+        "south": 4772
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4774": {
+      "vnum": 4774,
+      "name": "The End of Prince Kelmer's mile",
+      "description": "This is the end of Prince Kelmer's Mile. From here, Crown Lane leads to the\nwest, into the richer section of the city. Looking along the street, huge\ntowering buildings, each one seeming to be bigger and more impressive\nflank each side. Towers and minarets jut upwards from the more amazing of\nthe houses and shops. Prince Kelmer's Mile leads to the north, into and\nthrough the trading district.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4828,
+        "west": 4775
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4775": {
+      "vnum": 4775,
+      "name": "Crown Lane",
+      "description": "This is Crown Lane, a street which leads through the rich district of Aina.\nEach of the splendid houses and shops at the roadside are in excellent\ncondition, each one tall and wide. Trees line the road on each side, well-\npruned olive trees and other more exotic varieties. The street is clean and\nthe cobbles are perfectly even, none of them cracked or missing. To the\nsouth, another, shorter road leads from this one and to the east is the\nend of Prince Kelmer's Mile which leads to the north.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4774,
+        "south": 4781,
+        "west": 4776
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4776": {
+      "vnum": 4776,
+      "name": "Crown Lane",
+      "description": "This is Crown Lane, the primary street through Aina's Rich District. Each\nof the buildings on the road is impressive in the extreme, many of them\nstretching as far back as can be seen, and rising up four of five floors.\nHuge oak doors and heavy iron knockers are popular on many of the houses\nand others have private gardens and terraces on each of the windows. The\nstreet leads to the east and west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4775,
+        "west": 4777
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4777": {
+      "vnum": 4777,
+      "name": "Outside the King's Armoury",
+      "description": "This is Crown Lane, a wide, beautiful street which runs through the Rich\nDistrict of the city. To the north stands a large, sturdy building, a sign\noutside the door reading: The King's Armoury. Crown Lane itself leads to the\neast and west from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4776,
+        "north": 4778,
+        "south": 4833,
+        "west": 4779
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4778": {
+      "vnum": 4778,
+      "name": "The King's Armoury",
+      "description": "This large, well-outfitted shop is The King's Armoury, a specialist weapons\nshop. Various items line the shelves and racks, each of them in perfect\ncondition and looking deadly. The muted light gleams off sword blades and\nthe edges of axes. A door to the south leads out of the shop and onto\nCrown Lane.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4777
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4779": {
+      "vnum": 4779,
+      "name": "The End of Crown Lane",
+      "description": "This is the end of Crown Lane, the road coming to stop at a brick wall\nthat is overgrown with blooming ivy vines. The most expensive and impressive\nlooking houses stand at this end of the street, away from the busy sectors\nof the city, and it is a good guess that the owners of the houses are Lords\nor other important people. The street leads to the east from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4777
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4780": {
+      "vnum": 4780,
+      "name": "Ershim's Repairs",
+      "description": "This dusty, gloomy shop is Ershim's Repairs. Tools and workbenches fill\nevery available inch of space in the room, and various items to be repaired\nare stacked at the back of the shop. The small window on the southern wall\nlets in little light and the lantern hanging from the roof casts strange\nshadows about the room. The exit to the shop stands to the south, leading\nout onto The King's Parade.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4769
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4781": {
+      "vnum": 4781,
+      "name": "Noble Road",
+      "description": "This short road is known as Noble Road and leads to the south from here. To\nthe north it connects with the bigger Crown Lane, which runs to the east\nand west. This part of the city is the Rich District, and each of the\nroadside buildings are huge and well-kept, many of them appearing to have\nprivate gardens and dozens of rooms.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4775,
+        "south": 4782
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4782": {
+      "vnum": 4782,
+      "name": "Outside Tatien's Jewelry",
+      "description": "This is the end of Noble Road outside a shop with a sign outside stating it\nto be Tatien's Jewelry. The windows are filled with displays of the shops\nwares, diamonds, and gold galore. An ornate sign is upon the wall next to\nthe doorway of the store. Noble Road runs to the north from here, where it\neventually joins Crown Way.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4783,
+        "north": 4781
+      },
+      "exdescs": {
+        "ornate": "Hours of Operation\n      4am - 10pm",
+        "sign": "Hours of Operation\n      4am - 10pm"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4783": {
+      "vnum": 4783,
+      "name": "Tatien's Jewelry",
+      "description": "This plush, well-stocked shop is Tatien's Jewelry, the best supplier of\nquality jewelry in Aina, according to the sign on the counter. Each of the\nitems on sale are kept locked in display cabinets. Everything from brooches\nto ear hoops are for sale, each one gleaming in the bright light of the\nshop. The exit stands to the west, leading out onto Noble Road.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "west": 4782
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4784": {
+      "vnum": 4784,
+      "name": "Wharf Street",
+      "description": "This small street is known as Wharf Street and leads, surprisingly enough,\nto the Aina docks. The smell of the sea is strong from here and you can even\nspot a seagull hovering gracefully above the rooftops. To the south you can\nsee another, wider street leading east, while to the north is the King's\nParade, a long, broad street which runs east and west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4768,
+        "south": 4785
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4785": {
+      "vnum": 4785,
+      "name": "Outside Rugan's Clothing",
+      "description": "This is the end of Sailor's Walk, a wide street which leads to the city docks\nsomeway to the east. A small shop stands to the east, an old sign outside\nthe door reading: Rugan's Clothing. It appears to be nothing special but\nlikes like it might hold a good selection of items. A small sign is on the\nwall next to the doorway of the shop. Another, smaller road leads to the north.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4787,
+        "north": 4784,
+        "west": 4786
+      },
+      "exdescs": {
+        "sign": "Hours of Operation\n      4am - 10pm",
+        "small": "Hours of Operation\n      4am - 10pm"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4786": {
+      "vnum": 4786,
+      "name": "Rugan's Clothing",
+      "description": "This small shop seems to be the only one located on this street. Though\nsmall, it does seem to hold a large amount of quality clothing, much of it\nin the current style of Aina. There are windows on two out of the four walls\nand the room is light and airy. The doorway to the east leads out onto\nSailor's Walk.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4785
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4787": {
+      "vnum": 4787,
+      "name": "Sailor's Walk",
+      "description": "This street is known as Sailor's Walk, as it is the only street to lead into\nthe heart of Aina from the city docks. Most of the buildings along the\nstreet are warehouses, and they are large, solid looking constructions that\nstand back from the road. The walk continues to the east where you can here\nthe sound of the waves and smell the salt air, and west towards another\nsmaller street, and a small shop you can see at the end of the road.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4788,
+        "west": 4785
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4788": {
+      "vnum": 4788,
+      "name": "Sailor's Walk",
+      "description": "This wide street is Sailor's walk, and leads to and from the dock area of\nAina. Warehouses and storage buildings stand on the sides of the road, most\nof them shuttered up tight. This area appears unpopular with the local people,\nmainly due to the tough sorts you see along the road, and the big, burly\nsailors. The road leads east and west from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4789,
+        "west": 4787
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4789": {
+      "vnum": 4789,
+      "name": "Sailor's Walk",
+      "description": "The road narrows here where several of the warehous buildings at the\nroadside have been built jutting forwards into the street. Looking east you\ncan just see the glint of the sea and the masts of one of the ships\ncurrently at dock. The smell of the ocean is strong from here and you can\nhear the gulls crying clearly. Sailor's Way leads both east and west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4790,
+        "west": 4788
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4790": {
+      "vnum": 4790,
+      "name": "Outside the Buccaneer's Lodge",
+      "description": "A large tavern stands to the south, the first traditional stopping point\nfor sailors on leave. It is a solid wooden construction with a tall ships'\nmast on the roof for effect, a seagull currently perched on the crow's nest.\nA sign swinging outside the door reads: The Buccaneer's Lodge. Judging from\nthe noise from within you assume it is popular. Sailor's Way leads east to\nthe docks, and west towards Aina's centre.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4791,
+        "south": 4792,
+        "west": 4789
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4791": {
+      "vnum": 4791,
+      "name": "Sailor's Walk",
+      "description": "You are approaching the wharf which can be seen some distance to the east,\nthe shine of the sea just beyond it. The fresh seabreeze is strong here\nand there are a number of seagulls circling in the air above the docks. The\nroad leads east, towards the docks, and west towards Aina, pasing a large\ntavern at the roadside.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4793,
+        "west": 4790
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4792": {
+      "vnum": 4792,
+      "name": "Within the Buccaneer's Lodge",
+      "description": "This is the large common room of the Buccaneer's Lodge, a tavern near the\nAina docks. The patrons all appear to be sailors or dock workers and they\nall seem to regard you with some suspicion. Thick wreathes of smoke cloud\nthe air, giving you the feeling you are standing in fog rather than a\ntavern. The room is well furnished, the tables and walls fashioned from\npolished oak. The clanking of ale tankards, the gruff voices of sailors\nraised in singing ballads, and the scuffle of furniture are all everpresent\nnoises, giving the tavern an atmosphere unlike any other in the city. The\ndoorway to the north leads out onto Sailor's Way.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4790
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4793": {
+      "vnum": 4793,
+      "name": "Sailor's Walk",
+      "description": "This is the end of Sailor's Walk, travelling east bringing you onto the\nWharf. The sea is clearly visible beyond the docks, the light shining off\nthe clear blue waters. The area is busy with sailors but most of them seem\nto ignore you, going about their business. Sailor's Way continues to the west,\nleading towards the centre of Aina.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4794,
+        "west": 4791
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4794": {
+      "vnum": 4794,
+      "name": "South Wharf",
+      "description": "This is South Wharf, the southern part of the walkway around the docks.\nLeading west from here is Sailor's Walk, which leads into the city of Aina.\nThe sea is clear and bright, the sun sparkling off the water, and small\nwaves break gently against the sea wall below the wharf. Looking towards\nthe city you can see the tops of the buildings standing against the backdrop\nof the Pardor mountains in the distance. The wharf leads to the north and\nsouth from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4795,
+        "south": 4796,
+        "west": 4793
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4795": {
+      "vnum": 4795,
+      "name": "South Wharf",
+      "description": "This is South Wharf, part of the Aina docks. The sea is clear and fresh,\nand the tangy taste of salt is heavy on the breeze. Boats and ships are\nmoored in the docks, some of them merchant ships, others belonging to\nLords or rich traders. There are also smaller boats tied up against the sea\nwall, most of them obviously fishing vessels. The Wharf leads to the north\nand south from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4802,
+        "south": 4794
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4796": {
+      "vnum": 4796,
+      "name": "South Wharf",
+      "description": "The smell of the sea is strong and there is the taste of salt heavy on the\nair. A strong breeze blows along the wharf and you can hear the waves\nrolling gently against the sea wall below the walkway. Out in the port you\ncan see ships and boats moored in place and beyond them, the wide open\nsea, glinting brightly in the sunlight. The Wharf leads to the north and\nthe south from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4794,
+        "south": 4797
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4797": {
+      "vnum": 4797,
+      "name": "South Wharf",
+      "description": "This is South Wharf, a wooden walkway around the Aina docks. Looking out\nover the bay there is nothing but sea for miles, the port itself dotted\nwith ships and boats. Seagulls circle in the air, diving down for the\noccassional scrap of food. The call of sailors and captains mingle with the\ncrashing of the waves against the sea wall below the wharf. South Wharf\ncontinues to the north and the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4796,
+        "south": 4798
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4798": {
+      "vnum": 4798,
+      "name": "South Wharf",
+      "description": "You are on South Wharf, the wooden walkway that leads onto the city docks.\nJust east of here, one of the docking platforms leads out to sea where\na large ship is currently moored. The wharf itself leads to the north and\nsouth, following the top of the sea wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4800,
+        "north": 4797,
+        "south": 4799
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4799": {
+      "vnum": 4799,
+      "name": "The End of the Wharf",
+      "description": "This is the end of South Wharf, the wooden walkway that makes up part of the\nAina docks. Looking out across the bay, the water sparkles and gleams,\nglinting brightly in the light. The air is fresh and tangy, the taste of\nsalt heavy in the air. Gulls circle above, their calls mingling with the\ncries of sailors and ship's masters working on their vessels. The wharf\ncontinues to the north from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4798
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4800": {
+      "vnum": 4800,
+      "name": "South Dock",
+      "description": "This is the southern dock of Aina, and looking out along the platform, it\nappears that a large ship is currently moored at it. Looking out beyond the\nship you can see the large bay which makes up the city docks. Ships and\nboats bob on the water, most of them unable to find docking space and\nresorting to mooring in the bay and sending small boats in to land their\ngoods or passengers. To the west of here is south Wharf, which leads to\nthe north and south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4801,
+        "west": 4798
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4801": {
+      "vnum": 4801,
+      "name": "South Dock",
+      "description": "This is the end of the South Dock. Going any further east would bring you\naboard a large ship which is currently moored here. The name painted on the\nside of the ship reads: Maiden of the Sea. Beyond the ship is the bay and\nthen nothing but wide open water, as far as the eye can see. The view is\nbreathtaking, with the tall cliff coast rising up either side of the neck\nof the bay.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4813,
+        "west": 4800
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4802": {
+      "vnum": 4802,
+      "name": "The Corner of South and Buccaneer's Wharf",
+      "description": "This is the corner of South Wharf and Buccaneer's Wharf, the fronts of the\nAina dock. Buccaneer's leads to the east, away from the city, while South\nWharf heads further inwards, towards Aina. Looking out across the docks,\nit is possible to see for miles, with nothing on the horizon except the\nGreat Sea. Ships and boats bob gently in the bay, several of them moored at\nthe docks.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4803,
+        "south": 4795
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4803": {
+      "vnum": 4803,
+      "name": "Buccaneer's Wharf",
+      "description": "At one time, this stretch of the sea wall was a prime spot for smugglers,\nas a number of caves in the cliff face, which is now the sea wall, led into\nthe city sewers. With the creation of the sea wall and the Dark Watch, the\npractices all but disappeared from the docks but the name Buccaneer's Wharf\nstuck. The walkway leads to the east, towards one of the docking platforms\nand west, where another wharf leads to the south.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4804,
+        "west": 4802
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4804": {
+      "vnum": 4804,
+      "name": "Buccaneer's Wharf",
+      "description": "This walkway is known as Buccaneer's Wharf and runs east and west along\nthe Aina docks. The whole dock area is busy at all hours with sailors and\nworkers hurrying about their business. Ships bustle in and out of the bay,\nfrom huge war galleys to small, speedy trading vessels. There are even tiny\nfishing boats belonging to local men tied up along the sea wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4805,
+        "west": 4803
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4805": {
+      "vnum": 4805,
+      "name": "Buccaneer's Wharf",
+      "description": "Buccaneer's Wharf leads to the east and west here, along the northern part\nof the Aina docks. The wharf was built on top of the sea wall, a large\nstone structure built to keep the city safe from the terrible waves that\narise during winter storms. For as far as you can see beyond the docks,\nthere is nothing but water, the sun glinting of the surface.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4715,
+        "east": 4806,
+        "west": 4804
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4806": {
+      "vnum": 4806,
+      "name": "Buccaneer's Wharf",
+      "description": "Buccaneer's Wharf leads to the east and west from here, following the top\nof the Sea Wall. The northern side of the street is taken up with warehouses\nwhere goods brought into the city by sea are stored. The buildings are\nlarge and well built, but with little imagination. The view out to sea is\nincredible. Dozens of boats and ships bob on the water of the bay, and\nbeyond that, the wide open sea shimmers in the light, like a vast moving\ncarpet of silver.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4807,
+        "west": 4805
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4807": {
+      "vnum": 4807,
+      "name": "Buccaneer's Wharf",
+      "description": "The Wharf leads east and west, following the top of the Sea Wall which is\nbuilt beneath the wooden walkway. Gulls and other sea birds circle in the\nair looking for scraps of food, their calls ringing out and mingling with\nthe background noises of the docks. Sailors and other sea faring folk\nwalk the docks, as well as merchants and traders who make their livings\ntravelling from port to port.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4808,
+        "west": 4806
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4808": {
+      "vnum": 4808,
+      "name": "Buccaneer's Wharf",
+      "description": "The Wharf leads to the east and west from here. The salty taste of the sea\nis strong and the faint breeze carries with it the bittersweet promise of\nexotic adventures in far off lands, and the experience of life at sea. The\nGreat Sea spreads out and away as far as you can see, the light glinting\nbrightly off the water and making it seem like a shimmering carpet of\nsilver. Boats, ships and trading vessels fill the bay and their is the\noccassional curse or bellow as a captain tries to squeeze past another\nship blocking the neck of the bay.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4809,
+        "west": 4807
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4809": {
+      "vnum": 4809,
+      "name": "Buccaneer's Wharf",
+      "description": "This is Buccaneer's Wharf, a wooden walkway which leads east and west, along\nthe northern section of the Aina docks. Along the northern edge of the\nstreet are the city warehouses, holding points for various wares which are\nbrought in and out of the city by sea. On the other side of the street is\nthe start of one of the docking platforms which leads out to sea a short\nway. Beyond that is nothing but a sheer drop down to the water.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4810,
+        "south": 4811,
+        "west": 4808
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4810": {
+      "vnum": 4810,
+      "name": "Buccaneer's Wharf",
+      "description": "This is the end of Buccaneer's Wharf. Moving any further east or south\nfrom here would result in a long drop down to the waters of the sea. You\ncan travel further west, passing one of the docking platforms and the\nbig Aina Warehouses which are built alongside the wharf. From here the view\nout to sea is almost perfect, looking along the coastline across nothing\nbut shimmering water.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "west": 4809
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4811": {
+      "vnum": 4811,
+      "name": "North Dock",
+      "description": "This narrow, wooden platform is the northern dock. Ships and large vessels\nweigh anchor at this point in order to deliver goods or passengers to the\ncity. To the north of here is the Buccaneer's Wharf, a long walkway which\nfollows the top of the Sea Wall, the barrier which keeps the waters of\nthe sea from flooding the city. The dock continues a short distance to the\nsouth from here.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4809,
+        "south": 4812
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4812": {
+      "vnum": 4812,
+      "name": "North Dock",
+      "description": "This is the end of the north dock. Looking down beyond the edge of the\nplatform you can see the swirling waters of the see far below. A drop to\nthe water from here would be dangerous indeed and possibly even fatal. The\ndock leads to the north, towards Buccaneer's Wharf.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4811
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4813": {
+      "vnum": 4813,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "This is the upper deck of a large ship named the 'Maiden of the Sea'. It is\nin good condition, with the deck polished and clean. The mast rears up from\nthe centre of the ship, with the crows nest at a dizzying height. The\ngangplank leads from the ship to the east onto the Aina docks and you\ncan expore the ship in most other directions.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4814,
+        "north": 4815,
+        "northeast": 4816,
+        "south": 4818,
+        "southeast": 4819,
+        "west": 4801
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4814": {
+      "vnum": 4814,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "The tall wooden mast rears up from the deck here, and looking up, you can\nsee the crows nest some distance above, at a dizzying height. The deck of\nthe 'Maiden' spreads out to the north, south and west. You can also climb\nthe mast using hand rails which are cut into the wood.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4816,
+        "northwest": 4815,
+        "south": 4819,
+        "southwest": 4818,
+        "up": 4822,
+        "west": 4813
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4815": {
+      "vnum": 4815,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "This fine ship is named the 'Maiden of the Sea'. The deck is polished and\nshiny and all of the wood is in good condition and well tended. A small\nrailing surrounds the ship, to serve as protection against drunken crew\nmembers tumbling overboard. The front of the ship is to the northeast, a\nstatue of a beautiful, buxom woman on the prow.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4816,
+        "northeast": 4817,
+        "south": 4813,
+        "southeast": 4814
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4816": {
+      "vnum": 4816,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "This is the deck of a large, ocean going vessel which is currently moored\nin the Aina docks. While not the biggest in the port, it is certainly one\nof the finest, with a tall mast, polished deck, and rigging which is kept\nin a perfect condition.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "northwest": 4817,
+        "south": 4814,
+        "southwest": 4813,
+        "west": 4815
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4817": {
+      "vnum": 4817,
+      "name": "The Prow of the Ship",
+      "description": "The prow of the ship reaches high out of the water, the two sides of the\nship joining to make a sharp point which cuts through the water easily.\nA statue of a woman with long, silver hair is fixed to the prow, and you\nwonder if she is the 'maiden' in the ship's name. The deck of the ship\nspreads out to the southeast and southwest.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "southeast": 4816,
+        "southwest": 4815
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4818": {
+      "vnum": 4818,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "You are on the deck of the Maiden of the Sea, a large ship which is currently\nat port in the Aina docks. The wood is in good condition, polished and\nfree from crack or splinters. The gentle swaying of the ship causes the\nhull to creak quietly. You can move around the ship in most directions.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4819,
+        "north": 4813,
+        "northeast": 4814,
+        "south": 4820,
+        "southeast": 4821
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4819": {
+      "vnum": 4819,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "A ladder leads downwards here, into what you assume is the ship's cabins.\nIt is too dark to make out any details from here. The deck of the ship\nspreads out to the north, west and south, while to the east is the waters\nof the ocean, gleaming in the light like a great silver carpet.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4825,
+        "north": 4814,
+        "northwest": 4813,
+        "south": 4821,
+        "southwest": 4820,
+        "west": 4818
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4820": {
+      "vnum": 4820,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "This is the rear end of the large, ocean going ship known as the 'Maiden\nof the Sea'. A wooden rail surrounds the back of the ship and the rest of\nthe deck spreads out to the north and east. Looking over the rail, you\nsee it is a large drop down to the waters below.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4821,
+        "north": 4818,
+        "northeast": 4819
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4821": {
+      "vnum": 4821,
+      "name": "On the 'Maiden of the Sea'",
+      "description": "This is the stern of the ship, a tall railing serving as the only barrier\nbetween you and the ocean, some distance below. The ship appears to be a\nfine vessel, kept in an immaculate condition by the crew. Some way to the\nnorth, the mast rises up into the air with the crows nest near the top.\nThe deck of the ship spreads out from here to the north and the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4819,
+        "northwest": 4818,
+        "west": 4820
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4822": {
+      "vnum": 4822,
+      "name": "Climbing the Mast",
+      "description": "This is the bottom section of the ships mast. Some way above you can see\nthe crows nest, a round platform encircled by a wooden railing. The mast\nhas brackets cut into it's surface to make climbing easier, but it is still\na tiring task. Looking down you can see the deck of the 'maiden'.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4814,
+        "up": 4823
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4823": {
+      "vnum": 4823,
+      "name": "Climbing the Mast",
+      "description": "This is halfway up the ships mast. Looking from this height you can see\nacross the rooftops of the city and far out to see, where a few ships are\nmoving away from the port. A short distance above is the crows nest, while\nthe deck is some way below you.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4822,
+        "up": 4824
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4824": {
+      "vnum": 4824,
+      "name": "In the Crow's Nest",
+      "description": "This is the crows nest at the top of the ship's mast. From here, the crew\nmember on watch duty can see for miles around and spot other ships or land\neasily. A small railing surrounds the platform and brackets in the mast\nserve as a ladder to reach the deck some distance below.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "down": 4823
+      },
+      "exdescs": {
+        "up": "The stars sparkle across the velvet night sky, shimmering in their formations.\nTo the north the Tiger constellation sparkles above the Pardor mountains.\nThe right eye of the tiger is an unusual star, it seems to be encircled by two\ngolden rings and shines brighter than all the rest."
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4825": {
+      "vnum": 4825,
+      "name": "In the Cargo Hold",
+      "description": "This is the ship's cargo hold, a small, cramped space in the hull of the\n'maiden'. Crates and boxes of all shapes and sizes fill the area, with only\na narrow space leading to the north and west. A wooden ladder leads upwards\ninto daylight, the sound of the sea coming through the small opening.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4830,
+        "up": 4819,
+        "west": 4829
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4827": {
+      "vnum": 4827,
+      "name": "Prince Kelmer's Mile",
+      "description": "This is Prince Kelmer's Mile, a wide, well-kept street which runs north and\nsouth. To the north an intersection with The King's Parade can be seen,\nanother wide, elegant road which leads to the east. This road continues\nfurther to the south, ending eventually at Crown Lane, a road through the\nwealthy distric of the city.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4765,
+        "south": 4828
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4828": {
+      "vnum": 4828,
+      "name": "Prince Kelmer's Mile",
+      "description": "Just south of here, Prince Kelmer's Mile ends at a wide, tree-lined street\nknown as Crown Lane, which runs through the rich district of Aina. The Mile\nitself has elegant looking buildings, each one tall and magnificent. The\nroad continues to the north, traveling through the trading district, and it\nis because of this that the majority of the houses belong to merchants or\nrich traders who make their livings plying their wares on Merchant's Way.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4827,
+        "south": 4774
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4829": {
+      "vnum": 4829,
+      "name": "The First Mate's Cabin",
+      "description": "This is the small cabin belonging to the first mate. A number of shelves\nhave been built into the wall of the room, each one holding various trinkets\nand items belonging to the ships mate. A wide birth is attached to the far\nwall, the covering sheets made up neatly. A doorway leads from the cabin\ninto the cargo hold to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4825
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4830": {
+      "vnum": 4830,
+      "name": "The Captain's Cabin",
+      "description": "This is the largest cabin on the ship and belongs to the captain of the\nvessel. Charts and maps cover a wooden table in the centre of the room along\nwith a number of navigational tools and instruments. A bookshelf stands\nagainst one wall with the captains birth on the far one. A door to the south\nleads out into the cargo hold.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4825
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4831": {
+      "vnum": 4831,
+      "name": "Prince Kelmer's Mile",
+      "description": "This road is known as Prince Kelmer's Mile and runs to the north and south,\nthrough the Aina trading district. To the north lie the city's stables,\nthe road narrowing slightly as it passes by them. To the south is an\nintersection with with another road that eventually leads off to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4762,
+        "south": 4765
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4832": {
+      "vnum": 4832,
+      "name": "The Gardener's Hut",
+      "description": "This small wooden hut serves as the working space of the Gardener. Tools\nare lined neatly on the walls and a workbench along the back wall holds\na number of potted flowers and plants. A round window on each wall gives\na clear view of the beautiful gardens outside, and the door to the north\nleads out of the hut.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4842
+      },
+      "exdescs": {
+        "crack": "Amazingly symmetrical, this crack is shaped like a large arch.  A small\nhole sits in the center of the arch.",
+        "long": "Amazingly symmetrical, this crack is shaped like a large arch.  A small\nhole sits in the center of the arch."
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4833": {
+      "vnum": 4833,
+      "name": "Entrance to the Aina Gardens",
+      "description": "This wide gate marks the entrance to the Aina Gardens. Looking through the\ngates, small brick paths can be seen leading through the flowers and plants\nwhich make up the various displays. There are different animals wandering\namong the gardens, many of them belonging to rare and unique species. To\nthe north is Crown Lane, a street in the rich district of the city.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4777,
+        "south": 4834
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4834": {
+      "vnum": 4834,
+      "name": "Within the Aina Gardens",
+      "description": "Quaint brick paths leads among the flowers and beautiful plants which make\nup the scenic gardens. The peace and quiet make it seem that the visitors\nto the gardens are really many leagues away, and not in the center of a\nbusy port city. The various displays are well thought out and give off\na glorious scent.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4835,
+        "north": 4833,
+        "south": 4840,
+        "west": 4836
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4835": {
+      "vnum": 4835,
+      "name": "Within the Aina Gardens",
+      "description": "Wandering among the flowers and plants, there appear to be many exotic\nvarieties brought from all over the world to adorn the Aina gardens. From\ntall, red plants, to small, silver and gold flowers, everything melds into\none beautiful tapestry of colour and smell, which goes with the peace and\nquiet to create an amazing feeling of contentment.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4841,
+        "west": 4834
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4836": {
+      "vnum": 4836,
+      "name": "Within the Aina Gardens",
+      "description": "This corner of the gardens is made up of blues and reds to create a\nstunning tapestry of colour. The smell too is amazing, bringing up\nimages of far away lands and cultures. Small paths weave through the\nflowers and plants to the east and south, leading to other displays of\nequal beauty and colour.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4834,
+        "south": 4837
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4837": {
+      "vnum": 4837,
+      "name": "Beside a Rockery",
+      "description": "Rocks of all shapes, sizes and colours have been arranged here to create\na small rock garden. Miniature crags and cliffs provide support for the\nstrategically placed plants and flowers around the rockery. A small stream\nof water trickles over the top of the rocks forming a tiny waterfall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4840,
+        "north": 4836,
+        "south": 4844,
+        "west": 4845
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4840": {
+      "vnum": 4840,
+      "name": "Within the Flower Garden",
+      "description": "This is the very centre of the gardens and has been reserved for the\ngreatest and most beautiful of the displays. The earth has been piled up\nto create a small mound, ontop of which has been arranged an incredible\nselection of the most beautiful flowers and plants in the garden. Reds,\ngreens, blues and yellows mingle with tall, swaying plants the permeate the\nair with breathtaking smells.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4841,
+        "north": 4834,
+        "south": 4842,
+        "west": 4837
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4841": {
+      "vnum": 4841,
+      "name": "Within the Flower Garden",
+      "description": "Paths meander through the displays of flowers and plants. They are laid in\nsuch a way as to appear natural among the displays. The smells and sights\nof the garden are breathtaking, with incredible scenes of colour and beauty\nall around.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4835,
+        "south": 4843,
+        "west": 4840
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4842": {
+      "vnum": 4842,
+      "name": "Within the Flower Garden",
+      "description": "This is the southern end of the garden, where the plants and flowers are\nso vividly coloured and varied that they seem almost to have been thrown\ntogether carelessly. The effect is stunning on the senses, and the scent\nis incredibly powerful, seeming bothe exotic and natural at once.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4843,
+        "north": 4840,
+        "south": 4832,
+        "west": 4844
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4843": {
+      "vnum": 4843,
+      "name": "A Sparkling Pond and Waterfall",
+      "description": "A small mound of rocks rise up here, a small stream at the top cascading\ndown to form a waterfall. Looking into the pool at the bottom, one\ncan see the shiny backs of several rainbow fish swimming lazily to\nand fro. Flowers have been arranged up the side of the cliff, providing\na strange, yet beautiful contrast to the stark gray of the rock.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 4841,
+        "west": 4842
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4844": {
+      "vnum": 4844,
+      "name": "Within the Flower Gardens",
+      "description": "Flowers and plants merge into one beautiful cascade of colour and scent,\nproviding an amazing, beautiful display of nature. Flowers from all over\nthe world have been brought here to create the most spectacular gardens\nin existence. A brilliant splash of red, gold, green, yellow and blue all\nmix into one, giving the impression of walking through a mad splash of\npaint, or a rainbow instead of a garden.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4842,
+        "north": 4837
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4845": {
+      "vnum": 4845,
+      "name": "A Stone Bridge Over a Stream",
+      "description": "A small, quaint stone bridge spans a quietly gurgling stream. The water is\nshallow and lined with aquatic plants. Tiny fish can be seen swimming lazily\nupstream. More flowers of every shape, colour and size line the banks of\nthe stream along with one or two small trees who's branches overhang the\nwater in places. The main gardens are to the east, and a garden of roses\nis found to the west.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4837,
+        "west": 4846
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4846": {
+      "vnum": 4846,
+      "name": "The Rose Garden",
+      "description": "This small corner of the garden is given over to roses of all types. The\nrare white rose which is found only in the highest peaks of pardor, to the\nbrilliant sand rose, found in the great desert. The flowers sway in the\nbreeze, like a rippling, many coloured sea. A stone bridge leads over a\nsmall stream to the east.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 4845
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4847": {
+      "vnum": 4847,
+      "name": "The Aina Branch of the Bank of Darkstone",
+      "description": "This room is filled with everything that could be considered\nostentatious. Grand marble desks are in use by the bank's employees,\nintricate colorful mosaics cover the walls, and the ceiling has been\npainted with majestic scenes of the city. Wealthy citizens fill\nthe room, as they go about their banking transactions. A heavy iron\ndoor has been set into the northern wall, and is secured with an\nenormous lock. A doorway in the southern wall leads onto The King's\nParade.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 4770
+      },
+      "exdescs": {
+        "sign": "***********************************************************\n*                                                         *\n*          Welcome to the Bank of Darkstone               *\n*                                                         *\n*        To deposit money type: bank deposit # coins      *\n*                                                         *\n*           To withdraw type: bank withdraw # coins       *\n*                                                         *\n* To see how much gold you have banked type: bank balance *\n*                                                         *\n***********************************************************"
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4848": {
+      "vnum": 4848,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4849": {
+      "vnum": 4849,
+      "name": "Upon a Stone Ledge",
+      "description": "The ledge below is just wide enough for a single person to stand\nupon safely. The sea wall extends in either direction to the west\nand east along the shoreline, keeping the city safe from the constant\nbeatings of the ocean. The actual wall in this location seems to\nbe made of pretty standard sized stones, for the most part. The ledge\ncan be followed to the east to a set of stairs that have been\ncarved into the wall that lead back up to the wharf.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 4717
+      },
+      "exdescs": {
+        "stone": "One stone in particular catches the eye, it is much smaller\nthan all the rest, and seems to be centered perfectly in this\nsection of wall, at just the right height to be pushed.",
+        "stones": "One stone in particular catches the eye, it is much smaller\nthan all the rest, and seems to be centered perfectly in this\nsection of wall, at just the right height to be pushed."
+      },
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4850": {
+      "vnum": 4850,
+      "name": "Entrance to a Smuggler's Den",
+      "description": "This room has been built within the sea wall, most probably at\nthe time that the wall was originally built. What ever purpose\nit may have been intented for then, now, it looks to be part of\nof a smuggler's den. Central in the room is a rickety desk and\nchair. The desk is covered with maps of the coastline in this\narea and of the layouts of Aina and a few other cities. Piled\nup around the edges of the room are boxes and chests that are\nladen with stolen booty, most probably filched from local\nwarehouses or ships that have docked at the wharf. A doorway\nleads further into the den to the north, and the exit back to\nthe ledge is through the door to the south.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 4851
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4851": {
+      "vnum": 4851,
+      "name": "A Hallway in the Den",
+      "description": "This short hallway leads from the entrance to the den at the south,\nback to two other rooms. A room to the west is behind an ornate oaken\ndoor. Upon the door is carved a large ship, flying a flag of the skull\nand crossbones. The room to the east is behind a locked door of iron.\nUpon the door, is an intricate locking mechanism that looks like it\nis missing a circular piece of it. Whatever is behind that door, the\nsmugglers are wanting to keep locked up and safe.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 4853,
+        "south": 4850,
+        "west": 4852
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4852": {
+      "vnum": 4852,
+      "name": "Smugglers Leader's Office",
+      "description": "The leader of the smugglers has obviously picked through the\nbest of the booty to get the items to decorate his office.\nOrnate oil lamps hang from the walls which have been paneled\nin a dark wood paneling. Upon the floor a large intricately\nwoven tapestry rug lies covering up the stone floor. An\nelaborately carved oaken desk and chair sit at the northern\nsection of the room and an enormous map of the coastline\nhangs upon the western wall.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 4851
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4853": {
+      "vnum": 4853,
+      "name": "Smuggler's Cache",
+      "description": "The walls of this cache have been lined in iron, to keep out\nanyone who would want to try to steal the smuggler's booty.\nSituated all throughout the room are spoils taken from visiting\nships and from warehouses of this and other cities. Items\nstored in this room include weapons, fabrics, spices, gold, and\nmost any other item of value that the smugglers can sell.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 4851
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4854": {
+      "vnum": 4854,
+      "name": "Inside the Wall",
+      "description": "This is a passage that is hidden within this wall. The air has\na very musty odor to it, and is filled with dust and debris that\nhas been stirred up from the intrusion. A faint light is coming\nfrom the north, further down the passage.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 4855
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4855": {
+      "vnum": 4855,
+      "name": "A Room Within the Wall",
+      "description": "It looks like this room hasn't been visited in many years. A\nfine layer of dust covers what few objects are lying around,\nan old box that looks like it was used as a table and some\nbroken wood that might have been a chair in a former life that\nis piled up in the corner. An exit from this room is through the\nwall to the south.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 4854
+      },
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4856": {
+      "vnum": 4856,
+      "name": "Aina Mob Holding Room",
+      "description": "The shopkeepers from Aina come here to sleep.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4857": {
+      "vnum": 4857,
+      "name": "In Betwixt the Brick Walls",
+      "description": "This is a very odd place indeed.  On all four sides, are brick walls.\nThe ceiling is covered, and the floor is brick too.  Mounted on the\nwall is a single torch.  There is nothing else in this space.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    },
+    "4870": {
+      "vnum": 4870,
+      "name": "Aina room",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Incomplete City",
+      "area_author": "Zoie"
+    }
+  }
+}

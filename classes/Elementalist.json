@@ -1,0 +1,20 @@
+{
+  "name": "Elementalist",
+  "class_id": 4,
+  "races": 131252,
+  "attr_prime": 5,
+  "attr_second": 4,
+  "attr_deficient": 0,
+  "weapon": 10312,
+  "guild": 3018,
+  "thac0": 18,
+  "thac32": 10,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Monk",
+  "class_id": 8,
+  "races": 525588,
+  "attr_prime": 2,
+  "attr_second": 5,
+  "attr_deficient": 0,
+  "weapon": 10313,
+  "guild": 3022,
+  "thac0": 18,
+  "thac32": 6,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

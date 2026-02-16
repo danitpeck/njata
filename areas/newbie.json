@@ -1,0 +1,209 @@
+{
+  "name": "Newbie School",
+  "author": "Shadwen/Zoie",
+  "rooms": {
+    "8100": {
+      "vnum": 8100,
+      "name": "Newbie Area - Information Room [OOC]",
+      "description": "Name - Newbie School\nAuthor - Shadwen/Zoie\nPurpose - The first place players are sent to after character creation.\nHere, they learn all the basic commands of Njata and get an idea of what\nkind of game we're running.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8101": {
+      "vnum": 8101,
+      "name": "Welcome to Njata! [OOC]",
+      "description": "Welcome to Njata, traveler! Feel free to venture through our mud school in\norder to learn how we differ from other experiences you may be used to.\nWhether new to Muds or a grizzled veteran, make certain to read the room\ndescriptions here or else things may get confusing very quickly! If you\nhave visited this school before, or feel you need no help. Feel free to\nenter the portal downwards.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 400,
+        "north": 8102
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8102": {
+      "vnum": 8102,
+      "name": "Learning About Yourself [OOC]",
+      "description": "Here is where you will learn more about yourself. Type [score] to see\ninformation about your character, [equipment] will show you your worn\nequipment, and [inventory] will show you what you're currently carrying.\nAs an option, you may explore our world with a map and compass to guide\nyou. Type [config +automap] and [config +compass] to turn these features\non. When you are ready to proceed, head [east].",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8104,
+        "south": 8101
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8103": {
+      "vnum": 8103,
+      "name": "Becoming Acquainted with Skills [OOC]",
+      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type of one of the following: [Skills] will show you your\nlearned non-magic abilities. [Spells] will show you which spells you've\nlearned. [Proficiencies] will show you what weapons you're capable of\nhandling with any degree of skill. You may wish to shorten that to [Prof],\nmost commands can be shortened in Njata for your convenience! You can type\n[Slist] to learn what powers will become available to you as you level up,\nbut most skills will have to be learned from the appropriate teacher. If\nyou happen to be a Scholar, then do not fret. You will have to find relics\nto [study] to learn your spells, so make sure to look in every nook and\ncranny of the world.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 8104,
+        "west": 8109
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8104": {
+      "vnum": 8104,
+      "name": "Getting Equipped for the First Time [OOC]",
+      "description": "Here is where you can get started on your journey, Simply [say gear me] and\nBrutus will hand you a good starting set. The races of Njata have diverse\nbody types and thus have different equipment requirements. Some dont even\nhave FEET! These items should fit any race and class, but keep that in\nmind when travelling the world. When you are ready to try on what Brutus\nhas given you, [wear armor] will allow you to put on the armor, [wear\ncloak] will allow you to don the cloak, and so on. The backpack is a\nspecial type of item called a container. Try storing the waterskin in your\nbackpack now with  [put waterskin backpack]. When you grow thirsty, you\ncan [get waterskin backpack] to retrieve it, and [drink waterskin] to take\na drink. Proceed to the north when you are ready to learn more.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8103,
+        "west": 8102
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8105": {
+      "vnum": 8105,
+      "name": "In-Character Communication [OOC]",
+      "description": "Now that you know about the out-of-character communication channels, it's\ntime to learn about the channels used for in-character communication. To\nspeak to an entire room of people, you need only [Say] your message. Some\njolly people may prefer to [Sing] their message instead, however. To\ndirect your message to a specific person while still allowing the whole\nroom to hear it, you can [Sayto]. For more private conversations, you can\n[Whisper] to a person and they will be the only one to hear your message.\nIf you really need to get the attention of people nearby, you can [Yell]\nwhat you want to say. Yelling, while rude in some situations, can be very\nuseful to get the message across a longer distance than merely saying it.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8109,
+        "north": 8106
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8106": {
+      "vnum": 8106,
+      "name": "Describing Your Hair and Eyes [OOC]",
+      "description": "With all that out of the way, it's time to get down to business.  We still\ndon't even know what you look like! Here, you will learn how to remedy\nthat. Type [Hair] followed by a description to describe how your hair will\nappear to those who look at you. For example, if you wanted to have coarse\nbrown hair, you would type [Hair coarse brown hair] and anyone who looks\nat you would see He/She/It has coarse brown hair. Now to describe your\neyes, type [Eyes] followed by a description. Remember to make certain that\nthese descriptions make sense for your race. Dragons should skip\ndescribing their hair, unless they wanted to use that opportunity to\ndescribe their horns, pattern, etc.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8110,
+        "south": 8105
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8107": {
+      "vnum": 8107,
+      "name": "Your First Taste of Battle [OOC]",
+      "description": "Combat can be very dangerous and very thrilling, but it's important to\nremember, it's not the only option. If you decide to engage in battle,\nclasses have special abilities to use during combat, and some races have\nnatural weapons or special attacks. To begin attacking something, simply\ntype [Kill] followed by the name of your target. Always remember to\n[Consider] a target before you attack it, if you're unfamiliar with its\ncapabilities. Try it out! [Consider dummy], then it you feel you can\ndefeat it, [Kill dummy].",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8108,
+        "south": 8110
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8108": {
+      "vnum": 8108,
+      "name": "The Final Consideration [OOC]",
+      "description": "Now you know the basics of what is required to survive and thrive in Njata,\nbut before you go, we must talk about the rules. Rules are what  hold this\ngame together, They are something you should know and abide  by. Please\n[Help RULES] and make sure you know and follow them. When you are ready to\ncontinue your adventure, [Say I agree to follow all rules]",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 8107
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8109": {
+      "vnum": 8109,
+      "name": "Out-of-Character Communication [OOC]",
+      "description": "Channels allow you to speak with other people in Njata, a very important\npart. If you find yourself confused by anything, feel free to [Ask] about\nit. Know the answer to a question? then you can [Answer] the individual.\nIf you just want to socialize with others, then you can [Chat] with them.\nTo speak to a single person, you may [Tell (person) (message)]. All of\nthese channels are for out-of-character communication. If you ever grow\ntired of hearing what others have to say, you can turn channels off. Type\n[channels] to see a list of channels, and to turn the shout channel off,\nfor example, you would type [chan -shout]. To turn it back on, you'd need\nonly type [chan +shout].",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8103,
+        "west": 8105
+      },
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8110": {
+      "vnum": 8110,
+      "name": "Describing Yourself Further [OOC]",
+      "description": "Now that your hair and eyes are described, perhaps you wish to describe\nyourself a little further? Here is a [Scroll], if you [Look scroll] you\nwill see a list of body types available to you. Once you have decided upon\nyour figure, then you would like to try your hand at a more advanced\ndescription. To write a freeform description, type [Desc]. This will enter\nyou into a buffer where you can write anything you please, but please keep\nit within the limits of an appearance reasonable for your race. Humans can\nhave hair dyed any color they please, but should never have wings!",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8107,
+        "west": 8106
+      },
+      "exdescs": {
+        "scroll": "regular, lithe, thin, rotund, curvaceous,\nvoluptuous, pear-shaped, fat, corpulent,\nstarved, lanky, muscular, stocky, toned, wiry\n\n[say] one of them to decide.\ne.g. [say stocky]"
+      },
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8111": {
+      "vnum": 8111,
+      "name": "Choose a Specialty, Elementalist [OOC]",
+      "description": "In Njata, Elementalists choose to specialize in one of the Six Elements:\nFire, Water, Air, Earth, Life, and Darkness. To learn about the elements,\nand their differences, Type [Help Elements]. When you have made your\ndecision, say the name of the element and you will proceed into the World\nof Njata.",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    },
+    "8149": {
+      "vnum": 8149,
+      "name": "Last Room",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Newbie School",
+      "area_author": "Shadwen/Zoie"
+    }
+  }
+}

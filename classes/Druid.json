@@ -1,0 +1,20 @@
+{
+  "name": "Druid",
+  "class_id": 3,
+  "races": 655488,
+  "attr_prime": 4,
+  "attr_second": 31,
+  "attr_deficient": 0,
+  "weapon": 10315,
+  "guild": 3037,
+  "thac0": 18,
+  "thac32": 7,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

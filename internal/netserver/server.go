@@ -92,10 +92,21 @@ func (s *Server) handleConn(conn net.Conn) {
             Name:       name,
             Output:     session,
             Disconnect: session.RequestDisconnect,
+            AutoExits:  true,
+            Level:      1,
+            HP:         100,
+            MaxHP:      100,
+            Mana:       100,
+            MaxMana:    100,
+            Move:       100,
+            MaxMove:    100,
+            Experience: 0,
+            Gold:       0,
+            Alignment:  1000,
         }
 
         if record, ok, err := persist.LoadPlayer(playerDataDir, name); err == nil && ok {
-            player.Location = record.Location
+            persist.RecordToPlayer(player, record)
         }
 
         if player.Location != 0 && !s.world.HasRoom(player.Location) {
@@ -110,7 +121,7 @@ func (s *Server) handleConn(conn net.Conn) {
 
         defer func() {
             if player != nil {
-                record := persist.PlayerRecord{Name: player.Name, Location: player.Location}
+                record := persist.PlayerToRecord(player)
                 if err := persist.SavePlayer(playerDataDir, record); err != nil && s.logger != nil {
                     s.logger(fmt.Sprintf("save error for %s: %v", player.Name, err))
                 }
@@ -125,13 +136,19 @@ func (s *Server) handleConn(conn net.Conn) {
         view, err := s.world.DescribeRoom(player)
         if err == nil {
             session.WriteLine(view.Name)
+            if view.AreaName != "" || view.AreaAuthor != "" {
+                areaLine := "[area: " + view.AreaName
+                if view.AreaAuthor != "" {
+                    areaLine += " by " + view.AreaAuthor
+                }
+                areaLine += "]"
+                session.WriteLine(areaLine)
+            }
             if view.Description != "" {
                 session.WriteLine(view.Description)
             }
-            if len(view.Exits) == 0 {
-                session.WriteLine("Exits: none")
-            } else {
-                session.WriteLine("Exits: " + strings.Join(view.Exits, ", "))
+            if player.AutoExits {
+                session.WriteLine(commands.FormatExits(view.Exits))
             }
         }
         break

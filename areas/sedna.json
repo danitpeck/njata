@@ -1,0 +1,1680 @@
+{
+  "name": "Village of Sedna",
+  "author": "Alyarta",
+  "rooms": {
+    "5100": {
+      "vnum": 5100,
+      "name": "Sedna Town Square",
+      "description": "This is the town square. It is where most of the important meetings take\nplace as well as just a normal meeting ground. You can find something\nalways happening here. As you around you see a [sign] in the middle of\nthe town square.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5104,
+        "north": 5137,
+        "northwest": 5109,
+        "south": 5101,
+        "west": 5108
+      },
+      "exdescs": {
+        "plaque": "----------------------------------------------------------------------\nThis is the Zany institude of the Demented!!\n\nIt has been around for years teaching people how to play Njata.\nPeople have come from all over to play. but before you can\ncontinue you need to know everything the game has to offer.\nso continue on to learn how to leave this place.\n----------------------------------------------------------------------",
+        "sign": "---------------------------------------------------------------------------\nWelcome traveler to the town of Sedna!! You will find that we have\neverything you will ever need. If you need a drink The Bear's Paw\nTavern to your right will do the trick. Want another weapon or maybe\nsome better armor? Edwin the Carpenter will be your best bet to the north\nIn need of some kind of container to hold more things or want some more\nshiny things? Roman the Bronze-smith to the west would be your guy.\nNeed a letter sent? Then Catherine the Courier would who you want to\ntalk to south from here. She will get it in there in no time\n\nMay your time spent here be a merry one!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5101": {
+      "vnum": 5101,
+      "name": "Outskirts of Sedna",
+      "description": "You have just entered  the town of Sedna via the southern road. It is a\nbusy town, though mostly only because of mercantile traffic. The town\nis built around a small, pristine pond. The town is known for being a\nlittle superstitious. You can get basic protection spells from the local\ntavern.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5103,
+        "north": 5100,
+        "south": 5102
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5102": {
+      "vnum": 5102,
+      "name": "Road South of Sedna",
+      "description": "You have just entered  the town of Sedna via the southern road. It is a\nbusy town, though mostly only because of mercantile traffic. The town\nis built around a small, pristine pond. The town is known for being a\nlittle superstitious. You can get basic protection spells from the local\ntavern.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 5101,
+        "south": 8089
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5103": {
+      "vnum": 5103,
+      "name": "Courier",
+      "description": "This is the shack of Catherine the local Courier. She delivers mail all\nover the place. If you want something sent she will make sure that it\ngets to it's destination in one piece in a timely manner. Which is that it\ngets there at all! As you can see she is not in at the moment. Probably\nout making a delivery. There is a  [sign] on the door.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "west": 5101
+      },
+      "exdescs": {
+        "sign": "---------------------------------------------------------------------------\nOut Delivering!!!\nBe Back Later!!!\n Leave message by door or just wait for me to come back!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5104": {
+      "vnum": 5104,
+      "name": "Commonroom of Bear's Paw Tavern",
+      "description": "You have just entered the Bear's Paw Tavern. Something is always going\non here. Whether it be people trying to show off how strong they are. Or\nhow much liquor they can drink. You will always find the locals in here\nYou will also find a table of poker going on. Though a lot of people have\nseemed to be less interested in it do to people cheating with magic. Or\nbeing accused of doing so. The next room to the East, is where the bar\nis for you to order from as well as a staircase to the rooms above.\nThe tavern has a log cabin type feel to it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5105,
+        "north": 5107,
+        "west": 5100
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5105": {
+      "vnum": 5105,
+      "name": "Bear's Paw Tavern",
+      "description": "This here is the bar. You can order all kinds of drinks as well\nas some nice home cooked meal. Just tell the bartender what it\nis you want. If  you head upstairs, you can rent a room as well as for the\nsuperstitious get buy some potions of protection up there as well. The tavern\nhas\na log cabin type feel to it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 5106,
+        "up": 5143,
+        "west": 5104
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5106": {
+      "vnum": 5106,
+      "name": "Bear's Paw Tavern",
+      "description": "This is the common room. It's where all the towns people congregate\ninto to drink their favorite beverage or eat their favorite meal. And catch\nup on the local rumors as well as the current events. The room itself is\na large room made out of wood it has a log cabin type feel to it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "somewhere": 21000,
+        "south": 5105,
+        "west": 5107
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5107": {
+      "vnum": 5107,
+      "name": "Bear's Paw Tavern",
+      "description": "This is the common room. It's where all the towns people congregate\ninto to drink their favorite beverage or eat their favorite meal. And catch\nup on the local rumors as well as the current events. The room itself is\na large room made out of wood it has a log cabin type feel to it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5106,
+        "south": 5104
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5108": {
+      "vnum": 5108,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\n means to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5100,
+        "north": 5109,
+        "west": 5118
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5109": {
+      "vnum": 5109,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5137,
+        "north": 5110,
+        "northwest": 5113,
+        "south": 5108,
+        "southeast": 5100,
+        "west": 5114
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5110": {
+      "vnum": 5110,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5136,
+        "north": 5111,
+        "northwest": 5112,
+        "south": 5109,
+        "southwest": 5114,
+        "west": 5113
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5111": {
+      "vnum": 5111,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5135,
+        "north": 5133,
+        "northeast": 5134,
+        "south": 5110,
+        "southwest": 5113,
+        "west": 5112
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5112": {
+      "vnum": 5112,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5111,
+        "north": 5132,
+        "south": 5113,
+        "southeast": 5110,
+        "southwest": 5116,
+        "west": 5115
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5113": {
+      "vnum": 5113,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 5123,
+        "east": 5110,
+        "north": 5112,
+        "northeast": 5111,
+        "northwest": 5115,
+        "south": 5114,
+        "southeast": 5109,
+        "southwest": 5117,
+        "west": 5116
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5114": {
+      "vnum": 5114,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5109,
+        "north": 5113,
+        "northeast": 5110,
+        "northwest": 5116,
+        "south": 5118,
+        "west": 5117
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5115": {
+      "vnum": 5115,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5112,
+        "north": 5131,
+        "northwest": 5130,
+        "south": 5116,
+        "southeast": 5113,
+        "west": 5129
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5116": {
+      "vnum": 5116,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5113,
+        "north": 5115,
+        "northeast": 5112,
+        "south": 5117,
+        "southeast": 5114,
+        "west": 5122
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5117": {
+      "vnum": 5117,
+      "name": "Sedna Pond",
+      "description": "This extremely clear pond is safe to drink from and swim in, and is\nregarded with a mix of fear and relief. It is a wellspring of freshwater,\non which the villagers rely on. There are rumors going around that\nsomething supernatural has been happening to the pond. Some say\nthat it only happens on a full moon just as it's rising once ever three\nmonths. Others say that it happens once every two. The one thing\nthat everyone agrees on is that what ever it is it's coming from the pond\nitself.",
+      "sector": "r1",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5114,
+        "north": 5116,
+        "northeast": 5113,
+        "south": 5119,
+        "southwest": 5120,
+        "west": 5121
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5118": {
+      "vnum": 5118,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\n means to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5108,
+        "north": 5114,
+        "west": 5119
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5119": {
+      "vnum": 5119,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\n means to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5118,
+        "north": 5117,
+        "west": 5120
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5120": {
+      "vnum": 5120,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5119,
+        "north": 5121,
+        "northeast": 5117,
+        "west": 5142
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5121": {
+      "vnum": 5121,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5117,
+        "north": 5122,
+        "south": 5120
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5122": {
+      "vnum": 5122,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5116,
+        "north": 5129,
+        "south": 5121,
+        "west": 5141
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5123": {
+      "vnum": 5123,
+      "name": "Under Sedna Pond",
+      "description": "You have just dived beneath the water of the pond. Unfortunately all\nyou can see around you the blue water that surrounds you. You notice\nthat you are not quite sure which direction to go in.",
+      "sector": "underwater",
+      "flags": {},
+      "exits": {
+        "east": 5123,
+        "north": 5124,
+        "south": 5123,
+        "up": 5113,
+        "west": 5123
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5124": {
+      "vnum": 5124,
+      "name": "Under Sedna Pond",
+      "description": "You have just dived beneath the water of the pond. Unfortunately all\nyou can see around you the blue water that surrounds you. You notice\nthat you are not quite sure which direction to go in.",
+      "sector": "underwater",
+      "flags": {},
+      "exits": {
+        "east": 5123,
+        "north": 5123,
+        "south": 5123,
+        "west": 5125
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5125": {
+      "vnum": 5125,
+      "name": "Under Sedna Pond",
+      "description": "You have just dived beneath the water of the pond. Unfortunately all\nyou can see around you the blue water that surrounds you. You notice\nthat you are not quite sure which direction to go in.",
+      "sector": "underwater",
+      "flags": {},
+      "exits": {
+        "east": 5123,
+        "north": 5126,
+        "south": 5123,
+        "west": 5123
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5126": {
+      "vnum": 5126,
+      "name": "Under Sedna Pond",
+      "description": "You have just dived beneath the water of the pond. Unfortunately all\nyou can see around you the blue water that surrounds you. You notice\nthat you are not quite sure which direction to go in.",
+      "sector": "underwater",
+      "flags": {},
+      "exits": {
+        "east": 5127,
+        "north": 5123,
+        "south": 5123,
+        "west": 5123
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5127": {
+      "vnum": 5127,
+      "name": "Under Sedna Pond",
+      "description": "You have just found the enterce to the cave. Do you go forth or do you decide\nto stay outside. The choice is your and yours alone. good luck\n\nAs you look around you notice that for some reason the entrance to the cave\ndoesn't seem to be filling with water. Like there is some sort of magical\nbarrier that is preventing water from entering.",
+      "sector": "underwater",
+      "flags": {},
+      "exits": {
+        "north": 5128,
+        "west": 5126
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5128": {
+      "vnum": 5128,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!). You also see a  [plaque]  on the\nwall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5128,
+        "north": 5150,
+        "northeast": 5128,
+        "northwest": 5128,
+        "south": 5127,
+        "southeast": 5128,
+        "southwest": 5128,
+        "west": 5128
+      },
+      "exdescs": {
+        "plague": "",
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!.\n\nThis is the first section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5129": {
+      "vnum": 5129,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5115,
+        "north": 5130,
+        "south": 5122
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5130": {
+      "vnum": 5130,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5131,
+        "south": 5129,
+        "southeast": 5115
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5131": {
+      "vnum": 5131,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5132,
+        "south": 5115,
+        "west": 5130
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5132": {
+      "vnum": 5132,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 5133,
+        "south": 5112,
+        "west": 5131
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5133": {
+      "vnum": 5133,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5134,
+        "north": 5138,
+        "south": 5111,
+        "west": 5132
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5134": {
+      "vnum": 5134,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 5140,
+        "south": 5135,
+        "southwest": 5111,
+        "west": 5133
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5135": {
+      "vnum": 5135,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 5134,
+        "south": 5136,
+        "west": 5111
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5136": {
+      "vnum": 5136,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 5135,
+        "south": 5137,
+        "west": 5110
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5137": {
+      "vnum": 5137,
+      "name": "Path Around the Pond",
+      "description": "The pond is surrounded by a lush wooded walk way. You can go\naround the entire town without ever having to get off it.  It is the only\nmeans to get from one side of the town to the other when walking.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 5136,
+        "south": 5100,
+        "west": 5109
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5138": {
+      "vnum": 5138,
+      "name": "Outskirts of Sedna",
+      "description": "You have just entered  the town of Sedna via the northern road. It is a\nbusy town, though mostly only because of mercantile traffic. The town\nis built around a small, pristine pond. The town is known for being a\nlittle superstitious. You can get basic protection spells from the local\ntavern.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 5139,
+        "south": 5133
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5139": {
+      "vnum": 5139,
+      "name": "North of Sedna",
+      "description": "You have just entered  the town of Sedna via the northern road. It is a\nbusy town, though mostly only because of mercantile traffic. The town\nis built around a small, pristine pond. The town is known for being a\nlittle superstitious. You can get basic protection spells from the local\ntavern.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "south": 5138
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5140": {
+      "vnum": 5140,
+      "name": "Carpenter",
+      "description": "The is the shop of Edwin. He is a Master Carpenter. He is known\nfor making sophisticated while still being practical weapons and\narmor. As you enter the shop you see  [staffs] ,  [spears,]  and other\n types of weapons made out of wood lining the walls.  [Bolts]  and\n [arrows]  on his desk. As well as various pieces of  [leather]  armor\n hanging on the wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 5134
+      },
+      "exdescs": {
+        "arrow": "these intricate pieces of art work are very elegant and incredible useful\nthey are long slender pieces of intricate wood. With really elegant\nfeathers on them.",
+        "bolt": "These tiny pieces maybe small but they pack a mean punch.",
+        "leather": "These bad boys are the lesser of his craftsmanship. Very durable and\nfunctional. These things don't have as nice a look as the rest of the stuff\nhe makes.",
+        "spear": "Same as the staff 6' long and 3 in diameter it also have a 1'  long spear\nhead on it.",
+        "staff": "A long single piece of wood who's length is 6'0 and 3 in diameter. It\nhas a rugged look to it like it can take a beating and last forever."
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5141": {
+      "vnum": 5141,
+      "name": "Bronzeworker's Shop",
+      "description": "This is the shop of Rowan. He is the best at making really intricate pieces\nof art out of bronze. As you enter the shop you see a slew of bronze pieces\nhanging from the wall. Sitting on the floor and covering the top of his desk.\nSuch, wonderful useful things like a highly decorated  [cup].  A set of\nshinny  [horse shoes],  a slew of  [pots]  on the wall. A bunch of  [plates]\nand [utensils] litter the floor. There is also [jewelery] of all kinds on his\ndesk. He stairs at you with intent waiting to see what it is you want to buy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5122
+      },
+      "exdescs": {
+        "cup": "\u0026YThis is an incredibly fancy cup, that has an intricate design. and is gem\nincrusted.",
+        "horse": "\u0026YThis a set of very durable and shiny horse shoes.",
+        "jewelery": "\u0026YA bunch of various fancy looking jewelry very from rings to bracelets\nand every thing else you can think of.",
+        "plates": "\u0026Ythe Plates you are looking at have a nice red circle going around the\nedge of them. As well as, a picture of a sun setting in the middle of them.",
+        "pots": "\u0026YThis a set very strong but bland looking pots",
+        "shoes": "\u0026YThis a set of very durable and shiny horse shoes.",
+        "utensils": "\u0026YA set of dull unpolished utensils of various usage."
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5142": {
+      "vnum": 5142,
+      "name": "Abandoned Shack",
+      "description": "This is a dilapidated building. No ones knows why it's still here or\nwhat it was ever used for in the first place. It's just an old falling\napart building that people refuse to take down for fear of the unknown.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5120
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5143": {
+      "vnum": 5143,
+      "name": "Inn Common Room",
+      "description": "After going upstairs. You enter into the common area. The rooms are\nnumbered 1 through 3 going in the pattern of n, e, w. this place is bland\nwith nothing really to look at other then the three inn room doors. To\nrent an inn room, tell Colman which room you'd like to rent. e.g [sayto\ncolman rent room one] would allow you to rent the north inn room.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 5105,
+        "east": 5145,
+        "north": 5144,
+        "west": 5146
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5144": {
+      "vnum": 5144,
+      "name": "Inn Room #1",
+      "description": "This is one of three inn rooms. They are all the same. There is a bed in\nthe far corner and nothing else. It makes a perfect place to sleep and\nstore stuff for a short time. Just remember to take all your stuff before\nyou leave. Because you never know who might get the room after you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 5143
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5145": {
+      "vnum": 5145,
+      "name": "Inn Room #2",
+      "description": "This is one of three inn rooms. They are all the same. There is a bed in\nthe far corner and nothing else. It makes a perfect place to sleep and\nstore stuff for a short time. Just remember to take all your stuff before\nyou leave. Because you never know who might get the room after you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 5143
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5146": {
+      "vnum": 5146,
+      "name": "Inn Room #3",
+      "description": "This is one of three inn rooms. They are all the same. There is a bed in\nthe far corner and nothing else. It makes a perfect place to sleep and\nstore stuff for a short time. Just remember to take all your stuff before\nyou leave. Because you never know who might get the room after you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5143
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5149": {
+      "vnum": 5149,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5150": {
+      "vnum": 5150,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!).",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5128,
+        "north": 5128,
+        "northeast": 5128,
+        "northwest": 5128,
+        "south": 5128,
+        "southeast": 5151,
+        "southwest": 5128,
+        "west": 5128
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5151": {
+      "vnum": 5151,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!).",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5128,
+        "north": 5128,
+        "northeast": 5128,
+        "northwest": 5128,
+        "south": 5128,
+        "southeast": 5152,
+        "southwest": 5128,
+        "west": 5152
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5152": {
+      "vnum": 5152,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!).",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5153,
+        "north": 5128,
+        "northeast": 5128,
+        "northwest": 5128,
+        "south": 5128,
+        "southeast": 5128,
+        "southwest": 5128,
+        "west": 5128
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5153": {
+      "vnum": 5153,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!).",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5128,
+        "north": 5128,
+        "northeast": 5128,
+        "northwest": 5128,
+        "south": 5154,
+        "southeast": 5128,
+        "southwest": 5128,
+        "west": 5128
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5154": {
+      "vnum": 5154,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section one of the Underground Labyrinth. As you enter\nthis section you notice that the water just seems to stop at the entrance.\nAs if there was a magical barrier stopping the water. You also notice\nthat it is really dry in here. As you look around it appears that there\nis something ever odd about this place. But, you can't seem put your\nfinger on it, (hypothetically of course!).",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5128,
+        "north": 5128,
+        "northeast": 5155,
+        "northwest": 5128,
+        "south": 5128,
+        "southeast": 5128,
+        "southwest": 5128,
+        "west": 5128
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5155": {
+      "vnum": 5155,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As\nyou enter this section you notice that the only thing that really\nchanged between section one and section two is the wall color.\nInstead of a gray wall now it's blue. Other then that not much\nelse. You also see a  [plaque]  on the wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5155,
+        "north": 5155,
+        "northeast": 5128,
+        "northwest": 5155,
+        "south": 5156,
+        "southeast": 5155,
+        "southwest": 5155,
+        "west": 5155
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the second section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5156": {
+      "vnum": 5156,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section one and section two is the wall color.\nInstead of a gray wall now it's blue. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5155,
+        "north": 5155,
+        "northeast": 5155,
+        "northwest": 5155,
+        "south": 5155,
+        "southeast": 5155,
+        "southwest": 5128,
+        "west": 5157
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5157": {
+      "vnum": 5157,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section one and section two is the wall color.\nInstead of a gray wall now it's blue. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5155,
+        "north": 5158,
+        "northeast": 5155,
+        "northwest": 5128,
+        "south": 5155,
+        "southeast": 5155,
+        "southwest": 5155,
+        "west": 5155
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5158": {
+      "vnum": 5158,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section one and section two is the wall color.\nInstead of a gray wall now it's blue. Other then that not much\nelse",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5155,
+        "north": 5155,
+        "northeast": 5155,
+        "northwest": 5155,
+        "south": 5155,
+        "southeast": 5128,
+        "southwest": 5159,
+        "west": 5155
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5159": {
+      "vnum": 5159,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section one and section two is the wall color.\nInstead of a gray wall now it's blue. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5160,
+        "north": 5155,
+        "northeast": 5128,
+        "northwest": 5155,
+        "south": 5155,
+        "southeast": 5155,
+        "southwest": 5155,
+        "west": 5155
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5160": {
+      "vnum": 5160,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section two of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section one and section two is the wall color\nInstead of a gray wall now it's blue. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5155,
+        "north": 5155,
+        "northeast": 5155,
+        "northwest": 5161,
+        "south": 5155,
+        "southeast": 5155,
+        "southwest": 5128,
+        "west": 5155
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5161": {
+      "vnum": 5161,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse. You also see a  [plaque]  on the wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5162,
+        "north": 5161,
+        "northeast": 5161,
+        "northwest": 5128,
+        "south": 5161,
+        "southeast": 5161,
+        "southwest": 5161,
+        "west": 5161
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the third section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5162": {
+      "vnum": 5162,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you enter\nthis section you notice that the only that really changed between section\ntwo and section three is the wall color. Instead of a blue wall now it's green.\nOther then that not much else.\nWelcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5161,
+        "north": 5161,
+        "northeast": 5163,
+        "northwest": 5161,
+        "south": 5161,
+        "southeast": 5128,
+        "southwest": 5161,
+        "west": 5161
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5163": {
+      "vnum": 5163,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5161,
+        "north": 5161,
+        "northeast": 5128,
+        "northwest": 5161,
+        "south": 5164,
+        "southeast": 5161,
+        "southwest": 5161,
+        "west": 5161
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5164": {
+      "vnum": 5164,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5161,
+        "north": 5161,
+        "northeast": 5161,
+        "northwest": 5161,
+        "south": 5161,
+        "southeast": 5161,
+        "southwest": 5128,
+        "west": 5165
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5165": {
+      "vnum": 5165,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5161,
+        "north": 5166,
+        "northeast": 5161,
+        "northwest": 5128,
+        "south": 5161,
+        "southeast": 5161,
+        "southwest": 5161,
+        "west": 5161
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5166": {
+      "vnum": 5166,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section three of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section two and section three is the wall color.\nInstead of a blue wall now it's green. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5161,
+        "north": 5161,
+        "northeast": 5161,
+        "northwest": 5161,
+        "south": 5161,
+        "southeast": 5128,
+        "southwest": 5167,
+        "west": 5161
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5167": {
+      "vnum": 5167,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse. You also see a  [plaque]  on the wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5167,
+        "north": 5167,
+        "northeast": 5128,
+        "northwest": 5167,
+        "south": 5167,
+        "southeast": 5168,
+        "southwest": 5167,
+        "west": 5167
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the fourth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5168": {
+      "vnum": 5168,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5167,
+        "north": 5167,
+        "northeast": 5167,
+        "northwest": 5167,
+        "south": 5167,
+        "southeast": 5167,
+        "southwest": 5128,
+        "west": 5169
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5169": {
+      "vnum": 5169,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5167,
+        "north": 5170,
+        "northeast": 5167,
+        "northwest": 5128,
+        "south": 5167,
+        "southeast": 5167,
+        "southwest": 5167,
+        "west": 5167
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5170": {
+      "vnum": 5170,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5167,
+        "north": 5167,
+        "northeast": 5167,
+        "northwest": 5167,
+        "south": 5171,
+        "southeast": 5128,
+        "southwest": 5167,
+        "west": 5167
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5171": {
+      "vnum": 5171,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5167,
+        "north": 5167,
+        "northeast": 5128,
+        "northwest": 5172,
+        "south": 5167,
+        "southeast": 5167,
+        "southwest": 5167,
+        "west": 5167
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5172": {
+      "vnum": 5172,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section four of the Underground Labyrinth. As you enter\nthis section you notice that the only that really changed between section\nthree and section four is the wall color. Instead of a green wall now it's\nbrown.\nOther then that not much else.\nWelcome to section four of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section three and section four is the wall color.\nInstead of a green wall now it's brown. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5173,
+        "north": 5167,
+        "northeast": 5167,
+        "northwest": 5167,
+        "south": 5167,
+        "southeast": 5167,
+        "southwest": 5128,
+        "west": 5167
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5173": {
+      "vnum": 5173,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse. You also see a  [plaque]  on the wall.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5173,
+        "north": 5173,
+        "northeast": 5173,
+        "northwest": 5128,
+        "south": 5173,
+        "southeast": 5173,
+        "southwest": 5174,
+        "west": 5173
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the fifth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5174": {
+      "vnum": 5174,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 5173,
+        "north": 5173,
+        "northeast": 5173,
+        "northwest": 5175,
+        "south": 5173,
+        "southeast": 5128,
+        "southwest": 5173,
+        "west": 5173
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5175": {
+      "vnum": 5175,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5173,
+        "north": 5173,
+        "northeast": 5128,
+        "northwest": 5173,
+        "south": 5173,
+        "southeast": 5176,
+        "southwest": 5173,
+        "west": 5173
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5176": {
+      "vnum": 5176,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5173,
+        "north": 5173,
+        "northeast": 5177,
+        "northwest": 5173,
+        "south": 5173,
+        "southeast": 5173,
+        "southwest": 5128,
+        "west": 5173
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5177": {
+      "vnum": 5177,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5173,
+        "north": 5178,
+        "northeast": 5173,
+        "northwest": 5128,
+        "south": 5173,
+        "southeast": 5173,
+        "southwest": 5173,
+        "west": 5173
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5178": {
+      "vnum": 5178,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section five of the Underground Labyrinth. As you enter\nthis section you notice that the only that really changed between section\nfour and section five is the wall color. Instead of a brown wall now it's red.\nOther then that not much else.\nWelcome to section five of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section four and section five is the wall color.\nInstead of a brown wall now it's red. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5173,
+        "north": 5173,
+        "northeast": 5173,
+        "northwest": 5173,
+        "south": 5179,
+        "southeast": 5128,
+        "southwest": 5173,
+        "west": 5173
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5179": {
+      "vnum": 5179,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse. You also see a  [plaque]  on the wall.",
+      "sector": "inside",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "east": 5179,
+        "north": 5179,
+        "northeast": 5128,
+        "northwest": 5179,
+        "south": 5179,
+        "southeast": 5179,
+        "southwest": 5179,
+        "west": 5180
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the sixth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5180": {
+      "vnum": 5180,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "east": 5181,
+        "north": 5179,
+        "northeast": 5179,
+        "northwest": 5179,
+        "south": 5179,
+        "southeast": 5179,
+        "southwest": 5128,
+        "west": 5179
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5181": {
+      "vnum": 5181,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5179,
+        "north": 5179,
+        "northeast": 5182,
+        "northwest": 5128,
+        "south": 5179,
+        "southeast": 5179,
+        "southwest": 5179,
+        "west": 5179
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5182": {
+      "vnum": 5182,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5179,
+        "north": 5183,
+        "northeast": 5179,
+        "northwest": 5179,
+        "south": 5179,
+        "southeast": 5128,
+        "southwest": 5179,
+        "west": 5179
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5183": {
+      "vnum": 5183,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5179,
+        "north": 5179,
+        "northeast": 5128,
+        "northwest": 5184,
+        "south": 5179,
+        "southeast": 5179,
+        "southwest": 5179,
+        "west": 5179
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5184": {
+      "vnum": 5184,
+      "name": "Underground Labyrinth",
+      "description": "Welcome to section six of the Underground Labyrinth. As you\nenter this section you notice that the only thing that really\nchanged between section five and section six is the wall color.\nInstead of a red wall now it's black. Other then that not much\nelse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5179,
+        "north": 5179,
+        "northeast": 5179,
+        "northwest": 5179,
+        "south": 5179,
+        "southeast": 5179,
+        "southwest": 5128,
+        "west": 5188
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5185": {
+      "vnum": 5185,
+      "name": "Underground Labyrinth",
+      "description": "You have just found the path way to the treasure room. Unfortunately it\nis also hidden behind a maze... But from what you can see it seems easier\nthen the last ones you had to do... The walls are also painted yellow in here.\nI guess they are that way so you know you entered a completely different area.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5185,
+        "north": 5186,
+        "south": 5185,
+        "west": 5185
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5186": {
+      "vnum": 5186,
+      "name": "Underground Labyrinth",
+      "description": "You have just found the path way to the treasure room. Unfortunately it\nis also hidden behind a maze... But from what you can see it seems easier\nthen the last ones you had to do... The walls are also painted yellow in here\nI guess they are that way so you know you entered a completely different area.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5185,
+        "north": 5187,
+        "south": 5185,
+        "west": 5185
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5187": {
+      "vnum": 5187,
+      "name": "Treasure Room",
+      "description": "You have Finally found the Treasure Room. It covered from head to toe\nwith gold as far as the eye can see. The room is also filled with chests. That\nseem to be here just for you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5189
+      },
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5188": {
+      "vnum": 5188,
+      "name": "Underground Labyrinth",
+      "description": "This is the room of the vial monster who has decided to call the the\nLabyrinth home upon entering you see that this room is more elaborate\nthen any other room in the dungeon. There is a bright red  [rug]  lying on\nthe floor as well as  [paintings]  lining the wall. Which for some reason\nthis room was kept pristine without a single spec of dust on anything..\nwhich for all accounts is completely unexplainable. You also see a  [plaque] on\nthe wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "east": 5185,
+        "north": 5189,
+        "south": 5128
+      },
+      "exdescs": {
+        "painting": "As you look at the paiting you notice that they are portraits of some fancy\nmagic users. As you look closer at one you also get the feeling that the eyes\nare actually moving with you",
+        "plaque": "---------------------------------------------------------------------------\nYou have finally made it to the end of the dungeon. Just one more room\nand you are home free. Also if you are wondering the treasure room isn't\nhere. It's located some place else. uhG! AnOther choicE Another blaSted\npaTh to the treasure room. Hopefully you can find it before you leave.\n---------------------------------------------------------------------------",
+        "rug": "\u0026RUpon looking at the rug you notice that it's an elegant circular rug with with\ngold thread lining the middle of."
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5189": {
+      "vnum": 5189,
+      "name": "Underground Labyrinth",
+      "description": "This is the last room in the dungeon. You can use the key you got off the\nmonster you just defeated. It will take you back to the Village of Sedna.\nUpon entering you see that this room is more elaborate then any other room\nin the dungeon. There is a bright red  [rug]  lying on the floor as well as\n[paintings]  lining the wall. Which for some reason this room was kept\npristine without a single spec of dust on anything..Which for all accounts is\ncompletely unexplainable... For Some reason it appears as tho this room and\nthe last are identical.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "prototype": true
+      },
+      "exits": {
+        "north": 5142,
+        "south": 5188
+      },
+      "exdescs": {
+        "painting": "As you look at the paiting you notice that they are portraits of some fancy\nmagic users. As you look closer at one you also get the feeling that the eyes\nare actually moving with you.",
+        "rug": "\u0026RUpon looking at the rug you notice that it's an elegant circular rug with with\ngold thread lining the middle of."
+      },
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    },
+    "5199": {
+      "vnum": 5199,
+      "name": "Lastroom",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Village of Sedna",
+      "area_author": "Alyarta"
+    }
+  }
+}

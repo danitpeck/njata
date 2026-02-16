@@ -1,0 +1,355 @@
+{
+  "name": "The Tomb of Damara",
+  "author": "Gabriel",
+  "rooms": {
+    "26050": {
+      "vnum": 26050,
+      "name": "Outside the Tomb of Damara",
+      "description": "A cold wind blows through the dead trees around the ruin. Dark\nclouds make everything seem gray and lonely. The castle sits on\ntop of a hill and can be seen from far away. Once it had strong\nwalls and tall towers. Now the towers have fallen and the walls\nhave collapsed in many places. There is a heavy door in the gate,\nbut it looks like it could be opened.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 26051
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26051": {
+      "vnum": 26051,
+      "name": "The Central Room",
+      "description": "This is a big room, once the main room of the castle. Now the plaster\nhas fallen from the ceiling and the floor is littered with junk. The\nwalls of the room show centuries of wear and lack of upkeep. There\nare four doors leading out of this room. One door leads north,\nanother to the east, one to the south that leads back out of the\ncastle, and one to the southwest.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26055,
+        "north": 26053,
+        "south": 26050,
+        "southwest": 26052
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26052": {
+      "vnum": 26052,
+      "name": "The Guard Room",
+      "description": "The room is small and filled with junk. Most of it is pushed close\nto the walls, leaving a clear space in the center of the room.\nEmpty flasks of alcohol scatter the room, as well as bones of what\nseems to be unfortunate adventurers.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northeast": 26051
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26053": {
+      "vnum": 26053,
+      "name": "The Castle Garden",
+      "description": "The garden is small and tiled with flagstones. The plants that grew\nhere are all dead. In the center of the garden is an old fountain\nfilled with green, scummy water. The dead plants seem to fit in here.\nThere is a doorway in the western wall of the garden.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 26051,
+        "west": 26054
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26054": {
+      "vnum": 26054,
+      "name": "The Storeroom",
+      "description": "This is a small, dusty room filled with shelves. Barrels, bags,\npots, and jars line every shelf and are stacked on the floor.\nThere is a quick scamper of little feet that stops just as you\nopen the door. The only exit is back the way you came.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26053
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26055": {
+      "vnum": 26055,
+      "name": "The Castle Cathedral",
+      "description": "Though dirty, this room is still in good condition. Carved stone\npillars support the arching roof. This was clearly the castle's\nchapel. At the back wall is a stone block, once the altar. The\nfine carvings on its base are nothing but chipped scars now. Even\nso, the altar still seems like it is a thing of peace and strength.\nA doorway leads south, from where you can hear mocking voices.\nAnother doorway leads southeast. You can feel a breeze coming\nfrom under the doorway. And finally, another exit leads west,\nback to the central room.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 26056,
+        "southeast": 26058,
+        "west": 26051
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26056": {
+      "vnum": 26056,
+      "name": "The Dungeon",
+      "description": "This small room looks like a torture chamber. There are horrible-\nlooking tools on the walls. A bucket filled with hot coals sits on\nthe floor. In the eastern wall lies a prison cell with iron bars.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26057,
+        "north": 26055
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26057": {
+      "vnum": 26057,
+      "name": "Inside a Prison Cell",
+      "description": "There is nothing much to this prison cell. A pile of animal skins\nlies in the corner to serve as a bed, and a hole in the floor on the\nopposite corner serves as a latrine. Blood stains the cement floor.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 26056
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26058": {
+      "vnum": 26058,
+      "name": "An Outside Passage",
+      "description": "You step through the door and find yourself outside again. This\npassage seems to have been dug out of a mountain or hill. You can\nmake out the shouts of orcs coming from the southeast. Perhaps you\nshould be weary about continuing forward.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northwest": 26055,
+        "southeast": 26059
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26059": {
+      "vnum": 26059,
+      "name": "The Orc Mines",
+      "description": "This room is very strange. Once it must have been a cellar dug into\nthe side of a hill, but now it looks more like a mine. The walls and\nfloor are all dug up and wooden beams are wedged into them to keep\nthe ceiling from collapsing. It appears as though someone has been\ndigging in this mine fairly recently. There is a door leading north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 26060,
+        "northwest": 26058
+      },
+      "exdescs": {
+        "ground": "The ground has been ripped open recently as if someone were looking\nfor something.",
+        "mine": "The ground has been ripped open recently as if someone were looking\nfor something."
+      },
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26060": {
+      "vnum": 26060,
+      "name": "The Kitchen",
+      "description": "The kitchen is cluttered and smelly. It is furnished with a table,\na big fireplace, and shelves loaded with junk. While it is quite\nmessy, decomposing food and such provide evidence that the facility\nhas gotten some use in the past few months. There is an exit leading\nwest, and another leading north. There is also a door leading south\nback to the mines, and one leading northwest.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 26062,
+        "northwest": 26063,
+        "south": 26059,
+        "west": 26061
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26061": {
+      "vnum": 26061,
+      "name": "The Well",
+      "description": "This room is cold and wet, almost like a cave. There is a well at\nthe center. A bucket with a rope attached sits by the well. There\nis no movement and you see nothing of interest here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26060
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26062": {
+      "vnum": 26062,
+      "name": "The Armory",
+      "description": "The room is crowded with shelves of battered helmets, dented shields,\nand nicked swords. The walls are lined with racks of spears and axes.\nThere is an eerie presence in this room as though something is\nwatching... waiting. The only exit is through the door you came in.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 26060
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26063": {
+      "vnum": 26063,
+      "name": "An Outside Passage",
+      "description": "You find yourself wandering a path leading northwest to an unknown\ndestination. The corridor stinks of decay. You can make out what\nsounds like shrieks of terror coming from further down the path.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "southeast": 26060,
+        "west": 26064
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26064": {
+      "vnum": 26064,
+      "name": "An Outside Passage",
+      "description": "You continue down the passage, and find yourself nearing the\nbone-chilling screams. The path bends at a right angle, leading\nnorth. The path also leads back east, towards the kitchen.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26063,
+        "north": 26065
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26065": {
+      "vnum": 26065,
+      "name": "The End of the Outside Passage",
+      "description": "You come to the end of the passage. A door lies on either side of you.\nThe door to the west sounds like the source of the screaming, which\nhas stopped suddenly. You are unable to make out any sounds coming\nfrom the door in the eastern wall.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26066,
+        "south": 26064,
+        "west": 26067
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26066": {
+      "vnum": 26066,
+      "name": "The Treasure Room",
+      "description": "This is a small windowless room, lit only by your torches. The light\ngleams and glitters on chests and treasures tumbled in a heap. In\nthis room are bags of coins, pieces of armor, and potion bottles,\nalong with bones, bits of stale bread, and moldy cheese.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 26065
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26067": {
+      "vnum": 26067,
+      "name": "Bonegnasher's Den",
+      "description": "As you enter the room, the foul stench of death overwhelms you. Mangled\ncorpses of what you assume used to be servants lie on the ground,\napparently part of some creature's main course. There is a makeshift\nbed against the northern wall made up of piles of furs. Against the\nwall beside the bed lies a plain, wooden chest.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 26065
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26068": {
+      "vnum": 26068,
+      "name": "Damara's Tomb",
+      "description": "A secret door grinds open to reveal a cold, gray stone room thick\nwith dust. As the door swings open, two torches on the side walls\nmysteriously light. A large, intricate throne lies against the far\nwall engraved with runes in some ancient tongue. On either side of\nthe throne are clay pots engraved with the same runes.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northeast": 26059
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26069": {
+      "vnum": 26069,
+      "name": "In a Dank Pit",
+      "description": "You land at the bottom of the pit with a thud. Even with your torches,\nthe room does not light up much. Bones of all shapes and sizes are\nscattered about the floor. Rats scurry across the floor, almost\nsurprised as much that you are here as you are. There is a ladder\nbuilt into the far wall that appears to be the only way back up.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "up": 26051
+      },
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    },
+    "26070": {
+      "vnum": 26070,
+      "name": "Taran's Death Room",
+      "description": "This room should not be connected. This is the room Taran goes to when\nthe adventurer tells him he will not help.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "The Tomb of Damara",
+      "area_author": "Gabriel"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Gods",
+  "author": "ROD",
+  "rooms": {
+    "1200": {
+      "vnum": 1200,
+      "name": "The Parlour of the Immortals",
+      "description": "You are lounging in a quiet cosy parlour, warmed by a gentle magical fire\nwhich twinkles happily in a warm fireplace.\n",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10429
+      },
+      "exdescs": {},
+      "area_name": "Gods",
+      "area_author": "ROD"
+    },
+    "1201": {
+      "vnum": 1201,
+      "name": "Thoric's Den",
+      "description": "You find yourself in a cozy little room.\nThis is the place where Thoric comes to relax, and get inspired!\nLooking around yourself, you find this to be quite a comfortable, medieval\nroom, which seems to be inside some sort of log cabin.  There's a very nice\nlooking leather chair here in front of a huge fireplace, with a good blaze\ngoing. On the mantle you see a fine assortment of pipes, and a couple jars\nof high quality pipeweed.\nOn the floor you spot a full bear-skin rug in front of the fireplace, and you\nsuddenly get the urge to make yourself comfortable in front of the fire with\na mug of hot coffee, fill a pipe up with some pipeweed, relax and listen to\ntales of days long past.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "private": true
+      },
+      "exits": {},
+      "exdescs": {
+        "chair": "It looks very comfortable.",
+        "fireplace": "The fireplace contains a nice warm fire.",
+        "rug": "It sure does look inviting."
+      },
+      "area_name": "Gods",
+      "area_author": "ROD"
+    }
+  }
+}

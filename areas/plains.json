@@ -1,0 +1,712 @@
+{
+  "name": "Plains of the North",
+  "author": "Copper",
+  "rooms": {
+    "300": {
+      "vnum": 300,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The path continues east, north\nand west leads to plains and you see the path around Darkhaven\nto the south.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 301,
+        "north": 315,
+        "west": 316
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "301": {
+      "vnum": 301,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The path continues east and west.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 302,
+        "west": 300
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "302": {
+      "vnum": 302,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The path continues north and west.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 303,
+        "west": 301
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "303": {
+      "vnum": 303,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The path leads north and south.\nTo the east and the west you have the grassy plains.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 317,
+        "north": 304,
+        "south": 302,
+        "west": 315
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "304": {
+      "vnum": 304,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The Path leads north and south.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 305,
+        "south": 303
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "305": {
+      "vnum": 305,
+      "name": "Path in the plains",
+      "description": "You are walking on a path situated in the rough plains.\nYou feel the strong winds blow through your hair as you watch the\nbeautiful landscaping here. To the east and west you see the grassy plains.\nThe path extends into small foothills to the north and also continues south.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 321,
+        "north": 306,
+        "south": 304,
+        "west": 320
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "306": {
+      "vnum": 306,
+      "name": "Path in the foothills",
+      "description": "You are on the path leading through the small foothills.\nThe wind blow through your hair as you study the beautiful\nlandscaping here. From the north you sense a certain freshness.\nThe path continues east and south. You smell freshness from north.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 307,
+        "north": 326,
+        "south": 305
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "307": {
+      "vnum": 307,
+      "name": "Path in the foothills",
+      "description": "You are walking on a path situated in the small foothills.\nThe winds are more than average here but it feels nice. You can follow\nthe path east or west.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 308,
+        "west": 306
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "308": {
+      "vnum": 308,
+      "name": "Path in the foothills",
+      "description": "You are walking on a narrow path in the foothills.\nYou feel the strong winds blow through your hair as you study\nthe beautiful landscaping here. The path goes north and west.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 309,
+        "west": 307
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "309": {
+      "vnum": 309,
+      "name": "Path in the foothills",
+      "description": "You are walking on a path situated in foothills.\nTo the west you sense a certain freshness and the path continues\nsouth and east.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 310,
+        "south": 308,
+        "west": 326
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "310": {
+      "vnum": 310,
+      "name": "Path in the foothills",
+      "description": "You are walking on a long path in the east-west direction.\nThe surroundings are green, vegetated foothills.\nYou are able to force your way through some dense plants to the north.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 311,
+        "north": 327,
+        "west": 309
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "311": {
+      "vnum": 311,
+      "name": "Path in the foothills",
+      "description": "You are walking on the long, narrow path through the foothills.\nTo your east you see a T-intersection and to the west the path\ncontinues far.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 312,
+        "west": 310
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "312": {
+      "vnum": 312,
+      "name": "The path intersection",
+      "description": "You are standing on an intersection between 3 paths.\nTo the west you can follow a long, narrow path through the foothills.\nTo the north a wide path leads to the Village of Ofcol and an\nancient path leads towards the south.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 313,
+        "south": 332,
+        "west": 311
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "313": {
+      "vnum": 313,
+      "name": "The Road to Ofcol",
+      "description": "You travel down a wide road with trail marks on it.  To the north stands the\ntownship of Ofcol, dominated by a great, gleaming citadel to its northeast.\nSouth of you lies the T intersection, or you can enter the foothills to the\nwest.  The foothills east of you appear to be too steep to climb.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 314,
+        "south": 312,
+        "west": 327
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "314": {
+      "vnum": 314,
+      "name": "Nearing Ofcol",
+      "description": "You are standing outside the town of Ofcol.  There appears to be a small\nvillage portion ahead that may be a nice, safe place to stay before entering\nthe city itself.  You can journey northward to the town, or back south to\nan intersection of paths.",
+      "sector": "field",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "south": 313
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "315": {
+      "vnum": 315,
+      "name": "Gallow hill",
+      "description": "You walk in the grassy plains. On this little hill you can see\ntwo gallows, with rotting human tissue hanging from the robe.\nThere is a sign here.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 303,
+        "north": 320,
+        "south": 300,
+        "west": 318
+      },
+      "exdescs": {
+        "sign": "The sign says:\n\n  Loyal citizens of Darkhaven.  These are the earthly remains of the\n  two heretics 'Dim' and 'Gamma' of this world. Having forged them-\n  selves to immortality, they called upon themselves the anger of the\n  implementators.  Let this be a lesson too all .....\n\n                                    -- the Powers that Be."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "316": {
+      "vnum": 316,
+      "name": "Grassy plains",
+      "description": "You walk in the grassy plains among the herbs which grow here. The wind is\nstrong and rough. Far to the north you can see the foothills and further on\nmountain peaks are visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 300,
+        "north": 318
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "317": {
+      "vnum": 317,
+      "name": "Grassy plains",
+      "description": "You walk in the grassy plains among the herbs which grow here. The wind is\nstrong and rough. Far to the north you can see the foothills and further on\nmountain peaks are visible. City of Darkhaven is to the south but so are some\nVERY steep slopes.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 338,
+        "south": 345,
+        "west": 303
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "318": {
+      "vnum": 318,
+      "name": "Grassy plains",
+      "description": "You walk in the beautiful grassy plains. The wind is strong and rough.\nFar to the north you can see the foothills and further on mountain peaks\nare visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 315,
+        "north": 319,
+        "south": 316
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "319": {
+      "vnum": 319,
+      "name": "Grassy plains",
+      "description": "You walk in the grassy plains among the herbs which grow here. The wind is\nstrong and rough. To the north you can see the foothills and just behind\nmountain peaks are visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 320,
+        "north": 330,
+        "south": 318
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "320": {
+      "vnum": 320,
+      "name": "Grassy plains",
+      "description": "You walk in some grassy plains. The wind is strong and rough. To the\nnorth you can see the foothills and further on mountain peaks are visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 305,
+        "north": 322,
+        "south": 315,
+        "west": 319
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "321": {
+      "vnum": 321,
+      "name": "Grassy plains",
+      "description": "You walk in the grassy plains. The wind is fairly strong.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "south": 338,
+        "west": 305
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "322": {
+      "vnum": 322,
+      "name": "Grassy foothills",
+      "description": "You walk in the grassy foothills north of the plains. The wind is rough.\nTo the north you can see foothills and just behind them mountain peaks\nare visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "north": 324,
+        "south": 320,
+        "west": 330
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "323": {
+      "vnum": 323,
+      "name": "The steep foothills",
+      "description": "You walk in the steep foothills. It is rather hard to move here.\nTo the north you can see a grassy valley with wildflowers.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 324,
+        "south": 330
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "324": {
+      "vnum": 324,
+      "name": "The steep foothills",
+      "description": "You are walking in the steep foothills. It is rather hard to move here.\nTo the north you can see the mountains towering over you.  Pine trees\ngrow here.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 325,
+        "south": 322,
+        "west": 323
+      },
+      "exdescs": {
+        "mountains": "The mountains seems dark and all most alive, as they contrast against\nthe sky.",
+        "pine": "The all too quiet trees suggest that something roams these woods.",
+        "pines": "The all too quiet trees suggest that something roams these woods.",
+        "tree": "The all too quiet trees suggest that something roams these woods.",
+        "trees": "The all too quiet trees suggest that something roams these woods."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "325": {
+      "vnum": 325,
+      "name": "The steep foothills",
+      "description": "You are walking in the steep foothills. It is rather hard to move here.\nFurther to the north you can see the mountains towering over you.\nSeveral pinetrees grow here.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 326,
+        "west": 324
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "326": {
+      "vnum": 326,
+      "name": "The pool in the foothills",
+      "description": "You are standing by a pool in the small foothills. It is clear and cold.\nA steep slope rises up into the foothills to the north. Behind them ...\nthe mountains.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 309,
+        "south": 306,
+        "west": 325
+      },
+      "exdescs": {
+        "pool": "The pool is crystal clear, but as you look into it you notice that\nyou can't see the bottom of it ... it must be pretty deep."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "327": {
+      "vnum": 327,
+      "name": "The foothills",
+      "description": "You are walking in some foothills. It is rather hard to move here.\nFurther to the north you can see the mountains towering over you.\nSeveral pinetrees grow here.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 313,
+        "south": 310
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "330": {
+      "vnum": 330,
+      "name": "In front of hut in foothills",
+      "description": "You are standing in the foothills. To the west, well hidden among the small\nfoothills and pines, you see a small hut. To the north you can see\nthe foothills, and some pineforrest. Further on mountain peaks are visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "east": 322,
+        "north": 323,
+        "south": 319,
+        "west": 331
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "331": {
+      "vnum": 331,
+      "name": "Hermit's hut",
+      "description": "You are inside the hermit's hut. It is rather old, but serves it purpose.\nIt keeps its habitant from the rough winds and dangerous beasts of the\nplains and foothills. There is a small fireplace here.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 330
+      },
+      "exdescs": {
+        "fireplace": "The hermit cooks here."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "332": {
+      "vnum": 332,
+      "name": "The ancient path",
+      "description": "You are moving on an ancient path. The path is slightly covered with\nleaves and twitches.\nTo the north you can see the T-crossing and the path continues south.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 312,
+        "south": 333
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "333": {
+      "vnum": 333,
+      "name": "The ancient path",
+      "description": "You are standing on the ancient path which runs north and south.\nThe path is hardly visible here.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 332,
+        "south": 334
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "334": {
+      "vnum": 334,
+      "name": "The ancient path",
+      "description": "You are standing on the ancient path which runs north and south.\nThe path is hardly visible here.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 333,
+        "south": 335
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "335": {
+      "vnum": 335,
+      "name": "The ancient path",
+      "description": "The path runs north and east from here.  You notice some markers placed\nalong the side of the path.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 336,
+        "north": 334
+      },
+      "exdescs": {
+        "markers": "The markers seems like normal stones, but the way they are\narranged makes you think there is something special about them."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "336": {
+      "vnum": 336,
+      "name": "The wooden bridge",
+      "description": "You have stepped upon a wooden bridge. It looks old but safe to cross.\nIt is made of a wood you haven't seen before.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 337,
+        "west": 335
+      },
+      "exdescs": {
+        "formation": "The rock formations are made of 7 huge, monolith like stones, placed\nin a symbolic circle.\nYou notice it's possible to enter the ring.",
+        "formations": "The rock formations are made of 7 huge, monolith like stones, placed\nin a symbolic circle.\nYou notice it's possible to enter the ring.",
+        "rock": "The rock formations are made of 7 huge, monolith like stones, placed\nin a symbolic circle.\nYou notice it's possible to enter the ring."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "337": {
+      "vnum": 337,
+      "name": "The ancient path",
+      "description": "You find yourself located between the bridge and the rock formations.\nAs you approach the formations you begin to realize the true size of\nthem, about 15 feet tall and almost perfect rectangular shape.\nYou feel impressed with the awesome sight.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 339,
+        "west": 336
+      },
+      "exdescs": {
+        "formation": "The rock formations are made of seven huge monolith placed in a circle.\nYou notice it's possible to enter the ring.",
+        "formations": "The rock formations are made of seven huge monolith placed in a circle.\nYou notice it's possible to enter the ring.",
+        "rock": "The rock formations are made of seven huge monolith placed in a circle.\nYou notice it's possible to enter the ring."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "338": {
+      "vnum": 338,
+      "name": "Grassy plains",
+      "description": "You walk in the grassy plains among the herbs which grow here. The wind is\nstrong and rough. Far to the north you can see the foothills and further on\nmountain peaks are visible.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "north": 321,
+        "west": 317
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "339": {
+      "vnum": 339,
+      "name": "The Stones of G'harne",
+      "description": "You are in the center of 7, 15 ft tall monolithic stones.  In the center of\nthe ring stands a large sacrificial altar.  Though the ground is covered\nwith dirt, the altar shows no sign of such.  You spin around in awe,\nforgetting your bearings.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "down": 340,
+        "west": 337
+      },
+      "exdescs": {
+        "altar": "You move closer to examine the sacrifice altar of G'harne.\nThe altar is about 3 feet high, 10 feet long and 4 feet wide.\nIt has engraved pictures of death rituals and horrifying worms.",
+        "death": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells.",
+        "engraving": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells.",
+        "g'harne": "The stones of G'harne tower fifteen feet over you.\nThe giant stones are made of a material you haven't seen before.\nIt resembles black marble, but somehow feels different.",
+        "monolith": "The stones of G'harne tower fifteen feet over you.\nThe giant stones are made of a material you haven't seen before.\nIt resembles black marble, but somehow feels different.",
+        "picture": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells.",
+        "rituals": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells.",
+        "sacrifice": "You move closer to examine the sacrifice altar of G'harne.\nThe altar is about 3 feet high, 10 feet long and 4 feet wide.\nIt has engraved pictures of death rituals and horrifying worms.",
+        "stones": "The stones of G'harne tower fifteen feet over you.\nThe giant stones are made of a material you haven't seen before.\nIt resembles black marble, but somehow feels different.",
+        "worms": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "340": {
+      "vnum": 340,
+      "name": "Dark smelly tunnels",
+      "description": "You are standing in a gloomy tunnel leading south and west.  The walls\nare covered with a smelly slime and small rotting pieces of a meat like\nsubstance, fills the air with an unbearable stench.  You might be able\nto force your way into fresh air from here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "south": 341,
+        "up": 339,
+        "west": 342
+      },
+      "exdescs": {
+        "meat": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "rotting": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "slime": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "substance": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "341": {
+      "vnum": 341,
+      "name": "Dead end tunnel",
+      "description": "The tunnel comes to an abrupt end here. It simply looks like it hasn't been\nexcavated further.  North of here the tunnel makes a turn west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "north": 340
+      },
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "342": {
+      "vnum": 342,
+      "name": "Dark smelly tunnels",
+      "description": "You are standing in a gloomy tunnel leading east and west.\nThe walls are covered with a smelly slime and small rotting pieces of a\nmeat like substance, fills the air with an unbearable stench.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 340,
+        "west": 343
+      },
+      "exdescs": {
+        "meat": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "rotting": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "slime": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke.",
+        "substance": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "343": {
+      "vnum": 343,
+      "name": "Dark smelly tunnels",
+      "description": "You are standing in a small smelly tunnel under the plains.\nThe smell is growing stronger to the west, so is the density of the\nslime and other undeterminable substances ...",
+      "sector": "inside",
+      "flags": {
+        "tunnel": true
+      },
+      "exits": {
+        "east": 342,
+        "west": 344
+      },
+      "exdescs": {
+        "slime": "BWADR! ...",
+        "substance": "BWADR! ..."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "344": {
+      "vnum": 344,
+      "name": "The Hall of G'harne",
+      "description": "You stand in the hall of G'harne. The walls are dressed with strange\ncarving, symbolizing human sacrifice and people worshipping giant worms.\nDisgusting slime and gore are also very dominant in your view of this room.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 343
+      },
+      "exdescs": {
+        "gore": "You puke.",
+        "slime": "You puke."
+      },
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    },
+    "345": {
+      "vnum": 345,
+      "name": "Steep slope",
+      "description": "You try to climb down the slope.",
+      "sector": "field",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Plains of the North",
+      "area_author": "Copper"
+    }
+  }
+}

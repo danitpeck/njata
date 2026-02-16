@@ -1,0 +1,2586 @@
+{
+  "name": "Darkhaven Academy",
+  "author": "Scarab",
+  "rooms": {
+    "10300": {
+      "vnum": 10300,
+      "name": "The Lyceum",
+      "description": "You stand inside of the Lyceum, an establishment designed to teach the\nbasics of play inside this game. Each room has a specific purpose and\ncontains information on the various commands to maneuver around and\ninteract with the players. We recommend you explore the Lyceum in full,\ntaking the time to read the instructions in each room.\n\nType N to move north to the next room in the Lyceum. If you have already\ncompleted the rigors of the Lyceum and wish to test your combat mettle\nin the battlegrounds, type OPEN S or OPEN DOOR, then S to enter the Arena.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "east": 10303,
+        "north": 10304,
+        "south": 10382,
+        "up": 21280
+      },
+      "exdescs": {
+        "door": "You see a solid oak door.",
+        "s": "You see an oak door.",
+        "south": "You see a door."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10301": {
+      "vnum": 10301,
+      "name": "A Stone Corridor",
+      "description": "To the west is the language lessons room. Lady Abbigalye is there\nto assist you in learning the languages of the land.  To the east\nis where Domick will assist you in practicing your weapons, skills\nand spells.  When you are finished with your lessons, come back\nhere and continue north through the Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "up": 199
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10302": {
+      "vnum": 10302,
+      "name": "Somewhere",
+      "description": "You did it! You are an excellent student! To continue your education,\nplease leave north. That will return you to the Reading room.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10304
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10303": {
+      "vnum": 10303,
+      "name": "The Laboratory of Skills and Spells",
+      "description": "This is where you will practice your arsenal of weapons, spells and skills.\nType PRACTICE to get a list of these currently available to you.  Everyone\nwill have sections listing skills, weapons and languages.  Spells casters\nwill have an additional section for spells.  To practice a spell, skill or\nweapons style, type PRACTICE \u003cfull name of spell, skill or weapon style\u003e.\n\nFor instance, to practice dispel magic, you would type PRAC DISPEL MAGIC.\nWhen practicing, you start at 0% and one practice will earn you between\n15% and 20% proficieny.  Additional knowledge is gained through usage of\nthe skill or spell until adept, which is a maximum of 30% - 95%.\n\nTo get see information using spells, skills or weapons, type HELP CAST or\nHELP \u003cspell, skill or weapon style\u003e.  For general questions on practicing,\ntype HELP PRACTICE.  The number of practice sessions you may gain at each\nlevel is determined by the amount of wisdom you have when you level.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "west": 10300
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10304": {
+      "vnum": 10304,
+      "name": "The Reading Room",
+      "description": "This is a silent room, which means while here you will not see any of the\nchannels. In fact, you can only use socials, emotes and group tell here.\nThe room was created to give you a quiet place to read our help files.\nYou can reduce your own screen scroll by reducing the number of channels\nyou receive. You can get a full list of channels by typing CHAN. You may\nturn off a channel by type CHAN -\u003cchannel\u003e and reactive a channel by\ntyping CHAN +\u003cchannel\u003e. For example, you can turn off auction channel by\ntype CHAN -AUCTION and you can turn it back on by typing CHAN +AUCTION.\nYou can also turn off ALL your channels by typing CHAN -ALL and turn them\nall on again by typing CHAN +ALL. Once you have finished reading, you are\nready to test your ability to negotiate your way around.\nGoing west will take you into another part of the Academy. The test is to\nfollow all the room descriptions until you can find your way back to this\npoint. If at any time you become lost, type U to return to this room. Once\nyou have successfully returned here, please continue to the north to\nexplore the rest of the Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "silence": true
+      },
+      "exits": {
+        "north": 10314,
+        "south": 10300,
+        "west": 10307
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10305": {
+      "vnum": 10305,
+      "name": "Chamber of Trials for Rangers",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10388,
+        "north": 10389,
+        "south": 10387,
+        "west": 10390
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10306": {
+      "vnum": 10306,
+      "name": "Abbigayle's Language Lessons",
+      "description": "This is where you LEARN your LANGUAGES.  Languages are learned differently\nthan spells, skills and weapons, as you must be adept ata language before\nyou may use it.  To see a list of the languages available to you, simply\ntype PRACTICE.  You do not need to learn the TONGUE of your race nor the\ncommon language, as they both come naturally to you.  To learn a language,\ntype LANGUAGE LEARN \u003clanguage type\u003e.\n\nFor more information on how to learn a language, type HELP LANGUAGES.  To\nlearn how to use languages, type HELP SPEAK and HELP TONGUE.  It will cost\na few practice sessions each time you wish to increase your fluency in a\nlanguage.  Those who are intelligent, wise and lucky will find it takes\nfewer practice sessions to become adept at a language.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10307": {
+      "vnum": 10307,
+      "name": "Wandering the Lyceum",
+      "description": "Each player has a menu of items that the game controls automatically once\nit has been configured. To get a list of this menu, type CONFIG. For this\npart of your schooling, it is suggested you type CONFIG +AUTOEXIT. This\nwill have the mud show you all obvious exits available to you. When you\nare moving around the game, EXIT is a very important command. When you\ntype EXIT, it shows you the room names each exit shown under obvious exits.\nYou can use this command to get hints of dangers and death traps that might\nbe close by. You may also try to LOOK in adjoining rooms. You do this by\ntyping LOOK \u003cdirection\u003e. Your next move is to the west, to see what you\nare walking into, try typing EXIT and L W.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10304,
+        "up": 10304,
+        "west": 10309
+      },
+      "exdescs": {
+        "door": "You see a solid oak door."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10308": {
+      "vnum": 10308,
+      "name": "A Dank Pit",
+      "description": "Here stands a Chadoyn.  He was captured trying to slaughter the students\nof the Academy, and the Immortals decided to spare his life and throw him\nin chains for use as a teaching aid.  With him you can practice attacking\nand fleeing, but hopefully not dying.  You will also want to make use of\nthe 'consider' command.  This command compares your level and hitpoints\nto that of the creature.  To use here, type 'con chadoyn'.\n\nTo use the consider command elsewhere, type CON \u003cMOBNAME\u003e.  It is wise to\nALWAYS consider a mob before fighting it the first time.  This will many\ntimes save your life, as mobs are often a lot more difficult then they\noutwardly appear.  Be careful and enjoy your fight.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10316
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10309": {
+      "vnum": 10309,
+      "name": "Wandering the Lyceum",
+      "description": "This is where you will start learning about exits not listed under \"Exits\".\nDoors are not seen on the game. You must read room description and LOOK\n\u003cdirection\u003e to find them. Another method of finding a door is to \"bump\" into\nthe walls. Type N. OUCH! You ran into the door. You want to be careful not\nto be affected with the pass door spell while using the bump method, as you\nmay end up in a room you would rather not visit. Now, type OPEN N or OPEN\nDOOR. Next type EXIT, you will now see the north exit listed under \"Exits\".\nType HELP OPEN to find out more information on doors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10307,
+        "north": 10310,
+        "up": 10304,
+        "west": 10311
+      },
+      "exdescs": {
+        "door": "You see a solid oak door."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10310": {
+      "vnum": 10310,
+      "name": "An Enclosed Room",
+      "description": "You did it! Well done. You will find many rooms such as this all over the\ngame. Some are easy to find because of hints in the room descriptions.\nSome are very hard to find, as the clues could be rooms away. However, you\nare now armed with the tools to locate them. You know how to use \"look\",\nbump, and \"exit\". Many classes also get a spell called \"scry\". This spell\nwill allow the person affected by it to see the into the adjoining rooms.\nIt is used like \"look\", but gives you more detailed information. To see if\nyou gain the scry spell at a later level, type SLIST. This will give you a\nlist of all spells, skills and weapon types you may practice. Slist also\ngives you information on what level you may practice each, to what percent\nyou are currently practiced in each, and what the maximum percent that you\nmay practice each.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10309
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10311": {
+      "vnum": 10311,
+      "name": "Lost in the Lyceum",
+      "description": "There are several special exit types that you may encounter in your travels.\nYou have experienced open exits and closed doors to this point. There are\nalso hidden doors. The hidden door can not be found with the \"bump\" method.\nOften they will not show up with the \"look\" method either. These exits are\nfound by reading room descriptions, mobiles descriptions and looking at\nobjects. You are looking for words that stand out, those words will be the\ndoor name. You will also find doors that are locked. You may get past some\nlocked doors with the pass door spell, the pick door skill or bash door skill.\nSome doors may only be passed by using the matching key. Other exits you\nmay find require you to be skilled in climb or affected by the fly spell.\nAll exits are in real directions that can be abbreviated to the following:\nN, E, W, S, NE, NW, SE, SW, U, or D. There are also SOMEWHERE exits that\nuse \"leave\", \"climb\", \"enter\", or just a word to use. To the north you\nwill experience a hidden exit, use the room description to find the door name.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10309,
+        "north": 10312,
+        "up": 10304
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10312": {
+      "vnum": 10312,
+      "name": "Lost in the Lyceum",
+      "description": "You are standing in a richly decorated room. A large oak table surrounded\nby twelve chairs dominates a large portion of the area. Crystal globes with\ncontinual light spells cast on them hover about the room, providing a soft\ncomfortable light. The walls are adorned with tapestries of the finest\nquality. The tapestry on the west wall draws your attention more so than\nthe others. Now, you have many clues on the possible exit. Try to find the\nright word by typing LOOK \u003cword\u003e. For example, try LOOK GLOBES. Sometimes\nlooking at other things in the rooms description will lead you to the word\nthat will open the exit.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10311,
+        "up": 10304,
+        "west": 10313
+      },
+      "exdescs": {
+        "crystal": "This globes cast shadows in the corners. The shadows on the west\ntapestry almost appears to be an opening.",
+        "door": "You see a cleverly disguised door.",
+        "globes": "This globes cast shadows in the corners. The shadows on the west\ntapestry almost appears to be an opening.",
+        "tapestry": "Upon closer inspection you realise that this is not even a tapestry, but\na cunningly camouflaged wall! You can see the outline of a door as you\nlook closer.",
+        "w": "You see a tapestry on the wall.",
+        "west": "You see a tapestry on the wall here, something just isn't right about it."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10313": {
+      "vnum": 10313,
+      "name": "A Secret Alcove",
+      "description": "Well Done! You have found this secret room. Sometimes these secret rooms\nwill contain valuable items or will lead to other parts of the area you\nare exploring. Always pay close attention to room descriptions, mobiles\ndescriptions and items, this will many times bring profitable results.\nThis is a where you will experience a Somewhere exit. To find your way\nout, try looking at the picture on the wall. If you can not figure it out,\nyou may leave by the up exit. Good luck!",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10312,
+        "somewhere": 10302,
+        "up": 10304
+      },
+      "exdescs": {
+        "crack": "This is a huge CRACK, you could probably squeeze through it.",
+        "door": "You see an oak door.",
+        "picture": "This is a picture of fresh cut flowers in a glass vase. It seems to\nbe hanging here just to cover a huge crack. That crack is so large, you\ncan probably squeeze through it! Perhaps you should look closer at the\ncrack. HINT: type CRACK.",
+        "wall": "This is a picture of fresh cut flowers in a glass vase. It seems to\nbe hanging here just to cover a huge crack. That crack is so large, you\ncan probably squeeze through it! Perhaps you should look closer at the\ncrack. HINT: type CRACK."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10314": {
+      "vnum": 10314,
+      "name": "A Marble Corridor",
+      "description": "This room will teach you several commands to check your statistics and\ncharacter health. These commands are SCORE, EQUIPMENT, INVENTORY, and\nLEVEL. Score is used by typing SC, it tells you all the basic statistics\nabout your character. Equipment is used by typing EQ, this shows you all\nthe items you are currently wearing. Inventory is used by typing I, and\nshows you all items you are carrying other than your worn equipment.\nLevel is used by typing LEVEL, it show your current level, your current\nexperience points, and the experience needed for the next few levels.\nUse the help menu to get more information on the topics covered here,\ntype HELP \u003csubject\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10317,
+        "south": 10304
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10315": {
+      "vnum": 10315,
+      "name": "Preparing for combat",
+      "description": "The time is drawing near to experience combat.  Directly below you now is\nthe Chadoyn Pit, the home of a creature which will assist you in learning\nhow to initiate combat.  The Chadoyn is not aggressive, which means you\nmust begin the fight.  There are many ways to start a fight, the quickest\nway is to type KILL \u003cmob\u003e.  As you gain skills and spells, you may find\nmany of them are also capable of initiating combat.\n\nSome of the more popular spells used to start an attack are DISPEL MAGIC,\nSLEEP, CHARM PERSON, BLINDNESS, WEAKEN, CURSE, and FAERIE FIRE.  Some of\nthe most popular skills used to begin an attack are STEAL and BACKSTAB.\n  ** These skills and spells WILL also begin an attack on a player **\n\nWands, staves and scrolls may also be used to start fights.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10316": {
+      "vnum": 10316,
+      "name": "A Dank Pit",
+      "description": "This room explains about WIMPY, FLEE, and RECALL as a way to leave from\ncombat. Wimpy is an automatic withdrawal from a fight when your hitpoints\nreach a set minimum. To set your wimpy, type WIMPY or WIMPY \u003cnumber\u003e. The\nnumber being the amount of hitpoints you want remaining when you leave the\nbattle. You will lose experience for wimpying out of a fight, but the amount\nof experience lost will generally be less then the amount lost from death.\nYou may also manually withdraw from a fight with flee. To use flee, just\ntype FLEE. You may flee out of the fight at any amount of hitpoints. Fleeing\nwill cost you loss of experience. You may also \"recall\" from a fight. This\nis done with the spell \"word of recall\" or reciting a recall scroll. You\nlose more experience when you recall from a fight then when you use wimpy\nor flee. Recall should be used as a last resort.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10308
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10317": {
+      "vnum": 10317,
+      "name": "A Marble Corridor",
+      "description": "Congratulations! You have come far in your training. Your next step is\ngetting your equipment from the cage mobs. Northeast of here is the\nAcademy Spectre, he will cast spells on you to help you with your fights.\nSit with him until you are ready to advance into the cages and proceed\nwith your training.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "northeast": 10325,
+        "south": 10314
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10318": {
+      "vnum": 10318,
+      "name": "Hall of the Warrior",
+      "description": "You see shields of every make and shape mounted on the walls here. Donated\nby the warriors who have passed through these hallowed halls before you. The\nclash and ring of steel can be heard coming from the floor beneath you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10319": {
+      "vnum": 10319,
+      "name": "The Lyceum Healer",
+      "description": "This is a healer. You will find many of them throughout the game. Their\npurpose is to cast spells of armor, bless, cure blindness, cure poison,\ncure light, and refresh. The healer casts these spells randomly to the\ncharacters in the room. Some healers have programs that will allow you\nto purchase certain spells for coins. Others have programs that will give\nyou a spell when you say a certain word or phrase, or do a certain social\nto them. It is important to look at mobiles to read their descriptions.\nMany will have hints in their descriptions that will tell you what to\nsay or do to get their favor.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10382
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10320": {
+      "vnum": 10320,
+      "name": "Hall of the Druid",
+      "description": "Walking along this hall is strangely reminiscent of a stroll through a\nlush forest. A light breeze touches your cheek and you look twice to make\nsure you are indeed in Darkhaven Academy. You see a soft glow coming from\nthe floor.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10326
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10321": {
+      "vnum": 10321,
+      "name": "Hall of the Vampire",
+      "description": "The hall is so dimly lit here that details are hard to discern. The rustle\nof dead leaves, blowing in the wind, fills your ears. As you grow to realize\nthey are more whispers than leaves, you find yourself compelled. Willingly,\nyou proceed to their source.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10327
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10322": {
+      "vnum": 10322,
+      "name": "Hall of the Thief",
+      "description": "You have the distinct feeling that you are not the only person here.\nEvery now and then you catch glimpses of shadows dancing across the wall.\nYou can feel a slight breeze, as if someone has passed close by you. Upon\nsearching the area, you confirm you are the only person in sight.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10328
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10323": {
+      "vnum": 10323,
+      "name": "Hall of the Mage",
+      "description": "The pungent odour of sulphur is dominant here. Fine mists cover the floor,\nand a harsh chanting seems to be coming from all around you. Thunder claps\nand bursts of light can be seen and heard coming from below you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10329
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10324": {
+      "vnum": 10324,
+      "name": "Hall of the Cleric",
+      "description": "A feeling of utter peace and tranquility fills your spirit, ahead you\nsee the horrors of your nightmares come to life, not giving them a second\nglance you pass right through them to fulfill your destiny.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10330
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10325": {
+      "vnum": 10325,
+      "name": "Chamber of Trials",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10342,
+        "north": 10339,
+        "south": 10340,
+        "southwest": 10317,
+        "west": 10341
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10326": {
+      "vnum": 10326,
+      "name": "Chamber of Trials for Druids",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10346,
+        "north": 10343,
+        "south": 10344,
+        "west": 10345
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10327": {
+      "vnum": 10327,
+      "name": "Chamber of Trials for Vampires",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10350,
+        "north": 10347,
+        "south": 10348,
+        "west": 10349
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10328": {
+      "vnum": 10328,
+      "name": "Chamber of Trials for Thieves",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10354,
+        "north": 10351,
+        "south": 10352,
+        "west": 10353
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10329": {
+      "vnum": 10329,
+      "name": "Chamber of Trials for Mages",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10338,
+        "north": 10335,
+        "south": 10336,
+        "west": 10337
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10330": {
+      "vnum": 10330,
+      "name": "Chamber of Trials for Clerics",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10334,
+        "north": 10332,
+        "south": 10333,
+        "west": 10331
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10331": {
+      "vnum": 10331,
+      "name": "Clerics West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10330
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10332": {
+      "vnum": 10332,
+      "name": "Clerics North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10330
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10333": {
+      "vnum": 10333,
+      "name": "Clerics South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10330
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10334": {
+      "vnum": 10334,
+      "name": "Clerics East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10330
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10335": {
+      "vnum": 10335,
+      "name": "Mages North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10329
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10336": {
+      "vnum": 10336,
+      "name": "Mages South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10329
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10337": {
+      "vnum": 10337,
+      "name": "Mages West Room",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10329
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10338": {
+      "vnum": 10338,
+      "name": "Mages East Room",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10329
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10339": {
+      "vnum": 10339,
+      "name": "North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10340": {
+      "vnum": 10340,
+      "name": "South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10341": {
+      "vnum": 10341,
+      "name": "West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10342": {
+      "vnum": 10342,
+      "name": "East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10343": {
+      "vnum": 10343,
+      "name": "Druids North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10326
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10344": {
+      "vnum": 10344,
+      "name": "Druids South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10326
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10345": {
+      "vnum": 10345,
+      "name": "Druids West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10326
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10346": {
+      "vnum": 10346,
+      "name": "Druids East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10326
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10347": {
+      "vnum": 10347,
+      "name": "Vampires North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10327
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10348": {
+      "vnum": 10348,
+      "name": "Vampires South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10327
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10349": {
+      "vnum": 10349,
+      "name": "Vampires West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10327
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10350": {
+      "vnum": 10350,
+      "name": "Vampires East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10327
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10351": {
+      "vnum": 10351,
+      "name": "Thieves North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10328
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10352": {
+      "vnum": 10352,
+      "name": "Thieves South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10328
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10353": {
+      "vnum": 10353,
+      "name": "Thieves West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10328
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10354": {
+      "vnum": 10354,
+      "name": "Thieves East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10328
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10355": {
+      "vnum": 10355,
+      "name": "The Room of Portals",
+      "description": "This is the portal room which leads to the training hall for each of the\nclasses.  Prepare to be transferred once your presence is noticed.  It may\ntake a few moments, so please be patient.  Should you decide you are not\nready to face the Chamber of Trials, you can return to the south.  You\nnotice a large certificate on the wall; at least you have something\nto read while you wait.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {
+        "certificate": "I have enjoyed writing the revision of the Darkhaven Academy. I wanted\nthe new players armed with as much information as possible before venturing\ninto the open game. Take your time here, learning the commands and seeing\nhow the programs on the mobs and items work. It will help you later in your\ntravels. If you have trouble understanding anything you find in the Academy,\ntype WHO 51 and ask an immortal for assistance. I wish you well in your\nadventuring. May you enjoy many hours of joy and develop many friendships.\n\n                     Warm Huggles,\n                     Brittany Seccunda-DethBlayde\n                     February 9, 1996\n\n** Please be sure to read HELP RULES STAKE prior to engaging in fighting.\n** Staking a mob is illegal, as is stealing a kill.",
+        "wall": "I have enjoyed writing the revision of the Darkhaven Academy. I wanted\nthe new players armed with as much information as possible before venturing\ninto the open game. Take your time here, learning the commands and seeing\nhow the programs on the mobs and items work. It will help you later in your\ntravels. If you have trouble understanding anything you find in the Academy,\ntype WHO 51 and ask an immortal for assistance. I wish you well in your\nadventuring. May you enjoy many hours of joy and develop many friendships.\n\n                     Warm Huggles,\n                     Brittany Seccunda-DethBlayde\n                     February 9, 1996\n\n** Please be sure to read HELP RULES STAKE prior to engaging in fighting.\n** Staking a mob is illegal, as is stealing a kill."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10356": {
+      "vnum": 10356,
+      "name": "A Stone Corridor",
+      "description": "This is the stage of your training where you may begin to feel pangs of\nhunger and a parched throat. In other words, you need food and drink. To\nthe east is the Lyceum Supply Store. You may purchase water and some meat.\nOnce you have eaten and drunk, you will be ready to proceed north.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10357,
+        "south": 10358,
+        "up": 10325
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10357": {
+      "vnum": 10357,
+      "name": "Lyceum Supply Store",
+      "description": "This is a regular shop, you type LIST to see what you can purchase and\nBUY \u003citem\u003e to make the purchase. Like many other places in the game,\nyou may bribe the storekeeper to give you an item. There are many mobs\nin this world that will sell you keys, items or information in exchange\nfor a few gold coins. Be sure to look at the mobiles for hints on these\ntypes of programs.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "west": 10356
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10358": {
+      "vnum": 10358,
+      "name": "A Stone Corridor",
+      "description": "In this part of the academy you will learn about the Death Trap, more\ncommonly known as a DT. A death trap is exactly as its name states, a\nroom that causes your death. Unlike a regular death, you do not lose\nyour hitpoints and you do not leave a corpse behind. All the items you\nwere wearing and carrying are destroyed. You do not leave a corpse behind.\nYou are then transported back to the Temple in Darkhaven. Going west will\ngive you more information about death traps.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10356,
+        "south": 10360,
+        "west": 10359
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10359": {
+      "vnum": 10359,
+      "name": "Slow Death",
+      "description": "This is what you will see if you stumble into a death trap.  As previously\nstated, a DT kills instantaneously and destroys any and all equipment you\nhave at the time.  Hints as to the placement of a death trap are sometimes\ngiven in the room that preceeds them.  Also remember to use \"exit\" and\n\"look\" to find these deadly rooms.  Note:  no DTS are found in Darkhaven.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10358
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10360": {
+      "vnum": 10360,
+      "name": "A Stone Corridor",
+      "description": "One final challenge remains for you. Then you may enter the battlegrounds\nto further hone your combat skills. To the west is a creature that holds\nthe visor of completion. Kill him and it is yours.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10358,
+        "west": 10361
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10361": {
+      "vnum": 10361,
+      "name": "A Final Test",
+      "description": "You can hear the clash of steel and chanting coming from somewhere above\nyou. This room smells of decay. The walls are dripping with some sort of\ngreen ichor. It looks as if it is burning right through. You see a flash\nof light from the above, then it is gone.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10360,
+        "up": 10362
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10362": {
+      "vnum": 10362,
+      "name": "In the middle of the eastern wall",
+      "description": "This is the Academy entrance to the Battleground. Below here is the lower\nlevel of the Academy. The battleground were supplied to allow you to further\nhone the combat skills learned in your schooling. Kill the beasts that wander\nhere. If you wish to leave, exiting up will take you to Lord Toric.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 10361,
+        "north": 10363,
+        "south": 10365,
+        "up": 10319,
+        "west": 10369
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10363": {
+      "vnum": 10363,
+      "name": "Along the eastern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10364,
+        "south": 10362,
+        "up": 10319,
+        "west": 10370
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10364": {
+      "vnum": 10364,
+      "name": "North-East Corner",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10363,
+        "up": 10319,
+        "west": 10371
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10365": {
+      "vnum": 10365,
+      "name": "Along the eastern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10362,
+        "south": 10366,
+        "up": 10319,
+        "west": 10368
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10366": {
+      "vnum": 10366,
+      "name": "South-East Corner",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10365,
+        "up": 10319,
+        "west": 10367
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10367": {
+      "vnum": 10367,
+      "name": "Along the southern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10366,
+        "north": 10368,
+        "up": 10319,
+        "west": 10376
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10368": {
+      "vnum": 10368,
+      "name": "Battle Grounds",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10365,
+        "north": 10369,
+        "south": 10367,
+        "up": 10319,
+        "west": 10375
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10369": {
+      "vnum": 10369,
+      "name": "Mid-way in the Battlegrounds",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10362,
+        "north": 10370,
+        "south": 10368,
+        "up": 10319,
+        "west": 10374
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10370": {
+      "vnum": 10370,
+      "name": "Battle Grounds",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10363,
+        "north": 10371,
+        "south": 10369,
+        "up": 10319,
+        "west": 10373
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10371": {
+      "vnum": 10371,
+      "name": "Along the northern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10364,
+        "south": 10370,
+        "up": 10319,
+        "west": 10372
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10372": {
+      "vnum": 10372,
+      "name": "In the middle of the northern wall",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10371,
+        "south": 10373,
+        "up": 10319,
+        "west": 10381
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10373": {
+      "vnum": 10373,
+      "name": "Central Battlegrounds",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?  You can hear a load wail of pain coming from\nsomewhere below!  Yet another sound catches your attention, as someone\nsuccumbs to death.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 10406,
+        "east": 10370,
+        "north": 10372,
+        "south": 10374,
+        "up": 10319,
+        "west": 10380
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10374": {
+      "vnum": 10374,
+      "name": "The Center of the Battlegrounds",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10369,
+        "north": 10373,
+        "south": 10375,
+        "up": 10319,
+        "west": 10379
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10375": {
+      "vnum": 10375,
+      "name": "Central Battlegrounds",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10368,
+        "north": 10374,
+        "south": 10376,
+        "up": 10319,
+        "west": 10378
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10376": {
+      "vnum": 10376,
+      "name": "In the middle of the southern wall",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10367,
+        "north": 10375,
+        "up": 10319,
+        "west": 10377
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10377": {
+      "vnum": 10377,
+      "name": "Along the southern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10376,
+        "north": 10378,
+        "up": 10319,
+        "west": 10386
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10378": {
+      "vnum": 10378,
+      "name": "Battle Grounds",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10375,
+        "north": 10379,
+        "south": 10377,
+        "up": 10319,
+        "west": 10385
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10379": {
+      "vnum": 10379,
+      "name": "Mid-way in the Battlegrounds",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10374,
+        "north": 10380,
+        "south": 10378,
+        "up": 10319,
+        "west": 10384
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10380": {
+      "vnum": 10380,
+      "name": "Battle Grounds",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10373,
+        "north": 10381,
+        "south": 10379,
+        "up": 10319,
+        "west": 10383
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10381": {
+      "vnum": 10381,
+      "name": "Along the northern wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10372,
+        "south": 10380,
+        "up": 10319,
+        "west": 10382
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10382": {
+      "vnum": 10382,
+      "name": "North-West Corner",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Lyceum.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10381,
+        "north": 10300,
+        "south": 10383,
+        "up": 10319
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10383": {
+      "vnum": 10383,
+      "name": "Along the western wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10380,
+        "north": 10382,
+        "south": 10384,
+        "up": 10319
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10384": {
+      "vnum": 10384,
+      "name": "In the middle of the western wall",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10379,
+        "north": 10383,
+        "south": 10385,
+        "up": 10319
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10385": {
+      "vnum": 10385,
+      "name": "Along the western wall",
+      "description": "You hear the howl of some unnatural beast echo off the walls. The ground\nis stained with dried blood, looking closer you see tracks of some sort\nof creature ... but what?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10378,
+        "north": 10384,
+        "south": 10386,
+        "up": 10319
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10386": {
+      "vnum": 10386,
+      "name": "South-West Corner",
+      "description": "This area will allow you to further hone your combat skills. Kill the beasts\nthat wander here. If you wish to leave, exiting up will take you to the room\nfor Toric, the Lord of Healing, in the Darkhaven Academy. You see some strange\nsymbols glowing in the ground here.  They look like RUNES.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 10392,
+        "east": 10377,
+        "north": 10385,
+        "up": 10319
+      },
+      "exdescs": {
+        "runes": "Going down into this hole will take you to the domain of the Naga. Be careful\nthey are aggressive, proceed at your own risk!."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10387": {
+      "vnum": 10387,
+      "name": "Rangers South Cage",
+      "description": "The stench of rotting corpses assaults your senses. Bits of bone and pieces\nof rusted armor are strewn about the cage. Remember, kill, loot the corpse,\nthen sacrifice the corpse. You may type CONFIG +AUTOSAC to have all corpse\nsacrificed automatically at the mobiles death. You must use caution when\nusing autosac as items still inside the corpse are also sacrificed. Even\nif you have CONFIG +AUTOLOOT, there are times when your hands are full or\nyou have reached maximum weight and will be unable to get everything from\nthe corpse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10305
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10388": {
+      "vnum": 10388,
+      "name": "Rangers East Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name. This\nmob can be killed using KILL CAGE or KILL KOBOLD. All the other cage mobs\nare similarly named. The mobs in the battlegrounds will all be referred to\nas \"arena\" in addition to their name. Also, all equipment available in the\nAcademy is named \"academy\". You can WEAR ACADEMY or REMOVE ACADEMY in\naddition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10305
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10389": {
+      "vnum": 10389,
+      "name": "Rangers North Cage",
+      "description": "As you loot the corpses you will be collecting your equipment, you need to\nlearn the commands for using your equipment. The commands are: GET, DROP,\nWEAR, WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. To get a piece of equipment\nfrom a corpse you type GET \u003citem\u003e CORPSE. To get an item from the ground\nyou type GET \u003citem\u003e. To drop a piece of equipment from your inventory, type\nDROP \u003citem\u003e. To wear an item, type WEAR \u003citem\u003e or WEAR ALL. To wield a\nweapon, type WIELD \u003citem\u003e. You may not wield a weapon if you are already\nwielding one, you must first remove the weapon you are using. To remove a\nweapon or item, type REMOVE \u003citem\u003e. Many pieces of equipment may be damaged\nand repaired. To see the condition of a piece of equipment, type EXAM \u003citem\u003e.\nIf is it in need of repair, you need to find a blacksmith. Once in the room\nwith the blacksmith, remove item to inventory and type REPAIR \u003citem\u003e.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10305
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10390": {
+      "vnum": 10390,
+      "name": "Rangers West Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from the corpse, and\nthen sacrifice the corpse. Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it. To use, type SAC CORPSE.\nYou may also sacrifice unwanted items, by first dropping them on the ground,\nthen typing SAC \u003citem\u003e. For more information on sacrifice, see the help.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10305
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10391": {
+      "vnum": 10391,
+      "name": "Hall of the Ranger",
+      "description": "The freedom of the wild, always has it fascinated you. To be free in the\nland, independent of cities and civilizations. These thoughts flood your\nmind as you walk this hallway.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10305
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10392": {
+      "vnum": 10392,
+      "name": "In a Humid Cavern.",
+      "description": "You are standing in an underground cavern, moss is prevalent along the ceiling\nand walls. A steady dripping is echoing through the area and seems to be coming\nfrom everywhere.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "up": 10386,
+        "west": 10393
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10393": {
+      "vnum": 10393,
+      "name": "In the Cavern",
+      "description": "The steady sound of hissing can be heard in the distance.  The air here\nis extremely humid, you are finding it very difficult to breathe.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10392,
+        "south": 10394
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10394": {
+      "vnum": 10394,
+      "name": "In the Cavern",
+      "description": "You feel as if you are being pulled into the mire, the constant dampness\nof the cavern has caused the ground to be turned into a mud bog.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10395,
+        "north": 10393,
+        "west": 10396
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10395": {
+      "vnum": 10395,
+      "name": "Deeper in the Cavern",
+      "description": "The steady sound of hissing can be heard in the distance, closer actually\nthan you would like. The air here is humid and breathing is difficult.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10397,
+        "west": 10394
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10396": {
+      "vnum": 10396,
+      "name": "In the Cavern",
+      "description": "You feel you are being pulled into the mire, the constant dampness and\nhumidity have caused the ground to be transformed into a mud bog.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10394
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10397": {
+      "vnum": 10397,
+      "name": "Cove of the Queen",
+      "description": "You have inadvertently stumbled upon the cove of the Queen of the Nagas.\nThis room is littered with bloated corpses of adventurers who have been\nreported lost in the past few days.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10395
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10398": {
+      "vnum": 10398,
+      "name": "DELETE THIS ROOM",
+      "description": "This room is for questions and problems you may find as a new player.\nAll level of players are welcome to post questions/suggestions here.\nIf you are between level 1 and level 10, you may receive a piece of\nnote paper and a quill to write with by typing:    NOD\n\nIf you are above level 10 and wish to post here, you can buy note paper\nin Darkhaven. Please type HELP NOTE to learn how to write a note. There\nis no use of profanity on this or any note board.\n\n**--**     Any note posted here may be removed at any time.     **--**",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "silence": true
+      },
+      "exits": {
+        "west": 10300
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10399": {
+      "vnum": 10399,
+      "name": "Blazing Chamber",
+      "description": "This chamber is covered with runes of warding and power a ball of scrying\nhovers in front of Scarab's throne. The throne is made from the bones of\nhis mortal self before he passed onto the realm of immortality. Looking\nyou discover a t.v. and vcr behind the throne for use when the Realms are\nnot in need of the Lord of Dark Magic.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10400": {
+      "vnum": 10400,
+      "name": "Hall of the Augurer",
+      "description": "This chamber is filled with an aura of utter calmness and peace.  The\nwalls are painted a soft hue, adding to the affect.  Here is were the\nAugurers come to meditate and reflect upon their activities of the\nday.  Small, spartan cots line the walls, each well-padded to make a\ncomfortable resting place for an exhausted adventurer.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10401
+      },
+      "exdescs": {
+        "cots": "Several cots line each wall. They look like they are very comfortable.",
+        "walls": "The walls are painted a soft blue, adding a calm feeling to the place."
+      },
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10401": {
+      "vnum": 10401,
+      "name": "Chamber of Trials for Augurers",
+      "description": "Here you will experience your first full combat against MOBILES, also known\nas MOBS. Mobile is the name used for monsters and the like in the game.\nAll exits, except down, lead to a CAGE mob. Some of these cage mobs may be\naggressive and will attack you upon entering their room. As you kill them,\nyou will gain experience, as well as academy equipment and gold. Once you\nhave defeated a mob, type GET ALL CORPSE to loot the coins and equipment.\nYou may also type CONFIG +AUTOLOOT or CONFIG +AUTOGOLD. Autoloot will take\neverything from the corpse when you kill it. Autogold will take only the\ngold from the corpse. When you loot a corpse of equipment, the items are\ntransferred to your inventory. You may suffer injury during the battle, so\nreturn here and type REST or SLEEP. This will speed your healing process.\nWhen you are finished healing, type WAKE or STAND to continue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 10356,
+        "east": 10403,
+        "north": 10402,
+        "south": 10404,
+        "west": 10405
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10402": {
+      "vnum": 10402,
+      "name": "Augurers North Cage",
+      "description": "As you loot the corpses you will collect basic Academy equipment.  The\ncommands for using your new belongings are:  GET, DROP, WEAR, WIELD, HOLD,\nREMOVE, REPAIR, and EXAMINE.  \"Get \u003citem\u003e\" or \"get \u003citem\u003e corpse\" takes an\nobject from the ground or from a corpse and places it into your inventory.\nTo wear an item from your inventory type \"wear item\", and to remove it and\nreturn it to your inventory type \"remove \u003citem\u003e\".  To drop an item in your\ninventory, type \"drop \u003citem\u003e\".  To wield a weapon, type \"wield \u003cweapon\u003e\".\nMany items may be damaged and repaired.  To see an item's condition, type\n\"exam \u003citem\u003e\".  To repair an item type \"repair \u003citem\u003e\" at a blacksmith.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10401
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10403": {
+      "vnum": 10403,
+      "name": "Augurers East Cage",
+      "description": "Kill this \"cage\" mob, remove the \"academy\" equipment from its corpse, and\nthen sacrifice the corpse.  Sacrifice is as the name states, you sacrifice\nthe corpse to the gods and they reward you for it (albeit minorly).  To use,\ntype 'sac corpse'.  You may also sacrifice unwanted items by first dropping\nthem and then typing 'sac \u003citem\u003e'.  See 'help sacrifice' for information.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 10401
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10404": {
+      "vnum": 10404,
+      "name": "Augurers South Cage",
+      "description": "The stench of rotting corpses assaults your nostrils, while bits of bone\nand pieces of rusted armor are strewn about the cage.  Remember - kill,\nloot the corpse, then sacrifice the corpse.  You may type 'config +autosac'\nto have all corpse sacrificed automatically when you kill the creature.\nYou must use caution when using autosac, as items still inside the corpse\nare also sacrificed.  Even if you have 'config +autloot', there are times\nwhen your hands are full or you have reached maximum weight and will be\nunable to get everything from the corpse automatically.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10401
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10405": {
+      "vnum": 10405,
+      "name": "Augurers West Cage",
+      "description": "The cage mobs are all named \"cage\" in addition to their actual name, thus\nthese creatures can be killed using 'kill cage' or 'kill kobold'.  All the\nother cage mobs are similarly named.  The mobs in the battlegrounds will all\nbe referred to as \"arena\" in addition to their name.  Also, all equipment\navailable in the Academy is named \"academy\".  You can 'wear academy' or\n'remove academy' in addition to the actual name of the item.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10401
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10406": {
+      "vnum": 10406,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "You have left the relative saftey of the battlegrounds above.  A thick\nstench of death, moisture, and heat mix to assault your every breath.\nThe walls of this tunnel are covered with a slimy layer of a liquid\nsimilar to sweat.  Below your feet, the ground seems to sink slightly,\nbarely handling your weight.  Crudely carved tunnels lead deeper into\nthis underground chamber to the southwest and southeast.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "southeast": 10407,
+        "southwest": 10427,
+        "up": 10373
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10407": {
+      "vnum": 10407,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The walls of this tunnel are close, barely allowing you passage.\nThe earth under your feet is damp and sticking to your boots.  A\nsqueal can be heard coming from the south.  You may want to return\nback to the safety of the Battlegrounds.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northwest": 10406,
+        "south": 10408
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10408": {
+      "vnum": 10408,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "Darkness engulfs this tunnel, making it impossible to see without a\nlight source.  Water drips slowly down the tunnel walls, adding to\nthe moisture in the soil and humidity in the air.  This place does\nappear to be very welcoming.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10409,
+        "north": 10407
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10409": {
+      "vnum": 10409,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The walls of this tunnel are close, barely allowing you passage.\nThe earth under your feet is damp and sticking to your boots.  A\nsqueal can be heard coming from the south.  You may want to return\nback to the safety of the Battlegrounds far towards the north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 10410,
+        "west": 10408
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10410": {
+      "vnum": 10410,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "Darkness engulfs this tunnel, making it impossible to see without a\nlight source.  Water drips slowly down the tunnel walls, adding to\nthe moisture in the soil and humidity in the air.  This place does\nappear to be very welcoming.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10409,
+        "south": 10411
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10411": {
+      "vnum": 10411,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "You have entered a opening in the rock, and can see a large cavern\nto the east.  Sounds echo around you, coming from everywhere and\nnowhere. This place gives you a sick feeling in the pit of your\nstomach.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10410,
+        "south": 10412,
+        "southwest": 10416,
+        "west": 10420
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10412": {
+      "vnum": 10412,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The tunnel stops abruptly at the southern wall.  There are several\nopenings leading away from the tunnel, into a large cavern.  You can\nhear a lot of noise in the area, and none of it sounds pleasant.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10411,
+        "northwest": 10420,
+        "southwest": 10413,
+        "west": 10416
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10413": {
+      "vnum": 10413,
+      "name": "A hollow cavern deep underground",
+      "description": "Booming echoes overwhelm your senses.  Loud dripping, sounding like\nmany large hammers crashing against the stone walls, assault your every\nmoment. Cries of death surround and torment you.  You get a distinct\nurge to move away from here as quickly, and unnoticed, as possible.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10416,
+        "northeast": 10412,
+        "northwest": 10417,
+        "west": 10414
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10414": {
+      "vnum": 10414,
+      "name": "A hollow cavern deep underground",
+      "description": "The sounds seem to coalesces here, making one noise indistinguishable\nfrom the next.  The cavern wall to the south seems to be sweating,\ndrips of water roll down its face, collecting in a puddle at your feet.\nYou have a desire to leave this place, and venture somewhere less\ndeafening.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10413,
+        "north": 10417,
+        "northeast": 10416,
+        "northwest": 10418,
+        "west": 10415
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10415": {
+      "vnum": 10415,
+      "name": "A hollow cavern deep underground",
+      "description": "Booming echoes overwhelm your senses.  Loud dripping, sounding like\nmany large hammers crashing against the stone walls, assault your every\nmoment. Cries of death surround and torment you.  You get a distinct\nurge to move away from here as quickly, and unnoticed, as possible.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10414,
+        "north": 10418,
+        "northeast": 10417,
+        "northwest": 10419
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10416": {
+      "vnum": 10416,
+      "name": "A hollow cavern deep underground",
+      "description": "You sink a few inches into the mud that makes up the floor of this\ncavern. Darkness and noise punctuate the devestating nothingness\nthat fills this space.  If there is life to be found in this place,\nyou are sure you do not want to run across it.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10412,
+        "north": 10420,
+        "northeast": 10411,
+        "northwest": 10421,
+        "south": 10413,
+        "southwest": 10414,
+        "west": 10417
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10417": {
+      "vnum": 10417,
+      "name": "A hollow cavern deep underground",
+      "description": "As you wander through the muggy darkness, your nose detects the musty\nscents of fungus and decay as your passing stirs the still air.  The\nsounds of battle echo around you as you continue your journey through\nthe gloom, loud enough to make you believe that around the next\ncorner you may find two combatents struggling for life. You continue\nonwards through the gloom, your senses screaming for you to flee before\nit's too late.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10416,
+        "north": 10421,
+        "northeast": 10420,
+        "northwest": 10422,
+        "south": 10414,
+        "southeast": 10413,
+        "southwest": 10415,
+        "west": 10418
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10418": {
+      "vnum": 10418,
+      "name": "A hollow cavern deep underground",
+      "description": "Hollow and barren of color and light, this place is overwhelming with\nsounds and moisture.  The sound of water dripping and wails of pain and\ndeath can be heard all around you.  Whatever resides in this awful place\ndoes not welcome strangers.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10417,
+        "north": 10422,
+        "northeast": 10421,
+        "northwest": 10423,
+        "south": 10415,
+        "southeast": 10414,
+        "west": 10419
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10419": {
+      "vnum": 10419,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The tunnel stops abruptly at the southern wall.  There are several\nopenings leading away from the tunnel, into a large cavern.  You can\nhear a lot of noise in the area, and none of it sounds pleasant.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10418,
+        "north": 10423,
+        "northeast": 10422,
+        "southeast": 10415
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10420": {
+      "vnum": 10420,
+      "name": "A hollow cavern deep underground",
+      "description": "Hollow and barren of color and light, this place is overwhelming with\nsounds and moisture.  The sound of water dripping and wails of pain and\ndeath can be heard all around you.  Whatever resides in this awful place\ndoes not welcome strangers.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10411,
+        "south": 10416,
+        "southeast": 10412,
+        "southwest": 10417,
+        "west": 10421
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10421": {
+      "vnum": 10421,
+      "name": "A hollow cavern deep underground",
+      "description": "To the north is a craggy rock wall of the cavern, covered in a slimy\nfilm of an unknown source.  From all directions you are assaulted by\nhowls of pain, and cries of death.  Moisture clings to your skin,\nmaking you feel much hotter then you should for the air temperature.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10420,
+        "south": 10417,
+        "southeast": 10416,
+        "southwest": 10418,
+        "west": 10422
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10422": {
+      "vnum": 10422,
+      "name": "A hollow cavern deep underground",
+      "description": "You sink a few inches into the mud that makes up the floor of this\ncavern. Darkness and noise punctuate the devestating nothingness\nthat fills this space.  If there is life to be found in this place,\nyou are sure you do not want to run across it.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10421,
+        "south": 10418,
+        "southeast": 10417,
+        "southwest": 10419,
+        "west": 10423
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10423": {
+      "vnum": 10423,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "You have entered a opening in the rock, and can see a large cavern\nto the west.  Sounds echo around you, coming from everywhere and\nnowhere. This place gives you a sick feeling in the pit of your\nstomach.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10422,
+        "north": 10424,
+        "south": 10419,
+        "southeast": 10418
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10424": {
+      "vnum": 10424,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "Darkness engulfs this tunnel, making it impossible to see without a\nlight source.  Water drips slowly down the tunnel walls, adding to\nthe moisture in the soil and humidity in the air.  This place does\nappear to be very welcoming.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10425,
+        "south": 10423
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10425": {
+      "vnum": 10425,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The walls of this tunnel are close, barely allowing you passage.\nThe earth under your feet is damp and sticking to your boots.  A\nsqueal can be heard coming from the south.  You may want to return\nback to the safety of the Battlegrounds far towards the north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 10426,
+        "south": 10424
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10426": {
+      "vnum": 10426,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "Darkness engulfs this tunnel, making it impossible to see without a\nlight source.  Water drips slowly down the tunnel walls, adding to\nthe moisture in the soil and humidity in the air.  This place does\nappear to be very welcoming.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 10427,
+        "west": 10425
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10427": {
+      "vnum": 10427,
+      "name": "A dark tunnel below the Battlegrounds",
+      "description": "The walls of this tunnel are close, barely allowing you passage.\nThe earth under your feet is damp and sticking to your boots.  A\nsqueal can be heard coming from the south.  You may want to return\nback to the safety of the Battlegrounds.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northeast": 10406,
+        "south": 10426
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10429": {
+      "vnum": 10429,
+      "name": "Tower of Trials Ground Level",
+      "description": "The floor is polished marble, with a black and white checker pattern, almost\nlike a giant chess board. A set of stairs in the center of the room spirals\nupward to the next floor. A single stout wooden set of double doors allows\nentry in and out of the tower through the southern wall.",
+      "sector": "inside",
+      "flags": {
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 1200,
+        "up": 10430
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10430": {
+      "vnum": 10430,
+      "name": "Tower of Trials Second Floor",
+      "description": "The floor is polished marble, with a black and white checker\npattern, almost like a giant chess board. A set of stairs in\nthe center of the room spirals upward to the third floor and\ndownward to the ground floor. The walls appear to be made of\nsome sort of grey stone that glows slightly.",
+      "sector": "city",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "down": 10429,
+        "up": 10431
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10431": {
+      "vnum": 10431,
+      "name": "Tower of Trials Third Floor",
+      "description": "The floor is polished marble, with a black and white checker\npattern, almost like a giant chess board. A set of stairs in\nthe center of the room spirals upward to the fourth floor and\ndownward to second floor. The walls appear to be made of\nsome sort of grey stone that glows slightly.",
+      "sector": "city",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "down": 10430,
+        "up": 10432
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10432": {
+      "vnum": 10432,
+      "name": "Tower of Trials Fourth Floor",
+      "description": "The floor is polished marble, with a black and white checker\npattern, almost like a giant chess board. A set of stairs in\nthe center of the room spirals upward to the rooftop and\ndownward to third floor. The walls appear to be made of\nsome sort of grey stone that glows slightly.",
+      "sector": "city",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "down": 10431,
+        "up": 10433
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10433": {
+      "vnum": 10433,
+      "name": "Roof of the Tower of Trials",
+      "description": "You stand on the roof at the top of the tower. Above you, stars twinkle\nbrightly. A vast sea of stars stretches out in all directions below the tower,\nmaking it appear as though the tower floats here in the sky. The top of the\ntower is made of the same stone as the interior walls. It glows softly in time\nwith the twinkling of the stars.",
+      "sector": "city",
+      "flags": {
+        "prototype": true
+      },
+      "exits": {
+        "down": 10432
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10498": {
+      "vnum": 10498,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    },
+    "10499": {
+      "vnum": 10499,
+      "name": "Chamber of the Watch",
+      "description": "Here reside the watchers of the gateway between the Realms and the\noutside world, and from here all new adventurers are observed and\nnoted by the inhabitants herein.\n\n** This room should *not* be used for any activities of any kind\nother than those of the two mobs residing here.  Do not ever move\nor purge either of these mobiles if the pre-auth system is used. **",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Academy",
+      "area_author": "Scarab"
+    }
+  }
+}

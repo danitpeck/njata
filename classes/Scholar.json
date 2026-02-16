@@ -1,0 +1,20 @@
+{
+  "name": "Scholar",
+  "class_id": 12,
+  "races": 4210688,
+  "attr_prime": 3,
+  "attr_second": 0,
+  "attr_deficient": 0,
+  "weapon": 10312,
+  "guild": 3018,
+  "thac0": 18,
+  "thac32": 10,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

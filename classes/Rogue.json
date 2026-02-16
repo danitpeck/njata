@@ -1,0 +1,20 @@
+{
+  "name": "Rogue",
+  "class_id": 11,
+  "races": 512,
+  "attr_prime": 2,
+  "attr_second": 31,
+  "attr_deficient": 0,
+  "weapon": 10312,
+  "guild": 3028,
+  "thac0": 18,
+  "thac32": 8,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

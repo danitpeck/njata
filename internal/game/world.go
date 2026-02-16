@@ -13,14 +13,44 @@ type Player struct {
     Output     Output
     Disconnect func(reason string)
     Location   int
+    AutoExits  bool
+    
+    // Character attributes
+    Class      int // Index into legacy/classes
+    Race       int // Index into legacy/races
+    Sex        int // 0=neuter, 1=male, 2=female
+    Level      int
+    
+    // Vital stats
+    HP         int
+    MaxHP      int
+    Mana       int
+    MaxMana    int
+    Move       int
+    MaxMove    int
+    Gold       int
+    Experience int
+    
+    // Attribute scores (STR, INT, WIS, DEX, CON, LCK, CHM)
+    Attributes [7]int
+    
+    // Combat stats
+    Alignment  int
+    Hitroll    int
+    Damroll    int
+    Armor      int
 }
 
 type Room struct {
     Vnum        int
     Name        string
     Description string
+    Sector      string
+    Flags       map[string]bool
     Exits       map[string]int
     ExDescs     map[string]string
+    AreaName    string
+    AreaAuthor  string
 }
 
 type RoomView struct {
@@ -28,6 +58,8 @@ type RoomView struct {
     Description string
     Exits       []string
     Others      []string
+    AreaName    string
+    AreaAuthor  string
 }
 
 type World struct {
@@ -42,6 +74,8 @@ func CreateDefaultWorld() *World {
         Vnum:        1,
         Name:        "The Crossroads",
         Description: "A simple stone path crosses here, leading to all corners of the land.",
+        Sector:      "",
+        Flags:       map[string]bool{},
         Exits:       map[string]int{},
         ExDescs:     map[string]string{},
     }
@@ -205,6 +239,8 @@ func (w *World) DescribeRoom(player *Player) (RoomView, error) {
         Description: room.Description,
         Exits:       exits,
         Others:      others,
+        AreaName:    room.AreaName,
+        AreaAuthor:  room.AreaAuthor,
     }, nil
 }
 

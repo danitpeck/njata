@@ -6,11 +6,30 @@ import (
     "os"
     "path/filepath"
     "strings"
+
+    "njata/internal/game"
 )
 
 type PlayerRecord struct {
-    Name     string `json:"name"`
-    Location int    `json:"location"`
+    Name       string `json:"name"`
+    Location   int    `json:"location"`
+    Class      int    `json:"class"`
+    Race       int    `json:"race"`
+    Sex        int    `json:"sex"`
+    Level      int    `json:"level"`
+    HP         int    `json:"hp"`
+    MaxHP      int    `json:"max_hp"`
+    Mana       int    `json:"mana"`
+    MaxMana    int    `json:"max_mana"`
+    Move       int    `json:"move"`
+    MaxMove    int    `json:"max_move"`
+    Gold       int    `json:"gold"`
+    Experience int    `json:"experience"`
+    Attributes [7]int `json:"attributes"`
+    Alignment  int    `json:"alignment"`
+    Hitroll    int    `json:"hitroll"`
+    Damroll    int    `json:"damroll"`
+    Armor      int    `json:"armor"`
 }
 
 func LoadPlayer(dir string, name string) (*PlayerRecord, bool, error) {
@@ -54,4 +73,51 @@ func playerPath(dir string, name string) string {
         return '-'
     }, normalized)
     return filepath.Join(dir, normalized+".json")
+}
+
+// PlayerToRecord converts a game.Player to a PlayerRecord for saving
+func PlayerToRecord(p *game.Player) PlayerRecord {
+    return PlayerRecord{
+        Name:        p.Name,
+        Location:    p.Location,
+        Class:       p.Class,
+        Race:        p.Race,
+        Sex:         p.Sex,
+        Level:       p.Level,
+        HP:          p.HP,
+        MaxHP:       p.MaxHP,
+        Mana:        p.Mana,
+        MaxMana:     p.MaxMana,
+        Move:        p.Move,
+        MaxMove:     p.MaxMove,
+        Gold:        p.Gold,
+        Experience:  p.Experience,
+        Attributes:  p.Attributes,
+        Alignment:   p.Alignment,
+        Hitroll:     p.Hitroll,
+        Damroll:     p.Damroll,
+        Armor:       p.Armor,
+    }
+}
+
+// RecordToPlayer applies a PlayerRecord's data to a game.Player
+func RecordToPlayer(p *game.Player, r *PlayerRecord) {
+    p.Location = r.Location
+    p.Class = r.Class
+    p.Race = r.Race
+    p.Sex = r.Sex
+    p.Level = r.Level
+    p.HP = r.HP
+    p.MaxHP = r.MaxHP
+    p.Mana = r.Mana
+    p.MaxMana = r.MaxMana
+    p.Move = r.Move
+    p.MaxMove = r.MaxMove
+    p.Gold = r.Gold
+    p.Experience = r.Experience
+    p.Attributes = r.Attributes
+    p.Alignment = r.Alignment
+    p.Hitroll = r.Hitroll
+    p.Damroll = r.Damroll
+    p.Armor = r.Armor
 }

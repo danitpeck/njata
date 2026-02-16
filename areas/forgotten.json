@@ -1,0 +1,1663 @@
+{
+  "name": "The Forgotten Caverns",
+  "author": "Alyarta",
+  "rooms": {
+    "5000": {
+      "vnum": 5000,
+      "name": "The Forgotten Caverns",
+      "description": "You have just entered the Caverns of the Forgotten Kings. As\nyou look around you notice that the cavern has no light source.\nYou also hear the continuous sound of  [dripping]  water. The\nCaverns has a damp and musty smell to it like it hasn't seen\nthe light of day in over a generation. It appears that the\ncaverns have been recently , attacked due to pieces of the [sarcophagi] lying\non the floor in front of you As you look at the wall there is a [plaque] that\nhas been nailed into it.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 5001
+      },
+      "exdescs": {
+        "dripping": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "plaque": "---------------------------------------------------------------------------\nWelcome to the Caverns of the  Forgotten Kings. The names of the Kings have\nbeen lost. And for the most port so have the Caverns that housed them.\nPeople don't actually know the name of this place so it and most of its\nhistory has almost been entirely forgotten. Hence the name Forgotten\nCaverns. Journey on word my fellow adventurer and see what history  these\nCaverns house for you.\n\nBe Warn tho everyone who entered before you has never come bacK!!!!!\n---------------------------------------------------------------------------",
+        "sarcophagi": "\u0026zAs you look in the sarcophagus. You notice that they are competely empty.",
+        "water": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5001": {
+      "vnum": 5001,
+      "name": "The Forgotten Caverns",
+      "description": "As you travel deeper into the dungeon you notice that the water\ncontinues to  [drip]  and the musty moldy smell seems to be getting worse.\nThat is probably due to the mold that is growing on ceiling in\nhere.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 5002,
+        "up": 5000
+      },
+      "exdescs": {
+        "as": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "at": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "ceiling": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "continues": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "drip": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "dripping": "As you shine your light toward the ceiling you notice the\nmuliply spots the the water is continuing to drip from.",
+        "from": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "light": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "notice": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "shine": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "spots": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "the": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "to": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "water": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "where": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "you": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "your": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5002": {
+      "vnum": 5002,
+      "name": "The Forgotten Caverns",
+      "description": "You have finally entered the heart of the caverns. The\ndrippings seems to have stopped for some reason. As you look\naround, this place was once rich with artifacts. But, due to this\nplace being here for thousands of years, graverobbers have taken\neverything of value.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5003,
+        "up": 5001
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5003": {
+      "vnum": 5003,
+      "name": "The Forgotten Caverns",
+      "description": "As you look around you notice that this must have been an\nimportant place because it's completely empty save for a  [plaque]\non the wall. A  [circle]  on the floor. Who knows what that was\nused for. The walls appear to be very dry lacking of anything\non them.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5004,
+        "south": 5005,
+        "west": 5002
+      },
+      "exdescs": {
+        "circle": "\u0026RAs you look at the ground the circle you noticed as you walked in is a\nlarge red circle with a smaller red  circle in the middle of it. Probablly\nused for a cerimony. But no one knows for sure. Because the place was\nnever documented.",
+        "plaque": "---------------------------------------------------------------------------\nIf you are reading this, then it's for 1 of two reason. Either, you are a\ncrazy adventurer and are comming here to find fame and fourtune. Or, you\nstummbled across the Room of Bright Lights Which for you sake. I hope it\nwas the former not the ladder. having wrote that, either way you are doom\nto live here  forever because no one has entered and left alive... HAHA!!!\n---------------------------------------------------------------------------"
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5004": {
+      "vnum": 5004,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 5006,
+        "south": 5007,
+        "west": 5003
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5005": {
+      "vnum": 5005,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5003,
+        "west": 5027
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5006": {
+      "vnum": 5006,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5008,
+        "south": 5004
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5007": {
+      "vnum": 5007,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5013,
+        "north": 5004
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5008": {
+      "vnum": 5008,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5009,
+        "west": 5006
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5009": {
+      "vnum": 5009,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5010,
+        "west": 5008
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5010": {
+      "vnum": 5010,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5011,
+        "north": 5009,
+        "south": 5012
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5011": {
+      "vnum": 5011,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5015,
+        "west": 5010
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5012": {
+      "vnum": 5012,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5010,
+        "west": 5014
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5013": {
+      "vnum": 5013,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5014,
+        "west": 5007
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5014": {
+      "vnum": 5014,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5012,
+        "west": 5013
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5015": {
+      "vnum": 5015,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5016,
+        "west": 5011
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5016": {
+      "vnum": 5016,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5015,
+        "west": 5017
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5017": {
+      "vnum": 5017,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5016,
+        "west": 5018
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5018": {
+      "vnum": 5018,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5017,
+        "south": 5019
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5019": {
+      "vnum": 5019,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5018,
+        "west": 5020
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5020": {
+      "vnum": 5020,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5019,
+        "west": 5021
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5021": {
+      "vnum": 5021,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5020,
+        "south": 5022,
+        "west": 5023
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5022": {
+      "vnum": 5022,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5021,
+        "south": 5025
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5023": {
+      "vnum": 5023,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5021,
+        "west": 5024
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5024": {
+      "vnum": 5024,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of many rooms where the kings were buried. You notice the 2\n[sarcophagi] in the middle of the room. With desks and [shelves] surrounding\nthem. The Kings were often buried with there most prized possessions.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5023
+      },
+      "exdescs": {
+        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5025": {
+      "vnum": 5025,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5026,
+        "north": 5022
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5026": {
+      "vnum": 5026,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5045,
+        "west": 5025
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5027": {
+      "vnum": 5027,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5005,
+        "south": 5028
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5028": {
+      "vnum": 5028,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5027,
+        "south": 5029
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5029": {
+      "vnum": 5029,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5030,
+        "north": 5028
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5030": {
+      "vnum": 5030,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5031,
+        "west": 5029
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5031": {
+      "vnum": 5031,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5032,
+        "west": 5030
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5032": {
+      "vnum": 5032,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5031,
+        "south": 5033,
+        "west": 5034
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5033": {
+      "vnum": 5033,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of many rooms where the kings were buried. You notice the 2\n[sarcophagi] in the middle of the room. With desks and [shelves] surrounding\nthem. The Kings were often buried with there most prized possessions.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 5032
+      },
+      "exdescs": {
+        "sarchopagi": "",
+        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5034": {
+      "vnum": 5034,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5032,
+        "west": 5035
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5035": {
+      "vnum": 5035,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5034,
+        "south": 5036
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5036": {
+      "vnum": 5036,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5035,
+        "south": 5037
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5037": {
+      "vnum": 5037,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5038,
+        "north": 5036
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5038": {
+      "vnum": 5038,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5039,
+        "west": 5037
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5039": {
+      "vnum": 5039,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5040,
+        "west": 5038
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5040": {
+      "vnum": 5040,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5041,
+        "north": 5039,
+        "west": 5042
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5041": {
+      "vnum": 5041,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of many rooms where the kings were buried. You notice the 2\n[sarcophagi] in the middle of the room. With desks and [shelves] surrounding\nthem. The Kings were often buried with there most prized possessions.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 5040
+      },
+      "exdescs": {
+        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5042": {
+      "vnum": 5042,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5040,
+        "west": 5043
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5043": {
+      "vnum": 5043,
+      "name": "Room of Bright Lights",
+      "description": "This is the room of Blight Lights.\nAs you enter the room,\nyou feel like you are being pulled into another location.\nOne that seems oddly familiar.\nlike you have been here before.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5042,
+        "west": 5003
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5044": {
+      "vnum": 5044,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5045": {
+      "vnum": 5045,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5026,
+        "south": 5046
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5046": {
+      "vnum": 5046,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5047,
+        "north": 5045
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5047": {
+      "vnum": 5047,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5048,
+        "west": 5046
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5048": {
+      "vnum": 5048,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 5049,
+        "south": 5050,
+        "west": 5047
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5049": {
+      "vnum": 5049,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5052,
+        "west": 5048
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5050": {
+      "vnum": 5050,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5051,
+        "north": 5048
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5051": {
+      "vnum": 5051,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5056,
+        "west": 5050
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5052": {
+      "vnum": 5052,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5053,
+        "west": 5049
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5053": {
+      "vnum": 5053,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5054,
+        "south": 5055,
+        "west": 5052
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5054": {
+      "vnum": 5054,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5057,
+        "south": 5053
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5055": {
+      "vnum": 5055,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5053,
+        "west": 5056
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5056": {
+      "vnum": 5056,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5055,
+        "west": 5051
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5057": {
+      "vnum": 5057,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5058,
+        "south": 5054
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5058": {
+      "vnum": 5058,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5059,
+        "west": 5057
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5059": {
+      "vnum": 5059,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5060,
+        "west": 5058
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5060": {
+      "vnum": 5060,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5059,
+        "west": 5061
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5061": {
+      "vnum": 5061,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5060,
+        "south": 5062
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5062": {
+      "vnum": 5062,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5063,
+        "north": 5061
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5063": {
+      "vnum": 5063,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5064,
+        "west": 5062
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5064": {
+      "vnum": 5064,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5065,
+        "west": 5063
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5065": {
+      "vnum": 5065,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5066,
+        "west": 5064
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5066": {
+      "vnum": 5066,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5067,
+        "south": 5065
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5067": {
+      "vnum": 5067,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5068,
+        "south": 5066
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5068": {
+      "vnum": 5068,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5084,
+        "south": 5067,
+        "west": 5069
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5069": {
+      "vnum": 5069,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5068,
+        "west": 5070
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5070": {
+      "vnum": 5070,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5069,
+        "west": 5071
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5071": {
+      "vnum": 5071,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5070,
+        "north": 5093,
+        "west": 5072
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5072": {
+      "vnum": 5072,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5071,
+        "west": 5073
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5073": {
+      "vnum": 5073,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5072,
+        "south": 5074
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5074": {
+      "vnum": 5074,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5076,
+        "north": 5073,
+        "south": 5075,
+        "west": 5080
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5075": {
+      "vnum": 5075,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of many rooms where the kings were buried. You notice the 2\n[sarcophagi] in the middle of the room. With desks and [shelves] surrounding\nthem. The Kings were often buried with there most prized possessions.\nAs you look around you see yet another  [plaque] on the wall.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5074
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nBah!!! so i guess you picked right.. or, you didn't and doubled back or\nmade the right choice the first time and have no idea why i am mad...\neither way you shouldn't of come this far go back while you still can!!!\nYour life depends on it!!! Don't Keep going... You should really quit the\nmud.. There is no point in going on.. If you take my advice you will not\nhave to deal with the issues of finshing this Dungeon.. Trust me you don't\nwant to see the end of it.. It's nasty and not something you want to see.\nJust type quit and never come back!! Trust me...\n---------------------------------------------------------------------------",
+        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5076": {
+      "vnum": 5076,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5077,
+        "west": 5074
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5077": {
+      "vnum": 5077,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5078,
+        "west": 5076
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5078": {
+      "vnum": 5078,
+      "name": "The Forgotten Caverns",
+      "description": "This was once the room to the most important king. or so the story goes,\nnow it just a bland broken room with a door leading to thetreasure room.\nApparently this room is no longer home to the body of the king now it's the\nthrone room to the necromanser that now\ninhabites the place.\nFrom which he orders his minions to do his bidding for him...\nSome of which are living breathing creatures some are just reanimated bodies of\nthe king.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5077,
+        "south": 5079
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5079": {
+      "vnum": 5079,
+      "name": "The Forgotten Caverns",
+      "description": "After laying the kings and covering up the main enterance into\nthe caverns. This room was used as the only way out. The room\nis surrounded by shelves. That may or may not have ever been\ncoverd by things. tho one can assume so since there are broken\n [vases]  on the floor. you notice yet another  [plaque]  nailed to the\nwall in this room.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5078,
+        "up": 5000
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nCongratulation! on killing the evil vial monster.  As you can probably\nguess at this point I lied. I write this because i wrote in the past that\nno one has ever made it out of here alive. Well, how can that be if you\nhave been reading the various plaques that have been scattered though\nout.. At some point you had to think to yourself, how can thses be up if\nno one has lived. By the way, the ladder  you see behind you takes you\nback  to the enterance. so that being the only way out if the main\nenterance is blocked is totally not real. Tho like everything else in\nhere. No one actually knows what happened. For the kings where buried over\n1000 years and no one wrote   who they were, why they were buryed here or\nhow this place  Was built..\n---------------------------------------------------------------------------",
+        "vase": "",
+        "vases": "\u0026YAs you look closely at the pieces of the vase. It looks like it was at\nsome point a very elagent piece of solid gold with an empressive design\npanted on it.. Now it's sadly worth nothing in pieces."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5080": {
+      "vnum": 5080,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5074,
+        "west": 5081
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5081": {
+      "vnum": 5081,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5080,
+        "south": 5082
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5082": {
+      "vnum": 5082,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5083,
+        "north": 5081
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5083": {
+      "vnum": 5083,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of many rooms where the kings were buried. You notice the 2\n[sarcophagi] in the middle of the room. With desks and [shelves] surrounding\nthem. The Kings were often buried with there most prized possessions.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 5082
+      },
+      "exdescs": {
+        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5084": {
+      "vnum": 5084,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 5068,
+        "west": 5085
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5085": {
+      "vnum": 5085,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5084,
+        "south": 5086
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5086": {
+      "vnum": 5086,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5085,
+        "west": 5087
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5087": {
+      "vnum": 5087,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5086,
+        "west": 5088
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5088": {
+      "vnum": 5088,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5087,
+        "north": 5089
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5089": {
+      "vnum": 5089,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 5088,
+        "west": 5090
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5090": {
+      "vnum": 5090,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5089,
+        "west": 5091
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5091": {
+      "vnum": 5091,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.\nAs you look around you notice another  [plaque]  on the wall.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 5090,
+        "south": 5092
+      },
+      "exdescs": {
+        "plaque": "---------------------------------------------------------------------------\nAh!! I see that you are getting farther along in here. To bad you took the\nlong way... Tho to tell you the truth i didn't think you would make it\nthis far. I quess everyone is allowed to make mistakes. But, when you get\nto the fork in the road, are you going to take the right one? No, one has\never gone the right way will you be the first? I guess there is only way\nway to find out...\n---------------------------------------------------------------------------"
+      },
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5092": {
+      "vnum": 5092,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5091,
+        "south": 5093
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5093": {
+      "vnum": 5093,
+      "name": "The Forgotten Caverns",
+      "description": "This is one of the many hallways in the tomb of the forgotten kings. There\nseems to be a lot of them. THere really isn't much differance between one room\nand the next. Just the same bland jagged rock walls lining the sides.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 5092,
+        "south": 5071
+      },
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    },
+    "5099": {
+      "vnum": 5099,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "The Forgotten Caverns",
+      "area_author": "Alyarta"
+    }
+  }
+}

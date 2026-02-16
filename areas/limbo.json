@@ -1,0 +1,1780 @@
+{
+  "name": "Limbo",
+  "author": "RoD",
+  "rooms": {
+    "10": {
+      "vnum": 10,
+      "name": "Immortal Hall of Rules",
+      "description": "Welcome to the immortal community of Realms of Despair!\nBeing an immortal is not all the fun and games of being a mortal...\nIt involves some responsibility, common sense, and some creative role-\nplaying too.\n\n                      THE COMMANDMENTS\n                      ----------------\n\n1) Absolutely NO helping mortals out to an unfair advantage!\n   This includes:\n     - giving, selling or auctioning equipment to mortals\n     - giving gold to mortals\n     - assisting mortals in killing mobiles/monsters\n     - giveaway hints and clues to locations... secret doors... etc.\n     - corpse retrievals are up to your own descretion... use your\n       best judgement. You are allowed to cast kindred strength and\n       give detect invisible to mortals when doing CR's, if required.\n     - if there is no one else to help a newbie get started, or a newbie\n       loses their newbie equipment for some strange reason, you ARE\n       permitted to give them a little assistance (levels 1-5 only).\n\n(Continued in room #11)",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "11": {
+      "vnum": 11,
+      "name": "Immortal Hall of Rules",
+      "description": "2) Switching into a mobile is a power given to you to make the game more\n   interesting to mortals.  Care must be taken to play the role of the\n   mobile... don't act silly, or say \"hey! it's me Joe!\"  And please\n   avoid using the chat channels too much while switched.\n   Be sure NOT to do anything to make the mobile harder or easier to kill\n   and never reveal statistics of the mobile to any players... ie: hit\n   points, gold, items carried, hitroll/damroll etc.\n\n3) Set a good example for the mortals... You are there to keep an eye\n   on things... moderate the chat channels, break up arguments, get rid\n   of nuisance players... etc.  Summon or transfer any \"problem\" players\n   to room #6 (HELL).  All conversation in that location will be LOGGED\n   for review purposes... Don't warn the players about it... ;)\n\n4) Keep an eye on other immortals.  Report any problems to a higher god,\n   or to me, Thoric.  Send me email: Thoric@realms.game.org if need be.\n\n5) We are all here to have fun.  There are certain rules to ensure that\n   players don't get out of hand, and ruin the game for everyone. There\n   are also rules for you to make sure that you don't ruin the game for\n   everyone either. Use your own common sense. If in question, ask a\n   higher level god. Immortality is a privilage, not a right.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "12": {
+      "vnum": 12,
+      "name": "Immortal Hall of Rules",
+      "description": "Immortal Guidelines and Promotion Criteria\n\n*Under no circumstances is an immortal to switch into a mob and remove its\nequipment. Such action will result in immediate recommendation for demotion.\n*Immortals are expected to monitor new players applying for authorization\nand authorize in a timely manner.\n*immortals are expected to enforce the rules of the mud, as well as comply\nwith them.",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "13": {
+      "vnum": 13,
+      "name": "Immortal Hall of Rules",
+      "description": "Creator Guidelines and Promotion Criteria\n\n\nIn addition to all the guidelines and requirements for immortals, the\nfollowing areas will be reviewed when considering a creator for promotion\nto saint.\n\n*A creator is strongly recommended to build a unique area for incorporation\ninto the mud. Although there is no set timeline for its completion, steady\nprogress on the area is expected.\n*A creator is expected to demonstrate a willingness to offer constructive\ninput into the operarion of the mud.\n*A creator is expected to demonstrate the ability to deal with problem\nsituations without the assisttance of higher level immortals.\n\n**Promotions to saint are not taken lightly, creators must understand that\nthe council will want to observe a potential candidtate for a period of\ntime prior to making a recommendation.",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "14": {
+      "vnum": 14,
+      "name": "Mortal Hall of Rules",
+      "description": "1) No form of harassment or spamming will be tolerated.  Spamming is\nrepeatedly communicating to one or more players a message in a\nshort duration of time.\n\n2) The only form of player killing allowed is between two players whose\nnames appear under the \"Deadly Clans\" section of the who list.  Even\nin this case the parties must be withing 10 levels of each other.\n\n3) Profanity and other lewd comments will not be tolerated.  Please\nremain civil when communicating with others.\n\n4) Do not attack or cast spells on any of the Darkhaven storekeepers.  If\nit displays its wares when you type list it is a storekeeper.\n\n5) When any rank of Immortal speaks with you answer their questions quickly\nand honestly.  This will help to ensure things stay fair for all players\nand that any issues that arise are taken care of promptly.\n\n(Please be patient, you will be transported to the next room shortly)",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "safe": true,
+        "teleport": true,
+        "teleshowdesc": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "15": {
+      "vnum": 15,
+      "name": "Mortal Hall of Rules",
+      "description": "6) Player killing is decided the instant you cast any hostile spell or\nmake any aggressive action against a player...actually killing the target\nmeans little.\n\n7) Do not summon or lead any aggressive monsters to areas where the level\nrange is lower then that of the monster's level.  (See areas command\nfor a listing of areas and their level range)\n\n8) Multiplaying is allowed to those not listed in the \"Deadly Clans\"\nsection of the who list.  If any of your characters appears in this\nsection of the who list do not bring any of your other charcters online.\n\n9) Finally, if you have any problems with the game or players please feel\nfree to contact any visible immortal logged on.  If none are present\ndo not take action yourself, rather post a note in the board room\n(south and west of the healers) or wait for an immortal to enter the\ngame.\n\n\nYou will be transported to the Temple of Darkhaven Shortly",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "safe": true,
+        "teleport": true,
+        "teleshowdesc": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "16": {
+      "vnum": 16,
+      "name": "The Hall of Creation --- Overview",
+      "description": "Within these halls are the standard rules and guidelines of area\nbuilding. To the aspiring creator, these rules should be followed as\nmuch as possible.\n\nTHEME --- Before beginning your area, check to make sure no one is using\n  your area theme in mind. Try to have a single idea in your area, rather\n  than many smaller, conflicting ones. Since we are playing in the \"Realms\n  of Despair,\" the area should have a dark, occult feel to it. No items,\n  mobs or rooms in the area should be futuristic or even close to modern\n  day.\nMAZES --- The creation of mazes is encouraged, for it gives the player a\n  mental challenge. However, the area council will not carefully go through\n  it. It is up to the creator to pass through every room and make sure it\n  works properly.\nAREA APPROVAL --- When your area is completed, go through it a couple times\n  to make sure everything is as you want it. Upon doing so, post a note to\n  the area council and they will get around to checking and authorizing it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 17
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "17": {
+      "vnum": 17,
+      "name": "The Hall of Creation --- Rooms",
+      "description": "Here are the general rules to be followed when making your rooms.\n\nROOM NAMES --- Standard names should have all important words capitalized\n  and should end with no punctuation mark.\n  Good example: Wandering the Dark Lands of Ered Mithik\n  Bad example:  Wandering The Dark Lands Of Ered Mithik.\nDESCRIPTIONS --- Skimpy 2-3 sentence room descriptions should be avoided\n  as much as possible. The description should invoke a mental image of\n  the room. Builders should try to avoid describing player actions and\n  emotions in a description, as well as the presence and actions of a\n  mobile in the room (use mobprograms for those).\nSECTORS --- All room sectors must be filled out. Note that the inside\n  sector signifies that there is a roof over the player's head, while\n  the city sector means there is none. All rooms with the inside sector\n  must be accompanied by the indoors flag.\nFLAGS --- Room flags should be carefully thought out so you understand\n  how the players will get to and fight in certain room, as well as how\n  difficult it will be for them to retrieve their corpse.\nEXDESCS --- Exit descriptions should be filled in, especially ones that\n  lead in/out of building and other places of import. An exdesc for a DT\n  is absolutely necessary.\nROOM PROGS --- Feel free to use room programs if needed. These can be used\n  to confuse players or add mood. Depending on your creativity however,\n  there are many things possible with room progs. (This is for level 54+)",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 18,
+        "south": 16
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "18": {
+      "vnum": 18,
+      "name": "The Hall of Creation --- Mobiles (level 53+)",
+      "description": "Here are the general rules to be followed when making your mobs.\n\nMOB NAMES --- The short description of a mob is up to the builder, yet\n  should never have any kind of ending punctuation. Also, don't capitalize\n  words like 'of' or 'the'.\nNPC RACES, CLASSES AND BODYPARTS --- All new mobs should have these filled\n  in. Although they do not affect anything at the moment, they will in the\n  future.\nHITDIE --- The hitnumdie+hitsizedie+hitplus should be used to determine\n  a mob's hp.\n  Example: 2d5+10 means 12-20 hp. If you want to have a mob's hp always set\n  to the same thing, put the hitnumdie and hitsizedie to 1 and set the\n  hitplus to the hp desired.\nDAMDIE --- This is the amount of damage the mobile does with each non-\n  wielding attack. It uses the same system as hitdie.\nNUMATTACKS --- This is the number of attacks the mobile can have each round,\n  be sure to fill it in.\nLANGUAGES --- Make sure all your mobiles are speaking and can understand\n  the proper languages. If you wish to ensure that all players will be able\n  to understand it, have it speak common.\nMOB DESCS: All mobs should have a description upon looking at them.\nMOB RIS: Mobiles can have all kinds of resists, suscepts and immunities.\n  However, if the mobile has an immunity to anything, it MUST have immune\n  charm also.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 19,
+        "south": 17
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "19": {
+      "vnum": 19,
+      "name": "The Hall of Creation --- Mobiles and Objects (level 53+)",
+      "description": "Continuation of mobile guidelines and beginning of object rules.\n\nMOBILE DIFFICULTY --- Be sure that your mobiles are not a piece of cake\n  for their equipment and also for leveling. High level mobs which do\n  very little or no damage will not be accepted due to the lack of\n  difficulty for levelling.\nMOBPROGS --- Mob programs are starting to become a standard thing on many\n  mobiles. Feel free to use them in a number of ways. The mppractice and\n  mpadvance commands should not be used without permission from the area\n  council. (This is for level 54+)\n\nOBJECT NAMES --- The short description of an object should follow the same\n  rules as a room name: no ending punctuation and capitalization of\n  important words only. However, the builder may leave his words without\n  capital letters at his discretion.\n  Good examples: 'lifebane' 'the Ring of Wizardry'\n  Bad example: 'The Devilish Blade Of Lore.'\nRIS AND AFFECTS --- RIS (Resistant, immune and susceptible) and spell affects\n  can be placed on objects. Certain things will not be accepted however.\n  Immunities and affect_santuary, _shockshield, _fireshield or _iceshield\n  will not be approved. Susceptibilities are ok. Resists and other affects\n  are ok also, but should be relatively rare. A list of items with affects\n  or any RIS should be made and sent to the area council.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 20,
+        "south": 18
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "2": {
+      "vnum": 2,
+      "name": "Limbo",
+      "description": "You float in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light which fades into the\nrelative darkness around you without any trace of edge or shadow.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "north": 400
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "20": {
+      "vnum": 20,
+      "name": "The Hall of Creation --- Objects (level 53+)",
+      "description": "Continuation of object rules.\n\nOBJECT POWER --- Use your good judgement to decide how powerful your items\n  should be. Try comparing the difficulty of reaching and killing your\n  mobile to the difficulty of reaching and killing other mobs with similar\n  equipment which are currently in the game.\nOBJECT PROGS --- Feel free to use object programs to enhance the theme of\n  your objects. Obj progs that cast spells or aid the the player in any\n  way should be listed for approval with the RIS and affects. (This is for\n  level 54+)\n\nThere are the general rules to be followed. Thank you for showing an\ninterest in contributing to the Realms of Despair.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 19
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "21": {
+      "vnum": 21,
+      "name": "The Hall of Malkavians",
+      "description": "This is the clan for all those who should have been retired to the\nasylum.  Nuts in every sense of the word, these are the true chaotic\nelement to the game of clans.\nThis clan is led by Bassam and worships the goddess Demora.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "22": {
+      "vnum": 22,
+      "name": "Tidal Pool",
+      "description": "Wading into this small body of water, you frolic in the\ncool water. The water here isn't quite as cold as that from\nthe shore as it has collected here and has been warmed by the\nsun. The splish-splash of your footsteps sounds like a small\nsnare drum being struck in the midst of an orchestra of large\nkettle drums. The waves crash against a rock nearby and sends\nthe spray into your face and drenches your body. A large albatross\nsitting opposite you opens it's mouth to caw, but decides that it's\npretty obvious what's so funny. Admonishing your wet clothes you\nstrip them off slowly and leave them on a rock. Without a moment\nof hesitation you sit right down into the water....ker-plop.\n",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "nosupplicate": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "23": {
+      "vnum": 23,
+      "name": "The Hall of Doom",
+      "description": "This is the clan of mercenaries.  Their services are open to the\nhighest bidder, and their skill is legend.\nThis clan is led by Lanfear and worships the goddess Caryn.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 22
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "24": {
+      "vnum": 24,
+      "name": "The Hall of Maidenstone",
+      "description": "The women of Maidenstone are a dangerous bunch.  Their organization is\nabove average, and most tend to underestimate them due to their female\nonly stance.  A clan of warrior women, these are some of the deadliest\nof the deadly.\nThis clan is led by Min and worships the goddess Circe.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 25
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "25": {
+      "vnum": 25,
+      "name": "The Hall of Golconda",
+      "description": "The ancient Inconnu strive endlessly to attain Golconda, the personal\nperfection of knowledge, ability, and control over the bestial self of\nthe vampire.  The mastery of one aspect serves only to mark a beginning\nanew of the trek for perfection down new paths.  Largely indifferent to\njoy or sorrow, pleasure or pain, and choosing to live in seclusion from\nthe world they often despise, the Inconnu care little for their lesser\nbrethren yet harbor no inherent desire to bring harm.  Slow to anger,\nbut formidable when aroused, their elder status and power affords\nthem an uncommon respect.\n\nThe Inconnu are led by Eric, and worship the god Blodkai.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 24
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "26": {
+      "vnum": 26,
+      "name": "The Hall of Terror",
+      "description": "This is the realm of Terror.  As the hands of the gods, these are those\nwho carry out the policy of the Immortals of the Realms.  Their word is\nlaw, their power unimaginable, their job more than most would desire.\nTerror is led by Kandrin and worships all Immortals equally.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 18,
+        "south": 19
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "27": {
+      "vnum": 27,
+      "name": "The Darkblade of Evil",
+      "description": "From time immemorial the cold shadow of clan Darkblade flowed silent\nand merciless over the whole of the Realms, vanquishing the strong,\nslaughtering the weak and subjugating the innocent.  Fiercely loyal,\nhighly knowledgeable and shunning of outsiders, Darkblade existed\nsolely to kill and die for the greater glory of the clan.  Yet where\nenemies alone failed, time, corruption and sloth succeeded in bringing\nthe once-proud clan to the brink of destruction.  It now attempts to\nbegin anew with a fresh start and a clean slate, returning to the old\nways and ideals that once made clan Darkblade the bane of the Realms.\nDarkblade is led by Monica, and worships the god Scarab.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "29": {
+      "vnum": 29,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 37,
+        "north": 30,
+        "south": 36
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "3": {
+      "vnum": 3,
+      "name": "Storage",
+      "description": "This room is reserved for storage of polymorphed players.",
+      "sector": "city",
+      "flags": {
+        "death": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "private": true,
+        "solitary": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "30": {
+      "vnum": 30,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 34,
+        "east": 31,
+        "south": 29,
+        "southeast": 37
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "31": {
+      "vnum": 31,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 32,
+        "south": 37,
+        "west": 30
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "32": {
+      "vnum": 32,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 36,
+        "south": 33,
+        "southwest": 37,
+        "west": 31
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "33": {
+      "vnum": 33,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 32,
+        "south": 34,
+        "west": 37
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "34": {
+      "vnum": 34,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 33,
+        "northwest": 37,
+        "up": 30,
+        "west": 35
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "35": {
+      "vnum": 35,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 34,
+        "north": 37,
+        "west": 36
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "36": {
+      "vnum": 36,
+      "name": "The Arena",
+      "description": "You find yourself on the Arena floor.  The roar of the crowd above you\nis overwhelming, while around you ... your opponent awaits your coming.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 35,
+        "north": 29,
+        "northeast": 37,
+        "up": 32
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "37": {
+      "vnum": 37,
+      "name": "The Arena",
+      "description": "You stand in the direct center of the Arena.  Blood pools around your\nfeet, and you almost slip in this morbid mess.  The stench of death\nsurrounds you, momentarily blocking from your mind the realization\nthat you could be attacked from any conceivable direction.  Spinning\nslowly about, you realize the poor tactical position you hold.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 38,
+        "east": 33,
+        "north": 31,
+        "northeast": 32,
+        "northwest": 30,
+        "south": 35,
+        "southeast": 34,
+        "southwest": 36,
+        "up": 39,
+        "west": 29
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "38": {
+      "vnum": 38,
+      "name": "The Arena",
+      "description": "You find yourself beneath the floor of the great Arena.  The crowd's roar\nabove is overwhelming, while somewhere ahead ... your opponent awaits.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 40,
+        "up": 37
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "39": {
+      "vnum": 39,
+      "name": "The Arena",
+      "description": "You find yourself above the floor of the Arena.  The roar of the crowd\nis overwhelming, while somewhere ahead of you ... your opponent awaits.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 37,
+        "south": 40
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "4": {
+      "vnum": 4,
+      "name": "Deity purge room",
+      "description": "This room handles the purging of unused deities.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "40": {
+      "vnum": 40,
+      "name": "The Arena",
+      "description": "You are somewhere above or below the arena floor.  The sound of the crowd\naround you is overwhelming, while somewhere ... your opponent awaits.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 39,
+        "south": 38
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "41": {
+      "vnum": 41,
+      "name": "The Halls of Combat",
+      "description": "You stand in a massive hallway before the great Arena.  Cheers and jeers\nfrom the assembled throngs rise and fall through the corridors.  Lounging\naround the hall with you are several other individuals awaiting their own\nchance at glory, honor, and spoils beyond the great doors.  The Arena is\ndangerous, though, and battles are often to the death.  Once you leave\nthis room, there is no turning back.....\n\nIf you have not fought in the Arena before, you should type \"look rules\".\nWhen ready, wait for the Immortal to assign you an exit.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 43,
+        "up": 42
+      },
+      "exdescs": {
+        "rules": "Arena Combat Rules\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n1)  All duels between peaceful characters must be run by an immortal of\n    Acolyte or higher.\n\n2)  All duels between deadly characters must be run by an immortal of\n    Acolyte or higher.\n\n2)  Combat must be agreed upon by both parties.\n\n3)  Any looting must be agreed upon before-hand by both parties.\n    (The overseeing immortal will enforce this)\n\n4)  Once you have entered your combatant room, there is no restarting.\n\n5)  Any rules on the fight must be stated clearly by both parties prior\n    to the commencement of battle.\n\n6)  The decision of the immortal overseeing the duel is final.\n\nAny complaints should be directed to the Pkill Conclave; you should include\nwho you dueled, who ran the duel, what occured, and why you have a problem.\nLogs are extremely helpful.\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+      },
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "42": {
+      "vnum": 42,
+      "name": "First Combatant's Chamber",
+      "description": "You stand in a long hallway leading out into the Arena proper.  About\nyou are stacked all manner of weaponry and armor.  Choose your armament\nproperly, as it will be all that stands between you and death.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "east": 32,
+        "north": 30,
+        "south": 34,
+        "west": 36
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "43": {
+      "vnum": 43,
+      "name": "Combatant's Chamber",
+      "description": "You stand in a long hallway leading out into the Arena proper.  About\nyou are stacked all manner of weaponry and armor.  Choose your armament\nproperly, as it will be all that stands between you and death.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "east": 33,
+        "north": 31,
+        "south": 35,
+        "west": 29
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "44": {
+      "vnum": 44,
+      "name": "The Shores of The Dragon Sea",
+      "description": "You have come to these shores in an attempt to aid others, your very\nblood may soon cover this beach though.",
+      "sector": "water_swim",
+      "flags": {
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "northeast": 45
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "45": {
+      "vnum": 45,
+      "name": "The Path to Caermont",
+      "description": "The path you travel now is long and arduous, perhaps soon you will\nfind a place to rest, or a battle to fight.",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 46,
+        "south": 47,
+        "southeast": 65,
+        "southwest": 44
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "46": {
+      "vnum": 46,
+      "name": "The Gates of Caermont",
+      "description": "You stand before the battered walls of Caermont.  The walls have\nwithstood the assualts so far but how long this will last is unknown.",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "north": 48,
+        "south": 65,
+        "southwest": 47,
+        "west": 45
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "47": {
+      "vnum": 47,
+      "name": "The Trail of Blood",
+      "description": "Most of the battles have been fought along this trail.  The mud which\nmakes up the trai is a deep red (almost brown) in color, and the stench\nof the dead pervades the area.",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 65,
+        "north": 45,
+        "northeast": 46,
+        "southeast": 66
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "48": {
+      "vnum": 48,
+      "name": "The Courtyard of Caermont",
+      "description": "Men run around rebuilding walls, filling buckets, moving stores to\nand fro.  This keep is under siege and it shows.  With little doubt\nyou think these people can not last much longer.",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 51,
+        "north": 50,
+        "south": 46,
+        "west": 49
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "49": {
+      "vnum": 49,
+      "name": "The Stables",
+      "description": "These stables are empty right now.  All the mounts which were at one\ntime stabled here have been either slain or captured.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 48
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "50": {
+      "vnum": 50,
+      "name": "Gardens of the Gods",
+      "description": "High in the hills of Darkhaven, you have found a mystical garden overlooking\nthe busy valley below.  The seascape is visible to your east, and a breeze\nblows gently over you.  Each inch of the grounds has been painstakingly\nmanicured by the local monks.  Unique and colorful flowers adorn each inch\nof the garden.  This place is used for the holiest of ceremonies as it is\nrumoured to have mystical qualities.  Pale moonlight enshrouds the area in a\nveil of blue light.  The Holy Cathedral's entrance looms just to the west...",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 52,
+        "west": 51
+      },
+      "exdescs": {
+        "flower": "The most exotic of flowers adorn each inch of the garden.  Thousands of\nbrilliant deep red roses, poppies, orchids and lilies.",
+        "flowers": "The most exotic of flowers adorn each inch of the garden.  Thousands of\nbrilliant deep red roses, poppies, orchids and lilies.",
+        "stone": "The stones are polished to perfection and placed neatly to provide a\nspectator area."
+      },
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "51": {
+      "vnum": 51,
+      "name": "The Holy Cathedral",
+      "description": "The joyous music of the choir fills the room, masking the sounds of your\nfootsteps as you step across the wooden floors polished to a brilliant\nshine within the cathedral.  Finding your seat with the oak pews in\nthis majestic room, your eyes bathe in the beauty of intricate paintings\ncovering the large domed ceiling.  At the front of the cathedral, a large\ncrucifix is mounted just below the balcony where the choir performs their\nsongs of praise.  The harmonious sounds are accompanied by a large pipe\norgan built into the west wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 50
+      },
+      "exdescs": {
+        "balcony": "Glancing high above the crucifix behind the altar, you see a balcony\nfilled with several angels singing joyously in praise for the event\nthat is about to occur.",
+        "couple": "/:\"\"|                 .****,\n             (\\/)   |:`66|_                @@@@@\\ `,\n              \\/    C`    _)               aa`@@@\\  \\\n                     \\ ._|        _ _     (_   ?@@|  \\\n                      )_/        ( Y )     =' @@@@|   |\n                     /`\\8\\        \\ /       \\ (``/    |\n                    || |8|      ___Y___     /^^\\ |    /\n                    || |8|     {-@- -@-}   /\\::/||    |  (\\/)\n                    || |8|     {_______}   \\ | |||    \\   \\/\n                    || |-|    ____)_(____   \\| |||     \\\n     (\\/)           :| |=:   {-@- -@- -@-}   |:|\\\\.:.:.::.\n      \\/      _____ ||_|,|   {___________}   |:| \\ ':':':`\n             { -@- } ))) |_______)___(______/(((  \\{ -@- }\n             {_____} |   {-@- -@- -@- -@- -@-}     {_____}",
+        "floor": "The old wooden floors, carefully polished to a brilliant shine, show\nno wear despite the large numbers of footsteps that have made this same\npath.  Your steps reverberate loudly throughout the cathedral.",
+        "organ": "A large pipe organ stands along the east wall, filling the room with\nbeautiful orchestral sounds spilling from the large pipes that extend\ncompletely to the ceiling."
+      },
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "52": {
+      "vnum": 52,
+      "name": "The Reception Line",
+      "description": "Well wishers gather here to bid farewell to the newly married couples.\nThere are rose petals strewn around the path.  Just up from here is\nthe mystical Garden of the Gods.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "up": 50
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "53": {
+      "vnum": 53,
+      "name": "A hallway",
+      "description": "This hallway continues both north and east.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "west": 56
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "54": {
+      "vnum": 54,
+      "name": "The Throne Room",
+      "description": "This is the throne room of the keep.  Once ornate and lovely, it has\nfallen into disrepair now with the ongoing war.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 59,
+        "west": 57
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "55": {
+      "vnum": 55,
+      "name": "A hallway",
+      "description": "This hall continues both north and west.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 67,
+        "north": 59
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "56": {
+      "vnum": 56,
+      "name": "A small room",
+      "description": "This is a small bedroom.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 53
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "57": {
+      "vnum": 57,
+      "name": "A hallway",
+      "description": "This hall continues to the south and northeast.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 54,
+        "northeast": 58,
+        "south": 53
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "58": {
+      "vnum": 58,
+      "name": "Behind the Throne",
+      "description": "This small passage runs behind the throne room and allows for the\ncourtiers to move about without drawing the notice of the court.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "down": 60,
+        "southeast": 59,
+        "southwest": 57
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "59": {
+      "vnum": 59,
+      "name": "A hallway",
+      "description": "This hall continues to the south and northwest.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true
+      },
+      "exits": {
+        "northwest": 58,
+        "south": 55,
+        "west": 54
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "6": {
+      "vnum": 6,
+      "name": "Hell",
+      "description": "As if picked up by the scruff of your neck by a mighty hand, you find\nyourself unceremoniously dumped at a strange gateway.  Here is the\nplace which will determine your fate.  Whether you will be sent back\nto life as you once knew it, or proceed onto a far yet bleaker pathway.\nThe time has come for you to plead your case and await judgement for the\ncrimes that have been placed upon your head.  Speak wisely and choose\nyour words carefully, for your testimony will be written in the ledgers\nof the Gods, and will determine the path you will ultimately travel.",
+      "sector": "city",
+      "flags": {
+        "chaotic": true,
+        "indoors": true,
+        "logspeech": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "nosupplicate": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "60": {
+      "vnum": 60,
+      "name": "The Secret Passage",
+      "description": "You are in a dank and dark tunnel.  It was apparently made recently\nas tools still lie about in disarray.  Where this might lead is unknown\nthough.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 61,
+        "up": 58
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "61": {
+      "vnum": 61,
+      "name": "The Secret Passage",
+      "description": "This secret passage continues to the north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 60,
+        "south": 62
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "62": {
+      "vnum": 62,
+      "name": "The Secret Passage",
+      "description": "This secret passage continues to the north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 61,
+        "south": 63
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "63": {
+      "vnum": 63,
+      "name": "The Secret Passage",
+      "description": "This secret passage continues to the north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 62,
+        "south": 64
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "64": {
+      "vnum": 64,
+      "name": "The Secret Passage",
+      "description": "This passage continues to the north from here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 63,
+        "up": 65
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "65": {
+      "vnum": 65,
+      "name": "The Hill of Bones",
+      "description": "You stand atop a hill made of the bodies and corpses of the fallen.\nBroken limbs, mangled bodies, shattered weapons, and rusted armor all\nlie about here in a meangerie of destruction.  This hill has seen\nmore death in the last five years of war, than any other land has seen\nin over a century.",
+      "sector": "hills",
+      "flags": {
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 64,
+        "north": 46,
+        "northwest": 45,
+        "south": 66,
+        "southeast": 68,
+        "west": 47
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "66": {
+      "vnum": 66,
+      "name": "The Trail of Blood",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 68,
+        "north": 65,
+        "northwest": 47,
+        "south": 70
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "67": {
+      "vnum": 67,
+      "name": "A Small Room",
+      "description": "This is a small bedroom.",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "west": 55
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "68": {
+      "vnum": 68,
+      "name": "The Trail of Blood",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northwest": 65,
+        "southeast": 69,
+        "west": 66
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "69": {
+      "vnum": 69,
+      "name": "The Trail of Blood",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 71,
+        "northwest": 68
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "70": {
+      "vnum": 70,
+      "name": "An Exquisite Garden",
+      "description": "Standing in a ravishing broad avenue within this garden, it is found to\nbe lined with epicurean emerald trees, shrubbery, and groups of charming\nsculpture.  Alas, this illustrious locale reminds you of the\nromanticizing Versailles.  Coming here with one who belongs to your heart\nis definitely encouraged, as this social milieu relaxes your senses,\nsetting the impeccable scene for a honeymoon of sorts.  Secluded groves\nlie unmistakably to the east, many occupied by lovers flaunting and\nflirting with ecstasy.  Nightfall has almost commenced, and the period\nto dine, dance, and check into a local chateau approaches.",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nosummon": true,
+        "safe": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 71,
+        "north": 72
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "71": {
+      "vnum": 71,
+      "name": "An Exalted Grove",
+      "description": "You sit in an attractive, but private grove, the renowned garden off in\nthe distant background.  Intricate and flamboyant furnishings of\ndazzling white marble encircle the grove, while love's innocent laughter\nin the air drifts into your ears, delivering much delight.  The\nomnipotent god of passion has certainly paid many a visit here, to\nconsolidate two into infinite rapture.",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nosummon": true,
+        "safe": true,
+        "tunnel": true
+      },
+      "exits": {
+        "west": 70
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "72": {
+      "vnum": 72,
+      "name": "Chateau L'amour",
+      "description": "You stand in the lobby of the famed and renowned Chateau Lamour, the\nprime candidate for a honeymoon escapade.  Several effulgent gold-plated\ndais layer on top of each other until finally reaching the dark chestnut\ncounter.  A slender and distinguished looking man with a thin moustache\ncurled flawlessly, and a small monocle awaits your gesture.  To the west\na grand hall covered with enormous looking-glasses and kaleidoscopes\nbrings much attention, while a symphony of fervent classical music fills\nyour ears, bringing calmness and serenity to your soul.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true,
+        "tunnel": true
+      },
+      "exits": {
+        "south": 70
+      },
+      "exdescs": {
+        "louis": "An antiquated oil painting of Louis XIV is mounted here in a frilled\ngolden border--the word \"pretentious\" is scrawled into the bottom.",
+        "painting": "An antiquated oil painting of Louis XIV is mounted here in a frilled\ngolden border--the word \"pretentious\" is scrawled into the bottom.",
+        "xiv": "An antiquated oil painting of Louis XIV is mounted here in a frilled\ngolden border--the word \"pretentious\" is scrawled into the bottom."
+      },
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "73": {
+      "vnum": 73,
+      "name": "The Chateau \"Cabaret\"",
+      "description": "This room is dimly lit, with an atmosphere full of passion and\nmerriment.  The musical interlude filling your ears brings enchantment\nand rapture, as this is the perfect diner to eat with one you take\naffection to.  The occasional clinking and clanging of dishes and soft\nclamoring from the kitchen assures you they are hard at work, preparing\ndelectable entrees.  Evidently the waiter must be called out to, as the\npeople here are extremely occupied.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true,
+        "safe": true,
+        "tunnel": true
+      },
+      "exits": {
+        "southwest": 72
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "74": {
+      "vnum": 74,
+      "name": "The L'amour Suite",
+      "description": "Ethereal furnishings and luxuriant carpets astound you upon entering\nthis entourage, giving a very fervent and passionate sensation.  The\nprimary component being the abundant intricately designed heart-shaped\nbed, taking more than two thirds of the room up, as you notice some\nextremely arousing french-lace lingerie, as well as a pair of silk\nboxers laid out on it.  The humming and effervescing sound of a sensual\njacuzzi brings ecstasy to your senses, as this whole room is perfect\nfor.....discussing your financial terms.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true,
+        "safe": true,
+        "tunnel": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "75": {
+      "vnum": 75,
+      "name": "The Swamp of Gore",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 74,
+        "north": 77,
+        "northeast": 78,
+        "northwest": 72,
+        "south": 76,
+        "southeast": 73,
+        "southwest": 73,
+        "west": 74
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "76": {
+      "vnum": 76,
+      "name": "The Swamp of Gore",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 73,
+        "north": 75,
+        "northeast": 74,
+        "northwest": 74,
+        "south": 77,
+        "southeast": 72,
+        "southwest": 72,
+        "west": 73
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "77": {
+      "vnum": 77,
+      "name": "The Swamp of Gore",
+      "description": "",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 72,
+        "north": 76,
+        "northeast": 73,
+        "northwest": 73,
+        "south": 74,
+        "southwest": 71,
+        "west": 72
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "78": {
+      "vnum": 78,
+      "name": "The Road of Broken Bones",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "northeast": 92,
+        "southwest": 75
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "79": {
+      "vnum": 79,
+      "name": "The Dusty Trail",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "north": 71,
+        "southeast": 80
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "8": {
+      "vnum": 8,
+      "name": "Hell",
+      "description": "As if picked up by the scruff of your neck by a mighty hand, you find\nyourself unceremoniously dumped at a strange gateway.  Here is the\nplace which will determine your fate.  Whether you will be sent back\nto life as you once knew it, or proceed onto a far yet bleaker pathway.\nThe time has come for you to plead your case and await judgement for the\ncrimes that have been placed upon your head.  Speak wisely and choose\nyour words carefully, for your testimony will be written in the ledgers\nof the Gods, and will determine the path you will ultimately travel.\n                L|J(_)\n            )    | (\")      (\n            ,(.  |`/ \\- y  (,`)\n           )' (' | \\ /\\/  ) (.\n          (' ),) | _W_   (,)' ).",
+      "sector": "city",
+      "flags": {
+        "chaotic": true,
+        "indoors": true,
+        "logspeech": true,
+        "noastral": true,
+        "nomagic": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "nosupplicate": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "80": {
+      "vnum": 80,
+      "name": "The Dusty Trail",
+      "description": "",
+      "sector": "field",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 87,
+        "northwest": 79,
+        "south": 81,
+        "west": 86
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "81": {
+      "vnum": 81,
+      "name": "The Promontory",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "north": 80
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "82": {
+      "vnum": 82,
+      "name": "The Cliffs on the Sea",
+      "description": "",
+      "sector": "mountain",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "up": 70
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "83": {
+      "vnum": 83,
+      "name": "Above the Sea",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northwest": 70,
+        "southeast": 84
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "84": {
+      "vnum": 84,
+      "name": "Above the Sea",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "northwest": 83,
+        "southeast": 85
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "85": {
+      "vnum": 85,
+      "name": "Above the Sea",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 86,
+        "northwest": 84
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "86": {
+      "vnum": 86,
+      "name": "Above the Sea",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 80,
+        "west": 85
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "87": {
+      "vnum": 87,
+      "name": "The Sea Cliff",
+      "description": "",
+      "sector": "hills",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 88,
+        "west": 80
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "88": {
+      "vnum": 88,
+      "name": "The Mountain Foot",
+      "description": "",
+      "sector": "mountain",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "up": 90,
+        "west": 87
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "9": {
+      "vnum": 9,
+      "name": "Task Room",
+      "description": "Any mob here is probably performing tasks.  Mess with it and I will\nkill your dog.\n-- Blodkai",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nodrop": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 10300,
+        "somewhere": 10300
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "90": {
+      "vnum": 90,
+      "name": "The Mesa",
+      "description": "",
+      "sector": "mountain",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "down": 88,
+        "north": 91
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "91": {
+      "vnum": 91,
+      "name": "The Mesa",
+      "description": "",
+      "sector": "mountain",
+      "flags": {
+        "noastral": true,
+        "nofloor": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "down": 78,
+        "south": 90
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "92": {
+      "vnum": 92,
+      "name": "Before the Keep",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 93,
+        "southwest": 78
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "93": {
+      "vnum": 93,
+      "name": "The Inner Keep",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "east": 96,
+        "north": 94,
+        "south": 95,
+        "west": 92
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "94": {
+      "vnum": 94,
+      "name": "The Barracks",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "south": 93
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "95": {
+      "vnum": 95,
+      "name": "The Barracks",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "north": 93
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "96": {
+      "vnum": 96,
+      "name": "The Entry Hall",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "up": 97,
+        "west": 93
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "97": {
+      "vnum": 97,
+      "name": "Before the Throne",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "down": 96,
+        "north": 98
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "98": {
+      "vnum": 98,
+      "name": "The Throne Room",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true
+      },
+      "exits": {
+        "down": 99,
+        "south": 97
+      },
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    },
+    "99": {
+      "vnum": 99,
+      "name": "A Space in Time",
+      "description": "As if awakening from an unsettlingly surreal dream, you find yourself in\nunfamiliar surroundings far from whence you came.  As the torpor wears\noff and your eyes begin to refocus, you realize you have been brought\nhere by the Gods to receive a message of relative import.  Checking\nthrough your inventory, you look for some sign of indication to validate\nyour purpose and assure you that the deconstruction of your mind has not\nyet been put into play.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Limbo",
+      "area_author": "RoD"
+    }
+  }
+}

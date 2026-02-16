@@ -1,0 +1,488 @@
+{
+  "name": "Holy Grove",
+  "author": "Alfa",
+  "rooms": {
+    "8901": {
+      "vnum": 8901,
+      "name": "The holy grove",
+      "description": "You are standing amidst the ancient oaks and poplars in the holy grove. You\ncan feel a strange sensation of contentedness and relief seeping through You,\nas if great burdens have been lifted from Your shoulders. From here, friendly-\nlooking paths lead east and south.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8902,
+        "south": 8904
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8902": {
+      "vnum": 8902,
+      "name": "The holy grove",
+      "description": "You are standing amidst the ancient oaks and poplars in the holy grove. You\nfeel unusually happy here, as if great burdens have been lifted from Your\nshoulders. From here, pleasant-looking paths lead east, west and south.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8903,
+        "south": 8905,
+        "west": 8901
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8903": {
+      "vnum": 8903,
+      "name": "A clearing in the woods",
+      "description": "You are standing in a clearing in the light woods. Somehow, this place\nseems powerfully DIFFERENT from the rest of the forest, as if something is\nseverely strained in the fabric of reality here.  There is a small tablet\non one of the trees.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "south": 8906,
+        "west": 8902
+      },
+      "exdescs": {
+        "tablet": "This zone has been populated by Merc.  1993"
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8904": {
+      "vnum": 8904,
+      "name": "The holy grove",
+      "description": "You are standing amidst the ancient oaks and poplars in the holy grove. You\nfeel calm and relaxed here, as if great burdens have been lifted from Your\nshoulders. From here, pleasant-looking paths lead east, north and south. To\nthe west, through the trees, You can see the road to Darkhaven.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 8905,
+        "north": 8901,
+        "south": 8907,
+        "west": 3502
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8905": {
+      "vnum": 8905,
+      "name": "The sacred glade",
+      "description": "You are standing in the middle of the sacred glades, where the citizens of\nDarkhaven come to celebrate the spring, where farmers give thanks for\nbountiful harvest in the fall, and where lovers stroll in summer. You feel\nseasons of remembered happiness and joy taking Your sorrows and worries away\nfrom You, leaving You calm and invigorated, ready for the world. Paths lead\ninto the holy grove to the east, north and west, while to the south a wide,\nsunny field slopes down to a sparkling lake.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8906,
+        "north": 8902,
+        "south": 8908,
+        "west": 8904
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8906": {
+      "vnum": 8906,
+      "name": "The holy grove",
+      "description": "You are standing amidst the ancient oaks and poplars in the holy grove. You\ncan feel a strange sensation of joy and calm seeping through You, as if great\nburdens have been lifted from Your shoulders. To the south, You glimpse an open\narea through the trees, while paths lead away north and west.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 8903,
+        "south": 8909,
+        "west": 8905
+      },
+      "exdescs": {
+        "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8907": {
+      "vnum": 8907,
+      "name": "The holy grove",
+      "description": "You are standing amidst the tall, majestic trees in the southern end of the\nholy grove. Paths lead north and east. To the east, You can see a wide, open\nfield, sloping gently down towards a bright, glittering lake. Somehow, here\nyou feel an inexplicable happiness, as if the world's troubles no longer\nreally matter to you.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 8908,
+        "north": 8904
+      },
+      "exdescs": {
+        "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8908": {
+      "vnum": 8908,
+      "name": "The sunny field",
+      "description": "You are standing in the middle of a wide, summery, sunlit field.  There\nis a fragrance of spring in the air, a sound of summer and a feeling of\neternal Saturday afternoon.  To the south is a clear, sparkling lake,\nand to the north and west is the holy grove.  In the wood's edge, to\nthe east, is a stately mansion, shimmering softly through the colors of\nthe rainbow.  You feel as if you could spend the rest of your life here,\nlying on your back and looking at the patterns of the clouds as they\ngently drift across the sky.",
+      "sector": "field",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8919,
+        "north": 8905,
+        "west": 8907
+      },
+      "exdescs": {
+        "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house. There is a terrace in front of the house,\nnext to the low wing, which is almost completely windows."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8909": {
+      "vnum": 8909,
+      "name": "The croquet lawn",
+      "description": "You are standing on a immaculately manicured green lawn, the kind you only\nget after 200 years of meticulous work. There is a winding stone path leading\nfrom the wood's edge to the north, to the softly shimmering, rainbow-colored\nmansion to the south. This place enjoys a perpetual cool, sunny summers after-\nnoon.",
+      "sector": "field",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "north": 8906,
+        "south": 8910
+      },
+      "exdescs": {
+        "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8910": {
+      "vnum": 8910,
+      "name": "The foyer",
+      "description": "You are standing in the foyer of Dragon's mansion. The wide double door to\nthe croquet lawn is to the north, flanked by large windows. The walls are\npanelled in oak and hung with strange paintings.  There is door in the south\nwall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 8909,
+        "south": 8911
+      },
+      "exdescs": {
+        "painting": "They are strange indeed, works of breathtaking precision depicting obviously\nimpossible motifs, like a sky filled with headless men, all dressed in some\nblack costume (including hats), or a lady standing, blue from the waist up, or\nsome pieces of plankwood that seems to be melting away like snow, or a night\nsky with a dove-shaped hole of bright day sky in the middle.",
+        "paintings": "They are strange indeed, works of breathtaking precision depicting obviously\nimpossible motifs, like a sky filled with headless men, all dressed in some\nblack costume (including hats), or a lady standing, blue from the waist up, or\nsome pieces of plankwood that seems to be melting away like snow, or a night\nsky with a dove-shaped hole of bright day sky in the middle."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8911": {
+      "vnum": 8911,
+      "name": "The hallway",
+      "description": "You are in the north end of a connecting hallway, tastefully decorated with\noak paneling and the coat-of-arms of various famous nobles hung on the walls.\nThe hallway leads south, and there is a door in the eastern wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8912,
+        "north": 8910,
+        "south": 8913
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8912": {
+      "vnum": 8912,
+      "name": "The blue room",
+      "description": "You are in the blue room, one of the guest rooms in Dragon's mansion. The\nwalls are (surprise!) blue, and the rest of the room is decorated in similar\nshades, producing a very nice, cool effect. There is a large bed and a\nmatching set of sofas, easy-chairs and a coffee table. Through the venetian\nblinds in front of the large east window you can see the edge of the grove.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "private": true
+      },
+      "exits": {
+        "west": 8911
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8913": {
+      "vnum": 8913,
+      "name": "The hallway",
+      "description": "You are standing in the south end of the hallway. There are doors in the\nelegant oak-panelled walls to the south, east and west. Many different\ncoat-of-arms adorn the walls here.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8914,
+        "north": 8911,
+        "south": 8915,
+        "west": 8916
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8914": {
+      "vnum": 8914,
+      "name": "The red room",
+      "description": "You are in the red room, one of the guest rooms in Dragon's mansion. The\nwalls are wallpapered a deep warm red, and dark mahogany panelling nicely com-\nplements them. There is a large, warm waterbed and a sofa group in dark wood\nwith leather upholstery, including a coffee table. Heavy brown curtains are\npulled away from the wide windows, to reveal a nice view towards the grove.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "private": true
+      },
+      "exits": {
+        "west": 8913
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8915": {
+      "vnum": 8915,
+      "name": "The kitchen",
+      "description": "You are standing in the middle of Dragon's kitchen. Contrary to popular\nbelief, He *doesn't* eat virgins, which is amply demonstrated by the large\nvariety of foodstuffs found here on the shelves. There are numerous cans of\ntomatoes, peas, corn etc., vines of garlic, a *Huge* array of small spice jars\nalong several shelves and a large combo refrigerator/freezer. A big oven and\nstove is lurking in a corner. There is some proof here that Dragon is a less\nthan meticulous housekeeper... There are doors to the north and west.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8913,
+        "west": 8918
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8916": {
+      "vnum": 8916,
+      "name": "The ballroom",
+      "description": "You are standing in the middle of a vast palisander floor. This is where\nDragon entertains large number of guests, but the cloth-covered chairs\nstanding forlornly in a corner suggests that this does not happen often.\nThere are doors in the south and east walls, while to the west there is a\nshort corridor to the greenhouse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8913,
+        "south": 8918,
+        "west": 8917
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8917": {
+      "vnum": 8917,
+      "name": "The greenhouse",
+      "description": "This is Dragons' greenhouse. Green light filters in slantwise through the\nplants, giving the room a subtropical ambience. It is not really hot in here,\nthough, rather a pleasantly warm temperature. The walls are all windows, except\nthe eastern one joining the greenhouse to the main building, but it is hard to\nsee out for all the greenery here. There is a set of easy-chairs and a glass\ncoffee table. To the south, there is a wide double door out to a sunlit\nterrace.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "private": true
+      },
+      "exits": {
+        "east": 8916,
+        "south": 8919
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8918": {
+      "vnum": 8918,
+      "name": "The dining hall",
+      "description": "This is Dragons' dining hall. There is a large long solid oak table,\nseating at least 24, with heavy, wooden chairs to match. The oak panel walls\nare filled with paintings. There are doors to the north and east, and to the\nwest there is a wide double door opening out onto the sunlit terrace.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8915,
+        "north": 8916,
+        "west": 8919
+      },
+      "exdescs": {
+        "painting": "There are many, many beautiful paintings of famous dragons of history and\nliterature. There is a big one of Smaug, a group picture of Cuspidorian Toxic\nDragons, a rather fearsome picture of Norse Chaos incarnate, a grainy black-\nand-white photograph of Vorgulremik the Steel Dragon, a romantic picture of\nDalvenjah the Mindijaran and Allan the man become dragon. There are three\nempty frames labeled 'The Chimerical', 'The Mythical' and 'The Hypothetical',\nA panoramic picture of Strabo flying between the worlds dominate one wall,\nwhile a dragons-eye view of Pern (with dragons in the foreground, of course)\nfills another. There even are a few rare medieval renditions of the great\nbeast of the Revelation. Over the head of the table hangs a rather modest\nportrait of a silver Dragon, sparkling with blue lightening, looking amused.",
+        "paintings": "There are many, many beautiful paintings of famous dragons of history and\nliterature. There is a big one of Smaug, a group picture of Cuspidorian Toxic\nDragons, a rather fearsome picture of Norse Chaos incarnate, a grainy black-\nand-white photograph of Vorgulremik the Steel Dragon, a romantic picture of\nDalvenjah the Mindijaran and Allan the man become dragon. There are three\nempty frames labeled 'The Chimerical', 'The Mythical' and 'The Hypothetical',\nA panoramic picture of Strabo flying between the worlds dominate one wall,\nwhile a dragons-eye view of Pern (with dragons in the foreground, of course)\nfills another. There even are a few rare medieval renditions of the great\nbeast of the Revelation. Over the head of the table hangs a rather modest\nportrait of a silver Dragon, sparkling with blue lightening, looking amused."
+      },
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8919": {
+      "vnum": 8919,
+      "name": "The terrace",
+      "description": "You are standing on a sunlit terrace in front of Dragon's mansion. To the\nwest, there is a splendid view over the field down over the lake. To the north\nis the greenhouse, its large windowpanes shimmering with weird and wonderful\ncolors, while a double door leads into the house proper to the east. It is\nwarm and calm here. There is a white-painted table with a parasol here,\ntogether with a matched set of chairs.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 8918,
+        "north": 8917,
+        "west": 8908
+      },
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8988": {
+      "vnum": 8988,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8989": {
+      "vnum": 8989,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8990": {
+      "vnum": 8990,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8991": {
+      "vnum": 8991,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8992": {
+      "vnum": 8992,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8993": {
+      "vnum": 8993,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8994": {
+      "vnum": 8994,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8995": {
+      "vnum": 8995,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8996": {
+      "vnum": 8996,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8997": {
+      "vnum": 8997,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8998": {
+      "vnum": 8998,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    },
+    "8999": {
+      "vnum": 8999,
+      "name": "The fog",
+      "description": "You are in a grey fog, falling, screaming in pain as you realize\nthat you are being torn to nothing, atom by atom, falling and falling\nand falling ...\n...\n.",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Holy Grove",
+      "area_author": "Alfa"
+    }
+  }
+}

@@ -9,6 +9,10 @@ func RegisterBuiltins(registry *Registry) {
     registry.Register("look", cmdLook)
     registry.Register("say", cmdSay)
     registry.Register("who", cmdWho)
+    registry.Register("stats", cmdStats)
+    registry.Register("score", cmdScore)
+    registry.Register("exits", cmdExits)
+    registry.Register("autoexits", cmdAutoexits)
     registerMovement(registry)
     registry.Register("help", func(ctx Context, args string) {
         commands := registry.List()
@@ -41,14 +45,20 @@ func cmdLook(ctx Context, args string) {
     }
 
     ctx.Output.WriteLine(view.Name)
+    if view.AreaName != "" || view.AreaAuthor != "" {
+        areaLine := "[area: " + view.AreaName
+        if view.AreaAuthor != "" {
+            areaLine += " by " + view.AreaAuthor
+        }
+        areaLine += "]"
+        ctx.Output.WriteLine(areaLine)
+    }
     if view.Description != "" {
         ctx.Output.WriteLine(view.Description)
     }
 
-    if len(view.Exits) == 0 {
-        ctx.Output.WriteLine("Exits: none")
-    } else {
-        ctx.Output.WriteLine("Exits: " + strings.Join(view.Exits, ", "))
+    if ctx.Player.AutoExits {
+        ctx.Output.WriteLine(FormatExits(view.Exits))
     }
 
     if len(view.Others) == 0 {
@@ -73,11 +83,116 @@ func cmdWho(ctx Context, args string) {
     ctx.Output.WriteLine(fmt.Sprintf("Players online (%d): %s", len(players), strings.Join(players, ", ")))
 }
 
+func cmdStats(ctx Context, args string) {
+    p := ctx.Player
+    ctx.Output.WriteLine(fmt.Sprintf("=== %s (Level %d) ===", p.Name, p.Level))
+    ctx.Output.WriteLine(fmt.Sprintf("Class: %d | Race: %d | Sex: %d", p.Class, p.Race, p.Sex))
+    ctx.Output.WriteLine("")
+    ctx.Output.WriteLine(fmt.Sprintf("HP:    %d/%d | Mana: %d/%d | Move: %d/%d", p.HP, p.MaxHP, p.Mana, p.MaxMana, p.Move, p.MaxMove))
+    ctx.Output.WriteLine(fmt.Sprintf("Experience: %d | Gold: %d", p.Experience, p.Gold))
+    ctx.Output.WriteLine("")
+    
+    attrNames := []string{"STR", "INT", "WIS", "DEX", "CON", "LCK", "CHM"}
+    for i, name := range attrNames {
+        ctx.Output.WriteLine(fmt.Sprintf("%s: %2d", name, p.Attributes[i]))
+    }
+    
+    ctx.Output.WriteLine("")
+    ctx.Output.WriteLine(fmt.Sprintf("Alignment: %d | Hitroll: %d | Damroll: %d | Armor: %d", p.Alignment, p.Hitroll, p.Damroll, p.Armor))
+}
+
+func cmdScore(ctx Context, args string) {
+    p := ctx.Player
+    
+    ctx.Output.WriteLine("")
+    ctx.Output.WriteLine(fmt.Sprintf("==== %s (Level %d) ====", p.Name, p.Level))
+    ctx.Output.WriteLine(fmt.Sprintf("Class: %d | Race: %d | Sex: %d", p.Class, p.Race, p.Sex))
+    ctx.Output.WriteLine("")
+    
+    // Attributes
+    attrNames := []string{"STR", "DEX", "CON", "INT", "WIS", "CHA", "LCK"}
+    ctx.Output.WriteLine("ATTRIBUTES:")
+    for i, name := range attrNames {
+        ctx.Output.WriteLine(fmt.Sprintf("  %s  : %2d", name, p.Attributes[i]))
+    }
+    ctx.Output.WriteLine("")
+    
+    // Vitals
+    ctx.Output.WriteLine("VITALS:")
+    ctx.Output.WriteLine(fmt.Sprintf("  Hitpoints: %d / %d", p.HP, p.MaxHP))
+    ctx.Output.WriteLine(fmt.Sprintf("  Mana:      %d / %d", p.Mana, p.MaxMana))
+    ctx.Output.WriteLine(fmt.Sprintf("  Movement:  %d / %d", p.Move, p.MaxMove))
+    ctx.Output.WriteLine("")
+    
+    // Experience & Gold
+    ctx.Output.WriteLine("EXPERIENCE & WEALTH:")
+    ctx.Output.WriteLine(fmt.Sprintf("  Experience: %d", p.Experience))
+    ctx.Output.WriteLine(fmt.Sprintf("  Gold:       %d", p.Gold))
+    ctx.Output.WriteLine("")
+    
+    // Combat
+    ctx.Output.WriteLine("COMBAT STATS:")
+    ctx.Output.WriteLine(fmt.Sprintf("  Alignment:  %d", p.Alignment))
+    ctx.Output.WriteLine(fmt.Sprintf("  Hitroll:    %d", p.Hitroll))
+    ctx.Output.WriteLine(fmt.Sprintf("  Damroll:    %d", p.Damroll))
+    ctx.Output.WriteLine(fmt.Sprintf("  Armor:      %d", p.Armor))
+    ctx.Output.WriteLine("")
+}
+
+
 func cmdQuit(ctx Context, args string) {
     ctx.Output.WriteLine("Goodbye.")
     if ctx.Disconnect != nil {
         ctx.Disconnect("quit")
     }
+}
+
+func cmdExits(ctx Context, args string) {
+    view, err := ctx.World.DescribeRoom(ctx.Player)
+    if err != nil {
+        ctx.Output.WriteLine("You are nowhere.")
+        return
+    }
+    ctx.Output.WriteLine(FormatExits(view.Exits))
+}
+
+func cmdAutoexits(ctx Context, args string) {
+    ctx.Player.AutoExits = !ctx.Player.AutoExits
+    if ctx.Player.AutoExits {
+        ctx.Output.WriteLine("Autoexits enabled.")
+        return
+    }
+    ctx.Output.WriteLine("Autoexits disabled.")
+}
+
+func FormatExits(exits []string) string {
+    if len(exits) == 0 {
+        return "Exits: none"
+    }
+
+    order := []string{"north", "east", "south", "west", "up", "down", "northeast", "northwest", "southeast", "southwest"}
+
+    present := map[string]bool{}
+    for _, exit := range exits {
+        present[exit] = true
+    }
+
+    display := make([]string, 0, len(exits))
+    for _, key := range order {
+        if present[key] {
+            display = append(display, capitalize(key))
+            delete(present, key)
+        }
+    }
+
+    return "Exits: " + strings.Join(display, " ") + "."
+}
+
+func capitalize(s string) string {
+    if len(s) == 0 {
+        return s
+    }
+    return strings.ToUpper(s[:1]) + s[1:]
 }
 
 func registerMovement(registry *Registry) {
@@ -114,10 +229,8 @@ func registerMovement(registry *Registry) {
                 ctx.Output.WriteLine(view.Description)
             }
 
-            if len(view.Exits) == 0 {
-                ctx.Output.WriteLine("Exits: none")
-            } else {
-                ctx.Output.WriteLine("Exits: " + strings.Join(view.Exits, ", "))
+            if ctx.Player.AutoExits {
+                ctx.Output.WriteLine(FormatExits(view.Exits))
             }
 
             if len(view.Others) > 0 {

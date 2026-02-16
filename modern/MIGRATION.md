@@ -12,9 +12,10 @@
 
 ## Milestone 2: Parser + Room System
 
-- [ ] Command table parity with [legacy/src/interp.c](../legacy/src/interp.c)
-- [ ] Room data structures and exits (from area files)
-- [ ] Room look formatting (from [legacy/src/act_info.c](../legacy/src/act_info.c))
+- [x] Command table parity with [legacy/src/interp.c](../legacy/src/interp.c)
+- [x] Room data structures and exits (from area files)
+- [x] Room look formatting (from [legacy/src/act_info.c](../legacy/src/act_info.c))
+- [x] Area metadata display (name, author)
 
 ## Milestone 3: Persistence
 
