@@ -1,0 +1,139 @@
+package netserver
+
+import (
+    "context"
+    "fmt"
+    "net"
+    "strings"
+
+    "njata/internal/commands"
+    "njata/internal/game"
+    "njata/internal/parser"
+)
+
+type Server struct {
+    world    *game.World
+    registry *commands.Registry
+    port     int
+    logger   func(string)
+}
+
+func NewServer(world *game.World, registry *commands.Registry, port int, logger func(string)) *Server {
+    return &Server{
+        world:    world,
+        registry: registry,
+        port:     port,
+        logger:   logger,
+    }
+}
+
+func (s *Server) Run(ctx context.Context) error {
+    address := fmt.Sprintf(":%d", s.port)
+    listener, err := net.Listen("tcp", address)
+    if err != nil {
+        return err
+    }
+    defer listener.Close()
+
+    if s.logger != nil {
+        s.logger(fmt.Sprintf("Listening on %s", address))
+    }
+
+    go func() {
+        <-ctx.Done()
+        _ = listener.Close()
+    }()
+
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            if ctx.Err() != nil {
+                return nil
+            }
+            if ne, ok := err.(net.Error); ok && ne.Temporary() {
+                continue
+            }
+            return err
+        }
+
+        if s.logger != nil {
+            s.logger(fmt.Sprintf("Connection from %s", conn.RemoteAddr()))
+        }
+
+        go s.handleConn(conn)
+    }
+}
+
+func (s *Server) handleConn(conn net.Conn) {
+    session := NewSession(conn)
+    defer session.Close()
+
+    WriteBanner(session)
+    session.WriteLine("Welcome to Njata (modern).")
+
+    var player *game.Player
+    for {
+        session.Write("Name: ")
+        line, err := session.ReadLine()
+        if err != nil {
+            return
+        }
+
+        name := strings.TrimSpace(line)
+        if err := game.ValidateName(name); err != nil {
+            session.WriteLine("Invalid name. Use 3-16 letters or digits.")
+            continue
+        }
+
+        player = &game.Player{
+            Name:       name,
+            Output:     session,
+            Disconnect: session.RequestDisconnect,
+        }
+
+        if err := s.world.AddPlayer(player); err != nil {
+            session.WriteLine("That name is already in use.")
+            player = nil
+            continue
+        }
+
+        defer func() {
+            if player != nil {
+                s.world.RemovePlayer(player.Name)
+                s.world.BroadcastSystemExcept(player.Name, fmt.Sprintf("%s has left the game.", player.Name))
+            }
+        }()
+
+        s.world.BroadcastSystemExcept(player.Name, fmt.Sprintf("%s has entered the game.", player.Name))
+        session.WriteLine(fmt.Sprintf("Welcome, %s!", player.Name))
+        break
+    }
+
+    for {
+        if session.IsDisconnectRequested() {
+            return
+        }
+
+        session.Write("> ")
+        line, err := session.ReadLine()
+        if err != nil {
+            return
+        }
+
+        command, args := parser.ParseInput(line)
+        if command == "" {
+            continue
+        }
+
+        ctx := commands.Context{
+            World:      s.world,
+            Player:     player,
+            Output:     session,
+            Disconnect: session.RequestDisconnect,
+        }
+
+        if !s.registry.Execute(ctx, command, args) {
+            session.WriteLine("Huh? Type 'help' for commands.")
+        }
+    }
+}
