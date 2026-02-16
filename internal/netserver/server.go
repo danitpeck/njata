@@ -9,7 +9,10 @@ import (
     "njata/internal/commands"
     "njata/internal/game"
     "njata/internal/parser"
+    "njata/internal/persist"
 )
+
+const playerDataDir = "players"
 
 type Server struct {
     world    *game.World
@@ -91,6 +94,14 @@ func (s *Server) handleConn(conn net.Conn) {
             Disconnect: session.RequestDisconnect,
         }
 
+        if record, ok, err := persist.LoadPlayer(playerDataDir, name); err == nil && ok {
+            player.Location = record.Location
+        }
+
+        if player.Location != 0 && !s.world.HasRoom(player.Location) {
+            player.Location = 0
+        }
+
         if err := s.world.AddPlayer(player); err != nil {
             session.WriteLine("That name is already in use.")
             player = nil
@@ -99,13 +110,30 @@ func (s *Server) handleConn(conn net.Conn) {
 
         defer func() {
             if player != nil {
+                record := persist.PlayerRecord{Name: player.Name, Location: player.Location}
+                if err := persist.SavePlayer(playerDataDir, record); err != nil && s.logger != nil {
+                    s.logger(fmt.Sprintf("save error for %s: %v", player.Name, err))
+                }
                 s.world.RemovePlayer(player.Name)
-                s.world.BroadcastSystemExcept(player.Name, fmt.Sprintf("%s has left the game.", player.Name))
+                s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has left the game.", player.Name))
             }
         }()
 
-        s.world.BroadcastSystemExcept(player.Name, fmt.Sprintf("%s has entered the game.", player.Name))
+        s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", player.Name))
         session.WriteLine(fmt.Sprintf("Welcome, %s!", player.Name))
+
+        view, err := s.world.DescribeRoom(player)
+        if err == nil {
+            session.WriteLine(view.Name)
+            if view.Description != "" {
+                session.WriteLine(view.Description)
+            }
+            if len(view.Exits) == 0 {
+                session.WriteLine("Exits: none")
+            } else {
+                session.WriteLine("Exits: " + strings.Join(view.Exits, ", "))
+            }
+        }
         break
     }
 

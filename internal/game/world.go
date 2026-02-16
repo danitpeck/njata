@@ -12,27 +12,76 @@ type Player struct {
     Name       string
     Output     Output
     Disconnect func(reason string)
+    Location   int
 }
 
 type Room struct {
+    Vnum        int
     Name        string
     Description string
+    Exits       map[string]int
+}
+
+type RoomView struct {
+    Name        string
+    Description string
+    Exits       []string
+    Others      []string
 }
 
 type World struct {
     mu      sync.RWMutex
-    room    Room
+    rooms   map[int]*Room
+    start   int
     players map[string]*Player
 }
 
 func CreateDefaultWorld() *World {
+    defaultRoom := &Room{
+        Vnum:        1,
+        Name:        "The Crossroads",
+        Description: "A simple stone path crosses here, leading to all corners of the land.",
+        Exits:       map[string]int{},
+    }
+
     return &World{
-        room: Room{
-            Name:        "The Crossroads",
-            Description: "A simple stone path crosses here, leading to all corners of the land.",
-        },
+        rooms: map[int]*Room{defaultRoom.Vnum: defaultRoom},
+        start: defaultRoom.Vnum,
         players: map[string]*Player{},
     }
+}
+
+func CreateWorldFromRooms(rooms map[int]*Room, start int) *World {
+    if len(rooms) == 0 {
+        return CreateDefaultWorld()
+    }
+
+    if start == 0 {
+        for vnum := range rooms {
+            if start == 0 || vnum < start {
+                start = vnum
+            }
+        }
+    }
+
+    return &World{
+        rooms:   rooms,
+        start:   start,
+        players: map[string]*Player{},
+    }
+}
+
+func (w *World) StartRoom() int {
+    w.mu.RLock()
+    defer w.mu.RUnlock()
+    return w.start
+}
+
+func (w *World) HasRoom(vnum int) bool {
+    w.mu.RLock()
+    defer w.mu.RUnlock()
+    _, ok := w.rooms[vnum]
+    return ok
 }
 
 func ValidateName(name string) error {
@@ -52,7 +101,10 @@ func ValidateName(name string) error {
 func (w *World) RoomSnapshot() Room {
     w.mu.RLock()
     defer w.mu.RUnlock()
-    return w.room
+    if room, ok := w.rooms[w.start]; ok {
+        return *room
+    }
+    return Room{}
 }
 
 func (w *World) AddPlayer(player *Player) error {
@@ -70,6 +122,10 @@ func (w *World) AddPlayer(player *Player) error {
 
     if _, exists := w.players[key]; exists {
         return fmt.Errorf("name already in use")
+    }
+
+    if player.Location == 0 {
+        player.Location = w.start
     }
 
     w.players[key] = player
@@ -119,23 +175,95 @@ func (w *World) ListPlayersExcept(name string) []string {
     return names
 }
 
-func (w *World) BroadcastSay(speaker string, message string) {
-    players := w.PlayersSnapshot()
+func (w *World) DescribeRoom(player *Player) (RoomView, error) {
+    w.mu.RLock()
+    defer w.mu.RUnlock()
+
+    room, ok := w.rooms[player.Location]
+    if !ok {
+        return RoomView{}, fmt.Errorf("room not found")
+    }
+
+    others := make([]string, 0, len(w.players))
+    for _, other := range w.players {
+        if other.Location == room.Vnum && !strings.EqualFold(other.Name, player.Name) {
+            others = append(others, other.Name)
+        }
+    }
+    sort.Strings(others)
+
+    exits := make([]string, 0, len(room.Exits))
+    for exit := range room.Exits {
+        exits = append(exits, exit)
+    }
+    sort.Strings(exits)
+
+    return RoomView{
+        Name:        room.Name,
+        Description: room.Description,
+        Exits:       exits,
+        Others:      others,
+    }, nil
+}
+
+func (w *World) MovePlayer(player *Player, direction string) (RoomView, error) {
+    w.mu.Lock()
+    room, ok := w.rooms[player.Location]
+    if !ok {
+        w.mu.Unlock()
+        return RoomView{}, fmt.Errorf("room not found")
+    }
+
+    targetVnum, ok := room.Exits[direction]
+    if !ok {
+        w.mu.Unlock()
+        return RoomView{}, fmt.Errorf("no exit")
+    }
+
+    targetRoom, ok := w.rooms[targetVnum]
+    if !ok {
+        w.mu.Unlock()
+        return RoomView{}, fmt.Errorf("exit leads nowhere")
+    }
+
+    player.Location = targetRoom.Vnum
+    w.mu.Unlock()
+
+    return w.DescribeRoom(player)
+}
+
+func (w *World) BroadcastSay(speaker *Player, message string) {
+    w.mu.RLock()
+    location := speaker.Location
+    players := make([]*Player, 0, len(w.players))
+    for _, player := range w.players {
+        if player.Location == location {
+            players = append(players, player)
+        }
+    }
+    w.mu.RUnlock()
+
     for _, player := range players {
-        if strings.EqualFold(player.Name, speaker) {
+        if strings.EqualFold(player.Name, speaker.Name) {
             player.Output.WriteLine(fmt.Sprintf("You say '%s'", message))
             continue
         }
-        player.Output.WriteLine(fmt.Sprintf("%s says '%s'", speaker, message))
+        player.Output.WriteLine(fmt.Sprintf("%s says '%s'", speaker.Name, message))
     }
 }
 
-func (w *World) BroadcastSystemExcept(except string, message string) {
-    players := w.PlayersSnapshot()
-    for _, player := range players {
-        if strings.EqualFold(player.Name, except) {
-            continue
+func (w *World) BroadcastSystemToRoomExcept(except *Player, message string) {
+    w.mu.RLock()
+    location := except.Location
+    players := make([]*Player, 0, len(w.players))
+    for _, player := range w.players {
+        if player.Location == location && !strings.EqualFold(player.Name, except.Name) {
+            players = append(players, player)
         }
+    }
+    w.mu.RUnlock()
+
+    for _, player := range players {
         player.Output.WriteLine(message)
     }
 }

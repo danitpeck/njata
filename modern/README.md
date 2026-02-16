@@ -1,7 +1,7 @@
 # Njata Modern (Go)
 
 This is a minimal, playable vertical slice of the Njata MUD rewritten in Go.
-It includes a TCP server, basic login, a command loop, and a single in-memory room.
+It includes a TCP server, basic login, a command loop, area room loading, and basic player persistence.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ go test ./...
 
 ## Notes
 
-- No database or area file loading yet.
-- The world is a single in-memory room.
-- Commands: look, say, who, help, quit.
+- Rooms are loaded from the .are files in /areas (room section only).
+- Player data is stored as JSON under /players.
+- Commands: look, say, who, help, quit, plus movement (n/s/e/w/u/d and diagonals).
 - Legacy SMAUG code and data live under /legacy.
