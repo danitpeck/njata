@@ -5,6 +5,8 @@ import (
     "net"
     "strings"
     "sync"
+
+    mudtext "njata/internal/text"
 )
 
 type Session struct {
@@ -27,7 +29,7 @@ func NewSession(conn net.Conn) *Session {
     }
 }
 
-func (s *Session) Write(text string) {
+func (s *Session) Write(message string) {
     if s.IsDisconnectRequested() {
         return
     }
@@ -39,7 +41,8 @@ func (s *Session) Write(text string) {
         return
     }
 
-    _, _ = s.writer.WriteString(text)
+    translated := mudtext.TranslateSmaugColors(message)
+    _, _ = s.writer.WriteString(translated)
     _ = s.writer.Flush()
 }
 
