@@ -1,6 +1,7 @@
 {
   "name": "Rogue",
   "class_id": 11,
+  "flavor_text": "As a Rogue, you will be capable of using light-bladed, ranged and throwing weapons, though your preferred weapons will be daggers, rapiers and shortbows. Though you will be well-versed in the art of stealth, you may not be very well defended. Are you quite certain?",
   "races": 512,
   "attr_prime": 2,
   "attr_second": 31,

@@ -1,0 +1,29 @@
+{
+  "name": "Dani",
+  "location": 401,
+  "class": 12,
+  "race": 25,
+  "sex": 0,
+  "level": 1,
+  "hp": 14,
+  "max_hp": 14,
+  "mana": 1,
+  "max_mana": 1,
+  "move": 0,
+  "max_move": 0,
+  "gold": 0,
+  "experience": 0,
+  "attributes": [
+    10,
+    10,
+    10,
+    12,
+    10,
+    10,
+    10
+  ],
+  "alignment": 1000,
+  "hitroll": 18,
+  "damroll": 0,
+  "armor": 30
+}

@@ -1,6 +1,7 @@
 {
   "name": "Gnome",
   "race_id": 4,
+  "flavor_text": "A lucky choice! You will be a Gnome, then?",
   "classes": 856,
   "str_plus": 0,
   "dex_plus": 2,

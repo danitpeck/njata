@@ -1,6 +1,7 @@
 {
   "name": "Human",
   "race_id": 0,
+  "flavor_text": "Ah, an excellent choice. This specimen is known for their versatility and cunning. They fare well in all climes. Would you like to be human, then?",
   "classes": 16384,
   "str_plus": 0,
   "dex_plus": 0,

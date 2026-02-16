@@ -1,6 +1,7 @@
 {
   "name": "Warrior",
   "class_id": 13,
+  "flavor_text": "As a Warrior, you will be capable of using any weapon, though your preferred weapons will be swords, maces and axes. Though you will be well-versed in combat, you may be somewhat lacking in other pursuits. Are you quite certain?",
   "races": 0,
   "attr_prime": 1,
   "attr_second": 5,

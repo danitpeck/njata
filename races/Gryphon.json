@@ -1,6 +1,7 @@
 {
   "name": "Gryphon",
   "race_id": 22,
+  "flavor_text": "These magical creatures worship the Simurgh, a being of power that takes the form of a great and beautiful bird. Their sentience still comes as a surprise to humanoid races from time to time, but they are known for their patience. Perhaps you belong among them?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

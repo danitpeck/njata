@@ -3,6 +3,9 @@ package commands
 import (
     "fmt"
     "strings"
+
+    "njata/internal/classes"
+    "njata/internal/races"
 )
 
 func RegisterBuiltins(registry *Registry) {
@@ -13,6 +16,7 @@ func RegisterBuiltins(registry *Registry) {
     registry.Register("score", cmdScore)
     registry.Register("exits", cmdExits)
     registry.Register("autoexits", cmdAutoexits)
+    registry.Register("astat", cmdAstat)
     registerMovement(registry)
     registry.Register("help", func(ctx Context, args string) {
         commands := registry.List()
@@ -45,14 +49,6 @@ func cmdLook(ctx Context, args string) {
     }
 
     ctx.Output.WriteLine(view.Name)
-    if view.AreaName != "" || view.AreaAuthor != "" {
-        areaLine := "[area: " + view.AreaName
-        if view.AreaAuthor != "" {
-            areaLine += " by " + view.AreaAuthor
-        }
-        areaLine += "]"
-        ctx.Output.WriteLine(areaLine)
-    }
     if view.Description != "" {
         ctx.Output.WriteLine(view.Description)
     }
@@ -86,7 +82,24 @@ func cmdWho(ctx Context, args string) {
 func cmdStats(ctx Context, args string) {
     p := ctx.Player
     ctx.Output.WriteLine(fmt.Sprintf("=== %s (Level %d) ===", p.Name, p.Level))
-    ctx.Output.WriteLine(fmt.Sprintf("Class: %d | Race: %d | Sex: %d", p.Class, p.Race, p.Sex))
+    
+    className := "Unknown"
+    if c := classes.GetByID(p.Class); c != nil {
+        className = c.Name
+    }
+    
+    raceName := "Unknown"
+    if r := races.GetByID(p.Race); r != nil {
+        raceName = r.Name
+    }
+    
+    sexNames := []string{"neuter", "male", "female"}
+    sexName := "unknown"
+    if p.Sex >= 0 && p.Sex < len(sexNames) {
+        sexName = sexNames[p.Sex]
+    }
+    
+    ctx.Output.WriteLine(fmt.Sprintf("Race: %s | Class: %s | Sex: %s", raceName, className, sexName))
     ctx.Output.WriteLine("")
     ctx.Output.WriteLine(fmt.Sprintf("HP:    %d/%d | Mana: %d/%d | Move: %d/%d", p.HP, p.MaxHP, p.Mana, p.MaxMana, p.Move, p.MaxMove))
     ctx.Output.WriteLine(fmt.Sprintf("Experience: %d | Gold: %d", p.Experience, p.Gold))
@@ -106,7 +119,24 @@ func cmdScore(ctx Context, args string) {
     
     ctx.Output.WriteLine("")
     ctx.Output.WriteLine(fmt.Sprintf("==== %s (Level %d) ====", p.Name, p.Level))
-    ctx.Output.WriteLine(fmt.Sprintf("Class: %d | Race: %d | Sex: %d", p.Class, p.Race, p.Sex))
+    
+    className := "Unknown"
+    if c := classes.GetByID(p.Class); c != nil {
+        className = c.Name
+    }
+    
+    raceName := "Unknown"
+    if r := races.GetByID(p.Race); r != nil {
+        raceName = r.Name
+    }
+    
+    sexNames := []string{"neuter", "male", "female"}
+    sexName := "unknown"
+    if p.Sex >= 0 && p.Sex < len(sexNames) {
+        sexName = sexNames[p.Sex]
+    }
+    
+    ctx.Output.WriteLine(fmt.Sprintf("Race: %s | Class: %s | Sex: %s", raceName, className, sexName))
     ctx.Output.WriteLine("")
     
     // Attributes
@@ -163,6 +193,21 @@ func cmdAutoexits(ctx Context, args string) {
         return
     }
     ctx.Output.WriteLine("Autoexits disabled.")
+}
+
+func cmdAstat(ctx Context, args string) {
+    view, err := ctx.World.DescribeRoom(ctx.Player)
+    if err != nil {
+        ctx.Output.WriteLine("You are nowhere.")
+        return
+    }
+
+    ctx.Output.WriteLine("")
+    ctx.Output.WriteLine("=== AREA STATISTICS ===")
+    ctx.Output.WriteLine("")
+    ctx.Output.WriteLine(fmt.Sprintf("Name:   %s", view.AreaName))
+    ctx.Output.WriteLine(fmt.Sprintf("Author: %s", view.AreaAuthor))
+    ctx.Output.WriteLine("")
 }
 
 func FormatExits(exits []string) string {

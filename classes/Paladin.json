@@ -1,6 +1,7 @@
 {
   "name": "Paladin",
   "class_id": 9,
+  "flavor_text": "As a Paladin, you will be capable of using heavy weapons and magic items, though your preferred weapons will be maces, axes and spears. Though you be strong in combat and have great conviction of your calling, you may present such a polar front that other peoples may find you somewhat abhorrent at first. Are you quite certain?",
   "races": 8468544,
   "attr_prime": 25,
   "attr_second": 1,
@@ -18,3 +19,4 @@
   "suscept": 0,
   "skills": {}
 }
+

@@ -14,6 +14,7 @@ import (
 type RaceJSON struct {
 	Name        string   `json:"name"`
 	RaceID      int      `json:"race_id"`
+	FlavorText  string   `json:"flavor_text"`
 	Classes     int      `json:"classes"`
 	StrPlus     int      `json:"str_plus"`
 	DexPlus     int      `json:"dex_plus"`

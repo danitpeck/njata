@@ -1,6 +1,7 @@
 {
-  "name": "slime",
+  "name": "Slime",
   "race_id": 25,
+  "flavor_text": "Clever and stealthy, these shape-shifters usually maintain a humanoid form. They seem to have come from underground but don't mind the daylight. Have you decided you wish to be a Slime?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 2,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

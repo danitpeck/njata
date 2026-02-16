@@ -1,6 +1,7 @@
 {
   "name": "Monk",
   "class_id": 8,
+  "flavor_text": "As a Monk, you will be capable of using fist weapons, staves and your bare hands. Though you will be skilled at unarmed combat and evading enemy attacks, you may not be very well defended. Are you quite certain?",
   "races": 525588,
   "attr_prime": 2,
   "attr_second": 5,
@@ -18,3 +19,4 @@
   "suscept": 0,
   "skills": {}
 }
+

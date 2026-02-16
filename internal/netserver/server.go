@@ -75,6 +75,8 @@ func (s *Server) handleConn(conn net.Conn) {
     session.WriteLine("Welcome to Njata (modern).")
 
     var player *game.Player
+    var isNewPlayer bool
+    
     for {
         session.Write("Name: ")
         line, err := session.ReadLine()
@@ -88,25 +90,37 @@ func (s *Server) handleConn(conn net.Conn) {
             continue
         }
 
+        // Try to load existing player
+        record, exists, err := persist.LoadPlayer(playerDataDir, name)
+        if err != nil && exists {
+            session.WriteLine("Error loading character. Please try again.")
+            continue
+        }
+
+        isNewPlayer = !exists
+
+        // Create new player struct
         player = &game.Player{
             Name:       name,
             Output:     session,
             Disconnect: session.RequestDisconnect,
             AutoExits:  true,
             Level:      1,
-            HP:         100,
-            MaxHP:      100,
-            Mana:       100,
-            MaxMana:    100,
-            Move:       100,
-            MaxMove:    100,
             Experience: 0,
             Gold:       0,
             Alignment:  1000,
         }
 
-        if record, ok, err := persist.LoadPlayer(playerDataDir, name); err == nil && ok {
+        // If existing player, load their stats
+        if !isNewPlayer {
             persist.RecordToPlayer(player, record)
+            session.WriteLine(fmt.Sprintf("Welcome back, %s!", player.Name))
+        } else {
+            // New player: run character creation
+            creation := NewCharacterCreation(session, player)
+            if err := creation.Run(); err != nil {
+                return
+            }
         }
 
         if player.Location != 0 && !s.world.HasRoom(player.Location) {
@@ -131,19 +145,10 @@ func (s *Server) handleConn(conn net.Conn) {
         }()
 
         s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", player.Name))
-        session.WriteLine(fmt.Sprintf("Welcome, %s!", player.Name))
 
         view, err := s.world.DescribeRoom(player)
         if err == nil {
             session.WriteLine(view.Name)
-            if view.AreaName != "" || view.AreaAuthor != "" {
-                areaLine := "[area: " + view.AreaName
-                if view.AreaAuthor != "" {
-                    areaLine += " by " + view.AreaAuthor
-                }
-                areaLine += "]"
-                session.WriteLine(areaLine)
-            }
             if view.Description != "" {
                 session.WriteLine(view.Description)
             }

@@ -1,6 +1,7 @@
 {
   "name": "Elf",
   "race_id": 2,
+  "flavor_text": "A free spirit! It seems that the Elvish way speaks to you. Perhaps their charismatic smiles have lured you in. So, you will be an Elf?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,

@@ -1,6 +1,7 @@
 {
   "name": "Druid",
   "class_id": 3,
+  "flavor_text": "As a Druid, you will be capable of using staves, magical items and magical spells, though your preferred weapons will be quarterstaves and the spells themselves. Connected with nature, you may find it difficult to learn the ways of the civilized world. Are you quite certain?",
   "races": 655488,
   "attr_prime": 4,
   "attr_second": 31,

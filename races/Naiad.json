@@ -1,6 +1,7 @@
 {
   "name": "Naiad",
   "race_id": 13,
+  "flavor_text": "Walking water, awakened into sentient life to search the world and see what it has to offer. Do you desire to live among such people?",
   "classes": 848,
   "str_plus": 0,
   "dex_plus": 2,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

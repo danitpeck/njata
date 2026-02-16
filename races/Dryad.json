@@ -1,7 +1,6 @@
 {
   "name": "Dryad",
-  "race_id": 12,
-  "classes": 512,
+  "race_id": 12,  "flavor_text": "A dryad may come to life in one of three forms; that of a cactus, succulent, or tree. Should you wish to walk the world as one of these inquisitive nature spirits, would you like to be a Cactus Dryad, Succulent Dryad or Tree Dryad?",  "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
   "wis_plus": 2,

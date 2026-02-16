@@ -1,6 +1,7 @@
 {
   "name": "Cyclops",
   "race_id": 7,
+  "flavor_text": "These natural warriors are somewhat isolated, but have great inner strength that many others lack. Have you decided to be a Cyclops?",
   "classes": 512,
   "str_plus": 2,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

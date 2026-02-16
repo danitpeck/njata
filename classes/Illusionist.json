@@ -1,6 +1,7 @@
 {
   "name": "Illusionist",
   "class_id": 6,
+  "flavor_text": "As an Illusionist, you will primarily use magical spells of illusion to evade or control combat situations. The nature of your spells is primarily mental, since it must affect the minds of the creatures you are casting them upon. Though you will doubtless learn much in pursuing this path, you may not be very physically strong as a result of your mental focus. Are you quite certain?",
   "races": 1081858,
   "attr_prime": 25,
   "attr_second": 4,
@@ -18,3 +19,4 @@
   "suscept": 0,
   "skills": {}
 }
+

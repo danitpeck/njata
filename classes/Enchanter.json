@@ -1,6 +1,7 @@
 {
   "name": "Enchanter",
   "class_id": 5,
+  "flavor_text": "As an Enchanter, you will primarily use magical spells to affect the minds and moods of other creatures around you. This may give you an advantage in learning the languages of those you meet, but since your studies are magical, you may not be very physically tough. Are you quite certain?",
   "races": 2392130,
   "attr_prime": 3,
   "attr_second": 4,
@@ -18,3 +19,4 @@
   "suscept": 0,
   "skills": {}
 }
+

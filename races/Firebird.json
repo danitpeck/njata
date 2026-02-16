@@ -1,6 +1,7 @@
 {
   "name": "Firebird",
   "race_id": 8,
+  "flavor_text": "Trapped though they may be in a human-like form, these graceful creatures are magically inclined. Knowing this, do you wish to become a Firebird?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

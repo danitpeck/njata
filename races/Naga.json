@@ -1,6 +1,7 @@
 {
   "name": "Naga",
   "race_id": 11,
+  "flavor_text": "Sultry and secretive, the Naga are notoriously manipulative and clever. Does this sort of lifestyle suit you?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

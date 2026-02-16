@@ -1,6 +1,7 @@
 {
   "name": "Chevalier",
   "class_id": 1,
+  "flavor_text": "As a Chevalier, you will have a mount (player or otherwise) whom you ride to battle. You will be capable of using heavy blades, light blades and polearms, though your preference will likely run to lances, short spears, javelins and bastard swords. Your skills will be varied, preparing you for many walks of life, but you may not be a particular master at any one thing. Are you quite certain?",
   "races": 33508352,
   "attr_prime": 2,
   "attr_second": 1,

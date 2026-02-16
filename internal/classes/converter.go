@@ -14,6 +14,7 @@ import (
 type ClassJSON struct {
 	Name           string            `json:"name"`
 	ClassID        int               `json:"class_id"`
+	FlavorText     string            `json:"flavor_text"`
 	Races          int               `json:"races"`
 	AttrPrime      int               `json:"attr_prime"`
 	AttrSecond     int               `json:"attr_second"`

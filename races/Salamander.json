@@ -1,6 +1,7 @@
 {
   "name": "Salamander",
   "race_id": 21,
+  "flavor_text": "These creatures are fairly versatile. Amphibious, they can breathe underwater. Their natural predilection for magic allows them to master many climes, and they are suited to both those lands above and below the water's surface. Have you an interest in becoming one?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

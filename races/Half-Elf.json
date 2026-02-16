@@ -1,6 +1,7 @@
 {
   "name": "Half-Elf",
   "race_id": 3,
+  "flavor_text": "Though their lot is not always easy, half-elves are quite accomplished amongst the world of Njata. Their strong spirit can be very appealing. Would you like to be a half-elf?",
   "classes": 640,
   "str_plus": 0,
   "dex_plus": 0,

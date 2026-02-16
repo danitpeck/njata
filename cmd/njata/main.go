@@ -8,9 +8,11 @@ import (
     "os/signal"
 
     "njata/internal/area"
+    "njata/internal/classes"
     "njata/internal/commands"
     "njata/internal/game"
     "njata/internal/netserver"
+    "njata/internal/races"
 )
 
 func main() {
@@ -20,6 +22,16 @@ func main() {
     rooms, start, err := area.LoadRoomsFromDir("areas")
     if err != nil {
         fmt.Printf("Area load error: %v\n", err)
+    }
+
+    if err := races.Load("races"); err != nil {
+        fmt.Printf("Race load error: %v\n", err)
+        os.Exit(1)
+    }
+
+    if err := classes.Load("classes"); err != nil {
+        fmt.Printf("Class load error: %v\n", err)
+        os.Exit(1)
     }
 
     world := game.CreateWorldFromRooms(rooms, start)

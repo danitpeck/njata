@@ -1,6 +1,7 @@
 {
   "name": "Benn",
   "race_id": 9,
+  "flavor_text": "The Benn are mysterious to all outsiders, and thus many outsiders are mysterious to the Benn. Such an origin could lead to many great personal discoveries in your travels and trials. Will you appeal to become a Benn?",
   "classes": 512,
   "str_plus": 0,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

@@ -1,6 +1,7 @@
 {
   "name": "Minotaur",
   "race_id": 18,
+  "flavor_text": "These intelligent, lonely creatures do not often meet others of their kind and tend to travel for much, if not all of their lives. Do you believe you could find your greatest purpose in such a form?",
   "classes": 512,
   "str_plus": 2,
   "dex_plus": 0,
@@ -62,3 +63,4 @@
     "\u003cBUG Inform Danny\u003e"
   ]
 }
+

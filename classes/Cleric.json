@@ -1,6 +1,7 @@
 {
   "name": "Cleric",
   "class_id": 2,
+  "flavor_text": "As a Cleric, you will be capable of using heavy weapons, holy items and wands, though your preferred weapons will be holy symbols, flails and broadswords. Though you will be well-versed in the ways of holy life, you may not be very knowledgeable about the outside world. Are you quite certain?",
   "races": 17838112,
   "attr_prime": 4,
   "attr_second": 0,

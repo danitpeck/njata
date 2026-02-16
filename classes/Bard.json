@@ -1,7 +1,6 @@
 {
   "name": "Bard",
-  "class_id": 0,
-  "races": 0,
+  "class_id": 0,  "flavor_text": "As a Bard, you will be capable of using light-bladed weapons and some magical weapons, though your preference will likely run to rapiers, musical instruments and wands. Though you will be knowledgeable about other cultures, you may lack physical strength. Are you quite certain?",  "races": 0,
   "attr_prime": 25,
   "attr_second": 3,
   "attr_deficient": 0,

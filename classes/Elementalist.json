@@ -1,6 +1,7 @@
 {
   "name": "Elementalist",
   "class_id": 4,
+  "flavor_text": "As an Elementalist, you will primarily use magical spells in combat situations. The nature of your spells is primarily elemental, and you will choose an element or two to focus on in your learning. Though you will have mastered that Element, your learning does not require books or written language, so you may not have much skill in that area. Are you quite certain?",
   "races": 131252,
   "attr_prime": 5,
   "attr_second": 4,
@@ -18,3 +19,4 @@
   "suscept": 0,
   "skills": {}
 }
+
