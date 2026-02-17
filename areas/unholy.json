@@ -1,6 +1,7 @@
 {
   "name": "Unholy Grounds",
   "author": "Eldaera",
+  "reset_minutes": 10,
   "rooms": {
     "2101": {
       "vnum": 2101,
@@ -19,7 +20,15 @@
         "twigs": "Twisted brown twigs lay dead at your feet, blown away from the fingers\nof the tree that stands at the entrance."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2101
+        }
+      ],
+      "object_resets": []
     },
     "2102": {
       "vnum": 2102,
@@ -39,7 +48,9 @@
         "statues": "Statues of the gods stand here - their faces worn away to fiendish\nmutations that almost resemble gargoyles."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2103": {
       "vnum": 2103,
@@ -59,7 +70,25 @@
         "hand": "Rotting patches of flesh have fallen away to reveal the white skeletal\nbones of this hand."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2103
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2103
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2103
+        }
+      ],
+      "object_resets": []
     },
     "2104": {
       "vnum": 2104,
@@ -80,7 +109,15 @@
         "rose": "A single rose, its lovely red blossoms long withered away leaving\na long black thorny stem to rest in Thomas' hands, lays here with\na faded note attached to it."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2113,
+          "count": 1,
+          "room": 2104
+        }
+      ]
     },
     "2105": {
       "vnum": 2105,
@@ -99,7 +136,26 @@
         "plaque": "Looking at the plaque, you see only the name 'Thomas' inscribed on it."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2105
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2105
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2121,
+          "count": 1,
+          "room": 2105
+        }
+      ]
     },
     "2106": {
       "vnum": 2106,
@@ -119,7 +175,15 @@
         "swords": "Two old swords, rusting to a crumbly dust, are mounted upon the tombstone,\ncrossed forever."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2106
+        }
+      ],
+      "object_resets": []
     },
     "2107": {
       "vnum": 2107,
@@ -139,7 +203,15 @@
         "mud": "Dark brown mud, caused by the many rains, has oozed over the footstone,\nmaking it impossible to read the epitaph written upon it."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2107
+        }
+      ],
+      "object_resets": []
     },
     "2108": {
       "vnum": 2108,
@@ -159,7 +231,21 @@
         "worm": "A fat brown worm, its belly undulating slowly downward, tunnels through\nthe soil to where ever its next grizzly meal may come from."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2108
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2115,
+          "count": 1,
+          "room": 2108
+        }
+      ]
     },
     "2109": {
       "vnum": 2109,
@@ -175,7 +261,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2110": {
       "vnum": 2110,
@@ -193,7 +281,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2111": {
       "vnum": 2111,
@@ -210,7 +300,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2112": {
       "vnum": 2112,
@@ -226,7 +318,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2112
+        }
+      ],
+      "object_resets": []
     },
     "2113": {
       "vnum": 2113,
@@ -243,7 +343,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2122,
+          "count": 1,
+          "room": 2113
+        }
+      ]
     },
     "2114": {
       "vnum": 2114,
@@ -259,7 +367,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2115": {
       "vnum": 2115,
@@ -276,7 +386,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2115
+        }
+      ],
+      "object_resets": []
     },
     "2116": {
       "vnum": 2116,
@@ -292,7 +410,26 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2116
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2116
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2127,
+          "count": 1,
+          "room": 2116
+        }
+      ]
     },
     "2117": {
       "vnum": 2117,
@@ -309,7 +446,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2118": {
       "vnum": 2118,
@@ -325,7 +464,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2119": {
       "vnum": 2119,
@@ -341,7 +482,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2120": {
       "vnum": 2120,
@@ -357,7 +500,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2121": {
       "vnum": 2121,
@@ -373,7 +518,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2122": {
       "vnum": 2122,
@@ -389,7 +536,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2123": {
       "vnum": 2123,
@@ -404,7 +553,21 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2123
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2123,
+          "count": 1,
+          "room": 2123
+        }
+      ]
     },
     "2124": {
       "vnum": 2124,
@@ -419,7 +582,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2114,
+          "count": 1,
+          "room": 2124
+        }
+      ]
     },
     "2125": {
       "vnum": 2125,
@@ -435,7 +606,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2126": {
       "vnum": 2126,
@@ -451,7 +624,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2126,
+          "count": 1,
+          "room": 2126
+        }
+      ]
     },
     "2127": {
       "vnum": 2127,
@@ -467,7 +648,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2128": {
       "vnum": 2128,
@@ -483,7 +666,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2129": {
       "vnum": 2129,
@@ -507,7 +692,9 @@
         "torso": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2130": {
       "vnum": 2130,
@@ -523,7 +710,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2131": {
       "vnum": 2131,
@@ -539,7 +728,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2132": {
       "vnum": 2132,
@@ -560,7 +751,9 @@
         "tombstones": "Tombstones scatter the area, standing as broken monuments of the\ndwellers of the city that used to surround the city.  Though many of\nthe names on these tombstones are legible, most remain worn away by\nthe winds and the rains that pound the cemetary."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2133": {
       "vnum": 2133,
@@ -577,7 +770,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2133
+        }
+      ],
+      "object_resets": []
     },
     "2134": {
       "vnum": 2134,
@@ -593,7 +794,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2135": {
       "vnum": 2135,
@@ -608,7 +811,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2106,
+          "count": 1,
+          "room": 2135
+        }
+      ],
+      "object_resets": []
     },
     "2136": {
       "vnum": 2136,
@@ -625,7 +836,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2137": {
       "vnum": 2137,
@@ -646,7 +859,20 @@
         "vines": "Thick arm-like vines, their thorny brambles catching your armor,\nsmother the ground, cause you to slow your pace.  Bringing you to the\nrealization that maybe you shouldn't be here."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2137
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2137
+        }
+      ],
+      "object_resets": []
     },
     "2138": {
       "vnum": 2138,
@@ -670,7 +896,9 @@
         "skull": "A broken skull, brown and grey with age, hangs as a grizzly artifact\nupon the walls of the mausoleum to the north."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2139": {
       "vnum": 2139,
@@ -685,7 +913,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2140": {
       "vnum": 2140,
@@ -701,7 +931,26 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2140
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2140
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2129,
+          "count": 1,
+          "room": 2140
+        }
+      ]
     },
     "2141": {
       "vnum": 2141,
@@ -717,7 +966,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2142": {
       "vnum": 2142,
@@ -732,7 +983,25 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2103,
+          "count": 1,
+          "room": 2142
+        },
+        {
+          "vnum": 2108,
+          "count": 2,
+          "room": 2142
+        },
+        {
+          "vnum": 2108,
+          "count": 2,
+          "room": 2142
+        }
+      ],
+      "object_resets": []
     },
     "2143": {
       "vnum": 2143,
@@ -749,7 +1018,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2143
+        }
+      ],
+      "object_resets": []
     },
     "2144": {
       "vnum": 2144,
@@ -766,7 +1043,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2145": {
       "vnum": 2145,
@@ -783,7 +1062,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2146": {
       "vnum": 2146,
@@ -799,7 +1080,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2147": {
       "vnum": 2147,
@@ -815,7 +1098,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2147
+        }
+      ],
+      "object_resets": []
     },
     "2148": {
       "vnum": 2148,
@@ -830,7 +1121,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2148
+        }
+      ],
+      "object_resets": []
     },
     "2149": {
       "vnum": 2149,
@@ -847,7 +1146,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2150": {
       "vnum": 2150,
@@ -864,7 +1165,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2150
+        }
+      ],
+      "object_resets": []
     },
     "2151": {
       "vnum": 2151,
@@ -880,7 +1189,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2152": {
       "vnum": 2152,
@@ -897,7 +1208,20 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2152
+        },
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2152
+        }
+      ],
+      "object_resets": []
     },
     "2153": {
       "vnum": 2153,
@@ -914,7 +1238,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2154": {
       "vnum": 2154,
@@ -930,7 +1256,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2154
+        }
+      ],
+      "object_resets": []
     },
     "2155": {
       "vnum": 2155,
@@ -946,7 +1280,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2156": {
       "vnum": 2156,
@@ -962,7 +1298,25 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2105,
+          "count": 1,
+          "room": 2156
+        },
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2156
+        },
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2156
+        }
+      ],
+      "object_resets": []
     },
     "2157": {
       "vnum": 2157,
@@ -979,7 +1333,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2158": {
       "vnum": 2158,
@@ -995,7 +1351,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2158
+        }
+      ],
+      "object_resets": []
     },
     "2159": {
       "vnum": 2159,
@@ -1011,7 +1375,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2159
+        }
+      ],
+      "object_resets": []
     },
     "2160": {
       "vnum": 2160,
@@ -1027,7 +1399,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2161": {
       "vnum": 2161,
@@ -1043,7 +1417,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2125,
+          "count": 1,
+          "room": 2161
+        }
+      ]
     },
     "2162": {
       "vnum": 2162,
@@ -1060,7 +1442,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2163": {
       "vnum": 2163,
@@ -1075,7 +1459,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2119,
+          "count": 1,
+          "room": 2163
+        }
+      ]
     },
     "2164": {
       "vnum": 2164,
@@ -1091,7 +1483,21 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2120,
+          "count": 1,
+          "room": 2164
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2124,
+          "count": 1,
+          "room": 2164
+        }
+      ]
     },
     "2165": {
       "vnum": 2165,
@@ -1107,7 +1513,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2166": {
       "vnum": 2166,
@@ -1123,7 +1531,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2167": {
       "vnum": 2167,
@@ -1139,7 +1549,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2128,
+          "count": 1,
+          "room": 2167
+        }
+      ]
     },
     "2168": {
       "vnum": 2168,
@@ -1155,7 +1573,15 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2168
+        }
+      ],
+      "object_resets": []
     },
     "2169": {
       "vnum": 2169,
@@ -1171,7 +1597,9 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2170": {
       "vnum": 2170,
@@ -1186,7 +1614,21 @@
       },
       "exdescs": {},
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2104,
+          "count": 1,
+          "room": 2170
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2116,
+          "count": 1,
+          "room": 2170
+        }
+      ]
     },
     "2171": {
       "vnum": 2171,
@@ -1205,7 +1647,15 @@
         "weeds": "Tall brown weeds, growing almost like ivy up the bars of the fence,\nsmother the grounds before you."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2171
+        }
+      ],
+      "object_resets": []
     },
     "2172": {
       "vnum": 2172,
@@ -1226,7 +1676,787 @@
         "tree": "A tall, crooked tree stands before you with it's finger-like branches\noutreaching towards the blackened sky like a man begging to his deity\nto save him from this wretched place that stands before him.  Not\nunlike the deceased inhabitants that inhabit the area, this tree is no\nlonger living, but its twisted, mangled corpse remains."
       },
       "area_name": "Unholy Grounds",
-      "area_author": "Eldaera"
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2101": {
+      "vnum": 2101,
+      "keywords": [
+        "gravedigger",
+        "grave",
+        "digger"
+      ],
+      "short": "a gravedigger",
+      "long": "A gravedigger is here, digging a new grave.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2102": {
+      "vnum": 2102,
+      "keywords": [
+        "graverobber",
+        "grave",
+        "robber",
+        "thief"
+      ],
+      "short": "a graverobber",
+      "long": "A graverobber seeks valuable treasures buried within the earth.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2103": {
+      "vnum": 2103,
+      "keywords": [
+        "Arabella"
+      ],
+      "short": "Arabella",
+      "long": "The corpse of Arabella lies here decaying within the coffin.",
+      "race": "skeleton",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2104": {
+      "vnum": 2104,
+      "keywords": [
+        "Anastacia"
+      ],
+      "short": "Anastacia",
+      "long": "The corpse of Anastacia sleeps peacefully within her glass coffin.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2105": {
+      "vnum": 2105,
+      "keywords": [
+        "preacher"
+      ],
+      "short": "a grey haired preacher",
+      "long": "A grey haired preacher stands here, offering hollow words of comfort.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7,
+      "hp": 7,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2106": {
+      "vnum": 2106,
+      "keywords": [
+        "savage",
+        "beast"
+      ],
+      "short": "the savage beast",
+      "long": "A savage beast stands here, visciously gnawing upon a corpse.",
+      "race": "zombie",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        16,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2107": {
+      "vnum": 2107,
+      "keywords": [
+        "mourner"
+      ],
+      "short": "a mourner",
+      "long": "A mourner wails sadly, grieving the loss of her loved one.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2108": {
+      "vnum": 2108,
+      "keywords": [
+        "grey",
+        "rat"
+      ],
+      "short": "a small grey rat",
+      "long": "A small rat is here feasting upon the rotting corpse.",
+      "race": "rat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2110": {
+      "vnum": 2110,
+      "keywords": [
+        "gravedigger",
+        "grave",
+        "digger"
+      ],
+      "short": "a gravedigger",
+      "long": "A gravedigger scouts for an open plot to begin digging a new grave.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2111": {
+      "vnum": 2111,
+      "keywords": [
+        "mutilated",
+        "decaying",
+        "corpse"
+      ],
+      "short": "a mutilated, decaying corpse",
+      "long": "A mutilated corpse arises from its grave, seeking to devour you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2113": {
+      "vnum": 2113,
+      "keywords": [
+        "vines",
+        "tangle",
+        "thorny"
+      ],
+      "short": "a tangle of thorny vines",
+      "long": "Long thorny vines wrap around your body, choking the life out of you.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2120": {
+      "vnum": 2120,
+      "keywords": [
+        "owl",
+        "bird",
+        "hoot"
+      ],
+      "short": "an owl",
+      "long": "A lone owl flies high among the branches, echoing cries of warning.",
+      "race": "shrieker",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2101": {
+      "vnum": 2101,
+      "keywords": [
+        "robe",
+        "muddy"
+      ],
+      "type": "armor",
+      "short": "a gravedigger's muddy robe",
+      "long": "A gravedigger's robe lays here caked in mud.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2102": {
+      "vnum": 2102,
+      "keywords": [
+        "shawl",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a black woolen shawl",
+      "long": "A mourner's shawl lays here in a crumpled pile.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2103": {
+      "vnum": 2103,
+      "keywords": [
+        "gravedigger",
+        "spade",
+        "shovel"
+      ],
+      "type": "weapon",
+      "short": "a gravedigger's spade",
+      "long": "A rusty gravedigger's shovel has been stuck into the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2104": {
+      "vnum": 2104,
+      "keywords": [
+        "headstone",
+        "plaque"
+      ],
+      "type": "armor",
+      "short": "a headstone's stolen plaque",
+      "long": "Stolen from a headstone, a brass plaque has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2105": {
+      "vnum": 2105,
+      "keywords": [
+        "crucifix",
+        "wooden",
+        "cross"
+      ],
+      "type": "wand",
+      "short": "a shattered crucifix",
+      "long": "An old wooden crucifix lays here, shattered into several pieces.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2106": {
+      "vnum": 2106,
+      "keywords": [
+        "chisel",
+        "rusted"
+      ],
+      "type": "weapon",
+      "short": "a graverobber's chisel",
+      "long": "A rusty chisel has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2107": {
+      "vnum": 2107,
+      "keywords": [
+        "slippers",
+        "mourner",
+        "black"
+      ],
+      "type": "armor",
+      "short": "black pair of slippers caked with mud",
+      "long": "A pair of black slippers are here covered in mud.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2108": {
+      "vnum": 2108,
+      "keywords": [
+        "bible"
+      ],
+      "type": "staff",
+      "short": "a preacher's bible",
+      "long": "A tattered old bible lays on the ground gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2109": {
+      "vnum": 2109,
+      "keywords": [
+        "gold",
+        "bracelet"
+      ],
+      "type": "armor",
+      "short": "Arabella's golden bracelet",
+      "long": "Arabella's shiny gold bracelet lays twinklink brightly on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2110": {
+      "vnum": 2110,
+      "keywords": [
+        "cane",
+        "widow",
+        "ebony"
+      ],
+      "type": "weapon",
+      "short": "a widow's cane",
+      "long": "A shiny black ebony cane rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2111": {
+      "vnum": 2111,
+      "keywords": [
+        "ring",
+        "diamond",
+        "Thomas"
+      ],
+      "type": "armor",
+      "short": "a golden ring encrusted with diamonds",
+      "long": "A small, glittering diamond ring lays on the ground, sparkling brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2112": {
+      "vnum": 2112,
+      "keywords": [
+        "gloves",
+        "skin",
+        "chunk"
+      ],
+      "type": "armor",
+      "short": "gloves of rotten flesh",
+      "long": "A leathery chunk of flesh is here decaying in a pool of blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2113": {
+      "vnum": 2113,
+      "keywords": [
+        "pine",
+        "coffin"
+      ],
+      "type": "furniture",
+      "short": "Thomas' pine coffin",
+      "long": "An old, moldy pine box lays here, broken in several places.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2114": {
+      "vnum": 2114,
+      "keywords": [
+        "fountain",
+        "granite"
+      ],
+      "type": "fountain",
+      "short": "a crumbling fountain",
+      "long": "A crumbling granite fountain stands here, filled with stagnant water.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2115": {
+      "vnum": 2115,
+      "keywords": [
+        "tree",
+        "dead",
+        "fall"
+      ],
+      "type": "furniture",
+      "short": "a large dead tree",
+      "long": "A giant tree has fallen here, blocking your way to the east.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2116": {
+      "vnum": 2116,
+      "keywords": [
+        "glass",
+        "coffin"
+      ],
+      "type": "container",
+      "short": "Anastacia's glass coffin",
+      "long": "A crystal clear coffin made of glass lies upon a platform of swirled marble.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2117": {
+      "vnum": 2117,
+      "keywords": [
+        "petals",
+        "rose",
+        "bed"
+      ],
+      "type": "trash",
+      "short": "a bed of scattered white rose petals",
+      "long": "Thousands of white rose petals lay here, a floral bed of scented softness.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2118": {
+      "vnum": 2118,
+      "keywords": [
+        "lily",
+        "flower"
+      ],
+      "type": "trash",
+      "short": "a large white lily",
+      "long": "A large white flower grows along the earth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2119": {
+      "vnum": 2119,
+      "keywords": [
+        "bell",
+        "brass",
+        "cracked",
+        "rope"
+      ],
+      "type": "lever",
+      "short": "a shriveled rope attached to a bell",
+      "long": "A large brass bell hangs from the ceiling, suspended from a rotten wooden beam.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2120": {
+      "vnum": 2120,
+      "keywords": [
+        "veil",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a thin black veil",
+      "long": "A ragged black veil has been tossed here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2121": {
+      "vnum": 2121,
+      "keywords": [
+        "swirled",
+        "headstone"
+      ],
+      "type": "furniture",
+      "short": "a swirled black marble headstone",
+      "long": "A swirled marble headstone lays on its side, sinking in the earth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2122": {
+      "vnum": 2122,
+      "keywords": [
+        "rugged",
+        "cross"
+      ],
+      "type": "furniture",
+      "short": "old rugged cross",
+      "long": "A splintered old cross stands here, entangled in vines.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2123": {
+      "vnum": 2123,
+      "keywords": [
+        "piles",
+        "corpse",
+        "limbs"
+      ],
+      "type": "furniture",
+      "short": "mangled limbs and bloody corpses",
+      "long": "Several piles of decapitated corpses and mangled limbs litter the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2124": {
+      "vnum": 2124,
+      "keywords": [
+        "corpse",
+        "suicide",
+        "rope"
+      ],
+      "type": "furniture",
+      "short": "decaying corpse hanging from a rope",
+      "long": "Dangling from an old rotten rope, a decaying corpse sways in the wind.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2125": {
+      "vnum": 2125,
+      "keywords": [
+        "headstone",
+        "flowered",
+        "preacher"
+      ],
+      "type": "furniture",
+      "short": "a preacher's headstone",
+      "long": "Crumbly, dead flowers lay decaying at the base of a dull black headstone.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2126": {
+      "vnum": 2126,
+      "keywords": [
+        "crushed",
+        "corpse",
+        "stone"
+      ],
+      "type": "furniture",
+      "short": "fallen headstone",
+      "long": "A large headstone lays on the ground, resting at a strange angle.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2127": {
+      "vnum": 2127,
+      "keywords": [
+        "withered",
+        "old",
+        "oak",
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "a withered old oak tree",
+      "long": "A withered old oak tree now lays on its side, decaying in the rains.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2128": {
+      "vnum": 2128,
+      "keywords": [
+        "statue",
+        "beheaded"
+      ],
+      "type": "furniture",
+      "short": "a beheaded statue",
+      "long": "A grisly statue caked in blood stands before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2129": {
+      "vnum": 2129,
+      "keywords": [
+        "statue",
+        "gargoyle"
+      ],
+      "type": "furniture",
+      "short": "statue of a woman",
+      "long": "A statue, well worn and eroded, stands here dripping blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2150": {
+      "vnum": 2150,
+      "keywords": [
+        "border",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created border object",
+      "long": "Some god dropped a newly created border object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "Immak Woods",
   "author": "Shadwen",
+  "reset_minutes": 15,
   "rooms": {
     "8000": {
       "vnum": 8000,
@@ -14,7 +15,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8007,
+          "count": 3,
+          "room": 8000
+        }
+      ],
+      "object_resets": []
     },
     "8001": {
       "vnum": 8001,
@@ -29,7 +38,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8002": {
       "vnum": 8002,
@@ -45,7 +56,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8000,
+          "count": 1,
+          "room": 8002
+        }
+      ],
+      "object_resets": []
     },
     "8003": {
       "vnum": 8003,
@@ -60,7 +79,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8007,
+          "count": 2,
+          "room": 8003
+        }
+      ],
+      "object_resets": []
     },
     "8004": {
       "vnum": 8004,
@@ -74,7 +101,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8005": {
       "vnum": 8005,
@@ -88,7 +117,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8005,
+          "count": 3,
+          "room": 8005
+        }
+      ],
+      "object_resets": []
     },
     "8006": {
       "vnum": 8006,
@@ -102,7 +139,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8003,
+          "count": 4,
+          "room": 8006
+        },
+        {
+          "vnum": 8007,
+          "count": 4,
+          "room": 8006
+        }
+      ],
+      "object_resets": []
     },
     "8007": {
       "vnum": 8007,
@@ -118,7 +168,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8005,
+          "count": 4,
+          "room": 8007
+        }
+      ],
+      "object_resets": []
     },
     "8008": {
       "vnum": 8008,
@@ -133,7 +191,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8009": {
       "vnum": 8009,
@@ -148,7 +208,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8010": {
       "vnum": 8010,
@@ -163,7 +225,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8007,
+          "count": 8,
+          "room": 8010
+        }
+      ],
+      "object_resets": []
     },
     "8011": {
       "vnum": 8011,
@@ -178,7 +248,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8012": {
       "vnum": 8012,
@@ -193,7 +265,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8013": {
       "vnum": 8013,
@@ -207,7 +281,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8014": {
       "vnum": 8014,
@@ -222,7 +298,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8003,
+          "count": 6,
+          "room": 8014
+        }
+      ],
+      "object_resets": []
     },
     "8015": {
       "vnum": 8015,
@@ -238,7 +322,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8003,
+          "count": 5,
+          "room": 8015
+        }
+      ],
+      "object_resets": []
     },
     "8016": {
       "vnum": 8016,
@@ -255,7 +347,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8005,
+          "count": 6,
+          "room": 8016
+        }
+      ],
+      "object_resets": []
     },
     "8017": {
       "vnum": 8017,
@@ -271,7 +371,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8007,
+          "count": 7,
+          "room": 8017
+        }
+      ],
+      "object_resets": []
     },
     "8018": {
       "vnum": 8018,
@@ -287,7 +395,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8019": {
       "vnum": 8019,
@@ -302,7 +412,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8020": {
       "vnum": 8020,
@@ -319,7 +431,15 @@
         "tombstone": "A large tombstone is here decaying over time."
       },
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8004,
+          "count": 1,
+          "room": 8020
+        }
+      ],
+      "object_resets": []
     },
     "8021": {
       "vnum": 8021,
@@ -335,7 +455,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8003,
+          "count": 4,
+          "room": 8021
+        }
+      ],
+      "object_resets": []
     },
     "8022": {
       "vnum": 8022,
@@ -351,7 +479,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8023": {
       "vnum": 8023,
@@ -366,7 +496,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8024": {
       "vnum": 8024,
@@ -382,7 +514,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8025": {
       "vnum": 8025,
@@ -398,7 +532,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8026": {
       "vnum": 8026,
@@ -413,7 +549,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8003,
+          "count": 7,
+          "room": 8026
+        }
+      ],
+      "object_resets": []
     },
     "8027": {
       "vnum": 8027,
@@ -428,7 +572,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8028": {
       "vnum": 8028,
@@ -444,7 +590,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8005,
+          "count": 5,
+          "room": 8028
+        }
+      ],
+      "object_resets": []
     },
     "8029": {
       "vnum": 8029,
@@ -460,7 +614,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8030": {
       "vnum": 8030,
@@ -475,7 +631,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8031": {
       "vnum": 8031,
@@ -489,7 +647,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8032": {
       "vnum": 8032,
@@ -505,7 +665,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8033": {
       "vnum": 8033,
@@ -520,7 +682,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8034": {
       "vnum": 8034,
@@ -534,7 +698,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8035": {
       "vnum": 8035,
@@ -550,7 +716,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8036": {
       "vnum": 8036,
@@ -564,7 +732,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 1,
+          "room": 8036
+        }
+      ],
+      "object_resets": []
     },
     "8037": {
       "vnum": 8037,
@@ -578,7 +754,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 2,
+          "room": 8037
+        }
+      ],
+      "object_resets": []
     },
     "8038": {
       "vnum": 8038,
@@ -592,7 +776,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 3,
+          "room": 8038
+        }
+      ],
+      "object_resets": []
     },
     "8039": {
       "vnum": 8039,
@@ -606,7 +798,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 4,
+          "room": 8039
+        }
+      ],
+      "object_resets": []
     },
     "8040": {
       "vnum": 8040,
@@ -620,7 +820,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8041": {
       "vnum": 8041,
@@ -634,7 +836,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 5,
+          "room": 8041
+        }
+      ],
+      "object_resets": []
     },
     "8042": {
       "vnum": 8042,
@@ -648,7 +858,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 7,
+          "room": 8042
+        },
+        {
+          "vnum": 8020,
+          "count": 7,
+          "room": 8042
+        }
+      ],
+      "object_resets": []
     },
     "8043": {
       "vnum": 8043,
@@ -664,7 +887,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 9,
+          "room": 8043
+        }
+      ],
+      "object_resets": []
     },
     "8044": {
       "vnum": 8044,
@@ -677,7 +908,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 10,
+          "room": 8044
+        }
+      ],
+      "object_resets": []
     },
     "8045": {
       "vnum": 8045,
@@ -690,7 +929,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8020,
+          "count": 8,
+          "room": 8045
+        }
+      ],
+      "object_resets": []
     },
     "8046": {
       "vnum": 8046,
@@ -706,7 +953,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8047": {
       "vnum": 8047,
@@ -720,7 +969,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 6,
+          "room": 8047
+        },
+        {
+          "vnum": 8021,
+          "count": 6,
+          "room": 8047
+        }
+      ],
+      "object_resets": []
     },
     "8048": {
       "vnum": 8048,
@@ -734,7 +996,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 8,
+          "room": 8048
+        },
+        {
+          "vnum": 8021,
+          "count": 8,
+          "room": 8048
+        }
+      ],
+      "object_resets": []
     },
     "8049": {
       "vnum": 8049,
@@ -748,7 +1023,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 9,
+          "room": 8049
+        }
+      ],
+      "object_resets": []
     },
     "8050": {
       "vnum": 8050,
@@ -762,7 +1045,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8051": {
       "vnum": 8051,
@@ -776,7 +1061,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8052": {
       "vnum": 8052,
@@ -790,7 +1077,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 12,
+          "room": 8052
+        }
+      ],
+      "object_resets": []
     },
     "8053": {
       "vnum": 8053,
@@ -804,7 +1099,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 13,
+          "room": 8053
+        }
+      ],
+      "object_resets": []
     },
     "8054": {
       "vnum": 8054,
@@ -818,7 +1121,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 14,
+          "room": 8054
+        }
+      ],
+      "object_resets": []
     },
     "8055": {
       "vnum": 8055,
@@ -832,7 +1143,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 15,
+          "room": 8055
+        }
+      ],
+      "object_resets": []
     },
     "8056": {
       "vnum": 8056,
@@ -846,7 +1165,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 16,
+          "room": 8056
+        }
+      ],
+      "object_resets": []
     },
     "8057": {
       "vnum": 8057,
@@ -861,7 +1188,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 16,
+          "room": 8057
+        }
+      ],
+      "object_resets": []
     },
     "8058": {
       "vnum": 8058,
@@ -874,7 +1209,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 17,
+          "room": 8058
+        }
+      ],
+      "object_resets": []
     },
     "8059": {
       "vnum": 8059,
@@ -888,7 +1231,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8021,
+          "count": 19,
+          "room": 8059
+        },
+        {
+          "vnum": 8021,
+          "count": 19,
+          "room": 8059
+        }
+      ],
+      "object_resets": []
     },
     "8060": {
       "vnum": 8060,
@@ -904,7 +1260,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8061": {
       "vnum": 8061,
@@ -918,7 +1276,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 1,
+          "room": 8061
+        }
+      ],
+      "object_resets": []
     },
     "8062": {
       "vnum": 8062,
@@ -933,7 +1299,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 2,
+          "room": 8062
+        }
+      ],
+      "object_resets": []
     },
     "8063": {
       "vnum": 8063,
@@ -947,7 +1321,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 4,
+          "room": 8063
+        }
+      ],
+      "object_resets": []
     },
     "8064": {
       "vnum": 8064,
@@ -960,7 +1342,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 3,
+          "room": 8064
+        }
+      ],
+      "object_resets": []
     },
     "8065": {
       "vnum": 8065,
@@ -974,7 +1364,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 5,
+          "room": 8065
+        }
+      ],
+      "object_resets": []
     },
     "8066": {
       "vnum": 8066,
@@ -988,7 +1386,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 6,
+          "room": 8066
+        }
+      ],
+      "object_resets": []
     },
     "8067": {
       "vnum": 8067,
@@ -1007,7 +1413,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8068": {
       "vnum": 8068,
@@ -1020,7 +1428,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8023,
+          "count": 2,
+          "room": 8068
+        }
+      ],
+      "object_resets": []
     },
     "8069": {
       "vnum": 8069,
@@ -1033,7 +1449,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8023,
+          "count": 2,
+          "room": 8069
+        }
+      ],
+      "object_resets": []
     },
     "8070": {
       "vnum": 8070,
@@ -1046,7 +1470,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8023,
+          "count": 3,
+          "room": 8070
+        }
+      ],
+      "object_resets": []
     },
     "8071": {
       "vnum": 8071,
@@ -1066,7 +1498,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8072": {
       "vnum": 8072,
@@ -1079,7 +1513,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8024,
+          "count": 1,
+          "room": 8072
+        }
+      ],
+      "object_resets": []
     },
     "8073": {
       "vnum": 8073,
@@ -1092,7 +1534,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8001,
+          "count": 1,
+          "room": 8073
+        }
+      ],
+      "object_resets": []
     },
     "8074": {
       "vnum": 8074,
@@ -1105,7 +1555,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 7,
+          "room": 8074
+        }
+      ],
+      "object_resets": []
     },
     "8075": {
       "vnum": 8075,
@@ -1118,7 +1576,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 10,
+          "room": 8075
+        }
+      ],
+      "object_resets": []
     },
     "8076": {
       "vnum": 8076,
@@ -1131,7 +1597,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 9,
+          "room": 8076
+        }
+      ],
+      "object_resets": []
     },
     "8077": {
       "vnum": 8077,
@@ -1144,7 +1618,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8022,
+          "count": 8,
+          "room": 8077
+        }
+      ],
+      "object_resets": []
     },
     "8078": {
       "vnum": 8078,
@@ -1158,7 +1640,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8079": {
       "vnum": 8079,
@@ -1174,7 +1658,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8007,
+          "count": 1,
+          "room": 8079
+        }
+      ],
+      "object_resets": []
     },
     "8080": {
       "vnum": 8080,
@@ -1188,7 +1680,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8081": {
       "vnum": 8081,
@@ -1202,7 +1696,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8082": {
       "vnum": 8082,
@@ -1216,7 +1712,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8083": {
       "vnum": 8083,
@@ -1230,7 +1728,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8084": {
       "vnum": 8084,
@@ -1244,7 +1744,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8085": {
       "vnum": 8085,
@@ -1259,7 +1761,15 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8006,
+          "count": 1,
+          "room": 8085
+        }
+      ],
+      "object_resets": []
     },
     "8086": {
       "vnum": 8086,
@@ -1273,7 +1783,15 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8010,
+          "count": 2,
+          "room": 8086
+        }
+      ],
+      "object_resets": []
     },
     "8087": {
       "vnum": 8087,
@@ -1289,7 +1807,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8088": {
       "vnum": 8088,
@@ -1305,7 +1825,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8089": {
       "vnum": 8089,
@@ -1321,7 +1843,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8090": {
       "vnum": 8090,
@@ -1337,7 +1861,9 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8091": {
       "vnum": 8091,
@@ -1352,7 +1878,20 @@
       },
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8030,
+          "count": 2,
+          "room": 8091
+        },
+        {
+          "vnum": 8030,
+          "count": 2,
+          "room": 8091
+        }
+      ],
+      "object_resets": []
     },
     "8099": {
       "vnum": 8099,
@@ -1366,7 +1905,523 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Immak Woods",
-      "area_author": "Shadwen"
+      "area_author": "Shadwen",
+      "mobile_resets": [
+        {
+          "vnum": 8099,
+          "count": 1,
+          "room": 8099
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 8099,
+          "count": 1,
+          "room": 8099
+        }
+      ]
+    }
+  },
+  "mobiles": {
+    "8000": {
+      "vnum": 8000,
+      "keywords": [
+        "Tiger",
+        "Lily"
+      ],
+      "short": "Arch Druid Tiger Lily",
+      "long": "The Arch-Druid, Tiger Lily stands here.",
+      "race": "elf",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8001": {
+      "vnum": 8001,
+      "keywords": [
+        "Thorne,",
+        "The",
+        "Cursed."
+      ],
+      "short": "Thorne, The Cursed.",
+      "long": "Thorne, The Cursed stands here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8003": {
+      "vnum": 8003,
+      "keywords": [
+        "doe"
+      ],
+      "short": "a doe",
+      "long": "A doe wanders here.",
+      "race": "human",
+      "class": "monk",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8004": {
+      "vnum": 8004,
+      "keywords": [
+        "unicorn",
+        "guardian"
+      ],
+      "short": "The Unicorn, Guardian of the Grove",
+      "long": "The Unicorn, Guardian of the Grove, stands here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8005": {
+      "vnum": 8005,
+      "keywords": [
+        "gray",
+        "squirrel"
+      ],
+      "short": "a gray squirrel",
+      "long": "A gray squirrel is here, chittering away.",
+      "race": "animal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8006": {
+      "vnum": 8006,
+      "keywords": [
+        "Erik",
+        "Stableman"
+      ],
+      "short": "Erik the Stableman",
+      "long": "Erik the Stableman is here, tending to the horses.",
+      "race": "dwarf",
+      "class": "chevalier",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8007": {
+      "vnum": 8007,
+      "keywords": [
+        "raccoon"
+      ],
+      "short": "a raccoon",
+      "long": "A raccoon is here, eyeing you warily.",
+      "race": "animal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 10,
+      "max_mana": 10,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8010": {
+      "vnum": 8010,
+      "keywords": [
+        "chestnut",
+        "mare"
+      ],
+      "short": "the chestnut mare",
+      "long": "A chestnut mare with a red mane is standing here.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        19,
+        13,
+        13,
+        13,
+        13,
+        13,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "8020": {
+      "vnum": 8020,
+      "keywords": [
+        "giant",
+        "worker",
+        "ant"
+      ],
+      "short": "A giant worker ant",
+      "long": "A giant worker ant is here, awaiting orders.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8021": {
+      "vnum": 8021,
+      "keywords": [
+        "giant",
+        "ant",
+        "drone"
+      ],
+      "short": "a giant ant drone",
+      "long": "A giant ant drone is here, carrying food.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8022": {
+      "vnum": 8022,
+      "keywords": [
+        "giant",
+        "soldier",
+        "ant"
+      ],
+      "short": "a giant soldier ant",
+      "long": "A giant soldier ant is here, clicking its mandibles and ready to fight.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 88,
+      "max_mana": 88,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8023": {
+      "vnum": 8023,
+      "keywords": [
+        "ant",
+        "larvae"
+      ],
+      "short": "the ant larvae",
+      "long": "Ant larvae covers the walls of this room.",
+      "race": "insect",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8024": {
+      "vnum": 8024,
+      "keywords": [
+        "ant",
+        "queen",
+        "of",
+        "the",
+        "colony"
+      ],
+      "short": "The Queen of the Colony",
+      "long": "The Queen of the Colony is here, laying hundreds of eggs.",
+      "race": "insect",
+      "class": "queen",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8030": {
+      "vnum": 8030,
+      "keywords": [
+        "heavily",
+        "armed",
+        "bandit"
+      ],
+      "short": "a heavily armed bandit",
+      "long": "A heavily armed bandit is here, sharpening his blades.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8099": {
+      "vnum": 8099,
+      "keywords": [
+        "lastmob"
+      ],
+      "short": "a newly created lastmob",
+      "long": "Some god abandoned a newly created lastmob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "8000": {
+      "vnum": 8000,
+      "keywords": [
+        "Newbie",
+        "Potion"
+      ],
+      "type": "potion",
+      "short": "A Newbie Potion",
+      "long": "A shimmering potion lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8001": {
+      "vnum": 8001,
+      "keywords": [
+        "Potion",
+        "of",
+        "Glass",
+        "Slippers"
+      ],
+      "type": "potion",
+      "short": "Potion of Glass Slippers",
+      "long": "a potion of recall lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8030": {
+      "vnum": 8030,
+      "keywords": [
+        "wickedly",
+        "curved",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a wickedly curved knife",
+      "long": "A wickedly curved knife lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8031": {
+      "vnum": 8031,
+      "keywords": [
+        "blackened",
+        "brigandine",
+        "cuirass"
+      ],
+      "type": "armor",
+      "short": "a blackened iron brigandine cuirass",
+      "long": "A brigandine cuirass made of blackened iron has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8099": {
+      "vnum": 8099,
+      "keywords": [
+        "lastobj"
+      ],
+      "type": "trash",
+      "short": "a newly created lastobj",
+      "long": "Some god dropped a newly created lastobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

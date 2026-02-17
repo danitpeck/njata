@@ -1,6 +1,7 @@
 {
   "name": "Holy Grove",
   "author": "Alfa",
+  "reset_minutes": 15,
   "rooms": {
     "8901": {
       "vnum": 8901,
@@ -14,7 +15,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8901,
+          "count": 1,
+          "room": 8901
+        }
+      ],
+      "object_resets": []
     },
     "8902": {
       "vnum": 8902,
@@ -29,7 +38,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8902,
+          "count": 1,
+          "room": 8902
+        }
+      ],
+      "object_resets": []
     },
     "8903": {
       "vnum": 8903,
@@ -47,7 +64,20 @@
         "tablet": "This zone has been populated by Merc.  1993"
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8907,
+          "count": 4,
+          "room": 8903
+        },
+        {
+          "vnum": 8907,
+          "count": 4,
+          "room": 8903
+        }
+      ],
+      "object_resets": []
     },
     "8904": {
       "vnum": 8904,
@@ -65,7 +95,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8903,
+          "count": 1,
+          "room": 8904
+        }
+      ],
+      "object_resets": []
     },
     "8905": {
       "vnum": 8905,
@@ -81,7 +119,25 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8900,
+          "count": 1,
+          "room": 8905
+        },
+        {
+          "vnum": 8904,
+          "count": 2,
+          "room": 8905
+        },
+        {
+          "vnum": 8906,
+          "count": 1,
+          "room": 8905
+        }
+      ],
+      "object_resets": []
     },
     "8906": {
       "vnum": 8906,
@@ -98,7 +154,20 @@
         "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8905,
+          "count": 2,
+          "room": 8906
+        },
+        {
+          "vnum": 8908,
+          "count": 9,
+          "room": 8906
+        }
+      ],
+      "object_resets": []
     },
     "8907": {
       "vnum": 8907,
@@ -114,7 +183,9 @@
         "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8908": {
       "vnum": 8908,
@@ -133,7 +204,9 @@
         "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house. There is a terrace in front of the house,\nnext to the low wing, which is almost completely windows."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8909": {
       "vnum": 8909,
@@ -151,7 +224,9 @@
         "mansion": "The mansion is a sprawling, two-story affair with three wings, where the top\nof one wing serves as balcony. The walls look as marble would do, if marble\nchanged color slowly, continuously, through the entire spectrum. There are\nlarge windows all over the house."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8910": {
       "vnum": 8910,
@@ -171,7 +246,9 @@
         "paintings": "They are strange indeed, works of breathtaking precision depicting obviously\nimpossible motifs, like a sky filled with headless men, all dressed in some\nblack costume (including hats), or a lady standing, blue from the waist up, or\nsome pieces of plankwood that seems to be melting away like snow, or a night\nsky with a dove-shaped hole of bright day sky in the middle."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8911": {
       "vnum": 8911,
@@ -188,7 +265,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8909,
+          "count": 1,
+          "room": 8911
+        }
+      ],
+      "object_resets": []
     },
     "8912": {
       "vnum": 8912,
@@ -204,7 +289,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 8901,
+          "count": 2,
+          "room": 8912
+        }
+      ]
     },
     "8913": {
       "vnum": 8913,
@@ -222,7 +315,9 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8914": {
       "vnum": 8914,
@@ -238,7 +333,21 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8910,
+          "count": 1,
+          "room": 8914
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 8901,
+          "count": 2,
+          "room": 8914
+        }
+      ]
     },
     "8915": {
       "vnum": 8915,
@@ -254,7 +363,20 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 8902,
+          "count": 2,
+          "room": 8915
+        },
+        {
+          "vnum": 8902,
+          "count": 2,
+          "room": 8915
+        }
+      ]
     },
     "8916": {
       "vnum": 8916,
@@ -271,7 +393,9 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8917": {
       "vnum": 8917,
@@ -288,7 +412,15 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8910,
+          "count": 2,
+          "room": 8917
+        }
+      ],
+      "object_resets": []
     },
     "8918": {
       "vnum": 8918,
@@ -308,7 +440,20 @@
         "paintings": "There are many, many beautiful paintings of famous dragons of history and\nliterature. There is a big one of Smaug, a group picture of Cuspidorian Toxic\nDragons, a rather fearsome picture of Norse Chaos incarnate, a grainy black-\nand-white photograph of Vorgulremik the Steel Dragon, a romantic picture of\nDalvenjah the Mindijaran and Allan the man become dragon. There are three\nempty frames labeled 'The Chimerical', 'The Mythical' and 'The Hypothetical',\nA panoramic picture of Strabo flying between the worlds dominate one wall,\nwhile a dragons-eye view of Pern (with dragons in the foreground, of course)\nfills another. There even are a few rare medieval renditions of the great\nbeast of the Revelation. Over the head of the table hangs a rather modest\nportrait of a silver Dragon, sparkling with blue lightening, looking amused."
       },
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [
+        {
+          "vnum": 8909,
+          "count": 2,
+          "room": 8918
+        },
+        {
+          "vnum": 8911,
+          "count": 1,
+          "room": 8918
+        }
+      ],
+      "object_resets": []
     },
     "8919": {
       "vnum": 8919,
@@ -326,7 +471,9 @@
       },
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8988": {
       "vnum": 8988,
@@ -339,7 +486,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8989": {
       "vnum": 8989,
@@ -352,7 +501,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8990": {
       "vnum": 8990,
@@ -365,7 +516,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8991": {
       "vnum": 8991,
@@ -378,7 +531,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8992": {
       "vnum": 8992,
@@ -391,7 +546,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8993": {
       "vnum": 8993,
@@ -404,7 +561,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8994": {
       "vnum": 8994,
@@ -417,7 +576,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8995": {
       "vnum": 8995,
@@ -430,7 +591,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8996": {
       "vnum": 8996,
@@ -443,7 +606,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8997": {
       "vnum": 8997,
@@ -456,7 +621,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8998": {
       "vnum": 8998,
@@ -469,7 +636,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8999": {
       "vnum": 8999,
@@ -482,7 +651,572 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Holy Grove",
-      "area_author": "Alfa"
+      "area_author": "Alfa",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "8900": {
+      "vnum": 8900,
+      "keywords": [
+        "hierophant"
+      ],
+      "short": "The Hierophant",
+      "long": "The old Hierophant of the holy grove is here, gathering hollies.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 180,
+      "max_mana": 180,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8901": {
+      "vnum": 8901,
+      "keywords": [
+        "hierophant"
+      ],
+      "short": "The Hierophant",
+      "long": "The old Hierophant of the holy grove is here, gathering ivy.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 180,
+      "max_mana": 180,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8902": {
+      "vnum": 8902,
+      "keywords": [
+        "elder",
+        "druid"
+      ],
+      "short": "an elder druid",
+      "long": "An elder druid stands here, watching the local flora and wildlife.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8903": {
+      "vnum": 8903,
+      "keywords": [
+        "elder",
+        "druidess"
+      ],
+      "short": "an elder druidess",
+      "long": "An elder druidess stands here, watching the local fauna and feeding rabbits.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8904": {
+      "vnum": 8904,
+      "keywords": [
+        "doe"
+      ],
+      "short": "a doe",
+      "long": "A doe is here, munching on grass.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8905": {
+      "vnum": 8905,
+      "keywords": [
+        "deer"
+      ],
+      "short": "a deer",
+      "long": "A deer is here, staring back at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 66,
+      "max_mana": 66,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8906": {
+      "vnum": 8906,
+      "keywords": [
+        "stag",
+        "deer",
+        "large"
+      ],
+      "short": "a stag",
+      "long": "A large deer stag is here, protecting his territory.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 88,
+      "max_mana": 88,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8907": {
+      "vnum": 8907,
+      "keywords": [
+        "bunny",
+        "rabbit"
+      ],
+      "short": "a small bunny",
+      "long": "A small bunny is here, poking from bush to bush.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8908": {
+      "vnum": 8908,
+      "keywords": [
+        "snake"
+      ],
+      "short": "a harmless snake",
+      "long": "A small snake slithers between the grass.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 44,
+      "max_mana": 44,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8909": {
+      "vnum": 8909,
+      "keywords": [
+        "druid"
+      ],
+      "short": "a druid",
+      "long": "A druid is here in meditation.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8910": {
+      "vnum": 8910,
+      "keywords": [
+        "druidess"
+      ],
+      "short": "a druidess",
+      "long": "A druidess is here, peering at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8911": {
+      "vnum": 8911,
+      "keywords": [
+        "dragon"
+      ],
+      "short": "Dragon",
+      "long": "A large being, half-man and half-dragon stands here.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 350,
+      "max_mana": 350,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "8900": {
+      "vnum": 8900,
+      "keywords": [
+        "gloves",
+        "dragon"
+      ],
+      "type": "armor",
+      "short": "dragon's gloves",
+      "long": "A pair of gloves, made of cast off dragonscales lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8901": {
+      "vnum": 8901,
+      "keywords": [
+        "closet"
+      ],
+      "type": "container",
+      "short": "a closet",
+      "long": "There is a wooden closet tucked into a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8902": {
+      "vnum": 8902,
+      "keywords": [
+        "jar"
+      ],
+      "type": "container",
+      "short": "a spice jar",
+      "long": "A small unlabeled spice jar is standing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8903": {
+      "vnum": 8903,
+      "keywords": [
+        "powder",
+        "black"
+      ],
+      "type": "food",
+      "short": "some black powder",
+      "long": "Some strong-smelling black powder has been carelessly scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8904": {
+      "vnum": 8904,
+      "keywords": [
+        "kernel",
+        "kernels"
+      ],
+      "type": "food",
+      "short": "some small yellow kernels",
+      "long": "Some small yellow kernels have been accidentally left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8905": {
+      "vnum": 8905,
+      "keywords": [
+        "helm",
+        "dragon"
+      ],
+      "type": "armor",
+      "short": "dragon's helm",
+      "long": "This helm was forged by Dragon's father, Vorgulremik.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8906": {
+      "vnum": 8906,
+      "keywords": [
+        "dragon",
+        "axe"
+      ],
+      "type": "weapon",
+      "short": "dragon's axe",
+      "long": "An axe forged in dragon fire lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8907": {
+      "vnum": 8907,
+      "keywords": [
+        "dragon",
+        "rod"
+      ],
+      "type": "armor",
+      "short": "dragon's rod",
+      "long": "A powerful item of magic which was crafted for Dragon by his mother.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8910": {
+      "vnum": 8910,
+      "keywords": [
+        "staff",
+        "wooden"
+      ],
+      "type": "weapon",
+      "short": "a wooden staff",
+      "long": "You see a wooden staff on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8911": {
+      "vnum": 8911,
+      "keywords": [
+        "robe",
+        "brown",
+        "cloth"
+      ],
+      "type": "armor",
+      "short": "a brown robe",
+      "long": "Some brown cloth is on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8913": {
+      "vnum": 8913,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some bluish herbs",
+      "long": "Some bluish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8914": {
+      "vnum": 8914,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some purplish herbs",
+      "long": "Some purplish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8915": {
+      "vnum": 8915,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some blackish herbs",
+      "long": "Some blackish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8916": {
+      "vnum": 8916,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some grayish herbs",
+      "long": "Some grayish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8917": {
+      "vnum": 8917,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some reddish herbs",
+      "long": "Some reddish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8918": {
+      "vnum": 8918,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some orangish herbs",
+      "long": "Some orangish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8919": {
+      "vnum": 8919,
+      "keywords": [
+        "herbs"
+      ],
+      "type": "pill",
+      "short": "some pinkish herbs",
+      "long": "Some pinkish herbs are scattered here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

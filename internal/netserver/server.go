@@ -114,7 +114,6 @@ func (s *Server) handleConn(conn net.Conn) {
         // If existing player, load their stats
         if !isNewPlayer {
             persist.RecordToPlayer(player, record)
-            session.WriteLine(fmt.Sprintf("Welcome back, %s!", player.Name))
         } else {
             // New player: run character creation
             creation := NewCharacterCreation(session, player)
@@ -146,15 +145,13 @@ func (s *Server) handleConn(conn net.Conn) {
 
         s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", player.Name))
 
+        // Show welcome message with capitalized name
+        capitalizedName := strings.ToUpper(player.Name[:1]) + player.Name[1:]
+        session.WriteLine(fmt.Sprintf("Welcome back, %s!", capitalizedName))
+
         view, err := s.world.DescribeRoom(player)
         if err == nil {
-            session.WriteLine(view.Name)
-            if view.Description != "" {
-                session.WriteLine(view.Description)
-            }
-            if player.AutoExits {
-                session.WriteLine(commands.FormatExits(view.Exits))
-            }
+            commands.DisplayRoomView(session, view, player.AutoExits)
         }
         break
     }

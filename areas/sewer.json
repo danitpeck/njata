@@ -1,6 +1,7 @@
 {
   "name": "Sewer",
   "author": "Diku",
+  "reset_minutes": 15,
   "rooms": {
     "7001": {
       "vnum": 7001,
@@ -18,7 +19,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7002": {
       "vnum": 7002,
@@ -38,7 +41,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7003": {
       "vnum": 7003,
@@ -58,7 +63,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7004": {
       "vnum": 7004,
@@ -75,7 +82,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7004
+        },
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7004
+        }
+      ],
+      "object_resets": []
     },
     "7005": {
       "vnum": 7005,
@@ -94,7 +114,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7006": {
       "vnum": 7006,
@@ -113,7 +135,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7007": {
       "vnum": 7007,
@@ -132,7 +156,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7008": {
       "vnum": 7008,
@@ -152,7 +178,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7009": {
       "vnum": 7009,
@@ -173,7 +201,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7010": {
       "vnum": 7010,
@@ -190,7 +220,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7011": {
       "vnum": 7011,
@@ -210,7 +242,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7012": {
       "vnum": 7012,
@@ -229,7 +263,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7013": {
       "vnum": 7013,
@@ -250,7 +286,9 @@
         "sediment": "It's NOT the kind of matter that would concern you too much, normally, but\nas you are in the middle of it, it just might become your main concern.\nREAL YUCKY!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7014": {
       "vnum": 7014,
@@ -269,7 +307,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7015": {
       "vnum": 7015,
@@ -288,7 +328,9 @@
         "bars": "These look like they're pretty slippery, and not very safe, but perhaps safe\nenough for you to climb down, WITH both hands on them."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7016": {
       "vnum": 7016,
@@ -305,7 +347,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7017": {
       "vnum": 7017,
@@ -323,7 +367,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7018": {
       "vnum": 7018,
@@ -342,7 +388,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7021": {
       "vnum": 7021,
@@ -361,7 +409,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7022": {
       "vnum": 7022,
@@ -377,7 +427,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7024": {
       "vnum": 7024,
@@ -396,7 +448,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7025": {
       "vnum": 7025,
@@ -414,7 +468,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7025
+        }
+      ],
+      "object_resets": []
     },
     "7026": {
       "vnum": 7026,
@@ -435,7 +497,9 @@
         "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7028": {
       "vnum": 7028,
@@ -453,7 +517,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7029": {
       "vnum": 7029,
@@ -471,7 +537,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7030": {
       "vnum": 7030,
@@ -494,7 +562,9 @@
         "ladder": "It looks as if it's made of stainless steel, and it would very well function\nas a club of considerable power, but alas ... You can't take at all since\nit's firmly set into the concrete wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7031": {
       "vnum": 7031,
@@ -513,7 +583,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 3,
+          "room": 7031
+        }
+      ],
+      "object_resets": []
     },
     "7034": {
       "vnum": 7034,
@@ -530,7 +608,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7035": {
       "vnum": 7035,
@@ -547,7 +627,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7036": {
       "vnum": 7036,
@@ -564,7 +646,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7037": {
       "vnum": 7037,
@@ -580,7 +664,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7037
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7037
+        }
+      ],
+      "object_resets": []
     },
     "7038": {
       "vnum": 7038,
@@ -598,7 +695,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7039": {
       "vnum": 7039,
@@ -613,7 +712,25 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        }
+      ],
+      "object_resets": []
     },
     "7041": {
       "vnum": 7041,
@@ -632,7 +749,15 @@
         "ladder": "Firmly set into the wall of the shaft it's impossible to even rock, is your\nestimate."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7041
+        }
+      ],
+      "object_resets": []
     },
     "7043": {
       "vnum": 7043,
@@ -649,7 +774,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7044": {
       "vnum": 7044,
@@ -667,7 +794,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7045": {
       "vnum": 7045,
@@ -683,7 +812,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7046": {
       "vnum": 7046,
@@ -699,7 +830,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7047": {
       "vnum": 7047,
@@ -715,7 +848,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7048": {
       "vnum": 7048,
@@ -731,7 +866,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7049": {
       "vnum": 7049,
@@ -749,7 +886,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 3,
+          "room": 7049
+        }
+      ],
+      "object_resets": []
     },
     "7050": {
       "vnum": 7050,
@@ -768,7 +913,15 @@
         "chair": "This chair is made of marble, but the fact that it is worn and attached to the\nfloor makes you think twice about taking it along with you."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7050
+        }
+      ],
+      "object_resets": []
     },
     "7051": {
       "vnum": 7051,
@@ -784,7 +937,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7052": {
       "vnum": 7052,
@@ -801,7 +956,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7053": {
       "vnum": 7053,
@@ -817,7 +974,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7055": {
       "vnum": 7055,
@@ -836,7 +995,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7056": {
       "vnum": 7056,
@@ -853,7 +1014,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7057": {
       "vnum": 7057,
@@ -870,7 +1033,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7058": {
       "vnum": 7058,
@@ -887,7 +1052,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7059": {
       "vnum": 7059,
@@ -904,7 +1071,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7060": {
       "vnum": 7060,
@@ -924,7 +1093,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7061": {
       "vnum": 7061,
@@ -943,7 +1114,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7062": {
       "vnum": 7062,
@@ -962,7 +1135,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7063": {
       "vnum": 7063,
@@ -981,7 +1156,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7064": {
       "vnum": 7064,
@@ -1001,7 +1178,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7065": {
       "vnum": 7065,
@@ -1020,7 +1199,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7066": {
       "vnum": 7066,
@@ -1040,7 +1221,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7067": {
       "vnum": 7067,
@@ -1059,7 +1242,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7068": {
       "vnum": 7068,
@@ -1078,7 +1263,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7069": {
       "vnum": 7069,
@@ -1097,7 +1284,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7070": {
       "vnum": 7070,
@@ -1117,7 +1306,9 @@
         "water": "It looks dark and murky, and emanates a foul stench."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7071": {
       "vnum": 7071,
@@ -1132,7 +1323,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7099": {
       "vnum": 7099,
@@ -1150,7 +1343,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7101": {
       "vnum": 7101,
@@ -1169,7 +1364,15 @@
         "mud": "You never saw such disgusting matter before, it nearly makes you puke."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7101
+        }
+      ],
+      "object_resets": []
     },
     "7102": {
       "vnum": 7102,
@@ -1189,7 +1392,20 @@
         "ladder": "This is funny enough a wooden ladder and, after closer inspection, you\ndiscover it is magically held towards the wall! You can't, even with your\ngreatest effort, rock it at ALL!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7004,
+          "count": 3,
+          "room": 7102
+        },
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7102
+        }
+      ],
+      "object_resets": []
     },
     "7103": {
       "vnum": 7103,
@@ -1208,7 +1424,20 @@
         "mud": "You never saw such disgusting matter before, it nearly makes you puke."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 3,
+          "room": 7103
+        },
+        {
+          "vnum": 7000,
+          "count": 3,
+          "room": 7103
+        }
+      ],
+      "object_resets": []
     },
     "7104": {
       "vnum": 7104,
@@ -1226,7 +1455,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 7,
+          "room": 7104
+        },
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7104
+        }
+      ],
+      "object_resets": []
     },
     "7105": {
       "vnum": 7105,
@@ -1244,7 +1486,9 @@
         "bars": "These look like they're pretty slippery, and not very safe.  You'd better\nnot go down any further."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7106": {
       "vnum": 7106,
@@ -1262,7 +1506,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7107": {
       "vnum": 7107,
@@ -1281,7 +1527,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7108": {
       "vnum": 7108,
@@ -1300,7 +1548,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7109": {
       "vnum": 7109,
@@ -1319,7 +1569,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7110": {
       "vnum": 7110,
@@ -1338,7 +1590,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7111": {
       "vnum": 7111,
@@ -1363,7 +1617,9 @@
         "step": "A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and\nSPLAT!!!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7112": {
       "vnum": 7112,
@@ -1381,7 +1637,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7112
+        },
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7112
+        }
+      ],
+      "object_resets": []
     },
     "7113": {
       "vnum": 7113,
@@ -1400,7 +1669,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7114": {
       "vnum": 7114,
@@ -1414,7 +1685,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7115": {
       "vnum": 7115,
@@ -1434,7 +1707,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7116": {
       "vnum": 7116,
@@ -1460,7 +1735,9 @@
         "soil": "You can just make out the outline of a trapdoor here in the soil. The earth\nis probably there to conceal a secret entrance. This looks as if it leads down\ninto the seemingly solid rock face of the ledge."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7117": {
       "vnum": 7117,
@@ -1478,7 +1755,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7118": {
       "vnum": 7118,
@@ -1496,7 +1775,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7119": {
       "vnum": 7119,
@@ -1514,7 +1795,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7120": {
       "vnum": 7120,
@@ -1533,7 +1816,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7121": {
       "vnum": 7121,
@@ -1551,7 +1836,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7122": {
       "vnum": 7122,
@@ -1569,7 +1856,15 @@
         "wall": "There is a crack here that looks like it has been made recently."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7122
+        }
+      ],
+      "object_resets": []
     },
     "7123": {
       "vnum": 7123,
@@ -1586,7 +1881,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7129": {
       "vnum": 7129,
@@ -1603,7 +1900,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7130": {
       "vnum": 7130,
@@ -1618,7 +1917,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7190": {
       "vnum": 7190,
@@ -1632,7 +1933,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7199": {
       "vnum": 7199,
@@ -1649,7 +1952,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7200": {
       "vnum": 7200,
@@ -1669,7 +1974,15 @@
         "writing": "You read the number '666'."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7204,
+          "count": 6,
+          "room": 7200
+        }
+      ]
     },
     "7201": {
       "vnum": 7201,
@@ -1686,7 +1999,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7200,
+          "count": 1,
+          "room": 7201
+        }
+      ],
+      "object_resets": []
     },
     "7202": {
       "vnum": 7202,
@@ -1711,7 +2032,9 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7203": {
       "vnum": 7203,
@@ -1736,7 +2059,15 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7201,
+          "count": 1,
+          "room": 7203
+        }
+      ],
+      "object_resets": []
     },
     "7204": {
       "vnum": 7204,
@@ -1761,7 +2092,9 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7205": {
       "vnum": 7205,
@@ -1785,7 +2118,15 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7202,
+          "count": 2,
+          "room": 7205
+        }
+      ],
+      "object_resets": []
     },
     "7206": {
       "vnum": 7206,
@@ -1809,7 +2150,15 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7206,
+          "count": 4,
+          "room": 7206
+        }
+      ]
     },
     "7207": {
       "vnum": 7207,
@@ -1833,7 +2182,15 @@
         "torch": "The torch is bolted to the sconce and the sconce to the wall."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7202,
+          "count": 2,
+          "room": 7207
+        }
+      ],
+      "object_resets": []
     },
     "7208": {
       "vnum": 7208,
@@ -1853,7 +2210,9 @@
         "slime": "The slime is slimy and uninteresting."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7209": {
       "vnum": 7209,
@@ -1870,7 +2229,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7210": {
       "vnum": 7210,
@@ -1889,7 +2250,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7211": {
       "vnum": 7211,
@@ -1905,7 +2268,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7212": {
       "vnum": 7212,
@@ -1922,7 +2287,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7213": {
       "vnum": 7213,
@@ -1939,7 +2306,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7213
+        }
+      ],
+      "object_resets": []
     },
     "7214": {
       "vnum": 7214,
@@ -1955,7 +2330,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7214
+        }
+      ],
+      "object_resets": []
     },
     "7215": {
       "vnum": 7215,
@@ -1974,7 +2357,15 @@
         "water": "The water is dirty but it looks like you would be able to swim in it."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7215
+        }
+      ],
+      "object_resets": []
     },
     "7216": {
       "vnum": 7216,
@@ -1991,7 +2382,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7217": {
       "vnum": 7217,
@@ -2012,7 +2405,15 @@
         "water": "The water is dirty but it looks like you would be able to swim in it."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7217
+        }
+      ],
+      "object_resets": []
     },
     "7218": {
       "vnum": 7218,
@@ -2028,7 +2429,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7219": {
       "vnum": 7219,
@@ -2045,7 +2448,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7219
+        }
+      ],
+      "object_resets": []
     },
     "7220": {
       "vnum": 7220,
@@ -2062,7 +2473,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7221": {
       "vnum": 7221,
@@ -2080,7 +2493,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7221
+        }
+      ],
+      "object_resets": []
     },
     "7222": {
       "vnum": 7222,
@@ -2100,7 +2521,9 @@
         "water": "The water floats to the east from here."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7223": {
       "vnum": 7223,
@@ -2117,7 +2540,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7223
+        }
+      ],
+      "object_resets": []
     },
     "7224": {
       "vnum": 7224,
@@ -2135,7 +2566,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7225": {
       "vnum": 7225,
@@ -2151,7 +2584,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7225
+        }
+      ],
+      "object_resets": []
     },
     "7229": {
       "vnum": 7229,
@@ -2168,7 +2609,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7230": {
       "vnum": 7230,
@@ -2186,7 +2629,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7231": {
       "vnum": 7231,
@@ -2205,7 +2650,9 @@
         "debris": "You see a lot of organic decay on the floor."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7232": {
       "vnum": 7232,
@@ -2222,7 +2669,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7233": {
       "vnum": 7233,
@@ -2239,7 +2688,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7233
+        },
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7233
+        }
+      ],
+      "object_resets": []
     },
     "7234": {
       "vnum": 7234,
@@ -2255,7 +2717,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7204,
+          "count": 1,
+          "room": 7234
+        }
+      ],
+      "object_resets": []
     },
     "7235": {
       "vnum": 7235,
@@ -2268,7 +2738,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7268": {
       "vnum": 7268,
@@ -2281,7 +2753,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7279": {
       "vnum": 7279,
@@ -2298,7 +2772,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7280": {
       "vnum": 7280,
@@ -2318,7 +2794,15 @@
         "triangle": "The triangle is filled with small symbols in a language you have\nnever seen before."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7280
+        }
+      ],
+      "object_resets": []
     },
     "7281": {
       "vnum": 7281,
@@ -2341,7 +2825,20 @@
         "walls": "The walls look alive."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7281
+        },
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7281
+        }
+      ],
+      "object_resets": []
     },
     "7282": {
       "vnum": 7282,
@@ -2359,7 +2856,9 @@
         "shadow": "The shadow looks like a man in great pain."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7283": {
       "vnum": 7283,
@@ -2380,7 +2879,9 @@
         "writing": "The writing says 'The one to the east, belongs to the beast.\nTo the west you will surely END your quest!'."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7284": {
       "vnum": 7284,
@@ -2398,7 +2899,9 @@
         "writing": "The writing says 'A pray to the GODS will not be heard, though\nthe only exit is death..... Mother, I love you'."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7285": {
       "vnum": 7285,
@@ -2418,7 +2921,20 @@
         "skeletons": "When you look at the skeletons, you can see that they once had been in great\npain. They are hanging in their arms, and some of them has been killed\nwith a sharp instrument."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 5,
+          "room": 7285
+        },
+        {
+          "vnum": 7002,
+          "count": 5,
+          "room": 7285
+        }
+      ],
+      "object_resets": []
     },
     "7286": {
       "vnum": 7286,
@@ -2435,7 +2951,20 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7286
+        },
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7286
+        }
+      ],
+      "object_resets": []
     },
     "7301": {
       "vnum": 7301,
@@ -2456,7 +2985,9 @@
         "torch": "This VERY old torch looks as if it has burned for ages, yet no traces of\nthe searing flame can be seen on it!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7399": {
       "vnum": 7399,
@@ -2472,7 +3003,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7400": {
       "vnum": 7400,
@@ -2492,7 +3025,9 @@
         "writing": "The writing says 'BEWARE adventurer!'"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7401": {
       "vnum": 7401,
@@ -2509,7 +3044,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7008,
+          "count": 4,
+          "room": 7401
+        }
+      ],
+      "object_resets": []
     },
     "7402": {
       "vnum": 7402,
@@ -2526,7 +3069,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7403": {
       "vnum": 7403,
@@ -2547,7 +3092,15 @@
         "worms": "The worms are purple. They do not look edible."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7403
+        }
+      ],
+      "object_resets": []
     },
     "7404": {
       "vnum": 7404,
@@ -2568,7 +3121,9 @@
         "stone": "The stone looks very uninteresting. BUT as you are\nabout to turn away, you see a lightstribe coming\nthrough a small hole. Conclusion: The stone is movable."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7405": {
       "vnum": 7405,
@@ -2588,7 +3143,9 @@
         "socket": "The socket looks like the work of a dwarf. It is VERY beautiful."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7406": {
       "vnum": 7406,
@@ -2605,7 +3162,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7044,
+          "count": 6,
+          "room": 7406
+        }
+      ],
+      "object_resets": []
     },
     "7407": {
       "vnum": 7407,
@@ -2623,7 +3188,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7408": {
       "vnum": 7408,
@@ -2640,7 +3207,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7409": {
       "vnum": 7409,
@@ -2657,7 +3226,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7410": {
       "vnum": 7410,
@@ -2677,7 +3248,9 @@
         "statue": "This is a statue of a imp, pointing to the west. The imp\nlooks like a man with horns and a tail."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7411": {
       "vnum": 7411,
@@ -2697,7 +3270,9 @@
         "stalagmite": "The stalagmites are very tall, and looks very beautiful."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7412": {
       "vnum": 7412,
@@ -2714,7 +3289,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7412
+        }
+      ],
+      "object_resets": []
     },
     "7413": {
       "vnum": 7413,
@@ -2731,7 +3314,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7414": {
       "vnum": 7414,
@@ -2749,7 +3334,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7415": {
       "vnum": 7415,
@@ -2769,7 +3356,9 @@
         "primitive": "You see some persons dancing around a huge sun. The\nsun is about 7 feet in diameter, which shows the size\nof the picture."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7416": {
       "vnum": 7416,
@@ -2785,7 +3374,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7417": {
       "vnum": 7417,
@@ -2804,7 +3395,9 @@
         "skeleton": "It looks like a adventurer who wasn't lucky. You better\nwatch out-"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7418": {
       "vnum": 7418,
@@ -2825,7 +3418,9 @@
         "wall": "The sign says 'Gods of War I call you, my sword is by my side,\n               I seek a light free from all false pride'\n                       Reyemle Grug....."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7419": {
       "vnum": 7419,
@@ -2845,7 +3440,15 @@
         "sign": "The sign says 'I'm wandering around in a everlasting tale,\n               seeking the light to regain my pride\n                           Corama..."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7045,
+          "count": 1,
+          "room": 7419
+        }
+      ],
+      "object_resets": []
     },
     "7420": {
       "vnum": 7420,
@@ -2868,7 +3471,9 @@
         "table": "On the table there is dust, in the center there is a small statue of a\nDragon sleeping."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7421": {
       "vnum": 7421,
@@ -2885,7 +3490,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7422": {
       "vnum": 7422,
@@ -2903,7 +3510,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7007,
+          "count": 3,
+          "room": 7422
+        }
+      ],
+      "object_resets": []
     },
     "7423": {
       "vnum": 7423,
@@ -2920,7 +3535,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7011,
+          "count": 3,
+          "room": 7423
+        }
+      ],
+      "object_resets": []
     },
     "7424": {
       "vnum": 7424,
@@ -2943,7 +3566,15 @@
         "red": "This looks like a neutral dragon"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7046,
+          "count": 1,
+          "room": 7424
+        }
+      ],
+      "object_resets": []
     },
     "7425": {
       "vnum": 7425,
@@ -2960,7 +3591,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7426": {
       "vnum": 7426,
@@ -2982,7 +3615,9 @@
         "footprints": "You have never seen this kind of footprints before!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7427": {
       "vnum": 7427,
@@ -3001,7 +3636,9 @@
         "sign": "The sign says 'DANGER!!'."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7428": {
       "vnum": 7428,
@@ -3021,7 +3658,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7040,
+          "count": 1,
+          "room": 7428
+        }
+      ],
+      "object_resets": []
     },
     "7429": {
       "vnum": 7429,
@@ -3040,7 +3685,15 @@
         "writing": "The writing says 'DANGER!!!'"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7010,
+          "count": 2,
+          "room": 7429
+        }
+      ],
+      "object_resets": []
     },
     "7430": {
       "vnum": 7430,
@@ -3059,7 +3712,9 @@
         "breeze": "The breeze comes from a hole above you. NO way to get up\nthere."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7431": {
       "vnum": 7431,
@@ -3080,7 +3735,9 @@
         "walls": "The glittering silver looks like it is INSIDE the walls."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7432": {
       "vnum": 7432,
@@ -3098,7 +3755,9 @@
         "down": "A sign is blocking the way. It says 'we have closed an entrance to DEATH'"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7433": {
       "vnum": 7433,
@@ -3118,7 +3777,9 @@
         "mass": "The mass is nothing but a mass, but it is quite suspicious!"
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7434": {
       "vnum": 7434,
@@ -3134,7 +3795,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7435": {
       "vnum": 7435,
@@ -3154,7 +3817,15 @@
         "bones": "it looks like bones of a human."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7042,
+          "count": 2,
+          "room": 7435
+        }
+      ],
+      "object_resets": []
     },
     "7436": {
       "vnum": 7436,
@@ -3173,7 +3844,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7437": {
       "vnum": 7437,
@@ -3191,7 +3864,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7438": {
       "vnum": 7438,
@@ -3211,7 +3886,9 @@
         "small": "It's a small hole. About 1 feet in diameter."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7439": {
       "vnum": 7439,
@@ -3230,7 +3907,21 @@
         "hay": "The hay is very dirty. The smell of it makes you feel sick."
       },
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7043,
+          "count": 3,
+          "room": 7439
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 7300,
+          "count": 8,
+          "room": 7439
+        }
+      ]
     },
     "7440": {
       "vnum": 7440,
@@ -3248,7 +3939,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7441": {
       "vnum": 7441,
@@ -3266,7 +3959,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7442": {
       "vnum": 7442,
@@ -3283,7 +3978,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7443": {
       "vnum": 7443,
@@ -3300,7 +3997,9 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7444": {
       "vnum": 7444,
@@ -3316,7 +4015,15 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7041,
+          "count": 2,
+          "room": 7444
+        }
+      ],
+      "object_resets": []
     },
     "7445": {
       "vnum": 7445,
@@ -3334,7 +4041,1228 @@
       },
       "exdescs": {},
       "area_name": "Sewer",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "7000": {
+      "vnum": 7000,
+      "keywords": [
+        "mud",
+        "monster",
+        "mudmonster"
+      ],
+      "short": "the horrifying Mudmonster",
+      "long": "A horrifying Mudmonster is slowly evolving from the mud ...",
+      "race": "magical",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7001": {
+      "vnum": 7001,
+      "keywords": [
+        "bat"
+      ],
+      "short": "the small bat",
+      "long": "The small fierce-looking bat is hanging from the ceiling.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 6,
+      "max_mana": 6,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7002": {
+      "vnum": 7002,
+      "keywords": [
+        "rat"
+      ],
+      "short": "the great sewer rat",
+      "long": "The huge hungry-looking sewer rat sits here.",
+      "race": "rat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7003": {
+      "vnum": 7003,
+      "keywords": [
+        "spider"
+      ],
+      "short": "the small spider",
+      "long": "The small hairy spider.",
+      "race": "spider",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 8,
+      "max_mana": 8,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7004": {
+      "vnum": 7004,
+      "keywords": [
+        "beetle"
+      ],
+      "short": "the giant earth beetle",
+      "long": "The giant mean-looking earth beetle crawls towards you.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7005": {
+      "vnum": 7005,
+      "keywords": [
+        "maggot"
+      ],
+      "short": "the maggot",
+      "long": "The giant maggot crawls toward you.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7006": {
+      "vnum": 7006,
+      "keywords": [
+        "snake"
+      ],
+      "short": "the slithering snake",
+      "long": "The snake slithers towards you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7007": {
+      "vnum": 7007,
+      "keywords": [
+        "wanderer"
+      ],
+      "short": "the evil wanderer",
+      "long": "The evil wanderer stares at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7008": {
+      "vnum": 7008,
+      "keywords": [
+        "homonculus",
+        "homo"
+      ],
+      "short": "the homonculus",
+      "long": "The homonculus is here, looking at you with an evil look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7010": {
+      "vnum": 7010,
+      "keywords": [
+        "chreffn"
+      ],
+      "short": "the evil chreffn",
+      "long": "The chreffn are crawling here, looking around with their yellow eyes.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 148,
+      "max_mana": 148,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7011": {
+      "vnum": 7011,
+      "keywords": [
+        "morkoth"
+      ],
+      "short": "the shadowy morkoth",
+      "long": "The morkoth is standing here, waiting for someone to KILL!",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7013": {
+      "vnum": 7013,
+      "keywords": [
+        "mud",
+        "monster",
+        "mudmonster"
+      ],
+      "short": "the horrifying mudmonster",
+      "long": "A horrifying mudmonster is slowly evolving from the mud ...",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7040": {
+      "vnum": 7040,
+      "keywords": [
+        "fierce",
+        "red",
+        "dragon"
+      ],
+      "short": "a fierce red dragon",
+      "long": "A fierce looking red dragon, its slumber disturbed, awakes angrily.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 2500,
+      "max_mana": 2500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7041": {
+      "vnum": 7041,
+      "keywords": [
+        "sea",
+        "hag"
+      ],
+      "short": "the sea hag",
+      "long": "The sea hag is swimming around here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 172,
+      "max_mana": 172,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7042": {
+      "vnum": 7042,
+      "keywords": [
+        "guardian",
+        "naga"
+      ],
+      "short": "the guardian naga",
+      "long": "The guardian naga looks kindly at you.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 148,
+      "max_mana": 148,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7043": {
+      "vnum": 7043,
+      "keywords": [
+        "basilisk"
+      ],
+      "short": "the scaled basilisk",
+      "long": "The scaled basilisk crawls towards you slowly.",
+      "race": "reptile",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7044": {
+      "vnum": 7044,
+      "keywords": [
+        "lemure",
+        "blob"
+      ],
+      "short": "the lemure blob",
+      "long": "The lemure blob slithers terribly precisely towards you for an attack!",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 57,
+      "max_mana": 57,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7045": {
+      "vnum": 7045,
+      "keywords": [
+        "jones",
+        "cruncher",
+        "ettin"
+      ],
+      "short": "Jones",
+      "long": "Jones 'Cruncher' the ettin is standing here glaring at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7046": {
+      "vnum": 7046,
+      "keywords": [
+        "herald",
+        "mouse",
+        "killer",
+        "ettin"
+      ],
+      "short": "Herald",
+      "long": "Herald 'Mouse-Killer' the ettin is standing here looking confused at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7200": {
+      "vnum": 7200,
+      "keywords": [
+        "master",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the master mindflayer",
+      "long": "The master mindflayer is here, looking at you with an evil look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 14,
+      "hp": 14,
+      "mana": 140,
+      "max_mana": 140,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7201": {
+      "vnum": 7201,
+      "keywords": [
+        "senior",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the senior mindflayer",
+      "long": "The senior mindflayer walks around here, looking for something useful.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7202": {
+      "vnum": 7202,
+      "keywords": [
+        "junior",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the junior mindflayer",
+      "long": "The junior mindflayer is here, watching you carefully from the corner.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7203": {
+      "vnum": 7203,
+      "keywords": [
+        "wererat",
+        "rat",
+        "were"
+      ],
+      "short": "the ugly wererat",
+      "long": "An ugly wererat is here, looking at you with a strange flick in his eyes.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 69,
+      "max_mana": 69,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7204": {
+      "vnum": 7204,
+      "keywords": [
+        "rat",
+        "gigantic"
+      ],
+      "short": "the gigantic rat",
+      "long": "There is a gigantic rat here, looking at you with a hungry look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7205": {
+      "vnum": 7205,
+      "keywords": [
+        "jay"
+      ],
+      "short": "a newly created jay",
+      "long": "Some god abandoned a newly created jay here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7206": {
+      "vnum": 7206,
+      "keywords": [
+        "bird"
+      ],
+      "short": "a newly created bird",
+      "long": "Some god abandoned a newly created bird here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "7190": {
+      "vnum": 7190,
+      "keywords": [
+        "ring",
+        "silver"
+      ],
+      "type": "armor",
+      "short": "a glinting ring of silver",
+      "long": "A lovely silver ring has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7200": {
+      "vnum": 7200,
+      "keywords": [
+        "rod",
+        "devil"
+      ],
+      "type": "weapon",
+      "short": "the devil rod",
+      "long": "The mysterious devil rod lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7201": {
+      "vnum": 7201,
+      "keywords": [
+        "mace",
+        "large"
+      ],
+      "type": "weapon",
+      "short": "the large mace",
+      "long": "A large mace lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7202": {
+      "vnum": 7202,
+      "keywords": [
+        "mace",
+        "small"
+      ],
+      "type": "weapon",
+      "short": "the small mace",
+      "long": "A small mace has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7203": {
+      "vnum": 7203,
+      "keywords": [
+        "cloak",
+        "purple"
+      ],
+      "type": "armor",
+      "short": "a purple cloak",
+      "long": "A purple cloak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7204": {
+      "vnum": 7204,
+      "keywords": [
+        "potion",
+        "neon",
+        "blue"
+      ],
+      "type": "potion",
+      "short": "an neon blue potion",
+      "long": "A neon blue potion stands on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7205": {
+      "vnum": 7205,
+      "keywords": [
+        "key",
+        "black"
+      ],
+      "type": "key",
+      "short": "a black key",
+      "long": "A black key has been left on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7206": {
+      "vnum": 7206,
+      "keywords": [
+        "skull",
+        "white"
+      ],
+      "type": "armor",
+      "short": "a strange white skull",
+      "long": "A strange white skull lies on the floor looking at you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7207": {
+      "vnum": 7207,
+      "keywords": [
+        "eye",
+        "basilisk"
+      ],
+      "type": "staff",
+      "short": "a basilisk's eye",
+      "long": "Rolling on the ground before you is the eye of a foul beast.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7208": {
+      "vnum": 7208,
+      "keywords": [
+        "stick",
+        "small",
+        "light"
+      ],
+      "type": "light",
+      "short": "a small stick",
+      "long": "A small stick lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7209": {
+      "vnum": 7209,
+      "keywords": [
+        "boots",
+        "muddy"
+      ],
+      "type": "armor",
+      "short": "a pair of muddy boots",
+      "long": "A pair of muddy boots has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7210": {
+      "vnum": 7210,
+      "keywords": [
+        "treasure",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a huge treasure",
+      "long": "There is a huge treasure here, looking very valuable.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7211": {
+      "vnum": 7211,
+      "keywords": [
+        "sword",
+        "short"
+      ],
+      "type": "weapon",
+      "short": "a short sword",
+      "long": "There lies a short sword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7216": {
+      "vnum": 7216,
+      "keywords": [
+        "claw",
+        "red",
+        "redclaw"
+      ],
+      "type": "weapon",
+      "short": "the enormous claw of a red dragon",
+      "long": "On the floor rests the enormous claw of a red dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7217": {
+      "vnum": 7217,
+      "keywords": [
+        "plate",
+        "breast",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a silvery breast plate",
+      "long": "There is a silvery breast plate on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7218": {
+      "vnum": 7218,
+      "keywords": [
+        "plates",
+        "leg",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "some silvery leg plates",
+      "long": "On the floor you see some silvery leg plates.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7219": {
+      "vnum": 7219,
+      "keywords": [
+        "gloves",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a pair of silvery gloves",
+      "long": "You can see a pair of silvery gloves on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7220": {
+      "vnum": 7220,
+      "keywords": [
+        "helmet",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a silvery helmet",
+      "long": "The silvery helmet lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7221": {
+      "vnum": 7221,
+      "keywords": [
+        "shield"
+      ],
+      "type": "armor",
+      "short": "the shield of the rose",
+      "long": "The shield of the rose rests on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7222": {
+      "vnum": 7222,
+      "keywords": [
+        "boots",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a pair of silvery boots",
+      "long": "A pair of silvery boots stand on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7223": {
+      "vnum": 7223,
+      "keywords": [
+        "plates",
+        "arm",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "some silvery arm plates",
+      "long": "On the floor you see some silvery arm plates.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7224": {
+      "vnum": 7224,
+      "keywords": [
+        "cloak",
+        "white"
+      ],
+      "type": "armor",
+      "short": "a white cloak",
+      "long": "A white cloak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7298": {
+      "vnum": 7298,
+      "keywords": [
+        "treasure",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a huge treasure",
+      "long": "A huge treasure is lying here, looking very valuable.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7299": {
+      "vnum": 7299,
+      "keywords": [
+        "sword",
+        "short"
+      ],
+      "type": "weapon",
+      "short": "a short sword",
+      "long": "There lies a short sword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7300": {
+      "vnum": 7300,
+      "keywords": [
+        "backpack",
+        "pack",
+        "back"
+      ],
+      "type": "container",
+      "short": "a backpack",
+      "long": "A backpack stands upright here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7301": {
+      "vnum": 7301,
+      "keywords": [
+        "beltpouch",
+        "pouch"
+      ],
+      "type": "container",
+      "short": "a large beltpouch",
+      "long": "A large beltpouch lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7303": {
+      "vnum": 7303,
+      "keywords": [
+        "orb",
+        "dragonorb"
+      ],
+      "type": "staff",
+      "short": "the Red DragonOrb",
+      "long": "A large reddish orb draws your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7304": {
+      "vnum": 7304,
+      "keywords": [
+        "red",
+        "torso"
+      ],
+      "type": "armor",
+      "short": "a torso of red dragonscale",
+      "long": "A large pile of red dragonscale lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7305": {
+      "vnum": 7305,
+      "keywords": [
+        "leggings",
+        "red"
+      ],
+      "type": "armor",
+      "short": "leggings of red dragonscale",
+      "long": "On the floor are two leggings of red dragonscale.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7306": {
+      "vnum": 7306,
+      "keywords": [
+        "red",
+        "dragonclaws",
+        "fore",
+        "claws"
+      ],
+      "type": "armor",
+      "short": "the fore claws of a red dragon",
+      "long": "A set of claws covered in red dragonscale lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7307": {
+      "vnum": 7307,
+      "keywords": [
+        "skull",
+        "dragonhelm",
+        "red"
+      ],
+      "type": "armor",
+      "short": "a red dragonhelm",
+      "long": "A helmet fashioned into the likeness of a dragon skull is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7308": {
+      "vnum": 7308,
+      "keywords": [
+        "dragonshield",
+        "red",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a shield of red dragonscale",
+      "long": "A large shield of red dragonscale rests on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7309": {
+      "vnum": 7309,
+      "keywords": [
+        "red",
+        "greaves",
+        "rear",
+        "claws"
+      ],
+      "type": "armor",
+      "short": "the rear claws of a red dragon",
+      "long": "The rear claws of a red dragon lay on the foor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7310": {
+      "vnum": 7310,
+      "keywords": [
+        "arm",
+        "guards",
+        "red"
+      ],
+      "type": "armor",
+      "short": "armguards of red dragonscale",
+      "long": "On the ground are two armguards of red dragonscale.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

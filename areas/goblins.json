@@ -1,6 +1,7 @@
 {
   "name": "Goblin Caves",
   "author": "Manx",
+  "reset_minutes": 15,
   "rooms": {
     "20000": {
       "vnum": 20000,
@@ -15,7 +16,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20000,
+          "count": 1,
+          "room": 20000
+        }
+      ],
+      "object_resets": []
     },
     "20001": {
       "vnum": 20001,
@@ -29,7 +38,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20002": {
       "vnum": 20002,
@@ -43,7 +54,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20003": {
       "vnum": 20003,
@@ -57,7 +70,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20004": {
       "vnum": 20004,
@@ -71,7 +86,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20005": {
       "vnum": 20005,
@@ -85,7 +102,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20006": {
       "vnum": 20006,
@@ -101,7 +120,15 @@
         "door": "A huge granite door is here daring you to enter."
       },
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20001,
+          "count": 1,
+          "room": 20006
+        }
+      ],
+      "object_resets": []
     },
     "20007": {
       "vnum": 20007,
@@ -119,7 +146,20 @@
         "door": "A huge granite door is here providing your only escape out, until you finish\noff the Goblin King."
       },
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20002,
+          "count": 1,
+          "room": 20007
+        },
+        {
+          "vnum": 20003,
+          "count": 1,
+          "room": 20007
+        }
+      ],
+      "object_resets": []
     },
     "20008": {
       "vnum": 20008,
@@ -136,7 +176,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20009": {
       "vnum": 20009,
@@ -152,7 +194,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20004,
+          "count": 1,
+          "room": 20009
+        }
+      ],
+      "object_resets": []
     },
     "20010": {
       "vnum": 20010,
@@ -168,7 +218,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20011": {
       "vnum": 20011,
@@ -183,7 +235,26 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20005,
+          "count": 1,
+          "room": 20011
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 20005,
+          "count": 0,
+          "room": 20011
+        },
+        {
+          "vnum": 20004,
+          "count": 0,
+          "room": 20011
+        }
+      ]
     },
     "20012": {
       "vnum": 20012,
@@ -200,7 +271,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20006,
+          "count": 1,
+          "room": 20012
+        }
+      ],
+      "object_resets": []
     },
     "20013": {
       "vnum": 20013,
@@ -216,7 +295,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20014": {
       "vnum": 20014,
@@ -233,7 +314,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20008,
+          "count": 1,
+          "room": 20014
+        }
+      ],
+      "object_resets": []
     },
     "20015": {
       "vnum": 20015,
@@ -248,7 +337,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20016,
+          "count": 1,
+          "room": 20015
+        }
+      ],
+      "object_resets": []
     },
     "20016": {
       "vnum": 20016,
@@ -263,7 +360,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20017,
+          "count": 1,
+          "room": 20016
+        }
+      ],
+      "object_resets": []
     },
     "20017": {
       "vnum": 20017,
@@ -279,7 +384,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20018": {
       "vnum": 20018,
@@ -295,7 +402,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20007,
+          "count": 1,
+          "room": 20018
+        }
+      ],
+      "object_resets": []
     },
     "20019": {
       "vnum": 20019,
@@ -311,7 +426,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20020": {
       "vnum": 20020,
@@ -327,7 +444,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20021": {
       "vnum": 20021,
@@ -344,7 +463,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20009,
+          "count": 1,
+          "room": 20021
+        }
+      ],
+      "object_resets": []
     },
     "20022": {
       "vnum": 20022,
@@ -360,7 +487,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20023": {
       "vnum": 20023,
@@ -376,7 +505,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20010,
+          "count": 1,
+          "room": 20023
+        }
+      ],
+      "object_resets": []
     },
     "20024": {
       "vnum": 20024,
@@ -392,7 +529,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20025": {
       "vnum": 20025,
@@ -409,7 +548,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20011,
+          "count": 1,
+          "room": 20025
+        }
+      ],
+      "object_resets": []
     },
     "20026": {
       "vnum": 20026,
@@ -425,7 +572,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20027": {
       "vnum": 20027,
@@ -441,7 +590,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20012,
+          "count": 1,
+          "room": 20027
+        }
+      ],
+      "object_resets": []
     },
     "20028": {
       "vnum": 20028,
@@ -457,7 +614,9 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "20029": {
       "vnum": 20029,
@@ -473,7 +632,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20013,
+          "count": 1,
+          "room": 20029
+        }
+      ],
+      "object_resets": []
     },
     "20030": {
       "vnum": 20030,
@@ -489,7 +656,15 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20015,
+          "count": 1,
+          "room": 20030
+        }
+      ],
+      "object_resets": []
     },
     "20031": {
       "vnum": 20031,
@@ -505,7 +680,603 @@
       },
       "exdescs": {},
       "area_name": "Goblin Caves",
-      "area_author": "Manx"
+      "area_author": "Manx",
+      "mobile_resets": [
+        {
+          "vnum": 20014,
+          "count": 1,
+          "room": 20031
+        }
+      ],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "20000": {
+      "vnum": 20000,
+      "keywords": [
+        "sentry"
+      ],
+      "short": "The Sentry to the Goblin Caves",
+      "long": "The Sentry to the Goblin Caves stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20001": {
+      "vnum": 20001,
+      "keywords": [
+        "wizard"
+      ],
+      "short": "An Ancient Wizard",
+      "long": "An Ancient Wizard stands here as to prevent you from entering the caves.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20002": {
+      "vnum": 20002,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20003": {
+      "vnum": 20003,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20004": {
+      "vnum": 20004,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20005": {
+      "vnum": 20005,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20006": {
+      "vnum": 20006,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20007": {
+      "vnum": 20007,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20008": {
+      "vnum": 20008,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20009": {
+      "vnum": 20009,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 5,
+      "max_mana": 5,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20010": {
+      "vnum": 20010,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 5,
+      "max_mana": 5,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20011": {
+      "vnum": 20011,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 5,
+      "max_mana": 5,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20012": {
+      "vnum": 20012,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 5,
+      "max_mana": 5,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20013": {
+      "vnum": 20013,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 11,
+      "max_mana": 11,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20014": {
+      "vnum": 20014,
+      "keywords": [
+        "goblin"
+      ],
+      "short": "A Goblin Soldier",
+      "long": "A Loyal soldier to the Goblin King stands at attention here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 11,
+      "max_mana": 11,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20015": {
+      "vnum": 20015,
+      "keywords": [
+        "goblin",
+        "king"
+      ],
+      "short": "Goblin King",
+      "long": "The Goblin King is here ordering you to kneel.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 11,
+      "max_mana": 11,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20016": {
+      "vnum": 20016,
+      "keywords": [
+        "goblin",
+        "captain"
+      ],
+      "short": "Captain of the Goblin Soldiers",
+      "long": "The Captain of the Goblin Soldiers stands here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "20017": {
+      "vnum": 20017,
+      "keywords": [
+        "captive",
+        "creature"
+      ],
+      "short": "Captive of the Goblins",
+      "long": "A poor defenseless creature is here, urging you to look at it.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "20000": {
+      "vnum": 20000,
+      "keywords": [
+        "key",
+        "granite"
+      ],
+      "type": "key",
+      "short": "a granite key",
+      "long": "The key to the Goblin Caves lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20001": {
+      "vnum": 20001,
+      "keywords": [
+        "key",
+        "stone"
+      ],
+      "type": "key",
+      "short": "a stone key",
+      "long": "A strange stone key is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20002": {
+      "vnum": 20002,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "a Jailor's key",
+      "long": "The key to some horrible place of torture is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20003": {
+      "vnum": 20003,
+      "keywords": [
+        "key",
+        "dust"
+      ],
+      "type": "key",
+      "short": "a secret looking key",
+      "long": "There is some dust on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20004": {
+      "vnum": 20004,
+      "keywords": [
+        "sword",
+        "goblin"
+      ],
+      "type": "weapon",
+      "short": "a Goblin Sword",
+      "long": "A plain but affective Goblin Sword lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20005": {
+      "vnum": 20005,
+      "keywords": [
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a Goblin Breast Plate",
+      "long": "Some plain looking armor lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20006": {
+      "vnum": 20006,
+      "keywords": [
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a Goblin Sentry's Sword",
+      "long": "A deadly looking Goblin Sentry'sword",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

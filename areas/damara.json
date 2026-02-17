@@ -1,6 +1,7 @@
 {
   "name": "The Tomb of Damara",
   "author": "Gabriel",
+  "reset_minutes": 15,
   "rooms": {
     "26050": {
       "vnum": 26050,
@@ -13,7 +14,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 26058,
+          "count": 1,
+          "room": 26050
+        }
+      ]
     },
     "26051": {
       "vnum": 26051,
@@ -32,7 +41,26 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26050,
+          "count": 2,
+          "room": 26051
+        },
+        {
+          "vnum": 26050,
+          "count": 2,
+          "room": 26051
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26052,
+          "count": 1,
+          "room": 26051
+        }
+      ]
     },
     "26052": {
       "vnum": 26052,
@@ -48,7 +76,20 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26051,
+          "count": 2,
+          "room": 26052
+        },
+        {
+          "vnum": 26051,
+          "count": 2,
+          "room": 26052
+        }
+      ],
+      "object_resets": []
     },
     "26053": {
       "vnum": 26053,
@@ -65,7 +106,21 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26052,
+          "count": 1,
+          "room": 26053
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26051,
+          "count": 1,
+          "room": 26053
+        }
+      ]
     },
     "26054": {
       "vnum": 26054,
@@ -81,7 +136,26 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26053,
+          "count": 1,
+          "room": 26054
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26062,
+          "count": 1,
+          "room": 26054
+        },
+        {
+          "vnum": 26063,
+          "count": 1,
+          "room": 26054
+        }
+      ]
     },
     "26055": {
       "vnum": 26055,
@@ -99,7 +173,21 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26054,
+          "count": 1,
+          "room": 26055
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26053,
+          "count": 1,
+          "room": 26055
+        }
+      ]
     },
     "26056": {
       "vnum": 26056,
@@ -116,7 +204,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26064,
+          "count": 1,
+          "room": 26056
+        }
+      ],
+      "object_resets": []
     },
     "26057": {
       "vnum": 26057,
@@ -132,7 +228,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26065,
+          "count": 1,
+          "room": 26057
+        }
+      ],
+      "object_resets": []
     },
     "26058": {
       "vnum": 26058,
@@ -149,7 +253,9 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "26059": {
       "vnum": 26059,
@@ -169,7 +275,25 @@
         "mine": "The ground has been ripped open recently as if someone were looking\nfor something."
       },
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26055,
+          "count": 2,
+          "room": 26059
+        },
+        {
+          "vnum": 26056,
+          "count": 1,
+          "room": 26059
+        },
+        {
+          "vnum": 26055,
+          "count": 2,
+          "room": 26059
+        }
+      ],
+      "object_resets": []
     },
     "26060": {
       "vnum": 26060,
@@ -188,7 +312,25 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26057,
+          "count": 1,
+          "room": 26060
+        },
+        {
+          "vnum": 26058,
+          "count": 2,
+          "room": 26060
+        },
+        {
+          "vnum": 26058,
+          "count": 2,
+          "room": 26060
+        }
+      ],
+      "object_resets": []
     },
     "26061": {
       "vnum": 26061,
@@ -204,7 +346,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 26054,
+          "count": 1,
+          "room": 26061
+        }
+      ]
     },
     "26062": {
       "vnum": 26062,
@@ -220,7 +370,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26059,
+          "count": 1,
+          "room": 26062
+        }
+      ],
+      "object_resets": []
     },
     "26063": {
       "vnum": 26063,
@@ -237,7 +395,9 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "26064": {
       "vnum": 26064,
@@ -254,7 +414,9 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "26065": {
       "vnum": 26065,
@@ -272,7 +434,9 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "26066": {
       "vnum": 26066,
@@ -288,7 +452,21 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26060,
+          "count": 1,
+          "room": 26066
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26055,
+          "count": 1,
+          "room": 26066
+        }
+      ]
     },
     "26067": {
       "vnum": 26067,
@@ -304,7 +482,31 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26063,
+          "count": 1,
+          "room": 26067
+        },
+        {
+          "vnum": 26061,
+          "count": 1,
+          "room": 26067
+        },
+        {
+          "vnum": 26062,
+          "count": 1,
+          "room": 26067
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26055,
+          "count": 1,
+          "room": 26067
+        }
+      ]
     },
     "26068": {
       "vnum": 26068,
@@ -320,7 +522,26 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26066,
+          "count": 1,
+          "room": 26068
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 26056,
+          "count": 1,
+          "room": 26068
+        },
+        {
+          "vnum": 26057,
+          "count": 1,
+          "room": 26068
+        }
+      ]
     },
     "26069": {
       "vnum": 26069,
@@ -336,7 +557,15 @@
       },
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [
+        {
+          "vnum": 26067,
+          "count": 1,
+          "room": 26069
+        }
+      ],
+      "object_resets": []
     },
     "26070": {
       "vnum": 26070,
@@ -349,7 +578,1088 @@
       "exits": {},
       "exdescs": {},
       "area_name": "The Tomb of Damara",
-      "area_author": "Gabriel"
+      "area_author": "Gabriel",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "26050": {
+      "vnum": 26050,
+      "keywords": [
+        "gnoll"
+      ],
+      "short": "an ugly gnoll",
+      "long": "An ugly gnoll is less than happy with your presence.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26051": {
+      "vnum": 26051,
+      "keywords": [
+        "kobold",
+        "guard"
+      ],
+      "short": "a kobold guard",
+      "long": "A kobold guard is here, nursing a flask of wine.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26052": {
+      "vnum": 26052,
+      "keywords": [
+        "giant",
+        "toad"
+      ],
+      "short": "a giant toad",
+      "long": "An enormous toad leaps out of the fountain as you enter.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26053": {
+      "vnum": 26053,
+      "keywords": [
+        "giant",
+        "rat"
+      ],
+      "short": "a giant rat",
+      "long": "A giant rat scurries across the floor at an amazing speed.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26054": {
+      "vnum": 26054,
+      "keywords": [
+        "lizard",
+        "shaman",
+        "priest"
+      ],
+      "short": "the lizard shaman",
+      "long": "A lizardman in the robes of a priest is disturbed at your presence.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26055": {
+      "vnum": 26055,
+      "keywords": [
+        "orc",
+        "miner"
+      ],
+      "short": "an orc miner",
+      "long": "An orc is here digging at the ground at the command of his master.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26056": {
+      "vnum": 26056,
+      "keywords": [
+        "orc",
+        "master"
+      ],
+      "short": "the master miner",
+      "long": "An orc in uniform is here, forcing his lessers to dig.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26057": {
+      "vnum": 26057,
+      "keywords": [
+        "goblin",
+        "slavedriver"
+      ],
+      "short": "a goblin slavedriver",
+      "long": "A goblin is here, forcing the slaves to cook their own friends.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26058": {
+      "vnum": 26058,
+      "keywords": [
+        "slave",
+        "human"
+      ],
+      "short": "a human slave",
+      "long": "A human slave is here, being forced to do unimaginable things.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "26059": {
+      "vnum": 26059,
+      "keywords": [
+        "gelatinous",
+        "cube"
+      ],
+      "short": "a gelatinous cube",
+      "long": "A pair of iron bracers seem to be floating in mid-air.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26060": {
+      "vnum": 26060,
+      "keywords": [
+        "carrion",
+        "crawler"
+      ],
+      "short": "a carrion crawler",
+      "long": "An enormous worm-thing is here, flashing a tentacled mouth!",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26061": {
+      "vnum": 26061,
+      "keywords": [
+        "predator",
+        "wolf"
+      ],
+      "short": "Predator",
+      "long": "An angry wolf snarls at you, but will not attack until commanded.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26062": {
+      "vnum": 26062,
+      "keywords": [
+        "crusher",
+        "wolf"
+      ],
+      "short": "Crusher",
+      "long": "An angry wolf snarls at you, but will not attack until commanded.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26063": {
+      "vnum": 26063,
+      "keywords": [
+        "bonegnasher",
+        "ogre"
+      ],
+      "short": "BoneGnasher",
+      "long": "An ogre in full armor is here, not pleased with your intrusion.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26064": {
+      "vnum": 26064,
+      "keywords": [
+        "hobgoblin",
+        "jailor"
+      ],
+      "short": "the hobgoblin jailor",
+      "long": "An armed hobgoblin is here, interrogating a prisoner.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26065": {
+      "vnum": 26065,
+      "keywords": [
+        "taran",
+        "prisoner"
+      ],
+      "short": "Taran",
+      "long": "Taran is here, ecstatic that you have come to the rescue.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26066": {
+      "vnum": 26066,
+      "keywords": [
+        "shadows",
+        "shadow"
+      ],
+      "short": "The Shadow",
+      "long": "An unnatural shadow maneuvers across the room in your direction.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26067": {
+      "vnum": 26067,
+      "keywords": [
+        "pit",
+        "monster"
+      ],
+      "short": "the pit monster",
+      "long": "An unrecognizable creature stares at you with a hungry gaze.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "26068": {
+      "vnum": 26068,
+      "keywords": [
+        "ghost",
+        "mob"
+      ],
+      "short": "a ghost mob",
+      "long": "This mob should not be visible to anyone.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "26050": {
+      "vnum": 26050,
+      "keywords": [
+        "cell",
+        "key"
+      ],
+      "type": "key",
+      "short": "a cell key",
+      "long": "An oddly shaped key hangs from a jailor's key ring here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26051": {
+      "vnum": 26051,
+      "keywords": [
+        "fountain"
+      ],
+      "type": "fountain",
+      "short": "the fountain",
+      "long": "A sculpture of a dragon spews forth water into a large fountain.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26052": {
+      "vnum": 26052,
+      "keywords": [
+        "rubble",
+        "junk"
+      ],
+      "type": "trash",
+      "short": "the pile of rubble",
+      "long": "There is a pile of junk lying in the corner of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26053": {
+      "vnum": 26053,
+      "keywords": [
+        "altar",
+        "stone"
+      ],
+      "type": "furniture",
+      "short": "the stone altar",
+      "long": "An ancient stone block that used to be an altar is engraved with runes.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26054": {
+      "vnum": 26054,
+      "keywords": [
+        "well"
+      ],
+      "type": "container",
+      "short": "the well",
+      "long": "\u0026BThere is a well with a bucket attached to it in the center of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26055": {
+      "vnum": 26055,
+      "keywords": [
+        "chest"
+      ],
+      "type": "container",
+      "short": "a wooden chest",
+      "long": "There is a wooden chest leaning against the far wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26056": {
+      "vnum": 26056,
+      "keywords": [
+        "throne"
+      ],
+      "type": "container",
+      "short": "Damara's Throne",
+      "long": "The throne of King Damara is propped up against the far wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26057": {
+      "vnum": 26057,
+      "keywords": [
+        "clay",
+        "pots"
+      ],
+      "type": "container",
+      "short": "the clay pots",
+      "long": "Two clay pots lie on either side at the base of the throne.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26058": {
+      "vnum": 26058,
+      "keywords": [
+        "sign",
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a sign",
+      "long": "A sign is posted on the left side of the gate.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26059": {
+      "vnum": 26059,
+      "keywords": [
+        "curved",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a curved sword",
+      "long": "A curved, rusty sword lies on the ground before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26060": {
+      "vnum": 26060,
+      "keywords": [
+        "round",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a small, round shield",
+      "long": "A small, round shield lies on the ground before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26061": {
+      "vnum": 26061,
+      "keywords": [
+        "ring",
+        "protection"
+      ],
+      "type": "armor",
+      "short": "a ring of protection",
+      "long": "A circle of obsidian lies here, omitting a strange glow.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26062": {
+      "vnum": 26062,
+      "keywords": [
+        "shovel"
+      ],
+      "type": "shovel",
+      "short": "an old shovel",
+      "long": "An old shovel is here, leaning against the wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26063": {
+      "vnum": 26063,
+      "keywords": [
+        "brandy",
+        "barrel"
+      ],
+      "type": "drinkcon",
+      "short": "a barrel of brandy",
+      "long": "A wooden barrel of brandy lies here collecting dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26064": {
+      "vnum": 26064,
+      "keywords": [
+        "black",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "a black mace",
+      "long": "A mace crafted of obsidian is here, gleaming in the light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26065": {
+      "vnum": 26065,
+      "keywords": [
+        "shaman",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "a shaman's robes",
+      "long": "A pile of intricately designed fabrics lie here in the shape of a robe.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26066": {
+      "vnum": 26066,
+      "keywords": [
+        "chain",
+        "vest"
+      ],
+      "type": "armor",
+      "short": "a chain vest",
+      "long": "A chain vest lies on the ground collecting dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26067": {
+      "vnum": 26067,
+      "keywords": [
+        "scroll",
+        "black"
+      ],
+      "type": "scroll",
+      "short": "a black scroll",
+      "long": "A rolled up piece of black parchment lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26068": {
+      "vnum": 26068,
+      "keywords": [
+        "pick",
+        "axe",
+        "pickaxe"
+      ],
+      "type": "weapon",
+      "short": "a miner's pickaxe",
+      "long": "A miner seems to have left his pickaxe behind.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26069": {
+      "vnum": 26069,
+      "keywords": [
+        "scroll",
+        "royal"
+      ],
+      "type": "scroll",
+      "short": "a royal scroll",
+      "long": "A scroll with the royal mark of the House of Damara lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26070": {
+      "vnum": 26070,
+      "keywords": [
+        "crested",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a crested shield",
+      "long": "A large shield with the crest of the House of Damara lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26071": {
+      "vnum": 26071,
+      "keywords": [
+        "orb",
+        "dragonkind"
+      ],
+      "type": "staff",
+      "short": "the Orb of Dragonkind",
+      "long": "A hazy blue sphere sits in a case of dragon scales before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26072": {
+      "vnum": 26072,
+      "keywords": [
+        "potion",
+        "tube",
+        "healing"
+      ],
+      "type": "potion",
+      "short": "a healing potion",
+      "long": "A small tube containing a clear liquid lies before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26073": {
+      "vnum": 26073,
+      "keywords": [
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a whip",
+      "long": "It appears as though some slavedriver left his whip behind.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26074": {
+      "vnum": 26074,
+      "keywords": [
+        "rusty",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "a rusty dagger",
+      "long": "A long, rusted dagger lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26075": {
+      "vnum": 26075,
+      "keywords": [
+        "iron",
+        "bracer"
+      ],
+      "type": "armor",
+      "short": "an iron bracer",
+      "long": "An extremely heavy, iron bracer lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26076": {
+      "vnum": 26076,
+      "keywords": [
+        "gold",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a pile of gold coins",
+      "long": "A pile of gold coins lie on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26077": {
+      "vnum": 26077,
+      "keywords": [
+        "spellbook",
+        "book"
+      ],
+      "type": "scroll",
+      "short": "Taran's Spellbook",
+      "long": "A book engraved with elven runes lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26078": {
+      "vnum": 26078,
+      "keywords": [
+        "potion",
+        "invisibility"
+      ],
+      "type": "potion",
+      "short": "a potion of invisibility",
+      "long": "A beaker of clear fluid lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26079": {
+      "vnum": 26079,
+      "keywords": [
+        "damara",
+        "ocarina"
+      ],
+      "type": "staff",
+      "short": "the Ocarina of Damara",
+      "long": "A blue ocarina lies on the ground before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26080": {
+      "vnum": 26080,
+      "keywords": [
+        "combat",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of combat boots",
+      "long": "A large pair of boots lie on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26081": {
+      "vnum": 26081,
+      "keywords": [
+        "chain",
+        "mail",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "a pair of chainmail leggings",
+      "long": "A pair of chainmail leggings lie on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26082": {
+      "vnum": 26082,
+      "keywords": [
+        "studded",
+        "girth"
+      ],
+      "type": "armor",
+      "short": "a studded girth",
+      "long": "A large, studded girth that could fit an ogre lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26083": {
+      "vnum": 26083,
+      "keywords": [
+        "spiked",
+        "club"
+      ],
+      "type": "weapon",
+      "short": "a spiked club",
+      "long": "A giant wooden club with deadly spikes lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26084": {
+      "vnum": 26084,
+      "keywords": [
+        "guiding",
+        "light"
+      ],
+      "type": "light",
+      "short": "The Guiding Light",
+      "long": "A mass of light gathers in one place to guide you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26085": {
+      "vnum": 26085,
+      "keywords": [
+        "collar",
+        "leather"
+      ],
+      "type": "armor",
+      "short": "a leathery collar",
+      "long": "A strip of leather lies on the ground before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26086": {
+      "vnum": 26086,
+      "keywords": [
+        "rusty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a rusty key",
+      "long": "A key that seems to have seen better days lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26087": {
+      "vnum": 26087,
+      "keywords": [
+        "bone",
+        "key"
+      ],
+      "type": "key",
+      "short": "a bone key",
+      "long": "A key carved out of the bones of some unfortunate person lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26088": {
+      "vnum": 26088,
+      "keywords": [
+        "anklet",
+        "bone"
+      ],
+      "type": "armor",
+      "short": "an anklet of bone",
+      "long": "An anklet carved of human bone lies here collecting dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

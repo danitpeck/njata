@@ -1,6 +1,7 @@
 {
   "name": "New Immak",
   "author": "Zoie",
+  "reset_minutes": 15,
   "rooms": {
     "2200": {
       "vnum": 2200,
@@ -16,7 +17,9 @@
         "bucket": "This bucket is clean and pristine, it appears to be made out of silver."
       },
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2201": {
       "vnum": 2201,
@@ -30,7 +33,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2202": {
       "vnum": 2202,
@@ -44,7 +49,15 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2203,
+          "count": 1,
+          "room": 2202
+        }
+      ]
     },
     "2203": {
       "vnum": 2203,
@@ -59,7 +72,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2204": {
       "vnum": 2204,
@@ -72,7 +87,15 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 2201,
+          "count": 1,
+          "room": 2204
+        }
+      ],
+      "object_resets": []
     },
     "2205": {
       "vnum": 2205,
@@ -86,7 +109,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2206": {
       "vnum": 2206,
@@ -99,7 +124,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2207": {
       "vnum": 2207,
@@ -116,7 +143,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2208": {
       "vnum": 2208,
@@ -133,7 +162,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2209": {
       "vnum": 2209,
@@ -148,7 +179,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2210": {
       "vnum": 2210,
@@ -163,7 +196,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2211": {
       "vnum": 2211,
@@ -179,7 +214,15 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2202,
+          "count": 1,
+          "room": 2211
+        }
+      ]
     },
     "2212": {
       "vnum": 2212,
@@ -195,7 +238,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2213": {
       "vnum": 2213,
@@ -209,7 +254,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2214": {
       "vnum": 2214,
@@ -227,7 +274,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2215": {
       "vnum": 2215,
@@ -245,7 +294,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2216": {
       "vnum": 2216,
@@ -262,7 +313,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2217": {
       "vnum": 2217,
@@ -275,7 +328,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2218": {
       "vnum": 2218,
@@ -290,7 +345,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2219": {
       "vnum": 2219,
@@ -304,7 +361,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2220": {
       "vnum": 2220,
@@ -317,7 +376,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2221": {
       "vnum": 2221,
@@ -334,7 +395,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2222": {
       "vnum": 2222,
@@ -352,7 +415,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2223": {
       "vnum": 2223,
@@ -369,7 +434,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2224": {
       "vnum": 2224,
@@ -383,7 +450,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2225": {
       "vnum": 2225,
@@ -396,7 +465,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2226": {
       "vnum": 2226,
@@ -413,7 +484,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2227": {
       "vnum": 2227,
@@ -431,7 +504,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2228": {
       "vnum": 2228,
@@ -448,7 +523,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2229": {
       "vnum": 2229,
@@ -461,7 +538,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2230": {
       "vnum": 2230,
@@ -475,7 +554,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2231": {
       "vnum": 2231,
@@ -490,7 +571,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2232": {
       "vnum": 2232,
@@ -507,7 +590,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2233": {
       "vnum": 2233,
@@ -525,7 +610,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2234": {
       "vnum": 2234,
@@ -542,7 +629,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2235": {
       "vnum": 2235,
@@ -560,7 +649,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2236": {
       "vnum": 2236,
@@ -578,7 +669,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2237": {
       "vnum": 2237,
@@ -595,7 +688,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2238": {
       "vnum": 2238,
@@ -612,7 +707,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2239": {
       "vnum": 2239,
@@ -630,7 +727,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2240": {
       "vnum": 2240,
@@ -647,7 +746,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2241": {
       "vnum": 2241,
@@ -662,7 +763,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2242": {
       "vnum": 2242,
@@ -679,7 +782,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2243": {
       "vnum": 2243,
@@ -696,7 +801,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2244": {
       "vnum": 2244,
@@ -711,7 +818,9 @@
       },
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2299": {
       "vnum": 2299,
@@ -724,7 +833,183 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2200": {
+      "vnum": 2200,
+      "keywords": [
+        "first",
+        "mob"
+      ],
+      "short": "a newly created first mob",
+      "long": "Some god abandoned a newly created first mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2201": {
+      "vnum": 2201,
+      "keywords": [
+        "Harald",
+        "Barkeeper"
+      ],
+      "short": "Harald the Barkeeper",
+      "long": "Harald the Barkeeper is here, polishing a glass.",
+      "race": "dwarf",
+      "class": "ranger",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2299": {
+      "vnum": 2299,
+      "keywords": [
+        "last",
+        "mob"
+      ],
+      "short": "a newly created last mob",
+      "long": "Some god abandoned a newly created last mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2200": {
+      "vnum": 2200,
+      "keywords": [
+        "first",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created first obj",
+      "long": "Some god dropped a newly created first obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2201": {
+      "vnum": 2201,
+      "keywords": [
+        "black",
+        "leather",
+        "corset"
+      ],
+      "type": "armor",
+      "short": "\u0026za black leather corset\u0026w",
+      "long": "Some god dropped a newly created \u0026zblack leather corset\u0026w here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2202": {
+      "vnum": 2202,
+      "keywords": [
+        "old",
+        "stone",
+        "well"
+      ],
+      "type": "fountain",
+      "short": "an old stone well",
+      "long": "\u0026wAn old well made of stone is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2203": {
+      "vnum": 2203,
+      "keywords": [
+        "weatherbeaten",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a weatherbeaten sign",
+      "long": "A weatherbeaten sign is hammered into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2205": {
+      "vnum": 2205,
+      "keywords": [
+        "flagon",
+        "ale"
+      ],
+      "type": "drinkcon",
+      "short": "a flagon of ale",
+      "long": "Someone has forgotten their flagon of ale here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2299": {
+      "vnum": 2299,
+      "keywords": [
+        "last",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created last obj",
+      "long": "Some god dropped a newly created last obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

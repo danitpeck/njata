@@ -1,9 +1,9 @@
 {
   "name": "Dani",
-  "location": 401,
+  "location": 10300,
   "class": 12,
   "race": 25,
-  "sex": 0,
+  "sex": 2,
   "level": 1,
   "hp": 14,
   "max_hp": 14,

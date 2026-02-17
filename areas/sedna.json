@@ -1,6 +1,7 @@
 {
   "name": "Village of Sedna",
   "author": "Alyarta",
+  "reset_minutes": 15,
   "rooms": {
     "5100": {
       "vnum": 5100,
@@ -22,7 +23,9 @@
         "sign": "---------------------------------------------------------------------------\nWelcome traveler to the town of Sedna!! You will find that we have\neverything you will ever need. If you need a drink The Bear's Paw\nTavern to your right will do the trick. Want another weapon or maybe\nsome better armor? Edwin the Carpenter will be your best bet to the north\nIn need of some kind of container to hold more things or want some more\nshiny things? Roman the Bronze-smith to the west would be your guy.\nNeed a letter sent? Then Catherine the Courier would who you want to\ntalk to south from here. She will get it in there in no time\n\nMay your time spent here be a merry one!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5101": {
       "vnum": 5101,
@@ -37,7 +40,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5102": {
       "vnum": 5102,
@@ -51,7 +56,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5103": {
       "vnum": 5103,
@@ -69,7 +76,9 @@
         "sign": "---------------------------------------------------------------------------\nOut Delivering!!!\nBe Back Later!!!\n Leave message by door or just wait for me to come back!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5104": {
       "vnum": 5104,
@@ -86,7 +95,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5105": {
       "vnum": 5105,
@@ -103,7 +114,15 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5103,
+          "count": 1,
+          "room": 5105
+        }
+      ],
+      "object_resets": []
     },
     "5106": {
       "vnum": 5106,
@@ -120,7 +139,21 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 21059,
+          "count": 2,
+          "room": 5106
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 5101,
+          "count": 1,
+          "room": 5106
+        }
+      ]
     },
     "5107": {
       "vnum": 5107,
@@ -136,7 +169,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5108": {
       "vnum": 5108,
@@ -151,7 +186,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5109": {
       "vnum": 5109,
@@ -171,7 +208,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5110": {
       "vnum": 5110,
@@ -191,7 +230,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5111": {
       "vnum": 5111,
@@ -211,7 +252,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5112": {
       "vnum": 5112,
@@ -231,7 +274,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5113": {
       "vnum": 5113,
@@ -254,7 +299,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5114": {
       "vnum": 5114,
@@ -274,7 +321,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5115": {
       "vnum": 5115,
@@ -294,7 +343,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5116": {
       "vnum": 5116,
@@ -314,7 +365,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5117": {
       "vnum": 5117,
@@ -334,7 +387,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5118": {
       "vnum": 5118,
@@ -349,7 +404,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5119": {
       "vnum": 5119,
@@ -364,7 +421,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5120": {
       "vnum": 5120,
@@ -380,7 +439,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5121": {
       "vnum": 5121,
@@ -395,7 +456,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5122": {
       "vnum": 5122,
@@ -413,7 +476,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5123": {
       "vnum": 5123,
@@ -430,7 +495,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5124": {
       "vnum": 5124,
@@ -446,7 +513,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5125": {
       "vnum": 5125,
@@ -462,7 +531,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5126": {
       "vnum": 5126,
@@ -478,7 +549,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5127": {
       "vnum": 5127,
@@ -492,7 +565,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5128": {
       "vnum": 5128,
@@ -511,11 +586,13 @@
         "west": 5128
       },
       "exdescs": {
-        "plague": "",
+        "plague": "Key    plague",
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!.\n\nThis is the first section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5129": {
       "vnum": 5129,
@@ -530,7 +607,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5130": {
       "vnum": 5130,
@@ -545,7 +624,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5131": {
       "vnum": 5131,
@@ -560,7 +641,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5132": {
       "vnum": 5132,
@@ -577,7 +660,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5133": {
       "vnum": 5133,
@@ -593,7 +678,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5134": {
       "vnum": 5134,
@@ -609,7 +696,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5135": {
       "vnum": 5135,
@@ -624,7 +713,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5136": {
       "vnum": 5136,
@@ -639,7 +730,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5137": {
       "vnum": 5137,
@@ -654,7 +747,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5138": {
       "vnum": 5138,
@@ -668,7 +763,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5139": {
       "vnum": 5139,
@@ -681,7 +778,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5140": {
       "vnum": 5140,
@@ -702,7 +801,15 @@
         "staff": "A long single piece of wood who's length is 6'0 and 3 in diameter. It\nhas a rugged look to it like it can take a beating and last forever."
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5101,
+          "count": 1,
+          "room": 5140
+        }
+      ],
+      "object_resets": []
     },
     "5141": {
       "vnum": 5141,
@@ -725,7 +832,15 @@
         "utensils": "\u0026YA set of dull unpolished utensils of various usage."
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5102,
+          "count": 1,
+          "room": 5141
+        }
+      ],
+      "object_resets": []
     },
     "5142": {
       "vnum": 5142,
@@ -740,7 +855,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5143": {
       "vnum": 5143,
@@ -758,7 +875,15 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5104,
+          "count": 1,
+          "room": 5143
+        }
+      ],
+      "object_resets": []
     },
     "5144": {
       "vnum": 5144,
@@ -773,7 +898,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5145": {
       "vnum": 5145,
@@ -788,7 +915,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5146": {
       "vnum": 5146,
@@ -803,7 +932,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5149": {
       "vnum": 5149,
@@ -816,7 +947,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5150": {
       "vnum": 5150,
@@ -838,7 +971,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5151": {
       "vnum": 5151,
@@ -860,7 +995,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5152": {
       "vnum": 5152,
@@ -880,7 +1017,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5153": {
       "vnum": 5153,
@@ -900,7 +1039,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5154": {
       "vnum": 5154,
@@ -920,7 +1061,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5155": {
       "vnum": 5155,
@@ -942,7 +1085,9 @@
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the second section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5156": {
       "vnum": 5156,
@@ -964,7 +1109,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5157": {
       "vnum": 5157,
@@ -984,7 +1131,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5158": {
       "vnum": 5158,
@@ -1004,7 +1153,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5159": {
       "vnum": 5159,
@@ -1026,7 +1177,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5160": {
       "vnum": 5160,
@@ -1048,7 +1201,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5161": {
       "vnum": 5161,
@@ -1070,7 +1225,9 @@
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the third section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5162": {
       "vnum": 5162,
@@ -1090,7 +1247,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5163": {
       "vnum": 5163,
@@ -1110,7 +1269,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5164": {
       "vnum": 5164,
@@ -1130,7 +1291,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5165": {
       "vnum": 5165,
@@ -1150,7 +1313,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5166": {
       "vnum": 5166,
@@ -1170,7 +1335,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5167": {
       "vnum": 5167,
@@ -1194,7 +1361,9 @@
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the fourth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5168": {
       "vnum": 5168,
@@ -1214,7 +1383,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5169": {
       "vnum": 5169,
@@ -1234,7 +1405,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5170": {
       "vnum": 5170,
@@ -1254,7 +1427,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5171": {
       "vnum": 5171,
@@ -1274,7 +1449,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5172": {
       "vnum": 5172,
@@ -1294,7 +1471,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5173": {
       "vnum": 5173,
@@ -1316,7 +1495,9 @@
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the fifth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5174": {
       "vnum": 5174,
@@ -1336,7 +1517,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5175": {
       "vnum": 5175,
@@ -1358,7 +1541,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5176": {
       "vnum": 5176,
@@ -1381,7 +1566,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5177": {
       "vnum": 5177,
@@ -1404,7 +1591,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5178": {
       "vnum": 5178,
@@ -1427,7 +1616,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5179": {
       "vnum": 5179,
@@ -1451,7 +1642,9 @@
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Underground Labyrinth!!\n\nThis is the sixth section. Can you make it out alive?\nThis plaque was put up to let you know that you went backwards!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5180": {
       "vnum": 5180,
@@ -1473,7 +1666,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5181": {
       "vnum": 5181,
@@ -1496,7 +1691,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5182": {
       "vnum": 5182,
@@ -1519,7 +1716,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5183": {
       "vnum": 5183,
@@ -1542,7 +1741,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5184": {
       "vnum": 5184,
@@ -1565,7 +1766,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5185": {
       "vnum": 5185,
@@ -1584,7 +1787,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5186": {
       "vnum": 5186,
@@ -1603,7 +1808,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5187": {
       "vnum": 5187,
@@ -1619,7 +1826,9 @@
       },
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5188": {
       "vnum": 5188,
@@ -1641,7 +1850,9 @@
         "rug": "\u0026RUpon looking at the rug you notice that it's an elegant circular rug with with\ngold thread lining the middle of."
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5189": {
       "vnum": 5189,
@@ -1661,7 +1872,9 @@
         "rug": "\u0026RUpon looking at the rug you notice that it's an elegant circular rug with with\ngold thread lining the middle of."
       },
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5199": {
       "vnum": 5199,
@@ -1674,7 +1887,404 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Village of Sedna",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5199,
+          "count": 1,
+          "room": 5199
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 5199,
+          "count": 1,
+          "room": 5199
+        }
+      ]
+    }
+  },
+  "mobiles": {
+    "5100": {
+      "vnum": 5100,
+      "keywords": [
+        "first",
+        "mob"
+      ],
+      "short": "a newly created first mob",
+      "long": "Some god abandoned a newly created first mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5101": {
+      "vnum": 5101,
+      "keywords": [
+        "Edwin",
+        "master",
+        "carpenter"
+      ],
+      "short": "Edwin The Master Carpenter",
+      "long": "Edwin the Master Carpenter stands here before you.",
+      "race": "human",
+      "class": "blacksmith",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5102": {
+      "vnum": 5102,
+      "keywords": [
+        "Rowan",
+        "bronze",
+        "worker"
+      ],
+      "short": "Rowan The Bronzeworker",
+      "long": "Rowan the Bronze Worker stares at you intently.",
+      "race": "human",
+      "class": "blacksmith",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5103": {
+      "vnum": 5103,
+      "keywords": [
+        "Lassi",
+        "bar",
+        "bartender"
+      ],
+      "short": "Lassi",
+      "long": "Lassi the bartender stands behind the bar, selling drinks.",
+      "race": "human",
+      "class": "baker",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5104": {
+      "vnum": 5104,
+      "keywords": [
+        "Colman",
+        "inn",
+        "keeper",
+        "innkeeper"
+      ],
+      "short": "Colman",
+      "long": "Colman The Innkeeper looks at you curiously.",
+      "race": "human",
+      "class": "enchanter",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5149": {
+      "vnum": 5149,
+      "keywords": [
+        "last",
+        "mob"
+      ],
+      "short": "a newly created last mob",
+      "long": "Some god abandoned a newly created last mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5199": {
+      "vnum": 5199,
+      "keywords": [
+        "lastmob"
+      ],
+      "short": "a newly created lastmob",
+      "long": "Some god abandoned a newly created lastmob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "5100": {
+      "vnum": 5100,
+      "keywords": [
+        "first",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created first obj",
+      "long": "Some god dropped a newly created first obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5101": {
+      "vnum": 5101,
+      "keywords": [
+        "strange",
+        "wardrobe"
+      ],
+      "type": "furniture",
+      "short": "a strange wardrobe",
+      "long": "A strange wardrobe is here, pushed up against the wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5102": {
+      "vnum": 5102,
+      "keywords": [
+        "water"
+      ],
+      "type": "drinkcon",
+      "short": "a cup of water",
+      "long": "A cup of refeshing cold water",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5103": {
+      "vnum": 5103,
+      "keywords": [
+        "beer"
+      ],
+      "type": "drinkcon",
+      "short": "a foamy glass of beer",
+      "long": "A glass of ice cold beer",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5104": {
+      "vnum": 5104,
+      "keywords": [
+        "Ale"
+      ],
+      "type": "drinkcon",
+      "short": "a glass of Ale",
+      "long": "a glass of Ale on the rocks.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5105": {
+      "vnum": 5105,
+      "keywords": [
+        "Whiskey"
+      ],
+      "type": "drinkcon",
+      "short": "a shot of Whiskey",
+      "long": "a shot of Whiskey",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5106": {
+      "vnum": 5106,
+      "keywords": [
+        "Hot",
+        "Tea"
+      ],
+      "type": "drinkcon",
+      "short": "a cup of Hot Tea",
+      "long": "a cup of Hot Tea",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5107": {
+      "vnum": 5107,
+      "keywords": [
+        "Coffee"
+      ],
+      "type": "drinkcon",
+      "short": "a hot cup of Coffee",
+      "long": "a hot cup of Coffee",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5110": {
+      "vnum": 5110,
+      "keywords": [
+        "key",
+        "innroom",
+        "one"
+      ],
+      "type": "key",
+      "short": "an innroom key labelled 'one'",
+      "long": "an innroom key labelled 'one' is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5111": {
+      "vnum": 5111,
+      "keywords": [
+        "key",
+        "innroom",
+        "two"
+      ],
+      "type": "key",
+      "short": "an innroom key labelled 'two'",
+      "long": "an innroom key labelled 'two' is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5112": {
+      "vnum": 5112,
+      "keywords": [
+        "key",
+        "innroom",
+        "three"
+      ],
+      "type": "key",
+      "short": "an innroom key labelled 'three'",
+      "long": "an innroom key labelled 'three' is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5149": {
+      "vnum": 5149,
+      "keywords": [
+        "last",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created last obj",
+      "long": "Some god dropped a newly created last obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5199": {
+      "vnum": 5199,
+      "keywords": [
+        "lastobj"
+      ],
+      "type": "trash",
+      "short": "a newly created lastobj",
+      "long": "Some god dropped a newly created lastobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "Dwarven Daycare",
   "author": "Sandman",
+  "reset_minutes": 5,
   "rooms": {
     "6601": {
       "vnum": 6601,
@@ -20,7 +21,9 @@
         "sign": "This is an area for newbies, so have fun.  -- Sandman"
       },
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6602": {
       "vnum": 6602,
@@ -38,7 +41,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6603": {
       "vnum": 6603,
@@ -55,7 +60,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6605,
+          "count": 2,
+          "room": 6603
+        }
+      ],
+      "object_resets": []
     },
     "6604": {
       "vnum": 6604,
@@ -73,7 +86,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6604,
+          "count": 2,
+          "room": 6604
+        }
+      ],
+      "object_resets": []
     },
     "6605": {
       "vnum": 6605,
@@ -91,7 +112,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6601,
+          "count": 2,
+          "room": 6605
+        }
+      ],
+      "object_resets": []
     },
     "6606": {
       "vnum": 6606,
@@ -106,7 +135,25 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6602,
+          "count": 2,
+          "room": 6606
+        },
+        {
+          "vnum": 6604,
+          "count": 2,
+          "room": 6606
+        },
+        {
+          "vnum": 6610,
+          "count": 1,
+          "room": 6606
+        }
+      ],
+      "object_resets": []
     },
     "6607": {
       "vnum": 6607,
@@ -122,7 +169,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6608": {
       "vnum": 6608,
@@ -136,7 +185,21 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6601,
+          "count": 2,
+          "room": 6608
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6619,
+          "count": 1,
+          "room": 6608
+        }
+      ]
     },
     "6609": {
       "vnum": 6609,
@@ -150,7 +213,21 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6603,
+          "count": 2,
+          "room": 6609
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6618,
+          "count": 1,
+          "room": 6609
+        }
+      ]
     },
     "6610": {
       "vnum": 6610,
@@ -166,7 +243,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6620,
+          "count": 1,
+          "room": 6610
+        }
+      ]
     },
     "6611": {
       "vnum": 6611,
@@ -180,7 +265,21 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6606,
+          "count": 2,
+          "room": 6611
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6617,
+          "count": 1,
+          "room": 6611
+        }
+      ]
     },
     "6612": {
       "vnum": 6612,
@@ -198,7 +297,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6613": {
       "vnum": 6613,
@@ -216,7 +317,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6614": {
       "vnum": 6614,
@@ -233,7 +336,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6615": {
       "vnum": 6615,
@@ -250,7 +355,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6616": {
       "vnum": 6616,
@@ -268,7 +375,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6617": {
       "vnum": 6617,
@@ -285,7 +394,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6619": {
       "vnum": 6619,
@@ -298,7 +409,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6620": {
       "vnum": 6620,
@@ -313,7 +426,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6624": {
       "vnum": 6624,
@@ -332,7 +447,15 @@
         "sign": "If you are not level 5 or above, you should think twice about going south!\nThe room could be dangerous..."
       },
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6607,
+          "count": 1,
+          "room": 6624
+        }
+      ],
+      "object_resets": []
     },
     "6626": {
       "vnum": 6626,
@@ -347,7 +470,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6603,
+          "count": 2,
+          "room": 6626
+        },
+        {
+          "vnum": 6609,
+          "count": 1,
+          "room": 6626
+        }
+      ],
+      "object_resets": []
     },
     "6628": {
       "vnum": 6628,
@@ -360,7 +496,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6631": {
       "vnum": 6631,
@@ -376,7 +514,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6608,
+          "count": 1,
+          "room": 6631
+        }
+      ],
+      "object_resets": []
     },
     "6632": {
       "vnum": 6632,
@@ -393,7 +539,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6632
+        }
+      ],
+      "object_resets": []
     },
     "6633": {
       "vnum": 6633,
@@ -411,7 +565,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6634": {
       "vnum": 6634,
@@ -427,7 +583,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6606,
+          "count": 2,
+          "room": 6634
+        }
+      ],
+      "object_resets": []
     },
     "6635": {
       "vnum": 6635,
@@ -444,7 +608,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6635
+        },
+        {
+          "vnum": 6605,
+          "count": 2,
+          "room": 6635
+        }
+      ],
+      "object_resets": []
     },
     "6636": {
       "vnum": 6636,
@@ -460,7 +637,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6602,
+          "count": 2,
+          "room": 6636
+        }
+      ],
+      "object_resets": []
     },
     "6637": {
       "vnum": 6637,
@@ -474,7 +659,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6638": {
       "vnum": 6638,
@@ -489,7 +676,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6638
+        }
+      ],
+      "object_resets": []
     },
     "6639": {
       "vnum": 6639,
@@ -504,7 +699,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6640": {
       "vnum": 6640,
@@ -517,7 +714,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6641": {
       "vnum": 6641,
@@ -530,7 +729,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6642": {
       "vnum": 6642,
@@ -543,7 +744,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6643": {
       "vnum": 6643,
@@ -556,7 +759,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6644": {
       "vnum": 6644,
@@ -569,7 +774,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6645": {
       "vnum": 6645,
@@ -582,7 +789,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6646": {
       "vnum": 6646,
@@ -595,7 +804,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6647": {
       "vnum": 6647,
@@ -608,7 +819,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6648": {
       "vnum": 6648,
@@ -621,7 +834,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6649": {
       "vnum": 6649,
@@ -634,7 +849,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6650": {
       "vnum": 6650,
@@ -647,7 +864,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6651": {
       "vnum": 6651,
@@ -660,7 +879,577 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Dwarven Daycare",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "6600": {
+      "vnum": 6600,
+      "keywords": [
+        "dwarven",
+        "child"
+      ],
+      "short": "a dwarven child",
+      "long": "A dwarven child runs around, wreaking havoc everywhere.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6601": {
+      "vnum": 6601,
+      "keywords": [
+        "dwarven",
+        "youth"
+      ],
+      "short": "a dwarven youth",
+      "long": "A dwarven youth slouches here, trying to avoid her chores.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6602": {
+      "vnum": 6602,
+      "keywords": [
+        "dwarven",
+        "baby"
+      ],
+      "short": "a dwarven baby",
+      "long": "A small dwarven baby sits here, sucking her thumb.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 19,
+      "max_mana": 19,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6603": {
+      "vnum": 6603,
+      "keywords": [
+        "toddler",
+        "dwarven"
+      ],
+      "short": "a dwarven toddler",
+      "long": "A dwarven toddler sits here, crying for his mommy.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 26,
+      "max_mana": 26,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6604": {
+      "vnum": 6604,
+      "keywords": [
+        "bear",
+        "ugly",
+        "stuffed"
+      ],
+      "short": "an ugly stuffed bear",
+      "long": "An ugly stuffed bear stares at you through glass eyes.",
+      "race": "bear",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 25,
+      "max_mana": 25,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6605": {
+      "vnum": 6605,
+      "keywords": [
+        "old",
+        "doll"
+      ],
+      "short": "an old doll",
+      "long": "A worn out old doll flops here lifelessly.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6606": {
+      "vnum": 6606,
+      "keywords": [
+        "nanny"
+      ],
+      "short": "the mean old nanny",
+      "long": "A mean old nanny stands here, watching over the children.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6607": {
+      "vnum": 6607,
+      "keywords": [
+        "knavish",
+        "bully"
+      ],
+      "short": "a knavish bully",
+      "long": "A knavish bully stands here, guarding the room to the south.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6608": {
+      "vnum": 6608,
+      "keywords": [
+        "brat",
+        "spoiled"
+      ],
+      "short": "a spoiled brat",
+      "long": "A spoiled brat sits in the corner, pouting.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 65,
+      "max_mana": 65,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6609": {
+      "vnum": 6609,
+      "keywords": [
+        "lady",
+        "old",
+        "cook"
+      ],
+      "short": "an old cook",
+      "long": "An old lady stands here, slaving over the hot oven.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6610": {
+      "vnum": 6610,
+      "keywords": [
+        "obnoxious",
+        "dwarven",
+        "boy"
+      ],
+      "short": "an obnoxious dwarven boy",
+      "long": "A dwarven boy obnoxiously stamps his feet through the overflowing water.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "6600": {
+      "vnum": 6600,
+      "keywords": [
+        "axe",
+        "toy"
+      ],
+      "type": "weapon",
+      "short": "a toy axe",
+      "long": "An axe made of plastic lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6601": {
+      "vnum": 6601,
+      "keywords": [
+        "ring",
+        "pink",
+        "ice"
+      ],
+      "type": "armor",
+      "short": "a pink ice ring",
+      "long": "A pink ice ring draws your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6602": {
+      "vnum": 6602,
+      "keywords": [
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a small plaque",
+      "long": "A small plaque is affixed to the wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6617": {
+      "vnum": 6617,
+      "keywords": [
+        "swing",
+        "swings",
+        "swing-set"
+      ],
+      "type": "furniture",
+      "short": "a set of worn rope swings",
+      "long": "A set of rope swings twist lazily in the breeze.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6618": {
+      "vnum": 6618,
+      "keywords": [
+        "wooden",
+        "seesaw",
+        "see-saw"
+      ],
+      "type": "furniture",
+      "short": "a brightly painted wooden see-saw",
+      "long": "A wooden see-saw promises hours of simple-minded distraction.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6619": {
+      "vnum": 6619,
+      "keywords": [
+        "wooden",
+        "bench"
+      ],
+      "type": "furniture",
+      "short": "a low wooden bench",
+      "long": "A low wooden bench offers respite for your aching feet.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6620": {
+      "vnum": 6620,
+      "keywords": [
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "a large oak tree",
+      "long": "A large oak tree stands here, waiting for you to climb it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6621": {
+      "vnum": 6621,
+      "keywords": [
+        "robe",
+        "linen"
+      ],
+      "type": "armor",
+      "short": "a linen robe",
+      "long": "A linen robe is crumpled into a ball here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6630": {
+      "vnum": 6630,
+      "keywords": [
+        "beanie",
+        "multi-coloured"
+      ],
+      "type": "armor",
+      "short": "a multi-coloured beanie",
+      "long": "A beanie of many colours has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6631": {
+      "vnum": 6631,
+      "keywords": [
+        "ring",
+        "frosty",
+        "roseate"
+      ],
+      "type": "armor",
+      "short": "a frosty roseate ring",
+      "long": "A frosty roseate ring catches your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6632": {
+      "vnum": 6632,
+      "keywords": [
+        "saffron",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a saffron potion",
+      "long": "A saffron potion is delicately balanced on the floor here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6633": {
+      "vnum": 6633,
+      "keywords": [
+        "pop",
+        "gun"
+      ],
+      "type": "weapon",
+      "short": "a pop gun",
+      "long": "A small pop gun lays here unattended.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6634": {
+      "vnum": 6634,
+      "keywords": [
+        "sticky",
+        "pacifier"
+      ],
+      "type": "weapon",
+      "short": "a sticky pacifier",
+      "long": "A sticky pacifier sits here, waiting to be sucked.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6635": {
+      "vnum": 6635,
+      "keywords": [
+        "shawl",
+        "woolen"
+      ],
+      "type": "armor",
+      "short": "a woolen shawl",
+      "long": "A delicate woolen shawl has been carelessly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6644": {
+      "vnum": 6644,
+      "keywords": [
+        "saltine",
+        "dry"
+      ],
+      "type": "food",
+      "short": "a dry saltine",
+      "long": "A crumbly saltine is here, waiting to be stepped on.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6645": {
+      "vnum": 6645,
+      "keywords": [
+        "steak",
+        "rotten"
+      ],
+      "type": "food",
+      "short": "a rotten steak",
+      "long": "A dry steak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6646": {
+      "vnum": 6646,
+      "keywords": [
+        "potion",
+        "amber"
+      ],
+      "type": "potion",
+      "short": "an amber potion",
+      "long": "An amber potion sits in a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6647": {
+      "vnum": 6647,
+      "keywords": [
+        "gun",
+        "toy"
+      ],
+      "type": "weapon",
+      "short": "a toy gun",
+      "long": "A toy gun with a sharp bayonet lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

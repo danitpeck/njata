@@ -1,6 +1,7 @@
 {
   "name": "Dragon Exports",
   "author": "Sandman",
+  "reset_minutes": 15,
   "rooms": {
     "9810": {
       "vnum": 9810,
@@ -17,7 +18,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9811": {
       "vnum": 9811,
@@ -33,7 +36,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9812": {
       "vnum": 9812,
@@ -49,7 +54,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9813": {
       "vnum": 9813,
@@ -67,7 +74,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9814": {
       "vnum": 9814,
@@ -84,7 +93,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9815": {
       "vnum": 9815,
@@ -101,7 +112,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9816": {
       "vnum": 9816,
@@ -118,7 +131,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9817": {
       "vnum": 9817,
@@ -134,7 +149,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9818": {
       "vnum": 9818,
@@ -150,7 +167,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9819": {
       "vnum": 9819,
@@ -168,7 +187,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9820": {
       "vnum": 9820,
@@ -185,7 +206,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9821": {
       "vnum": 9821,
@@ -202,7 +225,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9822": {
       "vnum": 9822,
@@ -220,7 +245,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9823": {
       "vnum": 9823,
@@ -238,7 +265,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9824": {
       "vnum": 9824,
@@ -255,7 +284,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9825": {
       "vnum": 9825,
@@ -273,7 +304,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9826": {
       "vnum": 9826,
@@ -290,7 +323,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9827": {
       "vnum": 9827,
@@ -307,7 +342,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9828": {
       "vnum": 9828,
@@ -324,7 +361,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9829": {
       "vnum": 9829,
@@ -340,7 +379,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9830": {
       "vnum": 9830,
@@ -357,7 +398,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9831": {
       "vnum": 9831,
@@ -375,7 +418,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9832": {
       "vnum": 9832,
@@ -392,7 +437,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9833": {
       "vnum": 9833,
@@ -409,7 +456,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9834": {
       "vnum": 9834,
@@ -426,7 +475,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9835": {
       "vnum": 9835,
@@ -443,7 +494,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9836": {
       "vnum": 9836,
@@ -460,7 +513,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9837": {
       "vnum": 9837,
@@ -477,7 +532,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9838": {
       "vnum": 9838,
@@ -494,7 +551,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9839": {
       "vnum": 9839,
@@ -511,7 +570,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9840": {
       "vnum": 9840,
@@ -528,7 +589,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9841": {
       "vnum": 9841,
@@ -545,7 +608,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9842": {
       "vnum": 9842,
@@ -562,7 +627,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9843": {
       "vnum": 9843,
@@ -579,7 +646,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9844": {
       "vnum": 9844,
@@ -596,7 +665,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9845": {
       "vnum": 9845,
@@ -613,7 +684,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9846": {
       "vnum": 9846,
@@ -630,7 +703,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9847": {
       "vnum": 9847,
@@ -647,7 +722,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9848": {
       "vnum": 9848,
@@ -664,7 +741,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9849": {
       "vnum": 9849,
@@ -681,7 +760,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9849
+        }
+      ],
+      "object_resets": []
     },
     "9850": {
       "vnum": 9850,
@@ -712,7 +799,15 @@
         "west": "A massive picture adorns the west wall, barely allowing the light\ngold from the walls to be seen.  The painting is done in oils,\ngiving a sheen to the subject it presents to you.  It is a massive\ndragon, larger then any you have seen in your adventures.  The\nbeast looks to stand about 40 feet from ground to nose tip and the\nbeasts body is about 300 feet long based by the the buildings in\nthe background.  At his feet are several men, all kneeling, and a\nfemale dressed in white.  You think the artist captured a virgin\nsacrifice on this canvas.  On the lower frame is a small brass\nplate reading:  'worship dragons'"
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9800,
+          "count": 1,
+          "room": 9850
+        }
+      ],
+      "object_resets": []
     },
     "9851": {
       "vnum": 9851,
@@ -730,7 +825,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9852": {
       "vnum": 9852,
@@ -752,7 +849,9 @@
         "walls": "Four separate paintings adorn the walls here.  Two on the east wall\nand two on the west.  All four painting feature infamous dragons,\nin various forms of celebration."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9853": {
       "vnum": 9853,
@@ -776,7 +875,15 @@
         "plaque": "The Dragon Cult Temple was created by Sandman,\nlate one night, when he should have been studying\nfor finals.  12/13/93\n\nDragon Cult Temple revised \u0026 expanded\nSpring Break '94 by Sandman when he\nshould have been his paper."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9809,
+          "count": 1,
+          "room": 9853
+        }
+      ],
+      "object_resets": []
     },
     "9854": {
       "vnum": 9854,
@@ -796,7 +903,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9854
+        }
+      ],
+      "object_resets": []
     },
     "9855": {
       "vnum": 9855,
@@ -811,7 +926,21 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9855
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 9855,
+          "count": 1,
+          "room": 9855
+        }
+      ]
     },
     "9856": {
       "vnum": 9856,
@@ -839,7 +968,20 @@
         "west": "The two tapestries on the west wall feature an early spring and\na summer scene.  The spring tapestry is a portrait of a smallish\nbrown dragon, perched on a hillside.  The trees around him are just\nbeginning to bud with new leaves and the grass has that bright, new\ngrowth, green.  The dragon looks very prideful, sitting upright, it's\ntail twisted in several loops, crossing the front of his hind legs.\nHis eyes are an orange color and seem to follow as you move.  His\nwings are touching above his back, somewhat flexed in case he needs\nto take off for a quick flight.  Even in this relaxed, prancing state\nthis dragon is an impressive desplay of strength.\nThe summer tapestry is strikingly different.  It catches a majestic\ngolden dragon in mid flight.  It's wings spread far wider than this\ntapestry can hold.  In the background, you can see it is summertime,\nthe sun out in full heat.  It looks hot, and the dragon appears to\nenjoy it immensely.  The dragon flies, eyes closed, far above the\ngrassy hills.  His tail whipped up behind him, like a scorpion.  He\nlooks as if nothing could break his utter contentment of flight."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9856
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9856
+        }
+      ],
+      "object_resets": []
     },
     "9857": {
       "vnum": 9857,
@@ -857,7 +999,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9858": {
       "vnum": 9858,
@@ -873,7 +1017,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9807,
+          "count": 1,
+          "room": 9858
+        }
+      ],
+      "object_resets": []
     },
     "9859": {
       "vnum": 9859,
@@ -893,7 +1045,9 @@
         "stones": "The stones covering the floor are glowing with an undefined power."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9860": {
       "vnum": 9860,
@@ -910,7 +1064,25 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        }
+      ],
+      "object_resets": []
     },
     "9861": {
       "vnum": 9861,
@@ -935,7 +1107,20 @@
         "trapdoor": "This is a heavy wooden door, leading down into the temple."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9861
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9861
+        }
+      ],
+      "object_resets": []
     },
     "9862": {
       "vnum": 9862,
@@ -954,7 +1139,9 @@
         "ladder": "This small ladder looks like it will support your weight, but not\nmuch else.  It will take you to the upper levels of the temple."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9863": {
       "vnum": 9863,
@@ -978,7 +1165,20 @@
         "walls": "The walls are a dark, chiselled rock, bare except for splashings of\nlong dried blood.  The south wall is carved like a half moon, making\nthe whole room appear roundish."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9863,
+          "count": 2,
+          "room": 9863
+        },
+        {
+          "vnum": 9863,
+          "count": 2,
+          "room": 9863
+        }
+      ],
+      "object_resets": []
     },
     "9864": {
       "vnum": 9864,
@@ -997,7 +1197,15 @@
         "tile": "This heavy tile appears to be placed directly over a hole in the ground."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9864
+        }
+      ],
+      "object_resets": []
     },
     "9865": {
       "vnum": 9865,
@@ -1015,7 +1223,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9803,
+          "count": 1,
+          "room": 9865
+        }
+      ],
+      "object_resets": []
     },
     "9866": {
       "vnum": 9866,
@@ -1032,7 +1248,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9805,
+          "count": 1,
+          "room": 9866
+        }
+      ],
+      "object_resets": []
     },
     "9867": {
       "vnum": 9867,
@@ -1049,7 +1273,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9868": {
       "vnum": 9868,
@@ -1070,7 +1296,15 @@
         "walls": "The wall is covered in candle holders, each housing a lit candle."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9804,
+          "count": 1,
+          "room": 9868
+        }
+      ],
+      "object_resets": []
     },
     "9869": {
       "vnum": 9869,
@@ -1087,7 +1321,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9870": {
       "vnum": 9870,
@@ -1103,7 +1339,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9806,
+          "count": 1,
+          "room": 9870
+        }
+      ],
+      "object_resets": []
     },
     "9871": {
       "vnum": 9871,
@@ -1121,7 +1365,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9872": {
       "vnum": 9872,
@@ -1140,7 +1386,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9811,
+          "count": 1,
+          "room": 9872
+        }
+      ],
+      "object_resets": []
     },
     "9873": {
       "vnum": 9873,
@@ -1161,7 +1415,9 @@
         "under": "Yep you found it, a trapdoor...."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9874": {
       "vnum": 9874,
@@ -1184,7 +1440,9 @@
         "wall": "This is a large painting of an adult Wyrmling dragon.  It is a\nimmense serpent with fleshy wings and a pointed head.  He looks\nfierce and deadly, even through this portrait."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9875": {
       "vnum": 9875,
@@ -1208,7 +1466,9 @@
         "windows": "You can look out upon the town of Darkhaven, on the Vertic Avenue.\nMany towns people and avdenturers can be seen going about their\nbusiness, not noticing you at all."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9876": {
       "vnum": 9876,
@@ -1226,7 +1486,15 @@
         "desk": "This desk is in shambles, stained and littered.  It's amazing that any\nwork can be done amongst the garbage here."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9812,
+          "count": 1,
+          "room": 9876
+        }
+      ],
+      "object_resets": []
     },
     "9877": {
       "vnum": 9877,
@@ -1242,7 +1510,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9878": {
       "vnum": 9878,
@@ -1262,7 +1532,9 @@
         "workbenches": "This is one long counter, about four feet high, divided into\nseveral work stations.  It is not fancy, but looks very sturdy\nand likely to withstand several years of use."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9879": {
       "vnum": 9879,
@@ -1284,7 +1556,15 @@
         "stool": "This stool looks rickety.  You would not sit on it.  In fact, you\nare in fear of breathing, should the breeze from your exhale knock\nthe shopkeeper to the floor in a heap."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9814,
+          "count": 1,
+          "room": 9879
+        }
+      ],
+      "object_resets": []
     },
     "9880": {
       "vnum": 9880,
@@ -1301,7 +1581,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9881": {
       "vnum": 9881,
@@ -1322,7 +1604,9 @@
         "door": "There is a door to the north, with a sign reading:\nCaution -- Do not enter!"
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9882": {
       "vnum": 9882,
@@ -1343,7 +1627,15 @@
         "east": "There is a door to the east, with a sign reading: Caution -- Do not enter!"
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9810,
+          "count": 1,
+          "room": 9882
+        }
+      ],
+      "object_resets": []
     },
     "9883": {
       "vnum": 9883,
@@ -1359,7 +1651,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9815,
+          "count": 1,
+          "room": 9883
+        }
+      ],
+      "object_resets": []
     },
     "9884": {
       "vnum": 9884,
@@ -1378,7 +1678,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9813,
+          "count": 1,
+          "room": 9884
+        }
+      ],
+      "object_resets": []
     },
     "9885": {
       "vnum": 9885,
@@ -1398,7 +1706,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9886": {
       "vnum": 9886,
@@ -1421,7 +1731,9 @@
         "wall": "The panelled wall seems oddly out of place here, like it is more\nfor purpose of disguise than decor.  As you look closer, you see\na small handle, maybe it opens the wall?"
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9887": {
       "vnum": 9887,
@@ -1439,7 +1751,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9888": {
       "vnum": 9888,
@@ -1456,7 +1770,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9889": {
       "vnum": 9889,
@@ -1474,7 +1790,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9890": {
       "vnum": 9890,
@@ -1493,7 +1811,9 @@
         "wall": "The wall is plain, without paint or polish.  Attached in several places\nare hooks, used for hanging clothes."
       },
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9891": {
       "vnum": 9891,
@@ -1509,7 +1829,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9816,
+          "count": 1,
+          "room": 9891
+        }
+      ],
+      "object_resets": []
     },
     "9892": {
       "vnum": 9892,
@@ -1526,7 +1854,15 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9817,
+          "count": 1,
+          "room": 9892
+        }
+      ],
+      "object_resets": []
     },
     "9893": {
       "vnum": 9893,
@@ -1544,7 +1880,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9894": {
       "vnum": 9894,
@@ -1562,7 +1900,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9895": {
       "vnum": 9895,
@@ -1580,7 +1920,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9896": {
       "vnum": 9896,
@@ -1598,7 +1940,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9897": {
       "vnum": 9897,
@@ -1616,7 +1960,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9898": {
       "vnum": 9898,
@@ -1633,7 +1979,9 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9899": {
       "vnum": 9899,
@@ -1650,7 +1998,1148 @@
       },
       "exdescs": {},
       "area_name": "Dragon Exports",
-      "area_author": "Sandman"
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "9800": {
+      "vnum": 9800,
+      "keywords": [
+        "Kylara",
+        "cult",
+        "receptionist"
+      ],
+      "short": "Kylara",
+      "long": "The Dragon Exports receptionist greets you with a smile.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9999,
+      "max_mana": 9999,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9801": {
+      "vnum": 9801,
+      "keywords": [
+        "minor",
+        "priest"
+      ],
+      "short": "the minor priest",
+      "long": "A minor priest of the Dragon Cult scuffles along.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9802": {
+      "vnum": 9802,
+      "keywords": [
+        "robed",
+        "priest"
+      ],
+      "short": "the robed priest",
+      "long": "A robed priest of the Dragon Cult seems startled by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9803": {
+      "vnum": 9803,
+      "keywords": [
+        "S'goral",
+        "draconian",
+        "knight"
+      ],
+      "short": "S'goral",
+      "long": "A Draconian Knight stands here formidably.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9804": {
+      "vnum": 9804,
+      "keywords": [
+        "Cosira",
+        "high",
+        "priestess",
+        "mistress"
+      ],
+      "short": "Mistress Cosira",
+      "long": "The High Priestess of the Dragon Cult is infuriated by your intrusion!",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9805": {
+      "vnum": 9805,
+      "keywords": [
+        "Prilla",
+        "virgin",
+        "sacrifice"
+      ],
+      "short": "Prilla",
+      "long": "A virgin is here, weeping over her pending death.",
+      "race": "monster",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9806": {
+      "vnum": 9806,
+      "keywords": [
+        "dragon",
+        "wyrmling"
+      ],
+      "short": "the Black Dragon Wyrmling",
+      "long": "A Black Dragon Wyrmling is here, moving to feed on you...",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 600,
+      "max_mana": 600,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9807": {
+      "vnum": 9807,
+      "keywords": [
+        "minor",
+        "priest"
+      ],
+      "short": "the minor priest",
+      "long": "A minor priest of the Dragon Cult is here, tending to the call of nature.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9808": {
+      "vnum": 9808,
+      "keywords": [
+        "fanatic",
+        "monk"
+      ],
+      "short": "a fanatic monk",
+      "long": "A fanatic monk raves about the day of the great black death!",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9809": {
+      "vnum": 9809,
+      "keywords": [
+        "Belesdan",
+        "director"
+      ],
+      "short": "Belesdan",
+      "long": "Belesdan, the head merchandiser, greets you with a smarmy smile.",
+      "race": "half-elf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9810": {
+      "vnum": 9810,
+      "keywords": [
+        "Moretta"
+      ],
+      "short": "Moretta",
+      "long": "Moretta wanders about here, keeping everything neat and tidy.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9811": {
+      "vnum": 9811,
+      "keywords": [
+        "Gemma",
+        "coordinator"
+      ],
+      "short": "Gemma",
+      "long": "Gemma, the office coordinator, bustles around the office.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9812": {
+      "vnum": 9812,
+      "keywords": [
+        "Fandarel",
+        "boss"
+      ],
+      "short": "Fandarel",
+      "long": "Fandarel sits here, smoking a pipe and looking important.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9813": {
+      "vnum": 9813,
+      "keywords": [
+        "Wilam",
+        "torturer"
+      ],
+      "short": "Wilam",
+      "long": "Wilam, the Cult Torturer, is ready to inflict great pain upon you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9814": {
+      "vnum": 9814,
+      "keywords": [
+        "Jerint",
+        "sales",
+        "director"
+      ],
+      "short": "Jerint",
+      "long": "The Portable Dragon's vendor eyes you from bottom to top as you enter.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9815": {
+      "vnum": 9815,
+      "keywords": [
+        "zombie",
+        "zmee"
+      ],
+      "short": "the zombie",
+      "long": "The decayed remains of a hapless Dragonslayer.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9816": {
+      "vnum": 9816,
+      "keywords": [
+        "Adrathom",
+        "lich",
+        "priest"
+      ],
+      "short": "Adrathom",
+      "long": "The Lich Priest glares at you through dead eyes.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 750,
+      "max_mana": 750,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9817": {
+      "vnum": 9817,
+      "keywords": [
+        "G'narish",
+        "old",
+        "monk"
+      ],
+      "short": "G'narish",
+      "long": "An old, dangerous looking monk is here attempting to sell you candy.",
+      "race": "ghoul",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 10000,
+      "max_mana": 10000,
+      "attributes": [
+        13,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9863": {
+      "vnum": 9863,
+      "keywords": [
+        "priest"
+      ],
+      "short": "the robed priest",
+      "long": "A trusted priest of the Dragon Cult wanders here, deep in worship.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9899": {
+      "vnum": 9899,
+      "keywords": [
+        "spacer",
+        "mob"
+      ],
+      "short": "a newly created spacer mob",
+      "long": "Some god abandoned a newly created spacer mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "9810": {
+      "vnum": 9810,
+      "keywords": [
+        "altar"
+      ],
+      "type": "trash",
+      "short": "a newly created altar",
+      "long": "Some god dropped a newly created altar here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9825": {
+      "vnum": 9825,
+      "keywords": [
+        "black",
+        "key"
+      ],
+      "type": "key",
+      "short": "a black key",
+      "long": "You see a very important key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9826": {
+      "vnum": 9826,
+      "keywords": [
+        "primitive",
+        "key"
+      ],
+      "type": "key",
+      "short": "a primitive key",
+      "long": "You see a primitive key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9827": {
+      "vnum": 9827,
+      "keywords": [
+        "skull",
+        "key"
+      ],
+      "type": "key",
+      "short": "a skull key",
+      "long": "You see a skull key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9828": {
+      "vnum": 9828,
+      "keywords": [
+        "bone",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a bone sword",
+      "long": "A sharp piece of bone lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9829": {
+      "vnum": 9829,
+      "keywords": [
+        "skull",
+        "helm",
+        "dragon"
+      ],
+      "type": "armor",
+      "short": "a helm made from a dragon's skull",
+      "long": "The skull of a dragon lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9830": {
+      "vnum": 9830,
+      "keywords": [
+        "dark",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "some dark robes",
+      "long": "Some dark robes lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9831": {
+      "vnum": 9831,
+      "keywords": [
+        "black",
+        "pen"
+      ],
+      "type": "weapon",
+      "short": "a black pen",
+      "long": "A black pen catches your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9832": {
+      "vnum": 9832,
+      "keywords": [
+        "evil",
+        "black",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "an evil looking black dagger",
+      "long": "A black dagger is here radiating evil.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9833": {
+      "vnum": 9833,
+      "keywords": [
+        "black",
+        "staff"
+      ],
+      "type": "weapon",
+      "short": "a black staff",
+      "long": "A long, blackened stick is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9834": {
+      "vnum": 9834,
+      "keywords": [
+        "heap",
+        "scales",
+        "black",
+        "dragonscale",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "dragonscale robes",
+      "long": "You see a shimering black heap of scales.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9835": {
+      "vnum": 9835,
+      "keywords": [
+        "ornate",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "ornate robes",
+      "long": "You see a pile of finely woven cloth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9836": {
+      "vnum": 9836,
+      "keywords": [
+        "white",
+        "dress",
+        "torn"
+      ],
+      "type": "armor",
+      "short": "a torn white dress",
+      "long": "A once pretty dress is lying here with holes torn in it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9837": {
+      "vnum": 9837,
+      "keywords": [
+        "rusty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a rusty key",
+      "long": "A hunk of metal is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9838": {
+      "vnum": 9838,
+      "keywords": [
+        "cheap",
+        "plaid",
+        "pants",
+        "pair"
+      ],
+      "type": "armor",
+      "short": "a pair of cheap plaid pants",
+      "long": "Some really ugly pants are on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9839": {
+      "vnum": 9839,
+      "keywords": [
+        "donut"
+      ],
+      "type": "food",
+      "short": "a donut",
+      "long": "There is a jelly filled donut here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9840": {
+      "vnum": 9840,
+      "keywords": [
+        "coffee"
+      ],
+      "type": "drinkcon",
+      "short": "a cup of coffee",
+      "long": "There is a piping hot cup of coffee here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9841": {
+      "vnum": 9841,
+      "keywords": [
+        "dragon",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "dragon candy",
+      "long": "A piece of Dragon candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9842": {
+      "vnum": 9842,
+      "keywords": [
+        "zombie",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "zombie candy",
+      "long": "A piece of Zombie candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9843": {
+      "vnum": 9843,
+      "keywords": [
+        "lich",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "lich candy",
+      "long": "A piece of Lich candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9844": {
+      "vnum": 9844,
+      "keywords": [
+        "vampire",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "vampire candy",
+      "long": "A piece of Vampire candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9845": {
+      "vnum": 9845,
+      "keywords": [
+        "beholder",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "beholder candy",
+      "long": "A piece of Beholder candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9846": {
+      "vnum": 9846,
+      "keywords": [
+        "ogre",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "ogre candy",
+      "long": "A piece of Ogre candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9847": {
+      "vnum": 9847,
+      "keywords": [
+        "troll",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "troll candy",
+      "long": "A piece of Troll candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9848": {
+      "vnum": 9848,
+      "keywords": [
+        "death",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "death candy",
+      "long": "A piece of Death candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9849": {
+      "vnum": 9849,
+      "keywords": [
+        "emerald",
+        "stone"
+      ],
+      "type": "treasure",
+      "short": "an emerald stone",
+      "long": "A dark green stone lies here forgotten",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9850": {
+      "vnum": 9850,
+      "keywords": [
+        "brochure"
+      ],
+      "type": "trash",
+      "short": "a brochure",
+      "long": "A sharp looking flyer flutters here in the breeze.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9851": {
+      "vnum": 9851,
+      "keywords": [
+        "glowing",
+        "caution",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a brightly glowing sign of caution",
+      "long": "A new, brightly glowing caution sign beckons to you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9852": {
+      "vnum": 9852,
+      "keywords": [
+        "ornate",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "ornate robes",
+      "long": "You see a pile of finely woven cloth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9855": {
+      "vnum": 9855,
+      "keywords": [
+        "statue"
+      ],
+      "type": "trash",
+      "short": "a statues of a dragon",
+      "long": "A pure gold dragon statue stands in the center of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9860": {
+      "vnum": 9860,
+      "keywords": [
+        "brown",
+        "dragon",
+        "staff"
+      ],
+      "type": "staff",
+      "short": "a brown dragon staff",
+      "long": "Here lies a staff carved in a dark brown wood in the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9861": {
+      "vnum": 9861,
+      "keywords": [
+        "golden",
+        "dragon",
+        "statuette"
+      ],
+      "type": "armor",
+      "short": "a golden dragon statuette",
+      "long": "A golden statuette, carved into the shape of a dragon, lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9862": {
+      "vnum": 9862,
+      "keywords": [
+        "red",
+        "dragon",
+        "wand"
+      ],
+      "type": "wand",
+      "short": "a red dragon wand",
+      "long": "A red wand with the grip carved into the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9863": {
+      "vnum": 9863,
+      "keywords": [
+        "black",
+        "dragon",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a black dragon potion",
+      "long": "A black liquid, inside a dragon shaped flask, lies here bubbling.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9864": {
+      "vnum": 9864,
+      "keywords": [
+        "leaky",
+        "quill"
+      ],
+      "type": "weapon",
+      "short": "a leaky quill",
+      "long": "A battered quill lies here, leaking ink everywhere.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9865": {
+      "vnum": 9865,
+      "keywords": [
+        "meerschaum",
+        "dragon",
+        "pipe"
+      ],
+      "type": "pipe",
+      "short": "a meerschaum dragon pipe",
+      "long": "Here lies a pipe bowl, carved from white meerschaum, in the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9866": {
+      "vnum": 9866,
+      "keywords": [
+        "dragon",
+        "nip",
+        "herb"
+      ],
+      "type": "herb",
+      "short": "a pinch of dragon nip herb",
+      "long": "A brown herb lies here in a small pile.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9892": {
+      "vnum": 9892,
+      "keywords": [
+        "Dragon",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "dragon candy",
+      "long": "A piece of Dragon candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9893": {
+      "vnum": 9893,
+      "keywords": [
+        "rusty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a rusty key",
+      "long": "A hunk of metal is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9899": {
+      "vnum": 9899,
+      "keywords": [
+        "spacerobj"
+      ],
+      "type": "trash",
+      "short": "a newly created spacerobj",
+      "long": "Some god dropped a newly created spacerobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "The Forgotten Caverns",
   "author": "Alyarta",
+  "reset_minutes": 15,
   "rooms": {
     "5000": {
       "vnum": 5000,
@@ -21,7 +22,9 @@
         "water": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5001": {
       "vnum": 5001,
@@ -56,7 +59,9 @@
         "your": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5002": {
       "vnum": 5002,
@@ -73,7 +78,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5003": {
       "vnum": 5003,
@@ -93,7 +100,9 @@
         "plaque": "---------------------------------------------------------------------------\nIf you are reading this, then it's for 1 of two reason. Either, you are a\ncrazy adventurer and are comming here to find fame and fourtune. Or, you\nstummbled across the Room of Bright Lights Which for you sake. I hope it\nwas the former not the ladder. having wrote that, either way you are doom\nto live here  forever because no one has entered and left alive... HAHA!!!\n---------------------------------------------------------------------------"
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5004": {
       "vnum": 5004,
@@ -110,7 +119,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5005": {
       "vnum": 5005,
@@ -127,7 +138,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5006": {
       "vnum": 5006,
@@ -144,7 +157,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5007": {
       "vnum": 5007,
@@ -160,7 +175,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5008": {
       "vnum": 5008,
@@ -177,7 +194,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5009": {
       "vnum": 5009,
@@ -194,7 +213,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5010": {
       "vnum": 5010,
@@ -212,7 +233,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5011": {
       "vnum": 5011,
@@ -229,7 +252,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5012": {
       "vnum": 5012,
@@ -246,7 +271,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5013": {
       "vnum": 5013,
@@ -263,7 +290,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5014": {
       "vnum": 5014,
@@ -279,7 +308,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5015": {
       "vnum": 5015,
@@ -296,7 +327,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5016": {
       "vnum": 5016,
@@ -313,7 +346,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5017": {
       "vnum": 5017,
@@ -330,7 +365,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5018": {
       "vnum": 5018,
@@ -347,7 +384,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5019": {
       "vnum": 5019,
@@ -364,7 +403,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5020": {
       "vnum": 5020,
@@ -381,7 +422,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5021": {
       "vnum": 5021,
@@ -399,7 +442,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5022": {
       "vnum": 5022,
@@ -416,7 +461,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5023": {
       "vnum": 5023,
@@ -433,7 +480,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5024": {
       "vnum": 5024,
@@ -452,7 +501,9 @@
         "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5025": {
       "vnum": 5025,
@@ -469,7 +520,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5026": {
       "vnum": 5026,
@@ -486,7 +539,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5027": {
       "vnum": 5027,
@@ -503,7 +558,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5028": {
       "vnum": 5028,
@@ -520,7 +577,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5029": {
       "vnum": 5029,
@@ -537,7 +596,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5030": {
       "vnum": 5030,
@@ -554,7 +615,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5031": {
       "vnum": 5031,
@@ -571,7 +634,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5032": {
       "vnum": 5032,
@@ -589,7 +654,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5033": {
       "vnum": 5033,
@@ -603,12 +670,14 @@
         "north": 5032
       },
       "exdescs": {
-        "sarchopagi": "",
+        "sarchopagi": "Key    sarchopagi",
         "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
         "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5034": {
       "vnum": 5034,
@@ -625,7 +694,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5035": {
       "vnum": 5035,
@@ -642,7 +713,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5036": {
       "vnum": 5036,
@@ -659,7 +732,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5037": {
       "vnum": 5037,
@@ -676,7 +751,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5038": {
       "vnum": 5038,
@@ -693,7 +770,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5039": {
       "vnum": 5039,
@@ -710,7 +789,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5040": {
       "vnum": 5040,
@@ -728,7 +809,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5041": {
       "vnum": 5041,
@@ -747,7 +830,9 @@
         "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5042": {
       "vnum": 5042,
@@ -764,7 +849,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5043": {
       "vnum": 5043,
@@ -780,7 +867,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5044": {
       "vnum": 5044,
@@ -794,7 +883,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5045": {
       "vnum": 5045,
@@ -811,7 +902,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5046": {
       "vnum": 5046,
@@ -828,7 +921,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5047": {
       "vnum": 5047,
@@ -845,7 +940,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5048": {
       "vnum": 5048,
@@ -862,7 +959,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5049": {
       "vnum": 5049,
@@ -879,7 +978,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5050": {
       "vnum": 5050,
@@ -896,7 +997,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5051": {
       "vnum": 5051,
@@ -913,7 +1016,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5052": {
       "vnum": 5052,
@@ -930,7 +1035,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5053": {
       "vnum": 5053,
@@ -948,7 +1055,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5054": {
       "vnum": 5054,
@@ -965,7 +1074,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5055": {
       "vnum": 5055,
@@ -982,7 +1093,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5056": {
       "vnum": 5056,
@@ -999,7 +1112,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5057": {
       "vnum": 5057,
@@ -1016,7 +1131,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5058": {
       "vnum": 5058,
@@ -1033,7 +1150,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5059": {
       "vnum": 5059,
@@ -1050,7 +1169,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5060": {
       "vnum": 5060,
@@ -1067,7 +1188,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5061": {
       "vnum": 5061,
@@ -1084,7 +1207,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5062": {
       "vnum": 5062,
@@ -1101,7 +1226,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5063": {
       "vnum": 5063,
@@ -1118,7 +1245,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5064": {
       "vnum": 5064,
@@ -1135,7 +1264,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5065": {
       "vnum": 5065,
@@ -1152,7 +1283,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5066": {
       "vnum": 5066,
@@ -1169,7 +1302,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5067": {
       "vnum": 5067,
@@ -1186,7 +1321,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5068": {
       "vnum": 5068,
@@ -1204,7 +1341,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5069": {
       "vnum": 5069,
@@ -1221,7 +1360,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5070": {
       "vnum": 5070,
@@ -1238,7 +1379,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5071": {
       "vnum": 5071,
@@ -1256,7 +1399,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5072": {
       "vnum": 5072,
@@ -1273,7 +1418,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5073": {
       "vnum": 5073,
@@ -1290,7 +1437,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5074": {
       "vnum": 5074,
@@ -1309,7 +1458,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5075": {
       "vnum": 5075,
@@ -1329,7 +1480,9 @@
         "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5076": {
       "vnum": 5076,
@@ -1346,7 +1499,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5077": {
       "vnum": 5077,
@@ -1363,7 +1518,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5078": {
       "vnum": 5078,
@@ -1380,7 +1537,15 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 5002,
+          "count": 1,
+          "room": 5078
+        }
+      ]
     },
     "5079": {
       "vnum": 5079,
@@ -1397,11 +1562,13 @@
       },
       "exdescs": {
         "plaque": "---------------------------------------------------------------------------\nCongratulation! on killing the evil vial monster.  As you can probably\nguess at this point I lied. I write this because i wrote in the past that\nno one has ever made it out of here alive. Well, how can that be if you\nhave been reading the various plaques that have been scattered though\nout.. At some point you had to think to yourself, how can thses be up if\nno one has lived. By the way, the ladder  you see behind you takes you\nback  to the enterance. so that being the only way out if the main\nenterance is blocked is totally not real. Tho like everything else in\nhere. No one actually knows what happened. For the kings where buried over\n1000 years and no one wrote   who they were, why they were buryed here or\nhow this place  Was built..\n---------------------------------------------------------------------------",
-        "vase": "",
+        "vase": "Key    vase",
         "vases": "\u0026YAs you look closely at the pieces of the vase. It looks like it was at\nsome point a very elagent piece of solid gold with an empressive design\npanted on it.. Now it's sadly worth nothing in pieces."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5080": {
       "vnum": 5080,
@@ -1418,7 +1585,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5081": {
       "vnum": 5081,
@@ -1435,7 +1604,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5082": {
       "vnum": 5082,
@@ -1452,7 +1623,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5083": {
       "vnum": 5083,
@@ -1471,7 +1644,9 @@
         "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5084": {
       "vnum": 5084,
@@ -1487,7 +1662,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5085": {
       "vnum": 5085,
@@ -1504,7 +1681,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5086": {
       "vnum": 5086,
@@ -1521,7 +1700,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5087": {
       "vnum": 5087,
@@ -1538,7 +1719,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5088": {
       "vnum": 5088,
@@ -1555,7 +1738,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5089": {
       "vnum": 5089,
@@ -1572,7 +1757,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5090": {
       "vnum": 5090,
@@ -1589,7 +1776,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5091": {
       "vnum": 5091,
@@ -1608,7 +1797,9 @@
         "plaque": "---------------------------------------------------------------------------\nAh!! I see that you are getting farther along in here. To bad you took the\nlong way... Tho to tell you the truth i didn't think you would make it\nthis far. I quess everyone is allowed to make mistakes. But, when you get\nto the fork in the road, are you going to take the right one? No, one has\never gone the right way will you be the first? I guess there is only way\nway to find out...\n---------------------------------------------------------------------------"
       },
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5092": {
       "vnum": 5092,
@@ -1625,7 +1816,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5093": {
       "vnum": 5093,
@@ -1642,7 +1835,9 @@
       },
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "5099": {
       "vnum": 5099,
@@ -1657,7 +1852,122 @@
       "exits": {},
       "exdescs": {},
       "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta"
+      "area_author": "Alyarta",
+      "mobile_resets": [
+        {
+          "vnum": 5099,
+          "count": 1,
+          "room": 5099
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 5099,
+          "count": 1,
+          "room": 5099
+        }
+      ]
+    }
+  },
+  "mobiles": {
+    "5000": {
+      "vnum": 5000,
+      "keywords": [
+        "first",
+        "mob"
+      ],
+      "short": "a newly created first mob",
+      "long": "Some god abandoned a newly created first mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "5099": {
+      "vnum": 5099,
+      "keywords": [
+        "lastmob"
+      ],
+      "short": "a newly created lastmob",
+      "long": "Some god abandoned a newly created lastmob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "5000": {
+      "vnum": 5000,
+      "keywords": [
+        "first",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created first obj",
+      "long": "Some god dropped a newly created first obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5002": {
+      "vnum": 5002,
+      "keywords": [
+        "key",
+        "Treasure",
+        "Room"
+      ],
+      "type": "trash",
+      "short": "the key to the treasure room",
+      "long": "The key to the treasure room has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "5099": {
+      "vnum": 5099,
+      "keywords": [
+        "lastobj"
+      ],
+      "type": "trash",
+      "short": "a newly created lastobj",
+      "long": "Some god dropped a newly created lastobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,5 +1,8 @@
 {
   "name": "",
   "author": "",
-  "rooms": {}
+  "reset_minutes": 0,
+  "rooms": {},
+  "mobiles": {},
+  "objects": {}
 }

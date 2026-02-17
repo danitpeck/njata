@@ -1,6 +1,7 @@
 {
   "name": "Tullfuhrzky Manor",
   "author": "Cedrick",
+  "reset_minutes": 10,
   "rooms": {
     "2400": {
       "vnum": 2400,
@@ -19,7 +20,9 @@
         "rock": "The rock has a small plaque embedded in it."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2401": {
       "vnum": 2401,
@@ -40,7 +43,9 @@
         "window": "Looks pretty empty."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2402": {
       "vnum": 2402,
@@ -57,7 +62,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2403": {
       "vnum": 2403,
@@ -74,7 +81,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2403,
+          "count": 1,
+          "room": 2403
+        }
+      ]
     },
     "2404": {
       "vnum": 2404,
@@ -93,7 +108,9 @@
         "fence": "The fence is about fifteen feet high.  Looks like the owners don't want\nanyone wandering around here."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2405": {
       "vnum": 2405,
@@ -110,7 +127,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2406": {
       "vnum": 2406,
@@ -133,7 +152,15 @@
         "trapdoor": "The trapdoor leads into darkness."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2407,
+          "count": 1,
+          "room": 2406
+        }
+      ],
+      "object_resets": []
     },
     "2407": {
       "vnum": 2407,
@@ -151,7 +178,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2409,
+          "count": 2,
+          "room": 2407
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2407,
+          "count": 1,
+          "room": 2407
+        }
+      ]
     },
     "2408": {
       "vnum": 2408,
@@ -179,7 +220,9 @@
         "plant": "Just your run-of-the-mill houseplant."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2409": {
       "vnum": 2409,
@@ -196,7 +239,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2410": {
       "vnum": 2410,
@@ -216,7 +261,15 @@
         "window": "You can see the yard outside."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2410,
+          "count": 1,
+          "room": 2410
+        }
+      ],
+      "object_resets": []
     },
     "2411": {
       "vnum": 2411,
@@ -233,7 +286,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2411,
+          "count": 1,
+          "room": 2411
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2411,
+          "count": 1,
+          "room": 2411
+        }
+      ]
     },
     "2412": {
       "vnum": 2412,
@@ -250,7 +317,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2412,
+          "count": 1,
+          "room": 2412
+        }
+      ]
     },
     "2413": {
       "vnum": 2413,
@@ -267,7 +342,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2414": {
       "vnum": 2414,
@@ -284,7 +361,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2415": {
       "vnum": 2415,
@@ -301,7 +380,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2416": {
       "vnum": 2416,
@@ -318,7 +399,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2417": {
       "vnum": 2417,
@@ -335,7 +418,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2418": {
       "vnum": 2418,
@@ -354,7 +439,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2419": {
       "vnum": 2419,
@@ -374,7 +461,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2420": {
       "vnum": 2420,
@@ -396,7 +485,21 @@
         "tub": "You aren't sure if you're looking at a tub or a swimming pool."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2420,
+          "count": 1,
+          "room": 2420
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2420,
+          "count": 1,
+          "room": 2420
+        }
+      ]
     },
     "2421": {
       "vnum": 2421,
@@ -413,7 +516,21 @@
         "window": "You see a sprawling forest."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2421,
+          "count": 1,
+          "room": 2421
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2400,
+          "count": 1,
+          "room": 2421
+        }
+      ]
     },
     "2422": {
       "vnum": 2422,
@@ -431,7 +548,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2423": {
       "vnum": 2423,
@@ -450,7 +569,15 @@
         "painting": "What a cute drawing!  You see a picture of the entire family, mom, dad,\nand all the siblings."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2422,
+          "count": 1,
+          "room": 2423
+        }
+      ],
+      "object_resets": []
     },
     "2424": {
       "vnum": 2424,
@@ -471,7 +598,9 @@
         "window": "Peering through the tiny window, you get a glimpse of the yard and surrounding\nforest."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2425": {
       "vnum": 2425,
@@ -493,7 +622,15 @@
         "window": "You see a sprawling forest."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2425,
+          "count": 1,
+          "room": 2425
+        }
+      ],
+      "object_resets": []
     },
     "2426": {
       "vnum": 2426,
@@ -511,7 +648,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2427": {
       "vnum": 2427,
@@ -529,7 +668,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2428": {
       "vnum": 2428,
@@ -543,7 +684,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2429": {
       "vnum": 2429,
@@ -561,7 +704,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2430": {
       "vnum": 2430,
@@ -578,7 +723,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2431": {
       "vnum": 2431,
@@ -596,7 +743,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2432": {
       "vnum": 2432,
@@ -615,7 +764,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2433": {
       "vnum": 2433,
@@ -630,7 +781,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2463,
+          "count": 2,
+          "room": 2433
+        }
+      ]
     },
     "2434": {
       "vnum": 2434,
@@ -649,7 +808,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2435": {
       "vnum": 2435,
@@ -667,7 +828,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2408,
+          "count": 2,
+          "room": 2435
+        }
+      ],
+      "object_resets": []
     },
     "2436": {
       "vnum": 2436,
@@ -684,7 +853,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2437": {
       "vnum": 2437,
@@ -702,7 +873,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2438": {
       "vnum": 2438,
@@ -718,7 +891,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2439": {
       "vnum": 2439,
@@ -736,7 +911,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2440": {
       "vnum": 2440,
@@ -753,7 +930,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2440
+        }
+      ],
+      "object_resets": []
     },
     "2441": {
       "vnum": 2441,
@@ -769,7 +954,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2442": {
       "vnum": 2442,
@@ -786,7 +973,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2443": {
       "vnum": 2443,
@@ -801,7 +990,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2442,
+          "count": 1,
+          "room": 2443
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2444,
+          "count": 1,
+          "room": 2443
+        }
+      ]
     },
     "2444": {
       "vnum": 2444,
@@ -816,7 +1019,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2405,
+          "count": 1,
+          "room": 2444
+        }
+      ],
+      "object_resets": []
     },
     "2445": {
       "vnum": 2445,
@@ -833,7 +1044,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2446": {
       "vnum": 2446,
@@ -850,7 +1063,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2447": {
       "vnum": 2447,
@@ -866,7 +1081,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2447
+        }
+      ],
+      "object_resets": []
     },
     "2448": {
       "vnum": 2448,
@@ -882,7 +1105,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2449": {
       "vnum": 2449,
@@ -898,7 +1123,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2408,
+          "count": 2,
+          "room": 2449
+        }
+      ],
+      "object_resets": []
     },
     "2450": {
       "vnum": 2450,
@@ -913,7 +1146,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2450,
+          "count": 1,
+          "room": 2450
+        }
+      ],
+      "object_resets": []
     },
     "2451": {
       "vnum": 2451,
@@ -932,7 +1173,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2452": {
       "vnum": 2452,
@@ -948,7 +1191,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2453": {
       "vnum": 2453,
@@ -966,7 +1211,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2454": {
       "vnum": 2454,
@@ -983,7 +1230,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2455": {
       "vnum": 2455,
@@ -1001,7 +1250,20 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2455
+        },
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2455
+        }
+      ],
+      "object_resets": []
     },
     "2456": {
       "vnum": 2456,
@@ -1017,7 +1279,26 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2456,
+          "count": 1,
+          "room": 2456
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2455,
+          "count": 1,
+          "room": 2456
+        },
+        {
+          "vnum": 2456,
+          "count": 1,
+          "room": 2456
+        }
+      ]
     },
     "2457": {
       "vnum": 2457,
@@ -1032,7 +1313,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2458": {
       "vnum": 2458,
@@ -1050,7 +1333,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2459": {
       "vnum": 2459,
@@ -1065,7 +1350,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2448,
+          "count": 1,
+          "room": 2459
+        }
+      ]
     },
     "2460": {
       "vnum": 2460,
@@ -1084,7 +1377,21 @@
         "rug": "You see a small rug, which prevents what little heat in the room from escaping\nthrough the floor"
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2460,
+          "count": 1,
+          "room": 2460
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2460,
+          "count": 1,
+          "room": 2460
+        }
+      ]
     },
     "2461": {
       "vnum": 2461,
@@ -1099,10 +1406,18 @@
       },
       "exdescs": {
         "candle": "It provides a little light for the room.",
-        "tub": ""
+        "tub": "Key    tub"
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2437,
+          "count": 1,
+          "room": 2461
+        }
+      ]
     },
     "2462": {
       "vnum": 2462,
@@ -1120,7 +1435,26 @@
         "mat": "A simple straw mat serves as a bed."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2462,
+          "count": 1,
+          "room": 2462
+        },
+        {
+          "vnum": 2463,
+          "count": 1,
+          "room": 2462
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2457,
+          "count": 1,
+          "room": 2462
+        }
+      ]
     },
     "2463": {
       "vnum": 2463,
@@ -1135,7 +1469,25 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2464,
+          "count": 1,
+          "room": 2463
+        },
+        {
+          "vnum": 2465,
+          "count": 1,
+          "room": 2463
+        },
+        {
+          "vnum": 2463,
+          "count": 2,
+          "room": 2463
+        }
+      ]
     },
     "2464": {
       "vnum": 2464,
@@ -1154,7 +1506,15 @@
         "lamp": "Within the beautiful crystal lamp burns a solitary white candle."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2466,
+          "count": 1,
+          "room": 2464
+        }
+      ]
     },
     "2465": {
       "vnum": 2465,
@@ -1167,7 +1527,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2465,
+          "count": 1,
+          "room": 2465
+        }
+      ],
+      "object_resets": []
     },
     "2466": {
       "vnum": 2466,
@@ -1185,7 +1553,15 @@
         "mirror": "Just looking at this thing makes you feel rich."
       },
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2426,
+          "count": 1,
+          "room": 2466
+        }
+      ],
+      "object_resets": []
     },
     "2467": {
       "vnum": 2467,
@@ -1199,7 +1575,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2468": {
       "vnum": 2468,
@@ -1217,7 +1595,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2468
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2446,
+          "count": 1,
+          "room": 2468
+        }
+      ]
     },
     "2469": {
       "vnum": 2469,
@@ -1234,7 +1626,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2470": {
       "vnum": 2470,
@@ -1250,7 +1644,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2409,
+          "count": 2,
+          "room": 2470
+        }
+      ],
+      "object_resets": []
     },
     "2471": {
       "vnum": 2471,
@@ -1267,7 +1669,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2472": {
       "vnum": 2472,
@@ -1284,7 +1688,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2472
+        }
+      ],
+      "object_resets": []
     },
     "2473": {
       "vnum": 2473,
@@ -1300,7 +1712,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2474": {
       "vnum": 2474,
@@ -1317,7 +1731,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2475": {
       "vnum": 2475,
@@ -1333,7 +1749,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2476": {
       "vnum": 2476,
@@ -1349,7 +1767,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2477": {
       "vnum": 2477,
@@ -1364,7 +1784,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2478": {
       "vnum": 2478,
@@ -1382,7 +1804,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2479": {
       "vnum": 2479,
@@ -1399,7 +1823,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2479
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2447,
+          "count": 1,
+          "room": 2479
+        }
+      ]
     },
     "2480": {
       "vnum": 2480,
@@ -1415,7 +1853,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2481": {
       "vnum": 2481,
@@ -1431,7 +1871,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2481
+        }
+      ],
+      "object_resets": []
     },
     "2482": {
       "vnum": 2482,
@@ -1445,7 +1893,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2483": {
       "vnum": 2483,
@@ -1459,7 +1909,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2484": {
       "vnum": 2484,
@@ -1476,7 +1928,15 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2484,
+          "count": 1,
+          "room": 2484
+        }
+      ],
+      "object_resets": []
     },
     "2485": {
       "vnum": 2485,
@@ -1496,7 +1956,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2486": {
       "vnum": 2486,
@@ -1510,7 +1972,21 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2486
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2486,
+          "count": 1,
+          "room": 2486
+        }
+      ]
     },
     "2487": {
       "vnum": 2487,
@@ -1526,7 +2002,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2488": {
       "vnum": 2488,
@@ -1542,7 +2020,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2488
+        }
+      ],
+      "object_resets": []
     },
     "2489": {
       "vnum": 2489,
@@ -1558,7 +2044,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2490": {
       "vnum": 2490,
@@ -1574,7 +2062,15 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2490
+        }
+      ],
+      "object_resets": []
     },
     "2491": {
       "vnum": 2491,
@@ -1590,7 +2086,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2492": {
       "vnum": 2492,
@@ -1604,7 +2102,9 @@
       },
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2493": {
       "vnum": 2493,
@@ -1618,7 +2118,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2494": {
       "vnum": 2494,
@@ -1632,7 +2134,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2495": {
       "vnum": 2495,
@@ -1648,7 +2152,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2496": {
       "vnum": 2496,
@@ -1662,7 +2168,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2497": {
       "vnum": 2497,
@@ -1676,7 +2184,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2498": {
       "vnum": 2498,
@@ -1690,7 +2200,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2499": {
       "vnum": 2499,
@@ -1704,7 +2216,1679 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Tullfuhrzky Manor",
-      "area_author": "Cedrick"
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2405": {
+      "vnum": 2405,
+      "keywords": [
+        "snake",
+        "python"
+      ],
+      "short": "a python",
+      "long": "A python lies here, ready to sink its fangs into you.",
+      "race": "reptile",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2407": {
+      "vnum": 2407,
+      "keywords": [
+        "dog",
+        "collie"
+      ],
+      "short": "a collie",
+      "long": "A collie approaches you, looking rather dangerous.",
+      "race": "canine",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2408": {
+      "vnum": 2408,
+      "keywords": [
+        "a",
+        "large",
+        "rat"
+      ],
+      "short": "a large rat",
+      "long": "An enormous rat scurries around here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2409": {
+      "vnum": 2409,
+      "keywords": [
+        "large",
+        "rat"
+      ],
+      "short": "A large rat",
+      "long": "A large rat wanders about here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2410": {
+      "vnum": 2410,
+      "keywords": [
+        "grandpa",
+        "man"
+      ],
+      "short": "old grandpa",
+      "long": "An old grandpa sits here, smoking a pipe and reading a book.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2411": {
+      "vnum": 2411,
+      "keywords": [
+        "lady",
+        "cook",
+        "Kery"
+      ],
+      "short": "the fat cook",
+      "long": "An old, fat lady is preparing food here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        6,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2412": {
+      "vnum": 2412,
+      "keywords": [
+        "rat",
+        "large"
+      ],
+      "short": "a huge rat",
+      "long": "An enormous rat scurries around here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 52,
+      "max_mana": 52,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2420": {
+      "vnum": 2420,
+      "keywords": [
+        "child"
+      ],
+      "short": "A small child",
+      "long": "A small child washes himself in the tub.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 45,
+      "max_mana": 45,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2421": {
+      "vnum": 2421,
+      "keywords": [
+        "baby"
+      ],
+      "short": "a baby",
+      "long": "A cute baby crawls along on the floor.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2422": {
+      "vnum": 2422,
+      "keywords": [
+        "Robert",
+        "boy",
+        "child"
+      ],
+      "short": "Robert",
+      "long": "Robert Tullfuhrzky is drawing pictures here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2423": {
+      "vnum": 2423,
+      "keywords": [
+        "young",
+        "child"
+      ],
+      "short": "a young child",
+      "long": "A young child sits on his bed.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 75,
+      "max_mana": 75,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2425": {
+      "vnum": 2425,
+      "keywords": [
+        "Joshua",
+        "Tullfuhrzky",
+        "master",
+        "man"
+      ],
+      "short": "Master Tullfuhrzky",
+      "long": "Master Tullfuhrzky is angered by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7,
+      "hp": 7,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2426": {
+      "vnum": 2426,
+      "keywords": [
+        "Lady",
+        "Tullfuhrzky",
+        "woman"
+      ],
+      "short": "Lady Tullfuhrzky",
+      "long": "Lady Tullfuhrzky is terrified by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2442": {
+      "vnum": 2442,
+      "keywords": [
+        "spirit"
+      ],
+      "short": "the corpse's spirit",
+      "long": "The corpse's spirit floats above the rotting carcass.",
+      "race": "ghoul",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2443": {
+      "vnum": 2443,
+      "keywords": [
+        "rotting",
+        "corpse"
+      ],
+      "short": "this mob is not used",
+      "long": "A corpse slowly decomposes here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2450": {
+      "vnum": 2450,
+      "keywords": [
+        "torturer"
+      ],
+      "short": "an evil-looking torturer",
+      "long": "A black-hooded torturer stands here, ready to massacre you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2455": {
+      "vnum": 2455,
+      "keywords": [
+        "riding",
+        "horse"
+      ],
+      "short": "a riding horse",
+      "long": "A beautiful manor riding horse stands here.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2456": {
+      "vnum": 2456,
+      "keywords": [
+        "stablehand",
+        "man"
+      ],
+      "short": "a stablehand",
+      "long": "An old stablehand is hard at work.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2460": {
+      "vnum": 2460,
+      "keywords": [
+        "Nanny",
+        "Nana"
+      ],
+      "short": "a decrepit old nanny",
+      "long": "Nana is here, rocking merrily away.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2462": {
+      "vnum": 2462,
+      "keywords": [
+        "servant",
+        "boy"
+      ],
+      "short": "a servant boy",
+      "long": "A small servant boy relaxes here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2463": {
+      "vnum": 2463,
+      "keywords": [
+        "man",
+        "servant"
+      ],
+      "short": "a house servant",
+      "long": "A house servant rests after a long day.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2465": {
+      "vnum": 2465,
+      "keywords": [
+        "gardener",
+        "man"
+      ],
+      "short": "the gardener",
+      "long": "The gardener works hard to produce fresh vegetables.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2471": {
+      "vnum": 2471,
+      "keywords": [
+        "cockroach",
+        "roach"
+      ],
+      "short": "a giant cockroach",
+      "long": "An extremely LARGE roach wanders about.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 78,
+      "max_mana": 78,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2472": {
+      "vnum": 2472,
+      "keywords": [
+        "cockroach",
+        "roach"
+      ],
+      "short": "this mob is not used",
+      "long": "An extremely LARGE roach wanders about.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2484": {
+      "vnum": 2484,
+      "keywords": [
+        "judge"
+      ],
+      "short": "The Judge",
+      "long": "The Final Judge glares at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2400": {
+      "vnum": 2400,
+      "keywords": [
+        "toybox",
+        "box"
+      ],
+      "type": "container",
+      "short": "a cute wooden toybox",
+      "long": "A cute wooden toybox sits here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2401": {
+      "vnum": 2401,
+      "keywords": [
+        "mixing",
+        "bowl"
+      ],
+      "type": "container",
+      "short": "a mixing bowl",
+      "long": "Here sits a large mixing bowl.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2402": {
+      "vnum": 2402,
+      "keywords": [
+        "wooden",
+        "spoon"
+      ],
+      "type": "weapon",
+      "short": "a wooden spoon",
+      "long": "A cook's wooden spoon has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2403": {
+      "vnum": 2403,
+      "keywords": [
+        "well"
+      ],
+      "type": "fountain",
+      "short": "a well",
+      "long": "A small stone water well descends into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2404": {
+      "vnum": 2404,
+      "keywords": [
+        "baker's",
+        "apron"
+      ],
+      "type": "container",
+      "short": "this object is not used",
+      "long": "A plain baker's apron has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2405": {
+      "vnum": 2405,
+      "keywords": [
+        "rolling",
+        "pin"
+      ],
+      "type": "weapon",
+      "short": "a rolling pin",
+      "long": "A rolling pin lies on the ground, forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2406": {
+      "vnum": 2406,
+      "keywords": [
+        "pile",
+        "gold",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a large pile of gold",
+      "long": "A large pile of gold coins lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2407": {
+      "vnum": 2407,
+      "keywords": [
+        "safe"
+      ],
+      "type": "container",
+      "short": "a safe",
+      "long": "A safe sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2408": {
+      "vnum": 2408,
+      "keywords": [
+        "book"
+      ],
+      "type": "wand",
+      "short": "a book entitled \"50 Ways to Heal the Dying\"",
+      "long": "A book entitled \"50 Ways to Heal the Dying\" lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2409": {
+      "vnum": 2409,
+      "keywords": [
+        "smoking",
+        "jacket"
+      ],
+      "type": "armor",
+      "short": "a plaid smoking jacket",
+      "long": "A old, plaid smoking jacket has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2410": {
+      "vnum": 2410,
+      "keywords": [
+        "pipe"
+      ],
+      "type": "staff",
+      "short": "a hand-carved pipe",
+      "long": "Someone carelessly dropped their pipe on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2411": {
+      "vnum": 2411,
+      "keywords": [
+        "row",
+        "cabinet",
+        "cabinets"
+      ],
+      "type": "container",
+      "short": "a large array of cabinets",
+      "long": "A large row of cabinets hangs above the sink.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2412": {
+      "vnum": 2412,
+      "keywords": [
+        "toolshed",
+        "shed"
+      ],
+      "type": "container",
+      "short": "a small toolshed",
+      "long": "A small toolshed stands on the grounds here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2413": {
+      "vnum": 2413,
+      "keywords": [
+        "gardening",
+        "shears"
+      ],
+      "type": "weapon",
+      "short": "a small pair of gardening shears",
+      "long": "A small pair of gardening shears sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2414": {
+      "vnum": 2414,
+      "keywords": [
+        "snakeskin",
+        "hide",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "the hide of a python",
+      "long": "A cloak made from the skin of a python lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2415": {
+      "vnum": 2415,
+      "keywords": [
+        "wand",
+        "venom",
+        "fang"
+      ],
+      "type": "wand",
+      "short": "a fang filled with venom",
+      "long": "A fang filled with python's venom has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2416": {
+      "vnum": 2416,
+      "keywords": [
+        "dresser"
+      ],
+      "type": "container",
+      "short": "object not used",
+      "long": "Some god dropped a newly created dresser here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2417": {
+      "vnum": 2417,
+      "keywords": [
+        "panther-crested",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "panther-crested ring",
+      "long": "A ring with the crest of a panther glitters on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2418": {
+      "vnum": 2418,
+      "keywords": [
+        "bar",
+        "soap"
+      ],
+      "type": "pill",
+      "short": "a bar of soap",
+      "long": "A bar of soap is here for you to trip over.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2419": {
+      "vnum": 2419,
+      "keywords": [
+        "nightshirt",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a nightshirt",
+      "long": "A nightshirt with the image of a panther has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2420": {
+      "vnum": 2420,
+      "keywords": [
+        "cabinet"
+      ],
+      "type": "container",
+      "short": "a small wooden cabinet",
+      "long": "A cabinet is here, waiting to be opened.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2421": {
+      "vnum": 2421,
+      "keywords": [
+        "silk",
+        "robe"
+      ],
+      "type": "armor",
+      "short": "a silk bathrobe",
+      "long": "A soft silk bathrobe sits here, waiting to be worn.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2422": {
+      "vnum": 2422,
+      "keywords": [
+        "ivory",
+        "cane"
+      ],
+      "type": "staff",
+      "short": "an ivory cane",
+      "long": "An expensive-looking ivory cane has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2423": {
+      "vnum": 2423,
+      "keywords": [
+        "black",
+        "patent",
+        "leather",
+        "shoes"
+      ],
+      "type": "armor",
+      "short": "black patent leather shoes",
+      "long": "Some rich person has left their black patent leather shoes here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2424": {
+      "vnum": 2424,
+      "keywords": [
+        "sapphire",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a dazzling sapphire ring",
+      "long": "A sapphire ring glistens and sparkles.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2425": {
+      "vnum": 2425,
+      "keywords": [
+        "key",
+        "safekey"
+      ],
+      "type": "key",
+      "short": "a small, metal safe key",
+      "long": "A small, metal safe key sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2426": {
+      "vnum": 2426,
+      "keywords": [
+        "vial",
+        "potion",
+        "undead"
+      ],
+      "type": "potion",
+      "short": "a vial of undead spirits",
+      "long": "On the ground is a vial of undead spirit potion.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2427": {
+      "vnum": 2427,
+      "keywords": [
+        "dog",
+        "collar"
+      ],
+      "type": "armor",
+      "short": "a gem encrusted dog collar",
+      "long": "On the ground sits a gem-encrusted dog collar.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2428": {
+      "vnum": 2428,
+      "keywords": [
+        "cowhide",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a cowhide whip",
+      "long": "A long whip made of cowhide lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2429": {
+      "vnum": 2429,
+      "keywords": [
+        "exoskeleton",
+        "breastplate",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a cockroach's exoskeleton",
+      "long": "Here lies a breastplate fashioned from the exoskeleton of an enormous roach.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2430": {
+      "vnum": 2430,
+      "keywords": [
+        "gold"
+      ],
+      "type": "money",
+      "short": "this object is not used",
+      "long": "25000 gold coins lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2431": {
+      "vnum": 2431,
+      "keywords": [
+        "purse",
+        "coin"
+      ],
+      "type": "container",
+      "short": "a coin purse",
+      "long": "A small coin purse lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2432": {
+      "vnum": 2432,
+      "keywords": [
+        "spectacles",
+        "glasses"
+      ],
+      "type": "armor",
+      "short": "gold spectacles",
+      "long": "Somebody has lost their spectacles here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2433": {
+      "vnum": 2433,
+      "keywords": [
+        "shawl"
+      ],
+      "type": "armor",
+      "short": "a shawl",
+      "long": "A raggedy shawl is lying in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2434": {
+      "vnum": 2434,
+      "keywords": [
+        "wooden",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a wooden knife",
+      "long": "A child has dropped a wooden knife here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2435": {
+      "vnum": 2435,
+      "keywords": [
+        "fairy",
+        "tale",
+        "book"
+      ],
+      "type": "scroll",
+      "short": "a book of fairy tales",
+      "long": "A book of fairy tales has been left on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2436": {
+      "vnum": 2436,
+      "keywords": [
+        "pocket",
+        "watch"
+      ],
+      "type": "armor",
+      "short": "an expensive-looking pocket watch",
+      "long": "An expensive-looking pocket watch has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2437": {
+      "vnum": 2437,
+      "keywords": [
+        "candle"
+      ],
+      "type": "light",
+      "short": "a wax candle",
+      "long": "A wax candle flickers in the darkness.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2438": {
+      "vnum": 2438,
+      "keywords": [
+        "cloth",
+        "diaper"
+      ],
+      "type": "armor",
+      "short": "a cloth diaper",
+      "long": "A cloth diaper lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2439": {
+      "vnum": 2439,
+      "keywords": [
+        "paintbrush",
+        "brush"
+      ],
+      "type": "wand",
+      "short": "a paintbrush",
+      "long": "A brush drips with fresh watercolor paint.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2440": {
+      "vnum": 2440,
+      "keywords": [
+        "make-up",
+        "compact"
+      ],
+      "type": "staff",
+      "short": "an ivory make-up compact",
+      "long": "A small, ivory make-up compact has been forgotten on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2441": {
+      "vnum": 2441,
+      "keywords": [
+        "chef",
+        "apron"
+      ],
+      "type": "armor",
+      "short": "a chef's apron",
+      "long": "A white chef's apron has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2442": {
+      "vnum": 2442,
+      "keywords": [
+        "panther-crested",
+        "helmet"
+      ],
+      "type": "armor",
+      "short": "a panther-crested helmet",
+      "long": "Someone has dropped a helmet with the crest of a panther here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2443": {
+      "vnum": 2443,
+      "keywords": [
+        "panther-crested",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a panther-crested shield",
+      "long": "Lying here is a shield with the crest of a panther.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2444": {
+      "vnum": 2444,
+      "keywords": [
+        "rotting",
+        "corpse"
+      ],
+      "type": "container",
+      "short": "a rotting corpse",
+      "long": "A grotesque corpse rots away.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2445": {
+      "vnum": 2445,
+      "keywords": [
+        "scroll",
+        "avatar",
+        "avatar's"
+      ],
+      "type": "scroll",
+      "short": "an avatar's scroll",
+      "long": "An avatar's scroll lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2446": {
+      "vnum": 2446,
+      "keywords": [
+        "tin",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a tin shield",
+      "long": "Somebody dropped a cheap tin shield on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2447": {
+      "vnum": 2447,
+      "keywords": [
+        "rat",
+        "fur",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "a rat fur cloak",
+      "long": "A cloak made of rat fur sits on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2448": {
+      "vnum": 2448,
+      "keywords": [
+        "small",
+        "mirror"
+      ],
+      "type": "wand",
+      "short": "a small mirror",
+      "long": "A small mirror has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2449": {
+      "vnum": 2449,
+      "keywords": [
+        "undershirt",
+        "shirt",
+        "tattered"
+      ],
+      "type": "armor",
+      "short": "a tattered undershirt",
+      "long": "An old, tattered undershirt has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2450": {
+      "vnum": 2450,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "skeleton key",
+      "long": "A skeleton key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2451": {
+      "vnum": 2451,
+      "keywords": [
+        "torturer's",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a nasty torturer's whip",
+      "long": "A long, nasty-looking whip lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2452": {
+      "vnum": 2452,
+      "keywords": [
+        "torturer's",
+        "mask"
+      ],
+      "type": "armor",
+      "short": "black torturer's mask",
+      "long": "On the ground lies a black mask with two eyeholes.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2453": {
+      "vnum": 2453,
+      "keywords": [
+        "torn",
+        "pants"
+      ],
+      "type": "armor",
+      "short": "a pair of torn pants",
+      "long": "An old pair of torn pants have been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2454": {
+      "vnum": 2454,
+      "keywords": [
+        "gavel",
+        "judgement"
+      ],
+      "type": "weapon",
+      "short": "the Gavel of Judgement",
+      "long": "The Gavel of Judgement lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2455": {
+      "vnum": 2455,
+      "keywords": [
+        "riding",
+        "stick"
+      ],
+      "type": "weapon",
+      "short": "a riding stick",
+      "long": "A riding stick has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2456": {
+      "vnum": 2456,
+      "keywords": [
+        "pair",
+        "of",
+        "chaps"
+      ],
+      "type": "armor",
+      "short": "a pair of leather chaps",
+      "long": "A pair of leather chaps have been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2457": {
+      "vnum": 2457,
+      "keywords": [
+        "oil",
+        "lamp"
+      ],
+      "type": "light",
+      "short": "an oil lamp",
+      "long": "An oil lamp burns brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2458": {
+      "vnum": 2458,
+      "keywords": [
+        "carrot"
+      ],
+      "type": "pill",
+      "short": "an orange carrot",
+      "long": "A large, orange carrot pokes up from the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2460": {
+      "vnum": 2460,
+      "keywords": [
+        "chest",
+        "drawers"
+      ],
+      "type": "container",
+      "short": "a chest of drawers",
+      "long": "A chest of drawers sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2461": {
+      "vnum": 2461,
+      "keywords": [
+        "watermelon"
+      ],
+      "type": "pill",
+      "short": "a juicy watermelon",
+      "long": "A tantalizing watermelon grows here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2462": {
+      "vnum": 2462,
+      "keywords": [
+        "head",
+        "lettuce"
+      ],
+      "type": "pill",
+      "short": "a head of lettuce",
+      "long": "A head of lettuce is growing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2463": {
+      "vnum": 2463,
+      "keywords": [
+        "port",
+        "barrel",
+        "wine"
+      ],
+      "type": "drinkcon",
+      "short": "a barrel of port wine",
+      "long": "Several barrels of port wine are stacked here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2464": {
+      "vnum": 2464,
+      "keywords": [
+        "dried",
+        "meat"
+      ],
+      "type": "food",
+      "short": "some dried meat",
+      "long": "On a shelf sits some dried meat.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2465": {
+      "vnum": 2465,
+      "keywords": [
+        "cheese"
+      ],
+      "type": "food",
+      "short": "delicious cheddar cheese",
+      "long": "The shelves contain some wonderful cheddar cheese.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2466": {
+      "vnum": 2466,
+      "keywords": [
+        "deck",
+        "cards"
+      ],
+      "type": "armor",
+      "short": "a deck of playing cards",
+      "long": "A deck of playing cards lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2486": {
+      "vnum": 2486,
+      "keywords": [
+        "trough"
+      ],
+      "type": "fountain",
+      "short": "a water trough",
+      "long": "A trough filled with cool water stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2498": {
+      "vnum": 2498,
+      "keywords": [
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "not used",
+      "long": "A deadly elvenbane lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2499": {
+      "vnum": 2499,
+      "keywords": [
+        "potion",
+        "sprite"
+      ],
+      "type": "potion",
+      "short": "not used",
+      "long": "A Sprite",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "New Darkhaven",
   "author": "Rennard",
+  "reset_minutes": 15,
   "rooms": {
     "21000": {
       "vnum": 21000,
@@ -27,7 +28,9 @@
         "signpost": "North - Vertic Avenue\n        - To Justice Road\nEast  - Horizon Road\n        - To Hawk Street\nSouth - Vertic Avenue\n        - To Horizon Road\n        - To Market Street\n        - To Law Avenue\nWest  - Horizon Road\n        - To Falcon Road\nNorthwest - Cathedral\n            - To the Guild of Clerics\n            - To the Guild of Druids\n            - To the cathdral altar\nNortheast - Forest\n            - To the Guild of Rangers\n            - To the Guild of Warriors"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21001": {
       "vnum": 21001,
@@ -46,7 +49,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21044,
+          "count": 1,
+          "room": 21001
+        }
+      ],
+      "object_resets": []
     },
     "21002": {
       "vnum": 21002,
@@ -62,7 +73,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21003": {
       "vnum": 21003,
@@ -78,7 +91,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21045,
+          "count": 2,
+          "room": 21003
+        }
+      ],
+      "object_resets": []
     },
     "21004": {
       "vnum": 21004,
@@ -100,7 +121,9 @@
         "signpost": "North - The North Gate of Darkhaven\nEast  - Justice Road\n        - To Hawk Street\nSouth - Vertic Avenue\n        - To Horizon Road\n        - To Market Street\n        - To Law Avenue\n        - To Darkhaven Square\nWest  - Justice Road\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21005": {
       "vnum": 21005,
@@ -116,7 +139,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21005
+        }
+      ],
+      "object_resets": []
     },
     "21006": {
       "vnum": 21006,
@@ -132,7 +163,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21007": {
       "vnum": 21007,
@@ -148,7 +181,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21008": {
       "vnum": 21008,
@@ -169,7 +204,9 @@
         "signpost": "West  - Justice Road\n        - To Vertic Avenue\n        - To Falcon Road\nSouth - Hawk Street\n        - To Horizon Road\n        - To Market Street\n        - To Law Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21009": {
       "vnum": 21009,
@@ -185,7 +222,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21010": {
       "vnum": 21010,
@@ -201,7 +240,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21055,
+          "count": 1,
+          "room": 21010
+        }
+      ],
+      "object_resets": []
     },
     "21011": {
       "vnum": 21011,
@@ -217,7 +264,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21012": {
       "vnum": 21012,
@@ -239,7 +288,9 @@
         "signpost": "North - Hawk Street\n        - To Justice Road\nEast  - The East Gate of Darkhaven\nSouth - Hawk Street\n        - To Market Street\n        - To Law Avenue\nWest  - Horizon Road\n        - To Darkhaven Square"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21013": {
       "vnum": 21013,
@@ -255,7 +306,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21014": {
       "vnum": 21014,
@@ -276,7 +329,9 @@
         "signpost": "North - Hawk Street\n        - To Horizon Road\n        - To Justice Road\nSouth - Hawk Street\n        - To Law Avenue\nWest  - Market Street"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21015": {
       "vnum": 21015,
@@ -292,7 +347,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21016": {
       "vnum": 21016,
@@ -313,7 +370,9 @@
         "signpost": "North - Hawk Street\n        - To Market Street\n        - To Horizon Road\n        - To Justice Road\nWest  - Law Avenue\n        - To Vertic Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21017": {
       "vnum": 21017,
@@ -334,7 +393,9 @@
         "signpost": "North - Companions and Mounts\nEast  - Law Avenue\n        - To Hawk Street\nWest  - Law Avenue\n        - To Vertic Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21018": {
       "vnum": 21018,
@@ -352,7 +413,15 @@
         "plaque": "The plaque reads: 'May you rest in peace, Uthar Darkbane.'"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21018
+        }
+      ],
+      "object_resets": []
     },
     "21019": {
       "vnum": 21019,
@@ -373,7 +442,9 @@
         "signpost": "North - Dragon Cult\nEast  - Law Avenue\n        - To Hawk Street\nWest  - Law Avenue\n        - To Vertic Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21020": {
       "vnum": 21020,
@@ -395,7 +466,9 @@
         "signpost": "North - Vertic Avenue\n        - To Market Street\n        - To Horizon Road\n        - To Justice Road\n        - To Darkhaven Square\nEast  - Law Avenue\n        - To Hawk Street\nSouth - The Southern Gate of Darkhaven\nWest  - Law Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21021": {
       "vnum": 21021,
@@ -416,7 +489,9 @@
         "signpost": "North - Darkhaven Art Gallery\nEast  - Law Avenue\n        - To Vertic Avenue\n        - To Hawk Street\nWest  - Law Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21022": {
       "vnum": 21022,
@@ -437,7 +512,15 @@
         "signpost": "North - Annir's Clothing\nWest  - Law Avenue\n        - To Falcon Road\nEast  - Law Avenue\n        - To Hawk Street\n        - To Vertic Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21022
+        }
+      ],
+      "object_resets": []
     },
     "21023": {
       "vnum": 21023,
@@ -458,7 +541,9 @@
         "signpost": "North - An Abandoned Mansion\n        - To the Guild of Vampires\nWest  - Law Avenue\n        - To Falcon Road\nEast  - Law Avenue\n        - To Vertic Avenue\n        - To Hawk Street"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21024": {
       "vnum": 21024,
@@ -479,7 +564,9 @@
         "signpost": "North - Falcon Road\n        - To Market Street\n        - To Horizon Road\n        - To Justice Road\nEast  - Law Avenue\n        - To Vertic Avenue\n        - To Hawk Street"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21025": {
       "vnum": 21025,
@@ -500,7 +587,9 @@
         "signpost": "North - Falcon Road\n        - To Justice Road\n        - To Horizon Road\n        - To Market Street\nEast  - Thieves Alley\n        - To the Guild of Thieves\nSouth - Falcon Road\n        - To Law Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21026": {
       "vnum": 21026,
@@ -521,7 +610,9 @@
         "signpost": "North - Falcon Road\n        - To Justice Road\n        - To Horizon Road\nEast  - Market Street\nSouth - Falcon Road\n        - To Law Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21027": {
       "vnum": 21027,
@@ -537,7 +628,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21028": {
       "vnum": 21028,
@@ -559,7 +652,9 @@
         "signpost": "West  - The Western Gate of Darkhaven\nSouth - Falcon Road\n        - To Market Street\n        - To Law Avenue\nEast  - Horizon Road\n        - To Darkhaven Square\nNorth - Falcon Road\n        - To Justice Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21029": {
       "vnum": 21029,
@@ -575,7 +670,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21030": {
       "vnum": 21030,
@@ -591,7 +688,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21030
+        }
+      ],
+      "object_resets": []
     },
     "21031": {
       "vnum": 21031,
@@ -607,7 +712,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21032": {
       "vnum": 21032,
@@ -628,7 +735,9 @@
         "signpost": "East - Justice Road\n        - to Vertic Avenue\n        - to Hawk Street\nSouth - Falcon Road\n        - to Horizon Road\n        - to Market Street\n        - to Law Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21033": {
       "vnum": 21033,
@@ -644,7 +753,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21034": {
       "vnum": 21034,
@@ -660,7 +771,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21035": {
       "vnum": 21035,
@@ -676,7 +789,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21036": {
       "vnum": 21036,
@@ -696,7 +811,9 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\nSouth - The Archives\n        - To the Lore of the Archives\n        - To the Oracle of the Archives\nWest  - Horizon Road\n        - To Vertic Avenue\n        - To Falcon Road\n        - To Darkhaven Square"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21037": {
       "vnum": 21037,
@@ -717,7 +834,9 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\nSouth - Darkhaven Tower of Sorcery\n        - To the Guild of Mages\nWest  - Horizon Road\n        - To Vertic Avenue\n        - To Falcon Road\n        - To Darkhaven Square"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21038": {
       "vnum": 21038,
@@ -738,7 +857,15 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\nSouth - Darkhaven Academy\nWest  - Horizon Road\n        - To Vertic Avenue\n        - To Falcon Road\n        - To Darkhaven Square"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21038
+        }
+      ],
+      "object_resets": []
     },
     "21039": {
       "vnum": 21039,
@@ -759,7 +886,9 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\n        - To Vertic Avenue\n        - To Darkhaven Square\nSouth - Western Hall\nWest  - Horizon Road\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21040": {
       "vnum": 21040,
@@ -780,7 +909,9 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\n        - To Vertic Avenue\n        - To Darkhaven Square\nSouth - The Inn\nWest  - Horizon Road\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21041": {
       "vnum": 21041,
@@ -801,7 +932,15 @@
         "signpost": "East  - Horizon Road\n        - To Hawk Street\n        - To Vertic Avenue\n        - To Darkhaven Square\nSouth - The Grim Smile\nWest  - Horizon Road\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21041
+        }
+      ],
+      "object_resets": []
     },
     "21042": {
       "vnum": 21042,
@@ -817,7 +956,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21043": {
       "vnum": 21043,
@@ -839,7 +980,9 @@
         "signpost": "North - Vertic Avenue\n        - To Justice Road\n        - To Horizon Road\n        - To Darkhaven Square\nEast  - Market Street\n        - To Hawk Street\nSouth - Vertic Avenue\n        - To Law Avenue\nWest  - Market Street\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21044": {
       "vnum": 21044,
@@ -860,7 +1003,9 @@
         "signpost": "North - Vertic Avenue\n        - To Market Street\n        - To Horizon Road\n        - To Justice Road\n        - To Darkhaven Square\nWest  - Thieves Alley\n        - To the Guild of Thieves\nSouth - Vertic Avenue\n        - To Law Avenue"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21045": {
       "vnum": 21045,
@@ -882,7 +1027,9 @@
         "signpost": "North - The Scribe's Tent\nEast  - Market Street\n        - To Hawk Street\n        - To Vertic Avenue\nSouth - The Shining Emerald\nWest  - Market Street\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21046": {
       "vnum": 21046,
@@ -904,7 +1051,9 @@
         "signpost": "North - The Alchemist's\nEast  - Market Street\n        - To Hawk Street\n        - To Vertic Avenue\nSouth - The Darkhaven Courier\nWest  - Market Street\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21047": {
       "vnum": 21047,
@@ -926,7 +1075,15 @@
         "signpost": "North - Wizard's Tent\nEast  - Market Street\n        - To Hawk Street\n        - To Vertic Avenue\nSouth - Quills and Parchments\nWest  - Market Street\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21047
+        }
+      ],
+      "object_resets": []
     },
     "21048": {
       "vnum": 21048,
@@ -948,7 +1105,15 @@
         "signpost": "North - The Carnivore's Delight\nEast  - Market Street\n        - To Hawk Street\nSouth - The Damaged Goods\nWest  - Market Street\n        - To Vertic Avenue\n        - Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21045,
+          "count": 2,
+          "room": 21048
+        }
+      ],
+      "object_resets": []
     },
     "21049": {
       "vnum": 21049,
@@ -970,7 +1135,9 @@
         "signpost": "North - The Darkhaven Bakery\nEast  - Market Street\n        - To Hawk Street\nSouth - The Solid Parry\nWest  - Market Street\n        - To Vertic Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21050": {
       "vnum": 21050,
@@ -992,7 +1159,15 @@
         "signpost": "North - Dairy Products\nEast  - Market Street\n        - To Hawk Street\nSouth - The Daring Attack\nWest  - Market Street\n        - To Vertic Avenue\n        - To Falcon Road"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21037,
+          "count": 8,
+          "room": 21050
+        }
+      ],
+      "object_resets": []
     },
     "21051": {
       "vnum": 21051,
@@ -1009,7 +1184,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21004,
+          "count": 1,
+          "room": 21051
+        }
+      ],
+      "object_resets": []
     },
     "21052": {
       "vnum": 21052,
@@ -1026,7 +1209,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21014,
+          "count": 1,
+          "room": 21052
+        }
+      ],
+      "object_resets": []
     },
     "21053": {
       "vnum": 21053,
@@ -1047,7 +1238,21 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21017,
+          "count": 1,
+          "room": 21053
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 21048,
+          "count": 1,
+          "room": 21053
+        }
+      ]
     },
     "21054": {
       "vnum": 21054,
@@ -1065,7 +1270,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21003,
+          "count": 1,
+          "room": 21054
+        }
+      ],
+      "object_resets": []
     },
     "21055": {
       "vnum": 21055,
@@ -1082,7 +1295,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21001,
+          "count": 1,
+          "room": 21055
+        }
+      ],
+      "object_resets": []
     },
     "21056": {
       "vnum": 21056,
@@ -1099,7 +1320,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21011,
+          "count": 1,
+          "room": 21056
+        }
+      ],
+      "object_resets": []
     },
     "21057": {
       "vnum": 21057,
@@ -1116,7 +1345,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21018,
+          "count": 1,
+          "room": 21057
+        }
+      ],
+      "object_resets": []
     },
     "21058": {
       "vnum": 21058,
@@ -1133,7 +1370,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21002,
+          "count": 1,
+          "room": 21058
+        }
+      ],
+      "object_resets": []
     },
     "21059": {
       "vnum": 21059,
@@ -1151,7 +1396,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21015,
+          "count": 1,
+          "room": 21059
+        }
+      ],
+      "object_resets": []
     },
     "21060": {
       "vnum": 21060,
@@ -1169,7 +1422,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21019,
+          "count": 1,
+          "room": 21060
+        }
+      ],
+      "object_resets": []
     },
     "21061": {
       "vnum": 21061,
@@ -1186,7 +1447,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21020,
+          "count": 1,
+          "room": 21061
+        }
+      ],
+      "object_resets": []
     },
     "21062": {
       "vnum": 21062,
@@ -1203,7 +1472,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21016,
+          "count": 1,
+          "room": 21062
+        }
+      ],
+      "object_resets": []
     },
     "21063": {
       "vnum": 21063,
@@ -1219,7 +1496,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21052,
+          "count": 3,
+          "room": 21063
+        }
+      ],
+      "object_resets": []
     },
     "21064": {
       "vnum": 21064,
@@ -1236,7 +1521,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21052,
+          "count": 3,
+          "room": 21064
+        }
+      ],
+      "object_resets": []
     },
     "21065": {
       "vnum": 21065,
@@ -1252,7 +1545,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21052,
+          "count": 3,
+          "room": 21065
+        }
+      ],
+      "object_resets": []
     },
     "21066": {
       "vnum": 21066,
@@ -1268,7 +1569,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21021,
+          "count": 1,
+          "room": 21066
+        }
+      ],
+      "object_resets": []
     },
     "21067": {
       "vnum": 21067,
@@ -1282,7 +1591,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21068": {
       "vnum": 21068,
@@ -1299,7 +1610,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21013,
+          "count": 1,
+          "room": 21068
+        }
+      ],
+      "object_resets": []
     },
     "21069": {
       "vnum": 21069,
@@ -1317,7 +1636,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21025,
+          "count": 2,
+          "room": 21069
+        }
+      ],
+      "object_resets": []
     },
     "21071": {
       "vnum": 21071,
@@ -1336,7 +1663,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21072": {
       "vnum": 21072,
@@ -1354,7 +1683,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21073": {
       "vnum": 21073,
@@ -1372,7 +1703,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21074": {
       "vnum": 21074,
@@ -1389,7 +1722,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21068,
+          "count": 1,
+          "room": 21074
+        }
+      ],
+      "object_resets": []
     },
     "21075": {
       "vnum": 21075,
@@ -1411,7 +1752,15 @@
         "foliage": "Searching thoroughly, you discover a manhole hidden beneath one of the\nmany bushes."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21069,
+          "count": 1,
+          "room": 21075
+        }
+      ],
+      "object_resets": []
     },
     "21076": {
       "vnum": 21076,
@@ -1427,7 +1776,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21077": {
       "vnum": 21077,
@@ -1443,7 +1794,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21078": {
       "vnum": 21078,
@@ -1459,7 +1812,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21079": {
       "vnum": 21079,
@@ -1475,7 +1830,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21080": {
       "vnum": 21080,
@@ -1491,7 +1848,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21081": {
       "vnum": 21081,
@@ -1508,7 +1867,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21061,
+          "count": 4,
+          "room": 21081
+        }
+      ],
+      "object_resets": []
     },
     "21082": {
       "vnum": 21082,
@@ -1524,7 +1891,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21083": {
       "vnum": 21083,
@@ -1540,7 +1909,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21084": {
       "vnum": 21084,
@@ -1556,7 +1927,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21085": {
       "vnum": 21085,
@@ -1572,7 +1945,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21086": {
       "vnum": 21086,
@@ -1588,7 +1963,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21087": {
       "vnum": 21087,
@@ -1607,7 +1984,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21063,
+          "count": 1,
+          "room": 21087
+        }
+      ],
+      "object_resets": []
     },
     "21088": {
       "vnum": 21088,
@@ -1624,7 +2009,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21062,
+          "count": 1,
+          "room": 21088
+        }
+      ],
+      "object_resets": []
     },
     "21089": {
       "vnum": 21089,
@@ -1640,7 +2033,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21090": {
       "vnum": 21090,
@@ -1659,7 +2054,9 @@
         "sign": "The sign reads:\n Hail Traveler!  You stand before the Pixie Forest, a\ngroup of woods populated by one of the smaller races of\nthe world.  The area is intended for those of low\nlevel, and welcomes you."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21091": {
       "vnum": 21091,
@@ -1675,7 +2072,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21092": {
       "vnum": 21092,
@@ -1691,7 +2090,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21093": {
       "vnum": 21093,
@@ -1707,7 +2108,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21094": {
       "vnum": 21094,
@@ -1723,7 +2126,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21061,
+          "count": 4,
+          "room": 21094
+        }
+      ],
+      "object_resets": []
     },
     "21095": {
       "vnum": 21095,
@@ -1739,7 +2150,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21096": {
       "vnum": 21096,
@@ -1757,7 +2170,9 @@
         "scroll": "Runes of preservation and permanence cover the scroll, as well as the\nwords:  Darkhaven's Time Will Come, Just As Thalos."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21097": {
       "vnum": 21097,
@@ -1773,7 +2188,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21098": {
       "vnum": 21098,
@@ -1789,7 +2206,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21099": {
       "vnum": 21099,
@@ -1807,7 +2226,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21065,
+          "count": 1,
+          "room": 21099
+        }
+      ],
+      "object_resets": []
     },
     "21100": {
       "vnum": 21100,
@@ -1824,7 +2251,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21064,
+          "count": 1,
+          "room": 21100
+        }
+      ],
+      "object_resets": []
     },
     "21101": {
       "vnum": 21101,
@@ -1840,7 +2275,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21102": {
       "vnum": 21102,
@@ -1858,7 +2295,9 @@
         "sign": "The sign reads:\n Welcome to Darkhaven - City of Hope."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21103": {
       "vnum": 21103,
@@ -1874,7 +2313,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21105": {
       "vnum": 21105,
@@ -1890,7 +2331,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21106": {
       "vnum": 21106,
@@ -1906,7 +2349,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21061,
+          "count": 4,
+          "room": 21106
+        }
+      ],
+      "object_resets": []
     },
     "21107": {
       "vnum": 21107,
@@ -1922,7 +2373,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21108": {
       "vnum": 21108,
@@ -1938,7 +2391,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21109": {
       "vnum": 21109,
@@ -1954,7 +2409,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21110": {
       "vnum": 21110,
@@ -1970,7 +2427,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21111": {
       "vnum": 21111,
@@ -1986,7 +2445,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21112": {
       "vnum": 21112,
@@ -2005,7 +2466,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21067,
+          "count": 1,
+          "room": 21112
+        }
+      ],
+      "object_resets": []
     },
     "21113": {
       "vnum": 21113,
@@ -2022,7 +2491,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21066,
+          "count": 1,
+          "room": 21113
+        }
+      ],
+      "object_resets": []
     },
     "21114": {
       "vnum": 21114,
@@ -2038,7 +2515,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21115": {
       "vnum": 21115,
@@ -2054,7 +2533,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21116": {
       "vnum": 21116,
@@ -2070,7 +2551,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21117": {
       "vnum": 21117,
@@ -2086,7 +2569,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21118": {
       "vnum": 21118,
@@ -2102,7 +2587,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21119": {
       "vnum": 21119,
@@ -2119,7 +2606,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21061,
+          "count": 4,
+          "room": 21119
+        }
+      ],
+      "object_resets": []
     },
     "21120": {
       "vnum": 21120,
@@ -2135,7 +2630,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21121": {
       "vnum": 21121,
@@ -2151,7 +2648,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21122": {
       "vnum": 21122,
@@ -2167,7 +2666,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21123": {
       "vnum": 21123,
@@ -2183,7 +2684,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21124": {
       "vnum": 21124,
@@ -2200,7 +2703,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21126": {
       "vnum": 21126,
@@ -2218,7 +2723,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21127": {
       "vnum": 21127,
@@ -2240,7 +2747,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21128": {
       "vnum": 21128,
@@ -2258,7 +2767,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21037,
+          "count": 1,
+          "room": 21128
+        }
+      ]
     },
     "21129": {
       "vnum": 21129,
@@ -2276,7 +2793,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21028,
+          "count": 1,
+          "room": 21129
+        }
+      ],
+      "object_resets": []
     },
     "21131": {
       "vnum": 21131,
@@ -2295,7 +2820,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21132": {
       "vnum": 21132,
@@ -2314,7 +2841,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21133": {
       "vnum": 21133,
@@ -2335,7 +2864,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21134": {
       "vnum": 21134,
@@ -2354,7 +2885,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21135": {
       "vnum": 21135,
@@ -2376,7 +2909,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21136": {
       "vnum": 21136,
@@ -2393,7 +2928,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21041,
+          "count": 1,
+          "room": 21136
+        }
+      ]
     },
     "21137": {
       "vnum": 21137,
@@ -2410,7 +2953,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21006,
+          "count": 1,
+          "room": 21137
+        }
+      ],
+      "object_resets": []
     },
     "21138": {
       "vnum": 21138,
@@ -2428,7 +2979,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21007,
+          "count": 1,
+          "room": 21138
+        }
+      ],
+      "object_resets": []
     },
     "21139": {
       "vnum": 21139,
@@ -2448,7 +3007,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21141": {
       "vnum": 21141,
@@ -2468,7 +3029,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21142": {
       "vnum": 21142,
@@ -2485,7 +3048,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21023,
+          "count": 1,
+          "room": 21142
+        }
+      ],
+      "object_resets": []
     },
     "21144": {
       "vnum": 21144,
@@ -2503,7 +3074,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21145": {
       "vnum": 21145,
@@ -2520,7 +3093,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21040,
+          "count": 1,
+          "room": 21145
+        }
+      ]
     },
     "21146": {
       "vnum": 21146,
@@ -2540,7 +3121,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21025,
+          "count": 2,
+          "room": 21146
+        }
+      ],
+      "object_resets": []
     },
     "21147": {
       "vnum": 21147,
@@ -2558,7 +3147,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21148": {
       "vnum": 21148,
@@ -2579,7 +3170,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21149": {
       "vnum": 21149,
@@ -2597,7 +3190,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21150": {
       "vnum": 21150,
@@ -2615,7 +3210,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21151": {
       "vnum": 21151,
@@ -2636,7 +3233,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21152": {
       "vnum": 21152,
@@ -2654,7 +3253,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21153": {
       "vnum": 21153,
@@ -2672,7 +3273,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21154": {
       "vnum": 21154,
@@ -2690,7 +3293,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21155": {
       "vnum": 21155,
@@ -2711,7 +3316,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21156": {
       "vnum": 21156,
@@ -2729,7 +3336,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21157": {
       "vnum": 21157,
@@ -2747,7 +3356,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21158": {
       "vnum": 21158,
@@ -2765,7 +3376,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21159": {
       "vnum": 21159,
@@ -2786,7 +3399,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21160": {
       "vnum": 21160,
@@ -2804,7 +3419,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21161": {
       "vnum": 21161,
@@ -2822,7 +3439,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21162": {
       "vnum": 21162,
@@ -2839,7 +3458,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21163": {
       "vnum": 21163,
@@ -2856,7 +3477,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21165": {
       "vnum": 21165,
@@ -2873,7 +3496,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21166": {
       "vnum": 21166,
@@ -2891,7 +3516,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21167": {
       "vnum": 21167,
@@ -2908,7 +3535,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21168": {
       "vnum": 21168,
@@ -2928,7 +3557,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21170": {
       "vnum": 21170,
@@ -2949,7 +3580,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21171": {
       "vnum": 21171,
@@ -2967,7 +3600,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21012,
+          "count": 1,
+          "room": 21171
+        }
+      ],
+      "object_resets": []
     },
     "21172": {
       "vnum": 21172,
@@ -2985,7 +3626,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21039,
+          "count": 1,
+          "room": 21172
+        }
+      ]
     },
     "21174": {
       "vnum": 21174,
@@ -3005,7 +3654,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21042,
+          "count": 1,
+          "room": 21174
+        }
+      ]
     },
     "21176": {
       "vnum": 21176,
@@ -3023,7 +3680,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21177": {
       "vnum": 21177,
@@ -3043,7 +3702,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21178": {
       "vnum": 21178,
@@ -3063,7 +3724,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21180": {
       "vnum": 21180,
@@ -3081,7 +3744,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21181": {
       "vnum": 21181,
@@ -3099,7 +3764,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21182": {
       "vnum": 21182,
@@ -3125,7 +3792,9 @@
         "signpost": "North - The Altar\nEast  - Donations\nSouth - Towards Darkhaven Square\nWest  - Donations"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21185": {
       "vnum": 21185,
@@ -3143,7 +3812,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21186": {
       "vnum": 21186,
@@ -3161,7 +3832,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21187": {
       "vnum": 21187,
@@ -3182,7 +3855,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21188": {
       "vnum": 21188,
@@ -3202,7 +3877,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21190": {
       "vnum": 21190,
@@ -3220,7 +3897,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21034,
+          "count": 1,
+          "room": 21190
+        }
+      ],
+      "object_resets": []
     },
     "21191": {
       "vnum": 21191,
@@ -3239,7 +3924,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21038,
+          "count": 1,
+          "room": 21191
+        }
+      ]
     },
     "21192": {
       "vnum": 21192,
@@ -3259,7 +3952,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21112,
+          "count": 1,
+          "room": 21192
+        }
+      ]
     },
     "21193": {
       "vnum": 21193,
@@ -3279,7 +3980,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21111,
+          "count": 1,
+          "room": 21193
+        }
+      ]
     },
     "21194": {
       "vnum": 21194,
@@ -3299,7 +4008,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21000,
+          "count": 1,
+          "room": 21194
+        }
+      ],
+      "object_resets": []
     },
     "21200": {
       "vnum": 21200,
@@ -3316,7 +4033,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21201": {
       "vnum": 21201,
@@ -3333,7 +4052,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21202": {
       "vnum": 21202,
@@ -3350,7 +4071,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21204": {
       "vnum": 21204,
@@ -3370,7 +4093,9 @@
         "sign": "The sign reads:\n  North: The Guild of Warriors\n  Southwest: Darkhaven Square\n  East: Ranger's Guild"
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21205": {
       "vnum": 21205,
@@ -3387,7 +4112,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21207": {
       "vnum": 21207,
@@ -3404,7 +4131,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21208": {
       "vnum": 21208,
@@ -3424,7 +4153,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21210": {
       "vnum": 21210,
@@ -3443,7 +4174,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21212": {
       "vnum": 21212,
@@ -3462,7 +4195,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21035,
+          "count": 1,
+          "room": 21212
+        }
+      ]
     },
     "21213": {
       "vnum": 21213,
@@ -3479,7 +4220,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21031,
+          "count": 1,
+          "room": 21213
+        }
+      ],
+      "object_resets": []
     },
     "21233": {
       "vnum": 21233,
@@ -3499,7 +4248,9 @@
         "plaque": "The plaque reads:\n The Guild of Warriors, may their blades be ever sharp."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21236": {
       "vnum": 21236,
@@ -3519,7 +4270,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21237": {
       "vnum": 21237,
@@ -3538,7 +4291,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21035,
+          "count": 1,
+          "room": 21237
+        }
+      ],
+      "object_resets": []
     },
     "21239": {
       "vnum": 21239,
@@ -3557,7 +4318,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21034,
+          "count": 1,
+          "room": 21239
+        }
+      ]
     },
     "21240": {
       "vnum": 21240,
@@ -3580,7 +4349,9 @@
         "plaque": "The plaque reads:\n Take what is needed, nothing more, nothing less."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21275": {
       "vnum": 21275,
@@ -3598,7 +4369,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21009,
+          "count": 1,
+          "room": 21275
+        }
+      ],
+      "object_resets": []
     },
     "21280": {
       "vnum": 21280,
@@ -3616,7 +4395,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21290": {
       "vnum": 21290,
@@ -3632,7 +4413,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21291": {
       "vnum": 21291,
@@ -3650,7 +4433,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21292": {
       "vnum": 21292,
@@ -3666,7 +4451,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21293": {
       "vnum": 21293,
@@ -3683,7 +4470,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21294": {
       "vnum": 21294,
@@ -3698,7 +4487,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21295": {
       "vnum": 21295,
@@ -3715,7 +4506,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21029,
+          "count": 1,
+          "room": 21295
+        }
+      ],
+      "object_resets": []
     },
     "21296": {
       "vnum": 21296,
@@ -3732,7 +4531,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21297": {
       "vnum": 21297,
@@ -3750,7 +4551,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21298": {
       "vnum": 21298,
@@ -3767,7 +4570,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21299": {
       "vnum": 21299,
@@ -3783,7 +4588,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21300": {
       "vnum": 21300,
@@ -3800,7 +4607,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21301": {
       "vnum": 21301,
@@ -3819,7 +4628,9 @@
         "plaque": "The plaque reads:\n  Strong is the one who fights for me,\n  Smart is this one so strong and free,\n  Wise is the one who counsels me,\n  Determined to prove what he can see,\n  Quick is the one who steals for me,\n  Charming, bold, confuses many,\n  Luck with the one who escapes me,\n  Dead be my foe, my enemy.\n\n-Lord Rennard, March 1996\n\nI'd like to say thanks to Thoric for creating and maintaining an\nexcellent mud, to Dominus for some amazing administrative work,\nto the coders for all the unique gadgets, to the builders for\ncreating a lush game world, to the immortals for upholding the\nlaw and to the players for making it all worth it.\n\nI would also like to extend a special thanks to Haus, who provided\nan enormous supply of ideas through the original new DH, and to\nBlodkai, for endless insight and support."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21302": {
       "vnum": 21302,
@@ -3836,7 +4647,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21303": {
       "vnum": 21303,
@@ -3854,7 +4667,9 @@
         "grate": "Constructed into the underside of the northern bridge-support, it looks\nquite old but quite sturdy.  Looking closer, you notice it has a set of\nswing-hinges and a bolted fastener; you may be able to open it."
       },
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21307": {
       "vnum": 21307,
@@ -3872,7 +4687,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21308": {
       "vnum": 21308,
@@ -3888,7 +4705,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21308
+        }
+      ],
+      "object_resets": []
     },
     "21309": {
       "vnum": 21309,
@@ -3903,7 +4728,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21311": {
       "vnum": 21311,
@@ -3919,7 +4746,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21312": {
       "vnum": 21312,
@@ -3934,7 +4763,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21312
+        }
+      ],
+      "object_resets": []
     },
     "21314": {
       "vnum": 21314,
@@ -3952,7 +4789,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21315": {
       "vnum": 21315,
@@ -3968,7 +4807,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21316": {
       "vnum": 21316,
@@ -3983,7 +4824,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21316
+        }
+      ],
+      "object_resets": []
     },
     "21318": {
       "vnum": 21318,
@@ -3999,7 +4848,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21318
+        }
+      ],
+      "object_resets": []
     },
     "21319": {
       "vnum": 21319,
@@ -4014,7 +4871,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21321": {
       "vnum": 21321,
@@ -4032,7 +4891,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21322": {
       "vnum": 21322,
@@ -4046,7 +4907,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21323": {
       "vnum": 21323,
@@ -4062,7 +4925,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21324": {
       "vnum": 21324,
@@ -4077,7 +4942,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21324
+        }
+      ],
+      "object_resets": []
     },
     "21325": {
       "vnum": 21325,
@@ -4091,7 +4964,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21326": {
       "vnum": 21326,
@@ -4107,7 +4982,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21326
+        }
+      ],
+      "object_resets": []
     },
     "21327": {
       "vnum": 21327,
@@ -4122,7 +5005,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21328": {
       "vnum": 21328,
@@ -4140,7 +5025,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21329": {
       "vnum": 21329,
@@ -4156,7 +5043,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21329
+        }
+      ],
+      "object_resets": []
     },
     "21330": {
       "vnum": 21330,
@@ -4171,7 +5066,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21332": {
       "vnum": 21332,
@@ -4187,7 +5084,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21333": {
       "vnum": 21333,
@@ -4202,7 +5101,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21071,
+          "count": 8,
+          "room": 21333
+        }
+      ],
+      "object_resets": []
     },
     "21335": {
       "vnum": 21335,
@@ -4219,7 +5126,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21010,
+          "count": 1,
+          "room": 21335
+        }
+      ],
+      "object_resets": []
     },
     "21337": {
       "vnum": 21337,
@@ -4237,7 +5152,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21338": {
       "vnum": 21338,
@@ -4255,7 +5172,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21339": {
       "vnum": 21339,
@@ -4271,7 +5190,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21022,
+          "count": 1,
+          "room": 21339
+        }
+      ],
+      "object_resets": []
     },
     "21340": {
       "vnum": 21340,
@@ -4287,7 +5214,40 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21056,
+          "count": 1,
+          "room": 21340
+        },
+        {
+          "vnum": 21057,
+          "count": 1,
+          "room": 21340
+        },
+        {
+          "vnum": 21058,
+          "count": 1,
+          "room": 21340
+        },
+        {
+          "vnum": 21059,
+          "count": 1,
+          "room": 21340
+        },
+        {
+          "vnum": 21060,
+          "count": 1,
+          "room": 21340
+        },
+        {
+          "vnum": 21070,
+          "count": 1,
+          "room": 21340
+        }
+      ],
+      "object_resets": []
     },
     "21353": {
       "vnum": 21353,
@@ -4303,7 +5263,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21380": {
       "vnum": 21380,
@@ -4321,7 +5283,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21390": {
       "vnum": 21390,
@@ -4339,7 +5303,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21401": {
       "vnum": 21401,
@@ -4353,7 +5319,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21402": {
       "vnum": 21402,
@@ -4367,7 +5335,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21403": {
       "vnum": 21403,
@@ -4381,7 +5351,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21404": {
       "vnum": 21404,
@@ -4395,7 +5367,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21409": {
       "vnum": 21409,
@@ -4415,7 +5389,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21430": {
       "vnum": 21430,
@@ -4436,7 +5412,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21432": {
       "vnum": 21432,
@@ -4454,7 +5432,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21433": {
       "vnum": 21433,
@@ -4472,7 +5452,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 21435,
+          "count": 1,
+          "room": 21433
+        }
+      ]
     },
     "21434": {
       "vnum": 21434,
@@ -4492,7 +5480,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21435": {
       "vnum": 21435,
@@ -4508,7 +5498,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21436": {
       "vnum": 21436,
@@ -4525,7 +5517,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21437": {
       "vnum": 21437,
@@ -4546,7 +5540,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21438": {
       "vnum": 21438,
@@ -4564,7 +5560,9 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21439": {
       "vnum": 21439,
@@ -4583,7 +5581,15 @@
       },
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [
+        {
+          "vnum": 21431,
+          "count": 1,
+          "room": 21439
+        }
+      ],
+      "object_resets": []
     },
     "21499": {
       "vnum": 21499,
@@ -4597,7 +5603,2900 @@
       "exits": {},
       "exdescs": {},
       "area_name": "New Darkhaven",
-      "area_author": "Rennard"
+      "area_author": "Rennard",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "21000": {
+      "vnum": 21000,
+      "keywords": [
+        "healer",
+        "cleric",
+        "priestess"
+      ],
+      "short": "the cathedral priestess",
+      "long": "A priestess of the cathedral bestows blessings from the altar.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21001": {
+      "vnum": 21001,
+      "keywords": [
+        "wizard",
+        "shopkeeper"
+      ],
+      "short": "the wizard shopkeeper",
+      "long": "The wizard shopkeeper stands here.",
+      "race": "elf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21002": {
+      "vnum": 21002,
+      "keywords": [
+        "blacksmith"
+      ],
+      "short": "the blacksmith",
+      "long": "The blacksmith stands here.",
+      "race": "dwarf",
+      "class": "blacksmith",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21003": {
+      "vnum": 21003,
+      "keywords": [
+        "alchemist"
+      ],
+      "short": "the alchemist",
+      "long": "The alchemist stands behind the counter.",
+      "race": "elf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21004": {
+      "vnum": 21004,
+      "keywords": [
+        "scribe"
+      ],
+      "short": "the scribe",
+      "long": "The scribe sits here.",
+      "race": "elf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21006": {
+      "vnum": 21006,
+      "keywords": [
+        "vampire",
+        "trainer"
+      ],
+      "short": "the vampire trainer",
+      "long": "The vampire trainer awaits a student.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21007": {
+      "vnum": 21007,
+      "keywords": [
+        "blood",
+        "doll"
+      ],
+      "short": "the blood doll",
+      "long": "A blood doll hangs limply here.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21009": {
+      "vnum": 21009,
+      "keywords": [
+        "man",
+        "sailor"
+      ],
+      "short": "the sailor",
+      "long": "A sailor offers you his selection of boats.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21010": {
+      "vnum": 21010,
+      "keywords": [
+        "waitress"
+      ],
+      "short": "the waitress",
+      "long": "The waitress awaits your order.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21011": {
+      "vnum": 21011,
+      "keywords": [
+        "printer"
+      ],
+      "short": "the printer",
+      "long": "A thin man sits behind a stack of papers.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21012": {
+      "vnum": 21012,
+      "keywords": [
+        "trainer",
+        "father"
+      ],
+      "short": "the Guild Father",
+      "long": "The Guild's trainer meditates here.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21013": {
+      "vnum": 21013,
+      "keywords": [
+        "bartender"
+      ],
+      "short": "the bartender",
+      "long": "The bartender stands behind his counter.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21014": {
+      "vnum": 21014,
+      "keywords": [
+        "jeweler"
+      ],
+      "short": "the jeweler",
+      "long": "The jeweler smiles warmly.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21015": {
+      "vnum": 21015,
+      "keywords": [
+        "armourer"
+      ],
+      "short": "the armourer",
+      "long": "The armourer is here fitting a mail helm.",
+      "race": "human",
+      "class": "blacksmith",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21016": {
+      "vnum": 21016,
+      "keywords": [
+        "smith",
+        "weaponsmith"
+      ],
+      "short": "the weaponsmith",
+      "long": "The weaponsmith labors over a lengthy blade.",
+      "race": "human",
+      "class": "blacksmith",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21017": {
+      "vnum": 21017,
+      "keywords": [
+        "postmaster"
+      ],
+      "short": "the postmaster",
+      "long": "The postmaster sorts the day's mail.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21018": {
+      "vnum": 21018,
+      "keywords": [
+        "butcher"
+      ],
+      "short": "the butcher",
+      "long": "A butcher greets you.",
+      "race": "human",
+      "class": "butcher",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21019": {
+      "vnum": 21019,
+      "keywords": [
+        "baker"
+      ],
+      "short": "the baker",
+      "long": "The baker is here, covered in flour.",
+      "race": "human",
+      "class": "baker",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21020": {
+      "vnum": 21020,
+      "keywords": [
+        "farmer",
+        "girl"
+      ],
+      "short": "the farmer girl",
+      "long": "A young farmer girl smiles as you enter.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21021": {
+      "vnum": 21021,
+      "keywords": [
+        "tailor"
+      ],
+      "short": "the tailor",
+      "long": "The tailor is here, showing off his wares.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21022": {
+      "vnum": 21022,
+      "keywords": [
+        "stable",
+        "keeper"
+      ],
+      "short": "the stable keeper",
+      "long": "The stable keeper tends to his animals.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        18,
+        18,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21023": {
+      "vnum": 21023,
+      "keywords": [
+        "thief",
+        "master"
+      ],
+      "short": "the Master Thief",
+      "long": "A master thief is here to demonstrate the ways of thievery.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21025": {
+      "vnum": 21025,
+      "keywords": [
+        "innkeeper"
+      ],
+      "short": "the innkeeper",
+      "long": "The Innkeeper stands here, looking rather gruff.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21028": {
+      "vnum": 21028,
+      "keywords": [
+        "sage",
+        "man"
+      ],
+      "short": "the sage",
+      "long": "A pensive sage mulls over new sorcery.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21029": {
+      "vnum": 21029,
+      "keywords": [
+        "storekeeper",
+        "man"
+      ],
+      "short": "the storekeeper",
+      "long": "A large man stands here, selling equipment for adventurers.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        25,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21031": {
+      "vnum": 21031,
+      "keywords": [
+        "man",
+        "ranger"
+      ],
+      "short": "the ranger trainer",
+      "long": "The ranger trainer demonstrates combat maneuvers.",
+      "race": "human",
+      "class": "ranger",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21034": {
+      "vnum": 21034,
+      "keywords": [
+        "woman",
+        "trainer"
+      ],
+      "short": "the Druid trainer",
+      "long": "A robed woman is here, training initiate druids.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21035": {
+      "vnum": 21035,
+      "keywords": [
+        "man",
+        "trainer"
+      ],
+      "short": "the Warrior trainer",
+      "long": "A giant man stands here, waiting to train young warriors.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21037": {
+      "vnum": 21037,
+      "keywords": [
+        "guard",
+        "man"
+      ],
+      "short": "the guard",
+      "long": "A guard patrols the streets of the city.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        16,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21041": {
+      "vnum": 21041,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A tired guard is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21043": {
+      "vnum": 21043,
+      "keywords": [
+        "bowman"
+      ],
+      "short": "the bowman",
+      "long": "A bowman stares out over the ramparts.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21044": {
+      "vnum": 21044,
+      "keywords": [
+        "executioner"
+      ],
+      "short": "the Executioner",
+      "long": "A executioner stands silently before you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        15,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "21045": {
+      "vnum": 21045,
+      "keywords": [
+        "dog",
+        "stray"
+      ],
+      "short": "a stray",
+      "long": "A stray dog noses along the street.",
+      "race": "dog",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21052": {
+      "vnum": 21052,
+      "keywords": [
+        "thief",
+        "figure"
+      ],
+      "short": "the thief",
+      "long": "A strange figure lurks furtively.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21055": {
+      "vnum": 21055,
+      "keywords": [
+        "beggar",
+        "man",
+        "beggarprog"
+      ],
+      "short": "the beggar",
+      "long": "A decrepit old beggar sits on the cobbles of the road, pleading.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21056": {
+      "vnum": 21056,
+      "keywords": [
+        "hawk"
+      ],
+      "short": "the regal hawk",
+      "long": "A proud hawk perches regally here, defiant to all.",
+      "race": "avis",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21057": {
+      "vnum": 21057,
+      "keywords": [
+        "mare",
+        "horse"
+      ],
+      "short": "the beautiful mare",
+      "long": "A beautiful white mare slowly trots in a circle.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21058": {
+      "vnum": 21058,
+      "keywords": [
+        "horse",
+        "warhorse"
+      ],
+      "short": "the warhorse",
+      "long": "A mighty black warhorse beats angrily at the ground here.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21059": {
+      "vnum": 21059,
+      "keywords": [
+        "cat"
+      ],
+      "short": "the cat",
+      "long": "A black cat scampers away from your booted feet.",
+      "race": "feline",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21060": {
+      "vnum": 21060,
+      "keywords": [
+        "hound",
+        "dog"
+      ],
+      "short": "the hound",
+      "long": "A hunting dog paces in circles here, sniffing the ground.",
+      "race": "canine",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 85,
+      "max_mana": 85,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21061": {
+      "vnum": 21061,
+      "keywords": [
+        "guard",
+        "man"
+      ],
+      "short": "the guard",
+      "long": "A heavy guard walks the wall of the city.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21062": {
+      "vnum": 21062,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the gate guard",
+      "long": "A gate guard tends the western gate.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21063": {
+      "vnum": 21063,
+      "keywords": [
+        "man",
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A gate guard tends the outer gate.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21064": {
+      "vnum": 21064,
+      "keywords": [
+        "guard",
+        "man"
+      ],
+      "short": "the guard",
+      "long": "A gate guard tends the north gate.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21065": {
+      "vnum": 21065,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A gate guard tends the outer gate.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21066": {
+      "vnum": 21066,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A guard of watches you as you move by.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        16,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21067": {
+      "vnum": 21067,
+      "keywords": [
+        "man",
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A guard of the city stands here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21068": {
+      "vnum": 21068,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "A guard of the city stands at the ready.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21069": {
+      "vnum": 21069,
+      "keywords": [
+        "guard"
+      ],
+      "short": "the guard",
+      "long": "An guard keeps vigilant watch here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21070": {
+      "vnum": 21070,
+      "keywords": [
+        "mule"
+      ],
+      "short": "the pack mule",
+      "long": "A pack mule lumbers about, carrying its master's belongings.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21071": {
+      "vnum": 21071,
+      "keywords": [
+        "archer"
+      ],
+      "short": "the bowman",
+      "long": "A bowman peers over the ramparts.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21073": {
+      "vnum": 21073,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21074": {
+      "vnum": 21074,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21075": {
+      "vnum": 21075,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21076": {
+      "vnum": 21076,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21077": {
+      "vnum": 21077,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21078": {
+      "vnum": 21078,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21079": {
+      "vnum": 21079,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21080": {
+      "vnum": 21080,
+      "keywords": [
+        "key"
+      ],
+      "short": "a newly created key",
+      "long": "Some god abandoned a newly created key here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21415": {
+      "vnum": 21415,
+      "keywords": [
+        "newbie",
+        "mob"
+      ],
+      "short": "a newly created newbie mob",
+      "long": "Some god abandoned a newly created newbie mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21416": {
+      "vnum": 21416,
+      "keywords": [
+        "newbie",
+        "mob"
+      ],
+      "short": "a newly created newbie mob",
+      "long": "Some god abandoned a newly created newbie mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21420": {
+      "vnum": 21420,
+      "keywords": [
+        "dark",
+        "figure",
+        "assassin"
+      ],
+      "short": "the assassin",
+      "long": "A dark figure lurks here, hiding in the shadows.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        18,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21431": {
+      "vnum": 21431,
+      "keywords": [
+        "kinalsta",
+        "man"
+      ],
+      "short": "Kinalsta",
+      "long": "A proud man stands here, deliberating over his theories.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21434": {
+      "vnum": 21434,
+      "keywords": [
+        "woman",
+        "demon",
+        "female"
+      ],
+      "short": "The woman",
+      "long": "A pitiful demon cowers behind a failed aura of evil.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "21499": {
+      "vnum": 21499,
+      "keywords": [
+        "final",
+        "mob"
+      ],
+      "short": "a newly created final mob",
+      "long": "Some god abandoned a newly created final mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "21000": {
+      "vnum": 21000,
+      "keywords": [
+        "potion",
+        "violet",
+        "glowing"
+      ],
+      "type": "potion",
+      "short": "a glowing violet potion",
+      "long": "A glowing violet potion has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21001": {
+      "vnum": 21001,
+      "keywords": [
+        "potion",
+        "purple",
+        "glowing"
+      ],
+      "type": "potion",
+      "short": "a glowing purple potion",
+      "long": "A glowing purple potion has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21002": {
+      "vnum": 21002,
+      "keywords": [
+        "puce",
+        "potion",
+        "glowing"
+      ],
+      "type": "potion",
+      "short": "a glowing puce potion",
+      "long": "A glowing puce potion has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21003": {
+      "vnum": 21003,
+      "keywords": [
+        "potion",
+        "maroon",
+        "glowing"
+      ],
+      "type": "potion",
+      "short": "a glowing maroon potion",
+      "long": "A glowing maroon potion has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21004": {
+      "vnum": 21004,
+      "keywords": [
+        "potion",
+        "blue",
+        "glowing"
+      ],
+      "type": "potion",
+      "short": "glowing blue potion",
+      "long": "A glowing blue potion has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21005": {
+      "vnum": 21005,
+      "keywords": [
+        "scroll",
+        "recall"
+      ],
+      "type": "scroll",
+      "short": "recall scroll",
+      "long": "A scroll of recall has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21006": {
+      "vnum": 21006,
+      "keywords": [
+        "tablet",
+        "magical",
+        "identify"
+      ],
+      "type": "scroll",
+      "short": "a magical tablet",
+      "long": "A magical tablet has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21007": {
+      "vnum": 21007,
+      "keywords": [
+        "scroll",
+        "detect",
+        "invis"
+      ],
+      "type": "scroll",
+      "short": "a scroll of detect invisibility",
+      "long": "A scroll of detect invisibility has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21008": {
+      "vnum": 21008,
+      "keywords": [
+        "beer",
+        "bottle"
+      ],
+      "type": "drinkcon",
+      "short": "a bottle of beer",
+      "long": "A small bottle, tipped on its side, drips on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21009": {
+      "vnum": 21009,
+      "keywords": [
+        "whiskey",
+        "bottle"
+      ],
+      "type": "drinkcon",
+      "short": "a bottle of whiskey",
+      "long": "A bottle of whiskey spills drops on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21010": {
+      "vnum": 21010,
+      "keywords": [
+        "mug",
+        "ale"
+      ],
+      "type": "drinkcon",
+      "short": "a mug of ale",
+      "long": "A large mug of ale sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21014": {
+      "vnum": 21014,
+      "keywords": [
+        "salami"
+      ],
+      "type": "food",
+      "short": "a slice of salami",
+      "long": "A slice of salami sits in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21015": {
+      "vnum": 21015,
+      "keywords": [
+        "beef"
+      ],
+      "type": "food",
+      "short": "a big chunk of beef",
+      "long": "A large chunk of raw beef lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21016": {
+      "vnum": 21016,
+      "keywords": [
+        "turkey"
+      ],
+      "type": "food",
+      "short": "a cooked turkey",
+      "long": "A cooked bird, which looks quite edible, lies in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21017": {
+      "vnum": 21017,
+      "keywords": [
+        "bottle",
+        "milk"
+      ],
+      "type": "drinkcon",
+      "short": "a bottle of milk",
+      "long": "A bottle of milk sits upright on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21018": {
+      "vnum": 21018,
+      "keywords": [
+        "wheel",
+        "cheese"
+      ],
+      "type": "food",
+      "short": "a wheel of cheese",
+      "long": "A round wheel of cheese looks very good.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21019": {
+      "vnum": 21019,
+      "keywords": [
+        "lemonade",
+        "cup"
+      ],
+      "type": "drinkcon",
+      "short": "a cup of lemonade",
+      "long": "A cup of lemonade makes your thirst quench easily.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21020": {
+      "vnum": 21020,
+      "keywords": [
+        "cake"
+      ],
+      "type": "food",
+      "short": "a chocolate cake",
+      "long": "A large chocolate cake awaits someone to eat it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21021": {
+      "vnum": 21021,
+      "keywords": [
+        "loaf",
+        "bread"
+      ],
+      "type": "food",
+      "short": "a loaf of bread",
+      "long": "A scrumptious loaf of bread lies here, making your taste buds swirl.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21022": {
+      "vnum": 21022,
+      "keywords": [
+        "cherry",
+        "pie"
+      ],
+      "type": "food",
+      "short": "a cherry pie",
+      "long": "A cherry pie makes your mouth water.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21023": {
+      "vnum": 21023,
+      "keywords": [
+        "quill"
+      ],
+      "type": "pen",
+      "short": "a writing quill",
+      "long": "A writing quill lies on the ground, unowned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21024": {
+      "vnum": 21024,
+      "keywords": [
+        "raft"
+      ],
+      "type": "boat",
+      "short": "a sturdy raft",
+      "long": "A large raft blocks a little of the road.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21025": {
+      "vnum": 21025,
+      "keywords": [
+        "canoe"
+      ],
+      "type": "boat",
+      "short": "a canoe",
+      "long": "A large canoe has been left here, looking as though it just went over rapids.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21034": {
+      "vnum": 21034,
+      "keywords": [
+        "warrior",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the warrior guild",
+      "long": "The board of the Warrior Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21035": {
+      "vnum": 21035,
+      "keywords": [
+        "ranger",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the ranger guild board",
+      "long": "The board of the Ranger Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21037": {
+      "vnum": 21037,
+      "keywords": [
+        "mage",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the mage guild",
+      "long": "The board of the Mage Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21038": {
+      "vnum": 21038,
+      "keywords": [
+        "tome",
+        "board",
+        "nature"
+      ],
+      "type": "furniture",
+      "short": "the Tome of Nature",
+      "long": "A mystical tome with sickened yellow pages rests here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21039": {
+      "vnum": 21039,
+      "keywords": [
+        "cleric",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the cleric guild",
+      "long": "The board of the Cleric Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21040": {
+      "vnum": 21040,
+      "keywords": [
+        "thief",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the thief guild",
+      "long": "The board of the Thief Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21041": {
+      "vnum": 21041,
+      "keywords": [
+        "vampire",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the vampire guild",
+      "long": "The board of the Vampire Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21042": {
+      "vnum": 21042,
+      "keywords": [
+        "board",
+        "general"
+      ],
+      "type": "furniture",
+      "short": "the general board",
+      "long": "The Darkhaven board hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21045": {
+      "vnum": 21045,
+      "keywords": [
+        "crystal",
+        "wand"
+      ],
+      "type": "wand",
+      "short": "a sparkling crystal wand",
+      "long": "A sparkling crystal wand has been left lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21046": {
+      "vnum": 21046,
+      "keywords": [
+        "bag",
+        "rune-covered"
+      ],
+      "type": "container",
+      "short": "a rune-covered bag",
+      "long": "A strange bag, covered in runes, has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21048": {
+      "vnum": 21048,
+      "keywords": [
+        "mail",
+        "board",
+        "stack"
+      ],
+      "type": "furniture",
+      "short": "a stack of mail",
+      "long": "A stack of mail is piled high here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21049": {
+      "vnum": 21049,
+      "keywords": [
+        "ball",
+        "light"
+      ],
+      "type": "light",
+      "short": "a bright ball of light",
+      "long": "A bright ball of light shimmers in the air.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21055": {
+      "vnum": 21055,
+      "keywords": [
+        "thief",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a thief's ring",
+      "long": "A ring which will bring good luck lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21056": {
+      "vnum": 21056,
+      "keywords": [
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a ring of the city guard",
+      "long": "An iron ring has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21057": {
+      "vnum": 21057,
+      "keywords": [
+        "neck",
+        "guard",
+        "iron"
+      ],
+      "type": "armor",
+      "short": "an iron guard",
+      "long": "An iron neck guard has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21058": {
+      "vnum": 21058,
+      "keywords": [
+        "crested",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a crested breastplate",
+      "long": "A breastplate has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21059": {
+      "vnum": 21059,
+      "keywords": [
+        "iron",
+        "helm"
+      ],
+      "type": "armor",
+      "short": "an iron helm",
+      "long": "An iron helm has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21060": {
+      "vnum": 21060,
+      "keywords": [
+        "mail",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "mail leggings",
+      "long": "A set of mail leggings has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21061": {
+      "vnum": 21061,
+      "keywords": [
+        "boots",
+        "black"
+      ],
+      "type": "armor",
+      "short": "black boots",
+      "long": "A set of boots has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21062": {
+      "vnum": 21062,
+      "keywords": [
+        "chain",
+        "sleeves"
+      ],
+      "type": "armor",
+      "short": "chain sleeves",
+      "long": "A set of chain sleeves has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21063": {
+      "vnum": 21063,
+      "keywords": [
+        "iron",
+        "gauntlets"
+      ],
+      "type": "armor",
+      "short": "iron gauntlets",
+      "long": "Some iron gauntlets have fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21064": {
+      "vnum": 21064,
+      "keywords": [
+        "iron",
+        "bracer"
+      ],
+      "type": "armor",
+      "short": "an iron bracer",
+      "long": "An iron bracer has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21065": {
+      "vnum": 21065,
+      "keywords": [
+        "iron",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "an iron shield",
+      "long": "An iron shield has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21066": {
+      "vnum": 21066,
+      "keywords": [
+        "iron",
+        "visor"
+      ],
+      "type": "armor",
+      "short": "an iron visor",
+      "long": "An iron visor has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21067": {
+      "vnum": 21067,
+      "keywords": [
+        "torch"
+      ],
+      "type": "light",
+      "short": "a torch",
+      "long": "A plain wooden torch has been left lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21068": {
+      "vnum": 21068,
+      "keywords": [
+        "wooden",
+        "bow"
+      ],
+      "type": "missileweapon",
+      "short": "a wooden bow",
+      "long": "A wooden bow has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21069": {
+      "vnum": 21069,
+      "keywords": [
+        "sword",
+        "longsword"
+      ],
+      "type": "weapon",
+      "short": "a longsword",
+      "long": "A longsword has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21070": {
+      "vnum": 21070,
+      "keywords": [
+        "key"
+      ],
+      "type": "armor",
+      "short": "the key to the western gate of Darkhaven",
+      "long": "The key to the western gate of Darkhaven lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21071": {
+      "vnum": 21071,
+      "keywords": [
+        "key"
+      ],
+      "type": "armor",
+      "short": "the key to the northern gate of Darkhaven",
+      "long": "The key to Darkhaven's northern gate lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21072": {
+      "vnum": 21072,
+      "keywords": [
+        "key"
+      ],
+      "type": "armor",
+      "short": "the key to the eastern gate of Darkhaven",
+      "long": "The key to Darkhaven's eastern gate lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21073": {
+      "vnum": 21073,
+      "keywords": [
+        "key"
+      ],
+      "type": "armor",
+      "short": "the key to the southern gate of Darkhaven",
+      "long": "The key to Darkhaven's southern gate lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21076": {
+      "vnum": 21076,
+      "keywords": [
+        "leather",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a leather shirt",
+      "long": "Someone has left a leather shirt lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21077": {
+      "vnum": 21077,
+      "keywords": [
+        "pants",
+        "leather"
+      ],
+      "type": "armor",
+      "short": "some leather pants",
+      "long": "Some leather pants are lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21078": {
+      "vnum": 21078,
+      "keywords": [
+        "leather",
+        "sleeves"
+      ],
+      "type": "armor",
+      "short": "some leather sleeves",
+      "long": "Some leather sleeves have been abandoned here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21079": {
+      "vnum": 21079,
+      "keywords": [
+        "leather",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "some leather boots",
+      "long": "A pair of leather boots are lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21080": {
+      "vnum": 21080,
+      "keywords": [
+        "leather",
+        "gloves",
+        "pair"
+      ],
+      "type": "armor",
+      "short": "a pair of leather gloves",
+      "long": "Two leather gloves are lying on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21081": {
+      "vnum": 21081,
+      "keywords": [
+        "steel",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "a steel dagger",
+      "long": "A gleaming dagger shines brightly here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21082": {
+      "vnum": 21082,
+      "keywords": [
+        "iron",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "an iron mace",
+      "long": "An iron mace has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21083": {
+      "vnum": 21083,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "inn key",
+      "long": "This item doesn't need a long :P",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21084": {
+      "vnum": 21084,
+      "keywords": [
+        "salve"
+      ],
+      "type": "salve",
+      "short": "Sample Salve",
+      "long": "A sample of Salve lies here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21085": {
+      "vnum": 21085,
+      "keywords": [
+        "arrow"
+      ],
+      "type": "projectile",
+      "short": "A magical arrow",
+      "long": "A magical arrow lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21086": {
+      "vnum": 21086,
+      "keywords": [
+        "flint"
+      ],
+      "type": "treasure",
+      "short": "A shard of flint",
+      "long": "A shard of flint lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21087": {
+      "vnum": 21087,
+      "keywords": [
+        "bow"
+      ],
+      "type": "trash",
+      "short": "a newly created bow",
+      "long": "Some god dropped a newly created bow here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21094": {
+      "vnum": 21094,
+      "keywords": [
+        "ring",
+        "golden",
+        "band"
+      ],
+      "type": "armor",
+      "short": "a strange golden band",
+      "long": "A strange golden band has been left lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21111": {
+      "vnum": 21111,
+      "keywords": [
+        "manor",
+        "painting"
+      ],
+      "type": "furniture",
+      "short": "an oil painting",
+      "long": "A painting of a glorious manor house hangs on the wall, catching your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21112": {
+      "vnum": 21112,
+      "keywords": [
+        "solemn",
+        "painting",
+        "unholy"
+      ],
+      "type": "furniture",
+      "short": "a dark, solemn painting",
+      "long": "A dark, solemn painting hangs here in the shadows, collecting dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21133": {
+      "vnum": 21133,
+      "keywords": [
+        "smoked",
+        "rabbit"
+      ],
+      "type": "food",
+      "short": "smoked rabbit",
+      "long": "A freshly smoked rabbit lies here giving off a hickory scent.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21134": {
+      "vnum": 21134,
+      "keywords": [
+        "roast",
+        "quail"
+      ],
+      "type": "food",
+      "short": "Roast Quail",
+      "long": "A plump roast quail has been carelessly left on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21135": {
+      "vnum": 21135,
+      "keywords": [
+        "chanterelle",
+        "mushrooms"
+      ],
+      "type": "food",
+      "short": "some freshly picked chanterelle mushrooms",
+      "long": "Some freshly picked chanterelle mushrooms have been left behind here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21136": {
+      "vnum": 21136,
+      "keywords": [
+        "bag",
+        "black",
+        "walnuts"
+      ],
+      "type": "food",
+      "short": "a bag of fresh black walnuts",
+      "long": "Walnut shells lie discarded around a small burlap bag left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21137": {
+      "vnum": 21137,
+      "keywords": [
+        "leg",
+        "lamb"
+      ],
+      "type": "food",
+      "short": "a leg of lamb",
+      "long": "A freshly cooked leg of lamb has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21138": {
+      "vnum": 21138,
+      "keywords": [
+        "wild",
+        "mustard",
+        "greens"
+      ],
+      "type": "food",
+      "short": "some wild mustard greens",
+      "long": "Some freshly gathered wild mustard greens have been forgotten here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21139": {
+      "vnum": 21139,
+      "keywords": [
+        "sunflower",
+        "seeds"
+      ],
+      "type": "food",
+      "short": "a handful of sunflower seeds",
+      "long": "A handfull of salty sunflower seeds has been left hhere.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21420": {
+      "vnum": 21420,
+      "keywords": [
+        "parchment",
+        "opaque"
+      ],
+      "type": "book",
+      "short": "an opaque parchment",
+      "long": "A piece of opaque parchment lies here absorbing the light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21435": {
+      "vnum": 21435,
+      "keywords": [
+        "augurer",
+        "guild",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the board of the augurer guild",
+      "long": "The board of the Augurer Guild hangs here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

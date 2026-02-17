@@ -1,6 +1,7 @@
 {
   "name": "Incomplete Desert",
   "author": "Zoie",
+  "reset_minutes": 15,
   "rooms": {
     "31000": {
       "vnum": 31000,
@@ -19,7 +20,9 @@
         "desc_night": "The great walls of the City of Phatep stand to the north of here,\na black shape against the blacker darkness of the night. Warmly\nglowing lights illuminate the tops of the walls, where guards patrol\nnight and day, watching the surrounding lands for signs of danger.\nTwo tall towers topped with minarets frame the wide, strong-looking\ngates and soft, pale moonlight bathes the town in a pearl-like glow.\nTo the south, east and west stretches the endless sands of the Great\nDesert. The normally golden sands are now a gentle silver, like a sea\nof molten metal. To the far east, the Kithan mountains are framed\nagainst the starry sky like powerful black sentinels, watching over\nthe desert and the city."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31001": {
       "vnum": 31001,
@@ -38,7 +41,9 @@
         "desc_night": "This is the edge of the Great Haranian Desert, a vast area that covers\nmuch of the Haran region. The sweeping dunes of sand that expand out\nfrom here to the west, south and east, look strangely surreal in the\npearly glow of the moon, like a smooth, endless carpet of silver. In\nthe distance to the east, framed against the starry night sky are the\nKithan Mountains. To the north is the southern wall of the City of\nPhatep. The thick wooden gates of the city can be reached by travelling\nwest and north from here."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31002": {
       "vnum": 31002,
@@ -57,7 +62,9 @@
         "desc_night": "Torches burn brightly from sconces at the top of the massive walls\nof Phatep that run east and west from here around the city. The\nflickering yellow lights do little to banish the darkness of the\nnight, but the do help to highlight the numerous guards that patrol\nthe top of the wall throughout the night. The Great desert extends\nsouth, away from the wall. Moonlight illuminates only a small part,\nbut even without the benefit of sight, it is obvious that the\ndesert is huge. Some way east of here, the black outline of the\nKithan Mountains can be seen, silhouetted against the starlit sky."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31003": {
       "vnum": 31003,
@@ -76,7 +83,15 @@
         "desc_night": "Soft, pale moonlight slants down from the night sky, surrounding a\nsmall grove of young date trees nearby in a pearly, silver glow. The\ntrees stand close the high, thick walls of Phatep just north of here.\nLanterns hang from the top of the wall, bathing the smooth stone in\nan inviting yellow glow. The walls runs a short distance to the east\nin the direction of the Kithan Mountain range that stands against the\nstarry backdrop of the sky some distance east, and west, towards the\ngates of the city."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31009,
+          "count": 6,
+          "room": 31003
+        }
+      ],
+      "object_resets": []
     },
     "31004": {
       "vnum": 31004,
@@ -94,7 +109,9 @@
         "desc_night": "A huge, circular tower topped with a crystal minaret forms the\nsoutheastern corner of the City of Phatep. Torches are hung from\nvarious levels on the tower but cast little light into the surrounding\ndarkness of the desert. The walls of the city run north and west from\nthe tower towards the north and west gates respectively. In all other\ndirections lies the Great Haran Desert, a vast expanse of golden sand\nthat stretches from Phatep, south to the Shagrim Hills."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31005": {
       "vnum": 31005,
@@ -113,7 +130,9 @@
         "desc_night": "Moonlight casts a wan, silvery glow over the vast, seemingly endless\nsands of the Great Haranian desert that stretch out into the horizon\nto the south, east and west. Almost directly north from here is the\nhigh walls of the City of Phatep. The walls are broad and thick and\nare broken at intervals by tall towers topped with sparkling minarets.\nThe soft moonlight sparkles on the pointed domes, making them gleam\nlike diamonds in the night. The gates to the city can be reached by\ntravelling east and north from this point."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31006": {
       "vnum": 31006,
@@ -132,7 +151,9 @@
         "desc_night": "The darkness of the night makes the golden, endless sands that stretch\naway east, south and west, seem almost eerie. The moon casts its pale,\nwan glow over everything, adding to the surreal quality of the surrounding.\nA small bunch of palm trees stand beneath the great wall of Phatep that\nis standing to the north. The trees shift in the breeze, creaking\nominously. The wall extends east, past two tall towers that mark the\ngates of Phatep, and on around the rest of the city, and west."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31007": {
       "vnum": 31007,
@@ -151,7 +172,9 @@
         "desc_night": "It is difficult to see in the near total darkness of the night, but\ntorches attached to scones at the top of the Phatep city walls to the\nnorth, provide dim circles of light. The pearly glow of the moon adds\nsome small illumination, but it is a surreal light, making the sands\nof the desert that stretch away to the east, west and south seem even\nmore beautiful and awe-inspiring than it is during the day."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31008": {
       "vnum": 31008,
@@ -170,7 +193,9 @@
         "desc_night": "The sand shimmers with a pearl-like radience and a soft, metalic\nquality in the pale glow of the moon. The silence of the desert that\nexpands to the east and south is broken only by the soft slithering\nof the sand as it shifts and settles in new positions. The huge walls\nof Phatep stand to the north, and run east and north from a circular\ntower that forms the southwestern corner of the city. To the west,\nbeyond the edge of Phatep, the sandy desert gives way to jagged rocks\nthat stick up from the ground and make travel difficult."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31009": {
       "vnum": 31009,
@@ -193,7 +218,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31034,
+          "count": 5,
+          "room": 31009
+        }
+      ],
+      "object_resets": []
     },
     "31010": {
       "vnum": 31010,
@@ -216,7 +249,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31011": {
       "vnum": 31011,
@@ -236,7 +271,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31012": {
       "vnum": 31012,
@@ -258,7 +295,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31013": {
       "vnum": 31013,
@@ -281,7 +320,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31014": {
       "vnum": 31014,
@@ -304,7 +345,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31015": {
       "vnum": 31015,
@@ -326,7 +369,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31005,
+          "count": 5,
+          "room": 31015
+        }
+      ],
+      "object_resets": []
     },
     "31016": {
       "vnum": 31016,
@@ -349,7 +400,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31017": {
       "vnum": 31017,
@@ -369,7 +422,15 @@
         "desc_night": "Pale moonlight slants down, covering the golden sands of the desert\nin a soft, pearly radience. A tall tower rears up out of dunes of\nsand that have piled up high around the base. The stone seems to\nshimmer silver in the moonlight, as though made from metal instead\nof the rough stone. The broken, crumbling shell of a toppled minaret\nlies near to the tower, little more than a cracked shell. More\nruins lie to the east and west of the tower, while the seemingly\nendless Haranian desert extends out in all other directions."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31028,
+          "count": 1,
+          "room": 31017
+        }
+      ],
+      "object_resets": []
     },
     "31018": {
       "vnum": 31018,
@@ -390,7 +451,9 @@
         "desc_night": "The ruins that lie scattered around this section of the desert seem\nsurreal in the dim, silvery glow of the moonlight. A soft haze covers\neverything, like a fine mist, and the sand slivers across the stonework\nas though alive. A huge stone head lies half submerged in the sand\nnearby. A single eye stares up from the sand, ghost-like and eerie in\nthe pearly radience cast by the moon. More ruins lie to the west of here\nwhile the Great Desert extends out in all other directions."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31019": {
       "vnum": 31019,
@@ -408,7 +471,9 @@
         "desc_night": "The silvery moonlight slants down from the night sky, bathing the\nscattered ruins that lie in various states of decay across this small\nsection of desert. Rough stone blocks, half buried in the sand, glow\nwith the soft, pearly radience of the moon. It is obvious that the\nruins have been here for a great many years; the stone is rough and\ncrumbling, and the desert sands have consumed many of the structures,\nburying them beneath heaped dunes. More ruines lie to the east, while\nsome way to the west, beyond a long, thin line of jagged rocks is the\nocean, glowing like a vast carpet of liquid silver in the moonlight."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31020": {
       "vnum": 31020,
@@ -424,7 +489,9 @@
         "desc_night": "An ancient stone courtyard pokes up through the sand, the smooth,\nsand-polished stone glowing softly in the ghost-like pearly glow of\nthe moon. A large archway, made from the same type of stone as the\nrest of the ruins, arches across the courtyard. It is a strange sight\nagainst the backdrop of the desert, made even more surreal in the\nmoonlight, which makes even the most mundane of things seem unusual.\nMore of the ruins lie to the northeast and north of here, while some\ndistance to the west, the vast expanse of the ocean can be seen."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31021": {
       "vnum": 31021,
@@ -447,7 +514,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31022": {
       "vnum": 31022,
@@ -470,7 +539,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31023": {
       "vnum": 31023,
@@ -486,7 +557,15 @@
         "desc_night": "A large, bustling, apparently permanent campsite has been set up here\non the edge of a series of crumbling ruins. The moonlight surrounds the\ncamp in a soft haze, shining of the soft canvas of the brightly coloured\ntents. The glow of a large fire can be seen in the main part of the camp\nto the south. A long wall blocks entrance to the ruins to the north, but\nit looks possible to gain access to the complex by way of a partly buried\ncourtyard that lies to the west."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31000,
+          "count": 1,
+          "room": 31023
+        }
+      ],
+      "object_resets": []
     },
     "31024": {
       "vnum": 31024,
@@ -504,7 +583,21 @@
         "desc_night": "A number of torches stand outside the various camps, giving light\nto the camp during the dark hours. Even during the night, the camp\nis a hive of activity, and it seems as though the place is never silent.\nA large tent stands to the east. Moonlight shines on the smooth canvas,\ngiving it a beautiful silvery glow. A proud banner flutters from a pole\noutside the flap. The central portion of the camp is to the south, while\nthe main entrance is to the north."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31010,
+          "count": 3,
+          "room": 31024
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31000,
+          "count": 1,
+          "room": 31024
+        }
+      ]
     },
     "31025": {
       "vnum": 31025,
@@ -521,7 +614,15 @@
         "desc_night": "The slanted, silvery rays of moonlight cast a soft, pearly haze over\na nearby fenced enclosure containing a large herd of bleating goats.\nThe smell of animal droppings is excruciatingly strong, and seems to\nfill the air even when there is no breeze. The fence is made from the\npalm and date trees that dot certain parts of the desert, and in greater\nquantities the Shagrim Hills. A path has been cleared in the sand to\nthe east, leading between two tents into the heart of the Bendoumi\ncamp."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31004,
+          "count": 1,
+          "room": 31025
+        }
+      ],
+      "object_resets": []
     },
     "31026": {
       "vnum": 31026,
@@ -534,7 +635,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31021,
+          "count": 1,
+          "room": 31026
+        }
+      ],
+      "object_resets": []
     },
     "31027": {
       "vnum": 31027,
@@ -551,7 +660,21 @@
         "desc_night": "The moonlight slants down from the night sky, illuminating this central\npart of the Bendoumi camp with a soft, silver glow. A large, circular\nwell stands nearby, providing much needed water to the nomads, while\nall around are clustered various tents of bright colours. The entrance\nflaps to several of these tents can be reached to the north and south,\nwhile a small opening between two of them leads out of the camp to the\neast. A number of torches nearby provide much needed light to the camp."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31007,
+          "count": 1,
+          "room": 31027
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31001,
+          "count": 1,
+          "room": 31027
+        }
+      ]
     },
     "31028": {
       "vnum": 31028,
@@ -568,7 +691,9 @@
         "desc_night": "Moonlight slants down through the camp, highlighting two large tents\nthat stand to the east and west here. Banners outside the entrance\nflaps flutter proudly in the desert breeze. The central part of the\ncamp is to the north, where the circular stone outline of a well can\nbe seen, silhouetted in the silvery glow of the moon. Beyond the well,\nthe soft sound of bleating can be heard."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31029": {
       "vnum": 31029,
@@ -582,7 +707,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31003,
+          "count": 4,
+          "room": 31029
+        }
+      ],
+      "object_resets": []
     },
     "31030": {
       "vnum": 31030,
@@ -596,7 +729,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31031": {
       "vnum": 31031,
@@ -611,7 +746,15 @@
         "divan": "This is a comfortable looking couch, plumped high with cushions and\nembroidered with sequined buttons."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31002,
+          "count": 1,
+          "room": 31031
+        }
+      ],
+      "object_resets": []
     },
     "31032": {
       "vnum": 31032,
@@ -624,7 +767,21 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31001,
+          "count": 1,
+          "room": 31032
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31006,
+          "count": 1,
+          "room": 31032
+        }
+      ]
     },
     "31033": {
       "vnum": 31033,
@@ -644,7 +801,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31034": {
       "vnum": 31034,
@@ -665,7 +824,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31035": {
       "vnum": 31035,
@@ -685,7 +846,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31036": {
       "vnum": 31036,
@@ -705,7 +868,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31037": {
       "vnum": 31037,
@@ -727,7 +892,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31038": {
       "vnum": 31038,
@@ -745,7 +912,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31039": {
       "vnum": 31039,
@@ -765,7 +934,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31040": {
       "vnum": 31040,
@@ -786,7 +957,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31041": {
       "vnum": 31041,
@@ -808,7 +981,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31042": {
       "vnum": 31042,
@@ -830,7 +1005,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31043": {
       "vnum": 31043,
@@ -850,7 +1027,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31044": {
       "vnum": 31044,
@@ -872,7 +1051,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31045": {
       "vnum": 31045,
@@ -895,7 +1076,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31046": {
       "vnum": 31046,
@@ -915,7 +1098,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31047": {
       "vnum": 31047,
@@ -937,7 +1122,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31048": {
       "vnum": 31048,
@@ -959,7 +1146,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31049": {
       "vnum": 31049,
@@ -981,7 +1170,9 @@
         "desc_night": "Soft, tranquil moonlight bathes this small oasis in a silver glow,\nturning the peaceful waters into molten silver. It is quiet and serene\nhere and the only sound is the soft swish of the desert breeze through\nthe grass at the poolside, and the gentle tinkling of the waters against\nthe rock that overhangs the pool like a ledge. A single palm tree hangs\nover the water, swaying slightly in the breeze."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31050": {
       "vnum": 31050,
@@ -1001,7 +1192,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31051": {
       "vnum": 31051,
@@ -1020,7 +1213,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31052": {
       "vnum": 31052,
@@ -1040,7 +1235,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31053": {
       "vnum": 31053,
@@ -1062,7 +1259,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31006,
+          "count": 9,
+          "room": 31053
+        }
+      ],
+      "object_resets": []
     },
     "31054": {
       "vnum": 31054,
@@ -1084,7 +1289,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31055": {
       "vnum": 31055,
@@ -1105,7 +1312,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31056": {
       "vnum": 31056,
@@ -1121,7 +1330,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31057": {
       "vnum": 31057,
@@ -1141,7 +1352,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31058": {
       "vnum": 31058,
@@ -1164,7 +1377,9 @@
         "rock": "The surface of the rock is marked and pitted from the constantly blowing wind of the\ndesert. The indentions look like they may make good hand or footholds should someone\nwant to try to climb to the top of the rock."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31059": {
       "vnum": 31059,
@@ -1184,7 +1399,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31060": {
       "vnum": 31060,
@@ -1206,7 +1423,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31061": {
       "vnum": 31061,
@@ -1224,7 +1443,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31062": {
       "vnum": 31062,
@@ -1243,7 +1464,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31063": {
       "vnum": 31063,
@@ -1260,7 +1483,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31064": {
       "vnum": 31064,
@@ -1283,7 +1508,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31065": {
       "vnum": 31065,
@@ -1301,7 +1528,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31066": {
       "vnum": 31066,
@@ -1318,7 +1547,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31067": {
       "vnum": 31067,
@@ -1333,7 +1564,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31008,
+          "count": 6,
+          "room": 31067
+        }
+      ],
+      "object_resets": []
     },
     "31068": {
       "vnum": 31068,
@@ -1346,7 +1585,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31069": {
       "vnum": 31069,
@@ -1359,7 +1600,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31070": {
       "vnum": 31070,
@@ -1376,7 +1619,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31071": {
       "vnum": 31071,
@@ -1396,7 +1641,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31072": {
       "vnum": 31072,
@@ -1418,7 +1665,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31073": {
       "vnum": 31073,
@@ -1437,7 +1686,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31074": {
       "vnum": 31074,
@@ -1458,7 +1709,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31075": {
       "vnum": 31075,
@@ -1475,7 +1728,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31076": {
       "vnum": 31076,
@@ -1490,7 +1745,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31077": {
       "vnum": 31077,
@@ -1508,7 +1765,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31078": {
       "vnum": 31078,
@@ -1529,7 +1788,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31079": {
       "vnum": 31079,
@@ -1551,7 +1812,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31080": {
       "vnum": 31080,
@@ -1572,7 +1835,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31081": {
       "vnum": 31081,
@@ -1591,7 +1856,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31082": {
       "vnum": 31082,
@@ -1612,7 +1879,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31083": {
       "vnum": 31083,
@@ -1632,7 +1901,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31084": {
       "vnum": 31084,
@@ -1652,7 +1923,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31085": {
       "vnum": 31085,
@@ -1669,7 +1942,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31086": {
       "vnum": 31086,
@@ -1689,7 +1964,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31087": {
       "vnum": 31087,
@@ -1711,7 +1988,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31088": {
       "vnum": 31088,
@@ -1734,7 +2013,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31089": {
       "vnum": 31089,
@@ -1754,7 +2035,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31090": {
       "vnum": 31090,
@@ -1776,7 +2059,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31091": {
       "vnum": 31091,
@@ -1797,7 +2082,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31011,
+          "count": 6,
+          "room": 31091
+        }
+      ],
+      "object_resets": []
     },
     "31092": {
       "vnum": 31092,
@@ -1814,7 +2107,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31093": {
       "vnum": 31093,
@@ -1835,7 +2130,9 @@
         "tall": "Upon closer inspection of the rock columns, one of them appears\nto have a crack in its surface that could possibly be an\nentrance into the depths of the column."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31094": {
       "vnum": 31094,
@@ -1855,7 +2152,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31095": {
       "vnum": 31095,
@@ -1873,7 +2172,15 @@
         "desc_night": "Flickering torches cast dancing shadows across the dark backs of nearby\ntents that form a small camp to the east. The sand has been cleared away\nto form a crude path leading into the camp, and soft moonlight help\nilluminate the thick, heavy slabs that have been lain. A banner that has\nbeen atached to a pole and stuck in the ground flutters in the desert\nbreeze. It is not possible in the dark to see what, if anything, is\nprinted on the banner."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31015,
+          "count": 1,
+          "room": 31095
+        }
+      ],
+      "object_resets": []
     },
     "31096": {
       "vnum": 31096,
@@ -1890,7 +2197,9 @@
         "desc_night": "The dark shadow of a large yurt stands to the east. Moonlight slants\ndown between broken clouds, illuminating the semi-permanent structure\nagainst the dark backdrop of the desert. It is made from a wooden frame\nwith skins stretched over it and hardened. The main part of the Alari\ncamp is to the south, where a number of tents are clustered around a\ncentral gathering area. The desert is to the west."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31097": {
       "vnum": 31097,
@@ -1903,7 +2212,21 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31016,
+          "count": 1,
+          "room": 31097
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31030,
+          "count": 1,
+          "room": 31097
+        }
+      ]
     },
     "31098": {
       "vnum": 31098,
@@ -1921,7 +2244,26 @@
         "desc_night": "Moonlight breaks through the thin layer of clouds in the dark sky and\nsends shafts of silvery light down to illuminate this central portion\nof the Alari camps. Tents and the semi-permanent yurts stand in a loose\ncluster all around here. The biggest is to the south, and stands as a\ndark outline against the dark backdrop of the desert. Another tent flap\nis to the east. The camp extends further west, in the direction of an\noasis, while the entrance to the camp is to the north."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31019,
+          "count": 2,
+          "room": 31098
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31036,
+          "count": 1,
+          "room": 31098
+        },
+        {
+          "vnum": 31037,
+          "count": 1,
+          "room": 31098
+        }
+      ]
     },
     "31099": {
       "vnum": 31099,
@@ -1934,7 +2276,25 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31012,
+          "count": 1,
+          "room": 31099
+        },
+        {
+          "vnum": 31013,
+          "count": 1,
+          "room": 31099
+        },
+        {
+          "vnum": 31014,
+          "count": 1,
+          "room": 31099
+        }
+      ],
+      "object_resets": []
     },
     "31100": {
       "vnum": 31100,
@@ -1951,7 +2311,9 @@
         "desc_night": "Away from the main part of the camp, it is dark and there are only a\nfew shafts of eerie, silver moonlight to illuminate the area. A large\ntent stands to the south of here and dim yellow lanterns hang outside\nthe flap, casting dancing shadows across the canvas walls. There is an\noasis to the west and main part of the Alari camp is to the east."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31101": {
       "vnum": 31101,
@@ -1964,7 +2326,21 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31017,
+          "count": 1,
+          "room": 31101
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 31033,
+          "count": 1,
+          "room": 31101
+        }
+      ]
     },
     "31102": {
       "vnum": 31102,
@@ -1977,7 +2353,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31020,
+          "count": 1,
+          "room": 31102
+        }
+      ],
+      "object_resets": []
     },
     "31103": {
       "vnum": 31103,
@@ -1992,7 +2376,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31104": {
       "vnum": 31104,
@@ -2008,7 +2394,20 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 31018,
+          "count": 1,
+          "room": 31104
+        },
+        {
+          "vnum": 31038,
+          "count": 1,
+          "room": 31104
+        }
+      ]
     },
     "31105": {
       "vnum": 31105,
@@ -2028,7 +2427,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31106": {
       "vnum": 31106,
@@ -2050,7 +2451,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31107": {
       "vnum": 31107,
@@ -2070,7 +2473,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31108": {
       "vnum": 31108,
@@ -2093,7 +2498,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31109": {
       "vnum": 31109,
@@ -2115,7 +2522,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31110": {
       "vnum": 31110,
@@ -2132,7 +2541,9 @@
         "desc_night": "Starlight briefly illumintes the jagged, sharp rocks that run in a\ncrooked line north and south of here. Bits of broken wood lie\nscattered among the spikes of rock where ships have run aground on\nthe treacherous coast in the past. To the east, pale moonlight\nslants down, flshing on the sands that are golden brown during the\ndaylight hours, but shimmer like silver during the night. The walls\nof the city of Phatep stand just north of the desert sands, and they\nare lit with dim oil lamps that hang from the top of the battlements."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31111": {
       "vnum": 31111,
@@ -2151,7 +2562,9 @@
         "desc_night": "The soft pearly radience of the moonlight and the silvery glow of the\nstars above do little to alleviate the sharp angles and jagged look\nof this barrier of rocks that seperates the desert from the waters of\nthe ocean some way west. If anything, the shimmering glow of the moon\nadds a surreal, sinister aspect to the unturned spears of stone. Walking\nhere is difficult and hazardous, and the route south or north must be\npicked with care to avoid impalement."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31112": {
       "vnum": 31112,
@@ -2170,7 +2583,9 @@
         "desc_night": "The jagged rocks that form this long barrier between the ocean and the\nsands of the desert are known as the Djinn's Teeth, after the powerful\ndesert dwelling spirit, the Djinn. The moonlight gives the rocks a surreal,\nspectral quality, that make them appear unnatural. Just south of here is\na scattered ruin and the vast, seemingly endless sands of the Great Desert\nexpand east from here into the distance."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31113": {
       "vnum": 31113,
@@ -2187,7 +2602,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31114": {
       "vnum": 31114,
@@ -2209,7 +2626,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31115": {
       "vnum": 31115,
@@ -2232,7 +2651,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31116": {
       "vnum": 31116,
@@ -2252,7 +2673,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31117": {
       "vnum": 31117,
@@ -2274,7 +2697,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31018,
+          "count": 3,
+          "room": 31117
+        }
+      ],
+      "object_resets": []
     },
     "31118": {
       "vnum": 31118,
@@ -2295,7 +2726,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31119": {
       "vnum": 31119,
@@ -2317,7 +2750,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31120": {
       "vnum": 31120,
@@ -2340,7 +2775,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31121": {
       "vnum": 31121,
@@ -2360,7 +2797,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31122": {
       "vnum": 31122,
@@ -2382,7 +2821,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31123": {
       "vnum": 31123,
@@ -2399,7 +2840,9 @@
         "desc_night": "Moonlight illuminates a huge pile of sand that has been massed into\nan immense dune. The sand gleams like silver and shifts gently under\nthe weight of a huge, oval shaped wasp's nest that is perched on the\nsummit. Like everything else in the desert at night, the nest is little\nmore than a blob of darkness, surrounded by a pale, pearly glow from\nthe moon and starlight. A loud, constant buzz echoes from within the\nnest, and darker circles can just be seen where the wasps enter and\nexit. In most directions there is nothing but desert, but any travel\nto the west is blocked by a massive ridge of stone. The sound of waves\ncrashing against rock can be heard from beyond the barrier, indicating\nthat the ocean is hidden just out of view."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31124": {
       "vnum": 31124,
@@ -2419,7 +2862,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31125": {
       "vnum": 31125,
@@ -2439,7 +2884,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31126": {
       "vnum": 31126,
@@ -2461,7 +2908,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31127": {
       "vnum": 31127,
@@ -2483,7 +2932,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31128": {
       "vnum": 31128,
@@ -2501,7 +2952,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31129": {
       "vnum": 31129,
@@ -2515,7 +2968,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31130": {
       "vnum": 31130,
@@ -2529,7 +2984,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31131": {
       "vnum": 31131,
@@ -2543,7 +3000,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31132": {
       "vnum": 31132,
@@ -2562,7 +3021,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31133": {
       "vnum": 31133,
@@ -2584,7 +3045,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31134": {
       "vnum": 31134,
@@ -2604,7 +3067,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31135": {
       "vnum": 31135,
@@ -2626,7 +3091,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31136": {
       "vnum": 31136,
@@ -2646,7 +3113,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31137": {
       "vnum": 31137,
@@ -2665,7 +3134,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31138": {
       "vnum": 31138,
@@ -2688,7 +3159,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31139": {
       "vnum": 31139,
@@ -2708,7 +3181,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31140": {
       "vnum": 31140,
@@ -2730,7 +3205,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31141": {
       "vnum": 31141,
@@ -2749,7 +3226,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31142": {
       "vnum": 31142,
@@ -2768,7 +3247,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31022,
+          "count": 1,
+          "room": 31142
+        }
+      ],
+      "object_resets": []
     },
     "31143": {
       "vnum": 31143,
@@ -2787,7 +3274,20 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31023,
+          "count": 1,
+          "room": 31143
+        },
+        {
+          "vnum": 31024,
+          "count": 1,
+          "room": 31143
+        }
+      ],
+      "object_resets": []
     },
     "31144": {
       "vnum": 31144,
@@ -2806,7 +3306,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31025,
+          "count": 1,
+          "room": 31144
+        }
+      ],
+      "object_resets": []
     },
     "31145": {
       "vnum": 31145,
@@ -2819,7 +3327,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31026,
+          "count": 1,
+          "room": 31145
+        }
+      ],
+      "object_resets": []
     },
     "31146": {
       "vnum": 31146,
@@ -2842,7 +3358,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31147": {
       "vnum": 31147,
@@ -2863,7 +3381,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31148": {
       "vnum": 31148,
@@ -2882,7 +3402,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31149": {
       "vnum": 31149,
@@ -2898,7 +3420,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31030,
+          "count": 1,
+          "room": 31149
+        }
+      ],
+      "object_resets": []
     },
     "31150": {
       "vnum": 31150,
@@ -2920,7 +3450,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31151": {
       "vnum": 31151,
@@ -2940,7 +3472,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31152": {
       "vnum": 31152,
@@ -2963,7 +3497,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31153": {
       "vnum": 31153,
@@ -2985,7 +3521,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31154": {
       "vnum": 31154,
@@ -3005,7 +3543,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31155": {
       "vnum": 31155,
@@ -3024,7 +3564,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31156": {
       "vnum": 31156,
@@ -3043,7 +3585,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31157": {
       "vnum": 31157,
@@ -3066,7 +3610,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31158": {
       "vnum": 31158,
@@ -3089,7 +3635,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31159": {
       "vnum": 31159,
@@ -3111,7 +3659,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31160": {
       "vnum": 31160,
@@ -3133,7 +3683,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31161": {
       "vnum": 31161,
@@ -3154,7 +3706,15 @@
         "desc_night": "The pearl-like glow of moonbeams slant down from the dark sky casting\na glow over the mounds of unusual sand that are heaped up here. The\nsand seems to swallow the light, and glow with an eerie, fire-like\nquality that is unnerving and surreal. Nothing seems to grow in this\nsection of the desert and there is an ominous silence over everything.\nThe sands to the west of here seem closer to normal and are suffused\na silvery sparkle from the moon and stars."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31027,
+          "count": 2,
+          "room": 31161
+        }
+      ],
+      "object_resets": []
     },
     "31162": {
       "vnum": 31162,
@@ -3174,7 +3734,9 @@
         "desc_night": "Nothing grows in this desolate wasteland of coppery dunes. Walking on\nthe metallic sand is very difficult as anything with any weight seems\nto sink deep into the constanly shifting dunes. The moonlight makes\nthe landscape grow with a strange, firey red, as though it is alight.\nThe strange coppery landscape continues from here to the north, west\nand south."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31163": {
       "vnum": 31163,
@@ -3191,7 +3753,9 @@
         "desc_night": "A strange sound echoes from the metalic sands of these coppery dunes,\nmoving across the dark desert landscape like the mournful howl of the\ndead. The soft glow of the moon highlights the crimson quality of\nthe unusual sand and adds another layer to the eerie, surreal quality\nof the place. The sands expand to the south and west from here."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31164": {
       "vnum": 31164,
@@ -3213,7 +3777,9 @@
         "desc_night": "A low dip in the dunes here picks up the strange sound that is produced\nwhen the wind whistles across the sand and distorts it, making it sound\nfor all the world like the wail of a banshee, or some other lost soul in\npain and torment. It is an ominous, eerie sound, made all the more disturbing\nby the unusual surroundings that glow a deep crimson in the light of the\nmoon. The desert continues to the north, south, east and west, though\nthe coppery dunes go no further west."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31165": {
       "vnum": 31165,
@@ -3235,7 +3801,9 @@
         "desc_night": "The moonlight does strange things to the copper coloured sand that is\nheaped into large dunes in this section of the desert. It glows like\nfire, a surreal sight in the darkness, making it seem as though the\nhorizon is burning. The strange sands extend from here to the north,\neast, south and west."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31166": {
       "vnum": 31166,
@@ -3254,7 +3822,9 @@
         "desc_night": "Pale, shimmering pools of silvery moonlight flicker across the length\nof a tall metal pole that soars up into the air from the coppery sands\nto a height of several spans. It is an odd sight to see in the desert, but\nseems somehow at home among the unusal dunes. The pole is rusting and\nworn, but still strong and hardy. The strange dunes continue in all\ndirections from here."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31167": {
       "vnum": 31167,
@@ -3276,7 +3846,9 @@
         "desc_night": "This is the edge of a series of strange, copper coloured dunes that\nglow like fire in the pale light of the moon, making it seem as though\nthe horizon to the east and north is ablaze. The odd dunes have a\nmetallic quality that makes them crunch underfoot and emit a whistling\nring when the wind blows across them. Walking is very difficult as the\nsand constantly shifts and slides underfoot."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31168": {
       "vnum": 31168,
@@ -3298,7 +3870,9 @@
         "desc_night": "The dim glow of the stars and the soft, pale light of the moon cast\ndancing shadows across the sharp, jagged shards of copper coloured\nmetal that jut up from the dunes here. They glow like fire wherever the\nlight touches, and the wind whistling among them sets them vibrating\nwith a musical, metal ringing sound. The strange dunes extend from here\nin all directions."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31169": {
       "vnum": 31169,
@@ -3316,7 +3890,9 @@
         "desc_night": "There is little light to illuminate the eerie surroundings of the copper\ndunes, but what little moonlight slants dwon from above, casts its hand\nacross the desert, causing the strange sand to glow a fiery red, as though\nablaze. Nothing grows here, and there are no rocks or other landmarks to\nbreak the strange, monotonous surroundings."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31170": {
       "vnum": 31170,
@@ -3336,7 +3912,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31171": {
       "vnum": 31171,
@@ -3356,7 +3934,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31172": {
       "vnum": 31172,
@@ -3378,7 +3958,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31173": {
       "vnum": 31173,
@@ -3397,7 +3979,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31174": {
       "vnum": 31174,
@@ -3417,7 +4001,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31175": {
       "vnum": 31175,
@@ -3439,7 +4025,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31176": {
       "vnum": 31176,
@@ -3460,7 +4048,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31177": {
       "vnum": 31177,
@@ -3483,7 +4073,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31178": {
       "vnum": 31178,
@@ -3503,7 +4095,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31179": {
       "vnum": 31179,
@@ -3523,7 +4117,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31180": {
       "vnum": 31180,
@@ -3545,7 +4141,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31181": {
       "vnum": 31181,
@@ -3567,7 +4165,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31031,
+          "count": 6,
+          "room": 31181
+        }
+      ],
+      "object_resets": []
     },
     "31182": {
       "vnum": 31182,
@@ -3589,7 +4195,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31183": {
       "vnum": 31183,
@@ -3612,7 +4220,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31184": {
       "vnum": 31184,
@@ -3634,7 +4244,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31185": {
       "vnum": 31185,
@@ -3647,7 +4259,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31029,
+          "count": 1,
+          "room": 31185
+        }
+      ],
+      "object_resets": []
     },
     "31186": {
       "vnum": 31186,
@@ -3661,7 +4281,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31187": {
       "vnum": 31187,
@@ -3677,7 +4299,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31188": {
       "vnum": 31188,
@@ -3699,7 +4323,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31189": {
       "vnum": 31189,
@@ -3721,7 +4347,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31190": {
       "vnum": 31190,
@@ -3742,7 +4370,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31191": {
       "vnum": 31191,
@@ -3764,7 +4394,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31192": {
       "vnum": 31192,
@@ -3785,7 +4417,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31193": {
       "vnum": 31193,
@@ -3807,7 +4441,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31194": {
       "vnum": 31194,
@@ -3829,7 +4465,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31195": {
       "vnum": 31195,
@@ -3850,7 +4488,9 @@
         "desc_night": "Strange, copper coloured dunes rise and fall like waves in the sea to\nthe north and east of here, and merge with the more normal looking,\ngolden coloured sands of the Great Desert that stretch away to the west.\nSoft moonlight lies like a blanket over everything, and though they\ngive some small illumination over the sands to the west, they cause\nthe coppery dunes to glow with a strong, firey red."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31196": {
       "vnum": 31196,
@@ -3870,7 +4510,9 @@
         "desc_night": "Three black, metal pyramids, each some two spans high, rise up from the\ncurious coppery sands of the desert. They look like ancient black\nmonoliths, though they show no signs of wear or rust, despite being\nbuilt in the middle of a harsh desert environment. Each pyramid is\ntopped with a tiny cone of quartz. Each cone seems to absorb the light\nand refract it up into the night sky, but the central one sends a single,\nstrong beam of light down so that is strikes the sand directly infront\nof it."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31197": {
       "vnum": 31197,
@@ -3886,7 +4528,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31198": {
       "vnum": 31198,
@@ -3905,7 +4549,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31199": {
       "vnum": 31199,
@@ -3924,7 +4570,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31200": {
       "vnum": 31200,
@@ -3941,7 +4589,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31201": {
       "vnum": 31201,
@@ -3962,7 +4612,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31202": {
       "vnum": 31202,
@@ -3980,7 +4632,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31203": {
       "vnum": 31203,
@@ -4002,7 +4656,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31204": {
       "vnum": 31204,
@@ -4020,7 +4676,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31205": {
       "vnum": 31205,
@@ -4066,7 +4724,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31206": {
       "vnum": 31206,
@@ -4089,7 +4749,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31207": {
       "vnum": 31207,
@@ -4106,7 +4768,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31208": {
       "vnum": 31208,
@@ -4125,7 +4789,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31209": {
       "vnum": 31209,
@@ -4146,7 +4812,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31210": {
       "vnum": 31210,
@@ -4166,7 +4834,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31211": {
       "vnum": 31211,
@@ -4185,7 +4855,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31212": {
       "vnum": 31212,
@@ -4202,7 +4874,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31213": {
       "vnum": 31213,
@@ -4216,7 +4890,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31214": {
       "vnum": 31214,
@@ -4230,7 +4906,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31215": {
       "vnum": 31215,
@@ -4244,7 +4922,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31216": {
       "vnum": 31216,
@@ -4258,7 +4938,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31217": {
       "vnum": 31217,
@@ -4272,7 +4954,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31218": {
       "vnum": 31218,
@@ -4285,7 +4969,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31219": {
       "vnum": 31219,
@@ -4302,7 +4988,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31220": {
       "vnum": 31220,
@@ -4315,7 +5003,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 31033,
+          "count": 1,
+          "room": 31220
+        }
+      ],
+      "object_resets": []
     },
     "31221": {
       "vnum": 31221,
@@ -4328,7 +5024,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31222": {
       "vnum": 31222,
@@ -4341,7 +5039,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31223": {
       "vnum": 31223,
@@ -4354,7 +5054,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31224": {
       "vnum": 31224,
@@ -4401,7 +5103,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31225": {
       "vnum": 31225,
@@ -4449,7 +5153,1973 @@
         "etching": "A crude drawing has been etched into the rock. It looks to be of a tall\nobelisk standing atop a hill."
       },
       "area_name": "Incomplete Desert",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "31000": {
+      "vnum": 31000,
+      "keywords": [
+        "bendoumi",
+        "nomad",
+        "guardsman"
+      ],
+      "short": "a Bendoumi nomad guardsman",
+      "long": "A Bendoumi nomad guardsman scans the desert for any sign of danger.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31001": {
+      "vnum": 31001,
+      "keywords": [
+        "The",
+        "Bendoumi",
+        "Wazir"
+      ],
+      "short": "the Bendoumi Wazir",
+      "long": "The Bendoumi Wazir stands near the brazier, pondering.",
+      "race": "dollfolk",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31002": {
+      "vnum": 31002,
+      "keywords": [
+        "bendoumi",
+        "sheikh",
+        "wazim-alik-cabar"
+      ],
+      "short": "the Sheikh Whazim-alik-cabar",
+      "long": "The Bendoumi Sheikh Whazim-alik-cabar lounges against a pile of cushions.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31003": {
+      "vnum": 31003,
+      "keywords": [
+        "bleating",
+        "goat"
+      ],
+      "short": "a goat",
+      "long": "A goat stands here, bleating softly in between munching on clumps of grass.",
+      "race": "zombie",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31004": {
+      "vnum": 31004,
+      "keywords": [
+        "goat",
+        "herder"
+      ],
+      "short": "a goat herder",
+      "long": "A goat herder leans on the fence as he watches over the goats.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31005": {
+      "vnum": 31005,
+      "keywords": [
+        "large",
+        "desert",
+        "scorpion"
+      ],
+      "short": "a large desert scorpion",
+      "long": "A large desert scorpion shuffles across the sand, hunting for prey.",
+      "race": "spirit",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31006": {
+      "vnum": 31006,
+      "keywords": [
+        "small",
+        "sand",
+        "coloured",
+        "lizard"
+      ],
+      "short": "a small lizard",
+      "long": "A small, sand coloured lizard tries to blend in with the desert.",
+      "race": "feline",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31007": {
+      "vnum": 31007,
+      "keywords": [
+        "old",
+        "bendoumi",
+        "woman"
+      ],
+      "short": "an old Bendoumi woman",
+      "long": "An old Bendoumi woman stands at the well, laboriously drawing water.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31008": {
+      "vnum": 31008,
+      "keywords": [
+        "small",
+        "sand",
+        "king",
+        "spider"
+      ],
+      "short": "a Sand King spider",
+      "long": "A small Sand King spider scuttles across the desert.",
+      "race": "shrew",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31009": {
+      "vnum": 31009,
+      "keywords": [
+        "sand",
+        "snake"
+      ],
+      "short": "a sand snake",
+      "long": "A sand coloured snake slithers across the desert, looking for food.",
+      "race": "shapeshifter",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31010": {
+      "vnum": 31010,
+      "keywords": [
+        "bendoumi",
+        "warrior"
+      ],
+      "short": "a Bendoumi warrior",
+      "long": "A Bendoumi warrior stands here, looking alert for signs of danger.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31011": {
+      "vnum": 31011,
+      "keywords": [
+        "giant",
+        "desert",
+        "wasp"
+      ],
+      "short": "a giant desert wasp",
+      "long": "A giant desert wasp hovers above the ground.",
+      "race": "ant",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31012": {
+      "vnum": 31012,
+      "keywords": [
+        "huge",
+        "bald",
+        "headed",
+        "eunuch"
+      ],
+      "short": "a huge bald eunuch",
+      "long": "A huge eunuch with a bald head stands here, protecting the Harem girls from danger.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31013": {
+      "vnum": 31013,
+      "keywords": [
+        "harem",
+        "girl"
+      ],
+      "short": "a harem girl",
+      "long": "A harem girl reclines back on a divan, batting her eyelashes seductively.",
+      "race": "dollfolk",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31014": {
+      "vnum": 31014,
+      "keywords": [
+        "sheikh's",
+        "head",
+        "wife"
+      ],
+      "short": "the Sheikh's head wife",
+      "long": "The Sheikh's head wife stands here, looking stonily at the harem girls.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31015": {
+      "vnum": 31015,
+      "keywords": [
+        "giant",
+        "efreet",
+        "Kharag"
+      ],
+      "short": "Kharag",
+      "long": "The giant Efreet, Kharag, stands here guarding the camp against attack.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        14,
+        11,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31016": {
+      "vnum": 31016,
+      "keywords": [
+        "seeker"
+      ],
+      "short": "the seeker",
+      "long": "The seeker hovers above the ground in a meditative state, musing on the nature of life.",
+      "race": "dollfolk",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31017": {
+      "vnum": 31017,
+      "keywords": [
+        "sheikh",
+        "rashid",
+        "el",
+        "alari"
+      ],
+      "short": "the Sheikh Rashid-el-Alari",
+      "long": "The Sheikh of the Alari stands here, looking arrogant and haughty",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31018": {
+      "vnum": 31018,
+      "keywords": [
+        "carrion",
+        "bird"
+      ],
+      "short": "a carrion bird",
+      "long": "A carrion bird hops through the sands, hunting for rotting meat.",
+      "race": "canine",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31019": {
+      "vnum": 31019,
+      "keywords": [
+        "Alari",
+        "huntsman",
+        "nomad"
+      ],
+      "short": "an Alari huntsman",
+      "long": "An Alari huntsman stands idly by, waiting for something to shoot at.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31020": {
+      "vnum": 31020,
+      "keywords": [
+        "councillor",
+        "Asaf"
+      ],
+      "short": "Councillor Asaf",
+      "long": "Councillor Asaf frowns as he thinks through a puzzling problem.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31021": {
+      "vnum": 31021,
+      "keywords": [
+        "calif",
+        "bendoumi",
+        "nomad"
+      ],
+      "short": "the Calif of the Bendoumi",
+      "long": "The Calif of the Bendoumi stands here, bedecked in finery.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31022": {
+      "vnum": 31022,
+      "keywords": [
+        "unhappy",
+        "angry",
+        "merchant"
+      ],
+      "short": "an unhappy merchant",
+      "long": "A merchant stands nearby looking angry and unhappy.",
+      "race": "fairy",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31023": {
+      "vnum": 31023,
+      "keywords": [
+        "pack",
+        "camel"
+      ],
+      "short": "a pack camel",
+      "long": "A pack camel stands here, stubbornly refusing to move.",
+      "race": "zombie",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31024": {
+      "vnum": 31024,
+      "keywords": [
+        "camel",
+        "driver"
+      ],
+      "short": "a camel driver",
+      "long": "A camel driver stands here, red-faced with anger.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31025": {
+      "vnum": 31025,
+      "keywords": [
+        "baggage",
+        "porter"
+      ],
+      "short": "a baggage porter",
+      "long": "A baggage porter stands here, studiously guarding the inventory.",
+      "race": "dollfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31026": {
+      "vnum": 31026,
+      "keywords": [
+        "head",
+        "merchant"
+      ],
+      "short": "the Head Merchant",
+      "long": "The Head Merchant stands here, worrying about his profits.",
+      "race": "fairy",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31027": {
+      "vnum": 31027,
+      "keywords": [
+        "rusting",
+        "metal",
+        "behemoth"
+      ],
+      "short": "a rusting metal behemoth",
+      "long": "A rusting metal behemoth clunks along mechanically, accompanied by a whirring of gears.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31028": {
+      "vnum": 31028,
+      "keywords": [
+        "young",
+        "scholar",
+        "excavator"
+      ],
+      "short": "a young scholar",
+      "long": "A young scholar stands here sketching the ruins.",
+      "race": "human",
+      "class": "scholar",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31029": {
+      "vnum": 31029,
+      "keywords": [
+        "queen",
+        "wasp"
+      ],
+      "short": "the wasp queen",
+      "long": "A huge wasp queen hovers in the air, buzzing loudly.",
+      "race": "ant",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31030": {
+      "vnum": 31030,
+      "keywords": [
+        "giant",
+        "scorpion"
+      ],
+      "short": "a giant scorpion",
+      "long": "A giant scorpion stands guard over the nest.",
+      "race": "spirit",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31031": {
+      "vnum": 31031,
+      "keywords": [
+        "small",
+        "brown",
+        "bug"
+      ],
+      "short": "a small brown bug",
+      "long": "A small brown desert bug scuttles across the sand.",
+      "race": "ape",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31032": {
+      "vnum": 31032,
+      "keywords": [
+        "giant",
+        "sand",
+        "serpent"
+      ],
+      "short": "a giant sand serpent",
+      "long": "A giant sand serpent writhes here, its head several spans above the sandy desert floor.",
+      "race": "thoul",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31033": {
+      "vnum": 31033,
+      "keywords": [
+        "gleaming",
+        "bronze",
+        "scorpion"
+      ],
+      "short": "a gleaming metal scorpion",
+      "long": "A gleaming scorpion made from bronze and gold stands here, mechanically chomping its claws.",
+      "race": "spirit",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "31034": {
+      "vnum": 31034,
+      "keywords": [
+        "unusual",
+        "desert",
+        "rodent"
+      ],
+      "short": "an unusual desert rodent",
+      "long": "An unusual desert rodent digs at the sand here, looking for roots.",
+      "race": "mold",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "31000": {
+      "vnum": 31000,
+      "keywords": [
+        "large",
+        "campfire"
+      ],
+      "type": "fire",
+      "short": "a large campfire",
+      "long": "A campfire burns brightly, sending flickering shadows across the nearby tents.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31001": {
+      "vnum": 31001,
+      "keywords": [
+        "large",
+        "stone",
+        "well"
+      ],
+      "type": "fountain",
+      "short": "a large stone well",
+      "long": "A large stone well stands in the centre of the camp.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31002": {
+      "vnum": 31002,
+      "keywords": [
+        "black",
+        "bendoumi",
+        "hood"
+      ],
+      "type": "armor",
+      "short": "a black Bendoumi hood",
+      "long": "A black Bendoumi hood lies in a small heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31003": {
+      "vnum": 31003,
+      "keywords": [
+        "black",
+        "silk",
+        "caftan"
+      ],
+      "type": "armor",
+      "short": "a black silk caftan",
+      "long": "A black silk caftan lies on the ground, abandoned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31004": {
+      "vnum": 31004,
+      "keywords": [
+        "hardwood",
+        "battle",
+        "pike"
+      ],
+      "type": "weapon",
+      "short": "a hardwood battle pike",
+      "long": "A hardwood battle pike has been left behind on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31005": {
+      "vnum": 31005,
+      "keywords": [
+        "loose",
+        "black",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "a pair of loose black leggings",
+      "long": "A pair of loose black leggings lie in an untidy heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31006": {
+      "vnum": 31006,
+      "keywords": [
+        "gently",
+        "smoking",
+        "cooking",
+        "brazier"
+      ],
+      "type": "fire",
+      "short": "a cooking brazier",
+      "long": "A cooking brazier sends small puffs of smoke up towards the roof.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31007": {
+      "vnum": 31007,
+      "keywords": [
+        "black",
+        "wazir's",
+        "sash"
+      ],
+      "type": "armor",
+      "short": "a black Wazir's sash",
+      "long": "A black Wazir's sash rests nearby, in a small pile.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31008": {
+      "vnum": 31008,
+      "keywords": [
+        "conical",
+        "wazir's",
+        "cap"
+      ],
+      "type": "armor",
+      "short": "a conical Wazir's cap",
+      "long": "A conical Wazir's cap has been dropped nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31009": {
+      "vnum": 31009,
+      "keywords": [
+        "exquisite",
+        "night",
+        "blue",
+        "caftan"
+      ],
+      "type": "armor",
+      "short": "an exquisite night blue caftan",
+      "long": "An exquisite, night blue caftan resets on the ground, awaiting an owner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31010": {
+      "vnum": 31010,
+      "keywords": [
+        "sheikh's",
+        "jade",
+        "pendant"
+      ],
+      "type": "armor",
+      "short": "the Sheikh's jade pendant",
+      "long": "The Sheikh's jade pendant has been foolishly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31011": {
+      "vnum": 31011,
+      "keywords": [
+        "crimson",
+        "pantalons"
+      ],
+      "type": "armor",
+      "short": "a pair of exquisite crimson pantalons",
+      "long": "A pair of exquisite crimson pantalons lies folded on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31012": {
+      "vnum": 31012,
+      "keywords": [
+        "soft",
+        "goat",
+        "skin",
+        "sandals"
+      ],
+      "type": "armor",
+      "short": "a pair of goat skin sandals",
+      "long": "A pair of soft, goat skin sandals have been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31013": {
+      "vnum": 31013,
+      "keywords": [
+        "gold",
+        "embroidered",
+        "bisht"
+      ],
+      "type": "armor",
+      "short": "a gold embroidered bisht",
+      "long": "A gold embroidered bisht lies is a pile on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31014": {
+      "vnum": 31014,
+      "keywords": [
+        "massive",
+        "Haranian",
+        "scimitar"
+      ],
+      "type": "weapon",
+      "short": "a massive Haranian scimitar",
+      "long": "A massive Haranian scimitar lies on the ground, slowly rusting.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31015": {
+      "vnum": 31015,
+      "keywords": [
+        "drab",
+        "brown",
+        "goat",
+        "herder's",
+        "bisht"
+      ],
+      "type": "armor",
+      "short": "a drab brown bisht",
+      "long": "A dull brown bisht lies in a crumpled heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31016": {
+      "vnum": 31016,
+      "keywords": [
+        "goat",
+        "herder's",
+        "wooden",
+        "staff"
+      ],
+      "type": "weapon",
+      "short": "a goat herder's staff",
+      "long": "A simple wooden goat herder's staff lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31017": {
+      "vnum": 31017,
+      "keywords": [
+        "dull",
+        "red",
+        "desert",
+        "shawl"
+      ],
+      "type": "armor",
+      "short": "a dull red desert shawl",
+      "long": "A dull red desert shawl lies crumpled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31018": {
+      "vnum": 31018,
+      "keywords": [
+        "natural",
+        "spring"
+      ],
+      "type": "fountain",
+      "short": "a natural spring",
+      "long": "A natural spring gushes up from the pool in the middle of the oasis.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31019": {
+      "vnum": 31019,
+      "keywords": [
+        "dark",
+        "red",
+        "caftan"
+      ],
+      "type": "armor",
+      "short": "a dark red caftan",
+      "long": "A dark red caftan lies in a small heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31020": {
+      "vnum": 31020,
+      "keywords": [
+        "soft",
+        "cotton",
+        "foot",
+        "bindings"
+      ],
+      "type": "armor",
+      "short": "a pair of soft cotton foot bindings",
+      "long": "A pair of soft cotton foot bindings lies in a tangled heap nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31021": {
+      "vnum": 31021,
+      "keywords": [
+        "dark",
+        "red",
+        "warrior's",
+        "veil"
+      ],
+      "type": "armor",
+      "short": "a dark red warrior's veil",
+      "long": "There is a dark red veil lying on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31022": {
+      "vnum": 31022,
+      "keywords": [
+        "bendoumi",
+        "spear"
+      ],
+      "type": "weapon",
+      "short": "a Bendoumi spear",
+      "long": "A Bendoumi spear lies on the ground, apparently forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31023": {
+      "vnum": 31023,
+      "keywords": [
+        "soft",
+        "satin",
+        "dress"
+      ],
+      "type": "armor",
+      "short": "a soft satin dress",
+      "long": "A soft satin dress lies in a crumpled heap here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31024": {
+      "vnum": 31024,
+      "keywords": [
+        "elegant",
+        "silk",
+        "dress"
+      ],
+      "type": "armor",
+      "short": "an elegant silk dress",
+      "long": "There is an elegant silk dress lying in an untidy heap nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31025": {
+      "vnum": 31025,
+      "keywords": [
+        "curled",
+        "silk",
+        "slippers"
+      ],
+      "type": "armor",
+      "short": "a pair of silk slippers",
+      "long": "A pair of slippers made from silk, lie close by.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31026": {
+      "vnum": 31026,
+      "keywords": [
+        "alari",
+        "hardwood",
+        "battle",
+        "hammer"
+      ],
+      "type": "weapon",
+      "short": "an Alari battle hammer",
+      "long": "A hardwood Alari battle hammer has been unwisely dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31027": {
+      "vnum": 31027,
+      "keywords": [
+        "huge",
+        "flaming",
+        "scimitar"
+      ],
+      "type": "weapon",
+      "short": "a huge flaming scimitar",
+      "long": "A huge, flaming scimitar lies on the ground, fire lapping at the blade.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31028": {
+      "vnum": 31028,
+      "keywords": [
+        "bright",
+        "red",
+        "sleeveless",
+        "tunic"
+      ],
+      "type": "armor",
+      "short": "a bright red sleeveless tunic",
+      "long": "A bright red sleeveless tunic lies nearby, unclaimed.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31029": {
+      "vnum": 31029,
+      "keywords": [
+        "shroud",
+        "seeker",
+        "bundle",
+        "cloth"
+      ],
+      "type": "armor",
+      "short": "the shroud of the seeker",
+      "long": "A bundle of white cloth lies in a heap nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31030": {
+      "vnum": 31030,
+      "keywords": [
+        "small",
+        "coal",
+        "fire"
+      ],
+      "type": "fire",
+      "short": "a small coal fire",
+      "long": "A small coal fire burns in the centre of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31031": {
+      "vnum": 31031,
+      "keywords": [
+        "supple",
+        "night",
+        "blue",
+        "slippers"
+      ],
+      "type": "armor",
+      "short": "a pair of night blue slippers",
+      "long": "A pair of supple, night blue slippers lie nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31032": {
+      "vnum": 31032,
+      "keywords": [
+        "satin",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "some satin robes",
+      "long": "A pile of satin lies nearby, awaiting an owner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31033": {
+      "vnum": 31033,
+      "keywords": [
+        "ornate",
+        "wooden",
+        "dresser"
+      ],
+      "type": "trash",
+      "short": "an ornate wooden dresser",
+      "long": "An ornate wooden dresser is pushed up against a wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31034": {
+      "vnum": 31034,
+      "keywords": [
+        "sandstone",
+        "talisman",
+        "alari"
+      ],
+      "type": "armor",
+      "short": "the talisman of the alari",
+      "long": "A talisman made from sandstone lies on the ground nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31035": {
+      "vnum": 31035,
+      "keywords": [
+        "small",
+        "metal",
+        "key"
+      ],
+      "type": "key",
+      "short": "a small metal key",
+      "long": "A small metal key lies close by, slowly rusting.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31036": {
+      "vnum": 31036,
+      "keywords": [
+        "roasting",
+        "pit"
+      ],
+      "type": "fire",
+      "short": "a roasting pit",
+      "long": "A roasting pit has been hollowed out of the ground here and the coals burn brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31037": {
+      "vnum": 31037,
+      "keywords": [
+        "barrel",
+        "barrels"
+      ],
+      "type": "furniture",
+      "short": "a barrel",
+      "long": "Some barrels have been left here as seats.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31038": {
+      "vnum": 31038,
+      "keywords": [
+        "small",
+        "juicy",
+        "date"
+      ],
+      "type": "plant",
+      "short": "a small, juicy date",
+      "long": "A small but juicy date lies on the ground nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31039": {
+      "vnum": 31039,
+      "keywords": [
+        "nomad",
+        "alari",
+        "bow"
+      ],
+      "type": "weapon",
+      "short": "an Alari nomad bow",
+      "long": "An Alari nomad bow lies close by.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31040": {
+      "vnum": 31040,
+      "keywords": [
+        "alari",
+        "short",
+        "arrow"
+      ],
+      "type": "projectile",
+      "short": "an Alari short arrow",
+      "long": "An Alari arrow made for a short bow lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31041": {
+      "vnum": 31041,
+      "keywords": [
+        "councillor's",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "some Councillor's robes",
+      "long": "Some thick robes have been dropped here and left in an untidy heap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31042": {
+      "vnum": 31042,
+      "keywords": [
+        "crimson",
+        "calif's",
+        "sash"
+      ],
+      "type": "armor",
+      "short": "a crimson sash",
+      "long": "A crimson sash lies curled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31043": {
+      "vnum": 31043,
+      "keywords": [
+        "short",
+        "baggy",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "a pair of short, baggy leggings",
+      "long": "A pair of short, baggy leggings have been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31044": {
+      "vnum": 31044,
+      "keywords": [
+        "long",
+        "sleeveless",
+        "red",
+        "desert",
+        "coat"
+      ],
+      "type": "armor",
+      "short": "a sleeveless red desert coat",
+      "long": "A long coat without any sleeves lies where it was dropped nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31045": {
+      "vnum": 31045,
+      "keywords": [
+        "jade",
+        "necklace"
+      ],
+      "type": "armor",
+      "short": "a jade necklace",
+      "long": "A jade necklace lies curled on the ground as though abandoned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31046": {
+      "vnum": 31046,
+      "keywords": [
+        "sweat",
+        "stained",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a sweat stained shirt",
+      "long": "A sweat stained shirt lies nearby, emitting a strong smell.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31047": {
+      "vnum": 31047,
+      "keywords": [
+        "pair",
+        "dirty",
+        "trousers"
+      ],
+      "type": "armor",
+      "short": "a pair of dirty trousers",
+      "long": "A pair of dirty trousers lie on the ground in a heap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31048": {
+      "vnum": 31048,
+      "keywords": [
+        "camel",
+        "driver's",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a camel driver's whip",
+      "long": "A camel driver's whip lies curled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31049": {
+      "vnum": 31049,
+      "keywords": [
+        "brown",
+        "cloth",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a brown cloth shirt",
+      "long": "A brown cloth shirt lies nearby, obviously abandoned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31050": {
+      "vnum": 31050,
+      "keywords": [
+        "rusting",
+        "bronze",
+        "rod"
+      ],
+      "type": "wand",
+      "short": "a rusting bronze rod",
+      "long": "A rusting bronze rod lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31051": {
+      "vnum": 31051,
+      "keywords": [
+        "wasp",
+        "sting"
+      ],
+      "type": "weapon",
+      "short": "a wasp sting",
+      "long": "A long wasp sting lies on the ground, glistening darkly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31052": {
+      "vnum": 31052,
+      "keywords": [
+        "notebook",
+        "ruins",
+        "notes"
+      ],
+      "type": "incense",
+      "short": "a notebook",
+      "long": "A notebook detailing desert ruins lies on the ground nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31053": {
+      "vnum": 31053,
+      "keywords": [
+        "Alari",
+        "head"
+      ],
+      "type": "_worn",
+      "short": "an alari head made from wax",
+      "long": "An Alari head made from wax lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31054": {
+      "vnum": 31054,
+      "keywords": [
+        "scrap",
+        "parchment"
+      ],
+      "type": "treasure",
+      "short": "a scrap of parchment",
+      "long": "A scrap of parchment grows yellow with age.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31055": {
+      "vnum": 31055,
+      "keywords": [
+        "golden",
+        "scorpion",
+        "claw"
+      ],
+      "type": "weapon",
+      "short": "a golden scorpion claw",
+      "long": "A golden scorpion claw lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31056": {
+      "vnum": 31056,
+      "keywords": [
+        "strange",
+        "book"
+      ],
+      "type": "incense",
+      "short": "a strange book",
+      "long": "A strange book lies here, open at the first page. It is splattered with blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31057": {
+      "vnum": 31057,
+      "keywords": [
+        "wyvern",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a wyvern skin",
+      "long": "A skin from a wyvern is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31058": {
+      "vnum": 31058,
+      "keywords": [
+        "snake",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a snake skin",
+      "long": "A skin from a snake is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31059": {
+      "vnum": 31059,
+      "keywords": [
+        "kendig",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a kendig skin",
+      "long": "A skin from a kendig is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31060": {
+      "vnum": 31060,
+      "keywords": [
+        "crocodile",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a crocodile skin",
+      "long": "A skin from a crocodile is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31061": {
+      "vnum": 31061,
+      "keywords": [
+        "unicorn",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a unicorn skin",
+      "long": "A skin from a unicorn is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31062": {
+      "vnum": 31062,
+      "keywords": [
+        "hell",
+        "hound",
+        "skin"
+      ],
+      "type": "blood",
+      "short": "a hell hound skin",
+      "long": "A skin from a hell hound is piled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31063": {
+      "vnum": 31063,
+      "keywords": [
+        "satin",
+        "handkerchief"
+      ],
+      "type": "armor",
+      "short": "a satin handkerchief",
+      "long": "A satin handkerchief with the letter 'A' on it lies nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

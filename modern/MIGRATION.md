@@ -50,8 +50,11 @@
 
 ### Phase 4: Advanced Persistence (Pending)
 - [ ] Reset logic (from [legacy/src/reset.c](../legacy/src/reset.c))
+	- [x] Initial spawn from resets (no respawn yet)
+- [ ] Reset scheduler (per-area timers with a default interval)
+  - [x] Per-area reset_minutes field in area JSON
 - [ ] Object/item persistence
-- [ ] Mob spawn/respawn
+- [ ] Mob respawn (timed resets)
 
 ## Milestone 4: Combat + Skills (Not Started)
 
@@ -67,10 +70,16 @@
 
 ## Data Format Conversions ✅
 
-- [x] Area files: [legacy/area/*.are](../legacy/area) → [areas/*.json](../areas) (35 files, 2178+ rooms)
+- [x] Area files: [legacy/area/*.are](../legacy/area) → [areas/*.json](../areas) (35 files, 2178+ rooms, mobiles, objects)
 - [x] Race definitions: [legacy/races/*.race](../legacy/races) → [races/*.json](../races) (26 races)
 - [x] Class definitions: [legacy/classes/*.class](../legacy/classes) → [classes/*.json](../classes) (14 classes)
 - [ ] Player files: [legacy/player/](../legacy/player) (classic pfile format) → modern JSON
 - [ ] Boards: [legacy/boards/](../legacy/boards) (board text files) → structured format
-- [ ] Object definitions: [legacy/src/obj/](legacy/src/obj) (if present)
-- [ ] Mobile definitions: [legacy/src/mob/](legacy/src/mob) (if present)
+- [ ] Object definitions: [legacy/src/obj/](../legacy/src/obj) (if present)
+- [ ] Mobile definitions: [legacy/src/mob/](../legacy/src/mob) (if present)
+
+## Runtime Config
+
+- [x] Config file for startup settings (config.json)
+	- [x] Start room override (start_room_vnum)
+	- [x] Default respawn interval (respawn_default_minutes)

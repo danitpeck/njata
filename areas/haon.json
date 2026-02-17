@@ -1,6 +1,7 @@
 {
   "name": "Haon Dor",
   "author": "Diku",
+  "reset_minutes": 15,
   "rooms": {
     "6000": {
       "vnum": 6000,
@@ -20,7 +21,9 @@
         "trees": "The trees are quite tall considering most of them appear to be quite young.\nOn one of the trees, crude letters forming the word \"Haon-Dor\" have been\ncarved into the bark."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6001": {
       "vnum": 6001,
@@ -41,7 +44,9 @@
         "trees": "The trees here are quite young and fresh.  They seem to accommodate many kinds\nof birds, insects and other small animals."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6002": {
       "vnum": 6002,
@@ -62,7 +67,9 @@
         "trees": "The young, slender trees look beautiful, their fresh, green leaves moving\nlightly in the wind."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6003": {
       "vnum": 6003,
@@ -80,7 +87,9 @@
         "trees": "The dense crowns of the mature trees leave only a fraction of the sky to be\nseen through the leaves."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6004": {
       "vnum": 6004,
@@ -101,7 +110,9 @@
         "trees": "The crowns of the old trees almost cut out all light."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6005": {
       "vnum": 6005,
@@ -120,7 +131,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6006": {
       "vnum": 6006,
@@ -139,7 +152,15 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6011,
+          "count": 3,
+          "room": 6006
+        }
+      ]
     },
     "6007": {
       "vnum": 6007,
@@ -159,7 +180,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6008": {
       "vnum": 6008,
@@ -185,7 +208,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6009": {
       "vnum": 6009,
@@ -207,7 +232,15 @@
         "trees": "The trees are fairly young, not much more than a hundred years or so."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6000,
+          "count": 1,
+          "room": 6009
+        }
+      ],
+      "object_resets": []
     },
     "6010": {
       "vnum": 6010,
@@ -226,7 +259,25 @@
         "table": "A heavy table that doesn't even appear to rock."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6003,
+          "count": 1,
+          "room": 6010
+        },
+        {
+          "vnum": 6005,
+          "count": 1,
+          "room": 6010
+        },
+        {
+          "vnum": 6013,
+          "count": 3,
+          "room": 6010
+        }
+      ]
     },
     "6011": {
       "vnum": 6011,
@@ -245,7 +296,9 @@
         "trees": "The trees are fairly young, not much more than a hundred years or so."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6012": {
       "vnum": 6012,
@@ -265,7 +318,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6013": {
       "vnum": 6013,
@@ -284,7 +339,15 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6011,
+          "count": 3,
+          "room": 6013
+        }
+      ]
     },
     "6014": {
       "vnum": 6014,
@@ -304,7 +367,15 @@
         "trees": "The crowns of the old trees leave the forest in an unreal twilight\nillumination."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6005,
+          "count": 2,
+          "room": 6014
+        }
+      ],
+      "object_resets": []
     },
     "6015": {
       "vnum": 6015,
@@ -323,7 +394,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6016": {
       "vnum": 6016,
@@ -342,7 +415,15 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6011,
+          "count": 3,
+          "room": 6016
+        }
+      ]
     },
     "6017": {
       "vnum": 6017,
@@ -361,7 +442,9 @@
         "trees": "The crowns of the old trees leave the forest in an unreal twilight\nillumination."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6018": {
       "vnum": 6018,
@@ -381,7 +464,9 @@
         "trees": "The tall trees are young and slender, not much more than a hundred years or so."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6019": {
       "vnum": 6019,
@@ -400,7 +485,9 @@
         "trees": "The crowns of the old trees leave the forest in an unreal twilight\nillumination."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6020": {
       "vnum": 6020,
@@ -419,7 +506,9 @@
         "trees": "The trees are mostly old beeches and oaks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6021": {
       "vnum": 6021,
@@ -441,7 +530,9 @@
         "trees": "The crowns of the old trees leave the forest in an unreal twilight\nillumination."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6022": {
       "vnum": 6022,
@@ -465,7 +556,15 @@
         "walls": "Quite uninteresting."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6002,
+          "count": 1,
+          "room": 6022
+        }
+      ],
+      "object_resets": []
     },
     "6023": {
       "vnum": 6023,
@@ -484,7 +583,21 @@
         "trees": "The trees form a close thicket."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6004,
+          "count": 1,
+          "room": 6023
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6010,
+          "count": 2,
+          "room": 6023
+        }
+      ]
     },
     "6030": {
       "vnum": 6030,
@@ -497,7 +610,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6040": {
       "vnum": 6040,
@@ -514,7 +629,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6100": {
       "vnum": 6100,
@@ -537,7 +654,15 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6115,
+          "count": 1,
+          "room": 6100
+        }
+      ],
+      "object_resets": []
     },
     "6101": {
       "vnum": 6101,
@@ -562,7 +687,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6102": {
       "vnum": 6102,
@@ -586,7 +713,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6103": {
       "vnum": 6103,
@@ -608,7 +737,15 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6102,
+          "count": 1,
+          "room": 6103
+        }
+      ]
     },
     "6104": {
       "vnum": 6104,
@@ -631,7 +768,26 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6102,
+          "count": 4,
+          "room": 6104
+        },
+        {
+          "vnum": 6102,
+          "count": 4,
+          "room": 6104
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6106,
+          "count": 4,
+          "room": 6104
+        }
+      ]
     },
     "6105": {
       "vnum": 6105,
@@ -654,7 +810,15 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6105,
+          "count": 1,
+          "room": 6105
+        }
+      ]
     },
     "6106": {
       "vnum": 6106,
@@ -679,7 +843,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6107": {
       "vnum": 6107,
@@ -702,7 +868,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6108": {
       "vnum": 6108,
@@ -727,7 +895,20 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6102,
+          "count": 4,
+          "room": 6108
+        },
+        {
+          "vnum": 6102,
+          "count": 4,
+          "room": 6108
+        }
+      ],
+      "object_resets": []
     },
     "6109": {
       "vnum": 6109,
@@ -750,7 +931,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6110": {
       "vnum": 6110,
@@ -775,7 +958,9 @@
         "trunks": "Some of the trunks to the west are covered in a thin, almost transparent\nsubstance.  It looks like small threads woven carefully together."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6111": {
       "vnum": 6111,
@@ -798,7 +983,15 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6106,
+          "count": 4,
+          "room": 6111
+        }
+      ]
     },
     "6112": {
       "vnum": 6112,
@@ -823,7 +1016,20 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6103,
+          "count": 4,
+          "room": 6112
+        },
+        {
+          "vnum": 6103,
+          "count": 4,
+          "room": 6112
+        }
+      ],
+      "object_resets": []
     },
     "6113": {
       "vnum": 6113,
@@ -846,7 +1052,15 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6103,
+          "count": 1,
+          "room": 6113
+        }
+      ]
     },
     "6114": {
       "vnum": 6114,
@@ -871,7 +1085,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6115": {
       "vnum": 6115,
@@ -894,7 +1110,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6116": {
       "vnum": 6116,
@@ -917,7 +1135,20 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6100,
+          "count": 2,
+          "room": 6116
+        },
+        {
+          "vnum": 6100,
+          "count": 2,
+          "room": 6116
+        }
+      ],
+      "object_resets": []
     },
     "6117": {
       "vnum": 6117,
@@ -942,7 +1173,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6118": {
       "vnum": 6118,
@@ -965,7 +1198,20 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6103,
+          "count": 4,
+          "room": 6118
+        },
+        {
+          "vnum": 6103,
+          "count": 4,
+          "room": 6118
+        }
+      ],
+      "object_resets": []
     },
     "6119": {
       "vnum": 6119,
@@ -988,7 +1234,15 @@
         "trunks": "You feel as if they are watching you."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6107,
+          "count": 4,
+          "room": 6119
+        }
+      ]
     },
     "6120": {
       "vnum": 6120,
@@ -1014,7 +1268,9 @@
         "trunks": "The ancient crowns of trees on both banks reach together forming a dense roof\nabove the dark river."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6121": {
       "vnum": 6121,
@@ -1039,7 +1295,15 @@
         "trunks": "The ancient crowns of trees on both banks reach together forming a dense roof\nabove the dark river."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6117,
+          "count": 1,
+          "room": 6121
+        }
+      ],
+      "object_resets": []
     },
     "6122": {
       "vnum": 6122,
@@ -1062,7 +1326,15 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6106,
+          "count": 4,
+          "room": 6122
+        }
+      ]
     },
     "6123": {
       "vnum": 6123,
@@ -1090,7 +1362,9 @@
         "trunks": "The ancient crowns of trees on both banks reach together forming a dense roof\nabove the dark river."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6124": {
       "vnum": 6124,
@@ -1115,7 +1389,9 @@
         "trunks": "The ancient crowns of trees on both banks reach together forming a dense roof\nabove the dark river."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6125": {
       "vnum": 6125,
@@ -1141,7 +1417,15 @@
         "trunks": "The ancient crowns of trees on both banks reach together forming a dense roof\nabove the dark river."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6104,
+          "count": 1,
+          "room": 6125
+        }
+      ]
     },
     "6126": {
       "vnum": 6126,
@@ -1166,7 +1450,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6127": {
       "vnum": 6127,
@@ -1189,7 +1475,20 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6101,
+          "count": 2,
+          "room": 6127
+        },
+        {
+          "vnum": 6101,
+          "count": 2,
+          "room": 6127
+        }
+      ],
+      "object_resets": []
     },
     "6128": {
       "vnum": 6128,
@@ -1212,7 +1511,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6129": {
       "vnum": 6129,
@@ -1235,7 +1536,9 @@
         "trunks": "These ancient trees must have been here for many, many years.  It is impossible\nto catch even a glimpse of anything above the lowest branches."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6130": {
       "vnum": 6130,
@@ -1264,7 +1567,9 @@
         "wires": "The sticky substance is hanging like ropes between the ancient trees, crossing\nthe path just out of reach.  It might be possible to climb one of the sticky\ntrunks."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6131": {
       "vnum": 6131,
@@ -1279,7 +1584,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6132": {
       "vnum": 6132,
@@ -1299,7 +1606,9 @@
         "web": "The spider web stretches out to the west.  It looks as if it is possible to\nwalk on it."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6133": {
       "vnum": 6133,
@@ -1320,7 +1629,9 @@
         "web": "The immense spider web moves softly."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6134": {
       "vnum": 6134,
@@ -1342,7 +1653,9 @@
         "web": "The sticky walls are covered with open cocoons."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6135": {
       "vnum": 6135,
@@ -1364,7 +1677,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6136": {
       "vnum": 6136,
@@ -1389,7 +1704,9 @@
         "trunks": "To the east the ancient grey giants have many marks as if something with huge\nclaws has been tearing at them in rage."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6137": {
       "vnum": 6137,
@@ -1410,7 +1727,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6142": {
       "vnum": 6142,
@@ -1432,7 +1751,9 @@
         "trees": "The ancient grey giants have many marks as if something with huge claws has\nbeen tearing at them in rage."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6143": {
       "vnum": 6143,
@@ -1453,7 +1774,15 @@
         "floor": "Most of the bones on the floor appear to be of human origin."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6112,
+          "count": 1,
+          "room": 6143
+        }
+      ],
+      "object_resets": []
     },
     "6144": {
       "vnum": 6144,
@@ -1481,7 +1810,9 @@
         "trunks": "The ancient grey giants seem to observe you silently."
       },
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6150": {
       "vnum": 6150,
@@ -1498,7 +1829,9 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6151": {
       "vnum": 6151,
@@ -1516,7 +1849,9 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6152": {
       "vnum": 6152,
@@ -1533,7 +1868,9 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6153": {
       "vnum": 6153,
@@ -1550,7 +1887,9 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6154": {
       "vnum": 6154,
@@ -1567,7 +1906,9 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6155": {
       "vnum": 6155,
@@ -1583,7 +1924,15 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 6116,
+          "count": 1,
+          "room": 6155
+        }
+      ],
+      "object_resets": []
     },
     "6156": {
       "vnum": 6156,
@@ -1596,7 +1945,675 @@
       },
       "exdescs": {},
       "area_name": "Haon Dor",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "6000": {
+      "vnum": 6000,
+      "keywords": [
+        "john",
+        "lumberjack"
+      ],
+      "short": "John the Lumberjack",
+      "long": "John the Lumberjack is here, looking for some trees to chop down.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6002": {
+      "vnum": 6002,
+      "keywords": [
+        "bear"
+      ],
+      "short": "the brown bear",
+      "long": "A big, brown, angry-looking bear is here.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6003": {
+      "vnum": 6003,
+      "keywords": [
+        "rabbit"
+      ],
+      "short": "the ferocious rabbit",
+      "long": "A ferocious rabbit is here, glaring hungrily at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 26,
+      "max_mana": 26,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6004": {
+      "vnum": 6004,
+      "keywords": [
+        "deer"
+      ],
+      "short": "the fallow deer",
+      "long": "A fallow deer is grazing peacefully here.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 2,
+      "max_mana": 2,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6005": {
+      "vnum": 6005,
+      "keywords": [
+        "fox"
+      ],
+      "short": "the brown fox",
+      "long": "A brown fox is here, looking for some rabbits to chew up.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 18,
+      "max_mana": 18,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6100": {
+      "vnum": 6100,
+      "keywords": [
+        "warg",
+        "vicious"
+      ],
+      "short": "the vicious warg",
+      "long": "A vicious warg is here, snarling angrily at you.",
+      "race": "wolf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6101": {
+      "vnum": 6101,
+      "keywords": [
+        "warg",
+        "ferocious"
+      ],
+      "short": "the ferocious warg",
+      "long": "A ferocious warg is here, snarling angrily at you.",
+      "race": "wolf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6102": {
+      "vnum": 6102,
+      "keywords": [
+        "wolf",
+        "grey"
+      ],
+      "short": "the large, grey wolf",
+      "long": "A large, grey wolf is here, glaring hungrily at you.",
+      "race": "wolf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6103": {
+      "vnum": 6103,
+      "keywords": [
+        "wolf",
+        "black"
+      ],
+      "short": "the large, black wolf",
+      "long": "A large, black wolf is here, glaring hungrily at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6112": {
+      "vnum": 6112,
+      "keywords": [
+        "dragon",
+        "green"
+      ],
+      "short": "the huge, green dragon",
+      "long": "A huge green dragon is here, its narrow yellow eyes glowing with rage.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6115": {
+      "vnum": 6115,
+      "keywords": [
+        "shargugh",
+        "brownie"
+      ],
+      "short": "Shargugh",
+      "long": "Shargugh the Forest Brownie is here, grinning broadly at you.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6116": {
+      "vnum": 6116,
+      "keywords": [
+        "elder",
+        "druid"
+      ],
+      "short": "the elder druid",
+      "long": "The elder druid is here ... he looks very upset at your presence in his home.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6117": {
+      "vnum": 6117,
+      "keywords": [
+        "froghemoth"
+      ],
+      "short": "the froghemoth",
+      "long": "A gargantuan, toad-like creature blinks slowly at nothing in particular.",
+      "race": "amphibian",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        15,
+        15,
+        13,
+        13,
+        5,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "6000": {
+      "vnum": 6000,
+      "keywords": [
+        "axe",
+        "lumber"
+      ],
+      "type": "weapon",
+      "short": "a lumber axe",
+      "long": "A heavy lumber axe lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6001": {
+      "vnum": 6001,
+      "keywords": [
+        "chequered",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a chequered shirt",
+      "long": "A chequered shirt lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6002": {
+      "vnum": 6002,
+      "keywords": [
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of leather boots",
+      "long": "A pair of leather boots lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6003": {
+      "vnum": 6003,
+      "keywords": [
+        "fireplace"
+      ],
+      "type": "container",
+      "short": "a fireplace",
+      "long": "A fireplace made from stone is set against the east wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6005": {
+      "vnum": 6005,
+      "keywords": [
+        "chest"
+      ],
+      "type": "container",
+      "short": "a wooden chest",
+      "long": "A wooden chest stands in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6006": {
+      "vnum": 6006,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "a small brass key",
+      "long": "A small brass key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6007": {
+      "vnum": 6007,
+      "keywords": [
+        "coins",
+        "gold"
+      ],
+      "type": "money",
+      "short": "a heap of gold coins",
+      "long": "Some gold coins lie piled up in a heap on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6010": {
+      "vnum": 6010,
+      "keywords": [
+        "blackberries"
+      ],
+      "type": "food",
+      "short": "some blackberries",
+      "long": "Some blackberries grow on a bush nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6011": {
+      "vnum": 6011,
+      "keywords": [
+        "mushroom"
+      ],
+      "type": "food",
+      "short": "a mushroom",
+      "long": "A small mushroom grows nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6013": {
+      "vnum": 6013,
+      "keywords": [
+        "water",
+        "barrel"
+      ],
+      "type": "drinkcon",
+      "short": "the barrel",
+      "long": "A water barrel has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6102": {
+      "vnum": 6102,
+      "keywords": [
+        "ancient",
+        "colossal",
+        "tree",
+        "opening"
+      ],
+      "type": "container",
+      "short": "the colossal tree",
+      "long": "An ancient, colossal tree serves to block the westward path.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6103": {
+      "vnum": 6103,
+      "keywords": [
+        "branch"
+      ],
+      "type": "light",
+      "short": "a long, grey branch",
+      "long": "A long, grey branch rests heavily on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6104": {
+      "vnum": 6104,
+      "keywords": [
+        "branch"
+      ],
+      "type": "weapon",
+      "short": "a long, grey branch",
+      "long": "A long, grey branch rests heavily on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6105": {
+      "vnum": 6105,
+      "keywords": [
+        "branch"
+      ],
+      "type": "trash",
+      "short": "a long, grey branch",
+      "long": "A long, grey branch rests heavily on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6106": {
+      "vnum": 6106,
+      "keywords": [
+        "toadstool"
+      ],
+      "type": "food",
+      "short": "a toadstool",
+      "long": "A large toadstool grows nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6107": {
+      "vnum": 6107,
+      "keywords": [
+        "toadstool"
+      ],
+      "type": "food",
+      "short": "a toadstool",
+      "long": "A large toadstool grows nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6110": {
+      "vnum": 6110,
+      "keywords": [
+        "humming",
+        "yellow",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a humming yellow potion",
+      "long": "A humming yellow potion lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6111": {
+      "vnum": 6111,
+      "keywords": [
+        "shield",
+        "large",
+        "wooden",
+        "round"
+      ],
+      "type": "armor",
+      "short": "a large, round wooden shield",
+      "long": "A large, round wooden shield has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6112": {
+      "vnum": 6112,
+      "keywords": [
+        "crown",
+        "iron"
+      ],
+      "type": "armor",
+      "short": "an iron crown",
+      "long": "An iron crown rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6114": {
+      "vnum": 6114,
+      "keywords": [
+        "ring",
+        "iron"
+      ],
+      "type": "armor",
+      "short": "a heavy ring of iron",
+      "long": "A heavy ring of iron has been lost here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6120": {
+      "vnum": 6120,
+      "keywords": [
+        "book",
+        "guide"
+      ],
+      "type": "trash",
+      "short": "A guide to \"safe\" programming",
+      "long": "An old tome made of patchwork parchment lies in the dust here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6155": {
+      "vnum": 6155,
+      "keywords": [
+        "morning-star",
+        "star",
+        "morning"
+      ],
+      "type": "weapon",
+      "short": "the morning star",
+      "long": "The morning star is here collecting dust while it lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

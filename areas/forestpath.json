@@ -1,6 +1,7 @@
 {
   "name": "Along the Forest Path",
   "author": "Lycorlyntras",
+  "reset_minutes": 15,
   "rooms": {
     "400": {
       "vnum": 400,
@@ -13,7 +14,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 414,
+          "count": 2,
+          "room": 400
+        }
+      ],
+      "object_resets": []
     },
     "401": {
       "vnum": 401,
@@ -27,7 +36,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "402": {
       "vnum": 402,
@@ -40,7 +51,21 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 421,
+          "count": 3,
+          "room": 402
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 402
+        }
+      ]
     },
     "403": {
       "vnum": 403,
@@ -54,7 +79,26 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 406,
+          "count": 1,
+          "room": 403
+        },
+        {
+          "vnum": 405,
+          "count": 1,
+          "room": 403
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 403,
+          "count": 1,
+          "room": 403
+        }
+      ]
     },
     "404": {
       "vnum": 404,
@@ -68,7 +112,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "405": {
       "vnum": 405,
@@ -84,7 +130,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "406": {
       "vnum": 406,
@@ -102,7 +150,9 @@
         "small": "The scattered remains of a small animal or bird eaten by a small\nsharp toothed carnivore.  They have been here for some time and\nthe carpet of moss has already begun to encroach over them."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "407": {
       "vnum": 407,
@@ -115,7 +165,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "408": {
       "vnum": 408,
@@ -128,7 +180,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "409": {
       "vnum": 409,
@@ -144,7 +198,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 416,
+          "count": 1,
+          "room": 409
+        }
+      ],
+      "object_resets": []
     },
     "410": {
       "vnum": 410,
@@ -161,7 +223,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "411": {
       "vnum": 411,
@@ -176,7 +240,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 411
+        }
+      ],
+      "object_resets": []
     },
     "412": {
       "vnum": 412,
@@ -190,7 +262,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 412
+        }
+      ],
+      "object_resets": []
     },
     "413": {
       "vnum": 413,
@@ -204,7 +284,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "414": {
       "vnum": 414,
@@ -218,7 +300,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 414
+        }
+      ],
+      "object_resets": []
     },
     "415": {
       "vnum": 415,
@@ -233,7 +323,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "416": {
       "vnum": 416,
@@ -248,7 +340,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 416
+        }
+      ]
     },
     "417": {
       "vnum": 417,
@@ -263,7 +363,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 420,
+          "count": 2,
+          "room": 417
+        }
+      ],
+      "object_resets": []
     },
     "418": {
       "vnum": 418,
@@ -279,7 +387,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 418
+        }
+      ]
     },
     "419": {
       "vnum": 419,
@@ -296,7 +412,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 419
+        }
+      ]
     },
     "420": {
       "vnum": 420,
@@ -311,7 +435,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "421": {
       "vnum": 421,
@@ -325,7 +451,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 421,
+          "count": 1,
+          "room": 421
+        }
+      ],
+      "object_resets": []
     },
     "422": {
       "vnum": 422,
@@ -341,7 +475,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 401,
+          "count": 1,
+          "room": 422
+        }
+      ],
+      "object_resets": []
     },
     "423": {
       "vnum": 423,
@@ -359,7 +501,9 @@
         "sign": "By decree of the Gnome Council of Leaders, the old trade path, commonly\nknown as the Forest Path, is declared an unsafe area.  It is outside\nthe protection of the Gnome Guards, enter at your own risk."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "424": {
       "vnum": 424,
@@ -378,7 +522,9 @@
         "sign": "By decree of the Lords of Darkhaven, the old trade path, commonly\nknown as the Forest Path, is declared an unsafe area.  It is outside\nthe protection of the City of Darkhaven, enter at your own risk."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "425": {
       "vnum": 425,
@@ -393,7 +539,26 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 400,
+          "count": 1,
+          "room": 425
+        },
+        {
+          "vnum": 421,
+          "count": 2,
+          "room": 425
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 425
+        }
+      ]
     },
     "426": {
       "vnum": 426,
@@ -408,7 +573,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "427": {
       "vnum": 427,
@@ -424,7 +591,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "428": {
       "vnum": 428,
@@ -439,7 +608,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 420,
+          "count": 1,
+          "room": 428
+        }
+      ],
+      "object_resets": []
     },
     "429": {
       "vnum": 429,
@@ -453,7 +630,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 429
+        }
+      ]
     },
     "430": {
       "vnum": 430,
@@ -468,7 +653,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "431": {
       "vnum": 431,
@@ -482,7 +669,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "432": {
       "vnum": 432,
@@ -497,7 +686,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 432
+        }
+      ]
     },
     "433": {
       "vnum": 433,
@@ -514,7 +711,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "434": {
       "vnum": 434,
@@ -529,7 +728,21 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 415,
+          "count": 1,
+          "room": 434
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 434
+        }
+      ]
     },
     "435": {
       "vnum": 435,
@@ -544,7 +757,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "436": {
       "vnum": 436,
@@ -560,7 +775,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 436
+        }
+      ],
+      "object_resets": []
     },
     "437": {
       "vnum": 437,
@@ -576,7 +799,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 1,
+          "room": 437
+        }
+      ],
+      "object_resets": []
     },
     "438": {
       "vnum": 438,
@@ -591,7 +822,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 419,
+          "count": 2,
+          "room": 438
+        }
+      ],
+      "object_resets": []
     },
     "439": {
       "vnum": 439,
@@ -607,7 +846,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 439
+        }
+      ]
     },
     "440": {
       "vnum": 440,
@@ -621,7 +868,20 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 403,
+          "count": 1,
+          "room": 440
+        },
+        {
+          "vnum": 404,
+          "count": 1,
+          "room": 440
+        }
+      ],
+      "object_resets": []
     },
     "441": {
       "vnum": 441,
@@ -636,7 +896,26 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 441
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 421,
+          "count": 1,
+          "room": 441
+        },
+        {
+          "vnum": 422,
+          "count": 1,
+          "room": 441
+        }
+      ]
     },
     "442": {
       "vnum": 442,
@@ -651,7 +930,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "443": {
       "vnum": 443,
@@ -666,7 +947,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 414,
+          "count": 2,
+          "room": 443
+        }
+      ],
+      "object_resets": []
     },
     "444": {
       "vnum": 444,
@@ -680,7 +969,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "445": {
       "vnum": 445,
@@ -694,7 +985,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "446": {
       "vnum": 446,
@@ -708,7 +1001,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "447": {
       "vnum": 447,
@@ -722,7 +1017,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 407,
+          "count": 1,
+          "room": 447
+        }
+      ],
+      "object_resets": []
     },
     "448": {
       "vnum": 448,
@@ -738,7 +1041,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "449": {
       "vnum": 449,
@@ -751,7 +1056,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "450": {
       "vnum": 450,
@@ -764,7 +1071,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "451": {
       "vnum": 451,
@@ -780,7 +1089,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "452": {
       "vnum": 452,
@@ -793,7 +1104,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 411,
+          "count": 1,
+          "room": 452
+        }
+      ]
     },
     "453": {
       "vnum": 453,
@@ -815,7 +1134,9 @@
         "bones": "The bones are of perhaps a wolf or some other canine.  You can really\nidentify as the bones have worn into the dirt and are bleached of all\nflesh."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "454": {
       "vnum": 454,
@@ -835,7 +1156,15 @@
         "utensils": "A few large pots, a much beaten kettle and some malformed spoons and\nladles make up the cooks equipment here.  As elsewhere in here everything\nis of differing quality, with the bandits using what they find\nthats is useful but not valuable enough to fence for some quick\nprofit."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 425,
+          "count": 1,
+          "room": 454
+        }
+      ]
     },
     "455": {
       "vnum": 455,
@@ -852,7 +1181,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 419,
+          "count": 1,
+          "room": 455
+        }
+      ]
     },
     "456": {
       "vnum": 456,
@@ -874,7 +1211,15 @@
         "hession": "The large coarse weave blanket seems to have been attached to the wall with large\niron nails sticking into the thick roots.  A quick look behind the covering\nreveals only more wall."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 426,
+          "count": 1,
+          "room": 456
+        }
+      ]
     },
     "457": {
       "vnum": 457,
@@ -893,7 +1238,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "458": {
       "vnum": 458,
@@ -916,7 +1263,20 @@
         "steel": "All of the eating utensils are now showing the signs of heavy and\nabusive use.   Even though some of them were quite fine and\nexpensive items, harsh use has devalued all of the items to\nnext to nothing.   Perhaps with the lack of merchants travelling\nthrough the bandit group is starting to feel a degrading lifestyle."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 5,
+          "room": 458
+        },
+        {
+          "vnum": 423,
+          "count": 5,
+          "room": 458
+        }
+      ],
+      "object_resets": []
     },
     "459": {
       "vnum": 459,
@@ -933,7 +1293,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 411,
+          "count": 1,
+          "room": 459
+        }
+      ],
+      "object_resets": []
     },
     "460": {
       "vnum": 460,
@@ -955,7 +1323,15 @@
         "wood": "A cursory look over the room shows that boards from many sourses\nhave been tacked here to make the walls.  There is a general mottled\neffect caused by the very different grains and sizes of boards used.\nLittle furniture is directly against the walls, perhaps for safety.\nA quick search of the rough walls reveals that one large board in\nthe north wall is actually a hidden door."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 409,
+          "count": 1,
+          "room": 460
+        }
+      ],
+      "object_resets": []
     },
     "461": {
       "vnum": 461,
@@ -976,7 +1352,35 @@
         "table": "Redit the table looks to be of very strong and thick construction\nperhaps the inhabitants use the table as a makeshift barricade\nwhen they are attacked.  The set of cards upon the table show\nsome heavy use and there are multiple layers of grime pressed\ninto each of them."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        }
+      ],
+      "object_resets": []
     },
     "462": {
       "vnum": 462,
@@ -998,7 +1402,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "463": {
       "vnum": 463,
@@ -1019,7 +1425,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "464": {
       "vnum": 464,
@@ -1039,7 +1447,9 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "465": {
       "vnum": 465,
@@ -1059,7 +1469,25 @@
         "pallet": "You do not approach the either the bunks or the pallets as the\nsmell is not good, and their appearance is worse.  All are stained\nto some degree and you swear that something moves in at least\nsome of them proclaiming pestial infestation."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        },
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        },
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        }
+      ],
+      "object_resets": []
     },
     "466": {
       "vnum": 466,
@@ -1081,7 +1509,25 @@
         "target": "The target is a large fairly circular tree cross-section.  With\nprominent bands in its ring variation.  Apparently these are use for\nscoring the game.  The whole front of the target is a mass of wood\npulp from being repeatedly hit by knives and daggers."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        },
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        },
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        }
+      ],
+      "object_resets": []
     },
     "467": {
       "vnum": 467,
@@ -1101,7 +1547,15 @@
         "table": "The ball come table is very basic and only contains an empty\nbeer mug.   Tapping on the barrel itself sounds like it is hollow\nand probably contains nothing."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 412,
+          "count": 1,
+          "room": 467
+        }
+      ],
+      "object_resets": []
     },
     "468": {
       "vnum": 468,
@@ -1118,7 +1572,15 @@
       },
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 410,
+          "count": 1,
+          "room": 468
+        }
+      ],
+      "object_resets": []
     },
     "469": {
       "vnum": 469,
@@ -1136,7 +1598,9 @@
         "scratches": "Long grooves have been cut into the rock here.  It had to take something\npowerful to make these marks.   Whatever lives down here probably does\nnot want to be disturbed.  Make sure you're up to the challenge before\nyou go any further."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "470": {
       "vnum": 470,
@@ -1150,7 +1614,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "497": {
       "vnum": 497,
@@ -1165,7 +1631,80 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 422,
+          "count": 1,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 408,
+          "count": 1,
+          "room": 497
+        }
+      ],
+      "object_resets": []
     },
     "498": {
       "vnum": 498,
@@ -1180,7 +1719,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "499": {
       "vnum": 499,
@@ -1198,7 +1739,1239 @@
         "plots": "This represents an old trade route, made unusable by the\nBandit Eric and his group.\n\nAlong the main path the players meet the Knight Theggory.\nHe tells of seeking a druid.\nThe Druid tells of needing to help the forest as it isn't as\nhealthy as it seems, so he seeks the guardian of the forest a\ndryad.\nThe Dryad says that she has been driven from her tree by\nhumans, she needs the Heart of the Tree to regain her home.\nThe Tree is the base Erics Band and entry is hard to find\nwithout talking to the Dryad, deep in the tree is the\nheart for which the dryad will reward the return of."
       },
       "area_name": "Along the Forest Path",
-      "area_author": "Lycorlyntras"
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "400": {
+      "vnum": 400,
+      "keywords": [
+        "effects",
+        "mob",
+        "one"
+      ],
+      "short": "a forest spirit",
+      "long": "The number one effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "401": {
+      "vnum": 401,
+      "keywords": [
+        "effects",
+        "mob",
+        "two"
+      ],
+      "short": "a forest spirit",
+      "long": "The number two effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "402": {
+      "vnum": 402,
+      "keywords": [
+        "effects",
+        "mob",
+        "three"
+      ],
+      "short": "a forest spirit",
+      "long": "The number three effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "403": {
+      "vnum": 403,
+      "keywords": [
+        "gray",
+        "female",
+        "she",
+        "wolf"
+      ],
+      "short": "the she-wolf",
+      "long": "A thin, and desperate she-wolf, climbs this part of the forest for hunting.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        16,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "404": {
+      "vnum": 404,
+      "keywords": [
+        "wolf",
+        "cub"
+      ],
+      "short": "the wolf cub",
+      "long": "A small furry wolf cub looks at you, small teeth bared.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        7,
+        10,
+        15,
+        15,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "405": {
+      "vnum": 405,
+      "keywords": [
+        "theggory",
+        "knight",
+        "tall",
+        "man"
+      ],
+      "short": "Theggory the knight",
+      "long": "A tall man, clad in heraldic branded armor imposes his presence here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        20,
+        14,
+        13,
+        15,
+        13,
+        14,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "406": {
+      "vnum": 406,
+      "keywords": [
+        "sturdy",
+        "destrier",
+        "horse"
+      ],
+      "short": "sturdy destrier",
+      "long": "A large destrier paws the ground.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "407": {
+      "vnum": 407,
+      "keywords": [
+        "druid",
+        "Acwellan",
+        "tall",
+        "man"
+      ],
+      "short": "Acwellan the druid",
+      "long": "A tall skinny man, serenity fills his weather-lined face.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        14,
+        14,
+        17,
+        10,
+        10,
+        16,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "408": {
+      "vnum": 408,
+      "keywords": [
+        "bandersnatch",
+        "ball",
+        "fur"
+      ],
+      "short": "the bandersnatch",
+      "long": "A heaving, bouncing ball of fur.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "409": {
+      "vnum": 409,
+      "keywords": [
+        "bandit",
+        "Eric",
+        "halfelf"
+      ],
+      "short": "Eric the Bandit",
+      "long": "A powerfully build half-elf, in hunting leathers sneers at you.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        19,
+        18,
+        10,
+        15,
+        15,
+        16,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "410": {
+      "vnum": 410,
+      "keywords": [
+        "bandit",
+        "lucellia",
+        "lucky",
+        "petite",
+        "woman"
+      ],
+      "short": "Lucellia the Lucky",
+      "long": "A petite woman looks you over, her raggedness not despoiling her beauty.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 233,
+      "max_mana": 233,
+      "attributes": [
+        12,
+        15,
+        10,
+        12,
+        12,
+        5,
+        17
+      ],
+      "room_vnum": 0
+    },
+    "411": {
+      "vnum": 411,
+      "keywords": [
+        "bandit",
+        "fnord",
+        "quick",
+        "tall",
+        "thin",
+        "man"
+      ],
+      "short": "Fnord the Quick",
+      "long": "A very tall, thin man looks around nervously.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        10,
+        14,
+        11,
+        20,
+        10,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "412": {
+      "vnum": 412,
+      "keywords": [
+        "bandit",
+        "ogre",
+        "brute",
+        "short",
+        "man"
+      ],
+      "short": "Ogre the Brute",
+      "long": "A short man, almost as wide as he is tall stands here, bristling weaponry.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        9,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "413": {
+      "vnum": 413,
+      "keywords": [
+        "forest",
+        "bandit",
+        "man",
+        "outdoor"
+      ],
+      "short": "The forest bandit",
+      "long": "A man in dirty forest leathers skulks here",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 85,
+      "max_mana": 85,
+      "attributes": [
+        16,
+        12,
+        10,
+        15,
+        12,
+        12,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "414": {
+      "vnum": 414,
+      "keywords": [
+        "blood",
+        "hawk",
+        "large"
+      ],
+      "short": "The Blood Hawk",
+      "long": "A large hawk with razor claws arcs through the trees.",
+      "race": "animal",
+      "class": "paladin",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        16,
+        7,
+        10,
+        18,
+        18,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "415": {
+      "vnum": 415,
+      "keywords": [
+        "giant",
+        "boar",
+        "beast"
+      ],
+      "short": "A giant boar",
+      "long": "A true massive beast.  Its huge tusks threaten the lives of all nearby.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "416": {
+      "vnum": 416,
+      "keywords": [
+        "willum",
+        "halfling",
+        "thief"
+      ],
+      "short": "Willum",
+      "long": "A short halfling creeps around, looking for an easy score.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        10,
+        15,
+        10,
+        19,
+        14,
+        14,
+        16
+      ],
+      "room_vnum": 0
+    },
+    "417": {
+      "vnum": 417,
+      "keywords": [
+        "choke",
+        "creeper",
+        "vine",
+        "creeper"
+      ],
+      "short": "the choke creeper",
+      "long": "A series of vines and creepers infest the local flora.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 96,
+      "max_mana": 96,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "418": {
+      "vnum": 418,
+      "keywords": [
+        "young",
+        "wyvern",
+        "reptile"
+      ],
+      "short": "the young wyvern",
+      "long": "A large winged reptile with wings instead of forearms, its scales bright with youth.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        17,
+        7,
+        10,
+        15,
+        14,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "419": {
+      "vnum": 419,
+      "keywords": [
+        "fallow",
+        "deer"
+      ],
+      "short": "fallow deer",
+      "long": "A nervous fallow deer stands here looking at you.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "420": {
+      "vnum": 420,
+      "keywords": [
+        "black",
+        "crow",
+        "bird"
+      ],
+      "short": "the crow",
+      "long": "A black bird sits here up a tree.  The raven looks at you intently.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 46,
+      "max_mana": 46,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "421": {
+      "vnum": 421,
+      "keywords": [
+        "porcupine"
+      ],
+      "short": "the small porcupine",
+      "long": "A small heavily quilled porcupine waddles through here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        10,
+        10,
+        10,
+        15,
+        10,
+        10,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "422": {
+      "vnum": 422,
+      "keywords": [
+        "sylvan",
+        "dryad",
+        "guardian",
+        "spirit",
+        "semlina"
+      ],
+      "short": "the dryad",
+      "long": "A thin pale forest spirit is here, the dryad is at one with her sylvan environment.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 333,
+      "max_mana": 333,
+      "attributes": [
+        20,
+        17,
+        19,
+        18,
+        20,
+        15,
+        19
+      ],
+      "room_vnum": 0
+    },
+    "423": {
+      "vnum": 423,
+      "keywords": [
+        "forest",
+        "bandit",
+        "man",
+        "indoor"
+      ],
+      "short": "The forest bandit",
+      "long": "A man in dirty forest leathers.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 85,
+      "max_mana": 85,
+      "attributes": [
+        16,
+        12,
+        10,
+        15,
+        12,
+        12,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "498": {
+      "vnum": 498,
+      "keywords": [
+        "zombie2",
+        "mob"
+      ],
+      "short": "a zombie mob",
+      "long": "A zombie mob to do tasks namely mpat because it can't be done by rooms :)",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "499": {
+      "vnum": 499,
+      "keywords": [
+        "zombie1",
+        "mob"
+      ],
+      "short": "a zombie mob",
+      "long": "A zombie mob to do tasks namely mpat because it can't be done by rooms :)",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "400": {
+      "vnum": 400,
+      "keywords": [
+        "ash",
+        "bow"
+      ],
+      "type": "missileweapon",
+      "short": "a huge ash bow",
+      "long": "A large ash wood bow lays here waiting to be used.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "401": {
+      "vnum": 401,
+      "keywords": [
+        "leather",
+        "archers",
+        "bracer"
+      ],
+      "type": "armor",
+      "short": "a leather archer's bracer",
+      "long": "A leather archer's bracer sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "402": {
+      "vnum": 402,
+      "keywords": [
+        "stream",
+        "water"
+      ],
+      "type": "fountain",
+      "short": "stream water",
+      "long": "A small creek winds its way amongst the bushes and trees.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "403": {
+      "vnum": 403,
+      "keywords": [
+        "stream",
+        "fordwater"
+      ],
+      "type": "fountain",
+      "short": "ford of the stream",
+      "long": "A small creek winds spreads out through large rocks creating a small ford.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "404": {
+      "vnum": 404,
+      "keywords": [
+        "hunters",
+        "cap",
+        "leather"
+      ],
+      "type": "armor",
+      "short": "a leather hunters cap",
+      "long": "A finely made leather hunters cap, has been placed on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "405": {
+      "vnum": 405,
+      "keywords": [
+        "guards",
+        "arm",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic arm guards",
+      "long": "A set of arm guards, heavily ornamented with the heraldry of a griffin.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "406": {
+      "vnum": 406,
+      "keywords": [
+        "breast",
+        "plate",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic breast plate",
+      "long": "A fine breast plate, the heraldic symbol of a griffin stands proudly in the centre.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "407": {
+      "vnum": 407,
+      "keywords": [
+        "leggings",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic leggings",
+      "long": "A set of leggings heraldicly embossed with griffins has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "408": {
+      "vnum": 408,
+      "keywords": [
+        "pair",
+        "huge",
+        "vicious",
+        "cestus"
+      ],
+      "type": "weapon",
+      "short": "a pair of huge cestus",
+      "long": "A pair of  vicious cestus lay here, waiting to be worn.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "409": {
+      "vnum": 409,
+      "keywords": [
+        "sturdy",
+        "shined",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of sturdy, shined boots",
+      "long": "A pair of highly shined, sturdy boots wait here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "410": {
+      "vnum": 410,
+      "keywords": [
+        "shield",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "the griffin heraldic shield.",
+      "long": "A shield bearing the heraldic symbol of the griffin rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "411": {
+      "vnum": 411,
+      "keywords": [
+        "elven",
+        "rune",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "an elven rune sword",
+      "long": "A sword bearing glowing elven runes lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "412": {
+      "vnum": 412,
+      "keywords": [
+        "leather",
+        "leggings",
+        "green"
+      ],
+      "type": "armor",
+      "short": "the leather leggings",
+      "long": "A set of greenish dyed leather leggings has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "413": {
+      "vnum": 413,
+      "keywords": [
+        "leather",
+        "jerkin",
+        "green"
+      ],
+      "type": "armor",
+      "short": "a leather jerkin",
+      "long": "A greenish colored leather jerkin is crumpled in a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "414": {
+      "vnum": 414,
+      "keywords": [
+        "leather",
+        "sleeves",
+        "reinforced"
+      ],
+      "type": "armor",
+      "short": "leather sleeves",
+      "long": "A pair of thick reinforced leather sleeves has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "415": {
+      "vnum": 415,
+      "keywords": [
+        "thick",
+        "leather",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of thick leather boots",
+      "long": "A pair of thick leather boots wait here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "416": {
+      "vnum": 416,
+      "keywords": [
+        "long",
+        "hunters",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "A long, hunter's knife",
+      "long": "A large knife, its curved blade has been slightly rusted by the elements.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "417": {
+      "vnum": 417,
+      "keywords": [
+        "ironshod",
+        "quarterstaff",
+        "bronzewood",
+        "wood"
+      ],
+      "type": "weapon",
+      "short": "an ironshod quarterstaff",
+      "long": "A large ironshod quarterstaff made from bronzewood lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "418": {
+      "vnum": 418,
+      "keywords": [
+        "false",
+        "creeper"
+      ],
+      "type": "armor",
+      "short": "A series of vines and creeper infest the local flora",
+      "long": "A series of vines and creeper infest the local flora.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "419": {
+      "vnum": 419,
+      "keywords": [
+        "heart",
+        "forest"
+      ],
+      "type": "trash",
+      "short": "The Heart of the Forest",
+      "long": "A large knot of highly polished wood sits here, it almost seems to pulse.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "420": {
+      "vnum": 420,
+      "keywords": [
+        "deer",
+        "side",
+        "meat",
+        "venison"
+      ],
+      "type": "food",
+      "short": "the bloodied side of a deer",
+      "long": "The side of a deer lays here amongst a small pool of blood",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "421": {
+      "vnum": 421,
+      "keywords": [
+        "mushroom",
+        "pale",
+        "gray"
+      ],
+      "type": "pill",
+      "short": "a pale gray mushroom",
+      "long": "A pale gray mushroom grows here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "422": {
+      "vnum": 422,
+      "keywords": [
+        "mushroom",
+        "sickly",
+        "red"
+      ],
+      "type": "pill",
+      "short": "a sickly red mushroom",
+      "long": "A sickly red mushroom protrudes from the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "423": {
+      "vnum": 423,
+      "keywords": [
+        "short",
+        "battle",
+        "spear"
+      ],
+      "type": "weapon",
+      "short": "a short battle spear",
+      "long": "A short, wide bladed spear sits here waiting for someone to use it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "424": {
+      "vnum": 424,
+      "keywords": [
+        "sword",
+        "thick",
+        "wide",
+        "heavy",
+        "broad"
+      ],
+      "type": "weapon",
+      "short": "a very thick and heavy broad sword",
+      "long": "A black iron sword the seems almost ridiculously wide and thick lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "425": {
+      "vnum": 425,
+      "keywords": [
+        "boar",
+        "leg",
+        "roast"
+      ],
+      "type": "food",
+      "short": "a roasted boar leg",
+      "long": "A leg of roasted boar sits here filling the air with the smell of cooked meat.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "426": {
+      "vnum": 426,
+      "keywords": [
+        "large",
+        "pile",
+        "treasure",
+        "mixed"
+      ],
+      "type": "money",
+      "short": "a large pile of mixed treasure",
+      "long": "A large pile of mixed treasures lays here in a rough jumble.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "427": {
+      "vnum": 427,
+      "keywords": [
+        "quiver",
+        "arrows"
+      ],
+      "type": "quiver",
+      "short": "a quiver of arrows",
+      "long": "A quiver has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "428": {
+      "vnum": 428,
+      "keywords": [
+        "arrow"
+      ],
+      "type": "projectile",
+      "short": "an arrow",
+      "long": "An arrow has fallen here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "498": {
+      "vnum": 498,
+      "keywords": [
+        "regen",
+        "token"
+      ],
+      "type": "armor",
+      "short": "",
+      "long": "",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "499": {
+      "vnum": 499,
+      "keywords": [
+        "last",
+        "item"
+      ],
+      "type": "armor",
+      "short": "",
+      "long": "A token for the dryad as give an item checked seems to stuff Ovnumcarry check.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

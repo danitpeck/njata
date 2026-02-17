@@ -1,6 +1,7 @@
 {
   "name": "Gods",
   "author": "ROD",
+  "reset_minutes": 300,
   "rooms": {
     "1200": {
       "vnum": 1200,
@@ -18,7 +19,15 @@
       },
       "exdescs": {},
       "area_name": "Gods",
-      "area_author": "ROD"
+      "area_author": "ROD",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1200,
+          "count": 1,
+          "room": 1200
+        }
+      ]
     },
     "1201": {
       "vnum": 1201,
@@ -39,7 +48,54 @@
         "rug": "It sure does look inviting."
       },
       "area_name": "Gods",
-      "area_author": "ROD"
+      "area_author": "ROD",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "1200": {
+      "vnum": 1200,
+      "keywords": [
+        "mobile"
+      ],
+      "short": "a mobile",
+      "long": "A mobile is here.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "1200": {
+      "vnum": 1200,
+      "keywords": [
+        "immortal",
+        "board"
+      ],
+      "type": "furniture",
+      "short": "the immortal board",
+      "long": "Mystical sparkling colors converge here to form arcane runes...",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

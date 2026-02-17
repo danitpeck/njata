@@ -1,6 +1,7 @@
 {
   "name": "Build Interface Stuff",
   "author": "Haus",
+  "reset_minutes": 15,
   "rooms": {
     "9500": {
       "vnum": 9500,
@@ -17,7 +18,15 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 30,
+          "count": 1,
+          "room": 9500
+        }
+      ]
     },
     "9501": {
       "vnum": 9501,
@@ -34,7 +43,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9502": {
       "vnum": 9502,
@@ -52,7 +63,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9503": {
       "vnum": 9503,
@@ -66,7 +79,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9504": {
       "vnum": 9504,
@@ -84,7 +99,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9505": {
       "vnum": 9505,
@@ -103,7 +120,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9506": {
       "vnum": 9506,
@@ -122,7 +141,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9507": {
       "vnum": 9507,
@@ -137,7 +158,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9508": {
       "vnum": 9508,
@@ -155,7 +178,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9509": {
       "vnum": 9509,
@@ -174,7 +199,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9510": {
       "vnum": 9510,
@@ -193,7 +220,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9511": {
       "vnum": 9511,
@@ -217,7 +246,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9512": {
       "vnum": 9512,
@@ -234,7 +265,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9513": {
       "vnum": 9513,
@@ -250,7 +283,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9514": {
       "vnum": 9514,
@@ -269,7 +304,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9515": {
       "vnum": 9515,
@@ -288,7 +325,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9516": {
       "vnum": 9516,
@@ -306,7 +345,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9517": {
       "vnum": 9517,
@@ -324,7 +365,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9518": {
       "vnum": 9518,
@@ -343,7 +386,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9519": {
       "vnum": 9519,
@@ -362,7 +407,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9520": {
       "vnum": 9520,
@@ -381,7 +428,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9521": {
       "vnum": 9521,
@@ -399,7 +448,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9522": {
       "vnum": 9522,
@@ -417,7 +468,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9523": {
       "vnum": 9523,
@@ -436,7 +489,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9524": {
       "vnum": 9524,
@@ -456,7 +511,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9525": {
       "vnum": 9525,
@@ -476,7 +533,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9526": {
       "vnum": 9526,
@@ -494,7 +553,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9527": {
       "vnum": 9527,
@@ -512,7 +573,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9528": {
       "vnum": 9528,
@@ -531,7 +594,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9529": {
       "vnum": 9529,
@@ -550,7 +615,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9530": {
       "vnum": 9530,
@@ -569,7 +636,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9531": {
       "vnum": 9531,
@@ -587,7 +656,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9532": {
       "vnum": 9532,
@@ -606,7 +677,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9533": {
       "vnum": 9533,
@@ -625,7 +698,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9534": {
       "vnum": 9534,
@@ -645,7 +720,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9535": {
       "vnum": 9535,
@@ -664,7 +741,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9536": {
       "vnum": 9536,
@@ -679,7 +758,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9537": {
       "vnum": 9537,
@@ -698,7 +779,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9538": {
       "vnum": 9538,
@@ -717,7 +800,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9539": {
       "vnum": 9539,
@@ -736,7 +821,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9540": {
       "vnum": 9540,
@@ -755,7 +842,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9541": {
       "vnum": 9541,
@@ -773,7 +862,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9542": {
       "vnum": 9542,
@@ -792,7 +883,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9543": {
       "vnum": 9543,
@@ -811,7 +904,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9544": {
       "vnum": 9544,
@@ -830,7 +925,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9545": {
       "vnum": 9545,
@@ -848,7 +945,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9546": {
       "vnum": 9546,
@@ -865,7 +964,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9547": {
       "vnum": 9547,
@@ -884,7 +985,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9548": {
       "vnum": 9548,
@@ -903,7 +1006,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9549": {
       "vnum": 9549,
@@ -922,7 +1027,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9550": {
       "vnum": 9550,
@@ -943,7 +1050,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9551": {
       "vnum": 9551,
@@ -962,7 +1071,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9552": {
       "vnum": 9552,
@@ -979,7 +1090,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9553": {
       "vnum": 9553,
@@ -998,7 +1111,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9554": {
       "vnum": 9554,
@@ -1017,7 +1132,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9555": {
       "vnum": 9555,
@@ -1038,7 +1155,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9556": {
       "vnum": 9556,
@@ -1056,7 +1175,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9557": {
       "vnum": 9557,
@@ -1071,7 +1192,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9558": {
       "vnum": 9558,
@@ -1089,7 +1212,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9559": {
       "vnum": 9559,
@@ -1107,7 +1232,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9560": {
       "vnum": 9560,
@@ -1123,7 +1250,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9561": {
       "vnum": 9561,
@@ -1140,7 +1269,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9562": {
       "vnum": 9562,
@@ -1155,7 +1286,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9563": {
       "vnum": 9563,
@@ -1173,7 +1306,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9564": {
       "vnum": 9564,
@@ -1191,7 +1326,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9565": {
       "vnum": 9565,
@@ -1212,7 +1349,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9566": {
       "vnum": 9566,
@@ -1229,7 +1368,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9567": {
       "vnum": 9567,
@@ -1246,7 +1387,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9568": {
       "vnum": 9568,
@@ -1262,7 +1405,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9569": {
       "vnum": 9569,
@@ -1278,7 +1423,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9570": {
       "vnum": 9570,
@@ -1298,7 +1445,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9571": {
       "vnum": 9571,
@@ -1313,7 +1462,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9572": {
       "vnum": 9572,
@@ -1327,7 +1478,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9573": {
       "vnum": 9573,
@@ -1342,7 +1495,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9574": {
       "vnum": 9574,
@@ -1360,7 +1515,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9575": {
       "vnum": 9575,
@@ -1380,7 +1537,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9576": {
       "vnum": 9576,
@@ -1395,7 +1554,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9577": {
       "vnum": 9577,
@@ -1410,7 +1571,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9578": {
       "vnum": 9578,
@@ -1426,7 +1589,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9579": {
       "vnum": 9579,
@@ -1441,7 +1606,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9580": {
       "vnum": 9580,
@@ -1459,7 +1626,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9581": {
       "vnum": 9581,
@@ -1476,7 +1645,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9582": {
       "vnum": 9582,
@@ -1492,7 +1663,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9583": {
       "vnum": 9583,
@@ -1508,7 +1681,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9584": {
       "vnum": 9584,
@@ -1525,7 +1700,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9585": {
       "vnum": 9585,
@@ -1542,7 +1719,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9586": {
       "vnum": 9586,
@@ -1560,7 +1739,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9587": {
       "vnum": 9587,
@@ -1577,7 +1758,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9588": {
       "vnum": 9588,
@@ -1592,7 +1775,9 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9589": {
       "vnum": 9589,
@@ -1608,7 +1793,11 @@
       },
       "exdescs": {},
       "area_name": "Build Interface Stuff",
-      "area_author": "Haus"
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
     }
-  }
+  },
+  "mobiles": {},
+  "objects": {}
 }

@@ -42,6 +42,34 @@ type Player struct {
     Armor      int
 }
 
+type Mobile struct {
+    Vnum        int
+    Keywords    []string
+    Short       string
+    Long        string
+    Race        string
+    Class       string
+    Position    string
+    Gender      string
+    Level       int
+    MaxHP       int
+    HP          int
+    Mana        int
+    MaxMana     int
+    Attributes  [7]int // STR, INT, WIS, DEX, CON, LCK, CHA
+}
+
+type Object struct {
+    Vnum        int
+    Keywords    []string
+    Type        string
+    Short       string
+    Long        string
+    Weight      int
+    Value       int
+    Flags       map[string]bool
+}
+
 type Room struct {
     Vnum        int
     Name        string
@@ -52,6 +80,18 @@ type Room struct {
     ExDescs     map[string]string
     AreaName    string
     AreaAuthor  string
+    AreaResetMinutes int
+    Mobiles     []*Mobile
+    Objects     []*Object
+    MobileResets  []Reset
+    ObjectResets  []Reset
+}
+
+type Reset struct {
+    MobVnum    int // for Mobile resets
+    ObjVnum    int // for Object resets
+    Count      int // how many to load
+    Room       int // which room to load into
 }
 
 type RoomView struct {
@@ -59,6 +99,8 @@ type RoomView struct {
     Description string
     Exits       []string
     Others      []string
+    Mobiles     []string // NPC descriptions
+    Objects     []string // Object descriptions
     AreaName    string
     AreaAuthor  string
 }
@@ -235,11 +277,35 @@ func (w *World) DescribeRoom(player *Player) (RoomView, error) {
     }
     sort.Strings(exits)
 
+    // Format mobiles
+    mobiles := make([]string, 0, len(room.Mobiles))
+    for _, mob := range room.Mobiles {
+        if mob.Short != "" {
+            position := strings.TrimSpace(mob.Position)
+            if position == "" {
+                position = "standing"
+            }
+            mobiles = append(mobiles, mob.Short+" is "+position+".")
+        }
+    }
+    sort.Strings(mobiles)
+
+    // Format objects
+    objects := make([]string, 0, len(room.Objects))
+    for _, obj := range room.Objects {
+        if obj.Short != "" {
+            objects = append(objects, obj.Short+" is here.")
+        }
+    }
+    sort.Strings(objects)
+
     return RoomView{
         Name:        room.Name,
         Description: room.Description,
         Exits:       exits,
         Others:      others,
+        Mobiles:     mobiles,
+        Objects:     objects,
         AreaName:    room.AreaName,
         AreaAuthor:  room.AreaAuthor,
     }, nil
@@ -331,4 +397,55 @@ func (w *World) BroadcastSystemToRoomExcept(except *Player, message string) {
 
 func normalizeName(name string) string {
     return strings.ToLower(strings.TrimSpace(name))
+}
+
+// RespawnTick is a placeholder for reset scheduling.
+// It will eventually handle area respawns based on timers.
+func (w *World) RespawnTick(defaultMinutes int, logger func(string)) {
+    w.mu.RLock()
+    areaMinutes := make(map[string]int)
+    overrides := make(map[string]int)
+    for _, room := range w.rooms {
+        name := room.AreaName
+        if name == "" {
+            name = "Unknown"
+        }
+        if _, ok := areaMinutes[name]; ok {
+            continue
+        }
+        minutes := room.AreaResetMinutes
+        if minutes <= 0 {
+            minutes = defaultMinutes
+        } else {
+            overrides[name] = minutes
+        }
+        areaMinutes[name] = minutes
+    }
+    w.mu.RUnlock()
+
+    if logger == nil {
+        return
+    }
+
+    if len(areaMinutes) == 0 {
+        logger("Respawn tick: no areas loaded")
+        return
+    }
+
+    if len(overrides) == 0 {
+        logger(fmt.Sprintf("Respawn tick: default=%dm, areas=%d", defaultMinutes, len(areaMinutes)))
+        return
+    }
+
+    names := make([]string, 0, len(overrides))
+    for name := range overrides {
+        names = append(names, name)
+    }
+    sort.Strings(names)
+    parts := make([]string, 0, len(names))
+    for _, name := range names {
+        parts = append(parts, fmt.Sprintf("%s=%dm", name, overrides[name]))
+    }
+
+    logger(fmt.Sprintf("Respawn tick: default=%dm, areas=%d, overrides: %s", defaultMinutes, len(areaMinutes), strings.Join(parts, ", ")))
 }

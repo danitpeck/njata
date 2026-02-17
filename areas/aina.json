@@ -1,6 +1,7 @@
 {
   "name": "Incomplete City",
   "author": "Zoie",
+  "reset_minutes": 15,
   "rooms": {
     "4700": {
       "vnum": 4700,
@@ -13,7 +14,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4701": {
       "vnum": 4701,
@@ -29,7 +32,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4737,
+          "count": 5,
+          "room": 4701
+        }
+      ],
+      "object_resets": []
     },
     "4702": {
       "vnum": 4702,
@@ -43,7 +54,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4703": {
       "vnum": 4703,
@@ -57,7 +70,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4704": {
       "vnum": 4704,
@@ -71,7 +86,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4706,
+          "count": 4,
+          "room": 4704
+        }
+      ],
+      "object_resets": []
     },
     "4705": {
       "vnum": 4705,
@@ -86,7 +109,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4706": {
       "vnum": 4706,
@@ -100,7 +125,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4707": {
       "vnum": 4707,
@@ -115,7 +142,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4708": {
       "vnum": 4708,
@@ -128,7 +157,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4709": {
       "vnum": 4709,
@@ -142,7 +173,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4710": {
       "vnum": 4710,
@@ -156,7 +189,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4711": {
       "vnum": 4711,
@@ -169,7 +204,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4720,
+          "count": 1,
+          "room": 4711
+        }
+      ],
+      "object_resets": []
     },
     "4712": {
       "vnum": 4712,
@@ -183,7 +226,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4713": {
       "vnum": 4713,
@@ -198,7 +243,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4714": {
       "vnum": 4714,
@@ -212,7 +259,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4715": {
       "vnum": 4715,
@@ -226,7 +275,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4716": {
       "vnum": 4716,
@@ -239,7 +290,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4717": {
       "vnum": 4717,
@@ -256,7 +309,9 @@
         "stone": "The ledge is wide enough to the west that a single person\ncould make their way in that direction, being careful with\ntheir footing, though if there is anything to be found there,\nthat would take some investigating to discover."
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4718": {
       "vnum": 4718,
@@ -270,7 +325,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4723,
+          "count": 2,
+          "room": 4718
+        }
+      ],
+      "object_resets": []
     },
     "4719": {
       "vnum": 4719,
@@ -284,7 +347,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4720": {
       "vnum": 4720,
@@ -299,7 +364,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4721": {
       "vnum": 4721,
@@ -312,7 +379,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4722": {
       "vnum": 4722,
@@ -326,7 +395,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4722,
+          "count": 3,
+          "room": 4722
+        }
+      ],
+      "object_resets": []
     },
     "4723": {
       "vnum": 4723,
@@ -340,7 +417,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4724": {
       "vnum": 4724,
@@ -354,7 +433,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4725": {
       "vnum": 4725,
@@ -369,7 +450,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4726": {
       "vnum": 4726,
@@ -383,7 +466,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4721,
+          "count": 1,
+          "room": 4726
+        }
+      ],
+      "object_resets": []
     },
     "4727": {
       "vnum": 4727,
@@ -398,7 +489,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4728": {
       "vnum": 4728,
@@ -416,7 +509,15 @@
         "wall": "The wall is made up from bricks, most of them of uniform size,\nexcept for one in the center of the wall."
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4750,
+          "count": 1,
+          "room": 4728
+        }
+      ],
+      "object_resets": []
     },
     "4729": {
       "vnum": 4729,
@@ -429,7 +530,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4707,
+          "count": 1,
+          "room": 4729
+        }
+      ],
+      "object_resets": []
     },
     "4730": {
       "vnum": 4730,
@@ -442,7 +551,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4712,
+          "count": 1,
+          "room": 4730
+        }
+      ],
+      "object_resets": []
     },
     "4731": {
       "vnum": 4731,
@@ -456,7 +573,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4732": {
       "vnum": 4732,
@@ -470,7 +589,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4733": {
       "vnum": 4733,
@@ -484,7 +605,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4734": {
       "vnum": 4734,
@@ -499,7 +622,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4735": {
       "vnum": 4735,
@@ -513,7 +638,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4736": {
       "vnum": 4736,
@@ -527,7 +654,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4737": {
       "vnum": 4737,
@@ -541,7 +670,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4738": {
       "vnum": 4738,
@@ -555,7 +686,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4739": {
       "vnum": 4739,
@@ -572,7 +705,9 @@
         "sign": "Hours of Operation\n     4am - 10pm"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4740": {
       "vnum": 4740,
@@ -585,7 +720,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4700,
+          "count": 1,
+          "room": 4740
+        }
+      ],
+      "object_resets": []
     },
     "4741": {
       "vnum": 4741,
@@ -599,7 +742,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4742": {
       "vnum": 4742,
@@ -614,7 +759,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4743": {
       "vnum": 4743,
@@ -628,7 +775,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4744": {
       "vnum": 4744,
@@ -642,7 +791,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4745": {
       "vnum": 4745,
@@ -659,7 +810,9 @@
         "sign": "Hours of Operation\n     4am - 10pm"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4746": {
       "vnum": 4746,
@@ -673,7 +826,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4747": {
       "vnum": 4747,
@@ -687,7 +842,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4731,
+          "count": 8,
+          "room": 4747
+        }
+      ],
+      "object_resets": []
     },
     "4748": {
       "vnum": 4748,
@@ -702,7 +865,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4800,
+          "count": 3,
+          "room": 4748
+        }
+      ],
+      "object_resets": []
     },
     "4749": {
       "vnum": 4749,
@@ -715,7 +886,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4701,
+          "count": 1,
+          "room": 4749
+        }
+      ],
+      "object_resets": []
     },
     "4750": {
       "vnum": 4750,
@@ -729,7 +908,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4751": {
       "vnum": 4751,
@@ -742,7 +923,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4709,
+          "count": 1,
+          "room": 4751
+        }
+      ],
+      "object_resets": []
     },
     "4752": {
       "vnum": 4752,
@@ -756,7 +945,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4753": {
       "vnum": 4753,
@@ -770,7 +961,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4754": {
       "vnum": 4754,
@@ -785,7 +978,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4755": {
       "vnum": 4755,
@@ -799,7 +994,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4756": {
       "vnum": 4756,
@@ -813,7 +1010,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4757": {
       "vnum": 4757,
@@ -830,7 +1029,9 @@
         "sign": "Hours of Operation\n      4am - 10pm"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4758": {
       "vnum": 4758,
@@ -843,7 +1044,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4717,
+          "count": 1,
+          "room": 4758
+        }
+      ],
+      "object_resets": []
     },
     "4759": {
       "vnum": 4759,
@@ -856,7 +1065,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4705,
+          "count": 1,
+          "room": 4759
+        }
+      ],
+      "object_resets": []
     },
     "4760": {
       "vnum": 4760,
@@ -870,7 +1087,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4761": {
       "vnum": 4761,
@@ -884,7 +1103,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4741,
+          "count": 2,
+          "room": 4761
+        }
+      ],
+      "object_resets": []
     },
     "4762": {
       "vnum": 4762,
@@ -899,7 +1126,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4724,
+          "count": 2,
+          "room": 4762
+        }
+      ],
+      "object_resets": []
     },
     "4763": {
       "vnum": 4763,
@@ -912,7 +1147,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4713,
+          "count": 1,
+          "room": 4763
+        }
+      ],
+      "object_resets": []
     },
     "4764": {
       "vnum": 4764,
@@ -925,7 +1168,40 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4714,
+          "count": 1,
+          "room": 4764
+        },
+        {
+          "vnum": 4715,
+          "count": 1,
+          "room": 4764
+        },
+        {
+          "vnum": 4716,
+          "count": 1,
+          "room": 4764
+        },
+        {
+          "vnum": 4740,
+          "count": 1,
+          "room": 4764
+        },
+        {
+          "vnum": 4742,
+          "count": 1,
+          "room": 4764
+        },
+        {
+          "vnum": 4743,
+          "count": 1,
+          "room": 4764
+        }
+      ],
+      "object_resets": []
     },
     "4765": {
       "vnum": 4765,
@@ -940,7 +1216,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4766": {
       "vnum": 4766,
@@ -954,7 +1232,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4767": {
       "vnum": 4767,
@@ -968,7 +1248,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4768": {
       "vnum": 4768,
@@ -983,7 +1265,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4769": {
       "vnum": 4769,
@@ -998,7 +1282,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4770": {
       "vnum": 4770,
@@ -1013,7 +1299,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4730,
+          "count": 3,
+          "room": 4770
+        }
+      ],
+      "object_resets": []
     },
     "4771": {
       "vnum": 4771,
@@ -1027,7 +1321,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4710,
+          "count": 1,
+          "room": 4771
+        }
+      ],
+      "object_resets": []
     },
     "4772": {
       "vnum": 4772,
@@ -1041,7 +1343,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4773": {
       "vnum": 4773,
@@ -1055,7 +1359,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4704,
+          "count": 8,
+          "room": 4773
+        }
+      ],
+      "object_resets": []
     },
     "4774": {
       "vnum": 4774,
@@ -1069,7 +1381,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4775": {
       "vnum": 4775,
@@ -1084,7 +1398,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4725,
+          "count": 4,
+          "room": 4775
+        }
+      ],
+      "object_resets": []
     },
     "4776": {
       "vnum": 4776,
@@ -1098,7 +1420,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4777": {
       "vnum": 4777,
@@ -1114,7 +1438,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4778": {
       "vnum": 4778,
@@ -1127,7 +1453,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4703,
+          "count": 1,
+          "room": 4778
+        }
+      ],
+      "object_resets": []
     },
     "4779": {
       "vnum": 4779,
@@ -1140,7 +1474,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4780": {
       "vnum": 4780,
@@ -1153,7 +1489,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4732,
+          "count": 1,
+          "room": 4780
+        }
+      ],
+      "object_resets": []
     },
     "4781": {
       "vnum": 4781,
@@ -1167,7 +1511,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4744,
+          "count": 2,
+          "room": 4781
+        }
+      ],
+      "object_resets": []
     },
     "4782": {
       "vnum": 4782,
@@ -1184,7 +1536,9 @@
         "sign": "Hours of Operation\n      4am - 10pm"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4783": {
       "vnum": 4783,
@@ -1197,7 +1551,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4711,
+          "count": 1,
+          "room": 4783
+        }
+      ],
+      "object_resets": []
     },
     "4784": {
       "vnum": 4784,
@@ -1211,7 +1573,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4785": {
       "vnum": 4785,
@@ -1229,7 +1593,9 @@
         "small": "Hours of Operation\n      4am - 10pm"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4786": {
       "vnum": 4786,
@@ -1242,7 +1608,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4702,
+          "count": 1,
+          "room": 4786
+        }
+      ],
+      "object_resets": []
     },
     "4787": {
       "vnum": 4787,
@@ -1256,7 +1630,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4788": {
       "vnum": 4788,
@@ -1270,7 +1646,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4789": {
       "vnum": 4789,
@@ -1284,7 +1662,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4790": {
       "vnum": 4790,
@@ -1299,7 +1679,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4739,
+          "count": 3,
+          "room": 4790
+        }
+      ],
+      "object_resets": []
     },
     "4791": {
       "vnum": 4791,
@@ -1313,7 +1701,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4792": {
       "vnum": 4792,
@@ -1326,7 +1716,25 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4718,
+          "count": 1,
+          "room": 4792
+        },
+        {
+          "vnum": 4719,
+          "count": 1,
+          "room": 4792
+        },
+        {
+          "vnum": 4748,
+          "count": 1,
+          "room": 4792
+        }
+      ],
+      "object_resets": []
     },
     "4793": {
       "vnum": 4793,
@@ -1340,7 +1748,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4794": {
       "vnum": 4794,
@@ -1355,7 +1765,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4795": {
       "vnum": 4795,
@@ -1369,7 +1781,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4796": {
       "vnum": 4796,
@@ -1383,7 +1797,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4708,
+          "count": 4,
+          "room": 4796
+        }
+      ],
+      "object_resets": []
     },
     "4797": {
       "vnum": 4797,
@@ -1397,7 +1819,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4798": {
       "vnum": 4798,
@@ -1412,7 +1836,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4799": {
       "vnum": 4799,
@@ -1425,7 +1851,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4738,
+          "count": 1,
+          "room": 4799
+        }
+      ],
+      "object_resets": []
     },
     "4800": {
       "vnum": 4800,
@@ -1439,7 +1873,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4801": {
       "vnum": 4801,
@@ -1453,7 +1889,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4802": {
       "vnum": 4802,
@@ -1467,7 +1905,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4803": {
       "vnum": 4803,
@@ -1481,7 +1921,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4804": {
       "vnum": 4804,
@@ -1495,7 +1937,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4805": {
       "vnum": 4805,
@@ -1510,7 +1954,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4806": {
       "vnum": 4806,
@@ -1524,7 +1970,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4807": {
       "vnum": 4807,
@@ -1538,7 +1986,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4808": {
       "vnum": 4808,
@@ -1552,7 +2002,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4809": {
       "vnum": 4809,
@@ -1567,7 +2019,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4810": {
       "vnum": 4810,
@@ -1580,7 +2034,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4811": {
       "vnum": 4811,
@@ -1594,7 +2050,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4812": {
       "vnum": 4812,
@@ -1607,7 +2065,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 4823,
+          "count": 1,
+          "room": 4812
+        }
+      ]
     },
     "4813": {
       "vnum": 4813,
@@ -1625,7 +2091,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4726,
+          "count": 3,
+          "room": 4813
+        }
+      ],
+      "object_resets": []
     },
     "4814": {
       "vnum": 4814,
@@ -1643,7 +2117,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4815": {
       "vnum": 4815,
@@ -1659,7 +2135,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4816": {
       "vnum": 4816,
@@ -1675,7 +2153,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4727,
+          "count": 2,
+          "room": 4816
+        }
+      ],
+      "object_resets": []
     },
     "4817": {
       "vnum": 4817,
@@ -1689,7 +2175,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4818": {
       "vnum": 4818,
@@ -1706,7 +2194,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4819": {
       "vnum": 4819,
@@ -1724,7 +2214,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4820": {
       "vnum": 4820,
@@ -1739,7 +2231,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4821": {
       "vnum": 4821,
@@ -1754,7 +2248,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4822": {
       "vnum": 4822,
@@ -1768,7 +2264,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4823": {
       "vnum": 4823,
@@ -1782,7 +2280,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4824": {
       "vnum": 4824,
@@ -1797,7 +2297,9 @@
         "up": "The stars sparkle across the velvet night sky, shimmering in their formations.\nTo the north the Tiger constellation sparkles above the Pardor mountains.\nThe right eye of the tiger is an unusual star, it seems to be encircled by two\ngolden rings and shines brighter than all the rest."
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4825": {
       "vnum": 4825,
@@ -1812,7 +2314,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4827": {
       "vnum": 4827,
@@ -1826,7 +2330,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4828": {
       "vnum": 4828,
@@ -1840,7 +2346,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4829": {
       "vnum": 4829,
@@ -1853,7 +2361,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4729,
+          "count": 1,
+          "room": 4829
+        }
+      ],
+      "object_resets": []
     },
     "4830": {
       "vnum": 4830,
@@ -1866,7 +2382,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4728,
+          "count": 1,
+          "room": 4830
+        }
+      ],
+      "object_resets": []
     },
     "4831": {
       "vnum": 4831,
@@ -1880,7 +2404,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4832": {
       "vnum": 4832,
@@ -1896,7 +2422,15 @@
         "long": "Amazingly symmetrical, this crack is shaped like a large arch.  A small\nhole sits in the center of the arch."
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4736,
+          "count": 1,
+          "room": 4832
+        }
+      ],
+      "object_resets": []
     },
     "4833": {
       "vnum": 4833,
@@ -1910,7 +2444,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4834": {
       "vnum": 4834,
@@ -1926,7 +2462,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4835": {
       "vnum": 4835,
@@ -1940,7 +2478,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4836": {
       "vnum": 4836,
@@ -1954,7 +2494,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4734,
+          "count": 2,
+          "room": 4836
+        }
+      ],
+      "object_resets": []
     },
     "4837": {
       "vnum": 4837,
@@ -1970,7 +2518,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4840": {
       "vnum": 4840,
@@ -1986,7 +2536,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4841": {
       "vnum": 4841,
@@ -2001,7 +2553,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4735,
+          "count": 1,
+          "room": 4841
+        }
+      ],
+      "object_resets": []
     },
     "4842": {
       "vnum": 4842,
@@ -2017,7 +2577,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4733,
+          "count": 3,
+          "room": 4842
+        }
+      ],
+      "object_resets": []
     },
     "4843": {
       "vnum": 4843,
@@ -2031,7 +2599,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4844": {
       "vnum": 4844,
@@ -2045,7 +2615,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4845": {
       "vnum": 4845,
@@ -2059,7 +2631,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4846": {
       "vnum": 4846,
@@ -2072,7 +2646,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4847": {
       "vnum": 4847,
@@ -2087,7 +2663,9 @@
         "sign": "***********************************************************\n*                                                         *\n*          Welcome to the Bank of Darkstone               *\n*                                                         *\n*        To deposit money type: bank deposit # coins      *\n*                                                         *\n*           To withdraw type: bank withdraw # coins       *\n*                                                         *\n* To see how much gold you have banked type: bank balance *\n*                                                         *\n***********************************************************"
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4848": {
       "vnum": 4848,
@@ -2100,7 +2678,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4849": {
       "vnum": 4849,
@@ -2119,7 +2699,9 @@
         "stones": "One stone in particular catches the eye, it is much smaller\nthan all the rest, and seems to be centered perfectly in this\nsection of wall, at just the right height to be pushed."
       },
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4850": {
       "vnum": 4850,
@@ -2135,7 +2717,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4851": {
       "vnum": 4851,
@@ -2153,7 +2737,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 4802,
+          "count": 1,
+          "room": 4851
+        }
+      ]
     },
     "4852": {
       "vnum": 4852,
@@ -2169,7 +2761,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 4745,
+          "count": 1,
+          "room": 4852
+        }
+      ],
+      "object_resets": []
     },
     "4853": {
       "vnum": 4853,
@@ -2185,7 +2785,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4854": {
       "vnum": 4854,
@@ -2201,7 +2803,9 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4855": {
       "vnum": 4855,
@@ -2217,7 +2821,15 @@
       },
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 4793,
+          "count": 1,
+          "room": 4855
+        }
+      ]
     },
     "4856": {
       "vnum": 4856,
@@ -2232,7 +2844,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4857": {
       "vnum": 4857,
@@ -2247,7 +2861,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4870": {
       "vnum": 4870,
@@ -2260,7 +2876,3331 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Incomplete City",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "4700": {
+      "vnum": 4700,
+      "keywords": [
+        "wellon",
+        "weaponsmaster",
+        "master",
+        "weapon"
+      ],
+      "short": "Wellon",
+      "long": "Wellon, the weaponsmaster, stands here looking formidable",
+      "race": "magical",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        18,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4701": {
+      "vnum": 4701,
+      "keywords": [
+        "Elwinian"
+      ],
+      "short": "Elwinian the Armourer",
+      "long": "Elwinian the Armourer stands behind the counter",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4702": {
+      "vnum": 4702,
+      "keywords": [
+        "Rugan",
+        "the",
+        "tailor"
+      ],
+      "short": "Rugan the tailor",
+      "long": "Rugan the tailor stands here, a crooked smile on her freckled face",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4703": {
+      "vnum": 4703,
+      "keywords": [
+        "oran",
+        "shopkeeper"
+      ],
+      "short": "Oran",
+      "long": "Oran stands here, his burly arms crossed over his massive chest",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        14,
+        14,
+        13,
+        13,
+        14,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4704": {
+      "vnum": 4704,
+      "keywords": [
+        "guard",
+        "dark",
+        "watch"
+      ],
+      "short": "a Dark Watch guard",
+      "long": "A guard belonging to the Dark Watch patrols the city",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        15,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4705": {
+      "vnum": 4705,
+      "keywords": [
+        "kel",
+        "shopkeeper"
+      ],
+      "short": "Kel the Shopkeeper",
+      "long": "Kel, the shopkeeper, stands with his nose buried in a book",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4706": {
+      "vnum": 4706,
+      "keywords": [
+        "stealthy",
+        "thief"
+      ],
+      "short": "a stealthy thief",
+      "long": "A stealthy thief keeps to the shadows, on the look out for easy victims",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4707": {
+      "vnum": 4707,
+      "keywords": [
+        "telvik",
+        "knife",
+        "seller"
+      ],
+      "short": "Telvik",
+      "long": "Telvik the knife seller watches you nervously with beady eyes",
+      "race": "firebird",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4708": {
+      "vnum": 4708,
+      "keywords": [
+        "drunken",
+        "sailor"
+      ],
+      "short": "a drunken sailor",
+      "long": "A drunken sailor staggers along singing a roudy ballad",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4709": {
+      "vnum": 4709,
+      "keywords": [
+        "Elshari",
+        "Kelsin",
+        "mageware",
+        "owner"
+      ],
+      "short": "Elshari Kelsin",
+      "long": "Elshari Kelsin, owner of the mageware shop hovers in the air before you",
+      "race": "dwarf",
+      "class": "bard",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4710": {
+      "vnum": 4710,
+      "keywords": [
+        "Roozle",
+        "wandering",
+        "magician"
+      ],
+      "short": "Roozle",
+      "long": "Roozle, the wandering magician stands here fingering through his spellbook",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        15,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4711": {
+      "vnum": 4711,
+      "keywords": [
+        "tatien",
+        "jeweller",
+        "shopkeeper"
+      ],
+      "short": "Tatien",
+      "long": "Tatien, the jeweler looks you over suspiciously.",
+      "race": "dryad",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4712": {
+      "vnum": 4712,
+      "keywords": [
+        "Kymer",
+        "foodseller",
+        "ragged"
+      ],
+      "short": "Kymer",
+      "long": "Kymer, a ragged looking, dirty foodseller stands by his stall",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4713": {
+      "vnum": 4713,
+      "keywords": [
+        "Rimbock",
+        "aina",
+        "stableman"
+      ],
+      "short": "Rimbock",
+      "long": "Rimbock the Aina stableman is busy cleaning out the stalls, a peg on his nose",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4714": {
+      "vnum": 4714,
+      "keywords": [
+        "large",
+        "gray",
+        "warhorse"
+      ],
+      "short": "a large warhorse",
+      "long": "A large gray warhorse stands here proudly, its head held high.",
+      "race": "crustacean",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4715": {
+      "vnum": 4715,
+      "keywords": [
+        "great",
+        "black",
+        "stallion"
+      ],
+      "short": "a great black stallion",
+      "long": "A great black stallion stands here, snorting softly.",
+      "race": "crustacean",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4716": {
+      "vnum": 4716,
+      "keywords": [
+        "small",
+        "weak",
+        "mule"
+      ],
+      "short": "a small mule",
+      "long": "A small, weak mule stands here with it's head hung",
+      "race": "crustacean",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4717": {
+      "vnum": 4717,
+      "keywords": [
+        "Hodgem",
+        "innkeeper"
+      ],
+      "short": "Hodgem the innkeeper",
+      "long": "Hodgem, the innkeeper, beams a smile at you from his rotund, happy face.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4718": {
+      "vnum": 4718,
+      "keywords": [
+        "Loonara",
+        "barmaid"
+      ],
+      "short": "Loonara the barmaid",
+      "long": "Loonara the barmaid bustles about busily",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4719": {
+      "vnum": 4719,
+      "keywords": [
+        "elmus",
+        "innkeep"
+      ],
+      "short": "Elmus",
+      "long": "Elmus the innkeep is standing here, his arms folded over his large stomach",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4720": {
+      "vnum": 4720,
+      "keywords": [
+        "Flitch",
+        "tavern",
+        "owner"
+      ],
+      "short": "Flitch",
+      "long": "Flitch the tavern owner stands behind the bar brooding",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4721": {
+      "vnum": 4721,
+      "keywords": [
+        "Kraggus",
+        "innkeep"
+      ],
+      "short": "Kraggus",
+      "long": "Kraggus, the half-orc inkeeper, stands behind the counter, a twisted grimace on his face",
+      "race": "cyclops",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4722": {
+      "vnum": 4722,
+      "keywords": [
+        "beggar",
+        "ragged",
+        "clothes"
+      ],
+      "short": "a ragged beggar",
+      "long": "A beggar dressed in ragged clothes shuffles along dejectedly",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4723": {
+      "vnum": 4723,
+      "keywords": [
+        "penniless",
+        "peasant"
+      ],
+      "short": "a penniless peasant",
+      "long": "A penniless peasant is here begging for a scrap of food",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4724": {
+      "vnum": 4724,
+      "keywords": [
+        "captain",
+        "aina",
+        "dark",
+        "watch"
+      ],
+      "short": "A Dark Watch Captain",
+      "long": "A Captain of the Dark Watch patrols the streets of aina",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4725": {
+      "vnum": 4725,
+      "keywords": [
+        "noblewoman"
+      ],
+      "short": "a noblewoman",
+      "long": "A noblewoman strides along, her head held high",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4726": {
+      "vnum": 4726,
+      "keywords": [
+        "cutthroat",
+        "crew",
+        "member"
+      ],
+      "short": "a cutthroat",
+      "long": "A cutthroat crew member jumps to the attack",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4727": {
+      "vnum": 4727,
+      "keywords": [
+        "one-eyed",
+        "one",
+        "eyed",
+        "pirate"
+      ],
+      "short": "a one-eyed pirate",
+      "long": "A one-eyed pirate lunges to the attack, his features twisted into a snarl",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4728": {
+      "vnum": 4728,
+      "keywords": [
+        "captain",
+        "of",
+        "the",
+        "pirate",
+        "ship"
+      ],
+      "short": "the captain",
+      "long": "The captain of the pirate ship pores over his maps",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4729": {
+      "vnum": 4729,
+      "keywords": [
+        "first",
+        "mate",
+        "pirate",
+        "ship"
+      ],
+      "short": "the first mate",
+      "long": "The first mate of the pirate ship is here, ready to defend the vessel",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4730": {
+      "vnum": 4730,
+      "keywords": [
+        "katrin",
+        "traveller"
+      ],
+      "short": "a katrin traveller",
+      "long": "A Katrin traveller wanders the streets, admiring the sights",
+      "race": "naiad",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4731": {
+      "vnum": 4731,
+      "keywords": [
+        "aina",
+        "commoner"
+      ],
+      "short": "an aina commoner",
+      "long": "An Aina commoner trudges through the streets of the city",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4732": {
+      "vnum": 4732,
+      "keywords": [
+        "ershim",
+        "repairsmith"
+      ],
+      "short": "Ershim",
+      "long": "Ershim the repairsmith stand here working on a suit of armour",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4733": {
+      "vnum": 4733,
+      "keywords": [
+        "young",
+        "firedrake",
+        "drake"
+      ],
+      "short": "a young firedrake",
+      "long": "A young firedrake wanders lazily among the flowers",
+      "race": "beetle",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4734": {
+      "vnum": 4734,
+      "keywords": [
+        "giant",
+        "dragonfly"
+      ],
+      "short": "a giant dragonfly",
+      "long": "A giant dragonfly buzzes through the air",
+      "race": "bugbear",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4735": {
+      "vnum": 4735,
+      "keywords": [
+        "majestic",
+        "silver",
+        "unicorn"
+      ],
+      "short": "a majestic silver unicorn",
+      "long": "A majestic silver unicorn trots through the gardens",
+      "race": "fish",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4736": {
+      "vnum": 4736,
+      "keywords": [
+        "bulky",
+        "gardener"
+      ],
+      "short": "a bulky gardener",
+      "long": "A bulky gardener stands here checking his tools",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4737": {
+      "vnum": 4737,
+      "keywords": [
+        "young",
+        "lord"
+      ],
+      "short": "a young lord",
+      "long": "A young lord strolls through the street, ignoring everyone",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4738": {
+      "vnum": 4738,
+      "keywords": [
+        "halfling",
+        "teacher",
+        "short"
+      ],
+      "short": "A halfling",
+      "long": "A small halfling sits here, on a stone.",
+      "race": "half-elf",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4739": {
+      "vnum": 4739,
+      "keywords": [
+        "young",
+        "kettin",
+        "dwarf"
+      ],
+      "short": "a young Kettin dwarf",
+      "long": "A young Kettin dwarf wanders the street, enjoying his time away from home.",
+      "race": "elf",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4740": {
+      "vnum": 4740,
+      "keywords": [
+        "tame",
+        "saddle",
+        "Kendig"
+      ],
+      "short": "a tame saddle Kendig",
+      "long": "A tame saddle Kendig stands nearby, snorting softly.",
+      "race": "zombie",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4741": {
+      "vnum": 4741,
+      "keywords": [
+        "young",
+        "errand",
+        "boy"
+      ],
+      "short": "a young errand boy",
+      "long": "A young errand boy hurries along, an eager look in his eye.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4742": {
+      "vnum": 4742,
+      "keywords": [
+        "kettin",
+        "pony"
+      ],
+      "short": "a Kettin pony",
+      "long": "A Ketting pony with long, shaggy hair stands here, flicking its tail.",
+      "race": "crustacean",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 10,
+      "max_mana": 10,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4743": {
+      "vnum": 4743,
+      "keywords": [
+        "young",
+        "arayan",
+        "trained",
+        "elephant"
+      ],
+      "short": "a young Arayan elephant",
+      "long": "A young, trained, Arayan elephant stands here, patiently awaiting its master.",
+      "race": "crustacean",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4744": {
+      "vnum": 4744,
+      "keywords": [
+        "darkly",
+        "tanned",
+        "veteran"
+      ],
+      "short": "a veteran",
+      "long": "A darkly tanned veteran stands nearby, watching everything with a keen gaze.",
+      "race": "lizardfolk",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4745": {
+      "vnum": 4745,
+      "keywords": [
+        "smuggler",
+        "leader"
+      ],
+      "short": "a smuggler leader",
+      "long": "The leader of the smugglers glares at you from behind his desk.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 50,
+      "hp": 50,
+      "mana": 600,
+      "max_mana": 600,
+      "attributes": [
+        18,
+        18,
+        18,
+        17,
+        25,
+        18,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "4746": {
+      "vnum": 4746,
+      "keywords": [
+        "lock",
+        "keeper"
+      ],
+      "short": "a lock keeper",
+      "long": "The mob lock keeper for the Kettin King's gem room is here. This mob is from Aina.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4747": {
+      "vnum": 4747,
+      "keywords": [
+        "lock",
+        "keeper"
+      ],
+      "short": "a lock keeper",
+      "long": "A lock keeper stands here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4748": {
+      "vnum": 4748,
+      "keywords": [
+        "Toraak",
+        "sculptor"
+      ],
+      "short": "a sculptor",
+      "long": "A man is sitting on one of the chairs here, creating a small sculpture out of stone.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4749": {
+      "vnum": 4749,
+      "keywords": [
+        "dark",
+        "eyed",
+        "ruffian",
+        "leader"
+      ],
+      "short": "leader of the ruffians",
+      "long": "The leader of the band of ruffians glares at you.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "4750": {
+      "vnum": 4750,
+      "keywords": [
+        "ogre",
+        "shaman"
+      ],
+      "short": "an ogre shaman",
+      "long": "An old ogre searches through the piles of rubbish.",
+      "race": "animal",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 35,
+      "hp": 35,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        16,
+        14,
+        12,
+        16,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "4800": {
+      "vnum": 4800,
+      "keywords": [
+        "frank",
+        "dark",
+        "eyed",
+        "ruffian"
+      ],
+      "short": "a dark eyed ruffian",
+      "long": "A dark eyed ruffian prowls the street, hunting for trouble.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "4700": {
+      "vnum": 4700,
+      "keywords": [
+        "double",
+        "bladed",
+        "broadsword"
+      ],
+      "type": "weapon",
+      "short": "a double-bladed broadsword",
+      "long": "A double-bladed broadsword lies on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4701": {
+      "vnum": 4701,
+      "keywords": [
+        "barbed",
+        "leather",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a barbed leather whip",
+      "long": "A barbed whip lies coiled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4702": {
+      "vnum": 4702,
+      "keywords": [
+        "heavy",
+        "steel",
+        "flail"
+      ],
+      "type": "weapon",
+      "short": "a heavy steel flail",
+      "long": "A steel flail lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4703": {
+      "vnum": 4703,
+      "keywords": [
+        "minotaur",
+        "warhammer"
+      ],
+      "type": "weapon",
+      "short": "a minotaur warhammer",
+      "long": "A minotaur warhammer lies in the dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4704": {
+      "vnum": 4704,
+      "keywords": [
+        "shiny",
+        "silver",
+        "footman's",
+        "footmans",
+        "lance"
+      ],
+      "type": "weapon",
+      "short": "a footman's lance",
+      "long": "A shiny silver footman's lance lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4705": {
+      "vnum": 4705,
+      "keywords": [
+        "arayan",
+        "greatsword"
+      ],
+      "type": "weapon",
+      "short": "an Arayan greatsword",
+      "long": "A greatsword of Arayan craftsmanship lies here rusting.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4706": {
+      "vnum": 4706,
+      "keywords": [
+        "light",
+        "grey",
+        "tunic"
+      ],
+      "type": "armor",
+      "short": "a light grey tunic",
+      "long": "A light grey tunic lies on the ground gathering dust",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4707": {
+      "vnum": 4707,
+      "keywords": [
+        "wool",
+        "vest"
+      ],
+      "type": "armor",
+      "short": "a wool vest",
+      "long": "A wool vest has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4708": {
+      "vnum": 4708,
+      "keywords": [
+        "thick",
+        "wool",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "a thick wool cloak",
+      "long": "A thick cloak made from wool has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4709": {
+      "vnum": 4709,
+      "keywords": [
+        "pair",
+        "thick",
+        "walking",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of walking boots",
+      "long": "A pair of thick walking boots lie on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4710": {
+      "vnum": 4710,
+      "keywords": [
+        "dragon",
+        "marked",
+        "longsword",
+        "sword",
+        "long"
+      ],
+      "type": "weapon",
+      "short": "a dragon marked longsword",
+      "long": "A longsword, marked with the sign of the dragon lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4711": {
+      "vnum": 4711,
+      "keywords": [
+        "royal",
+        "battleaxe"
+      ],
+      "type": "weapon",
+      "short": "a royal battleaxe",
+      "long": "A battleaxe with golden inlays has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4712": {
+      "vnum": 4712,
+      "keywords": [
+        "massive",
+        "steel",
+        "claymore"
+      ],
+      "type": "weapon",
+      "short": "a massive steel claymore",
+      "long": "A massive claymore made from tarnished steel rests here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4713": {
+      "vnum": 4713,
+      "keywords": [
+        "guard's",
+        "guards",
+        "tunic",
+        "leather"
+      ],
+      "type": "armor",
+      "short": "a guard's tunic",
+      "long": "A guard's tunic lies on the ground in a pile",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4714": {
+      "vnum": 4714,
+      "keywords": [
+        "shiny",
+        "metal",
+        "lantern"
+      ],
+      "type": "light",
+      "short": "a shiny metal lantern",
+      "long": "A shiny metal lantern has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4715": {
+      "vnum": 4715,
+      "keywords": [
+        "small",
+        "water",
+        "flask"
+      ],
+      "type": "container",
+      "short": "a small water flask",
+      "long": "A small water flask has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4716": {
+      "vnum": 4716,
+      "keywords": [
+        "small",
+        "chest"
+      ],
+      "type": "trash",
+      "short": "a small chest",
+      "long": "A small chest has been dropped on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4717": {
+      "vnum": 4717,
+      "keywords": [
+        "tiger",
+        "claw"
+      ],
+      "type": "weapon",
+      "short": "a tiger claw",
+      "long": "A tiger claw fixed to a short pole lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4718": {
+      "vnum": 4718,
+      "keywords": [
+        "ogre",
+        "warclub"
+      ],
+      "type": "weapon",
+      "short": "an ogre warclub",
+      "long": "A huge ogre warclub has been abandoned here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4719": {
+      "vnum": 4719,
+      "keywords": [
+        "portable",
+        "water",
+        "barrel"
+      ],
+      "type": "container",
+      "short": "a portable water barrel",
+      "long": "A portable water barrel has been carelessly dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4720": {
+      "vnum": 4720,
+      "keywords": [
+        "knight's",
+        "knights",
+        "helmet"
+      ],
+      "type": "armor",
+      "short": "a knight's helmet",
+      "long": "A helmet worn by knights has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4721": {
+      "vnum": 4721,
+      "keywords": [
+        "kite",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a kite shield",
+      "long": "A huge, heavy-looking kite shield has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4722": {
+      "vnum": 4722,
+      "keywords": [
+        "silver",
+        "breastplate",
+        "breast"
+      ],
+      "type": "armor",
+      "short": "a silver breastplate",
+      "long": "A silver breastplate lies here gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4723": {
+      "vnum": 4723,
+      "keywords": [
+        "silver",
+        "bracers"
+      ],
+      "type": "armor",
+      "short": "a pair of silver bracers",
+      "long": "A pair of silver braces have been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4724": {
+      "vnum": 4724,
+      "keywords": [
+        "skull",
+        "shaped",
+        "helm"
+      ],
+      "type": "armor",
+      "short": "a skull shaped helm",
+      "long": "A helm shaped like a skull lies on the floor",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4725": {
+      "vnum": 4725,
+      "keywords": [
+        "heavy",
+        "iron",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of heavy iron boots",
+      "long": "A pair of boots made from iron have been left here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4726": {
+      "vnum": 4726,
+      "keywords": [
+        "dark",
+        "blue",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "a dark blue cloak",
+      "long": "A dark blue cloak lies in a heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4727": {
+      "vnum": 4727,
+      "keywords": [
+        "large",
+        "steel",
+        "flamberge"
+      ],
+      "type": "weapon",
+      "short": "a steel flamberge",
+      "long": "A large steel flamberge has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4728": {
+      "vnum": 4728,
+      "keywords": [
+        "royal",
+        "morningstar",
+        "morning",
+        "star"
+      ],
+      "type": "weapon",
+      "short": "a royal morningstar",
+      "long": "A morningstar bearing the royal crest of Aina lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4729": {
+      "vnum": 4729,
+      "keywords": [
+        "serrated",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a serrated knife",
+      "long": "A knife with an evil looking serrated edge has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4730": {
+      "vnum": 4730,
+      "keywords": [
+        "gutting",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a gutting knife",
+      "long": "A gutting knife has been carelessly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4731": {
+      "vnum": 4731,
+      "keywords": [
+        "telviks",
+        "telvik's",
+        "backstabber",
+        "back"
+      ],
+      "type": "weapon",
+      "short": "Telvik's backstabber",
+      "long": "A long knife with the words Telvik's Backstabber on the blade has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4732": {
+      "vnum": 4732,
+      "keywords": [
+        "bright",
+        "blue",
+        "jerkin"
+      ],
+      "type": "armor",
+      "short": "a bright blue jerkin",
+      "long": "A bright blue jerkin has been left on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4733": {
+      "vnum": 4733,
+      "keywords": [
+        "scroll",
+        "identify"
+      ],
+      "type": "scroll",
+      "short": "a scroll of identify",
+      "long": "A magical scroll of identify has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4734": {
+      "vnum": 4734,
+      "keywords": [
+        "scroll",
+        "cure",
+        "light",
+        "aqua",
+        "blue"
+      ],
+      "type": "scroll",
+      "short": "an aqua blue scroll",
+      "long": "An aqua blue scroll lies on the floor",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4735": {
+      "vnum": 4735,
+      "keywords": [
+        "staff",
+        "serpent"
+      ],
+      "type": "staff",
+      "short": "a serpent staff",
+      "long": "A green staff in the shape of a serpent lies on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4736": {
+      "vnum": 4736,
+      "keywords": [
+        "wand",
+        "silver",
+        "fireball"
+      ],
+      "type": "wand",
+      "short": "a silver wand",
+      "long": "A silver wand has been carelessly dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4737": {
+      "vnum": 4737,
+      "keywords": [
+        "small",
+        "ivory",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a small ivory ring",
+      "long": "A small ivory ring gleams on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4738": {
+      "vnum": 4738,
+      "keywords": [
+        "unicorn's",
+        "unicorns",
+        "horn"
+      ],
+      "type": "wand",
+      "short": "a unicorn's horn",
+      "long": "The horn of a unicorn has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4739": {
+      "vnum": 4739,
+      "keywords": [
+        "crown",
+        "ivy",
+        "leaves"
+      ],
+      "type": "armor",
+      "short": "a crown of ivy",
+      "long": "A crown made from ivy leaves has been discarded here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4740": {
+      "vnum": 4740,
+      "keywords": [
+        "pearl",
+        "earrings"
+      ],
+      "type": "armor",
+      "short": "pearl earrings",
+      "long": "A pair of pearl earrings lie on the ground here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4741": {
+      "vnum": 4741,
+      "keywords": [
+        "diamond",
+        "studded",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a diamond studded ring",
+      "long": "A diamond studded ring has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4742": {
+      "vnum": 4742,
+      "keywords": [
+        "dead",
+        "rat"
+      ],
+      "type": "drinkcon",
+      "short": "a dead rat",
+      "long": "A dead rat has been left here to rot",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4743": {
+      "vnum": 4743,
+      "keywords": [
+        "mashed",
+        "cockroach",
+        "paste"
+      ],
+      "type": "meat",
+      "short": "a tub of mashed cockroach paste",
+      "long": "A tub filled with a paste made from mashed cockroaches lies here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4744": {
+      "vnum": 4744,
+      "keywords": [
+        "suspicious",
+        "looking",
+        "sausage"
+      ],
+      "type": "meat",
+      "short": "a suspicious looking sausage",
+      "long": "A suspicious looking sausage has been dropped on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4745": {
+      "vnum": 4745,
+      "keywords": [
+        "stale",
+        "loaf",
+        "bread"
+      ],
+      "type": "drinkcon",
+      "short": "a loaf of stale bread",
+      "long": "A loaf of hard, stale bread has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4746": {
+      "vnum": 4746,
+      "keywords": [
+        "wristlet",
+        "purest",
+        "ivory"
+      ],
+      "type": "armor",
+      "short": "a wristlet of purest ivory",
+      "long": "A wristlet made from purest ivory lies on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4747": {
+      "vnum": 4747,
+      "keywords": [
+        "green",
+        "silk",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a green silk shirt",
+      "long": "A green silk shirt lies here in a heap",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4748": {
+      "vnum": 4748,
+      "keywords": [
+        "plain",
+        "sheet",
+        "of",
+        "parchment"
+      ],
+      "type": "trap",
+      "short": "a plain sheet of parchment",
+      "long": "A sheet of plain parchment rests on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4749": {
+      "vnum": 4749,
+      "keywords": [
+        "stick",
+        "charcoal"
+      ],
+      "type": "food",
+      "short": "a stick of charcoal",
+      "long": "A stick of charcoal has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4750": {
+      "vnum": 4750,
+      "keywords": [
+        "jug",
+        "dragons",
+        "breath"
+      ],
+      "type": "container",
+      "short": "a jug of dragons breath",
+      "long": "A jug of dragons breath lies here discarded",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4751": {
+      "vnum": 4751,
+      "keywords": [
+        "flask",
+        "Arayan",
+        "whiskey"
+      ],
+      "type": "container",
+      "short": "a flask of Arayan whiskey",
+      "long": "A flask of Arayan whiskey has been left here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4752": {
+      "vnum": 4752,
+      "keywords": [
+        "sailor's",
+        "sailors",
+        "delight",
+        "mug"
+      ],
+      "type": "container",
+      "short": "a mug of sailor's delight",
+      "long": "A mug of sailor's delight sits on the ground",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4753": {
+      "vnum": 4753,
+      "keywords": [
+        "bottle",
+        "eyan",
+        "beer"
+      ],
+      "type": "container",
+      "short": "a bottle of Eyan beer",
+      "long": "A bottle of Eyan beer has been carelessly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4754": {
+      "vnum": 4754,
+      "keywords": [
+        "bottle",
+        "elmus'",
+        "dark",
+        "brew"
+      ],
+      "type": "container",
+      "short": "a bottle of Elmus' dark brew",
+      "long": "A bottle of Elmus' dark brew has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4755": {
+      "vnum": 4755,
+      "keywords": [
+        "bottle",
+        "dark",
+        "ale"
+      ],
+      "type": "container",
+      "short": "a bottle of dark ale",
+      "long": "A bottle of dark ale has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4756": {
+      "vnum": 4756,
+      "keywords": [
+        "mug",
+        "dwarven",
+        "whiskey"
+      ],
+      "type": "container",
+      "short": "a mug of dwarven whiskey",
+      "long": "A mug of dwarven whiskey has been left on the ground here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4757": {
+      "vnum": 4757,
+      "keywords": [
+        "bottle",
+        "orcish",
+        "mold",
+        "juice"
+      ],
+      "type": "container",
+      "short": "a bottle of Orcish mold juice",
+      "long": "A bottle of Orcish mold juice has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4758": {
+      "vnum": 4758,
+      "keywords": [
+        "keg",
+        "minotaur",
+        "spirits"
+      ],
+      "type": "container",
+      "short": "a keg of minotaur spirits",
+      "long": "A keg of minotaur spirts has been dropped here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4759": {
+      "vnum": 4759,
+      "keywords": [
+        "rags",
+        "beggar"
+      ],
+      "type": "armor",
+      "short": "the rags of a beggar",
+      "long": "The rags of a beggar lie here in a pile",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4760": {
+      "vnum": 4760,
+      "keywords": [
+        "longsword",
+        "insignia",
+        "dark",
+        "watch"
+      ],
+      "type": "weapon",
+      "short": "a longsword bearing the Dark Watch insignia",
+      "long": "A longsword bearing the insignia of the Aina Dark Watch rests here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4761": {
+      "vnum": 4761,
+      "keywords": [
+        "silver",
+        "captains",
+        "cutlass"
+      ],
+      "type": "weapon",
+      "short": "a silver captains cutlass",
+      "long": "A silver captains cutlass lies here gleaming.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4762": {
+      "vnum": 4762,
+      "keywords": [
+        "plain",
+        "white",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a plain white shirt",
+      "long": "A plain white shirt lies in a heap on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4763": {
+      "vnum": 4763,
+      "keywords": [
+        "small",
+        "silver",
+        "scythe"
+      ],
+      "type": "weapon",
+      "short": "a small silver scythe",
+      "long": "A small silver scythe has been left here to rust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4764": {
+      "vnum": 4764,
+      "keywords": [
+        "platter",
+        "roast",
+        "potatoes"
+      ],
+      "type": "drinkcon",
+      "short": "a platter of roast potatoes",
+      "long": "A platter of roast potatoes has been dropped here to go cold",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4765": {
+      "vnum": 4765,
+      "keywords": [
+        "oak",
+        "quaterstaff"
+      ],
+      "type": "weapon",
+      "short": "an oak quaterstaff",
+      "long": "An oak quaterstaff lies here forgotten",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4766": {
+      "vnum": 4766,
+      "keywords": [
+        "fingerless",
+        "silk",
+        "gloves"
+      ],
+      "type": "armor",
+      "short": "a pair of fingerless silk gloves",
+      "long": "A pair of fingerless silk gloves lie here gathering dirt",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4767": {
+      "vnum": 4767,
+      "keywords": [
+        "composite",
+        "longbow"
+      ],
+      "type": "weapon",
+      "short": "a composite longbow",
+      "long": "A composite longbow lies on the ground, awaiting an owner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4768": {
+      "vnum": 4768,
+      "keywords": [
+        "hardwood",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a hardwood shield",
+      "long": "A hardwood shield lies on the ground, unclaimed.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4770": {
+      "vnum": 4770,
+      "keywords": [
+        "dwarven",
+        "tabard"
+      ],
+      "type": "armor",
+      "short": "a dwarven tabard",
+      "long": "A blue tabard lies on the ground awaiting an owner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4771": {
+      "vnum": 4771,
+      "keywords": [
+        "elven",
+        "longbow"
+      ],
+      "type": "weapon",
+      "short": "an elven longbow",
+      "long": "An elven longbow, decorated with feathers, lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4772": {
+      "vnum": 4772,
+      "keywords": [
+        "steel",
+        "warhammer"
+      ],
+      "type": "weapon",
+      "short": "a steel warhammer",
+      "long": "A steel warhammer rests on the ground, gleaming brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4773": {
+      "vnum": 4773,
+      "keywords": [
+        "faded",
+        "brown",
+        "skirt"
+      ],
+      "type": "armor",
+      "short": "a faded brown skirt",
+      "long": "A faded brown skirt lies nearby, gathering dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4774": {
+      "vnum": 4774,
+      "keywords": [
+        "some",
+        "hardwood",
+        "shoulder",
+        "plates"
+      ],
+      "type": "armor",
+      "short": "some hardwood shoulder plates",
+      "long": "Some hardwood shoulder plates lie on the ground, slowly rotting.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4775": {
+      "vnum": 4775,
+      "keywords": [
+        "tower",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a tower shield",
+      "long": "A tower shield lies on the ground nearby, slowly rusting.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4776": {
+      "vnum": 4776,
+      "keywords": [
+        "iron",
+        "trident"
+      ],
+      "type": "weapon",
+      "short": "an iron trident",
+      "long": "An iron trident lies on the ground, seemingly forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4777": {
+      "vnum": 4777,
+      "keywords": [
+        "silver",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "a silver mace",
+      "long": "A silver mace rests nearby, gleaming dully.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4778": {
+      "vnum": 4778,
+      "keywords": [
+        "duelling",
+        "rapier"
+      ],
+      "type": "weapon",
+      "short": "a duelling rapier",
+      "long": "A long, thin, duelling rapier lies forgotten on the ground, gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4779": {
+      "vnum": 4779,
+      "keywords": [
+        "dark",
+        "watch",
+        "tabard"
+      ],
+      "type": "armor",
+      "short": "a dark watch tabard",
+      "long": "A black tabard bearing the dark watch lord's coat of arms lies in a heap here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4780": {
+      "vnum": 4780,
+      "keywords": [
+        "flowing",
+        "green",
+        "skirt"
+      ],
+      "type": "armor",
+      "short": "a flowing green skirt",
+      "long": "A flowing green skirt lies in a crumpled heap on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4781": {
+      "vnum": 4781,
+      "keywords": [
+        "flamboyant",
+        "red",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a flamboyant red shirt",
+      "long": "A flamboyant red shirt lies folded on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4782": {
+      "vnum": 4782,
+      "keywords": [
+        "embroidered",
+        "night",
+        "blue",
+        "gown"
+      ],
+      "type": "armor",
+      "short": "an embroidered blue gown",
+      "long": "An embroidered, night blue gown has been carelessly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4783": {
+      "vnum": 4783,
+      "keywords": [
+        "simple",
+        "cotton",
+        "longcoat"
+      ],
+      "type": "armor",
+      "short": "a cotton longcoat",
+      "long": "A cotton longcoat lies curled on the ground, apparently unowned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4784": {
+      "vnum": 4784,
+      "keywords": [
+        "black",
+        "velvet",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a black velvet shirt",
+      "long": "A black velvet shirt has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4785": {
+      "vnum": 4785,
+      "keywords": [
+        "red",
+        "satin",
+        "noble's",
+        "cap"
+      ],
+      "type": "armor",
+      "short": "a satin noble's cap",
+      "long": "A red satin noble's cap has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4786": {
+      "vnum": 4786,
+      "keywords": [
+        "necklace",
+        "pearls"
+      ],
+      "type": "armor",
+      "short": "a necklace of pearls",
+      "long": "A necklace of pearls lies here, surprisingly unclaimed.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4787": {
+      "vnum": 4787,
+      "keywords": [
+        "ivory",
+        "ear",
+        "hoop"
+      ],
+      "type": "armor",
+      "short": "an ivory ear hoop",
+      "long": "An ivory ear hoop lies nearby, collecting dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4788": {
+      "vnum": 4788,
+      "keywords": [
+        "pair",
+        "satin",
+        "sleeves"
+      ],
+      "type": "armor",
+      "short": "a pair of satin sleeves",
+      "long": "A pair of satin sleeves lies in a tangled heap nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4789": {
+      "vnum": 4789,
+      "keywords": [
+        "kendig",
+        "hide",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of kendig hide boots",
+      "long": "A pair of kendig hide boots lie here, unclaimed.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4790": {
+      "vnum": 4790,
+      "keywords": [
+        "silver",
+        "pin",
+        "shape",
+        "dove"
+      ],
+      "type": "armor",
+      "short": "a silver pin",
+      "long": "A silver pin, engraved in the shape of a dove, lies on the ground nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4791": {
+      "vnum": 4791,
+      "keywords": [
+        "shield",
+        "emblem",
+        "crown",
+        "veterans"
+      ],
+      "type": "armor",
+      "short": "a battered veteran's shield",
+      "long": "A battered shield bearing the emblem of a crown lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4792": {
+      "vnum": 4792,
+      "keywords": [
+        "seal",
+        "smuggler's",
+        "golden",
+        "disk"
+      ],
+      "type": "key",
+      "short": "a golden smuggler's seal",
+      "long": "A golden disk with a skull and crossbones etched on it is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4793": {
+      "vnum": 4793,
+      "keywords": [
+        "smuggler's",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "a smuggler's dagger",
+      "long": "A dagger with a somewhat dull sheen rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4794": {
+      "vnum": 4794,
+      "keywords": [
+        "platinum",
+        "band"
+      ],
+      "type": "armor",
+      "short": "a platinum band",
+      "long": "A small circle of platinum rests here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4795": {
+      "vnum": 4795,
+      "keywords": [
+        "Righteousness",
+        "shield",
+        "kite"
+      ],
+      "type": "armor",
+      "short": "a kite shield of righteousness",
+      "long": "A large kite shield rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4796": {
+      "vnum": 4796,
+      "keywords": [
+        "Despair",
+        "shield",
+        "kite"
+      ],
+      "type": "armor",
+      "short": "a kite shield of despair",
+      "long": "A large kite shield that is radiating evil rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4797": {
+      "vnum": 4797,
+      "keywords": [
+        "celestial",
+        "star"
+      ],
+      "type": "weapon",
+      "short": "the Celestial Star",
+      "long": "A sword with a golden blade is imbedded deep in the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4798": {
+      "vnum": 4798,
+      "keywords": [
+        "simple",
+        "silver",
+        "poniard"
+      ],
+      "type": "weapon",
+      "short": "a simple silver poniard",
+      "long": "A simple silver poniard is stuck in the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4799": {
+      "vnum": 4799,
+      "keywords": [
+        "boot",
+        "sheath"
+      ],
+      "type": "armor",
+      "short": "a boot sheath",
+      "long": "A sheath for holding daggers rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4800": {
+      "vnum": 4800,
+      "keywords": [
+        "leg",
+        "sheath"
+      ],
+      "type": "armor",
+      "short": "a leg sheath",
+      "long": "A sheath for a small dagger that ties onto ones leg is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4801": {
+      "vnum": 4801,
+      "keywords": [
+        "noblewoman's",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "a noblewoman's dagger",
+      "long": "A small dagger with an ivory hilt and a very sharp blade has been forgotten on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4802": {
+      "vnum": 4802,
+      "keywords": [
+        "intricate",
+        "lock"
+      ],
+      "type": "trash",
+      "short": "an intricate lock",
+      "long": "An intricate lock is attached to the door.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4803": {
+      "vnum": 4803,
+      "keywords": [
+        "golden",
+        "smuggler's",
+        "seal"
+      ],
+      "type": "key",
+      "short": "a golden smuggler's seal",
+      "long": "A golden disk with the symbol of the smugglers etched on it is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4804": {
+      "vnum": 4804,
+      "keywords": [
+        "diamond",
+        "stud",
+        "earrings"
+      ],
+      "type": "armor",
+      "short": "diamond stud earrings",
+      "long": "A pair of diamond stud earrings has been lost here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4805": {
+      "vnum": 4805,
+      "keywords": [
+        "rod",
+        "humility"
+      ],
+      "type": "weapon",
+      "short": "The Rod of Humility",
+      "long": "The Rod of Humility lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4806": {
+      "vnum": 4806,
+      "keywords": [
+        "key",
+        "aina"
+      ],
+      "type": "key",
+      "short": "a key of Aina",
+      "long": "A key that unlocks the shops of Aina rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4807": {
+      "vnum": 4807,
+      "keywords": [
+        "special",
+        "key"
+      ],
+      "type": "key",
+      "short": "a special key",
+      "long": "This special key is awfully special, you know.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4808": {
+      "vnum": 4808,
+      "keywords": [
+        "smuggler",
+        "key"
+      ],
+      "type": "key",
+      "short": "a smuggler key",
+      "long": "A smuggler's key grows rusty here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4809": {
+      "vnum": 4809,
+      "keywords": [
+        "Bannock"
+      ],
+      "type": "food",
+      "short": "a bannock cake",
+      "long": "A cake of bannock lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4810": {
+      "vnum": 4810,
+      "keywords": [
+        "May",
+        "Pole"
+      ],
+      "type": "furniture",
+      "short": "a May Pole",
+      "long": "A pole that has been stripped of bark up to the top which has been left with its bushy greens is decorated with flowers, ribbons, and eggs, and has ribbons of many colors hanging from its top.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4811": {
+      "vnum": 4811,
+      "keywords": [
+        "honey",
+        "wheat",
+        "beer"
+      ],
+      "type": "container",
+      "short": "a mug of honey wheat beer",
+      "long": "A mug of honey wheat beer sits on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4812": {
+      "vnum": 4812,
+      "keywords": [
+        "Diamond",
+        "Encrusted",
+        "Emerald",
+        "Leaf",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a diamond encrusted emerald leaf",
+      "long": "A lone oak leaf lies here shining brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4814": {
+      "vnum": 4814,
+      "keywords": [
+        "green",
+        "ouroboros",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a green ouroboros ring",
+      "long": "A peculiar green ring has been lost in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4815": {
+      "vnum": 4815,
+      "keywords": [
+        "long",
+        "duster",
+        "coat"
+      ],
+      "type": "armor",
+      "short": "a long duster coat",
+      "long": "A large and heavy black coat is getting dirty here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4816": {
+      "vnum": 4816,
+      "keywords": [
+        "emerald",
+        "leaf",
+        "ruby",
+        "thorns",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "an emerald leaf lined with ruby thorns",
+      "long": "A lone oak leaf lies here shining brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4817": {
+      "vnum": 4817,
+      "keywords": [
+        "black",
+        "leather",
+        "cap"
+      ],
+      "type": "armor",
+      "short": "a black leather cap",
+      "long": "A cap of black leather is lost on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4818": {
+      "vnum": 4818,
+      "keywords": [
+        "Heavy",
+        "Battle",
+        "Armoured",
+        "Breastplate"
+      ],
+      "type": "armor",
+      "short": "a Heavy Battle Armoured Breastplate",
+      "long": "A breastplate that has been through many battles rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4819": {
+      "vnum": 4819,
+      "keywords": [
+        "Dragonscale",
+        "bracers"
+      ],
+      "type": "armor",
+      "short": "dragonscale bracers",
+      "long": "Bracers made from dragonscales sit on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4820": {
+      "vnum": 4820,
+      "keywords": [
+        "Curbouille",
+        "Battle",
+        "Leggings"
+      ],
+      "type": "armor",
+      "short": "Curbouille Battle Leggings",
+      "long": "A set of battle leggings lie on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4821": {
+      "vnum": 4821,
+      "keywords": [
+        "wooden",
+        "toothpick"
+      ],
+      "type": "weapon",
+      "short": "a wooden toothpick",
+      "long": "A wooden toothpick has fallen into a crack.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4822": {
+      "vnum": 4822,
+      "keywords": [
+        "small",
+        "wooden",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a small wooden sign",
+      "long": "A small wooden sign sits at the end of the dock.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4823": {
+      "vnum": 4823,
+      "keywords": [
+        "small",
+        "sign"
+      ],
+      "type": "potion",
+      "short": "a small sign",
+      "long": "A small sign has been nailed to a docking post here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "4840": {
+      "vnum": 4840,
+      "keywords": [
+        "dwarven",
+        "warbow"
+      ],
+      "type": "weapon",
+      "short": "a dwarven warbow",
+      "long": "A dwarven warbow lies here, foolishly abandoned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

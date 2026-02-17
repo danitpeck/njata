@@ -1,6 +1,7 @@
 {
   "name": "Spectral Gate",
   "author": "Brittany",
+  "reset_minutes": 15,
   "rooms": {
     "100": {
       "vnum": 100,
@@ -19,7 +20,7 @@
         "down": 101
       },
       "exdescs": {
-        "'tapestry": "",
+        "'tapestry": "Key    'tapestry",
         "e": "This side looks very busy.  There is a large crossroads leading in many\ndirections.  You see a large grove and castle far to the east.  West of\nthe crossroads is a city gate.  You can see blackened mountains, an open\nabandoned looking town and caves that appear to be made for dwarves.",
         "east": "This side looks very busy.  There is a large crossroads leading in many\ndirections.  You see a large grove and castle far to the east.  West of\nthe crossroads is a city gate.  You can see blackened mountains, an open\nabandoned looking town and caves that appear to be made for dwarves.",
         "n": "Outside you see a large field leading to the base of a large mountain,\nabove which floats a radiant city dominated by a palatial structure.",
@@ -43,7 +44,21 @@
         "west": "You can make out a guarded city gate in this direction.  North of the\ngate is a small forest, inhabited by many small pixies.  Farther west\nand north is a large town.  Straight west is a huge tree which seems\nto stop the path at its base."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 101,
+          "count": 1,
+          "room": 100
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 124,
+          "count": 1,
+          "room": 100
+        }
+      ]
     },
     "101": {
       "vnum": 101,
@@ -81,7 +96,15 @@
         "walls": "These walls are made from a fine sample of cedar, decorative enough to\nrequire little in the way of painting and other decoration.  One painting\nadorns the wall behind the beautiful oak desk:  a painting of a barren\ndesert, hauntingly vivid, almost as if you could step directly into it."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 100,
+          "count": 1,
+          "room": 101
+        }
+      ],
+      "object_resets": []
     },
     "102": {
       "vnum": 102,
@@ -106,7 +129,21 @@
         "tree": "This tree is huge! On the southern face you see a large opening, it\nappears big enough for you to enter. You wonder what is inside.\nHINT: Type OPENING or LEAVE OPENING to enter and leave the tree."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 102,
+          "count": 1,
+          "room": 102
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 199,
+          "count": 1,
+          "room": 102
+        }
+      ]
     },
     "103": {
       "vnum": 103,
@@ -125,7 +162,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 192,
+          "count": 1,
+          "room": 103
+        }
+      ]
     },
     "104": {
       "vnum": 104,
@@ -149,7 +194,20 @@
         "table": "A small wooden table, only large enough to seat two.  There are a few\nplates and food pieces left here, and the only thing of note is that\nthe dinnerware is made of wood."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 194,
+          "count": 1,
+          "room": 104
+        },
+        {
+          "vnum": 104,
+          "count": 1,
+          "room": 104
+        }
+      ]
     },
     "105": {
       "vnum": 105,
@@ -167,7 +225,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 120,
+          "count": 1,
+          "room": 105
+        }
+      ]
     },
     "106": {
       "vnum": 106,
@@ -185,7 +251,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "107": {
       "vnum": 107,
@@ -204,7 +272,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 121,
+          "count": 1,
+          "room": 107
+        }
+      ]
     },
     "108": {
       "vnum": 108,
@@ -223,7 +299,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "109": {
       "vnum": 109,
@@ -241,7 +319,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 103,
+          "count": 1,
+          "room": 109
+        }
+      ],
+      "object_resets": []
     },
     "110": {
       "vnum": 110,
@@ -263,7 +349,9 @@
         "trees": "These trees seem almost to be live, thinking beings, exuding an aura of\ndarkness and magic.  Not that they will harm you, but you sense that you\nwould not wish to attempt to chop down any found here."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "111": {
       "vnum": 111,
@@ -287,7 +375,9 @@
         "moss": "This moss is the most brilliant green you can recall ever seeing.  It is\nthick and grows heavily on the west side of almost every tree trunk within\nsight.  As you peer closer you can see each is like a small city to the\nbugs of the forest which live and hide here to flee the predators."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "112": {
       "vnum": 112,
@@ -306,7 +396,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 111,
+          "count": 1,
+          "room": 112
+        }
+      ]
     },
     "113": {
       "vnum": 113,
@@ -328,7 +426,9 @@
         "rocks": "The rocks here are of a slate grey or smoky black.  Neither decorative\nnor purposeful, they appear to have been ripped from far below the\nsurface of the hill."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "114": {
       "vnum": 114,
@@ -352,7 +452,9 @@
         "stones": "These stones are less sharp and jagged than those lower on the hill, but\ndefinitely more ravaged.  It appears as if they have been applied to very\nhigh temperatures that smoothed and blackened their exteriors."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "115": {
       "vnum": 115,
@@ -372,7 +474,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "116": {
       "vnum": 116,
@@ -390,7 +494,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 104,
+          "count": 1,
+          "room": 116
+        }
+      ],
+      "object_resets": []
     },
     "117": {
       "vnum": 117,
@@ -409,7 +521,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "118": {
       "vnum": 118,
@@ -428,7 +542,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "119": {
       "vnum": 119,
@@ -451,7 +567,21 @@
         "door": "This door is made of a solid wood. It looks more to keep the weather\nat bay than to prevent entry, the door is closed but unlocked. You\nmay OPEN DOOR to enter."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 105,
+          "count": 1,
+          "room": 119
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 198,
+          "count": 1,
+          "room": 119
+        }
+      ]
     },
     "120": {
       "vnum": 120,
@@ -480,7 +610,15 @@
         "rug": "This rug is done in a design that appears to be a six-sided star weaved in\nand out of a series of circles.  It is like a large Gods Eye light catcher,\nthe design pulls you deep into its pattern.  The decoration is so intense\nyou almost miss a crack pinning a small portion of the southern corner."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 106,
+          "count": 1,
+          "room": 120
+        }
+      ],
+      "object_resets": []
     },
     "121": {
       "vnum": 121,
@@ -501,7 +639,15 @@
         "gate": "It would clearly take a large key to unlock this gate.  Maybe the resident\nof the cabin southwest of here has it."
       },
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 197,
+          "count": 1,
+          "room": 121
+        }
+      ]
     },
     "122": {
       "vnum": 122,
@@ -520,7 +666,15 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 115,
+          "count": 1,
+          "room": 122
+        }
+      ]
     },
     "123": {
       "vnum": 123,
@@ -539,7 +693,9 @@
       },
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "199": {
       "vnum": 199,
@@ -552,7 +708,728 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Spectral Gate",
-      "area_author": "Brittany"
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "100": {
+      "vnum": 100,
+      "keywords": [
+        "Samylla",
+        "receptionist",
+        "woman"
+      ],
+      "short": "Samylla",
+      "long": "The Realms of Despair hostess is here to greet you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "101": {
+      "vnum": 101,
+      "keywords": [
+        "mob",
+        "mobi",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "102": {
+      "vnum": 102,
+      "keywords": [
+        "Xouwasi",
+        "dwarven",
+        "dwarf",
+        "man",
+        "teacher"
+      ],
+      "short": "Xouwasi",
+      "long": "The statistics teacher sits here, guiding you towards your future.",
+      "race": "dwarf",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "103": {
+      "vnum": 103,
+      "keywords": [
+        "serpent",
+        "snake"
+      ],
+      "short": "a serpent",
+      "long": "A serpent springs from a coil deep within the grass and strikes!",
+      "race": "snake",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 25,
+      "max_mana": 25,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "104": {
+      "vnum": 104,
+      "keywords": [
+        "dragon",
+        "hatchling"
+      ],
+      "short": "the dragon hatchling",
+      "long": "A dragon hatchling peers at you, huge and darkly menacing.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "105": {
+      "vnum": 105,
+      "keywords": [
+        "mob",
+        "mobii",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "106": {
+      "vnum": 106,
+      "keywords": [
+        "Quercusi",
+        "Q",
+        "man"
+      ],
+      "short": "Quercusi",
+      "long": "A wise man is here, rocking himself on a beautiful chair.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        25,
+        13,
+        13,
+        25,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "107": {
+      "vnum": 107,
+      "keywords": [
+        "mob",
+        "mobiii",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "199": {
+      "vnum": 199,
+      "keywords": [
+        "spacermob"
+      ],
+      "short": "a newly created spacermob",
+      "long": "Some god abandoned a newly created spacermob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "100": {
+      "vnum": 100,
+      "keywords": [
+        "candelabra"
+      ],
+      "type": "light",
+      "short": "a candelabra with six black candles",
+      "long": "Six black candles burn brightly in this brass candelabra",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "101": {
+      "vnum": 101,
+      "keywords": [
+        "spring"
+      ],
+      "type": "fountain",
+      "short": "a magical spring",
+      "long": "A magical spring sprinkles water from the corner of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "104": {
+      "vnum": 104,
+      "keywords": [
+        "chest"
+      ],
+      "type": "container",
+      "short": "a weapon's chest",
+      "long": "A weapons chest rests against the northern wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "105": {
+      "vnum": 105,
+      "keywords": [
+        "Weapon"
+      ],
+      "type": "weapon",
+      "short": "A finely honed weapon lies here, waiting to be carried into battle.",
+      "long": "You see a finely honed dagger here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "106": {
+      "vnum": 106,
+      "keywords": [
+        "ring",
+        "light",
+        "lightring"
+      ],
+      "type": "armor",
+      "short": "a ring of light",
+      "long": "A small circle of light lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "107": {
+      "vnum": 107,
+      "keywords": [
+        "ring",
+        "shadow",
+        "shadowring"
+      ],
+      "type": "armor",
+      "short": "a ring of shadows",
+      "long": "A small circle of shadows lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "108": {
+      "vnum": 108,
+      "keywords": [
+        "snakemeat",
+        "snake",
+        "meat"
+      ],
+      "type": "food",
+      "short": "a piece of meat",
+      "long": "A piece of meat from a snake",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "109": {
+      "vnum": 109,
+      "keywords": [
+        "feather",
+        "purple"
+      ],
+      "type": "wand",
+      "short": "a purple feather",
+      "long": "A bright purple feather lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "110": {
+      "vnum": 110,
+      "keywords": [
+        "bucket",
+        "water",
+        "tin"
+      ],
+      "type": "drinkcon",
+      "short": "a tin bucket",
+      "long": "A bucket full of water sits here, waiting for someone to carry it away.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "111": {
+      "vnum": 111,
+      "keywords": [
+        "pond"
+      ],
+      "type": "fountain",
+      "short": "the pond",
+      "long": "A shallow pond of crystal clear water",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "112": {
+      "vnum": 112,
+      "keywords": [
+        "shield",
+        "dragonscales",
+        "scales"
+      ],
+      "type": "armor",
+      "short": "a shield of dragonscales",
+      "long": "A shield of scales lie here, marred with deep burns.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "113": {
+      "vnum": 113,
+      "keywords": [
+        "armour",
+        "breast",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a thick plate of breast armour",
+      "long": "A breast plate lies here, unused and forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "114": {
+      "vnum": 114,
+      "keywords": [
+        "key",
+        "golden"
+      ],
+      "type": "key",
+      "short": "a huge golden key",
+      "long": "A large golden key lies here, it looks to open something important.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "115": {
+      "vnum": 115,
+      "keywords": [
+        "rope"
+      ],
+      "type": "lever",
+      "short": "a rope",
+      "long": "A rope hangs from high above, waiting to be pulled.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "116": {
+      "vnum": 116,
+      "keywords": [
+        "box"
+      ],
+      "type": "container",
+      "short": "the box",
+      "long": "A blackened wooden box sets in the shadows atop a small table.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "117": {
+      "vnum": 117,
+      "keywords": [
+        "earring",
+        "token"
+      ],
+      "type": "armor",
+      "short": "a token of a Goddesses affection",
+      "long": "An earring lies here, tarnished and forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "119": {
+      "vnum": 119,
+      "keywords": [
+        "gownq"
+      ],
+      "type": "armor",
+      "short": "a flowing white gown",
+      "long": "Some god dropped a newly created gown here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "120": {
+      "vnum": 120,
+      "keywords": [
+        "peaceful",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "the sign of the peaceful path",
+      "long": "A large sign floats before the trees alongside the pathway.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "121": {
+      "vnum": 121,
+      "keywords": [
+        "deadly",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "the sign of the deadly path",
+      "long": "A large sign floating alongside the pathway demands your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "123": {
+      "vnum": 123,
+      "keywords": [
+        "sack",
+        "burlap"
+      ],
+      "type": "container",
+      "short": "a large burlap sack",
+      "long": "A sack made from a brown burlap lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "124": {
+      "vnum": 124,
+      "keywords": [
+        "stairs"
+      ],
+      "type": "trash",
+      "short": "a staircase",
+      "long": "A spiral staircase leads down from center of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "125": {
+      "vnum": 125,
+      "keywords": [
+        "menacing",
+        "granitic",
+        "blade"
+      ],
+      "type": "weapon",
+      "short": "a menacing granitic blade",
+      "long": "A blade of metallic stone protrudes from a leather-wrapped hilt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "126": {
+      "vnum": 126,
+      "keywords": [
+        "adamantium",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "a gleaming adamantium mace",
+      "long": "A mace of brightly gleaming metal hums with inner power.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "127": {
+      "vnum": 127,
+      "keywords": [
+        "heavy",
+        "broadsword",
+        "broad",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a heavy, iron-forged broadsword",
+      "long": "Light glints from the blade of a heavy, iron-forged broadsword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "190": {
+      "vnum": 190,
+      "keywords": [
+        "prog",
+        "cont"
+      ],
+      "type": "container",
+      "short": "a prog container",
+      "long": "A container set up with the progs to make useless for non-guilded players.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "191": {
+      "vnum": 191,
+      "keywords": [
+        "fountain"
+      ],
+      "type": "fountain",
+      "short": "a fountain",
+      "long": "A fountain of fresh water sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "192": {
+      "vnum": 192,
+      "keywords": [
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a plaque",
+      "long": "To the right of the path, a plaque is imbedded in a boulder.  (look plaque)",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "193": {
+      "vnum": 193,
+      "keywords": [
+        "golden",
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a plaque",
+      "long": "Attached to the banister is an inscribed golden plaque.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "194": {
+      "vnum": 194,
+      "keywords": [
+        "thedoor"
+      ],
+      "type": "furniture",
+      "short": "the opening",
+      "long": "An opening in the tree, leading back to the path.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "196": {
+      "vnum": 196,
+      "keywords": [
+        "spiral",
+        "staircase"
+      ],
+      "type": "furniture",
+      "short": "a staircase",
+      "long": "A spiral staircase leads down from center of the room, with an inscribed\n\n\rgolden plaque attached to its banister.  [look plaque]",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "197": {
+      "vnum": 197,
+      "keywords": [
+        "thingy"
+      ],
+      "type": "furniture",
+      "short": "the gate",
+      "long": "A large, golden gate gives passage into the game.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "198": {
+      "vnum": 198,
+      "keywords": [
+        "cabin"
+      ],
+      "type": "furniture",
+      "short": "the cabin",
+      "long": "A cabin of logs has been built into the hillside south of here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "199": {
+      "vnum": 199,
+      "keywords": [
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "the tree",
+      "long": "Towering beside the pathway is an enormous tree, a large opening at its base.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

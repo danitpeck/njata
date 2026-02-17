@@ -1,6 +1,7 @@
 {
   "name": "Redferne's Residence",
   "author": "Diku",
+  "reset_minutes": 15,
   "rooms": {
     "7900": {
       "vnum": 7900,
@@ -19,7 +20,15 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7900,
+          "count": 1,
+          "room": 7900
+        }
+      ],
+      "object_resets": []
     },
     "7901": {
       "vnum": 7901,
@@ -43,7 +52,9 @@
         "runes": "These runes are utterly strange to you, but you are in luck today: Under\nthe runes you can just make out a sentence in Common. It goes : \" Stay out,\nif you treasure your life. That is if you are mortal.\"."
       },
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7902": {
       "vnum": 7902,
@@ -76,7 +87,9 @@
         "world": "You see a large world map stretch out on the enormous globe. It has towns\ndrawn in every spot available for such. In the middle of the map you can\nspot a large town with the name 'DARKHAVEN' written over it. The rest is\nmountains, woods, plains and water."
       },
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7903": {
       "vnum": 7903,
@@ -91,7 +104,15 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7909,
+          "count": 10,
+          "room": 7903
+        }
+      ]
     },
     "7904": {
       "vnum": 7904,
@@ -111,7 +132,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7905": {
       "vnum": 7905,
@@ -131,7 +154,9 @@
         "chair": "This is truly a wonderful relic of the past. In it is a large cushion."
       },
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7906": {
       "vnum": 7906,
@@ -150,7 +175,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7907": {
       "vnum": 7907,
@@ -167,7 +194,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7908": {
       "vnum": 7908,
@@ -184,7 +213,15 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6013,
+          "count": 10,
+          "room": 7908
+        }
+      ]
     },
     "7909": {
       "vnum": 7909,
@@ -202,7 +239,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7910": {
       "vnum": 7910,
@@ -219,7 +258,15 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7910,
+          "count": 1,
+          "room": 7910
+        }
+      ]
     },
     "7911": {
       "vnum": 7911,
@@ -237,7 +284,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7912": {
       "vnum": 7912,
@@ -253,7 +302,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7913": {
       "vnum": 7913,
@@ -268,7 +319,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7914": {
       "vnum": 7914,
@@ -284,7 +337,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7916": {
       "vnum": 7916,
@@ -299,7 +354,9 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "7918": {
       "vnum": 7918,
@@ -314,7 +371,82 @@
       },
       "exdescs": {},
       "area_name": "Redferne's Residence",
-      "area_author": "Diku"
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "7900": {
+      "vnum": 7900,
+      "keywords": [
+        "grand",
+        "knight",
+        "paladin"
+      ],
+      "short": "the Grand Knight of paladins",
+      "long": "The Grand Knight is standing here, waiting for someone to help.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 700,
+      "max_mana": 700,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "7909": {
+      "vnum": 7909,
+      "keywords": [
+        "treasure",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a huge treasure",
+      "long": "A huge treasure is lying here, looking very valuable.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7910": {
+      "vnum": 7910,
+      "keywords": [
+        "chest"
+      ],
+      "type": "container",
+      "short": "a wooden chest",
+      "long": "A wooden chest stands in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7911": {
+      "vnum": 7911,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "a small brass key",
+      "long": "A small brass key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "Miden'nir",
   "author": "Copper",
+  "reset_minutes": 15,
   "rooms": {
     "3500": {
       "vnum": 3500,
@@ -13,7 +14,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3501": {
       "vnum": 3501,
@@ -27,7 +30,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3502": {
       "vnum": 3502,
@@ -43,7 +48,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3503": {
       "vnum": 3503,
@@ -60,7 +67,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3504": {
       "vnum": 3504,
@@ -77,7 +86,15 @@
         "sign": "The sign, covered with a strange green substance, reads:\n\n                        B E W A R E ! ! !\n\n       THERE BE MEAN, VICIOUS GOBLINS CLOSE BY IN THE SOUTH!\n\n                      PROCEED AT OWN RISK\n"
       },
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 3511,
+          "count": 1,
+          "room": 3504
+        }
+      ]
     },
     "3505": {
       "vnum": 3505,
@@ -92,7 +109,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3506": {
       "vnum": 3506,
@@ -108,7 +127,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3506
+        }
+      ],
+      "object_resets": []
     },
     "3507": {
       "vnum": 3507,
@@ -125,7 +152,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3508": {
       "vnum": 3508,
@@ -140,7 +169,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3509": {
       "vnum": 3509,
@@ -157,7 +188,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3509
+        }
+      ],
+      "object_resets": []
     },
     "3510": {
       "vnum": 3510,
@@ -174,7 +213,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3511": {
       "vnum": 3511,
@@ -189,7 +230,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3512": {
       "vnum": 3512,
@@ -205,7 +248,20 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3512
+        },
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3512
+        }
+      ],
+      "object_resets": []
     },
     "3513": {
       "vnum": 3513,
@@ -222,7 +278,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3513
+        }
+      ],
+      "object_resets": []
     },
     "3514": {
       "vnum": 3514,
@@ -239,7 +303,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3515": {
       "vnum": 3515,
@@ -255,7 +321,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3516": {
       "vnum": 3516,
@@ -273,7 +341,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3516
+        }
+      ],
+      "object_resets": []
     },
     "3517": {
       "vnum": 3517,
@@ -288,7 +364,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3518": {
       "vnum": 3518,
@@ -304,7 +382,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3519": {
       "vnum": 3519,
@@ -320,7 +400,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3520": {
       "vnum": 3520,
@@ -336,7 +418,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3521": {
       "vnum": 3521,
@@ -353,7 +437,20 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3500,
+          "count": 2,
+          "room": 3521
+        },
+        {
+          "vnum": 3500,
+          "count": 2,
+          "room": 3521
+        }
+      ],
+      "object_resets": []
     },
     "3522": {
       "vnum": 3522,
@@ -368,7 +465,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3522
+        }
+      ],
+      "object_resets": []
     },
     "3523": {
       "vnum": 3523,
@@ -385,7 +490,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3524": {
       "vnum": 3524,
@@ -403,7 +510,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3525": {
       "vnum": 3525,
@@ -421,7 +530,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3526": {
       "vnum": 3526,
@@ -439,7 +550,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3527": {
       "vnum": 3527,
@@ -457,7 +570,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3528": {
       "vnum": 3528,
@@ -475,7 +590,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3529": {
       "vnum": 3529,
@@ -493,7 +610,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3530": {
       "vnum": 3530,
@@ -511,7 +630,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3506,
+          "count": 4,
+          "room": 3530
+        }
+      ],
+      "object_resets": []
     },
     "3531": {
       "vnum": 3531,
@@ -529,7 +656,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3532": {
       "vnum": 3532,
@@ -547,7 +676,9 @@
         "drawing": "The drawing depicts an old, broken ladder. At the bottom of the ladder, a\npile of bones litters blood-soaked ground."
       },
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3533": {
       "vnum": 3533,
@@ -564,7 +695,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3534": {
       "vnum": 3534,
@@ -580,7 +713,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3535": {
       "vnum": 3535,
@@ -597,7 +732,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3536": {
       "vnum": 3536,
@@ -613,7 +750,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3537": {
       "vnum": 3537,
@@ -630,7 +769,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3538": {
       "vnum": 3538,
@@ -646,7 +787,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3539": {
       "vnum": 3539,
@@ -663,7 +806,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3540": {
       "vnum": 3540,
@@ -679,7 +824,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3541": {
       "vnum": 3541,
@@ -696,7 +843,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3542": {
       "vnum": 3542,
@@ -712,7 +861,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3543": {
       "vnum": 3543,
@@ -729,7 +880,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3544": {
       "vnum": 3544,
@@ -745,7 +898,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3545": {
       "vnum": 3545,
@@ -764,7 +919,9 @@
         "drawing": "The drawing depicts a shadowy, massive figure apparently toying with a group\nof blood-soaked adventurers."
       },
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3546": {
       "vnum": 3546,
@@ -781,7 +938,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3547": {
       "vnum": 3547,
@@ -798,7 +957,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3548": {
       "vnum": 3548,
@@ -816,7 +977,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3549": {
       "vnum": 3549,
@@ -834,7 +997,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3550": {
       "vnum": 3550,
@@ -849,7 +1014,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3551": {
       "vnum": 3551,
@@ -865,7 +1032,25 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3551
+        },
+        {
+          "vnum": 3501,
+          "count": 8,
+          "room": 3551
+        },
+        {
+          "vnum": 3506,
+          "count": 4,
+          "room": 3551
+        }
+      ],
+      "object_resets": []
     },
     "3552": {
       "vnum": 3552,
@@ -883,7 +1068,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3506,
+          "count": 4,
+          "room": 3552
+        }
+      ],
+      "object_resets": []
     },
     "3553": {
       "vnum": 3553,
@@ -901,7 +1094,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3554": {
       "vnum": 3554,
@@ -917,7 +1112,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 3504,
+          "count": 1,
+          "room": 3554
+        }
+      ]
     },
     "3555": {
       "vnum": 3555,
@@ -935,7 +1138,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3506,
+          "count": 4,
+          "room": 3555
+        }
+      ],
+      "object_resets": []
     },
     "3556": {
       "vnum": 3556,
@@ -953,7 +1164,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3557": {
       "vnum": 3557,
@@ -970,7 +1183,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3558": {
       "vnum": 3558,
@@ -987,7 +1202,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3559": {
       "vnum": 3559,
@@ -1004,7 +1221,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3505,
+          "count": 2,
+          "room": 3559
+        }
+      ],
+      "object_resets": []
     },
     "3560": {
       "vnum": 3560,
@@ -1021,7 +1246,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3505,
+          "count": 2,
+          "room": 3560
+        }
+      ],
+      "object_resets": []
     },
     "3561": {
       "vnum": 3561,
@@ -1038,7 +1271,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3562": {
       "vnum": 3562,
@@ -1055,7 +1290,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3563": {
       "vnum": 3563,
@@ -1073,7 +1310,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3564": {
       "vnum": 3564,
@@ -1092,7 +1331,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3565": {
       "vnum": 3565,
@@ -1110,7 +1351,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3566": {
       "vnum": 3566,
@@ -1128,7 +1371,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3567": {
       "vnum": 3567,
@@ -1145,7 +1390,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3568": {
       "vnum": 3568,
@@ -1165,7 +1412,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3507,
+          "count": 1,
+          "room": 3568
+        }
+      ],
+      "object_resets": []
     },
     "3569": {
       "vnum": 3569,
@@ -1178,7 +1433,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3570": {
       "vnum": 3570,
@@ -1194,7 +1451,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3571": {
       "vnum": 3571,
@@ -1209,7 +1468,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3572": {
       "vnum": 3572,
@@ -1224,7 +1485,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3573": {
       "vnum": 3573,
@@ -1239,7 +1502,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3574": {
       "vnum": 3574,
@@ -1258,7 +1523,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3508,
+          "count": 1,
+          "room": 3574
+        }
+      ],
+      "object_resets": []
     },
     "3575": {
       "vnum": 3575,
@@ -1273,7 +1546,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3502,
+          "count": 1,
+          "room": 3575
+        }
+      ],
+      "object_resets": []
     },
     "3576": {
       "vnum": 3576,
@@ -1289,7 +1570,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3503,
+          "count": 1,
+          "room": 3576
+        }
+      ],
+      "object_resets": []
     },
     "3577": {
       "vnum": 3577,
@@ -1304,7 +1593,15 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3504,
+          "count": 1,
+          "room": 3577
+        }
+      ],
+      "object_resets": []
     },
     "3578": {
       "vnum": 3578,
@@ -1323,7 +1620,9 @@
         "sign": "The sign, worn and torn throughout the years, reads:\n\n\n                  DO NOT feed the rodents!!\n\n          (Management assumes no responsibility for injuries\n           that result from negligent rodent relations)\n\n\n\n                                             - Jed\n"
       },
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3579": {
       "vnum": 3579,
@@ -1342,7 +1641,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3580": {
       "vnum": 3580,
@@ -1355,7 +1656,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3581": {
       "vnum": 3581,
@@ -1371,7 +1674,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3582": {
       "vnum": 3582,
@@ -1386,7 +1691,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3583": {
       "vnum": 3583,
@@ -1401,7 +1708,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3584": {
       "vnum": 3584,
@@ -1417,7 +1726,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3585": {
       "vnum": 3585,
@@ -1430,7 +1741,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3586": {
       "vnum": 3586,
@@ -1444,7 +1757,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3587": {
       "vnum": 3587,
@@ -1458,7 +1773,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3588": {
       "vnum": 3588,
@@ -1472,7 +1789,9 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3589": {
       "vnum": 3589,
@@ -1485,7 +1804,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3590": {
       "vnum": 3590,
@@ -1499,7 +1820,492 @@
       },
       "exdescs": {},
       "area_name": "Miden'nir",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "3500": {
+      "vnum": 3500,
+      "keywords": [
+        "gypsy"
+      ],
+      "short": "a Black Forest gypsy",
+      "long": "A swift little creature scrounges for nifty items.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        10,
+        13,
+        13,
+        18,
+        13,
+        13,
+        18
+      ],
+      "room_vnum": 0
+    },
+    "3501": {
+      "vnum": 3501,
+      "keywords": [
+        "mountain",
+        "goblin",
+        "spy",
+        "inhabitant"
+      ],
+      "short": "a goblin spy",
+      "long": "A goblin inhabitant of the forest prowls about.",
+      "race": "goblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3502": {
+      "vnum": 3502,
+      "keywords": [
+        "jacob",
+        "finn",
+        "elf"
+      ],
+      "short": "Jacob, the young Finn elf",
+      "long": "A young, shivering elf quietly drops tears onto the dirt below.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 47,
+      "max_mana": 47,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3503": {
+      "vnum": 3503,
+      "keywords": [
+        "black",
+        "jack",
+        "bartender",
+        "man"
+      ],
+      "short": "Jack",
+      "long": "A tall, chubby man focuses on making the best drinks possible for his patrons.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3504": {
+      "vnum": 3504,
+      "keywords": [
+        "dave",
+        "bard",
+        "soul",
+        "man"
+      ],
+      "short": "Dave the introspective bard",
+      "long": "A pensive soul sits at a table, randomly questioning his liquor bottle.",
+      "race": "elf",
+      "class": "warrior",
+      "position": "aggressive",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 92,
+      "max_mana": 92,
+      "attributes": [
+        12,
+        18,
+        18,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "3505": {
+      "vnum": 3505,
+      "keywords": [
+        "doom",
+        "elite",
+        "goblin",
+        "figure"
+      ],
+      "short": "A Doom elite",
+      "long": "A massive goblin prowls the Circle of Doom, protecting his king.",
+      "race": "goblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        18,
+        10,
+        10,
+        16,
+        16,
+        8,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "3506": {
+      "vnum": 3506,
+      "keywords": [
+        "goblin",
+        "doom",
+        "protector"
+      ],
+      "short": "a Doom goblin",
+      "long": "A protector of the mountain is here, foaming at the mouth.",
+      "race": "goblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        16,
+        13,
+        13,
+        13,
+        13,
+        8,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3507": {
+      "vnum": 3507,
+      "keywords": [
+        "goblin",
+        "dark",
+        "king",
+        "figure",
+        "brajtkomu"
+      ],
+      "short": "Brajtkomu, the Goblin King",
+      "long": "A lone, dark figure growls at himself from his black, decaying throne.",
+      "race": "goblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 170,
+      "max_mana": 170,
+      "attributes": [
+        18,
+        10,
+        16,
+        16,
+        13,
+        10,
+        16
+      ],
+      "room_vnum": 0
+    },
+    "3508": {
+      "vnum": 3508,
+      "keywords": [
+        "jed",
+        "innkeeper",
+        "proprietor",
+        "man"
+      ],
+      "short": "Innkeeper Jed",
+      "long": "The proprietor sits at his desk, slowly paging through his favorite book.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 88,
+      "max_mana": 88,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3550": {
+      "vnum": 3550,
+      "keywords": [
+        "final",
+        "mob"
+      ],
+      "short": "a newly created final mob",
+      "long": "Some god abandoned a newly created final mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "3500": {
+      "vnum": 3500,
+      "keywords": [
+        "crescent",
+        "white",
+        "deerbone"
+      ],
+      "type": "armor",
+      "short": "a white deerbone crescent",
+      "long": "An earring of the purest white rests in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3501": {
+      "vnum": 3501,
+      "keywords": [
+        "green",
+        "beer",
+        "winter",
+        "ale"
+      ],
+      "type": "drinkcon",
+      "short": "\"Black\" Jack's Green Winter Ale",
+      "long": "A big bottle of green ooze has been wisely discarded on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3502": {
+      "vnum": 3502,
+      "keywords": [
+        "book"
+      ],
+      "type": "furniture",
+      "short": "Jed's favorite book of tales",
+      "long": "An old, worn book rests quietly on the ground, pages intact.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3503": {
+      "vnum": 3503,
+      "keywords": [
+        "black",
+        "key"
+      ],
+      "type": "key",
+      "short": "a strange black key",
+      "long": "An old, black key draws your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3504": {
+      "vnum": 3504,
+      "keywords": [
+        "vat"
+      ],
+      "type": "container",
+      "short": "Jack's brewing vat",
+      "long": "A big vat sits majestically in the middle of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3505": {
+      "vnum": 3505,
+      "keywords": [
+        "doom",
+        "skeleton",
+        "key"
+      ],
+      "type": "key",
+      "short": "the key of Doom",
+      "long": "A shadowy skeleton key darkens the ground below.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3506": {
+      "vnum": 3506,
+      "keywords": [
+        "doom",
+        "cape"
+      ],
+      "type": "armor",
+      "short": "a long, black Doom insignia cape",
+      "long": "A long, dark cape casts strange shadows upon the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3507": {
+      "vnum": 3507,
+      "keywords": [
+        "doom",
+        "visor"
+      ],
+      "type": "armor",
+      "short": "a black Doom insignia visor",
+      "long": "A dark visor casts strange shadows on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3508": {
+      "vnum": 3508,
+      "keywords": [
+        "doom",
+        "sceptre"
+      ],
+      "type": "armor",
+      "short": "Brajtkomu's sceptre of Doom",
+      "long": "A darkened sceptre envelopes the ground in an evil mist.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3509": {
+      "vnum": 3509,
+      "keywords": [
+        "clogs"
+      ],
+      "type": "armor",
+      "short": "a pair of clogs made of Black Forest bark",
+      "long": "Some black clogs have been discarded on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3510": {
+      "vnum": 3510,
+      "keywords": [
+        "doom",
+        "arm",
+        "armguards",
+        "guards",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a pair of black Doom insignia armguards",
+      "long": "A pair of dark metal armguards casts strange shadows onto the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3511": {
+      "vnum": 3511,
+      "keywords": [
+        "signobj"
+      ],
+      "type": "furniture",
+      "short": "the sign",
+      "long": "An old sign made of wood tilts a bit to the left.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3550": {
+      "vnum": 3550,
+      "keywords": [
+        "final",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created final object",
+      "long": "Some god dropped a newly created final object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

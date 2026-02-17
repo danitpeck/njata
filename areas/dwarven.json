@@ -1,6 +1,7 @@
 {
   "name": "Dwarven Village",
   "author": "Raff",
+  "reset_minutes": 15,
   "rooms": {
     "6500": {
       "vnum": 6500,
@@ -15,7 +16,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6501": {
       "vnum": 6501,
@@ -29,7 +32,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6501,
+          "count": 6,
+          "room": 6501
+        }
+      ],
+      "object_resets": []
     },
     "6502": {
       "vnum": 6502,
@@ -43,7 +54,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6501,
+          "count": 6,
+          "room": 6502
+        }
+      ],
+      "object_resets": []
     },
     "6503": {
       "vnum": 6503,
@@ -58,7 +77,21 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6501,
+          "count": 6,
+          "room": 6503
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6507,
+          "count": 2,
+          "room": 6503
+        }
+      ]
     },
     "6504": {
       "vnum": 6504,
@@ -74,7 +107,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6505": {
       "vnum": 6505,
@@ -88,7 +123,26 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6505
+        },
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6505
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6507,
+          "count": 2,
+          "room": 6505
+        }
+      ]
     },
     "6506": {
       "vnum": 6506,
@@ -107,7 +161,9 @@
         "trees": "They hang over the road in the most ominous of ways."
       },
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6507": {
       "vnum": 6507,
@@ -123,7 +179,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6508": {
       "vnum": 6508,
@@ -139,7 +197,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6506,
+          "count": 2,
+          "room": 6508
+        }
+      ],
+      "object_resets": []
     },
     "6509": {
       "vnum": 6509,
@@ -156,7 +222,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6500,
+          "count": 6,
+          "room": 6509
+        },
+        {
+          "vnum": 6500,
+          "count": 6,
+          "room": 6509
+        }
+      ],
+      "object_resets": []
     },
     "6510": {
       "vnum": 6510,
@@ -172,7 +251,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6511": {
       "vnum": 6511,
@@ -188,7 +269,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6512": {
       "vnum": 6512,
@@ -204,7 +287,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6500,
+          "count": 2,
+          "room": 6512
+        },
+        {
+          "vnum": 6500,
+          "count": 2,
+          "room": 6512
+        }
+      ],
+      "object_resets": []
     },
     "6513": {
       "vnum": 6513,
@@ -221,7 +317,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6507,
+          "count": 2,
+          "room": 6513
+        }
+      ]
     },
     "6514": {
       "vnum": 6514,
@@ -237,7 +341,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6515": {
       "vnum": 6515,
@@ -253,7 +359,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6505,
+          "count": 1,
+          "room": 6515
+        }
+      ],
+      "object_resets": []
     },
     "6516": {
       "vnum": 6516,
@@ -269,7 +383,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6503,
+          "count": 1,
+          "room": 6516
+        }
+      ],
+      "object_resets": []
     },
     "6517": {
       "vnum": 6517,
@@ -286,7 +408,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6518": {
       "vnum": 6518,
@@ -302,7 +426,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6519": {
       "vnum": 6519,
@@ -319,7 +445,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6520": {
       "vnum": 6520,
@@ -335,7 +463,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6505,
+          "count": 1,
+          "room": 6520
+        }
+      ],
+      "object_resets": []
     },
     "6521": {
       "vnum": 6521,
@@ -351,7 +487,35 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6514,
+          "count": 4,
+          "room": 6521
+        },
+        {
+          "vnum": 6514,
+          "count": 4,
+          "room": 6521
+        },
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6521
+        },
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6521
+        },
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6521
+        }
+      ],
+      "object_resets": []
     },
     "6522": {
       "vnum": 6522,
@@ -366,7 +530,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6523": {
       "vnum": 6523,
@@ -382,7 +548,30 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6523
+        },
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6523
+        },
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6523
+        },
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6523
+        }
+      ],
+      "object_resets": []
     },
     "6524": {
       "vnum": 6524,
@@ -397,7 +586,31 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6524
+        },
+        {
+          "vnum": 6502,
+          "count": 2,
+          "room": 6524
+        },
+        {
+          "vnum": 6511,
+          "count": 8,
+          "room": 6524
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6513,
+          "count": 1,
+          "room": 6524
+        }
+      ]
     },
     "6525": {
       "vnum": 6525,
@@ -413,7 +626,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6526": {
       "vnum": 6526,
@@ -433,7 +648,9 @@
         "floor": "After blowing all the dust off the floor, you notice a trapdoor!"
       },
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6527": {
       "vnum": 6527,
@@ -449,7 +666,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6502,
+          "count": 1,
+          "room": 6527
+        }
+      ],
+      "object_resets": []
     },
     "6528": {
       "vnum": 6528,
@@ -465,7 +690,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6512,
+          "count": 3,
+          "room": 6528
+        }
+      ],
+      "object_resets": []
     },
     "6529": {
       "vnum": 6529,
@@ -481,7 +714,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6512,
+          "count": 3,
+          "room": 6529
+        },
+        {
+          "vnum": 6513,
+          "count": 3,
+          "room": 6529
+        }
+      ],
+      "object_resets": []
     },
     "6530": {
       "vnum": 6530,
@@ -497,7 +743,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6513,
+          "count": 3,
+          "room": 6530
+        }
+      ],
+      "object_resets": []
     },
     "6531": {
       "vnum": 6531,
@@ -513,7 +767,20 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6515,
+          "count": 4,
+          "room": 6531
+        },
+        {
+          "vnum": 6515,
+          "count": 4,
+          "room": 6531
+        }
+      ],
+      "object_resets": []
     },
     "6532": {
       "vnum": 6532,
@@ -528,7 +795,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6516,
+          "count": 1,
+          "room": 6532
+        }
+      ]
     },
     "6534": {
       "vnum": 6534,
@@ -543,7 +818,31 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6510,
+          "count": 4,
+          "room": 6534
+        },
+        {
+          "vnum": 6510,
+          "count": 4,
+          "room": 6534
+        },
+        {
+          "vnum": 6509,
+          "count": 1,
+          "room": 6534
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6506,
+          "count": 1,
+          "room": 6534
+        }
+      ]
     },
     "6535": {
       "vnum": 6535,
@@ -558,7 +857,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6504,
+          "count": 1,
+          "room": 6535
+        }
+      ],
+      "object_resets": []
     },
     "6540": {
       "vnum": 6540,
@@ -575,7 +882,26 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6540
+        },
+        {
+          "vnum": 6500,
+          "count": 4,
+          "room": 6540
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6507,
+          "count": 1,
+          "room": 6540
+        }
+      ]
     },
     "6541": {
       "vnum": 6541,
@@ -591,7 +917,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6542": {
       "vnum": 6542,
@@ -608,7 +936,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6507,
+          "count": 4,
+          "room": 6542
+        }
+      ],
+      "object_resets": []
     },
     "6543": {
       "vnum": 6543,
@@ -625,7 +961,25 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6507,
+          "count": 4,
+          "room": 6543
+        },
+        {
+          "vnum": 6507,
+          "count": 4,
+          "room": 6543
+        },
+        {
+          "vnum": 6508,
+          "count": 4,
+          "room": 6543
+        }
+      ],
+      "object_resets": []
     },
     "6544": {
       "vnum": 6544,
@@ -644,7 +998,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6545": {
       "vnum": 6545,
@@ -660,7 +1016,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6517,
+          "count": 6,
+          "room": 6545
+        }
+      ]
     },
     "6546": {
       "vnum": 6546,
@@ -677,7 +1041,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6547": {
       "vnum": 6547,
@@ -694,7 +1060,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6548": {
       "vnum": 6548,
@@ -711,7 +1079,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6517,
+          "count": 2,
+          "room": 6548
+        }
+      ],
+      "object_resets": []
     },
     "6549": {
       "vnum": 6549,
@@ -728,7 +1104,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6517,
+          "count": 2,
+          "room": 6549
+        }
+      ],
+      "object_resets": []
     },
     "6550": {
       "vnum": 6550,
@@ -745,7 +1129,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6551": {
       "vnum": 6551,
@@ -761,7 +1147,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6518,
+          "count": 3,
+          "room": 6551
+        }
+      ]
     },
     "6552": {
       "vnum": 6552,
@@ -778,7 +1172,9 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6553": {
       "vnum": 6553,
@@ -794,7 +1190,15 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [
+        {
+          "vnum": 6516,
+          "count": 1,
+          "room": 6553
+        }
+      ],
+      "object_resets": []
     },
     "6554": {
       "vnum": 6554,
@@ -811,7 +1215,739 @@
       },
       "exdescs": {},
       "area_name": "Dwarven Village",
-      "area_author": "Raff"
+      "area_author": "Raff",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "6500": {
+      "vnum": 6500,
+      "keywords": [
+        "dwarf",
+        "guard"
+      ],
+      "short": "the dwarven guard",
+      "long": "A dwarven guard is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6501": {
+      "vnum": 6501,
+      "keywords": [
+        "dwarf",
+        "worker",
+        "miner"
+      ],
+      "short": "the dwarven worker",
+      "long": "A dwarven mining worker is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6502": {
+      "vnum": 6502,
+      "keywords": [
+        "wraith"
+      ],
+      "short": "the wraith",
+      "long": "A wraith is awaiting your first move here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29,
+      "hp": 29,
+      "mana": 290,
+      "max_mana": 290,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6503": {
+      "vnum": 6503,
+      "keywords": [
+        "storekeeper"
+      ],
+      "short": "the storekeeper",
+      "long": "There is the Hide \u0026 Tooth storekeeper standing here, waiting patiently.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 990,
+      "max_mana": 990,
+      "attributes": [
+        16,
+        13,
+        13,
+        14,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6504": {
+      "vnum": 6504,
+      "keywords": [
+        "Granite",
+        "Head",
+        "baker"
+      ],
+      "short": "the baker",
+      "long": "Granite Head, the baker, is waiting for a customer here.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7,
+      "hp": 7,
+      "mana": 990,
+      "max_mana": 990,
+      "attributes": [
+        16,
+        13,
+        13,
+        15,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6505": {
+      "vnum": 6505,
+      "keywords": [
+        "lizard"
+      ],
+      "short": "the giant lizard",
+      "long": "A giant lizard is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6506": {
+      "vnum": 6506,
+      "keywords": [
+        "giant"
+      ],
+      "short": "the giant",
+      "long": "A giant is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6507": {
+      "vnum": 6507,
+      "keywords": [
+        "dwarf",
+        "miner"
+      ],
+      "short": "the dwarven miner",
+      "long": "A dwarven miner is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6508": {
+      "vnum": 6508,
+      "keywords": [
+        "dwarf",
+        "leader"
+      ],
+      "short": "the dwarven mine leader",
+      "long": "A dwarven mine leader is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6509": {
+      "vnum": 6509,
+      "keywords": [
+        "dwarf",
+        "doctor"
+      ],
+      "short": "the dwarven doctor",
+      "long": "The dwarven doctor is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 99,
+      "max_mana": 99,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6510": {
+      "vnum": 6510,
+      "keywords": [
+        "dwarf",
+        "peon"
+      ],
+      "short": "the dwarven peon",
+      "long": "A dwarven peon is awaiting help here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 33,
+      "max_mana": 33,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6511": {
+      "vnum": 6511,
+      "keywords": [
+        "dwarf"
+      ],
+      "short": "the dwarf",
+      "long": "A grinning dwarf is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 99,
+      "max_mana": 99,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6512": {
+      "vnum": 6512,
+      "keywords": [
+        "dwarf",
+        "son"
+      ],
+      "short": "the unwanted son",
+      "long": "An unwanted son is here.  You feel sorry for the guy.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 125,
+      "max_mana": 125,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6513": {
+      "vnum": 6513,
+      "keywords": [
+        "dwarf",
+        "daughter"
+      ],
+      "short": "the unwanted daughter",
+      "long": "An unwanted daughter is here.  You feel sorry for her.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 135,
+      "max_mana": 135,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6514": {
+      "vnum": 6514,
+      "keywords": [
+        "dwarf",
+        "guard"
+      ],
+      "short": "the barracks guard",
+      "long": "A barrack guard is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 16,
+      "hp": 16,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6515": {
+      "vnum": 6515,
+      "keywords": [
+        "man"
+      ],
+      "short": "the man in waiting",
+      "long": "A man in waiting is here.  He looks nervous and unsure of himself.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 180,
+      "max_mana": 180,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6516": {
+      "vnum": 6516,
+      "keywords": [
+        "mazekeeper"
+      ],
+      "short": "the mazekeeper",
+      "long": "A mazekeeper is here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 290,
+      "max_mana": 290,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6517": {
+      "vnum": 6517,
+      "keywords": [
+        "snake"
+      ],
+      "short": "the giant snake",
+      "long": "There is a giant snake here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 432,
+      "max_mana": 432,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "6502": {
+      "vnum": 6502,
+      "keywords": [
+        "key",
+        "green"
+      ],
+      "type": "key",
+      "short": "a deep green key",
+      "long": "A deep green key is on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6504": {
+      "vnum": 6504,
+      "keywords": [
+        "dwarven",
+        "hammer"
+      ],
+      "type": "weapon",
+      "short": "a dwarven hammer",
+      "long": "There is a dwarven hammer laying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6505": {
+      "vnum": 6505,
+      "keywords": [
+        "dwarven",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "dwarven plate mail",
+      "long": "A set of dwarven plate mail is laying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6506": {
+      "vnum": 6506,
+      "keywords": [
+        "long",
+        "black",
+        "stick"
+      ],
+      "type": "staff",
+      "short": "a long, black stick",
+      "long": "A long, black stick lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6507": {
+      "vnum": 6507,
+      "keywords": [
+        "long",
+        "white",
+        "stick"
+      ],
+      "type": "light",
+      "short": "a long, white stick",
+      "long": "A long, white stick lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6508": {
+      "vnum": 6508,
+      "keywords": [
+        "dwarven",
+        "stone",
+        "club"
+      ],
+      "type": "weapon",
+      "short": "a dwarven stone club",
+      "long": "A dwarven club made of stone lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6509": {
+      "vnum": 6509,
+      "keywords": [
+        "two-handed",
+        "dwarven",
+        "axe"
+      ],
+      "type": "weapon",
+      "short": "a two-handed dwarven axe",
+      "long": "A two-handed Dwarven axe is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6510": {
+      "vnum": 6510,
+      "keywords": [
+        "dwarven",
+        "helmet"
+      ],
+      "type": "armor",
+      "short": "a dwarven helmet",
+      "long": "A dwarven helmet has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6511": {
+      "vnum": 6511,
+      "keywords": [
+        "ring",
+        "golden",
+        "dwarven"
+      ],
+      "type": "treasure",
+      "short": "a dwarven golden ring",
+      "long": "A pretty golden ring is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6512": {
+      "vnum": 6512,
+      "keywords": [
+        "dwarven",
+        "gloves"
+      ],
+      "type": "armor",
+      "short": "dwarven gloves",
+      "long": "Thick dwarven gloves lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6513": {
+      "vnum": 6513,
+      "keywords": [
+        "note"
+      ],
+      "type": "furniture",
+      "short": "a note",
+      "long": "A crumpled note is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6514": {
+      "vnum": 6514,
+      "keywords": [
+        "castle",
+        "key"
+      ],
+      "type": "key",
+      "short": "a castle key",
+      "long": "There is a key to Strangelove Castle here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6516": {
+      "vnum": 6516,
+      "keywords": [
+        "key",
+        "mine"
+      ],
+      "type": "key",
+      "short": "a mine key",
+      "long": "There is a key to the mines here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6517": {
+      "vnum": 6517,
+      "keywords": [
+        "coal",
+        "pile"
+      ],
+      "type": "trash",
+      "short": "a small pile of coal",
+      "long": "A small pile of coal has been heaped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6518": {
+      "vnum": 6518,
+      "keywords": [
+        "dwarven",
+        "mining",
+        "pick"
+      ],
+      "type": "weapon",
+      "short": "a dwarven mining pick",
+      "long": "A dwarven mining pick has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6519": {
+      "vnum": 6519,
+      "keywords": [
+        "pills"
+      ],
+      "type": "pill",
+      "short": "a box of birth control pills",
+      "long": "There is a box of birth control pills here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "Pixie Forest",
   "author": "Caine",
+  "reset_minutes": 5,
   "rooms": {
     "2070": {
       "vnum": 2070,
@@ -14,7 +15,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2071": {
       "vnum": 2071,
@@ -31,7 +34,15 @@
         "tree": "This ancient oak casts a shadow across much of the southeastern section\nof the clearing.  Upon close inspection you notice that the tree has many\nhollows in it where some of the air sprites make their homes."
       },
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [
+        {
+          "vnum": 2071,
+          "count": 4,
+          "room": 2071
+        }
+      ],
+      "object_resets": []
     },
     "2072": {
       "vnum": 2072,
@@ -45,7 +56,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2073": {
       "vnum": 2073,
@@ -61,7 +74,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2074": {
       "vnum": 2074,
@@ -77,7 +92,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2075": {
       "vnum": 2075,
@@ -91,7 +108,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2076": {
       "vnum": 2076,
@@ -106,7 +125,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2077": {
       "vnum": 2077,
@@ -122,7 +143,9 @@
         "footprint": "You recognize the track as belonging to a brown forest bear, which\nare normally quite docile in this neck of the woods."
       },
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2078": {
       "vnum": 2078,
@@ -137,7 +160,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2079": {
       "vnum": 2079,
@@ -152,7 +177,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2080": {
       "vnum": 2080,
@@ -166,7 +193,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2081": {
       "vnum": 2081,
@@ -183,7 +212,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2082": {
       "vnum": 2082,
@@ -201,7 +232,15 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [
+        {
+          "vnum": 2072,
+          "count": 1,
+          "room": 2082
+        }
+      ],
+      "object_resets": []
     },
     "2083": {
       "vnum": 2083,
@@ -219,7 +258,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2084": {
       "vnum": 2084,
@@ -234,7 +275,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2085": {
       "vnum": 2085,
@@ -248,7 +291,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2086": {
       "vnum": 2086,
@@ -263,7 +308,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2087": {
       "vnum": 2087,
@@ -278,7 +325,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2088": {
       "vnum": 2088,
@@ -292,7 +341,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2089": {
       "vnum": 2089,
@@ -310,7 +361,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2090": {
       "vnum": 2090,
@@ -325,7 +378,21 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [
+        {
+          "vnum": 2073,
+          "count": 2,
+          "room": 2090
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2076,
+          "count": 1,
+          "room": 2090
+        }
+      ]
     },
     "2091": {
       "vnum": 2091,
@@ -340,7 +407,15 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2076,
+          "count": 1,
+          "room": 2091
+        }
+      ]
     },
     "2092": {
       "vnum": 2092,
@@ -355,7 +430,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2093": {
       "vnum": 2093,
@@ -374,7 +451,9 @@
         "tree": "Great gashes have been made vertically in this tree by the claws of a large\ncreature."
       },
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2094": {
       "vnum": 2094,
@@ -390,7 +469,15 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [
+        {
+          "vnum": 2070,
+          "count": 1,
+          "room": 2094
+        }
+      ],
+      "object_resets": []
     },
     "2095": {
       "vnum": 2095,
@@ -407,7 +494,15 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2077,
+          "count": 1,
+          "room": 2095
+        }
+      ]
     },
     "2096": {
       "vnum": 2096,
@@ -424,7 +519,15 @@
         "reflection": "Your reflection seems to depict you as you were at the age of twenty."
       },
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2076,
+          "count": 1,
+          "room": 2096
+        }
+      ]
     },
     "2097": {
       "vnum": 2097,
@@ -438,7 +541,21 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [
+        {
+          "vnum": 2073,
+          "count": 2,
+          "room": 2097
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2076,
+          "count": 1,
+          "room": 2097
+        }
+      ]
     },
     "2098": {
       "vnum": 2098,
@@ -455,7 +572,9 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2099": {
       "vnum": 2099,
@@ -469,7 +588,248 @@
       },
       "exdescs": {},
       "area_name": "Pixie Forest",
-      "area_author": "Caine"
+      "area_author": "Caine",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2070": {
+      "vnum": 2070,
+      "keywords": [
+        "brown",
+        "forest",
+        "bear"
+      ],
+      "short": "a forest bear",
+      "long": "A brown forest bear casually strolls through his wooded domain.",
+      "race": "bear",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2071": {
+      "vnum": 2071,
+      "keywords": [
+        "air",
+        "sprite",
+        "pixie"
+      ],
+      "short": "an air sprite",
+      "long": "A minute air sprite darts about upon the currents of clear air.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2072": {
+      "vnum": 2072,
+      "keywords": [
+        "quasit",
+        "demon",
+        "imp"
+      ],
+      "short": "a demonic quasit imp",
+      "long": "A quasit imp lurks through the shadows along the ground.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2073": {
+      "vnum": 2073,
+      "keywords": [
+        "water",
+        "pixie",
+        "sprite"
+      ],
+      "short": "a water pixie",
+      "long": "A water pixie frolics and dances along the water.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2070": {
+      "vnum": 2070,
+      "keywords": [
+        "pearl",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a black pearl",
+      "long": "A strange black pearl seems to stare back at you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2071": {
+      "vnum": 2071,
+      "keywords": [
+        "claw",
+        "forest",
+        "bear"
+      ],
+      "type": "weapon",
+      "short": "the claw of a forest bear",
+      "long": "The giant claw of a forest bear draws your curiosity.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2072": {
+      "vnum": 2072,
+      "keywords": [
+        "crystal",
+        "pixie",
+        "wing"
+      ],
+      "type": "armor",
+      "short": "a crystal pixie wing",
+      "long": "A crystal pixie wing flutters aimlessly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2073": {
+      "vnum": 2073,
+      "keywords": [
+        "hoop",
+        "water",
+        "sprite",
+        "ring"
+      ],
+      "type": "boat",
+      "short": "a hoop of flowing water",
+      "long": "A ring formed from a circle of flowing water lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2074": {
+      "vnum": 2074,
+      "keywords": [
+        "beaker",
+        "plentiful",
+        "potions",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a beaker of plentiful potions",
+      "long": "A mystical concoction is here waiting to be quaffed.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2075": {
+      "vnum": 2075,
+      "keywords": [
+        "pad",
+        "paper"
+      ],
+      "type": "furniture",
+      "short": "A pad of paper",
+      "long": "A pad of paper rests upon a table here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2076": {
+      "vnum": 2076,
+      "keywords": [
+        "smooth",
+        "waters",
+        "water"
+      ],
+      "type": "fountain",
+      "short": "waters smooth as crystal",
+      "long": "Waters smooth as crystal absorb the ripples of your passage.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2077": {
+      "vnum": 2077,
+      "keywords": [
+        "refreshing",
+        "spring"
+      ],
+      "type": "fountain",
+      "short": "A refreshing spring",
+      "long": "A small spring runs along the northern wall offering clean drinking water.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

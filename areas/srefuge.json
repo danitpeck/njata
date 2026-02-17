@@ -1,6 +1,7 @@
 {
   "name": "Shattered Refuge",
   "author": "Seccunda",
+  "reset_minutes": 10,
   "rooms": {
     "1500": {
       "vnum": 1500,
@@ -14,7 +15,45 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        },
+        {
+          "vnum": 1517,
+          "count": 7,
+          "room": 1500
+        }
+      ],
+      "object_resets": []
     },
     "1501": {
       "vnum": 1501,
@@ -32,7 +71,15 @@
         "signature": "The area to the east is populated with two distinct groups.\nGnomes, who are tinkerers, scientists, cheerful, meticulous,\nand good natured, occupy the village just to the east. The\nHobgoblins, who are sneaky, coniving, envious, slovenly, and\nhave an evil temperment, have been mining and extending their\ninfluence within caves further to the east. A long standing\nrivalry has existed between these two societies. To date, it\nremains unresolved.\n\nThe level range for this area is from level 5 to approximately\nlevel 20. Use caution and care when exploring. Make use of the\nLOOK command to find many hidden details of these two groups.\n\nArea rewritten by:\nWitherin Seccunda-DethBlayde, the Badger\nBrittany Seccunda-DethBlayde, Godmother of the Realms\nRewrite Completed: Tuesday May 7, 1996"
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1598,
+          "count": 1,
+          "room": 1501
+        }
+      ]
     },
     "1502": {
       "vnum": 1502,
@@ -49,7 +96,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1527,
+          "count": 2,
+          "room": 1502
+        },
+        {
+          "vnum": 1527,
+          "count": 2,
+          "room": 1502
+        }
+      ],
+      "object_resets": []
     },
     "1503": {
       "vnum": 1503,
@@ -65,7 +125,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1504": {
       "vnum": 1504,
@@ -84,7 +146,9 @@
         "loose": "Much of what you see here is difficult, if not impossible to\nidentify. Being able to read the labels does not help matters. One\nparticularly strange item has the tag of:  Bodntronic socket whittle."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1505": {
       "vnum": 1505,
@@ -100,7 +164,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1504,
+          "count": 2,
+          "room": 1505
+        },
+        {
+          "vnum": 1532,
+          "count": 2,
+          "room": 1505
+        }
+      ],
+      "object_resets": []
     },
     "1506": {
       "vnum": 1506,
@@ -116,7 +193,26 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1504,
+          "count": 2,
+          "room": 1506
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1525,
+          "count": 1,
+          "room": 1506
+        },
+        {
+          "vnum": 1524,
+          "count": 1,
+          "room": 1506
+        }
+      ]
     },
     "1507": {
       "vnum": 1507,
@@ -131,7 +227,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1532,
+          "count": 2,
+          "room": 1507
+        }
+      ],
+      "object_resets": []
     },
     "1508": {
       "vnum": 1508,
@@ -146,7 +250,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1503,
+          "count": 2,
+          "room": 1508
+        }
+      ],
+      "object_resets": []
     },
     "1509": {
       "vnum": 1509,
@@ -162,7 +274,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1510": {
       "vnum": 1510,
@@ -178,7 +292,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1531,
+          "count": 2,
+          "room": 1510
+        }
+      ],
+      "object_resets": []
     },
     "1511": {
       "vnum": 1511,
@@ -194,7 +316,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1531,
+          "count": 2,
+          "room": 1511
+        },
+        {
+          "vnum": 1503,
+          "count": 2,
+          "room": 1511
+        }
+      ],
+      "object_resets": []
     },
     "1512": {
       "vnum": 1512,
@@ -209,7 +344,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1513": {
       "vnum": 1513,
@@ -234,7 +371,15 @@
         "table": "The table has several objects placed with care upon it. Tiny and\nintricate, these objects show an exquisite attention to detail.\nOne in particular looks like some mad spider with long delicate\nlegs that end in tiny blades. A schematic beside the spider shows\na demonstration of it peeling an apple."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1530,
+          "count": 1,
+          "room": 1513
+        }
+      ],
+      "object_resets": []
     },
     "1514": {
       "vnum": 1514,
@@ -253,7 +398,15 @@
         "table": "Tiny tools of the most exquisite detail are carefully arrayed on the\ntable. A small box of ebony rests upon the table, open to your view.\nInside, you can see miniscule figurines of exacting detail. As you\nreach out to pick one up, a sharp shock tingles your finger tips. Some\nprotective field prevents you from touching anything on the table."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1505,
+          "count": 1,
+          "room": 1514
+        }
+      ],
+      "object_resets": []
     },
     "1515": {
       "vnum": 1515,
@@ -275,7 +428,20 @@
         "walls": "On all sides are doors save north, this is a sturdy looking wall. You can\nsee scrappings on the floor, like maybe the wall moves."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1510,
+          "count": 2,
+          "room": 1515
+        },
+        {
+          "vnum": 1511,
+          "count": 1,
+          "room": 1515
+        }
+      ],
+      "object_resets": []
     },
     "1516": {
       "vnum": 1516,
@@ -292,7 +458,15 @@
         "disk": "As you move towards the disk to examine it further, the disk seems\nto darken for an instant. With a sudden buzzing in the air, the disk\nflares in a brilliant flash of light. Wincing in pain, you attempt\nto pick up the object. The heat as it touches your skin though, causes\nyou to quickly drop it and move back."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1509,
+          "count": 3,
+          "room": 1516
+        }
+      ],
+      "object_resets": []
     },
     "1517": {
       "vnum": 1517,
@@ -311,7 +485,15 @@
         "stream": "The stream is pretty small, but it looks too cold to swim."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1510,
+          "count": 2,
+          "room": 1517
+        }
+      ],
+      "object_resets": []
     },
     "1518": {
       "vnum": 1518,
@@ -329,7 +511,26 @@
         "powder": "Dusty traces of some faint red powder can been seen on the walls.\nCloser inspection shows that the powder has been imbedded into the\nwall face, as if it struck the wall with incredible force. There is\na dim magical glow emanating from the powder."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1509,
+          "count": 3,
+          "room": 1518
+        },
+        {
+          "vnum": 1509,
+          "count": 3,
+          "room": 1518
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1526,
+          "count": 1,
+          "room": 1518
+        }
+      ]
     },
     "1519": {
       "vnum": 1519,
@@ -347,7 +548,15 @@
         "light": "As you look towards the light that caught your eye, it disappears.\nFor some reason your eyes linger upon that part of the room. Patient\nwaiting, however, does not cause the light to reappear. Mayhap this\npuzzle requires a more detailed search."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1528,
+          "count": 1,
+          "room": 1519
+        }
+      ]
     },
     "1520": {
       "vnum": 1520,
@@ -362,7 +571,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1537,
+          "count": 5,
+          "room": 1520
+        },
+        {
+          "vnum": 1537,
+          "count": 5,
+          "room": 1520
+        }
+      ],
+      "object_resets": []
     },
     "1521": {
       "vnum": 1521,
@@ -378,7 +600,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1502,
+          "count": 4,
+          "room": 1521
+        },
+        {
+          "vnum": 1502,
+          "count": 4,
+          "room": 1521
+        }
+      ],
+      "object_resets": []
     },
     "1522": {
       "vnum": 1522,
@@ -399,7 +634,25 @@
         "table": "There are several puzzles arrayed upon the table. They seem quite\ncomplex in detail. Looking at them, you marvel at their intricacy\nand complexity."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1534,
+          "count": 1,
+          "room": 1522
+        },
+        {
+          "vnum": 1500,
+          "count": 2,
+          "room": 1522
+        },
+        {
+          "vnum": 1500,
+          "count": 2,
+          "room": 1522
+        }
+      ],
+      "object_resets": []
     },
     "1523": {
       "vnum": 1523,
@@ -420,7 +673,30 @@
         "springs": "All of these items have a larger than life feel to them. Made of some\nresilient slick substance, they are colored in bright pastel tones."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1535,
+          "count": 1,
+          "room": 1523
+        },
+        {
+          "vnum": 1566,
+          "count": 3,
+          "room": 1523
+        },
+        {
+          "vnum": 1566,
+          "count": 3,
+          "room": 1523
+        },
+        {
+          "vnum": 1566,
+          "count": 3,
+          "room": 1523
+        }
+      ],
+      "object_resets": []
     },
     "1524": {
       "vnum": 1524,
@@ -435,7 +711,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1525": {
       "vnum": 1525,
@@ -450,7 +728,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1538,
+          "count": 4,
+          "room": 1525
+        },
+        {
+          "vnum": 1538,
+          "count": 4,
+          "room": 1525
+        }
+      ],
+      "object_resets": []
     },
     "1526": {
       "vnum": 1526,
@@ -466,7 +757,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1527": {
       "vnum": 1527,
@@ -482,7 +775,21 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1536,
+          "count": 3,
+          "room": 1527
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1530,
+          "count": 1,
+          "room": 1527
+        }
+      ]
     },
     "1528": {
       "vnum": 1528,
@@ -497,7 +804,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1538,
+          "count": 4,
+          "room": 1528
+        },
+        {
+          "vnum": 1538,
+          "count": 4,
+          "room": 1528
+        }
+      ],
+      "object_resets": []
     },
     "1529": {
       "vnum": 1529,
@@ -518,7 +838,15 @@
         "furniture": "The furniture seems artfully placed to leave a space open near the\ncenter of the room, without broadly pointing out that fact. Careful\nexamination shows a thin outline in the floor. Almost as if there\nwere a hidden door of some kind."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1514,
+          "count": 1,
+          "room": 1529
+        }
+      ],
+      "object_resets": []
     },
     "1530": {
       "vnum": 1530,
@@ -536,7 +864,9 @@
         "spices": "The spices are spread about the entire dwelling, intermixed with\nthe flowers to give the room a nice balanced feel."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1531": {
       "vnum": 1531,
@@ -555,7 +885,20 @@
         "shelves": "All the furnishings here are basic in the extreme and look to have\nlittle or no regular use."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1536,
+          "count": 3,
+          "room": 1531
+        },
+        {
+          "vnum": 1536,
+          "count": 3,
+          "room": 1531
+        }
+      ],
+      "object_resets": []
     },
     "1532": {
       "vnum": 1532,
@@ -571,7 +914,25 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1533,
+          "count": 3,
+          "room": 1532
+        },
+        {
+          "vnum": 1502,
+          "count": 4,
+          "room": 1532
+        },
+        {
+          "vnum": 1502,
+          "count": 4,
+          "room": 1532
+        }
+      ],
+      "object_resets": []
     },
     "1533": {
       "vnum": 1533,
@@ -587,7 +948,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1534": {
       "vnum": 1534,
@@ -602,7 +965,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1533,
+          "count": 3,
+          "room": 1534
+        },
+        {
+          "vnum": 1533,
+          "count": 3,
+          "room": 1534
+        }
+      ],
+      "object_resets": []
     },
     "1535": {
       "vnum": 1535,
@@ -617,7 +993,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1501,
+          "count": 3,
+          "room": 1535
+        },
+        {
+          "vnum": 1501,
+          "count": 3,
+          "room": 1535
+        }
+      ],
+      "object_resets": []
     },
     "1536": {
       "vnum": 1536,
@@ -642,7 +1031,15 @@
         "table": "This table holds the most interesting items. Tiny, intricate examples\nof gears, joints and springs are carefully arrayed on the table's\nsurface. As you examine these, some of which at smaller than your\nthumbnail, you sigh in wonder at the skill used to create such\nitems."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1501,
+          "count": 3,
+          "room": 1536
+        }
+      ],
+      "object_resets": []
     },
     "1537": {
       "vnum": 1537,
@@ -656,7 +1053,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1537,
+          "count": 5,
+          "room": 1537
+        }
+      ],
+      "object_resets": []
     },
     "1538": {
       "vnum": 1538,
@@ -670,7 +1075,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1537,
+          "count": 5,
+          "room": 1538
+        },
+        {
+          "vnum": 1537,
+          "count": 5,
+          "room": 1538
+        }
+      ],
+      "object_resets": []
     },
     "1539": {
       "vnum": 1539,
@@ -686,7 +1104,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1540": {
       "vnum": 1540,
@@ -701,7 +1121,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1508,
+          "count": 4,
+          "room": 1540
+        },
+        {
+          "vnum": 1508,
+          "count": 4,
+          "room": 1540
+        }
+      ],
+      "object_resets": []
     },
     "1541": {
       "vnum": 1541,
@@ -715,7 +1148,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1547,
+          "count": 2,
+          "room": 1541
+        }
+      ],
+      "object_resets": []
     },
     "1542": {
       "vnum": 1542,
@@ -729,7 +1170,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1543": {
       "vnum": 1543,
@@ -744,7 +1187,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1508,
+          "count": 4,
+          "room": 1543
+        },
+        {
+          "vnum": 1508,
+          "count": 4,
+          "room": 1543
+        }
+      ],
+      "object_resets": []
     },
     "1544": {
       "vnum": 1544,
@@ -758,7 +1214,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1545": {
       "vnum": 1545,
@@ -772,7 +1230,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1546": {
       "vnum": 1546,
@@ -788,7 +1248,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1545,
+          "count": 1,
+          "room": 1546
+        }
+      ],
+      "object_resets": []
     },
     "1547": {
       "vnum": 1547,
@@ -804,7 +1272,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1546,
+          "count": 1,
+          "room": 1547
+        }
+      ],
+      "object_resets": []
     },
     "1548": {
       "vnum": 1548,
@@ -820,7 +1296,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1549": {
       "vnum": 1549,
@@ -836,7 +1314,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1550": {
       "vnum": 1550,
@@ -852,7 +1332,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1547,
+          "count": 2,
+          "room": 1550
+        }
+      ],
+      "object_resets": []
     },
     "1551": {
       "vnum": 1551,
@@ -868,7 +1356,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1552": {
       "vnum": 1552,
@@ -884,7 +1374,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1553": {
       "vnum": 1553,
@@ -899,7 +1391,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1554": {
       "vnum": 1554,
@@ -915,7 +1409,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1555": {
       "vnum": 1555,
@@ -935,7 +1431,15 @@
         "shelves": "As your eyes scan over the posessions arrayed throughout the\nroom, you see that the collection runs the gamut from a childs\ndusty old toy to several tomes richly tooled in new leather.\nMore a collection of memories than an assortment of items, the\nobjects reflect a great and deep soul."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1524,
+          "count": 1,
+          "room": 1555
+        }
+      ],
+      "object_resets": []
     },
     "1556": {
       "vnum": 1556,
@@ -950,7 +1454,21 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1529,
+          "count": 1,
+          "room": 1556
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1531,
+          "count": 1,
+          "room": 1556
+        }
+      ]
     },
     "1557": {
       "vnum": 1557,
@@ -966,7 +1484,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1558": {
       "vnum": 1558,
@@ -982,7 +1502,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1559": {
       "vnum": 1559,
@@ -999,7 +1521,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1560": {
       "vnum": 1560,
@@ -1015,7 +1539,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1561": {
       "vnum": 1561,
@@ -1031,7 +1557,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1562": {
       "vnum": 1562,
@@ -1047,7 +1575,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1563": {
       "vnum": 1563,
@@ -1064,7 +1594,30 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1513,
+          "count": 3,
+          "room": 1563
+        },
+        {
+          "vnum": 1513,
+          "count": 3,
+          "room": 1563
+        },
+        {
+          "vnum": 1513,
+          "count": 3,
+          "room": 1563
+        },
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1563
+        }
+      ],
+      "object_resets": []
     },
     "1564": {
       "vnum": 1564,
@@ -1082,7 +1635,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1564
+        }
+      ],
+      "object_resets": []
     },
     "1565": {
       "vnum": 1565,
@@ -1097,7 +1658,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1566": {
       "vnum": 1566,
@@ -1113,7 +1676,21 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1526,
+          "count": 1,
+          "room": 1566
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1533,
+          "count": 2,
+          "room": 1566
+        }
+      ]
     },
     "1567": {
       "vnum": 1567,
@@ -1128,7 +1705,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1568": {
       "vnum": 1568,
@@ -1145,7 +1724,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1568
+        }
+      ],
+      "object_resets": []
     },
     "1569": {
       "vnum": 1569,
@@ -1160,7 +1747,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1570": {
       "vnum": 1570,
@@ -1177,7 +1766,25 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1570
+        },
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1570
+        },
+        {
+          "vnum": 1520,
+          "count": 6,
+          "room": 1570
+        }
+      ],
+      "object_resets": []
     },
     "1571": {
       "vnum": 1571,
@@ -1192,7 +1799,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1572": {
       "vnum": 1572,
@@ -1210,7 +1819,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1573": {
       "vnum": 1573,
@@ -1225,7 +1836,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1573,
+          "count": 1,
+          "room": 1573
+        }
+      ]
     },
     "1574": {
       "vnum": 1574,
@@ -1240,7 +1859,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1575": {
       "vnum": 1575,
@@ -1257,7 +1878,35 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1548,
+          "count": 5,
+          "room": 1575
+        },
+        {
+          "vnum": 1548,
+          "count": 5,
+          "room": 1575
+        },
+        {
+          "vnum": 1548,
+          "count": 5,
+          "room": 1575
+        },
+        {
+          "vnum": 1548,
+          "count": 5,
+          "room": 1575
+        },
+        {
+          "vnum": 1548,
+          "count": 5,
+          "room": 1575
+        }
+      ],
+      "object_resets": []
     },
     "1576": {
       "vnum": 1576,
@@ -1276,7 +1925,25 @@
         "throne": "There is a huge, stone throne here, blocking travel to the west."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1519,
+          "count": 1,
+          "room": 1576
+        },
+        {
+          "vnum": 1518,
+          "count": 2,
+          "room": 1576
+        },
+        {
+          "vnum": 1518,
+          "count": 2,
+          "room": 1576
+        }
+      ],
+      "object_resets": []
     },
     "1577": {
       "vnum": 1577,
@@ -1292,7 +1959,21 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1521,
+          "count": 1,
+          "room": 1577
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 1518,
+          "count": 2,
+          "room": 1577
+        }
+      ]
     },
     "1578": {
       "vnum": 1578,
@@ -1309,7 +1990,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1579": {
       "vnum": 1579,
@@ -1325,7 +2008,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1580": {
       "vnum": 1580,
@@ -1340,7 +2025,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1516,
+          "count": 2,
+          "room": 1580
+        },
+        {
+          "vnum": 1516,
+          "count": 2,
+          "room": 1580
+        }
+      ],
+      "object_resets": []
     },
     "1581": {
       "vnum": 1581,
@@ -1357,7 +2055,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1515,
+          "count": 4,
+          "room": 1581
+        },
+        {
+          "vnum": 1515,
+          "count": 4,
+          "room": 1581
+        }
+      ],
+      "object_resets": []
     },
     "1582": {
       "vnum": 1582,
@@ -1375,7 +2086,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1583": {
       "vnum": 1583,
@@ -1394,7 +2107,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1584": {
       "vnum": 1584,
@@ -1414,7 +2129,15 @@
         "door": "The door at first glance appears to be very fragile. Simply made of\nlong pieces of green hardwood and strips of bark, it is cunningly\nmade. A careful examination shows it to be quite sturdy."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1552,
+          "count": 1,
+          "room": 1584
+        }
+      ],
+      "object_resets": []
     },
     "1585": {
       "vnum": 1585,
@@ -1434,7 +2157,9 @@
         "rug": "Strangely patterned, this rug depicts some sort of abstract scene\ninvolving gears, struts and other mechanical esoterica. As you\nlook at it, wondering at the taste of its owner, you realize\nthere is something unusual in its placement. Looking further,\nyou catch the unmistakeable signs of a hidden trap door."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1586": {
       "vnum": 1586,
@@ -1451,7 +2176,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1551,
+          "count": 2,
+          "room": 1586
+        }
+      ],
+      "object_resets": []
     },
     "1587": {
       "vnum": 1587,
@@ -1473,7 +2206,20 @@
         "doors": "The doors at first glance appear to be very fragile. Simply made of\nlong pieces of green hardwood and strips of bark, they are cunningly\nmade. A careful examination shows them to be quite sturdy."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1549,
+          "count": 4,
+          "room": 1587
+        },
+        {
+          "vnum": 1549,
+          "count": 4,
+          "room": 1587
+        }
+      ],
+      "object_resets": []
     },
     "1588": {
       "vnum": 1588,
@@ -1494,7 +2240,20 @@
         "doors": "The doors at first glance appear to be very fragile. Simply made of\nlong pieces of green hardwood and strips of bark, they are cunningly\nmade. A careful examination shows them to be quite sturdy."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1549,
+          "count": 4,
+          "room": 1588
+        },
+        {
+          "vnum": 1549,
+          "count": 4,
+          "room": 1588
+        }
+      ],
+      "object_resets": []
     },
     "1589": {
       "vnum": 1589,
@@ -1512,7 +2271,9 @@
         "scratchings": "Looking carefully at the walls, you can barely make out some strange\nwritings. They seem to be portions of arcane symbols and formulae.\nUnfortunately, wear and tear on the walls has obscured portions of\nthe writings."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1590": {
       "vnum": 1590,
@@ -1528,7 +2289,25 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1522,
+          "count": 3,
+          "room": 1590
+        },
+        {
+          "vnum": 1522,
+          "count": 3,
+          "room": 1590
+        },
+        {
+          "vnum": 1522,
+          "count": 3,
+          "room": 1590
+        }
+      ],
+      "object_resets": []
     },
     "1591": {
       "vnum": 1591,
@@ -1544,7 +2323,15 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1539,
+          "count": 1,
+          "room": 1591
+        }
+      ],
+      "object_resets": []
     },
     "1592": {
       "vnum": 1592,
@@ -1560,7 +2347,30 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1523,
+          "count": 4,
+          "room": 1592
+        },
+        {
+          "vnum": 1523,
+          "count": 4,
+          "room": 1592
+        },
+        {
+          "vnum": 1523,
+          "count": 4,
+          "room": 1592
+        },
+        {
+          "vnum": 1523,
+          "count": 4,
+          "room": 1592
+        }
+      ],
+      "object_resets": []
     },
     "1593": {
       "vnum": 1593,
@@ -1577,7 +2387,9 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1594": {
       "vnum": 1594,
@@ -1596,7 +2408,20 @@
       },
       "exdescs": {},
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1515,
+          "count": 4,
+          "room": 1594
+        },
+        {
+          "vnum": 1515,
+          "count": 4,
+          "room": 1594
+        }
+      ],
+      "object_resets": []
     },
     "1595": {
       "vnum": 1595,
@@ -1618,7 +2443,15 @@
         "manacles": "Rusted, but well cared for, these manacles have seen recent use.\nBy the size of them, you would guess the victim to be roughly\nman sized, although the actual race cannot be determined from\nso little evidence."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1551,
+          "count": 2,
+          "room": 1595
+        }
+      ],
+      "object_resets": []
     },
     "1596": {
       "vnum": 1596,
@@ -1642,7 +2475,9 @@
         "stacks": "Riffling through the stacks, you find they are full of incomprehensible\ndiagrams, formulae and the odd bit of arcane symbology. Try as you might,\nyou cannot make out what any of it means."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1597": {
       "vnum": 1597,
@@ -1664,7 +2499,9 @@
         "stone": "Looking at the rubble, you can see the markings from the tools used\nto chip away at the surrounding stone. WHoever has been doing this\nwork is strong indeed. The length of some marks upon the wall show\na great deal of force behind the blows."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1598": {
       "vnum": 1598,
@@ -1684,7 +2521,15 @@
         "table": "Rickety in the extreme, this table looks to be on its last legs. The\nscarring and caking of its surface adds to its aged appearance."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1550,
+          "count": 3,
+          "room": 1598
+        }
+      ],
+      "object_resets": []
     },
     "1599": {
       "vnum": 1599,
@@ -1709,7 +2554,2164 @@
         "table": "Rickety in the extreme, this table looks to be on its last legs.\nThe stacks of junk seem to be pushed against the legs, as if\noffering support to them."
       },
       "area_name": "Shattered Refuge",
-      "area_author": "Seccunda"
+      "area_author": "Seccunda",
+      "mobile_resets": [
+        {
+          "vnum": 1550,
+          "count": 3,
+          "room": 1599
+        },
+        {
+          "vnum": 1550,
+          "count": 3,
+          "room": 1599
+        }
+      ],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "1500": {
+      "vnum": 1500,
+      "keywords": [
+        "child",
+        "gnome"
+      ],
+      "short": "a gnome child",
+      "long": "A gnome child is here, deep in thought.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1501": {
+      "vnum": 1501,
+      "keywords": [
+        "woman",
+        "gnome"
+      ],
+      "short": "a gnome woman",
+      "long": "A gnome woman is standing here, trying to look beautiful.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1502": {
+      "vnum": 1502,
+      "keywords": [
+        "man",
+        "gnome"
+      ],
+      "short": "a gnome man",
+      "long": "A gnome man is walking here, on his way to work.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1503": {
+      "vnum": 1503,
+      "keywords": [
+        "scientist",
+        "gnome"
+      ],
+      "short": "a gnome scientist",
+      "long": "A scientist wanders around deep in thought.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1504": {
+      "vnum": 1504,
+      "keywords": [
+        "gnome",
+        "assistant"
+      ],
+      "short": "an assistant",
+      "long": "An assistant scientist is here, juggling beakers and vials.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 90,
+      "max_mana": 90,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1505": {
+      "vnum": 1505,
+      "keywords": [
+        "chief",
+        "gnome"
+      ],
+      "short": "the chief gnome",
+      "long": "A powerful looking gnome stands here wearing ornate clothes.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1507": {
+      "vnum": 1507,
+      "keywords": [
+        "troll",
+        "large",
+        "bridge",
+        "bridgetrolla"
+      ],
+      "short": "a large troll",
+      "long": "A large troll stands here, guarding the bridge.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 350,
+      "max_mana": 350,
+      "attributes": [
+        16,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1508": {
+      "vnum": 1508,
+      "keywords": [
+        "mouse",
+        "field"
+      ],
+      "short": "a field mouse",
+      "long": "A small mouse runs across your foot.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1509": {
+      "vnum": 1509,
+      "keywords": [
+        "rat",
+        "small"
+      ],
+      "short": "a rat",
+      "long": "A small rat shrieks and runs around.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 66,
+      "max_mana": 66,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1510": {
+      "vnum": 1510,
+      "keywords": [
+        "rat",
+        "large"
+      ],
+      "short": "a large rat",
+      "long": "A large rat runs up to you and nibbles on your boots.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 88,
+      "max_mana": 88,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1511": {
+      "vnum": 1511,
+      "keywords": [
+        "rat",
+        "giant"
+      ],
+      "short": "a giant rat",
+      "long": "A giant rat growls at you and prepares to attack.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 111,
+      "max_mana": 111,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1512": {
+      "vnum": 1512,
+      "keywords": [
+        "troll"
+      ],
+      "short": "the troll",
+      "long": "A giant troll lumbers around.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1513": {
+      "vnum": 1513,
+      "keywords": [
+        "bat",
+        "black"
+      ],
+      "short": "a black bat",
+      "long": "A black bat hangs from the ceiling.",
+      "race": "bat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1514": {
+      "vnum": 1514,
+      "keywords": [
+        "gnome",
+        "scientist",
+        "traitor"
+      ],
+      "short": "the traitor",
+      "long": "A gnome scientist wanders about the room, nervous at your intrusion.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1515": {
+      "vnum": 1515,
+      "keywords": [
+        "bat",
+        "fire"
+      ],
+      "short": "the fire bat",
+      "long": "The fire bat flames brightly and prepares to attack.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1516": {
+      "vnum": 1516,
+      "keywords": [
+        "guard",
+        "hobgoblin"
+      ],
+      "short": "the hobgoblin guard",
+      "long": "The hobgoblin guard attacks first, thinks later.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1517": {
+      "vnum": 1517,
+      "keywords": [
+        "soldier",
+        "hobgoblin"
+      ],
+      "short": "the hobgoblin soldier",
+      "long": "A hobgoblin soldier stands here.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1518": {
+      "vnum": 1518,
+      "keywords": [
+        "bodyguard",
+        "hobgoblin",
+        "guard"
+      ],
+      "short": "the hobgoblin bodyguard",
+      "long": "A hobgoblin bodyguard guards the king with his life.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 105,
+      "max_mana": 105,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1519": {
+      "vnum": 1519,
+      "keywords": [
+        "king",
+        "hobgoblin"
+      ],
+      "short": "the king of the hobgoblins",
+      "long": "There is a great king here, sitting in his throne.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "aggressive",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1520": {
+      "vnum": 1520,
+      "keywords": [
+        "miner",
+        "hobgoblin"
+      ],
+      "short": "a hobgoblin miner",
+      "long": "A hobgoblin miner stands here looking for gold.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1521": {
+      "vnum": 1521,
+      "keywords": [
+        "treasurer",
+        "hobgoblin",
+        "tt"
+      ],
+      "short": "the treasurer",
+      "long": "A treasurer is here counting out money.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 115,
+      "max_mana": 115,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1522": {
+      "vnum": 1522,
+      "keywords": [
+        "prisoner",
+        "gnome"
+      ],
+      "short": "a gnome prisoner",
+      "long": "A gnome prisoner is here resting in the straw.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1523": {
+      "vnum": 1523,
+      "keywords": [
+        "prisoner",
+        "human"
+      ],
+      "short": "a human prisoner",
+      "long": "A human prisoner is here resting in the straw.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1524": {
+      "vnum": 1524,
+      "keywords": [
+        "man",
+        "old",
+        "hermit"
+      ],
+      "short": "the hermit",
+      "long": "An old man wanders about this underground home.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1526": {
+      "vnum": 1526,
+      "keywords": [
+        "cook",
+        "hobgoblin"
+      ],
+      "short": "the cook",
+      "long": "A hobgoblin cook stands here, harvesting fungus.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 150,
+      "hp": 150,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1527": {
+      "vnum": 1527,
+      "keywords": [
+        "gnome",
+        "guard"
+      ],
+      "short": "a gnome guard",
+      "long": "A particularly mean looking gnome guards the path north.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1528": {
+      "vnum": 1528,
+      "keywords": [
+        "tester",
+        "mobbie"
+      ],
+      "short": "a newly created tester mobbie",
+      "long": "Some god abandoned a newly created tester mobbie here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1529": {
+      "vnum": 1529,
+      "keywords": [
+        "canary",
+        "cc"
+      ],
+      "short": "a canary",
+      "long": "A bright yellow canary rests upon her perch here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1530": {
+      "vnum": 1530,
+      "keywords": [
+        "gnome",
+        "receptionist",
+        "woman"
+      ],
+      "short": "the receptionist",
+      "long": "A gnome woman is here, busy filing notes.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1531": {
+      "vnum": 1531,
+      "keywords": [
+        "gnome",
+        "assistant"
+      ],
+      "short": "an assistant",
+      "long": "An assistant scientist is here, juggling beakers and vials.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 90,
+      "max_mana": 90,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1532": {
+      "vnum": 1532,
+      "keywords": [
+        "scientist",
+        "gnome"
+      ],
+      "short": "a gnome scientist",
+      "long": "A scientist wanders around deep in thought.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1533": {
+      "vnum": 1533,
+      "keywords": [
+        "child",
+        "gnome"
+      ],
+      "short": "a gnome child",
+      "long": "A gnome child is here, tossing around a toy boomerang.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1534": {
+      "vnum": 1534,
+      "keywords": [
+        "teacher",
+        "woman",
+        "gnome"
+      ],
+      "short": "the teacher",
+      "long": "An old gnome woman stands here, teaching the class.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1535": {
+      "vnum": 1535,
+      "keywords": [
+        "teacher",
+        "man",
+        "gnome"
+      ],
+      "short": "the teacher",
+      "long": "This teacher commands attention from his students merely by his presence.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1536": {
+      "vnum": 1536,
+      "keywords": [
+        "child",
+        "gnome"
+      ],
+      "short": "a gnome child",
+      "long": "A gnome child is here, tossing around a toy boomerang.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1537": {
+      "vnum": 1537,
+      "keywords": [
+        "child",
+        "gnome"
+      ],
+      "short": "a gnome child",
+      "long": "A gnome child is here, skipping rocks.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1538": {
+      "vnum": 1538,
+      "keywords": [
+        "woman",
+        "gnome"
+      ],
+      "short": "a gnome woman",
+      "long": "A gnome woman is standing here, trying to look beautiful.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1539": {
+      "vnum": 1539,
+      "keywords": [
+        "patch",
+        "darkness",
+        "shadow"
+      ],
+      "short": "an infant shadow",
+      "long": "A whispy, indistinct patch of darkness shifts amongst the shadows here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1545": {
+      "vnum": 1545,
+      "keywords": [
+        "troll",
+        "large",
+        "bridge",
+        "bridgetrolla"
+      ],
+      "short": "a large troll",
+      "long": "A large troll stands here, guarding the bridge.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 350,
+      "max_mana": 350,
+      "attributes": [
+        16,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1546": {
+      "vnum": 1546,
+      "keywords": [
+        "troll",
+        "large",
+        "bridge",
+        "bridgetrollb"
+      ],
+      "short": "a large troll",
+      "long": "A large troll stands here, guarding the bridge.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 350,
+      "max_mana": 350,
+      "attributes": [
+        16,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1547": {
+      "vnum": 1547,
+      "keywords": [
+        "snake",
+        "adder"
+      ],
+      "short": "the adder",
+      "long": "An adder snake slithers through the grass, hunting rodents for food.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1548": {
+      "vnum": 1548,
+      "keywords": [
+        "guard",
+        "hobgoblin"
+      ],
+      "short": "the hobgoblin guard",
+      "long": "The hobgoblin guard attacks first, thinks later.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1549": {
+      "vnum": 1549,
+      "keywords": [
+        "guard",
+        "hobgoblin"
+      ],
+      "short": "the hobgoblin guard",
+      "long": "The hobgoblin guard attacks first, thinks later.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1550": {
+      "vnum": 1550,
+      "keywords": [
+        "hobgoblin",
+        "tinker"
+      ],
+      "short": "a tinker",
+      "long": "A hobgoblin is here, tinkering on an odd invention.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1551": {
+      "vnum": 1551,
+      "keywords": [
+        "miner",
+        "hobgoblin"
+      ],
+      "short": "a hobgoblin miner",
+      "long": "A hobgoblin miner walks around here, barely doing any actual work.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1552": {
+      "vnum": 1552,
+      "keywords": [
+        "guard",
+        "hobgoblin"
+      ],
+      "short": "the hobgoblin guard",
+      "long": "The hobgoblin guard attacks first, thinks later.",
+      "race": "hobgoblin",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1565": {
+      "vnum": 1565,
+      "keywords": [
+        "new",
+        "mob"
+      ],
+      "short": "a newly created new mob",
+      "long": "Some god abandoned a newly created new mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1566": {
+      "vnum": 1566,
+      "keywords": [
+        "child",
+        "gnome"
+      ],
+      "short": "a gnome child",
+      "long": "A gnome child is here, deep in thought.",
+      "race": "gnome",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1599": {
+      "vnum": 1599,
+      "keywords": [
+        "aset",
+        "spacer",
+        "mob"
+      ],
+      "short": "a newly created new mob",
+      "long": "Some god abandoned a newly created new mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "1500": {
+      "vnum": 1500,
+      "keywords": [
+        "key",
+        "bloody"
+      ],
+      "type": "key",
+      "short": "a bloody key",
+      "long": "A bloody key is stuck to the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1501": {
+      "vnum": 1501,
+      "keywords": [
+        "key",
+        "dirty"
+      ],
+      "type": "key",
+      "short": "a dirty key",
+      "long": "A dirty key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1502": {
+      "vnum": 1502,
+      "keywords": [
+        "boomerang"
+      ],
+      "type": "weapon",
+      "short": "a boomerang",
+      "long": "A toy boomerang wants to be picked up.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1503": {
+      "vnum": 1503,
+      "keywords": [
+        "staff",
+        "gnarled"
+      ],
+      "type": "weapon",
+      "short": "a gnarled staff",
+      "long": "A gnarled staff is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1504": {
+      "vnum": 1504,
+      "keywords": [
+        "sword",
+        "gnome"
+      ],
+      "type": "weapon",
+      "short": "a gnome sword",
+      "long": "A gnome sword catches your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1505": {
+      "vnum": 1505,
+      "keywords": [
+        "shield",
+        "studded"
+      ],
+      "type": "armor",
+      "short": "a studded shield",
+      "long": "A studded wooden shield lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1506": {
+      "vnum": 1506,
+      "keywords": [
+        "potion",
+        "bloody"
+      ],
+      "type": "potion",
+      "short": "a bloody potion",
+      "long": "A bloody potion lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1507": {
+      "vnum": 1507,
+      "keywords": [
+        "cloak",
+        "bloody"
+      ],
+      "type": "armor",
+      "short": "a bloody cloak",
+      "long": "A bloody cloak lies in a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1508": {
+      "vnum": 1508,
+      "keywords": [
+        "ring",
+        "bat"
+      ],
+      "type": "armor",
+      "short": "a bat ring",
+      "long": "A ring in the shape of a bat lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1509": {
+      "vnum": 1509,
+      "keywords": [
+        "necklace",
+        "bead"
+      ],
+      "type": "armor",
+      "short": "a bead necklace",
+      "long": "A string of beads is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1510": {
+      "vnum": 1510,
+      "keywords": [
+        "sword",
+        "electrum"
+      ],
+      "type": "weapon",
+      "short": "an electrum sword",
+      "long": "An electrum sword lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1511": {
+      "vnum": 1511,
+      "keywords": [
+        "basket",
+        "wicker"
+      ],
+      "type": "container",
+      "short": "a wicker basket",
+      "long": "A wicker basket sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1512": {
+      "vnum": 1512,
+      "keywords": [
+        "peanuts"
+      ],
+      "type": "food",
+      "short": "some peanuts",
+      "long": "Some peanuts lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1513": {
+      "vnum": 1513,
+      "keywords": [
+        "grain"
+      ],
+      "type": "food",
+      "short": "some grain",
+      "long": "There is some grain here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1514": {
+      "vnum": 1514,
+      "keywords": [
+        "skiff"
+      ],
+      "type": "boat",
+      "short": "a skiff",
+      "long": "A small skiff is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1515": {
+      "vnum": 1515,
+      "keywords": [
+        "boots",
+        "gnome"
+      ],
+      "type": "armor",
+      "short": "a pair of gnome boots",
+      "long": "You notice a pair of gnomish boots.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1516": {
+      "vnum": 1516,
+      "keywords": [
+        "coins"
+      ],
+      "type": "money",
+      "short": "a pile of coins",
+      "long": "A pile of coins.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1517": {
+      "vnum": 1517,
+      "keywords": [
+        "coins"
+      ],
+      "type": "money",
+      "short": "a pile of coins",
+      "long": "A pile of coins.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1518": {
+      "vnum": 1518,
+      "keywords": [
+        "coins"
+      ],
+      "type": "money",
+      "short": "a pile of coins",
+      "long": "A pile of coins.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1519": {
+      "vnum": 1519,
+      "keywords": [
+        "shield",
+        "stone"
+      ],
+      "type": "armor",
+      "short": "a stone shield",
+      "long": "A stone slab lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1520": {
+      "vnum": 1520,
+      "keywords": [
+        "mail",
+        "heavy",
+        "banded"
+      ],
+      "type": "armor",
+      "short": "heavy banded mail",
+      "long": "A large suit of heavy banded mail is here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1521": {
+      "vnum": 1521,
+      "keywords": [
+        "club",
+        "large"
+      ],
+      "type": "weapon",
+      "short": "a large club",
+      "long": "A large club sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1522": {
+      "vnum": 1522,
+      "keywords": [
+        "banana"
+      ],
+      "type": "food",
+      "short": "a banana",
+      "long": "There is a banana here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1523": {
+      "vnum": 1523,
+      "keywords": [
+        "life",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a potion of life healing",
+      "long": "A potion of life healing has left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1524": {
+      "vnum": 1524,
+      "keywords": [
+        "lever"
+      ],
+      "type": "lever",
+      "short": "a lever inside the object",
+      "long": "A small lever rests within the object along the wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1525": {
+      "vnum": 1525,
+      "keywords": [
+        "object"
+      ],
+      "type": "trash",
+      "short": "object",
+      "long": "A large, strange object hums quietly here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1526": {
+      "vnum": 1526,
+      "keywords": [
+        "Box"
+      ],
+      "type": "container",
+      "short": "The box",
+      "long": "A sturdy box rests securely on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1527": {
+      "vnum": 1527,
+      "keywords": [
+        "packet"
+      ],
+      "type": "trash",
+      "short": "an odd slick packet",
+      "long": "An odd slick packet rests in a special cradle here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1528": {
+      "vnum": 1528,
+      "keywords": [
+        "crack"
+      ],
+      "type": "container",
+      "short": "a crack in the wall",
+      "long": "A small crack in the wall has been found here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1529": {
+      "vnum": 1529,
+      "keywords": [
+        "quill",
+        "black",
+        "light"
+      ],
+      "type": "light",
+      "short": "a small quill",
+      "long": "A small, oddly shaped black quill lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1530": {
+      "vnum": 1530,
+      "keywords": [
+        "statue",
+        "stone",
+        "granite",
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a stone plaque",
+      "long": "A large gnome carved from granite stands here, holding a bronze plaque.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1531": {
+      "vnum": 1531,
+      "keywords": [
+        "Oaken",
+        "shelf",
+        "shelves"
+      ],
+      "type": "container",
+      "short": "a tall oak shelf",
+      "long": "A tall oaken shelf stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1532": {
+      "vnum": 1532,
+      "keywords": [
+        "battered",
+        "vellum",
+        "scroll"
+      ],
+      "type": "scroll",
+      "short": "a battered scroll",
+      "long": "A weathered vellum scroll rests here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1533": {
+      "vnum": 1533,
+      "keywords": [
+        "fungus",
+        "glob"
+      ],
+      "type": "food",
+      "short": "an odd fungus",
+      "long": "A glob of strangely glowing fungus pulses on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1534": {
+      "vnum": 1534,
+      "keywords": [
+        "fungoid",
+        "losenge"
+      ],
+      "type": "pill",
+      "short": "a fungoid losenge",
+      "long": "A slimy little losenge sticks to the floor here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1535": {
+      "vnum": 1535,
+      "keywords": [
+        "sword",
+        "electrum"
+      ],
+      "type": "weapon",
+      "short": "an electrum sword",
+      "long": "An electrum sword lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1536": {
+      "vnum": 1536,
+      "keywords": [
+        "reading",
+        "glasses"
+      ],
+      "type": "armor",
+      "short": "a pair of reading glasses",
+      "long": "A pair of wire rimmed glasses lie here, complete with thick lenses",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1537": {
+      "vnum": 1537,
+      "keywords": [
+        "beaker",
+        "glowing",
+        "liquid"
+      ],
+      "type": "potion",
+      "short": "a glowing beaker of liquid",
+      "long": "A beaker full of a glowing liquid sits here, brewing and boilding.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1538": {
+      "vnum": 1538,
+      "keywords": [
+        "grey",
+        "ratty",
+        "labcoat"
+      ],
+      "type": "armor",
+      "short": "a ratty grey labcoat",
+      "long": "A pile of ratty grey material lies here in a heap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1539": {
+      "vnum": 1539,
+      "keywords": [
+        "round",
+        "flat",
+        "stone",
+        "rock"
+      ],
+      "type": "wand",
+      "short": "a rounded, flat stone",
+      "long": "A oddly glowing rock lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1540": {
+      "vnum": 1540,
+      "keywords": [
+        "apron",
+        "plaid",
+        "cotton"
+      ],
+      "type": "armor",
+      "short": "a plaid cotton apron",
+      "long": "An old pile of plaid cotton lies here, dotted with stains.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1541": {
+      "vnum": 1541,
+      "keywords": [
+        "handkerchief",
+        "cotton"
+      ],
+      "type": "armor",
+      "short": "a plaid cotton handkerchief",
+      "long": "A cotton handkerchief lays here, crumpled in a ball.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1542": {
+      "vnum": 1542,
+      "keywords": [
+        "vial",
+        "fizz"
+      ],
+      "type": "potion",
+      "short": "a vial of fizz",
+      "long": "A fizzing vial was left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1543": {
+      "vnum": 1543,
+      "keywords": [
+        "cloak",
+        "plaid",
+        "cotton"
+      ],
+      "type": "armor",
+      "short": "a tattered plaid cloak",
+      "long": "A frayed cotton plaid cloak lies here in a heap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1544": {
+      "vnum": 1544,
+      "keywords": [
+        "fur",
+        "robe"
+      ],
+      "type": "armor",
+      "short": "a patchwork fur robe",
+      "long": "An odd pile of bits of fur resembling a robe lies here in disarray.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1545": {
+      "vnum": 1545,
+      "keywords": [
+        "sceptre"
+      ],
+      "type": "weapon",
+      "short": "a gnarled sceptre",
+      "long": "A huge gnarled sceptre encrusted with shards of raw crystal rests here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1546": {
+      "vnum": 1546,
+      "keywords": [
+        "disk"
+      ],
+      "type": "trash",
+      "short": "A golden disk",
+      "long": "A dusky golden disk rests on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1547": {
+      "vnum": 1547,
+      "keywords": [
+        "disk"
+      ],
+      "type": "trash",
+      "short": "A golden disk",
+      "long": "A dusky golden disk rests on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1548": {
+      "vnum": 1548,
+      "keywords": [
+        "helmet"
+      ],
+      "type": "container",
+      "short": "a grime covered helmet",
+      "long": "This is a grime covered helmet, dented and battered.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1550": {
+      "vnum": 1550,
+      "keywords": [
+        "aset",
+        "spacer",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created aset spacer object",
+      "long": "Some god dropped a newly created aset spacer object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1573": {
+      "vnum": 1573,
+      "keywords": [
+        "foul",
+        "spring",
+        "pool"
+      ],
+      "type": "fountain",
+      "short": "a foul spring and pool",
+      "long": "A foul smelling spring trickles down to a small pool here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1597": {
+      "vnum": 1597,
+      "keywords": [
+        "mining",
+        "shovel"
+      ],
+      "type": "shovel",
+      "short": "a dirty shovel",
+      "long": "A dirty mining shovel has been left here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1598": {
+      "vnum": 1598,
+      "keywords": [
+        "sign",
+        "signpost"
+      ],
+      "type": "furniture",
+      "short": "a signpost",
+      "long": "A strange glowing sign is imbedded in the earth by the roadside.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1599": {
+      "vnum": 1599,
+      "keywords": [
+        "aset",
+        "spacer",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created aset spacer object",
+      "long": "Some god dropped a newly created aset spacer object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

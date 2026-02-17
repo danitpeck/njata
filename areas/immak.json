@@ -1,6 +1,7 @@
 {
   "name": "Port Town of Immak",
   "author": "Zoie",
+  "reset_minutes": 15,
   "rooms": {
     "1400": {
       "vnum": 1400,
@@ -21,7 +22,15 @@
         "benches": "Sturdy benches made of wood painted white are here lining the edges of the\ncobblestone square."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1400,
+          "count": 1,
+          "room": 1400
+        }
+      ]
     },
     "1401": {
       "vnum": 1401,
@@ -37,7 +46,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1402": {
       "vnum": 1402,
@@ -51,7 +62,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 1400,
+          "count": 1,
+          "room": 1402
+        }
+      ],
+      "object_resets": []
     },
     "1403": {
       "vnum": 1403,
@@ -67,7 +86,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 1401,
+          "count": 1,
+          "room": 1403
+        }
+      ],
+      "object_resets": []
     },
     "1404": {
       "vnum": 1404,
@@ -83,7 +110,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1401,
+          "count": 1,
+          "room": 1404
+        }
+      ]
     },
     "1405": {
       "vnum": 1405,
@@ -99,7 +134,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1406": {
       "vnum": 1406,
@@ -112,7 +149,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 1402,
+          "count": 1,
+          "room": 1406
+        }
+      ],
+      "object_resets": []
     },
     "1407": {
       "vnum": 1407,
@@ -126,7 +171,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1408": {
       "vnum": 1408,
@@ -141,7 +188,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1409": {
       "vnum": 1409,
@@ -157,7 +206,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1410": {
       "vnum": 1410,
@@ -173,7 +224,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1411": {
       "vnum": 1411,
@@ -189,7 +242,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1412": {
       "vnum": 1412,
@@ -205,7 +260,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1413": {
       "vnum": 1413,
@@ -221,7 +278,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1414": {
       "vnum": 1414,
@@ -236,7 +295,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1415": {
       "vnum": 1415,
@@ -251,7 +312,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1416": {
       "vnum": 1416,
@@ -266,7 +329,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1417": {
       "vnum": 1417,
@@ -281,7 +346,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1418": {
       "vnum": 1418,
@@ -297,7 +364,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1419": {
       "vnum": 1419,
@@ -311,7 +380,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1420": {
       "vnum": 1420,
@@ -325,7 +396,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1421": {
       "vnum": 1421,
@@ -339,7 +412,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1422": {
       "vnum": 1422,
@@ -353,7 +428,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 1403,
+          "count": 1,
+          "room": 1422
+        }
+      ],
+      "object_resets": []
     },
     "1423": {
       "vnum": 1423,
@@ -368,7 +451,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1424": {
       "vnum": 1424,
@@ -382,7 +467,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1425": {
       "vnum": 1425,
@@ -395,7 +482,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1440,
+          "count": 1,
+          "room": 1425
+        }
+      ]
     },
     "1426": {
       "vnum": 1426,
@@ -410,7 +505,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1427": {
       "vnum": 1427,
@@ -427,7 +524,9 @@
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1428": {
       "vnum": 1428,
@@ -443,7 +542,9 @@
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1429": {
       "vnum": 1429,
@@ -459,7 +560,9 @@
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1430": {
       "vnum": 1430,
@@ -472,7 +575,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1431": {
       "vnum": 1431,
@@ -490,7 +595,9 @@
         "desc_freezing": "The bridge is partially unnecessary at the moment as the Merroc River has\ncompletely frozen over. Parts of the shining ice peek out through clumps\nof snow."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1432": {
       "vnum": 1432,
@@ -506,7 +613,9 @@
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1433": {
       "vnum": 1433,
@@ -521,7 +630,9 @@
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1434": {
       "vnum": 1434,
@@ -535,7 +646,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1435": {
       "vnum": 1435,
@@ -551,7 +664,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1436": {
       "vnum": 1436,
@@ -567,7 +682,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1437": {
       "vnum": 1437,
@@ -583,7 +700,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1438": {
       "vnum": 1438,
@@ -598,7 +717,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 1441,
+          "count": 1,
+          "room": 1438
+        }
+      ]
     },
     "1439": {
       "vnum": 1439,
@@ -614,7 +741,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1440": {
       "vnum": 1440,
@@ -631,7 +760,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1441": {
       "vnum": 1441,
@@ -646,7 +777,15 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [
+        {
+          "vnum": 1404,
+          "count": 1,
+          "room": 1441
+        }
+      ],
+      "object_resets": []
     },
     "1442": {
       "vnum": 1442,
@@ -662,7 +801,9 @@
       },
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "1449": {
       "vnum": 1449,
@@ -675,7 +816,562 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Port Town of Immak",
-      "area_author": "Zoie"
+      "area_author": "Zoie",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "1400": {
+      "vnum": 1400,
+      "keywords": [
+        "Bjorn",
+        "Tailor"
+      ],
+      "short": "Bjorn the Tailor",
+      "long": "Bjorn the tailor is here, showing off his wares.",
+      "race": "dwarf",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1401": {
+      "vnum": 1401,
+      "keywords": [
+        "Nissa",
+        "Smith",
+        "Blacksmith"
+      ],
+      "short": "Nissa the Smith",
+      "long": "Nissa the Smith is here, hammering away on her anvil.",
+      "race": "dwarf",
+      "class": "chevalier",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        13,
+        13,
+        18,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1402": {
+      "vnum": 1402,
+      "keywords": [
+        "Yrsa",
+        "Shopkeeper",
+        "Shop"
+      ],
+      "short": "Yrsa the Shopkeeper",
+      "long": "Yrsa the Shopkeeper is here, greeting customers.",
+      "race": "dwarf",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        18,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1403": {
+      "vnum": 1403,
+      "keywords": [
+        "Harald",
+        "Barkeeper"
+      ],
+      "short": "Harald the Barkeeper",
+      "long": "Harald the Barkeeper is here, polishing a glass.",
+      "race": "dwarf",
+      "class": "ranger",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1404": {
+      "vnum": 1404,
+      "keywords": [
+        "Ymir",
+        "Junk",
+        "Merchant"
+      ],
+      "short": "Ymir the Junk Merchant",
+      "long": "Ymir the Junk Merchant is here, looking shifty.",
+      "race": "dwarf",
+      "class": "ranger",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1410": {
+      "vnum": 1410,
+      "keywords": [
+        "plain",
+        "brown",
+        "horse"
+      ],
+      "short": "a plain brown horse",
+      "long": "A plain brown horse with a black mane is standing here.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "1449": {
+      "vnum": 1449,
+      "keywords": [
+        "last",
+        "mob"
+      ],
+      "short": "a newly created last mob",
+      "long": "Some god abandoned a newly created last mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "1400": {
+      "vnum": 1400,
+      "keywords": [
+        "stone",
+        "well"
+      ],
+      "type": "fountain",
+      "short": "an old stone well",
+      "long": "\u0026wAn old well made of stone is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1401": {
+      "vnum": 1401,
+      "keywords": [
+        "weatherbeaten",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a weatherbeaten sign",
+      "long": "A weatherbeaten sign is hammered into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1402": {
+      "vnum": 1402,
+      "keywords": [
+        "jaunty",
+        "felt",
+        "cap"
+      ],
+      "type": "armor",
+      "short": "a jaunty felt cap",
+      "long": "A jaunty cap made of felt is here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1403": {
+      "vnum": 1403,
+      "keywords": [
+        "suede",
+        "doublet"
+      ],
+      "type": "armor",
+      "short": "a suede doublet",
+      "long": "A doublet made of soft suede is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1410": {
+      "vnum": 1410,
+      "keywords": [
+        "heavy",
+        "iron",
+        "broadsword",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a heavy iron broadsword",
+      "long": "A heavy broadsword made of iron is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1411": {
+      "vnum": 1411,
+      "keywords": [
+        "wooden",
+        "wood",
+        "quarterstaff",
+        "staff"
+      ],
+      "type": "weapon",
+      "short": "a long wooden quarterstaff",
+      "long": "A long quarterstaff made of wood is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1412": {
+      "vnum": 1412,
+      "keywords": [
+        "bronze",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a bronze knife",
+      "long": "A knife made of bronze is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1413": {
+      "vnum": 1413,
+      "keywords": [
+        "brass",
+        "knuckles",
+        "knuckle"
+      ],
+      "type": "weapon",
+      "short": "a pair of brass knuckles",
+      "long": "A pair of brass knuckles is lying here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1414": {
+      "vnum": 1414,
+      "keywords": [
+        "leather",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a leather whip",
+      "long": "A leather whip is coiled up here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1415": {
+      "vnum": 1415,
+      "keywords": [
+        "bronze",
+        "light",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "a bronze light mace",
+      "long": "A light mace made of bronze is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1420": {
+      "vnum": 1420,
+      "keywords": [
+        "smoked",
+        "dried",
+        "fish"
+      ],
+      "type": "meat",
+      "short": "smoked dried fish",
+      "long": "Some dried and smoked fish is on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1421": {
+      "vnum": 1421,
+      "keywords": [
+        "leather",
+        "waterskin",
+        "water",
+        "skin"
+      ],
+      "type": "drinkcon",
+      "short": "a waterskin",
+      "long": "You see a waterskin made of leather here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1422": {
+      "vnum": 1422,
+      "keywords": [
+        "seashell",
+        "necklace",
+        "sea",
+        "shell"
+      ],
+      "type": "armor",
+      "short": "a seashell necklace",
+      "long": "A necklace made of seashells is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1423": {
+      "vnum": 1423,
+      "keywords": [
+        "backpack",
+        "leather"
+      ],
+      "type": "container",
+      "short": "a leather backpack",
+      "long": "A backpack made from brown leather lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1425": {
+      "vnum": 1425,
+      "keywords": [
+        "flagon",
+        "ale"
+      ],
+      "type": "drinkcon",
+      "short": "a flagon of ale",
+      "long": "Someone has forgotten their flagon of ale here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1426": {
+      "vnum": 1426,
+      "keywords": [
+        "torch"
+      ],
+      "type": "light",
+      "short": "a torch",
+      "long": "A piece of wood, partly wrapped in cloth is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1430": {
+      "vnum": 1430,
+      "keywords": [
+        "iron"
+      ],
+      "type": "ingot",
+      "short": "an iron ingot",
+      "long": "An iron ingot is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1431": {
+      "vnum": 1431,
+      "keywords": [
+        "hammer",
+        "smith",
+        "smithing"
+      ],
+      "type": "hammer",
+      "short": "a smithing hammer",
+      "long": "Someone has left a smithing hammer here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1432": {
+      "vnum": 1432,
+      "keywords": [
+        "woodcutting",
+        "axe"
+      ],
+      "type": "axe",
+      "short": "a woodcutting axe",
+      "long": "A woodcutting axe is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1435": {
+      "vnum": 1435,
+      "keywords": [
+        "old",
+        "fishing",
+        "pole"
+      ],
+      "type": "fishingpole",
+      "short": "an old fishing pole",
+      "long": "An old ratty fishing pole is here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1436": {
+      "vnum": 1436,
+      "keywords": [
+        "bait",
+        "worms"
+      ],
+      "type": "fish",
+      "short": "some bait worms",
+      "long": "A pile of bait worms is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1440": {
+      "vnum": 1440,
+      "keywords": [
+        "ancient",
+        "cave",
+        "paintings"
+      ],
+      "type": "furniture",
+      "short": "ancient cave paintings",
+      "long": "Ancient cave paintings adorn the walls near the rear of the cave.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1441": {
+      "vnum": 1441,
+      "keywords": [
+        "leather",
+        "divan"
+      ],
+      "type": "furniture",
+      "short": "a leather divan",
+      "long": "A divan upholstered in burgundy leather is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "1449": {
+      "vnum": 1449,
+      "keywords": [
+        "last",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created last obj",
+      "long": "Some god dropped a newly created last obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

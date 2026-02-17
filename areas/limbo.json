@@ -1,6 +1,7 @@
 {
   "name": "Limbo",
   "author": "RoD",
+  "reset_minutes": 60,
   "rooms": {
     "10": {
       "vnum": 10,
@@ -16,7 +17,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "11": {
       "vnum": 11,
@@ -32,7 +35,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "12": {
       "vnum": 12,
@@ -47,7 +52,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "13": {
       "vnum": 13,
@@ -62,7 +69,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "14": {
       "vnum": 14,
@@ -80,7 +89,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "15": {
       "vnum": 15,
@@ -98,7 +109,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "16": {
       "vnum": 16,
@@ -115,7 +128,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "17": {
       "vnum": 17,
@@ -133,7 +148,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "18": {
       "vnum": 18,
@@ -151,7 +168,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "19": {
       "vnum": 19,
@@ -169,7 +188,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "2": {
       "vnum": 2,
@@ -189,7 +210,26 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 1,
+          "count": 1,
+          "room": 2
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 22,
+          "count": 1,
+          "room": 2
+        },
+        {
+          "vnum": 60,
+          "count": 1,
+          "room": 2
+        }
+      ]
     },
     "20": {
       "vnum": 20,
@@ -206,7 +246,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "21": {
       "vnum": 21,
@@ -221,7 +263,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "22": {
       "vnum": 22,
@@ -240,7 +284,26 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 72,
+          "count": 1,
+          "room": 22
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 89,
+          "count": 1,
+          "room": 22
+        },
+        {
+          "vnum": 88,
+          "count": 1,
+          "room": 22
+        }
+      ]
     },
     "23": {
       "vnum": 23,
@@ -255,7 +318,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "24": {
       "vnum": 24,
@@ -270,7 +335,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "25": {
       "vnum": 25,
@@ -285,7 +352,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "26": {
       "vnum": 26,
@@ -301,7 +370,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "27": {
       "vnum": 27,
@@ -316,7 +387,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "29": {
       "vnum": 29,
@@ -337,7 +410,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3": {
       "vnum": 3,
@@ -355,7 +430,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "30": {
       "vnum": 30,
@@ -377,7 +454,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "31": {
       "vnum": 31,
@@ -398,7 +477,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "32": {
       "vnum": 32,
@@ -420,7 +501,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "33": {
       "vnum": 33,
@@ -441,7 +524,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "34": {
       "vnum": 34,
@@ -463,7 +548,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "35": {
       "vnum": 35,
@@ -484,7 +571,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "36": {
       "vnum": 36,
@@ -506,7 +595,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "37": {
       "vnum": 37,
@@ -534,7 +625,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "38": {
       "vnum": 38,
@@ -554,7 +647,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "39": {
       "vnum": 39,
@@ -574,7 +669,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "4": {
       "vnum": 4,
@@ -590,7 +687,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "40": {
       "vnum": 40,
@@ -610,7 +709,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "41": {
       "vnum": 41,
@@ -632,7 +733,9 @@
         "rules": "Arena Combat Rules\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n1)  All duels between peaceful characters must be run by an immortal of\n    Acolyte or higher.\n\n2)  All duels between deadly characters must be run by an immortal of\n    Acolyte or higher.\n\n2)  Combat must be agreed upon by both parties.\n\n3)  Any looting must be agreed upon before-hand by both parties.\n    (The overseeing immortal will enforce this)\n\n4)  Once you have entered your combatant room, there is no restarting.\n\n5)  Any rules on the fight must be stated clearly by both parties prior\n    to the commencement of battle.\n\n6)  The decision of the immortal overseeing the duel is final.\n\nAny complaints should be directed to the Pkill Conclave; you should include\nwho you dueled, who ran the duel, what occured, and why you have a problem.\nLogs are extremely helpful.\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
       },
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "42": {
       "vnum": 42,
@@ -654,7 +757,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "43": {
       "vnum": 43,
@@ -676,7 +781,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "44": {
       "vnum": 44,
@@ -692,7 +799,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "45": {
       "vnum": 45,
@@ -711,7 +820,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "46": {
       "vnum": 46,
@@ -730,7 +841,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "47": {
       "vnum": 47,
@@ -749,7 +862,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "48": {
       "vnum": 48,
@@ -768,7 +883,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "49": {
       "vnum": 49,
@@ -785,7 +902,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "50": {
       "vnum": 50,
@@ -803,7 +922,20 @@
         "stone": "The stones are polished to perfection and placed neatly to provide a\nspectator area."
       },
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 61,
+          "count": 1,
+          "room": 50
+        },
+        {
+          "vnum": 98,
+          "count": 1,
+          "room": 50
+        }
+      ]
     },
     "51": {
       "vnum": 51,
@@ -824,7 +956,9 @@
         "organ": "A large pipe organ stands along the east wall, filling the room with\nbeautiful orchestral sounds spilling from the large pipes that extend\ncompletely to the ceiling."
       },
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "52": {
       "vnum": 52,
@@ -837,7 +971,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "53": {
       "vnum": 53,
@@ -854,7 +990,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "54": {
       "vnum": 54,
@@ -872,7 +1010,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "55": {
       "vnum": 55,
@@ -890,7 +1030,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "56": {
       "vnum": 56,
@@ -907,7 +1049,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "57": {
       "vnum": 57,
@@ -926,7 +1070,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "58": {
       "vnum": 58,
@@ -945,7 +1091,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "59": {
       "vnum": 59,
@@ -964,7 +1112,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "6": {
       "vnum": 6,
@@ -985,7 +1135,26 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 2,
+          "count": 2,
+          "room": 6
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 22,
+          "count": 1,
+          "room": 6
+        },
+        {
+          "vnum": 60,
+          "count": 1,
+          "room": 6
+        }
+      ]
     },
     "60": {
       "vnum": 60,
@@ -1004,7 +1173,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "61": {
       "vnum": 61,
@@ -1023,7 +1194,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "62": {
       "vnum": 62,
@@ -1042,7 +1215,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "63": {
       "vnum": 63,
@@ -1061,7 +1236,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "64": {
       "vnum": 64,
@@ -1080,7 +1257,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "65": {
       "vnum": 65,
@@ -1101,7 +1280,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "66": {
       "vnum": 66,
@@ -1120,7 +1301,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "67": {
       "vnum": 67,
@@ -1137,7 +1320,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "68": {
       "vnum": 68,
@@ -1155,7 +1340,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "69": {
       "vnum": 69,
@@ -1172,7 +1359,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "70": {
       "vnum": 70,
@@ -1191,7 +1380,15 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 72,
+          "count": 1,
+          "room": 70
+        }
+      ]
     },
     "71": {
       "vnum": 71,
@@ -1209,7 +1406,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "72": {
       "vnum": 72,
@@ -1232,7 +1431,15 @@
         "xiv": "An antiquated oil painting of Louis XIV is mounted here in a frilled\ngolden border--the word \"pretentious\" is scrawled into the bottom."
       },
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 70,
+          "count": 1,
+          "room": 72
+        }
+      ],
+      "object_resets": []
     },
     "73": {
       "vnum": 73,
@@ -1251,7 +1458,15 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 71,
+          "count": 1,
+          "room": 73
+        }
+      ],
+      "object_resets": []
     },
     "74": {
       "vnum": 74,
@@ -1269,7 +1484,15 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 75,
+          "count": 1,
+          "room": 74
+        }
+      ]
     },
     "75": {
       "vnum": 75,
@@ -1293,7 +1516,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "76": {
       "vnum": 76,
@@ -1317,7 +1542,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "77": {
       "vnum": 77,
@@ -1340,7 +1567,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "78": {
       "vnum": 78,
@@ -1358,7 +1587,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "79": {
       "vnum": 79,
@@ -1376,7 +1607,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "8": {
       "vnum": 8,
@@ -1398,7 +1631,26 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [
+        {
+          "vnum": 2,
+          "count": 2,
+          "room": 8
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 22,
+          "count": 1,
+          "room": 8
+        },
+        {
+          "vnum": 66,
+          "count": 1,
+          "room": 8
+        }
+      ]
     },
     "80": {
       "vnum": 80,
@@ -1418,7 +1670,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "81": {
       "vnum": 81,
@@ -1435,7 +1689,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "82": {
       "vnum": 82,
@@ -1452,7 +1708,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "83": {
       "vnum": 83,
@@ -1471,7 +1729,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "84": {
       "vnum": 84,
@@ -1489,7 +1749,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "85": {
       "vnum": 85,
@@ -1507,7 +1769,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "86": {
       "vnum": 86,
@@ -1526,7 +1790,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "87": {
       "vnum": 87,
@@ -1544,7 +1810,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "88": {
       "vnum": 88,
@@ -1562,7 +1830,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "9": {
       "vnum": 9,
@@ -1581,7 +1851,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "90": {
       "vnum": 90,
@@ -1599,7 +1871,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "91": {
       "vnum": 91,
@@ -1618,7 +1892,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "92": {
       "vnum": 92,
@@ -1636,7 +1912,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "93": {
       "vnum": 93,
@@ -1658,7 +1936,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "94": {
       "vnum": 94,
@@ -1677,7 +1957,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "95": {
       "vnum": 95,
@@ -1696,7 +1978,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "96": {
       "vnum": 96,
@@ -1716,7 +2000,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "97": {
       "vnum": 97,
@@ -1736,7 +2022,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "98": {
       "vnum": 98,
@@ -1756,7 +2044,9 @@
       },
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "99": {
       "vnum": 99,
@@ -1774,7 +2064,1710 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Limbo",
-      "area_author": "RoD"
+      "area_author": "RoD",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 41,
+          "count": 1,
+          "room": 99
+        }
+      ]
+    }
+  },
+  "mobiles": {
+    "1": {
+      "vnum": 1,
+      "keywords": [
+        "Puff"
+      ],
+      "short": "Puff",
+      "long": "Puff the Fractal Dragon is here, contemplating a higher reality.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 30550,
+      "max_mana": 30550,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "10": {
+      "vnum": 10,
+      "keywords": [
+        "wolf"
+      ],
+      "short": "a deadly wolf",
+      "long": "A deadly wolf prowls around you with a vengeance",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "11": {
+      "vnum": 11,
+      "keywords": [
+        "mist"
+      ],
+      "short": "mist",
+      "long": "A thick mist plays with your senses.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "12": {
+      "vnum": 12,
+      "keywords": [
+        "bat"
+      ],
+      "short": "bat",
+      "long": "A bat hovers nearby with bloody fangs.",
+      "race": "bat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "13": {
+      "vnum": 13,
+      "keywords": [
+        "hawk"
+      ],
+      "short": "hawk",
+      "long": "A hawk watches you with predatory eyes from its perch.",
+      "race": "avis",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "14": {
+      "vnum": 14,
+      "keywords": [
+        "black",
+        "cat"
+      ],
+      "short": "black cat",
+      "long": "A black cat has crossed your path with deadly intent.",
+      "race": "feline",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "15": {
+      "vnum": 15,
+      "keywords": [
+        "dove"
+      ],
+      "short": "dove",
+      "long": "A beautiful dove sings a melancholy melody from its nest.",
+      "race": "avis",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "16": {
+      "vnum": 16,
+      "keywords": [
+        "fish"
+      ],
+      "short": "fish",
+      "long": "A fish blows large bubbles as it quickly swims past you.",
+      "race": "fish",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "17": {
+      "vnum": 17,
+      "keywords": [
+        "avatar"
+      ],
+      "short": "the avatar of %s",
+      "long": "The daunting and powerful avatar of %s occupies the ground here.",
+      "race": "humanoid",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 25,
+      "max_mana": 25,
+      "attributes": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "2": {
+      "vnum": 2,
+      "keywords": [
+        "freddy",
+        "imp"
+      ],
+      "short": "A demon imp",
+      "long": "A demon imp hovers nearby...drooling constantly with a fiendish grin.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 31550,
+      "max_mana": 31550,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3": {
+      "vnum": 3,
+      "keywords": [
+        "supermob"
+      ],
+      "short": "the supermob",
+      "long": "The supermob is here.  He looks busy as hell.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 31550,
+      "max_mana": 31550,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "4": {
+      "vnum": 4,
+      "keywords": [
+        "fharlangan",
+        "god",
+        "traveler"
+      ],
+      "short": "Fharlangan",
+      "long": "A man desiring nothing more than to be allowed to travel is here.",
+      "race": "god",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 100,
+      "hp": 100,
+      "mana": 3500,
+      "max_mana": 3500,
+      "attributes": [
+        25,
+        20,
+        20,
+        18,
+        17,
+        13,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "5": {
+      "vnum": 5,
+      "keywords": [
+        "undead",
+        "animated",
+        "corpse"
+      ],
+      "short": "an animated corpse",
+      "long": "An animated corpse struggles with the horror of its undeath.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 2,
+      "max_mana": 2,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "70": {
+      "vnum": 70,
+      "keywords": [
+        "chateau",
+        "jules",
+        "host"
+      ],
+      "short": "Jules",
+      "long": "The executive of the Chateau stands here, looking very pompous.",
+      "race": "neanderthal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "71": {
+      "vnum": 71,
+      "keywords": [
+        "chateau",
+        "pierre",
+        "waiter"
+      ],
+      "short": "Pierre",
+      "long": "A Chateau waiter stands here, looking very preoccupied.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "room_vnum": 0
+    },
+    "72": {
+      "vnum": 72,
+      "keywords": [
+        "albatross"
+      ],
+      "short": "An Albatross",
+      "long": "An Albatross lurkes in the darkness, here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "80": {
+      "vnum": 80,
+      "keywords": [
+        "guardian",
+        "vampire"
+      ],
+      "short": "a guardian vampire",
+      "long": "A vampire is here hiding his face from your light source.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 385,
+      "max_mana": 385,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "89": {
+      "vnum": 89,
+      "keywords": [
+        "Owl",
+        "Hooters"
+      ],
+      "short": "Hooters the Owl",
+      "long": "An owl with large wide eyes rests on his perch, hooting madly.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "99": {
+      "vnum": 99,
+      "keywords": [
+        "final",
+        "mob"
+      ],
+      "short": "a newly created final mob",
+      "long": "Some god abandoned a newly created final mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "10": {
+      "vnum": 10,
+      "keywords": [
+        "corpse"
+      ],
+      "type": "corpse",
+      "short": "the corpse of %s",
+      "long": "The corpse of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "11": {
+      "vnum": 11,
+      "keywords": [
+        "corpse"
+      ],
+      "type": "corpse_pc",
+      "short": "the corpse of %s",
+      "long": "The corpse of %s is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "12": {
+      "vnum": 12,
+      "keywords": [
+        "head"
+      ],
+      "type": "cook",
+      "short": "the decapitated head of %s",
+      "long": "The head of %s lies here, a vacant stare of shock on its face.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "13": {
+      "vnum": 13,
+      "keywords": [
+        "heart"
+      ],
+      "type": "cook",
+      "short": "the torn-out heart of %s",
+      "long": "The torn-out heart of %s lies here, no longer beating with life.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "14": {
+      "vnum": 14,
+      "keywords": [
+        "arm"
+      ],
+      "type": "cook",
+      "short": "the mangled arm of %s",
+      "long": "A writhing arm lies torn from the body of %s.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "15": {
+      "vnum": 15,
+      "keywords": [
+        "leg"
+      ],
+      "type": "cook",
+      "short": "the dismembered leg of %s",
+      "long": "Still twitching as if to kick you, the leg of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "16": {
+      "vnum": 16,
+      "keywords": [
+        "guts"
+      ],
+      "type": "cook",
+      "short": "the spilled guts of %s",
+      "long": "The disemboweled guts of %s swarm with maggots.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "17": {
+      "vnum": 17,
+      "keywords": [
+        "blood"
+      ],
+      "type": "blood",
+      "short": "the spilled blood",
+      "long": "A pool of spilled blood lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "18": {
+      "vnum": 18,
+      "keywords": [
+        "bloodstain"
+      ],
+      "type": "bloodstain",
+      "short": "the bloodstain",
+      "long": "Blood stains the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "19": {
+      "vnum": 19,
+      "keywords": [
+        "scraps",
+        "remnants"
+      ],
+      "type": "scraps",
+      "short": "the remnants of %s",
+      "long": "The remnants of %s are strewn about.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2": {
+      "vnum": 2,
+      "keywords": [
+        "coin",
+        "gold"
+      ],
+      "type": "money",
+      "short": "a gold coin",
+      "long": "One miserable gold coin.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "20": {
+      "vnum": 20,
+      "keywords": [
+        "a",
+        "magic",
+        "mushroom"
+      ],
+      "type": "food",
+      "short": "a magic mushroom",
+      "long": "A magic mushroom appears to have been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "21": {
+      "vnum": 21,
+      "keywords": [
+        "ball",
+        "light"
+      ],
+      "type": "light",
+      "short": "a ball of light",
+      "long": "A ball of light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "22": {
+      "vnum": 22,
+      "keywords": [
+        "mystical",
+        "spring",
+        "flowing"
+      ],
+      "type": "fountain",
+      "short": "a mystical spring",
+      "long": "A mystical spring flows majestically from a glowing circle of blue.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "23": {
+      "vnum": 23,
+      "keywords": [
+        "skin"
+      ],
+      "type": "treasure",
+      "short": "the skin of %s",
+      "long": "The skin of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24": {
+      "vnum": 24,
+      "keywords": [
+        "meat",
+        "fresh",
+        "slice"
+      ],
+      "type": "cook",
+      "short": "a slice of raw meat from %s",
+      "long": "A slice of raw meat from %s lies lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "25": {
+      "vnum": 25,
+      "keywords": [
+        "shoppe",
+        "bag",
+        "shopping"
+      ],
+      "type": "container",
+      "short": "a bag",
+      "long": "A shoppe bag lies discarded nearby.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "26": {
+      "vnum": 26,
+      "keywords": [
+        "blood",
+        "pool",
+        "spill",
+        "bloodlet"
+      ],
+      "type": "blood",
+      "short": "a quantity of let blood",
+      "long": "A pool of let blood glistens here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "27": {
+      "vnum": 27,
+      "keywords": [
+        "pile",
+        "sticks"
+      ],
+      "type": "tinder",
+      "short": "a pile of sticks",
+      "long": "A pile of sticks is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "28": {
+      "vnum": 28,
+      "keywords": [
+        "flint",
+        "piece"
+      ],
+      "type": "flint",
+      "short": "a piece of flint",
+      "long": "A piece of flint is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "29": {
+      "vnum": 29,
+      "keywords": [
+        "campfire",
+        "fire"
+      ],
+      "type": "fire",
+      "short": "a campfire",
+      "long": "A campfire is here, crackling away.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3": {
+      "vnum": 3,
+      "keywords": [
+        "coins",
+        "gold"
+      ],
+      "type": "money",
+      "short": "%d gold coins",
+      "long": "A pile of gold coins.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "30": {
+      "vnum": 30,
+      "keywords": [
+        "fire",
+        "flame",
+        "cloud"
+      ],
+      "type": "fire",
+      "short": "a cloud of vaporous flame",
+      "long": "A cloud of vaporous flame blazes here, defying the elements.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "31": {
+      "vnum": 31,
+      "keywords": [
+        "trap"
+      ],
+      "type": "trap",
+      "short": "a trap",
+      "long": "You detect a trap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "32": {
+      "vnum": 32,
+      "keywords": [
+        "portal",
+        "whirling"
+      ],
+      "type": "portal",
+      "short": "a whirling portal",
+      "long": "A whirling portal of energy turns slowly, beckoning to the unknown.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "33": {
+      "vnum": 33,
+      "keywords": [
+        "black",
+        "poison",
+        "powder"
+      ],
+      "type": "trash",
+      "short": "black poisoning powder",
+      "long": "A small amount of black poisoning powder sits in a small container on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "34": {
+      "vnum": 34,
+      "keywords": [
+        "scroll",
+        "scribing",
+        "blank"
+      ],
+      "type": "scroll",
+      "short": "a blank scroll",
+      "long": "A blank scroll lays here gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "35": {
+      "vnum": 35,
+      "keywords": [
+        "flask",
+        "empty"
+      ],
+      "type": "potion",
+      "short": "an empty flask",
+      "long": "An empty flask lays here gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "36": {
+      "vnum": 36,
+      "keywords": [
+        "parchment",
+        "paper",
+        "note"
+      ],
+      "type": "paper",
+      "short": "a note",
+      "long": "A note has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "37": {
+      "vnum": 37,
+      "keywords": [
+        "quill",
+        "pen"
+      ],
+      "type": "pen",
+      "short": "a quill",
+      "long": "A feather dipped in ink lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "38": {
+      "vnum": 38,
+      "keywords": [
+        "boots",
+        "travel",
+        "traveling"
+      ],
+      "type": "armor",
+      "short": "weathered boots",
+      "long": "A pair of weathered traveling boots lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "39": {
+      "vnum": 39,
+      "keywords": [
+        "key",
+        "gate"
+      ],
+      "type": "key",
+      "short": "a gate key",
+      "long": "A largish key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "41": {
+      "vnum": 41,
+      "keywords": [
+        "orb"
+      ],
+      "type": "lever",
+      "short": "the orb",
+      "long": "A small orb tops a slender pedestal of glowing crystal.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "42": {
+      "vnum": 42,
+      "keywords": [
+        "orb"
+      ],
+      "type": "staff",
+      "short": "a pulsing orb",
+      "long": "A pulsing orb lies here, probably lost.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "43": {
+      "vnum": 43,
+      "keywords": [
+        "holy",
+        "symbol",
+        "faith"
+      ],
+      "type": "armor",
+      "short": "a symbol of faith",
+      "long": "A holy symbol lies here, shining.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "44": {
+      "vnum": 44,
+      "keywords": [
+        "chunk",
+        "chunks",
+        "brain",
+        "brains"
+      ],
+      "type": "food",
+      "short": "the splattered brains of %s",
+      "long": "Grey chunks of the brain of %s lie here attracting flies.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "45": {
+      "vnum": 45,
+      "keywords": [
+        "hand"
+      ],
+      "type": "cook",
+      "short": "the severed hand of %s",
+      "long": "The severed hand of %s clenches in a death spasm.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "46": {
+      "vnum": 46,
+      "keywords": [
+        "foot"
+      ],
+      "type": "cook",
+      "short": "the twisted foot of %s",
+      "long": "The foot of %s lies in a pool of coagulated blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "47": {
+      "vnum": 47,
+      "keywords": [
+        "finger"
+      ],
+      "type": "cook",
+      "short": "the wriggling finger of %s",
+      "long": "Ripped from the hand of %s, a finger lies wriggling here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "48": {
+      "vnum": 48,
+      "keywords": [
+        "ear"
+      ],
+      "type": "cook",
+      "short": "the torn ear of %s",
+      "long": "The sliced-off ear of %s lies here, never again to hear battle.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "49": {
+      "vnum": 49,
+      "keywords": [
+        "eye"
+      ],
+      "type": "cook",
+      "short": "the gouged-out eye of %s",
+      "long": "A gouged-out eye forever envisions the gruesome death of %s.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "50": {
+      "vnum": 50,
+      "keywords": [
+        "long-tongue"
+      ],
+      "type": "cook",
+      "short": "the long tongue of %s",
+      "long": "Twisting as if to taste you, the writhing tongue of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "51": {
+      "vnum": 51,
+      "keywords": [
+        "eyestalk"
+      ],
+      "type": "cook",
+      "short": "the eyestalk of %s",
+      "long": "Visions of death fill your mind as you notice the eyestalks of %s.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "52": {
+      "vnum": 52,
+      "keywords": [
+        "tentacle"
+      ],
+      "type": "cook",
+      "short": "the slimy tentacle of %s",
+      "long": "A tentacle of %s thrashes wildly in a feeble attempt to regain life.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "53": {
+      "vnum": 53,
+      "keywords": [
+        "fin"
+      ],
+      "type": "trash",
+      "short": "the mutilated fin of %s",
+      "long": "The mutilated fin of %s lies here, smelling of rot and decay.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "54": {
+      "vnum": 54,
+      "keywords": [
+        "wing"
+      ],
+      "type": "trash",
+      "short": "the wing of %s",
+      "long": "The mangled wing of %s thrashes in final throes.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "55": {
+      "vnum": 55,
+      "keywords": [
+        "tail"
+      ],
+      "type": "trash",
+      "short": "the thrashing tail of %s",
+      "long": "The tail of %s lies here in a heap of morbid decay.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "56": {
+      "vnum": 56,
+      "keywords": [
+        "scale"
+      ],
+      "type": "trash",
+      "short": "a scale from %s",
+      "long": "A scale from %s lies here, caked thickly in blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "57": {
+      "vnum": 57,
+      "keywords": [
+        "tusk"
+      ],
+      "type": "trash",
+      "short": "the broken tusk of %s",
+      "long": "The broken tusk of %s has dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "58": {
+      "vnum": 58,
+      "keywords": [
+        "horn"
+      ],
+      "type": "trash",
+      "short": "the cracked horn of %s",
+      "long": "The cracked horn of %s lies dislodged here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "59": {
+      "vnum": 59,
+      "keywords": [
+        "claw"
+      ],
+      "type": "trash",
+      "short": "the severed claw of %s",
+      "long": "The severed claw of %s lies mangled here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "60": {
+      "vnum": 60,
+      "keywords": [
+        "blood",
+        "fountain"
+      ],
+      "type": "blood",
+      "short": "a fountain of blood",
+      "long": "A fountain of fresh blood flows in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "61": {
+      "vnum": 61,
+      "keywords": [
+        "spring",
+        "matrimony"
+      ],
+      "type": "fountain",
+      "short": "the Spring of Matrimony",
+      "long": "A shimmering spring flows quietly through.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "62": {
+      "vnum": 62,
+      "keywords": [
+        "ceremonial",
+        "lever",
+        "griffon"
+      ],
+      "type": "lever",
+      "short": "A shiny white lever",
+      "long": "A white lever is here for your transportation needs.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "63": {
+      "vnum": 63,
+      "keywords": [
+        "extradimensional",
+        "portal"
+      ],
+      "type": "container",
+      "short": "an extradimensional portal",
+      "long": "Some wizard left an extradimensional portal laying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "64": {
+      "vnum": 64,
+      "keywords": [
+        "sigil"
+      ],
+      "type": "light",
+      "short": "the sigil of %s",
+      "long": "The sigil of %s lies here, abandoned.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "65": {
+      "vnum": 65,
+      "keywords": [
+        "solomonic",
+        "cross",
+        "crucifix",
+        "symbol"
+      ],
+      "type": "armor",
+      "short": "a solomonic crucifix",
+      "long": "An elegant crucifix radiates a glow of warmth and piety.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "66": {
+      "vnum": 66,
+      "keywords": [
+        "sign"
+      ],
+      "type": "trash",
+      "short": "A Sign",
+      "long": "A sign providing you with information stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "67": {
+      "vnum": 67,
+      "keywords": [
+        "chopped",
+        "wood"
+      ],
+      "type": "wood",
+      "short": "chopped wood",
+      "long": "Some chopped wood has been stacked here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "68": {
+      "vnum": 68,
+      "keywords": [
+        "woodfire",
+        "fire"
+      ],
+      "type": "fire",
+      "short": "a wood fire",
+      "long": "A wood fire burns brightly here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7": {
+      "vnum": 7,
+      "keywords": [
+        "board",
+        "of",
+        "marks"
+      ],
+      "type": "trash",
+      "short": "the Marks Board",
+      "long": "A large bullseye sits in the far corner, riddled with arrows.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "70": {
+      "vnum": 70,
+      "keywords": [
+        "fillet",
+        "mignon",
+        "steak"
+      ],
+      "type": "food",
+      "short": "a delicate fillet mignon",
+      "long": "A delicate fillet mignon lies here on a plate, still sizzling.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "71": {
+      "vnum": 71,
+      "keywords": [
+        "glass",
+        "sherry",
+        "wine"
+      ],
+      "type": "drinkcon",
+      "short": "a fine glass of sherry",
+      "long": "A wine glass full of sherry drips here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "72": {
+      "vnum": 72,
+      "keywords": [
+        "honeymoon",
+        "plaque",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a honeymoon plaque",
+      "long": "A golden plaque gleams in the sunlight, crying out for your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "73": {
+      "vnum": 73,
+      "keywords": [
+        "french",
+        "lingerie",
+        "lace"
+      ],
+      "type": "armor",
+      "short": "French-lace lingerie",
+      "long": "Some white french-lace lingerie lies here, hmmmm.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "74": {
+      "vnum": 74,
+      "keywords": [
+        "french",
+        "boxers",
+        "chateau"
+      ],
+      "type": "armor",
+      "short": "French silk boxers",
+      "long": "Some french silk boxers lie here, from some type of chateau.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "75": {
+      "vnum": 75,
+      "keywords": [
+        "french",
+        "bed",
+        "heart"
+      ],
+      "type": "furniture",
+      "short": "a French heart-shaped bed",
+      "long": "A french heart-shaped bed is here, taking up most of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8": {
+      "vnum": 8,
+      "keywords": [
+        "board",
+        "vnum/area"
+      ],
+      "type": "trash",
+      "short": "the Vnum/Area Board",
+      "long": "The Vnum/Area Board is hanging on the wall here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "80": {
+      "vnum": 80,
+      "keywords": [
+        "feather"
+      ],
+      "type": "trash",
+      "short": "a feather from %s",
+      "long": "A feather from %s floats about here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "81": {
+      "vnum": 81,
+      "keywords": [
+        "forelegs"
+      ],
+      "type": "trash",
+      "short": "the severed foreleg of %s",
+      "long": "The severed foreleg of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "82": {
+      "vnum": 82,
+      "keywords": [
+        "paw"
+      ],
+      "type": "trash",
+      "short": "%s's severed paw",
+      "long": "The severed paw of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "83": {
+      "vnum": 83,
+      "keywords": [
+        "hoof"
+      ],
+      "type": "trash",
+      "short": "the cloven hoof of %s",
+      "long": "The cloven hoof of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "84": {
+      "vnum": 84,
+      "keywords": [
+        "beak"
+      ],
+      "type": "trash",
+      "short": "the beak of %s",
+      "long": "The beak of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "85": {
+      "vnum": 85,
+      "keywords": [
+        "sharpscale"
+      ],
+      "type": "trash",
+      "short": "a sharp scale from %s",
+      "long": "A sharp scale from %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "86": {
+      "vnum": 86,
+      "keywords": [
+        "haunch"
+      ],
+      "type": "food",
+      "short": "the haunch of %s",
+      "long": "The great haunch of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "87": {
+      "vnum": 87,
+      "keywords": [
+        "fang"
+      ],
+      "type": "trash",
+      "short": "the fang of %s",
+      "long": "The fang of %s lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "88": {
+      "vnum": 88,
+      "keywords": [
+        "deck"
+      ],
+      "type": "furniture",
+      "short": "A large deck chair",
+      "long": "A large deck chair lies here awaiting Mystaric.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "89": {
+      "vnum": 89,
+      "keywords": [
+        "swirling",
+        "tide",
+        "pool"
+      ],
+      "type": "fountain",
+      "short": "a Mystic tide pool",
+      "long": "A Mystic tide pool is here, the water swirling hypnotically.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9": {
+      "vnum": 9,
+      "keywords": [
+        "board",
+        "vnum"
+      ],
+      "type": "trash",
+      "short": "the Vnum Board",
+      "long": "A small bulletin board sits atop a desk in the far corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "90": {
+      "vnum": 90,
+      "keywords": [
+        "arena",
+        "sign",
+        "banner"
+      ],
+      "type": "furniture",
+      "short": "a floating banner",
+      "long": "A big banner floats here.  Read it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "91": {
+      "vnum": 91,
+      "keywords": [
+        "map"
+      ],
+      "type": "map",
+      "short": "map",
+      "long": "A map has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "95": {
+      "vnum": 95,
+      "keywords": [
+        "%s",
+        "fish"
+      ],
+      "type": "fish",
+      "short": "%s",
+      "long": "%s lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "98": {
+      "vnum": 98,
+      "keywords": [
+        "A",
+        "slice",
+        "of",
+        "wedding",
+        "cake"
+      ],
+      "type": "food",
+      "short": "A slice of wedding cake",
+      "long": "A slice of heavenly wedding cake sits on a garden table.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "99": {
+      "vnum": 99,
+      "keywords": [
+        "final",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created final object",
+      "long": "Some god dropped a newly created final object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

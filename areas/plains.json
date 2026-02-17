@@ -1,6 +1,7 @@
 {
   "name": "Plains of the North",
   "author": "Copper",
+  "reset_minutes": 15,
   "rooms": {
     "300": {
       "vnum": 300,
@@ -15,7 +16,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "301": {
       "vnum": 301,
@@ -29,7 +32,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "302": {
       "vnum": 302,
@@ -43,7 +48,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "303": {
       "vnum": 303,
@@ -59,7 +66,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "304": {
       "vnum": 304,
@@ -73,7 +82,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "305": {
       "vnum": 305,
@@ -89,7 +100,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "306": {
       "vnum": 306,
@@ -104,7 +117,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "307": {
       "vnum": 307,
@@ -118,7 +133,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "308": {
       "vnum": 308,
@@ -132,7 +149,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "309": {
       "vnum": 309,
@@ -147,7 +166,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "310": {
       "vnum": 310,
@@ -162,7 +183,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "311": {
       "vnum": 311,
@@ -176,7 +199,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "312": {
       "vnum": 312,
@@ -191,7 +216,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "313": {
       "vnum": 313,
@@ -206,7 +233,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "314": {
       "vnum": 314,
@@ -221,7 +250,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "315": {
       "vnum": 315,
@@ -239,7 +270,9 @@
         "sign": "The sign says:\n\n  Loyal citizens of Darkhaven.  These are the earthly remains of the\n  two heretics 'Dim' and 'Gamma' of this world. Having forged them-\n  selves to immortality, they called upon themselves the anger of the\n  implementators.  Let this be a lesson too all .....\n\n                                    -- the Powers that Be."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "316": {
       "vnum": 316,
@@ -253,7 +286,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 304,
+          "count": 3,
+          "room": 316
+        }
+      ]
     },
     "317": {
       "vnum": 317,
@@ -268,7 +309,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "318": {
       "vnum": 318,
@@ -283,7 +326,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 309,
+          "count": 10,
+          "room": 318
+        }
+      ],
+      "object_resets": []
     },
     "319": {
       "vnum": 319,
@@ -298,7 +349,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 301,
+          "count": 10,
+          "room": 319
+        }
+      ]
     },
     "320": {
       "vnum": 320,
@@ -314,7 +373,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "321": {
       "vnum": 321,
@@ -328,7 +389,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "322": {
       "vnum": 322,
@@ -343,7 +406,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "323": {
       "vnum": 323,
@@ -357,7 +422,21 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 300,
+          "count": 1,
+          "room": 323
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 304,
+          "count": 3,
+          "room": 323
+        }
+      ]
     },
     "324": {
       "vnum": 324,
@@ -378,7 +457,15 @@
         "trees": "The all too quiet trees suggest that something roams these woods."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 309,
+          "count": 10,
+          "room": 324
+        }
+      ],
+      "object_resets": []
     },
     "325": {
       "vnum": 325,
@@ -392,7 +479,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "326": {
       "vnum": 326,
@@ -409,7 +498,9 @@
         "pool": "The pool is crystal clear, but as you look into it you notice that\nyou can't see the bottom of it ... it must be pretty deep."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "327": {
       "vnum": 327,
@@ -423,7 +514,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 300,
+          "count": 10,
+          "room": 327
+        }
+      ]
     },
     "330": {
       "vnum": 330,
@@ -439,7 +538,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "331": {
       "vnum": 331,
@@ -456,7 +557,21 @@
         "fireplace": "The hermit cooks here."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 301,
+          "count": 1,
+          "room": 331
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 309,
+          "count": 30,
+          "room": 331
+        }
+      ]
     },
     "332": {
       "vnum": 332,
@@ -470,7 +585,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "333": {
       "vnum": 333,
@@ -484,7 +601,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "334": {
       "vnum": 334,
@@ -498,7 +617,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 309,
+          "count": 10,
+          "room": 334
+        }
+      ],
+      "object_resets": []
     },
     "335": {
       "vnum": 335,
@@ -514,7 +641,9 @@
         "markers": "The markers seems like normal stones, but the way they are\narranged makes you think there is something special about them."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "336": {
       "vnum": 336,
@@ -532,7 +661,9 @@
         "rock": "The rock formations are made of 7 huge, monolith like stones, placed\nin a symbolic circle.\nYou notice it's possible to enter the ring."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "337": {
       "vnum": 337,
@@ -550,7 +681,9 @@
         "rock": "The rock formations are made of seven huge monolith placed in a circle.\nYou notice it's possible to enter the ring."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "338": {
       "vnum": 338,
@@ -564,7 +697,15 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 304,
+          "count": 3,
+          "room": 338
+        }
+      ]
     },
     "339": {
       "vnum": 339,
@@ -589,7 +730,9 @@
         "worms": "The pictures are depicting evil rituals.\nYou see druids pouring blood over herbs on an altar like this one.\nThere are people calling giant worms into existence with dark spells."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "340": {
       "vnum": 340,
@@ -613,7 +756,9 @@
         "substance": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "341": {
       "vnum": 341,
@@ -630,7 +775,9 @@
       },
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "342": {
       "vnum": 342,
@@ -653,7 +800,9 @@
         "substance": "You try to examine the substance closer, but must refrain from this\nas all you really want to do is puke.\nYou puke."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "343": {
       "vnum": 343,
@@ -672,7 +821,9 @@
         "substance": "BWADR! ..."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "344": {
       "vnum": 344,
@@ -692,7 +843,15 @@
         "slime": "You puke."
       },
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 305,
+          "count": 1,
+          "room": 344
+        }
+      ],
+      "object_resets": []
     },
     "345": {
       "vnum": 345,
@@ -706,7 +865,437 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Plains of the North",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "300": {
+      "vnum": 300,
+      "keywords": [
+        "druid",
+        "Aruncus"
+      ],
+      "short": "Aruncus the Druid",
+      "long": "Aruncus the Druid is walking around here, searching for herbs.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "301": {
+      "vnum": 301,
+      "keywords": [
+        "hermit",
+        "sorbus"
+      ],
+      "short": "Sorbus the Hermit",
+      "long": "Sorbus the Hermit is sitting here, roasting a rabbit.",
+      "race": "human",
+      "class": "warrior",
+      "position": "aggressive",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "303": {
+      "vnum": 303,
+      "keywords": [
+        "Ofcol",
+        "man",
+        "villageman"
+      ],
+      "short": "an Ofcol village man",
+      "long": "A man of the Ofcol village is here, watching you closely.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "304": {
+      "vnum": 304,
+      "keywords": [
+        "Ofcol",
+        "woman",
+        "villagewoman"
+      ],
+      "short": "an Ofcol village woman",
+      "long": "A woman of the Ofcol village glances at you warily.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "305": {
+      "vnum": 305,
+      "keywords": [
+        "worm",
+        "Shudde-M'ell"
+      ],
+      "short": "Shudde-M'ell",
+      "long": "Shudde-M'ell the Giant worm of G'harne is guarding his treasure.",
+      "race": "worm",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "306": {
+      "vnum": 306,
+      "keywords": [
+        "luxan",
+        "shopkeeper"
+      ],
+      "short": "Luxan",
+      "long": "Luxan the Shopkeeper is here, eager to sell you anything.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "308": {
+      "vnum": 308,
+      "keywords": [
+        "keeper",
+        "innkeeper"
+      ],
+      "short": "the Innkeeper",
+      "long": "An Innkeeper is here waiting for your order.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "309": {
+      "vnum": 309,
+      "keywords": [
+        "rabbit"
+      ],
+      "short": "the cute rabbit",
+      "long": "A cute rabbit is here.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "350": {
+      "vnum": 350,
+      "keywords": [
+        "dragon",
+        "pet"
+      ],
+      "short": "the pet dragon",
+      "long": "Ravan's pet dragon is bouncing around here flapping her cute wings.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "300": {
+      "vnum": 300,
+      "keywords": [
+        "herbs",
+        "herb",
+        "timian"
+      ],
+      "type": "pill",
+      "short": "a small dusk of timian herbs",
+      "long": "Some herbs are lying here, small green leaves and tiny pink flowers.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "301": {
+      "vnum": 301,
+      "keywords": [
+        "herbs",
+        "herb",
+        "gyvel"
+      ],
+      "type": "pill",
+      "short": "a small dusk of black gyvel",
+      "long": "Some black gyvel is lying here, dark green with black leaves and tiny\n\n\rblood red flowers.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "302": {
+      "vnum": 302,
+      "keywords": [
+        "plant",
+        "ivy"
+      ],
+      "type": "food",
+      "short": "a small dusk of poison ivy",
+      "long": "Some poison ivy is growing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "303": {
+      "vnum": 303,
+      "keywords": [
+        "blood",
+        "jar"
+      ],
+      "type": "drinkcon",
+      "short": "a dark red jar",
+      "long": "A small jar in a dark, red colour.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "304": {
+      "vnum": 304,
+      "keywords": [
+        "wild",
+        "flowers"
+      ],
+      "type": "trash",
+      "short": "wild flowers",
+      "long": "A bunch of pretty wild flowers is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "307": {
+      "vnum": 307,
+      "keywords": [
+        "amulet"
+      ],
+      "type": "armor",
+      "short": "a strange amulet",
+      "long": "A strange looking amulet is lying here, half covered with dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "308": {
+      "vnum": 308,
+      "keywords": [
+        "staff",
+        "stick"
+      ],
+      "type": "armor",
+      "short": "a druish staff",
+      "long": "A staff with druidic marks have been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "309": {
+      "vnum": 309,
+      "keywords": [
+        "rabbit",
+        "roast",
+        "wabbit"
+      ],
+      "type": "food",
+      "short": "a rabbit roast",
+      "long": "You see a deliciously looking rabbit roast.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "310": {
+      "vnum": 310,
+      "keywords": [
+        "template",
+        "scroll"
+      ],
+      "type": "scroll",
+      "short": "a strange template",
+      "long": "A strange template made of an exotic green metal is placed here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "311": {
+      "vnum": 311,
+      "keywords": [
+        "potion",
+        "clear"
+      ],
+      "type": "potion",
+      "short": "a clear potion",
+      "long": "A clear potion wrapped in leather is unnoticed placed here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "312": {
+      "vnum": 312,
+      "keywords": [
+        "scroll",
+        "jhyfrdow"
+      ],
+      "type": "scroll",
+      "short": "a scroll titled 'jhyfrdow'",
+      "long": "An odd looking scroll is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "313": {
+      "vnum": 313,
+      "keywords": [
+        "crimson",
+        "flask",
+        "blood"
+      ],
+      "type": "blood",
+      "short": "a flask of crimson liquid",
+      "long": "A flask of crimson liquid draws your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

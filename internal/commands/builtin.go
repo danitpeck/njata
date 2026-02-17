@@ -5,6 +5,7 @@ import (
     "strings"
 
     "njata/internal/classes"
+    "njata/internal/game"
     "njata/internal/races"
 )
 
@@ -23,6 +24,39 @@ func RegisterBuiltins(registry *Registry) {
         ctx.Output.WriteLine("Commands: " + strings.Join(commands, ", "))
     })
     registry.Register("quit", cmdQuit)
+}
+
+// DisplayRoomView is a shared function to display a room view consistently
+func DisplayRoomView(output game.Output, view game.RoomView, autoExits bool) {
+    output.WriteLine(view.Name)
+    if view.Description != "" {
+        output.WriteLine(view.Description)
+    }
+
+    if autoExits {
+        output.WriteLine(FormatExits(view.Exits))
+    }
+
+    // Display mobiles
+    if len(view.Mobiles) > 0 {
+        for _, mob := range view.Mobiles {
+            output.WriteLine(mob)
+        }
+    }
+
+    // Display objects
+    if len(view.Objects) > 0 {
+        for _, obj := range view.Objects {
+            output.WriteLine(obj)
+        }
+    }
+
+    // Display other players
+    if len(view.Others) > 0 {
+        output.WriteLine("Also here: " + strings.Join(view.Others, ", "))
+    } else if len(view.Mobiles) == 0 && len(view.Objects) == 0 {
+        output.WriteLine("You are alone here.")
+    }
 }
 
 func cmdLook(ctx Context, args string) {
@@ -48,21 +82,7 @@ func cmdLook(ctx Context, args string) {
         return
     }
 
-    ctx.Output.WriteLine(view.Name)
-    if view.Description != "" {
-        ctx.Output.WriteLine(view.Description)
-    }
-
-    if ctx.Player.AutoExits {
-        ctx.Output.WriteLine(FormatExits(view.Exits))
-    }
-
-    if len(view.Others) == 0 {
-        ctx.Output.WriteLine("You are alone here.")
-        return
-    }
-
-    ctx.Output.WriteLine("Also here: " + strings.Join(view.Others, ", "))
+    DisplayRoomView(ctx.Output, view, ctx.Player.AutoExits)
 }
 
 func cmdSay(ctx Context, args string) {
@@ -269,18 +289,7 @@ func registerMovement(registry *Registry) {
                 return
             }
 
-            ctx.Output.WriteLine(view.Name)
-            if view.Description != "" {
-                ctx.Output.WriteLine(view.Description)
-            }
-
-            if ctx.Player.AutoExits {
-                ctx.Output.WriteLine(FormatExits(view.Exits))
-            }
-
-            if len(view.Others) > 0 {
-                ctx.Output.WriteLine("Also here: " + strings.Join(view.Others, ", "))
-            }
+            DisplayRoomView(ctx.Output, view, ctx.Player.AutoExits)
         })
     }
 }

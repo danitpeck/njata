@@ -1,6 +1,7 @@
 {
   "name": "Chapel Catacombs",
   "author": "Copper",
+  "reset_minutes": 15,
   "rooms": {
     "3405": {
       "vnum": 3405,
@@ -19,7 +20,21 @@
         "windows": "The windows must be meant to be dark.  At least they are completely clean."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3405,
+          "count": 1,
+          "room": 3405
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3400,
+          "count": 1,
+          "room": 3405
+        }
+      ]
     },
     "3406": {
       "vnum": 3406,
@@ -32,7 +47,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3407": {
       "vnum": 3407,
@@ -45,7 +62,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3408": {
       "vnum": 3408,
@@ -62,7 +81,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3409": {
       "vnum": 3409,
@@ -80,7 +101,30 @@
         "corpses": "Mauled and torn apart ... throats were ripped out and guts spilled on the\nfloor ... you slip and land, planting yourself firmly in the slick wetness\nand splattering yourself with offal."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3409
+        }
+      ],
+      "object_resets": []
     },
     "3410": {
       "vnum": 3410,
@@ -96,7 +140,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3410
+        }
+      ],
+      "object_resets": []
     },
     "3411": {
       "vnum": 3411,
@@ -111,7 +163,20 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3403,
+          "count": 1,
+          "room": 3411
+        },
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3411
+        }
+      ],
+      "object_resets": []
     },
     "3412": {
       "vnum": 3412,
@@ -133,7 +198,9 @@
         "writing": "Above the door is some strange writing!  It is worn with age, but it refers\nto an ancient ruler named 'Shohan'."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3413": {
       "vnum": 3413,
@@ -150,7 +217,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3414": {
       "vnum": 3414,
@@ -170,7 +239,30 @@
         "sarcophagus": "Now destroyed ... there is writing on it: 'All hail the new king; we serve\nthe Roch'tar, the Undying One!  Those who decline his worship shall be\nslaughtered!'"
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        }
+      ],
+      "object_resets": []
     },
     "3415": {
       "vnum": 3415,
@@ -187,7 +279,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3416": {
       "vnum": 3416,
@@ -205,7 +299,9 @@
         "walls": "Something BIG must have done this job!  There are traces of BLOOD in the\nclaw marks."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3417": {
       "vnum": 3417,
@@ -222,7 +318,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3417
+        }
+      ],
+      "object_resets": []
     },
     "3418": {
       "vnum": 3418,
@@ -243,7 +347,15 @@
         "ghost": "His rest has been disturbed by evil creatures who have invaded his domain\nand grave.  He holds up a parchment for you to read:\n\n     Hello stranger and last hope for Darkhaven and this tomb!\n   This is a plea for aid by a man long since dead from this Earth.\n     The forces of evil have taken control of this tomb and the\n   Kings of old need your aid to free us and deliver us to peace\n   once again.  I think that I alone have been able to appear and\n   communicate with the mortal world.\n     Roch'tar, the reincarnate Vampire, now rules these tombs.\n   You must find and defeat him and his minions!\n     May God bless you on your Quest!"
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3418
+        }
+      ],
+      "object_resets": []
     },
     "3419": {
       "vnum": 3419,
@@ -260,7 +372,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3419
+        }
+      ],
+      "object_resets": []
     },
     "3420": {
       "vnum": 3420,
@@ -276,7 +396,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3421": {
       "vnum": 3421,
@@ -304,7 +426,9 @@
         "trapdoor": "It's rather small and looks quite heavy but maybe with some kind of leverage\nyou could move it.  It has a queerly shaped hole that looks big enough\nfor an equally queerly shaped pole to fit inside.  If only you had it!"
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3422": {
       "vnum": 3422,
@@ -323,7 +447,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3423": {
       "vnum": 3423,
@@ -340,7 +466,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3424": {
       "vnum": 3424,
@@ -357,7 +485,21 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3412,
+          "count": 1,
+          "room": 3424
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3415,
+          "count": 1,
+          "room": 3424
+        }
+      ]
     },
     "3425": {
       "vnum": 3425,
@@ -373,7 +515,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3426": {
       "vnum": 3426,
@@ -389,7 +533,25 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3426
+        },
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3426
+        },
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3426
+        }
+      ],
+      "object_resets": []
     },
     "3427": {
       "vnum": 3427,
@@ -407,7 +569,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3428": {
       "vnum": 3428,
@@ -425,7 +589,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3429": {
       "vnum": 3429,
@@ -442,7 +608,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3430": {
       "vnum": 3430,
@@ -459,7 +627,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3430
+        }
+      ],
+      "object_resets": []
     },
     "3431": {
       "vnum": 3431,
@@ -475,7 +651,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3432": {
       "vnum": 3432,
@@ -492,7 +670,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3432
+        }
+      ],
+      "object_resets": []
     },
     "3433": {
       "vnum": 3433,
@@ -509,7 +695,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3434": {
       "vnum": 3434,
@@ -525,7 +713,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3411,
+          "count": 1,
+          "room": 3434
+        }
+      ],
+      "object_resets": []
     },
     "3435": {
       "vnum": 3435,
@@ -542,7 +738,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3436": {
       "vnum": 3436,
@@ -559,7 +757,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3437": {
       "vnum": 3437,
@@ -576,7 +776,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3437
+        }
+      ],
+      "object_resets": []
     },
     "3438": {
       "vnum": 3438,
@@ -593,7 +801,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3439": {
       "vnum": 3439,
@@ -610,7 +820,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3440": {
       "vnum": 3440,
@@ -628,7 +840,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3441": {
       "vnum": 3441,
@@ -645,7 +859,20 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3441
+        },
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3441
+        }
+      ],
+      "object_resets": []
     },
     "3442": {
       "vnum": 3442,
@@ -661,7 +888,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3442
+        }
+      ],
+      "object_resets": []
     },
     "3443": {
       "vnum": 3443,
@@ -677,7 +912,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3444": {
       "vnum": 3444,
@@ -693,7 +930,20 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3444
+        },
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3444
+        }
+      ],
+      "object_resets": []
     },
     "3445": {
       "vnum": 3445,
@@ -709,7 +959,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3446": {
       "vnum": 3446,
@@ -726,7 +978,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3447": {
       "vnum": 3447,
@@ -743,7 +997,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3447
+        }
+      ],
+      "object_resets": []
     },
     "3448": {
       "vnum": 3448,
@@ -762,7 +1024,21 @@
         "paintings": "There is a tiny painting of a vault in this mural ... and it seems to be a\nreflected picture of the vault ... the word in tiny print is 'rathcor'."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3448
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3420,
+          "count": 1,
+          "room": 3448
+        }
+      ]
     },
     "3449": {
       "vnum": 3449,
@@ -779,7 +1055,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3410,
+          "count": 1,
+          "room": 3449
+        }
+      ],
+      "object_resets": []
     },
     "3450": {
       "vnum": 3450,
@@ -798,7 +1082,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3450
+        }
+      ],
+      "object_resets": []
     },
     "3451": {
       "vnum": 3451,
@@ -814,7 +1106,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3452": {
       "vnum": 3452,
@@ -830,7 +1124,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3452
+        }
+      ],
+      "object_resets": []
     },
     "3453": {
       "vnum": 3453,
@@ -845,7 +1147,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3453
+        }
+      ],
+      "object_resets": []
     },
     "3454": {
       "vnum": 3454,
@@ -860,7 +1170,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3454
+        }
+      ],
+      "object_resets": []
     },
     "3455": {
       "vnum": 3455,
@@ -876,7 +1194,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3455
+        }
+      ],
+      "object_resets": []
     },
     "3456": {
       "vnum": 3456,
@@ -892,7 +1218,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3457": {
       "vnum": 3457,
@@ -908,7 +1236,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3457
+        }
+      ],
+      "object_resets": []
     },
     "3458": {
       "vnum": 3458,
@@ -925,7 +1261,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3459": {
       "vnum": 3459,
@@ -941,7 +1279,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3460": {
       "vnum": 3460,
@@ -958,7 +1298,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3404,
+          "count": 1,
+          "room": 3460
+        }
+      ],
+      "object_resets": []
     },
     "3461": {
       "vnum": 3461,
@@ -974,7 +1322,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3462": {
       "vnum": 3462,
@@ -990,7 +1340,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3462
+        }
+      ],
+      "object_resets": []
     },
     "3463": {
       "vnum": 3463,
@@ -1006,7 +1364,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3463
+        }
+      ],
+      "object_resets": []
     },
     "3464": {
       "vnum": 3464,
@@ -1023,7 +1389,9 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3465": {
       "vnum": 3465,
@@ -1042,7 +1410,20 @@
         "etchings": "Beautiful yet disturbing, they urge you to move onward."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3465
+        },
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3465
+        }
+      ],
+      "object_resets": []
     },
     "3466": {
       "vnum": 3466,
@@ -1061,7 +1442,15 @@
         "etchings": "Beautiful yet disturbing, they urge you to move onward."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3466
+        }
+      ],
+      "object_resets": []
     },
     "3467": {
       "vnum": 3467,
@@ -1080,7 +1469,9 @@
         "etchings": "Beautiful yet disturbing, they urge you to move onward."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3468": {
       "vnum": 3468,
@@ -1099,7 +1490,20 @@
         "etchings": "Beautiful yet disturbing, they urge you to move onward."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3414,
+          "count": 1,
+          "room": 3468
+        },
+        {
+          "vnum": 3415,
+          "count": 1,
+          "room": 3468
+        }
+      ],
+      "object_resets": []
     },
     "3469": {
       "vnum": 3469,
@@ -1117,7 +1521,9 @@
         "etchings": "Beautiful yet disturbing, they urge you to move onward."
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3470": {
       "vnum": 3470,
@@ -1137,7 +1543,9 @@
         "secret": "The door closed on you so softly that you didn't even notice!"
       },
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3471": {
       "vnum": 3471,
@@ -1153,7 +1561,15 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3408,
+          "count": 1,
+          "room": 3471
+        }
+      ],
+      "object_resets": []
     },
     "3472": {
       "vnum": 3472,
@@ -1166,7 +1582,9 @@
       "exits": {},
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "3475": {
       "vnum": 3475,
@@ -1183,7 +1601,831 @@
       },
       "exdescs": {},
       "area_name": "Chapel Catacombs",
-      "area_author": "Copper"
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "3400": {
+      "vnum": 3400,
+      "keywords": [
+        "skeleton",
+        "bony"
+      ],
+      "short": "the bony skeleton",
+      "long": "A bony skeleton is here.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 19,
+      "max_mana": 19,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3401": {
+      "vnum": 3401,
+      "keywords": [
+        "undead",
+        "zombie"
+      ],
+      "short": "the undead zombie",
+      "long": "An undead zombie sits here munching on something ...",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 49,
+      "max_mana": 49,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3402": {
+      "vnum": 3402,
+      "keywords": [
+        "undead",
+        "ghoul"
+      ],
+      "short": "The ghoul",
+      "long": "A ghoul is here staring at you hungrily.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 79,
+      "max_mana": 79,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3403": {
+      "vnum": 3403,
+      "keywords": [
+        "undead",
+        "wraith"
+      ],
+      "short": "The wraith",
+      "long": "You spot a wraith advancing towards you from the shadows.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 149,
+      "max_mana": 149,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3404": {
+      "vnum": 3404,
+      "keywords": [
+        "undead",
+        "guardian",
+        "vampire"
+      ],
+      "short": "a guardian vampire",
+      "long": "A vampire is here hiding his face from your light source.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 385,
+      "max_mana": 385,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3405": {
+      "vnum": 3405,
+      "keywords": [
+        "priest"
+      ],
+      "short": "the priest",
+      "long": "A priest of God stands here solemnly speaking words of praise.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3406": {
+      "vnum": 3406,
+      "keywords": [
+        "Mi-Go",
+        "Fungi"
+      ],
+      "short": "the Mi-Go",
+      "long": "A Mi-Go is crawling here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3407": {
+      "vnum": 3407,
+      "keywords": [
+        "nightgaunt"
+      ],
+      "short": "The nightgaunt",
+      "long": "A nightgaunt is standing here",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3408": {
+      "vnum": 3408,
+      "keywords": [
+        "hunting",
+        "horror"
+      ],
+      "short": "The hunting horror",
+      "long": "The hunting horror is here in wait of an unwary traveler.",
+      "race": "spirit",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3409": {
+      "vnum": 3409,
+      "keywords": [
+        "weeds"
+      ],
+      "short": "some cave weeds",
+      "long": "Some weeds are creeping across the floor.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 75,
+      "max_mana": 75,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3410": {
+      "vnum": 3410,
+      "keywords": [
+        "snapper",
+        "joe"
+      ],
+      "short": "Snapper Joe",
+      "long": "Snapper Joe is standing here leering at you chillingly.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 365,
+      "max_mana": 365,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3411": {
+      "vnum": 3411,
+      "keywords": [
+        "X-ist",
+        "eater"
+      ],
+      "short": "The X-ist flesh eater",
+      "long": "An X-ist flesh eater is sitting here munching on some coffin remains",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 215,
+      "max_mana": 215,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3412": {
+      "vnum": 3412,
+      "keywords": [
+        "spirit",
+        "ghost",
+        "king",
+        "crotus"
+      ],
+      "short": "the spirit of King Crotus",
+      "long": "The spirit of King Crotus is floating lazily above the floor.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 260,
+      "max_mana": 260,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3413": {
+      "vnum": 3413,
+      "keywords": [
+        "rock",
+        "slug"
+      ],
+      "short": "the rock slug",
+      "long": "A rock slug is slowly creeping along, leaving a slime trail behind it.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 42,
+      "max_mana": 42,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3414": {
+      "vnum": 3414,
+      "keywords": [
+        "etcher"
+      ],
+      "short": "The mad etcher",
+      "long": "The mad etcher is sitting here babbling to himself and working on the wall.",
+      "race": "human",
+      "class": "warrior",
+      "position": "aggressive",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3415": {
+      "vnum": 3415,
+      "keywords": [
+        "wife",
+        "ghost",
+        "specter"
+      ],
+      "short": "The spectral etcher's wife",
+      "long": "The spectral wife of the etcher is very faintly floating here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 86,
+      "max_mana": 86,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3416": {
+      "vnum": 3416,
+      "keywords": [
+        "body"
+      ],
+      "short": "The half-decomposed body",
+      "long": "A half-decomposed body is lying in the corner here.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "3400": {
+      "vnum": 3400,
+      "keywords": [
+        "candlestick"
+      ],
+      "type": "light",
+      "short": "a candlestick",
+      "long": "A pewter candlestick is standing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3402": {
+      "vnum": 3402,
+      "keywords": [
+        "tickler"
+      ],
+      "type": "weapon",
+      "short": "a nightgaunt's tickler",
+      "long": "A nightgaunt's tickler has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3403": {
+      "vnum": 3403,
+      "keywords": [
+        "plasma",
+        "webbing"
+      ],
+      "type": "armor",
+      "short": "disgusting pinkish plasma webbing",
+      "long": "A pile of pink material is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3410": {
+      "vnum": 3410,
+      "keywords": [
+        "rod",
+        "key"
+      ],
+      "type": "key",
+      "short": "a queerly shaped rod",
+      "long": "A queerly shaped rod is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3411": {
+      "vnum": 3411,
+      "keywords": [
+        "large",
+        "black",
+        "dirty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a large black dirty key",
+      "long": "A large black dirty key is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3412": {
+      "vnum": 3412,
+      "keywords": [
+        "head",
+        "jubal",
+        "mummy"
+      ],
+      "type": "container",
+      "short": "the mummified head of Jubal the Benevolent",
+      "long": "The mummified head of Jubal the Benevolent is lolling back and forth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3413": {
+      "vnum": 3413,
+      "keywords": [
+        "ring",
+        "black",
+        "marble"
+      ],
+      "type": "treasure",
+      "short": "a black marble ring",
+      "long": "A black marble ring is lying here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3414": {
+      "vnum": 3414,
+      "keywords": [
+        "rapier",
+        "thin"
+      ],
+      "type": "weapon",
+      "short": "a whisper thin rapier",
+      "long": "A rapier is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3415": {
+      "vnum": 3415,
+      "keywords": [
+        "sarcophagus",
+        "coffin"
+      ],
+      "type": "container",
+      "short": "a stone sarcophagus",
+      "long": "A stone sarcophagus is sitting here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3416": {
+      "vnum": 3416,
+      "keywords": [
+        "iron",
+        "heavy",
+        "key"
+      ],
+      "type": "key",
+      "short": "a heavy iron key",
+      "long": "A heavy iron key is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3417": {
+      "vnum": 3417,
+      "keywords": [
+        "flask",
+        "wineflask"
+      ],
+      "type": "drinkcon",
+      "short": "a wineflask",
+      "long": "A wineflask has been been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3418": {
+      "vnum": 3418,
+      "keywords": [
+        "coins"
+      ],
+      "type": "money",
+      "short": "a mound of coins fit for a dead king",
+      "long": "You see a mound of coins fit for a dead king here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3419": {
+      "vnum": 3419,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "a coffin key",
+      "long": "A coffin key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3420": {
+      "vnum": 3420,
+      "keywords": [
+        "rathcor"
+      ],
+      "type": "container",
+      "short": "a hidden compartment in the room",
+      "long": "",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3421": {
+      "vnum": 3421,
+      "keywords": [
+        "rusty",
+        "sword",
+        "curved",
+        "scimitar"
+      ],
+      "type": "weapon",
+      "short": "a rusty curved scimitar",
+      "long": "A sword has been left lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3422": {
+      "vnum": 3422,
+      "keywords": [
+        "piece",
+        "slime"
+      ],
+      "type": "food",
+      "short": "a piece of slime",
+      "long": "You step on a piece of slime...your foot squishes a bit",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3423": {
+      "vnum": 3423,
+      "keywords": [
+        "smock"
+      ],
+      "type": "armor",
+      "short": "an artist's smock",
+      "long": "An artist's smock is lying here on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3424": {
+      "vnum": 3424,
+      "keywords": [
+        "scroll",
+        "tightly",
+        "rolled"
+      ],
+      "type": "scroll",
+      "short": "a tightly rolled scroll",
+      "long": "A yellowing, tightly-rolled scroll lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3425": {
+      "vnum": 3425,
+      "keywords": [
+        "auburn",
+        "orb"
+      ],
+      "type": "staff",
+      "short": "an auburn-colored orb",
+      "long": "An orb is here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3426": {
+      "vnum": 3426,
+      "keywords": [
+        "bar",
+        "gold"
+      ],
+      "type": "treasure",
+      "short": "a bar of gold",
+      "long": "A bar of gold is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3427": {
+      "vnum": 3427,
+      "keywords": [
+        "cape",
+        "dark",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a cape of darkest black",
+      "long": "A cape of darkest black lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3428": {
+      "vnum": 3428,
+      "keywords": [
+        "flaming",
+        "sword",
+        "long",
+        "longsword"
+      ],
+      "type": "weapon",
+      "short": "a pitch-black longsword which flames brightly",
+      "long": "A pitch-black sword which flames brightly lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3429": {
+      "vnum": 3429,
+      "keywords": [
+        "breast",
+        "plate",
+        "dented",
+        "worn"
+      ],
+      "type": "armor",
+      "short": "a worn and dented breast plate",
+      "long": "A piece of armour is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3430": {
+      "vnum": 3430,
+      "keywords": [
+        "key",
+        "silver"
+      ],
+      "type": "key",
+      "short": "a silver key",
+      "long": "You see a silver key here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }

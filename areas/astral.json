@@ -1,6 +1,7 @@
 {
   "name": "The Astral Plane",
   "author": "Andi",
+  "reset_minutes": 15,
   "rooms": {
     "800": {
       "vnum": 800,
@@ -16,7 +17,9 @@
         "rainbow": "The rainbow softly glows with beams of light in colors that defy\ndescription."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "801": {
       "vnum": 801,
@@ -32,7 +35,9 @@
         "rainbow": "The rainbow softly glows with beams of light in colors that defy\ndescription."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "802": {
       "vnum": 802,
@@ -48,7 +53,9 @@
         "rainbow": "The rainbow softly glows with beams of light in colors that defy\ndescription."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "803": {
       "vnum": 803,
@@ -64,7 +71,9 @@
         "rainbow": "The rainbow brightly glows with beams of light in colors that defy\ndescription."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "804": {
       "vnum": 804,
@@ -85,7 +94,9 @@
         "stars": "The star-like motes dance before your eyes.  They are incredibly beautiful yet\nintangible -- your hand passes right through them."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "805": {
       "vnum": 805,
@@ -107,7 +118,9 @@
         "stars": "The star-like motes dance before your eyes.  They are incredibly beautiful yet\nintangible -- your hand passes right through them."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "806": {
       "vnum": 806,
@@ -124,7 +137,15 @@
         "plaque": "The plaque reads:\n\nLet this gate stand to protect mortal man for all time against the perils of\nthe outer planes of existence and the creatures fair and foul that dwell\nwithin.\n\n(This zone, the Astral Plane and accompanying githyanki keep, was written by\n Andersen for any standard Merc 2.0 mud.)\n\n(This zone was later renovated and spiced up by Lord Rennard for the\nRealms of Despair.)"
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 800,
+          "count": 1,
+          "room": 806
+        }
+      ],
+      "object_resets": []
     },
     "807": {
       "vnum": 807,
@@ -147,7 +168,9 @@
         "gate": "From here the pearly-colored gate seems very small and insubstantial.\nThrough its bars you can see the astral guardian, protecting Despair from the\nperils of the Astral Plane."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "808": {
       "vnum": 808,
@@ -166,7 +189,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "809": {
       "vnum": 809,
@@ -185,7 +210,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "810": {
       "vnum": 810,
@@ -204,7 +231,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "811": {
       "vnum": 811,
@@ -223,7 +252,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "812": {
       "vnum": 812,
@@ -242,7 +273,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "813": {
       "vnum": 813,
@@ -262,7 +295,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 804,
+          "count": 10,
+          "room": 813
+        }
+      ],
+      "object_resets": []
     },
     "814": {
       "vnum": 814,
@@ -282,7 +323,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "815": {
       "vnum": 815,
@@ -302,7 +345,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "816": {
       "vnum": 816,
@@ -322,7 +367,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "817": {
       "vnum": 817,
@@ -342,7 +389,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "818": {
       "vnum": 818,
@@ -362,7 +411,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 805,
+          "count": 8,
+          "room": 818
+        }
+      ],
+      "object_resets": []
     },
     "819": {
       "vnum": 819,
@@ -382,7 +439,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "820": {
       "vnum": 820,
@@ -402,7 +461,20 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 803,
+          "count": 4,
+          "room": 820
+        },
+        {
+          "vnum": 805,
+          "count": 8,
+          "room": 820
+        }
+      ],
+      "object_resets": []
     },
     "821": {
       "vnum": 821,
@@ -422,7 +494,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "822": {
       "vnum": 822,
@@ -441,7 +515,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 805,
+          "count": 8,
+          "room": 822
+        }
+      ],
+      "object_resets": []
     },
     "823": {
       "vnum": 823,
@@ -461,7 +543,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 806,
+          "count": 6,
+          "room": 823
+        }
+      ],
+      "object_resets": []
     },
     "824": {
       "vnum": 824,
@@ -481,7 +571,20 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 803,
+          "count": 4,
+          "room": 824
+        },
+        {
+          "vnum": 805,
+          "count": 8,
+          "room": 824
+        }
+      ],
+      "object_resets": []
     },
     "825": {
       "vnum": 825,
@@ -501,7 +604,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "826": {
       "vnum": 826,
@@ -521,7 +626,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 803,
+          "count": 4,
+          "room": 826
+        }
+      ],
+      "object_resets": []
     },
     "827": {
       "vnum": 827,
@@ -541,7 +654,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 806,
+          "count": 6,
+          "room": 827
+        }
+      ],
+      "object_resets": []
     },
     "828": {
       "vnum": 828,
@@ -561,7 +682,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "829": {
       "vnum": 829,
@@ -581,7 +704,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 810,
+          "count": 6,
+          "room": 829
+        }
+      ],
+      "object_resets": []
     },
     "830": {
       "vnum": 830,
@@ -601,7 +732,20 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 803,
+          "count": 4,
+          "room": 830
+        },
+        {
+          "vnum": 808,
+          "count": 3,
+          "room": 830
+        }
+      ],
+      "object_resets": []
     },
     "831": {
       "vnum": 831,
@@ -621,7 +765,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 810,
+          "count": 6,
+          "room": 831
+        }
+      ],
+      "object_resets": []
     },
     "832": {
       "vnum": 832,
@@ -641,7 +793,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "833": {
       "vnum": 833,
@@ -660,7 +814,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 801,
+          "count": 2,
+          "room": 833
+        }
+      ],
+      "object_resets": []
     },
     "834": {
       "vnum": 834,
@@ -679,7 +841,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 801,
+          "count": 2,
+          "room": 834
+        }
+      ],
+      "object_resets": []
     },
     "835": {
       "vnum": 835,
@@ -698,7 +868,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "836": {
       "vnum": 836,
@@ -714,7 +886,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "837": {
       "vnum": 837,
@@ -730,7 +904,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "838": {
       "vnum": 838,
@@ -746,7 +922,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "839": {
       "vnum": 839,
@@ -762,7 +940,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "840": {
       "vnum": 840,
@@ -778,7 +958,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "841": {
       "vnum": 841,
@@ -794,7 +976,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "842": {
       "vnum": 842,
@@ -810,7 +994,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "843": {
       "vnum": 843,
@@ -826,7 +1012,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "844": {
       "vnum": 844,
@@ -842,7 +1030,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "845": {
       "vnum": 845,
@@ -861,7 +1051,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 815,
+          "count": 3,
+          "room": 845
+        }
+      ],
+      "object_resets": []
     },
     "846": {
       "vnum": 846,
@@ -880,7 +1078,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 802,
+          "count": 1,
+          "room": 846
+        }
+      ],
+      "object_resets": []
     },
     "847": {
       "vnum": 847,
@@ -899,7 +1105,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 815,
+          "count": 3,
+          "room": 847
+        }
+      ],
+      "object_resets": []
     },
     "848": {
       "vnum": 848,
@@ -918,7 +1132,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "849": {
       "vnum": 849,
@@ -936,7 +1152,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 815,
+          "count": 3,
+          "room": 849
+        }
+      ],
+      "object_resets": []
     },
     "850": {
       "vnum": 850,
@@ -955,7 +1179,9 @@
         "steel": "The door is made from a set of rusting steel plates set deep into the stone."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "851": {
       "vnum": 851,
@@ -976,7 +1202,20 @@
         "steel": "The door is made from a set of rusting steel plates set deep into the stone."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 851
+        },
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 851
+        }
+      ],
+      "object_resets": []
     },
     "852": {
       "vnum": 852,
@@ -995,7 +1234,9 @@
         "iron": "The door is made from a set of iron plates set deep into the stone."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "853": {
       "vnum": 853,
@@ -1017,7 +1258,15 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 853
+        }
+      ],
+      "object_resets": []
     },
     "854": {
       "vnum": 854,
@@ -1033,7 +1282,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "855": {
       "vnum": 855,
@@ -1053,7 +1304,15 @@
         "metal": "The doors are formed from a silvery substance that feels very hard yet almost\nslippery to the touch.  They are covered in images in bas-relief, depicting\nscenes of combat between humans and strange tentacle-mouthed humanoids."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 808,
+          "count": 3,
+          "room": 855
+        }
+      ],
+      "object_resets": []
     },
     "856": {
       "vnum": 856,
@@ -1073,7 +1332,9 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "857": {
       "vnum": 857,
@@ -1093,7 +1354,9 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "858": {
       "vnum": 858,
@@ -1113,7 +1376,9 @@
         "iron": "The door is made from many hammered iron plates, set deep into the stone wall."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "859": {
       "vnum": 859,
@@ -1129,7 +1394,15 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 859
+        }
+      ],
+      "object_resets": []
     },
     "860": {
       "vnum": 860,
@@ -1149,7 +1422,9 @@
         "iron": "The door is made from many hammered iron plates, set deep into the stone wall."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "861": {
       "vnum": 861,
@@ -1170,7 +1445,9 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "862": {
       "vnum": 862,
@@ -1188,7 +1465,20 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 862
+        },
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 862
+        }
+      ],
+      "object_resets": []
     },
     "863": {
       "vnum": 863,
@@ -1206,7 +1496,20 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 863
+        },
+        {
+          "vnum": 811,
+          "count": 6,
+          "room": 863
+        }
+      ],
+      "object_resets": []
     },
     "864": {
       "vnum": 864,
@@ -1224,7 +1527,15 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 812,
+          "count": 4,
+          "room": 864
+        }
+      ],
+      "object_resets": []
     },
     "865": {
       "vnum": 865,
@@ -1243,7 +1554,20 @@
         "iron": "The door is made from many hammered iron plates, set deep into the stone wall."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 865
+        },
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 865
+        }
+      ],
+      "object_resets": []
     },
     "866": {
       "vnum": 866,
@@ -1263,7 +1587,9 @@
         "furnace": "The entire furnace is glowing white-hot to the touch.\nThe furnace door looks too hot to even attempt to open."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "867": {
       "vnum": 867,
@@ -1282,7 +1608,20 @@
         "iron": "The door is made from many hammered iron plates, set deep into the stone wall."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 867
+        },
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 867
+        }
+      ],
+      "object_resets": []
     },
     "868": {
       "vnum": 868,
@@ -1301,7 +1640,45 @@
         "east": "The flames blind you and obscure your vision."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 818,
+          "count": 1,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        },
+        {
+          "vnum": 819,
+          "count": 6,
+          "room": 868
+        }
+      ],
+      "object_resets": []
     },
     "869": {
       "vnum": 869,
@@ -1320,7 +1697,20 @@
         "iron": "The door is fashioned from many iron plates and set deep into the stone wall."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 869
+        },
+        {
+          "vnum": 807,
+          "count": 8,
+          "room": 869
+        }
+      ],
+      "object_resets": []
     },
     "870": {
       "vnum": 870,
@@ -1340,7 +1730,9 @@
         "door": "The cell door is wooden and about 4' high, with a slot in the bottom to pass\nfood underneath to the prisoner."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "871": {
       "vnum": 871,
@@ -1358,7 +1750,15 @@
         "door": "The cell door is wooden and about 4' high, with a slot in the bottom to pass\nfood underneath to the prisoner."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 817,
+          "count": 1,
+          "room": 871
+        }
+      ],
+      "object_resets": []
     },
     "872": {
       "vnum": 872,
@@ -1376,7 +1776,15 @@
         "door": "The cell door is wooden and about 4' high, with a slot in the bottom to pass\nfood underneath to the prisoner."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 816,
+          "count": 1,
+          "room": 872
+        }
+      ],
+      "object_resets": []
     },
     "873": {
       "vnum": 873,
@@ -1394,7 +1802,15 @@
         "wooden": "The door is thick, made from a knotted and twisted greyish wood."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 812,
+          "count": 4,
+          "room": 873
+        }
+      ],
+      "object_resets": []
     },
     "874": {
       "vnum": 874,
@@ -1416,7 +1832,20 @@
         "weapons": "Massive pole arms, spears, mighty swords, all kinds of death-dealing devices."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 812,
+          "count": 4,
+          "room": 874
+        },
+        {
+          "vnum": 812,
+          "count": 4,
+          "room": 874
+        }
+      ],
+      "object_resets": []
     },
     "875": {
       "vnum": 875,
@@ -1439,7 +1868,9 @@
         "weapons": "Massive pole arms, spears, mighty swords, all kinds of death-dealing devices."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "876": {
       "vnum": 876,
@@ -1460,7 +1891,20 @@
         "door": "The archway is shrouded in a strange black mist that obscures your vision."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 809,
+          "count": 2,
+          "room": 876
+        },
+        {
+          "vnum": 809,
+          "count": 2,
+          "room": 876
+        }
+      ],
+      "object_resets": []
     },
     "877": {
       "vnum": 877,
@@ -1485,7 +1929,15 @@
         "stains": "The stains of blood run down off the altar towards your feet, oozing quietly."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 813,
+          "count": 1,
+          "room": 877
+        }
+      ],
+      "object_resets": []
     },
     "878": {
       "vnum": 878,
@@ -1506,7 +1958,9 @@
         "gateway": "The field pulses and feeds on the blood dripping from above.\n\nA tangible wave of hatred washes over you, striking fear into your very soul."
       },
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "879": {
       "vnum": 879,
@@ -1523,7 +1977,15 @@
       "exits": {},
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [
+        {
+          "vnum": 814,
+          "count": 1,
+          "room": 879
+        }
+      ],
+      "object_resets": []
     },
     "880": {
       "vnum": 880,
@@ -1538,7 +2000,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "881": {
       "vnum": 881,
@@ -1555,7 +2019,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "882": {
       "vnum": 882,
@@ -1571,7 +2037,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "883": {
       "vnum": 883,
@@ -1587,7 +2055,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "884": {
       "vnum": 884,
@@ -1603,7 +2073,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "885": {
       "vnum": 885,
@@ -1619,7 +2091,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "886": {
       "vnum": 886,
@@ -1635,7 +2109,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "887": {
       "vnum": 887,
@@ -1651,7 +2127,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "888": {
       "vnum": 888,
@@ -1667,7 +2145,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "889": {
       "vnum": 889,
@@ -1683,7 +2163,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "890": {
       "vnum": 890,
@@ -1699,7 +2181,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "891": {
       "vnum": 891,
@@ -1715,7 +2199,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "892": {
       "vnum": 892,
@@ -1731,7 +2217,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "893": {
       "vnum": 893,
@@ -1747,7 +2235,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "894": {
       "vnum": 894,
@@ -1763,7 +2253,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "895": {
       "vnum": 895,
@@ -1779,7 +2271,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "896": {
       "vnum": 896,
@@ -1795,7 +2289,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "897": {
       "vnum": 897,
@@ -1811,7 +2307,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "898": {
       "vnum": 898,
@@ -1827,7 +2325,9 @@
       },
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
     },
     "899": {
       "vnum": 899,
@@ -1841,7 +2341,1008 @@
       "exits": {},
       "exdescs": {},
       "area_name": "The Astral Plane",
-      "area_author": "Andi"
+      "area_author": "Andi",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "800": {
+      "vnum": 800,
+      "keywords": [
+        "astral",
+        "guardian",
+        "figure"
+      ],
+      "short": "the astral guardian",
+      "long": "A shimmering grey figure stands vigil before the pearly gate.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 825,
+      "max_mana": 825,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "801": {
+      "vnum": 801,
+      "keywords": [
+        "nightmare"
+      ],
+      "short": "A pitch-black nightmare",
+      "long": "A nightmare is here, kicking at you with its flaming hooves.",
+      "race": "fish",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 18,
+      "hp": 18,
+      "mana": 180,
+      "max_mana": 180,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "802": {
+      "vnum": 802,
+      "keywords": [
+        "night",
+        "hag"
+      ],
+      "short": "An evil night hag",
+      "long": "A night hag reaches out to steal your soul.",
+      "race": "snake",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 24,
+      "hp": 24,
+      "mana": 240,
+      "max_mana": 240,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "803": {
+      "vnum": 803,
+      "keywords": [
+        "stalker",
+        "invisible"
+      ],
+      "short": "An invisible stalker",
+      "long": "You see a wavy distortion in the air.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 17,
+      "hp": 17,
+      "mana": 170,
+      "max_mana": 170,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "804": {
+      "vnum": 804,
+      "keywords": [
+        "soulless",
+        "one",
+        "being"
+      ],
+      "short": "A poor soulless being",
+      "long": "The soulless one wanders mindlessly.",
+      "race": "reptile",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "805": {
+      "vnum": 805,
+      "keywords": [
+        "githyanki",
+        "hunter"
+      ],
+      "short": "A githyanki hunter",
+      "long": "A githyanki hunter searches for signs of the githzerai.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "806": {
+      "vnum": 806,
+      "keywords": [
+        "githyanki",
+        "warrior",
+        "figure"
+      ],
+      "short": "A githyanki warrior",
+      "long": "You see a humanoid figure clad in splinted armor.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "807": {
+      "vnum": 807,
+      "keywords": [
+        "guardian",
+        "githyanki",
+        "figure"
+      ],
+      "short": "A githyanki guardian",
+      "long": "A humanoid figure clad in splinted armor blocks your way.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "808": {
+      "vnum": 808,
+      "keywords": [
+        "knight",
+        "figure",
+        "githyanki"
+      ],
+      "short": "A githyanki knight",
+      "long": "A tall figure armored in black observes you quietly.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "809": {
+      "vnum": 809,
+      "keywords": [
+        "githyanki",
+        "knight",
+        "protector"
+      ],
+      "short": "A githyanki protector",
+      "long": "A black knight of the githyanki protects his queen.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "810": {
+      "vnum": 810,
+      "keywords": [
+        "githyanki",
+        "gish"
+      ],
+      "short": "An evil gish",
+      "long": "A small githyanki laughs at you through fanged teeth.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "811": {
+      "vnum": 811,
+      "keywords": [
+        "githyanki",
+        "gish"
+      ],
+      "short": "An evil gish",
+      "long": "A gish laughs as flame leaps from his hands towards your face.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "812": {
+      "vnum": 812,
+      "keywords": [
+        "gith",
+        "githyanki",
+        "warlock",
+        "figure",
+        "humanoid"
+      ],
+      "short": "A warlock of the Gith",
+      "long": "A humanoid figure stands here, holding a silvery sword.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "813": {
+      "vnum": 813,
+      "keywords": [
+        "githyanki",
+        "lich",
+        "queen"
+      ],
+      "short": "The lich-queen",
+      "long": "The evil lich-queen of the Gith reaches out to destroy you.",
+      "race": "snake",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 30,
+      "hp": 30,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "814": {
+      "vnum": 814,
+      "keywords": [
+        "lady",
+        "gith"
+      ],
+      "short": "Lady Gith",
+      "long": "Lady Gith forms from a cloud of blackness, her face drenched in tears.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 35,
+      "hp": 35,
+      "mana": 350,
+      "max_mana": 350,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "815": {
+      "vnum": 815,
+      "keywords": [
+        "ghost"
+      ],
+      "short": "An insubstantial ghost",
+      "long": "A ghost wanders here, intent on destroying all life.",
+      "race": "snake",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 16,
+      "hp": 16,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "816": {
+      "vnum": 816,
+      "keywords": [
+        "githzerai",
+        "prisoner"
+      ],
+      "short": "An imprisoned githzerai",
+      "long": "A githzerai plots his escape plan.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "817": {
+      "vnum": 817,
+      "keywords": [
+        "mind",
+        "flayer",
+        "prisoner"
+      ],
+      "short": "a tortured mind flayer",
+      "long": "A mind flayer lies here, scarred from the torture inflicted by the githyanki.",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "818": {
+      "vnum": 818,
+      "keywords": [
+        "dragon",
+        "red",
+        "slave"
+      ],
+      "short": "The enslaved red dragon",
+      "long": "A giant red dragon is chained here, his breath heating the furnace.",
+      "race": "beetle",
+      "class": "druid",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 28,
+      "hp": 28,
+      "mana": 280,
+      "max_mana": 280,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "819": {
+      "vnum": 819,
+      "keywords": [
+        "fire",
+        "furnace",
+        "flame"
+      ],
+      "short": "A massive blast of fire",
+      "long": "The fires of the furnace burn away at your skin!",
+      "race": "amphibian",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "899": {
+      "vnum": 899,
+      "keywords": [
+        "border",
+        "mob"
+      ],
+      "short": "a newly created border mob",
+      "long": "Some god abandoned a newly created border mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "800": {
+      "vnum": 800,
+      "keywords": [
+        "pearl",
+        "wand"
+      ],
+      "type": "weapon",
+      "short": "a pearl wand",
+      "long": "The ground seems to cradle a pearl wand here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "801": {
+      "vnum": 801,
+      "keywords": [
+        "scroll",
+        "violet"
+      ],
+      "type": "scroll",
+      "short": "a violet scroll",
+      "long": "A rolled piece of violet parchment lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "802": {
+      "vnum": 802,
+      "keywords": [
+        "tablet",
+        "scroll",
+        "black"
+      ],
+      "type": "scroll",
+      "short": "a black etched tablet",
+      "long": "Lying on the ground is a jet black stone tablet.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "803": {
+      "vnum": 803,
+      "keywords": [
+        "scroll",
+        "githyanki"
+      ],
+      "type": "scroll",
+      "short": "a scroll with githyanki writings on it",
+      "long": "You see a scroll written in an alien tongue.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "804": {
+      "vnum": 804,
+      "keywords": [
+        "amulet",
+        "demon"
+      ],
+      "type": "wand",
+      "short": "a small demon's amulet",
+      "long": "A small amulet lies here in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "805": {
+      "vnum": 805,
+      "keywords": [
+        "talisman",
+        "devilish"
+      ],
+      "type": "staff",
+      "short": "a devilish talisman",
+      "long": "On the ground is a small talisman which radiates a tangible evil.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "806": {
+      "vnum": 806,
+      "keywords": [
+        "knife",
+        "silvery"
+      ],
+      "type": "weapon",
+      "short": "a silvery knife",
+      "long": "A flat-bladed silvery knife lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "807": {
+      "vnum": 807,
+      "keywords": [
+        "dagger",
+        "silvery"
+      ],
+      "type": "weapon",
+      "short": "a silvery dagger",
+      "long": "A sharp-looking silvery dagger lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "808": {
+      "vnum": 808,
+      "keywords": [
+        "sword",
+        "thin"
+      ],
+      "type": "weapon",
+      "short": "an extremely sharp and thin sword",
+      "long": "Light glints off the edge of a razor-sharp sword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "809": {
+      "vnum": 809,
+      "keywords": [
+        "sword",
+        "thin",
+        "two",
+        "two-handed"
+      ],
+      "type": "weapon",
+      "short": "a thin two-handed sword",
+      "long": "A heavy yet thinly bladed two-handed sword lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "810": {
+      "vnum": 810,
+      "keywords": [
+        "sword",
+        "silvery"
+      ],
+      "type": "weapon",
+      "short": "a silvery sword",
+      "long": "A silvery sword gleams unnaturally with an alien light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "811": {
+      "vnum": 811,
+      "keywords": [
+        "flail",
+        "barbed",
+        "iron"
+      ],
+      "type": "weapon",
+      "short": "an iron barbed flail",
+      "long": "A rusty iron flail with wicked barbs on it tears at the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "812": {
+      "vnum": 812,
+      "keywords": [
+        "sword",
+        "gith"
+      ],
+      "type": "weapon",
+      "short": "the holy sword of the githyanki",
+      "long": "You feel tendrils of soft light emanating from a magnificent blade.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "813": {
+      "vnum": 813,
+      "keywords": [
+        "stone",
+        "flame"
+      ],
+      "type": "light",
+      "short": "a brightly flaming stone",
+      "long": "The room is lit by a hot blue flame coming from a small stone.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "814": {
+      "vnum": 814,
+      "keywords": [
+        "powder",
+        "astral"
+      ],
+      "type": "pill",
+      "short": "some astral powder",
+      "long": "Twinkling powder floats before your eyes.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "815": {
+      "vnum": 815,
+      "keywords": [
+        "vest",
+        "splint"
+      ],
+      "type": "armor",
+      "short": "a splint mail vest",
+      "long": "An intricately fashioned splint mail vest lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "816": {
+      "vnum": 816,
+      "keywords": [
+        "skirt",
+        "splint"
+      ],
+      "type": "armor",
+      "short": "a splint mail skirt",
+      "long": "An intricately fashioned splint mail skirt lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "817": {
+      "vnum": 817,
+      "keywords": [
+        "sleeves",
+        "splint"
+      ],
+      "type": "armor",
+      "short": "a pair of splint mail sleeves",
+      "long": "A pair of intricately fashioned splint mail sleeves lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "818": {
+      "vnum": 818,
+      "keywords": [
+        "gauntlets",
+        "ornate"
+      ],
+      "type": "armor",
+      "short": "a pair of ornately designed gauntlets",
+      "long": "A pair of painstakingly designed ornate gauntlets lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "819": {
+      "vnum": 819,
+      "keywords": [
+        "dress",
+        "silk"
+      ],
+      "type": "armor",
+      "short": "a dress of black silk",
+      "long": "A dress of black silk has been left lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "820": {
+      "vnum": 820,
+      "keywords": [
+        "potion",
+        "violet"
+      ],
+      "type": "potion",
+      "short": "a violet potion",
+      "long": "A tall glass flask holds a translucent violet fluid.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "821": {
+      "vnum": 821,
+      "keywords": [
+        "potion",
+        "vial",
+        "murky"
+      ],
+      "type": "potion",
+      "short": "a vial of murky fluid",
+      "long": "A small vial contains a murky, sludge-like substance.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "822": {
+      "vnum": 822,
+      "keywords": [
+        "potion",
+        "silvery"
+      ],
+      "type": "potion",
+      "short": "a silvery-colored potion",
+      "long": "An octagonal vial holds a silvery-colored fluid that reflects light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "823": {
+      "vnum": 823,
+      "keywords": [
+        "mint",
+        "chocolate"
+      ],
+      "type": "pill",
+      "short": "a tasty-looking chocolate mint",
+      "long": "Someone has dropped a delicious-looking chocolate mint here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "824": {
+      "vnum": 824,
+      "keywords": [
+        "pentagram"
+      ],
+      "type": "key",
+      "short": "a black pentagram",
+      "long": "A small black metal pentagram has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "825": {
+      "vnum": 825,
+      "keywords": [
+        "silk",
+        "pouch"
+      ],
+      "type": "money",
+      "short": "a pouch of fine silk",
+      "long": "A pouch crafted of the finest silk lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "826": {
+      "vnum": 826,
+      "keywords": [
+        "vial",
+        "etherealness"
+      ],
+      "type": "potion",
+      "short": "a vial of etherealness",
+      "long": "A vial of wispy vapors lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "899": {
+      "vnum": 899,
+      "keywords": [
+        "border",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created border object",
+      "long": "Some god dropped a newly created border object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
     }
   }
 }
