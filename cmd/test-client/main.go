@@ -84,7 +84,7 @@ func contains(response string, keywords []string) bool {
 func main() {
 	addr := "localhost:4000"
 
-	fmt.Println("=== NJATA MUD Integration Tests ===\n")
+	fmt.Println("=== NJATA MUD Integration Tests ===")
 
 	// Connect
 	fmt.Println("[TEST] Connecting to server...")
@@ -94,7 +94,8 @@ func main() {
 		return
 	}
 	defer client.Close()
-	fmt.Println("✓ Connected\n")
+	fmt.Println("✓ Connected")
+	fmt.Println()
 
 	// Read banner
 	fmt.Println("[TEST] Receiving banner...")

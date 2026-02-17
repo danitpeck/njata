@@ -23,7 +23,7 @@ func main() {
 	defer conn.Close()
 
 	fmt.Printf("Connected to %s\n", addr)
-	fmt.Println("Type 'quit' to exit\n")
+	fmt.Println("Type 'quit' to exit")
 
 	// Read banner from server
 	scanner := bufio.NewScanner(conn)

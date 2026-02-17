@@ -1,13 +1,13 @@
 {
-  "name": "Zoie",
-  "location": 10300,
+  "name": "zoie",
+  "location": 9001,
   "class": 0,
   "race": 25,
   "sex": 2,
   "level": 64,
   "hp": 1000,
   "max_hp": 1000,
-  "mana": 976,
+  "mana": 961,
   "max_mana": 976,
   "move": 1000,
   "max_move": 1000,
@@ -26,6 +26,14 @@
   "hitroll": 0,
   "damroll": 0,
   "armor": 130,
-  "skills": {},
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 31,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771296700325343800
+    }
+  },
   "is_keeper": true
 }

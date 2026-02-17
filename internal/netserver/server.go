@@ -5,6 +5,7 @@ import (
     "fmt"
     "net"
     "strings"
+    "time"
 
     "njata/internal/commands"
     "njata/internal/game"
@@ -48,6 +49,9 @@ func (s *Server) Run(ctx context.Context) error {
         _ = listener.Close()
     }()
 
+    // Start autosave ticker - saves all players every 5 minutes
+    go s.startAutosaveTimer(ctx)
+
     for {
         conn, err := listener.Accept()
         if err != nil {
@@ -65,6 +69,31 @@ func (s *Server) Run(ctx context.Context) error {
         }
 
         go s.handleConn(conn)
+    }
+}
+
+func (s *Server) startAutosaveTimer(ctx context.Context) {
+    ticker := time.NewTicker(5 * time.Minute)
+    defer ticker.Stop()
+
+    for {
+        select {
+        case <-ctx.Done():
+            return
+        case <-ticker.C:
+            // Save all players
+            players := s.world.PlayersSnapshot()
+            for _, player := range players {
+                if player != nil {
+                    record := persist.PlayerToRecord(player)
+                    if err := persist.SavePlayer(playerDataDir, record); err != nil {
+                        if s.logger != nil {
+                            s.logger(fmt.Sprintf("autosave error for %s: %v", player.Name, err))
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
