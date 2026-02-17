@@ -90,3 +90,32 @@ func GetByMenuChoice(choice int) *ClassJSON {
 	}
 	return classList[choice-1]
 }
+
+// MVPClasses returns only the two MVP classes: Scholar and Warrior
+func MVPClasses() []*ClassJSON {
+	var mvp []*ClassJSON
+	for _, class := range classList {
+		if class.Name == "Scholar" || class.Name == "Warrior" {
+			mvp = append(mvp, class)
+		}
+	}
+	return mvp
+}
+
+// MVPMenuString returns a formatted menu for MVP classes only (Scholar and Warrior)
+func MVPMenuString() string {
+	var result string
+	for i, class := range MVPClasses() {
+		result += fmt.Sprintf("  %d) %s\n", i+1, class.Name)
+	}
+	return result
+}
+
+// GetMVPByMenuChoice returns the MVP class at the given menu position (1-indexed)
+func GetMVPByMenuChoice(choice int) *ClassJSON {
+	mvp := MVPClasses()
+	if choice < 1 || choice > len(mvp) {
+		return nil
+	}
+	return mvp[choice-1]
+}

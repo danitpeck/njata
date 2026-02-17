@@ -155,12 +155,13 @@ func (cc *CharacterCreation) selectClass() error {
 		cc.session.WriteLine("")
 		cc.session.WriteLine("=== SELECT YOUR CLASS ===")
 		cc.session.WriteLine("")
-		cc.session.WriteLine(classes.MenuString())
+		cc.session.WriteLine(classes.MVPMenuString())
 		cc.session.WriteLine("")
-		cc.session.WriteLine("If you would like to ruminate at greater length on the unique characteristics")
-		cc.session.WriteLine("of one of these classes, simply ask for [help]...")
+		cc.session.WriteLine("As a Scholar, you study magical items to learn spells.")
+		cc.session.WriteLine("As a Warrior, you master combat through weapons and tactics.")
 		cc.session.WriteLine("")
-		cc.session.Write("Choice (1-" + fmt.Sprintf("%d", classes.Count()) + "): ")
+		mvpCount := len(classes.MVPClasses())
+		cc.session.Write("Choice (1-" + fmt.Sprintf("%d", mvpCount) + "): ")
 
 		line, err := cc.session.ReadLine()
 		if err != nil {
@@ -169,7 +170,17 @@ func (cc *CharacterCreation) selectClass() error {
 
 		trimmed := strings.TrimSpace(line)
 		if strings.ToLower(trimmed) == "help" {
-			cc.session.WriteLine("Help is available for classes (not fully implemented yet).")
+			cc.session.WriteLine("")
+			cc.session.WriteLine("=== SCHOLAR ===")
+			cc.session.WriteLine("Scholars are seekers of knowledge who unlock magical power by studying")
+			cc.session.WriteLine("enchanted items found throughout the world. Each spell must be discovered,")
+			cc.session.WriteLine("studied, and mastered. Your growth is driven by curiosity and exploration.")
+			cc.session.WriteLine("")
+			cc.session.WriteLine("=== WARRIOR ===")
+			cc.session.WriteLine("Warriors are masters of combat who learn devastating maneuvers and techniques.")
+			cc.session.WriteLine("You grow stronger through battle, honing your skills against increasingly")
+			cc.session.WriteLine("formidable foes. Your weapon is your path to power.")
+			cc.session.WriteLine("")
 			continue
 		}
 
@@ -179,7 +190,7 @@ func (cc *CharacterCreation) selectClass() error {
 			continue
 		}
 
-		class := classes.GetByMenuChoice(choice)
+		class := classes.GetMVPByMenuChoice(choice)
 		if class == nil {
 			cc.session.WriteLine("Invalid choice. Please try again.")
 			continue
