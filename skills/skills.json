@@ -204,5 +204,29 @@
       "hit": "You come to know the true nature of $target.",
       "cast_room": "$actor examines $target carefully."
     }
+  },
+  {
+    "id": 9002,
+    "name": "Slash",
+    "mana_cost": 0,
+    "cooldown_seconds": 2,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 1,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "1d6 + S/2",
+      "damage_type": "physical",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You slash at $target with your weapon!",
+      "hit": "$actor slashes you for $damage damage!",
+      "miss": "$actor's slash misses you!",
+      "cast_room": "$actor slashes at $target!"
+    }
   }
 ]

@@ -2,6 +2,7 @@ package commands
 
 import (
 	"fmt"
+	"math/rand"
 	"strings"
 	"time"
 
@@ -22,6 +23,7 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("astat", cmdAstat)
 	registry.Register("spellbook", cmdSpellbook)
 	registry.Register("cast", cmdCast)
+	registry.Register("slash", cmdSlash)
 	registry.Register("study", cmdStudy)
 	registry.Register("save", cmdSave)
 	registry.Register("makekeeper", cmdMakeKeeper)
@@ -284,6 +286,115 @@ func cmdCast(ctx Context, args string) {
 
 	// For now, spell effects (damage, healing, etc.) would be implemented here
 	// This is a placeholder for actual combat/effect system integration
+}
+
+// rollDice rolls XdY dice (e.g., "1d6" rolls 1 six-sided die)
+func rollDice(notation string) int {
+	parts := strings.Split(notation, "d")
+	if len(parts) != 2 {
+		return 0
+	}
+	
+	var numDice, dieSize int
+	fmt.Sscanf(parts[0], "%d", &numDice)
+	fmt.Sscanf(parts[1], "%d", &dieSize)
+	
+	total := 0
+	for i := 0; i < numDice; i++ {
+		total += rand.Intn(dieSize) + 1
+	}
+	return total
+}
+
+func cmdSlash(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to use combat maneuvers")
+		return
+	}
+
+	args = strings.TrimSpace(args)
+	if args == "" {
+		ctx.Output.WriteLine("Slash what? (syntax: slash <target>)")
+		return
+	}
+
+	p := ctx.Player
+
+	// Initialize skills map if needed
+	if p.Skills == nil {
+		p.Skills = make(map[int]*skills.PlayerSkillProgress)
+	}
+
+	// Get the Slash maneuver (skill ID 9002)
+	const SlashSkillID = 9002
+	spell := skills.GetSpell(SlashSkillID)
+	if spell == nil {
+		ctx.Output.WriteLine("Slash maneuver not found in skill system.")
+		return
+	}
+
+	// Check if player has learned Slash
+	skillProgress, hasSkill := p.Skills[SlashSkillID]
+	if !hasSkill || !skillProgress.Learned {
+		ctx.Output.WriteLine("You haven't learned the Slash maneuver yet.")
+		return
+	}
+
+	// Check cooldown (no mana cost for physical maneuvers)
+	now := time.Now().UnixNano()
+	canUse, reason := skillProgress.CanCast(spell, p.Mana, now)
+	if !canUse {
+		// Override mana message for physical attacks since mana cost is 0
+		if strings.Contains(reason, "mana") {
+			canUse = true
+		} else {
+			ctx.Output.WriteLine(reason)
+			return
+		}
+	}
+
+	// Find target mob in current room
+	targetKeyword := strings.ToLower(args)
+	mob, found := ctx.World.FindMobInRoom(p, targetKeyword)
+	if !found {
+		ctx.Output.WriteLine(fmt.Sprintf("You don't see '%s' here.", args))
+		return
+	}
+
+	// Calculate damage: 1d6 + STR/2
+	// Damage formula from spell.Effects.Damage: "1d6 + S/2"
+	baseDamage := rollDice("1d6")
+	strBonus := p.Attributes[0] / 2 // STR is index 0
+	totalDamage := baseDamage + strBonus
+	
+	// Apply proficiency scaling (higher proficiency = more consistent/higher damage)
+	// For MVP, proficiency adds a small bonus: +1 damage per 20% proficiency
+	proficiencyBonus := skillProgress.Proficiency / 20
+	totalDamage += proficiencyBonus
+
+	// Update cooldown and proficiency
+	skillProgress.UpdateCooldown()
+	skillProgress.UpdateProficiency(1) // +1% proficiency per use
+
+	// Deal damage to mob
+	died := ctx.World.DamageMob(p, mob, totalDamage)
+
+	// Show messages
+	playerMsg := fmt.Sprintf("You slash at %s for &R%d&w damage! (Proficiency: %d%%)", 
+		mob.Short, totalDamage, skillProgress.Proficiency)
+	ctx.Output.WriteLine(playerMsg)
+	
+	roomMsg := fmt.Sprintf("%s slashes at %s!", p.Name, mob.Short)
+	ctx.World.BroadcastCombatMessage(p, roomMsg)
+
+	if died {
+		deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", mob.Short)
+		ctx.Output.WriteLine(deathMsg)
+		ctx.World.BroadcastCombatMessage(p, deathMsg)
+	} else {
+		hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", mob.Short, mob.HP, mob.MaxHP)
+		ctx.Output.WriteLine(hpMsg)
+	}
 }
 
 func cmdStudy(ctx Context, args string) {

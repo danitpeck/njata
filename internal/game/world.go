@@ -526,3 +526,67 @@ func (w *World) RespawnTick(defaultMinutes int, logger func(string)) {
 
     logger(fmt.Sprintf("Respawn tick: %d/%d areas respawned - %s", areasRespawned, len(areaRooms), strings.Join(respawnLog, ", ")))
 }
+// FindMobInRoom searches for a mobile in the player's current room by keyword
+func (w *World) FindMobInRoom(player *Player, keyword string) (*Mobile, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	keyword = strings.ToLower(keyword)
+	for _, mob := range room.Mobiles {
+		// Check if keyword matches any of the mob's keywords
+		for _, mobKeyword := range mob.Keywords {
+			if strings.ToLower(mobKeyword) == keyword {
+				return mob, true
+			}
+		}
+		// Also check if keyword appears in mob's short description
+		if strings.Contains(strings.ToLower(mob.Short), keyword) {
+			return mob, true
+		}
+	}
+
+	return nil, false
+}
+
+// DamageMob deals damage to a mobile and handles death
+func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	mob.HP -= damage
+	
+	if mob.HP <= 0 {
+		mob.HP = 0
+		// Remove mob from room
+		room, ok := w.rooms[player.Location]
+		if ok {
+			newMobiles := make([]*Mobile, 0, len(room.Mobiles)-1)
+			for _, m := range room.Mobiles {
+				if m != mob {
+					newMobiles = append(newMobiles, m)
+				}
+			}
+			room.Mobiles = newMobiles
+		}
+		return true
+	}
+
+	return false
+}
+
+// BroadcastCombatMessage sends a combat message to the player's room
+func (w *World) BroadcastCombatMessage(player *Player, message string) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	for _, other := range w.players {
+		if other.Location == player.Location && !strings.EqualFold(other.Name, player.Name) {
+			other.Output.WriteLine(message)
+		}
+	}
+}
