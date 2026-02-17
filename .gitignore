@@ -12,3 +12,6 @@ build/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local scratchpad
+.scratch/
