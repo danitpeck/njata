@@ -124,9 +124,9 @@ func (s *Server) handleConn(conn net.Conn) {
                 return
             }
 
-            // Auto-teach new players Magic Missile (spelling ID 1001) as a starter spell
-            magicMissileSpell := skills.GetSpell(1001)
-            if magicMissileSpell != nil {
+            // Auto-teach new players Arcane Bolt (spell ID 1001) as a starter spell
+            arcaneBoltSpell := skills.GetSpell(1001)
+            if arcaneBoltSpell != nil {
                 player.Skills[1001] = &skills.PlayerSkillProgress{
                     SpellID:       1001,
                     Proficiency:   50,
@@ -134,7 +134,7 @@ func (s *Server) handleConn(conn net.Conn) {
                     LifetimeCasts: 0,
                     LastCastTime:  0,
                 }
-                session.WriteLine("You have learned &YMagic Missile&w as your first spell!")
+                session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", arcaneBoltSpell.Name))
             }
         }
 

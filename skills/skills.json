@@ -1,7 +1,7 @@
 [
   {
     "id": 1001,
-    "name": "Magic Missile",
+    "name": "Arcane Bolt",
     "mana_cost": 15,
     "cooldown_seconds": 2,
     "level_required": 1,
@@ -17,15 +17,15 @@
       "save_dc": 0
     },
     "messages": {
-      "cast": "You hurl a magical missile at $target.",
-      "hit": "$actor's magical missile strikes you!",
-      "miss": "$actor's magical missile misses you.",
-      "cast_room": "$actor hurls a magical missile at $target."
+      "cast": "You hurl an arcane bolt at $target.",
+      "hit": "$actor's arcane bolt strikes you!",
+      "miss": "$actor's arcane bolt misses you.",
+      "cast_room": "$actor hurls an arcane bolt at $target."
     }
   },
   {
     "id": 1002,
-    "name": "Fireball",
+    "name": "Leviathan's Fire",
     "mana_cost": 30,
     "cooldown_seconds": 5,
     "level_required": 1,
@@ -41,16 +41,16 @@
       "save_dc": 14
     },
     "messages": {
-      "cast": "You hurl a massive fireball at $target.",
-      "hit": "$actor's fireball scorches you for $damage damage!",
-      "miss": "$actor's fireball sails past $target.",
+      "cast": "You hurl Leviathan's fire at $target.",
+      "hit": "$actor's flame scorches you for $damage damage!",
+      "miss": "$actor's fire sails past $target.",
       "save": "$target resists the flames!",
-      "cast_room": "$actor hurls a massive fireball!"
+      "cast_room": "$actor hurls a massive flame!"
     }
   },
   {
     "id": 1003,
-    "name": "Heal",
+    "name": "Mend",
     "mana_cost": 20,
     "cooldown_seconds": 6,
     "level_required": 1,
@@ -66,15 +66,15 @@
       "save_dc": 0
     },
     "messages": {
-      "cast": "You cast healing magic on $target.",
-      "hit": "Golden light washes over $target, healing $healing damage!",
+      "cast": "You cast Mend on $target.",
+      "hit": "Golden light washes over $target, mending $healing wounds!",
       "miss": "Nothing happens.",
-      "cast_room": "$actor casts healing magic on $target."
+      "cast_room": "$actor casts Mend on $target."
     }
   },
   {
     "id": 1004,
-    "name": "Blindness",
+    "name": "Shadow Veil",
     "mana_cost": 18,
     "cooldown_seconds": 4,
     "level_required": 1,
@@ -89,22 +89,22 @@
       "save_type": "will",
       "save_dc": 13,
       "affect": {
-        "name": "blindness",
+        "name": "shadow_veil",
         "duration": "20 + L*2",
         "ac_penalty": 4,
-        "description": "You are blinded!"
+        "description": "Shadows veil your eyes!"
       }
     },
     "messages": {
-      "cast": "You cast blindness on $target.",
-      "hit": "$target's eyes go blank!",
-      "miss": "$target resists the blindness.",
-      "cast_room": "$actor casts blindness on $target."
+      "cast": "You weave Shadow Veil on $target.",
+      "hit": "Darkness falls over $target's eyes!",
+      "miss": "$target shrugs off the shadows.",
+      "cast_room": "$actor weaves shadows around $target."
     }
   },
   {
     "id": 1005,
-    "name": "Invisibility",
+    "name": "Ephemeral Step",
     "mana_cost": 20,
     "cooldown_seconds": 30,
     "level_required": 1,
@@ -119,20 +119,20 @@
       "save_type": "none",
       "save_dc": 0,
       "affect": {
-        "name": "invisibility",
+        "name": "ephemeral_step",
         "duration": "120 + W*4",
-        "description": "You fade from sight."
+        "description": "You become ephemeral."
       }
     },
     "messages": {
-      "cast": "You cast invisibility on $target.",
-      "hit": "$target fades from sight!",
-      "cast_room": "$actor casts invisibility on $target."
+      "cast": "You cast Ephemeral Step on $target.",
+      "hit": "$target shimmers and vanishes!",
+      "cast_room": "$actor casts Ephemeral Step on $target."
     }
   },
   {
     "id": 1006,
-    "name": "Teleport",
+    "name": "Path Shift",
     "mana_cost": 50,
     "cooldown_seconds": 30,
     "level_required": 1,
@@ -147,20 +147,20 @@
       "save_type": "will",
       "save_dc": 16,
       "affect": {
-        "name": "teleport",
+        "name": "path_shift",
         "duration": "0",
         "description": "You vanish in a flash of light!"
       }
     },
     "messages": {
-      "cast": "You cast teleportation magic!",
+      "cast": "You weave Path Shift!",
       "hit": "You vanish in a flash of light!",
       "cast_room": "$actor vanishes in a flash of light!"
     }
   },
   {
     "id": 1007,
-    "name": "Frost Bolt",
+    "name": "Winter's Whisper",
     "mana_cost": 25,
     "cooldown_seconds": 4,
     "level_required": 1,
@@ -176,15 +176,15 @@
       "save_dc": 13
     },
     "messages": {
-      "cast": "You hurl a bolt of frost at $target.",
-      "hit": "$actor's frost bolt freezes you for $damage damage!",
-      "miss": "$actor's frost bolt misses you.",
-      "cast_room": "$actor hurls a bolt of frost at $target."
+      "cast": "You whisper Winter's Whisper at $target.",
+      "hit": "$actor's frost freezes you for $damage damage!",
+      "miss": "$actor's frost misses you.",
+      "cast_room": "$actor whispers winter's chill at $target."
     }
   },
   {
     "id": 1008,
-    "name": "Identify",
+    "name": "Knowing",
     "mana_cost": 15,
     "cooldown_seconds": 2,
     "level_required": 1,
@@ -200,9 +200,9 @@
       "save_dc": 0
     },
     "messages": {
-      "cast": "You examine $target carefully.",
-      "hit": "You identify $target.",
-      "cast_room": "$actor examines $target."
+      "cast": "You seek Knowing about $target.",
+      "hit": "You come to know the true nature of $target.",
+      "cast_room": "$actor examines $target carefully."
     }
   }
 ]

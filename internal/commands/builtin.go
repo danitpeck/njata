@@ -319,18 +319,26 @@ func cmdStudy(ctx Context, args string) {
     // For MVP: map item keywords to spell IDs
     // In the future, this should be stored in object data
     itemToSpell := map[string]int{
-        "wand":          1001, // Magic Missile
-        "missile":       1001,
-        "fireball":      1002,
+        "arcane":        1001, // Arcane Bolt
+        "bolt":          1001,
+        "leviathan":     1002, // Leviathan's Fire
+        "fire":          1002,
+        "mend":          1003, // Mend
         "heal":          1003,
         "healing":       1003,
         "scroll":        1003, // default to heal for scrolls
-        "blindness":     1004,
-        "invisibility":  1005,
-        "teleport":      1006,
+        "shadow":        1004, // Shadow Veil
+        "veil":          1004,
+        "ephemeral":     1005, // Ephemeral Step
+        "step":          1005,
+        "path":          1006, // Path Shift
+        "shift":         1006,
+        "winter":        1007, // Winter's Whisper
+        "whisper":       1007,
         "frost":         1007,
         "cold":          1007,
-        "identify":      1008,
+        "knowing":       1008, // Knowing
+        "knowledge":     1008,
     }
 
     // Find which spell the player is trying to study
