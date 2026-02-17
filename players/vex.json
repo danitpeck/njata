@@ -1,6 +1,6 @@
 {
   "name": "vex",
-  "location": 90000,
+  "location": 9001,
   "class": 12,
   "race": 6,
   "sex": 2,
@@ -39,6 +39,13 @@
       "learned": true,
       "lifetime_casts": 4,
       "last_cast_time": 1771369368165214200
+    },
+    "1004": {
+      "spell_id": 1004,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
     },
     "9002": {
       "spell_id": 9002,

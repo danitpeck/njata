@@ -554,6 +554,55 @@ func (w *World) FindMobInRoom(player *Player, keyword string) (*Mobile, bool) {
 	return nil, false
 }
 
+// FindObjectInRoom searches for an object in the player's current room by keyword
+func (w *World) FindObjectInRoom(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	keyword = strings.ToLower(keyword)
+	for _, obj := range room.Objects {
+		// Check if keyword matches any of the object's keywords
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == keyword {
+				return obj, true
+			}
+		}
+		// Also check if keyword appears in object's short description
+		if strings.Contains(strings.ToLower(obj.Short), keyword) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
+// RemoveObjectFromRoom removes an object from the player's current room
+func (w *World) RemoveObjectFromRoom(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return false
+	}
+
+	// Find and remove the object
+	for i, o := range room.Objects {
+		if o == obj {
+			// Remove by swapping and truncating
+			room.Objects = append(room.Objects[:i], room.Objects[i+1:]...)
+			return true
+		}
+	}
+
+	return false
+}
+
 // DamageMob deals damage to a mobile and handles death
 func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool) {
 	w.mu.Lock()

@@ -490,80 +490,61 @@ func cmdStudy(ctx Context, args string) {
 		p.Skills = make(map[int]*skills.PlayerSkillProgress)
 	}
 
-	// For MVP: map item keywords to spell IDs
-	// In the future, this should be stored in object data
-	itemToSpell := map[string]int{
-		"arcane":    1001, // Arcane Bolt
-		"bolt":      1001,
-		"leviathan": 1002, // Leviathan's Fire
-		"fire":      1002,
-		"mend":      1003, // Mend
-		"heal":      1003,
-		"healing":   1003,
-		"scroll":    1003, // default to heal for scrolls
-		"shadow":    1004, // Shadow Veil
-		"veil":      1004,
-		"ephemeral": 1005, // Ephemeral Step
-		"step":      1005,
-		"path":      1006, // Path Shift
-		"shift":     1006,
-		"winter":    1007, // Winter's Whisper
-		"whisper":   1007,
-		"frost":     1007,
-		"cold":      1007,
-		"knowing":   1008, // Knowing
-		"knowledge": 1008,
-	}
-
-	// Find which spell the player is trying to study
-	var targetSpellID int
-	found := false
-	for keyword, spellID := range itemToSpell {
-		if strings.Contains(strings.ToLower(args), keyword) {
-			targetSpellID = spellID
-			found = true
-			break
-		}
-	}
-
+	// Look for the item in the current room
+	obj, found := ctx.World.FindObjectInRoom(p, args)
 	if !found {
-		ctx.Output.WriteLine("You can't study that.")
+		ctx.Output.WriteLine("You don't see that here.")
+		return
+	}
+
+	// Extract spell ID from value[3]
+	spellID := obj.Value[3]
+	if spellID == 0 {
+		ctx.Output.WriteLine("That item doesn't teach any spells.")
 		return
 	}
 
 	// Get the spell
-	spell := skills.GetSpell(targetSpellID)
+	spell := skills.GetSpell(spellID)
 	if spell == nil {
-		ctx.Output.WriteLine("That spell doesn't exist.")
+		ctx.Output.WriteLine("That spell doesn't exist. (Internal error)")
 		return
 	}
 
 	// Check if already learned
-	if progress, ok := p.Skills[targetSpellID]; ok && progress.Learned {
+	if progress, ok := p.Skills[spellID]; ok && progress.Learned {
 		ctx.Output.WriteLine(fmt.Sprintf("You already know %s!", spell.Name))
 		return
 	}
 
-	// Simulate finding and studying the item
-	// For MVP, just auto-succeed with 30% proficiency
-	// In full implementation, would:
-	// 1. Check if item is in room
-	// 2. Make proficiency check (DC = 55 - proficiency*0.8)
-	// 3. Remove item from room
+	// Learn or improve the spell
+	var proficiency int
+	if _, hasSkill := p.Skills[spellID]; hasSkill {
+		// Already has some proficiency, increase slightly
+		proficiency = p.Skills[spellID].Proficiency + 10
+		if proficiency > 100 {
+			proficiency = 100
+		}
+	} else {
+		// New spell, start at 30%
+		proficiency = 30
+	}
 
-	p.Skills[targetSpellID] = &skills.PlayerSkillProgress{
-		SpellID:       targetSpellID,
-		Proficiency:   30,
+	p.Skills[spellID] = &skills.PlayerSkillProgress{
+		SpellID:       spellID,
+		Proficiency:   proficiency,
 		Learned:       true,
 		LifetimeCasts: 0,
 		LastCastTime:  0,
 	}
 
-	ctx.Output.WriteLine(fmt.Sprintf("&YYou carefully study the item and learn &W%s&Y!&w", spell.Name))
-	ctx.Output.WriteLine(fmt.Sprintf("Proficiency: 30%% | Mana Cost: %d | Cooldown: %ds",
-		spell.ManaCost, spell.CooldownSeconds))
+	ctx.Output.WriteLine(fmt.Sprintf("&YYou carefully study %s and learn &W%s&Y!&w", obj.Short, spell.Name))
+	ctx.Output.WriteLine(fmt.Sprintf("Proficiency: %d%% | Mana Cost: %d | Cooldown: %ds",
+		proficiency, spell.ManaCost, spell.CooldownSeconds))
 
-	// In full implementation: ctx.World.RemoveObjectFromRoom(ctx.Player.Location, itemVnum)
+	// Remove the item from the room (it's consumed)
+	ctx.World.RemoveObjectFromRoom(p, obj)
+	ctx.Output.WriteLine(fmt.Sprintf("&GThe %s crumbles away as its magic is absorbed.&w", obj.Short))
 }
 
 func cmdSave(ctx Context, args string) {
