@@ -32,10 +32,14 @@
 - [x] Astat command stub for area statistics display
 - [x] UX polish: Remove area author from standard look output (astat only)
 
-### Phase 2: Skills System (Pending)
-- [ ] Load class skill proficiencies from JSON
-- [ ] Load race attribute modifiers from JSON
-- [ ] Skill/spell command system
+### Phase 2: Skills System (In Progress)
+- [x] Load skill definitions from JSON
+- [x] Skill package with proficiency tracking
+- [x] Player skill storage and persistence
+- [x] Spellbook command to list learned skills
+- [x] Cast command with mana/cooldown validation
+- [ ] Skill damage/healing calculations
+- [ ] Skill progression and proficiency leveling
 
 ### Phase 3: Character Creation (In Progress)
 - [x] Race/class JSON loaders with menu formatting
@@ -48,13 +52,14 @@
 - [ ] Attribute assignment/customization
 - [ ] Starting skill proficiencies
 
-### Phase 4: Advanced Persistence (Pending)
+### Phase 4: Advanced Persistence (In Progress)
 - [ ] Reset logic (from [legacy/src/reset.c](../legacy/src/reset.c))
 	- [x] Initial spawn from resets (no respawn yet)
-- [ ] Reset scheduler (per-area timers with a default interval)
+- [x] Reset scheduler (per-area timers with a default interval)
   - [x] Per-area reset_minutes field in area JSON
-- [ ] Object/item persistence
-- [ ] Mob respawn (timed resets)
+  - [x] RespawnTick implementation with per-area timing
+  - [x] Mob/object respawn (clears and re-instantiates from resets)
+- [ ] Object/item persistence (inventory system)
 
 ## Milestone 4: Combat + Skills (Not Started)
 

@@ -1,0 +1,65 @@
+{
+  "skills": {
+    "1": {
+      "name": "Fireball",
+      "id": 1,
+      "type": "offensive",
+      "mana_cost": 30,
+      "cooldown_seconds": 5,
+      "damage_formula": "int_bonus * 1.2 + 10",
+      "description": "Hurl a ball of flame at your target",
+      "classes": [12, 7]
+    },
+    "2": {
+      "name": "Frost Bolt",
+      "id": 2,
+      "type": "offensive",
+      "mana_cost": 25,
+      "cooldown_seconds": 4,
+      "damage_formula": "int_bonus * 1.0 + 8",
+      "description": "Strike your target with icy magic",
+      "classes": [12, 7]
+    },
+    "3": {
+      "name": "Heal",
+      "id": 3,
+      "type": "healing",
+      "mana_cost": 20,
+      "cooldown_seconds": 6,
+      "heal_formula": "wis_bonus * 1.5 + 15",
+      "description": "Restore health to yourself or an ally",
+      "classes": [2, 12, 8]
+    },
+    "4": {
+      "name": "Lightning Strike",
+      "id": 4,
+      "type": "offensive",
+      "mana_cost": 40,
+      "cooldown_seconds": 8,
+      "damage_formula": "int_bonus * 1.4 + 15",
+      "description": "Call down lightning upon your foes",
+      "classes": [12, 7, 8]
+    },
+    "5": {
+      "name": "Magic Missile",
+      "id": 5,
+      "type": "offensive",
+      "mana_cost": 15,
+      "cooldown_seconds": 2,
+      "damage_formula": "int_bonus * 0.8 + 5",
+      "description": "Launch magical projectiles at your target",
+      "classes": [12, 7]
+    },
+    "6": {
+      "name": "Shield Spell",
+      "id": 6,
+      "type": "defensive",
+      "mana_cost": 18,
+      "cooldown_seconds": 10,
+      "ac_bonus": 5,
+      "duration_seconds": 30,
+      "description": "Summon a protective magical barrier",
+      "classes": [12, 2, 8]
+    }
+  }
+}

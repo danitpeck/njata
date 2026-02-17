@@ -30,6 +30,8 @@ type PlayerRecord struct {
     Hitroll    int    `json:"hitroll"`
     Damroll    int    `json:"damroll"`
     Armor      int    `json:"armor"`
+    Skills     map[int]int `json:"skills"`
+    SkillCooldowns map[int]int64 `json:"skill_cooldowns"`
 }
 
 func LoadPlayer(dir string, name string) (*PlayerRecord, bool, error) {
@@ -97,6 +99,8 @@ func PlayerToRecord(p *game.Player) PlayerRecord {
         Hitroll:     p.Hitroll,
         Damroll:     p.Damroll,
         Armor:       p.Armor,
+        Skills:      p.Skills,
+        SkillCooldowns: p.SkillCooldowns,
     }
 }
 
@@ -120,4 +124,6 @@ func RecordToPlayer(p *game.Player, r *PlayerRecord) {
     p.Hitroll = r.Hitroll
     p.Damroll = r.Damroll
     p.Armor = r.Armor
+    p.Skills = r.Skills
+    p.SkillCooldowns = r.SkillCooldowns
 }

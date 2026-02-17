@@ -1,6 +1,6 @@
 {
   "name": "zoie",
-  "location": 10400,
+  "location": 10300,
   "class": 0,
   "race": 25,
   "sex": 2,
@@ -25,5 +25,7 @@
   "alignment": 1000,
   "hitroll": 0,
   "damroll": 0,
-  "armor": 130
+  "armor": 130,
+  "skills": null,
+  "skill_cooldowns": null
 }

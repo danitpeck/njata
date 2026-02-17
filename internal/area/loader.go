@@ -11,10 +11,10 @@ import (
     "njata/internal/game"
 )
 
-func LoadRoomsFromDir(path string) (map[int]*game.Room, int, error) {
+func LoadRoomsFromDir(path string) (map[int]*game.Room, map[int]*game.Mobile, map[int]*game.Object, int, error) {
     entries, err := os.ReadDir(path)
     if err != nil {
-        return nil, 0, err
+        return nil, nil, nil, 0, err
     }
 
     rooms := map[int]*game.Room{}
@@ -32,7 +32,7 @@ func LoadRoomsFromDir(path string) (map[int]*game.Room, int, error) {
         filePath := filepath.Join(path, entry.Name())
         parsed, mobs, objs, err := parseAreasFromJSON(filePath)
         if err != nil {
-            return nil, 0, fmt.Errorf("%s: %w", entry.Name(), err)
+            return nil, nil, nil, 0, fmt.Errorf("%s: %w", entry.Name(), err)
         }
 
         for vnum, room := range parsed {
@@ -69,7 +69,7 @@ func LoadRoomsFromDir(path string) (map[int]*game.Room, int, error) {
     }
 
     start := findLowestVnum(rooms)
-    return rooms, start, nil
+    return rooms, mobiles, objects, start, nil
 }
 
 func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, map[int]*game.Object, error) {

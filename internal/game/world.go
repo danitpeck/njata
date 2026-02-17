@@ -5,6 +5,7 @@ import (
     "sort"
     "strings"
     "sync"
+    "time"
     "unicode"
 )
 
@@ -40,6 +41,10 @@ type Player struct {
     Hitroll    int
     Damroll    int
     Armor      int
+    
+    // Skills
+    Skills     map[int]int // skill_id -> proficiency (0-100)
+    SkillCooldowns map[int]int64 // skill_id -> last_cast_time (unix nanoseconds)
 }
 
 type Mobile struct {
@@ -106,10 +111,13 @@ type RoomView struct {
 }
 
 type World struct {
-    mu      sync.RWMutex
-    rooms   map[int]*Room
-    start   int
-    players map[string]*Player
+    mu               sync.RWMutex
+    rooms            map[int]*Room
+    start            int
+    players          map[string]*Player
+    mobiles          map[int]*Mobile  // Prototypes for respawning
+    objects          map[int]*Object  // Prototypes for respawning
+    areaLastRespawn  map[string]time.Time  // Track when each area last respawned
 }
 
 func CreateDefaultWorld() *World {
@@ -124,9 +132,12 @@ func CreateDefaultWorld() *World {
     }
 
     return &World{
-        rooms: map[int]*Room{defaultRoom.Vnum: defaultRoom},
-        start: defaultRoom.Vnum,
-        players: map[string]*Player{},
+        rooms:           map[int]*Room{defaultRoom.Vnum: defaultRoom},
+        start:           defaultRoom.Vnum,
+        players:         map[string]*Player{},
+        mobiles:         map[int]*Mobile{},
+        objects:         map[int]*Object{},
+        areaLastRespawn: map[string]time.Time{},
     }
 }
 
@@ -144,10 +155,21 @@ func CreateWorldFromRooms(rooms map[int]*Room, start int) *World {
     }
 
     return &World{
-        rooms:   rooms,
-        start:   start,
-        players: map[string]*Player{},
+        rooms:           rooms,
+        start:           start,
+        players:         map[string]*Player{},
+        mobiles:         map[int]*Mobile{},
+        objects:         map[int]*Object{},
+        areaLastRespawn: map[string]time.Time{},
     }
+}
+
+// CreateWorldFromRoomsWithPrototypes creates a world with prototype data for respawning
+func (w *World) SetPrototypes(mobiles map[int]*Mobile, objects map[int]*Object) {
+    w.mu.Lock()
+    defer w.mu.Unlock()
+    w.mobiles = mobiles
+    w.objects = objects
 }
 
 func (w *World) StartRoom() int {
@@ -399,53 +421,90 @@ func normalizeName(name string) string {
     return strings.ToLower(strings.TrimSpace(name))
 }
 
-// RespawnTick is a placeholder for reset scheduling.
-// It will eventually handle area respawns based on timers.
+// RespawnTick checks each area for respawn eligibility and respawns as needed
 func (w *World) RespawnTick(defaultMinutes int, logger func(string)) {
-    w.mu.RLock()
-    areaMinutes := make(map[string]int)
-    overrides := make(map[string]int)
+    w.mu.Lock()
+    defer w.mu.Unlock()
+
+    now := time.Now()
+    areasRespawned := 0
+    var respawnLog []string
+
+    // Group rooms by area
+    areaRooms := make(map[string][]*Room)
     for _, room := range w.rooms {
-        name := room.AreaName
-        if name == "" {
-            name = "Unknown"
+        areaName := room.AreaName
+        if areaName == "" {
+            areaName = "Unknown"
         }
-        if _, ok := areaMinutes[name]; ok {
+        areaRooms[areaName] = append(areaRooms[areaName], room)
+    }
+
+    // Check each area for respawn
+    for areaName, rooms := range areaRooms {
+        if len(rooms) == 0 {
             continue
         }
-        minutes := room.AreaResetMinutes
-        if minutes <= 0 {
-            minutes = defaultMinutes
-        } else {
-            overrides[name] = minutes
+
+        // Get reset minutes for this area (from first room)
+        resetMinutes := rooms[0].AreaResetMinutes
+        if resetMinutes <= 0 {
+            resetMinutes = defaultMinutes
         }
-        areaMinutes[name] = minutes
+
+        // Check if area is due for respawn
+        lastRespawn, hasLastRespawn := w.areaLastRespawn[areaName]
+        if !hasLastRespawn {
+            // First respawn - mark as just respawned
+            w.areaLastRespawn[areaName] = now
+            areasRespawned++
+            respawnLog = append(respawnLog, fmt.Sprintf("%s (initial, next in %dm)", areaName, resetMinutes))
+            continue
+        }
+
+        timeSinceRespawn := now.Sub(lastRespawn)
+        respawnDue := timeSinceRespawn >= time.Duration(resetMinutes)*time.Minute
+
+        if respawnDue {
+            // Respawn this area
+            for _, room := range rooms {
+                // Clear existing mobs and objects
+                room.Mobiles = make([]*Mobile, 0)
+                room.Objects = make([]*Object, 0)
+
+                // Re-instantiate from resets
+                for _, reset := range room.MobileResets {
+                    if proto, ok := w.mobiles[reset.MobVnum]; ok {
+                        for i := 0; i < reset.Count; i++ {
+                            mobCopy := *proto
+                            room.Mobiles = append(room.Mobiles, &mobCopy)
+                        }
+                    }
+                }
+                for _, reset := range room.ObjectResets {
+                    if proto, ok := w.objects[reset.ObjVnum]; ok {
+                        for i := 0; i < reset.Count; i++ {
+                            objCopy := *proto
+                            room.Objects = append(room.Objects, &objCopy)
+                        }
+                    }
+                }
+            }
+
+            w.areaLastRespawn[areaName] = now
+            areasRespawned++
+            respawnLog = append(respawnLog, fmt.Sprintf("%s (next in %dm)", areaName, resetMinutes))
+        }
     }
-    w.mu.RUnlock()
 
     if logger == nil {
         return
     }
 
-    if len(areaMinutes) == 0 {
-        logger("Respawn tick: no areas loaded")
+    if areasRespawned == 0 {
+        logger(fmt.Sprintf("Respawn tick: no areas ready (%d monitored)", len(areaRooms)))
         return
     }
 
-    if len(overrides) == 0 {
-        logger(fmt.Sprintf("Respawn tick: default=%dm, areas=%d", defaultMinutes, len(areaMinutes)))
-        return
-    }
-
-    names := make([]string, 0, len(overrides))
-    for name := range overrides {
-        names = append(names, name)
-    }
-    sort.Strings(names)
-    parts := make([]string, 0, len(names))
-    for _, name := range names {
-        parts = append(parts, fmt.Sprintf("%s=%dm", name, overrides[name]))
-    }
-
-    logger(fmt.Sprintf("Respawn tick: default=%dm, areas=%d, overrides: %s", defaultMinutes, len(areaMinutes), strings.Join(parts, ", ")))
+    logger(fmt.Sprintf("Respawn tick: %d/%d areas respawned - %s", areasRespawned, len(areaRooms), strings.Join(respawnLog, ", ")))
 }

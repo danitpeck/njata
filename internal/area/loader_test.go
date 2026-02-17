@@ -50,7 +50,7 @@ func TestLoadRoomsFromDir(t *testing.T) {
         t.Fatalf("write file: %v", err)
     }
 
-    rooms, start, err := LoadRoomsFromDir(dir)
+    rooms, mobiles, objects, start, err := LoadRoomsFromDir(dir)
     if err != nil {
         t.Fatalf("load rooms: %v", err)
     }
@@ -60,6 +60,11 @@ func TestLoadRoomsFromDir(t *testing.T) {
     }
     if start != 100 {
         t.Fatalf("expected start vnum 100, got %d", start)
+    }
+
+    // Verify prototypes are returned even if empty for this test
+    if mobiles == nil || objects == nil {
+        t.Fatalf("expected non-nil prototypes")
     }
 
     room := rooms[100]

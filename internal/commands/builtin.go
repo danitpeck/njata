@@ -3,10 +3,12 @@ package commands
 import (
     "fmt"
     "strings"
+    "time"
 
     "njata/internal/classes"
     "njata/internal/game"
     "njata/internal/races"
+    "njata/internal/skills"
 )
 
 func RegisterBuiltins(registry *Registry) {
@@ -18,6 +20,8 @@ func RegisterBuiltins(registry *Registry) {
     registry.Register("exits", cmdExits)
     registry.Register("autoexits", cmdAutoexits)
     registry.Register("astat", cmdAstat)
+    registry.Register("spellbook", cmdSpellbook)
+    registry.Register("cast", cmdCast)
     registerMovement(registry)
     registry.Register("help", func(ctx Context, args string) {
         commands := registry.List()
@@ -187,6 +191,124 @@ func cmdScore(ctx Context, args string) {
     ctx.Output.WriteLine(fmt.Sprintf("  Damroll:    %d", p.Damroll))
     ctx.Output.WriteLine(fmt.Sprintf("  Armor:      %d", p.Armor))
     ctx.Output.WriteLine("")
+}
+
+
+func cmdSpellbook(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in to use spellbook")
+        return
+    }
+
+    p := ctx.Player
+    classID := p.Class
+
+    // Get skills available to this class
+    availableSkills := skills.GetSkillsByClass(classID)
+    if len(availableSkills) == 0 {
+        ctx.Output.WriteLine("You have no spells available.")
+        return
+    }
+
+    ctx.Output.WriteLine("=== SPELLBOOK ===")
+    ctx.Output.WriteLine("")
+
+    // Initialize skills map if needed
+    if p.Skills == nil {
+        p.Skills = make(map[int]int)
+    }
+    if p.SkillCooldowns == nil {
+        p.SkillCooldowns = make(map[int]int64)
+    }
+
+    // Learn all class skills if not already learned
+    for _, skill := range availableSkills {
+        if _, learned := p.Skills[skill.ID]; !learned {
+            p.Skills[skill.ID] = 100 // Start at full proficiency
+        }
+    }
+
+    for _, skill := range availableSkills {
+        proficiency := p.Skills[skill.ID]
+        ctx.Output.WriteLine(fmt.Sprintf("[%d] %s - %s", skill.ID, skill.Name, skill.Description))
+        ctx.Output.WriteLine(fmt.Sprintf("    Type: %s | Mana: %d | Cooldown: %d | Proficiency: %d%%", 
+            skill.Type, skill.ManaCost, skill.CooldownSeconds, proficiency))
+    }
+    ctx.Output.WriteLine("")
+}
+
+
+func cmdCast(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in to cast spells")
+        return
+    }
+
+    args = strings.TrimSpace(args)
+    if args == "" {
+        ctx.Output.WriteLine("Cast what? (syntax: cast <spell name or number>)")
+        return
+    }
+
+    p := ctx.Player
+
+    // Initialize maps if needed
+    if p.Skills == nil {
+        p.Skills = make(map[int]int)
+    }
+    if p.SkillCooldowns == nil {
+        p.SkillCooldowns = make(map[int]int64)
+    }
+
+    // Find the skill by name or ID
+    var targetSkill *skills.Skill
+    allSkills := skills.ListAll()
+    
+    // Try to match by name
+    for _, s := range allSkills {
+        if strings.EqualFold(s.Name, args) {
+            targetSkill = s
+            break
+        }
+    }
+
+    if targetSkill == nil {
+        ctx.Output.WriteLine(fmt.Sprintf("You don't know any spell called '%s'", args))
+        return
+    }
+
+    // Check if player learned this skill
+    proficiency, hasSkill := p.Skills[targetSkill.ID]
+    if !hasSkill {
+        ctx.Output.WriteLine(fmt.Sprintf("You haven't learned %s yet.", targetSkill.Name))
+        return
+    }
+
+    // Check mana
+    if p.Mana < targetSkill.ManaCost {
+        ctx.Output.WriteLine(fmt.Sprintf("You need %d mana to cast %s, but only have %d.", targetSkill.ManaCost, targetSkill.Name, p.Mana))
+        return
+    }
+
+    // Check cooldown
+    now := time.Now().UnixNano()
+    lastCast := p.SkillCooldowns[targetSkill.ID]
+    timeSinceCast := (now - lastCast) / 1e9 // Convert to seconds
+    cooldown := int64(targetSkill.CooldownSeconds)
+
+    if timeSinceCast < cooldown {
+        ctx.Output.WriteLine(fmt.Sprintf("%s is still on cooldown for %d more seconds.", targetSkill.Name, cooldown-timeSinceCast))
+        return
+    }
+
+    // Cast the spell!
+    p.Mana -= targetSkill.ManaCost
+    p.SkillCooldowns[targetSkill.ID] = now
+
+    // Success message
+    ctx.Output.WriteLine(fmt.Sprintf("You cast %s!", targetSkill.Name))
+    ctx.Output.WriteLine(fmt.Sprintf("Effect: %s (Proficiency: %d%%)", targetSkill.Description, proficiency))
+    ctx.Output.WriteLine(fmt.Sprintf("Mana remaining: %d/%d", p.Mana, p.MaxMana))
 }
 
 

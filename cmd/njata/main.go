@@ -15,6 +15,7 @@ import (
     "njata/internal/game"
     "njata/internal/netserver"
     "njata/internal/races"
+    "njata/internal/skills"
 )
 
 func main() {
@@ -28,7 +29,7 @@ func main() {
         os.Exit(1)
     }
 
-    rooms, start, err := area.LoadRoomsFromDir("areas")
+    rooms, mobiles, objects, start, err := area.LoadRoomsFromDir("areas")
     if err != nil {
         fmt.Printf("Area load error: %v\n", err)
     }
@@ -51,7 +52,13 @@ func main() {
         os.Exit(1)
     }
 
+    if err := skills.Load("skills/skills.json"); err != nil {
+        fmt.Printf("Skills load error: %v\n", err)
+        os.Exit(1)
+    }
+
     world := game.CreateWorldFromRooms(rooms, start)
+    world.SetPrototypes(mobiles, objects)
     registry := commands.NewRegistry()
     commands.RegisterBuiltins(registry)
 
