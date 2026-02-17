@@ -1,0 +1,5271 @@
+{
+  "name": "Darkhaven Art Gallery",
+  "author": "Zaknafein",
+  "reset_minutes": 15,
+  "rooms": {
+    "24800": {
+      "vnum": 24800,
+      "name": "Entrance to the Darkhaven Art Gallery",
+      "description": "The change in atmosphere as you step through the doors into the gallery is\nstriking.  Far from the tumult outside, the interior of the building is\nremarkably serene.  The body of the gallery is north of here, past a\nbusy-looking receptionist sitting at her desk.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 24801,
+        "south": 21021
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24801": {
+      "vnum": 24801,
+      "name": "Receptionist's Desk",
+      "description": "A sign hanging from the ceiling says :\n\n\"ADMISSION : 100 GOLD\"\n\nApparently, this is the main entrance to the gallery.  You can see various\npaintings lining the walls far to the north, and two rooms containing\nimportant-looking art closer that way.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 24804,
+        "south": 24800,
+        "west": 24802
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24800,
+          "count": 1,
+          "room": 24801
+        }
+      ],
+      "object_resets": []
+    },
+    "24802": {
+      "vnum": 24802,
+      "name": "Curator's Desk",
+      "description": "Without a doubt, this is the messiest desk you've ever laid eyes on.\nHundreds of loose documents (most of them with an outrageously high price at\nthe bottom) litter the surface.  More than a few lie on the floor.  A\nnameplate is unobscured by the mountain of paper, however.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 24801
+      },
+      "exdescs": {
+        "desk": "The gold nameplate says \"MICHAEL COSNER - CURATOR\"",
+        "nameplate": "The gold nameplate says \"MICHAEL COSNER - CURATOR\""
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24801,
+          "count": 1,
+          "room": 24802
+        }
+      ],
+      "object_resets": []
+    },
+    "24803": {
+      "vnum": 24803,
+      "name": "Dracolithos' Treasure Vault",
+      "description": "This place seems remarkably cool, and there is (thank the gods) a cool, clear\nfountain flowing in front of you.  A few chests line the room, some of them\nwith cobwebs on them, some with bloodstains.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 24848
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 24895,
+          "count": 1,
+          "room": 24803
+        }
+      ]
+    },
+    "24804": {
+      "vnum": 24804,
+      "name": "Outside the Art of the Year Rooms",
+      "description": "This room exists only to lead you to the east and west.  West leads to the\nyear's featured painting, and east is the year's featured sculpture.  They\nboth look equally fascinating.  The hallway leads north to the rest of the\ngallery.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 24806,
+        "north": 24807,
+        "south": 24801,
+        "west": 24805
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24805": {
+      "vnum": 24805,
+      "name": "Painting of the Year",
+      "description": "The painting of the year has definitely earned its title.  The ice-capped\nmountains are painted in such detail that you could probably count the\nindividual snowflakes if you had a mind to.  Actually, that seems like a good\nidea.  One...two...three...hmm.  There must be an easier way to do this.\n\nA small card by the painting says : 25.50",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24804,
+        "west": 24831
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24806": {
+      "vnum": 24806,
+      "name": "Sculpture of the Year",
+      "description": "Ugh.  What an ugly sculpture.  If the artist was trying to make this thing\nbeautiful, he should be executed.  The monochromaticity of the bronze only\nadds to this hideous beast's ugliness, with its lower jaw jutting out, its\ntoo-long, twisted horns, and generally stupid appearance.  Yeccch.\n\nA sign on the wall says : 30.40",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 24804
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24803,
+          "count": 1,
+          "room": 24806
+        }
+      ],
+      "object_resets": []
+    },
+    "24807": {
+      "vnum": 24807,
+      "name": "By the \"Wasteland\" Painting",
+      "description": "You are standing before an amazingly detailed painting of a completely barren\nwasteland.  No plants.  No animals.  No water.  No nothing.  You don't envy\nanyone who would be in THAT scene.\n\nA small card by the painting says : 45.50",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24808,
+        "north": 24815,
+        "south": 24804,
+        "west": 24814
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24808": {
+      "vnum": 24808,
+      "name": "By the \"Canine Recreation\" Painting",
+      "description": "Ah, now THIS is a familiar work of art.  It shows five dogs, each wearing a\nstrange visor of transparent material.  The dogs are playing a game as old as\ntime itself.  Smoke hovers in the air above the green table.  How rustic.\n\nA small card by the painting says : 5.10",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24816,
+        "north": 24809,
+        "west": 24807
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24809": {
+      "vnum": 24809,
+      "name": "By the \"Spectrum\" Painting",
+      "description": "This seems like an ordinary painting.  It simply shows the colors of the\nrainbow, from red to violet, with black and white on the top and bottom,\nrespectively.  The colors are the most vibrant you have ever seen.\n\nA small card by the painting says : 30.40",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 24810,
+        "south": 24808,
+        "west": 24817
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24810": {
+      "vnum": 24810,
+      "name": "By the \"Still Life of Monarchy\" Painting",
+      "description": "This painting is the most uninteresting one you've seen so far.  It shows a\npicture of King Welmar sitting on his throne.  Nothing to get excited about.\nYou can almost see the old man's face twist into a disdainful sneer.\n\nA small card by the painting says : 15.35",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 24818,
+        "south": 24809,
+        "west": 24811
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24811": {
+      "vnum": 24811,
+      "name": "By the \"Arena of Valorous Combat\" Painting",
+      "description": "Thousands of cheering fans make up the border of this painting.  Their\nattention appears to be focused on the two gargantuan barbarians in the\ncenter of the arena.  There are also numerous gladiatorial contests\nsurrounding the main attraction.\n\nA small card by the painting says : 25.30",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24810,
+        "south": 24819,
+        "west": 24812
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24812": {
+      "vnum": 24812,
+      "name": "By the \"Tea Party\" Painting",
+      "description": "A few rich-looking, well-to-do nobles sit at a table in the painting.  Their\ncapes are frozen in mid-flow, probably due to an invisible breeze, and the\nladies' dresses are slightly green on the bottom from grass stains.  All\ntheir backs are to you, making their faces hidden from view.\n\nA small card by the painting says : 25.45",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24811,
+        "south": 24813,
+        "west": 24820
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24813": {
+      "vnum": 24813,
+      "name": "By the \"Loss\" Painting",
+      "description": "What a morbid painting!  Depicted on the wall in front of you is a large\ngraveyard, with quite a few stones.  A new arrival is on the way, apparently,\nas a large group of people are gathered around an open grave.  How depressing.\n\nA small card by the painting says : 45.50",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24821,
+        "north": 24812,
+        "south": 24814
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24814": {
+      "vnum": 24814,
+      "name": "By the \"Urban Jungle\" Painting",
+      "description": "You've never seen so much food in your life.  Each of the four food groups\nare represented quite spectacularly.  From baker to butcher to ice cream\nmaker, to grocer to fruit dealer, the amount of fare is astounding.\n\nA small card by the painting says : N/A",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 24807,
+        "north": 24813,
+        "south": 24822
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24815": {
+      "vnum": 24815,
+      "name": "Oops",
+      "description": "Perhaps coming through this painting wasn't such a good idea.  You look\naround and see nothing but cracked soil.  Everywhere.  You quickly decide to\ngo back the way you came, and spin around to jump back through the portal.\n\nIt's not there.\n\nQuickly taking stock of your options, you decide to begin the trek to find a\nway out of here.  NOW.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24840,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24816": {
+      "vnum": 24816,
+      "name": "Dogs Playing Poker",
+      "description": "The array of multicolored chips on the table here are enough to make any\nbeing rich, be it canine or human or elf.  The smoke in the air is quite\nthick, and you can't suppress a cough as it fills your lungs.  Well, now that\nyou're here, maybe you'd like to play a few hands.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "west": 24808
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24838,
+          "count": 1,
+          "room": 24816
+        },
+        {
+          "vnum": 24839,
+          "count": 1,
+          "room": 24816
+        },
+        {
+          "vnum": 24840,
+          "count": 1,
+          "room": 24816
+        },
+        {
+          "vnum": 24841,
+          "count": 1,
+          "room": 24816
+        },
+        {
+          "vnum": 24842,
+          "count": 1,
+          "room": 24816
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 24893,
+          "count": 1,
+          "room": 24816
+        }
+      ]
+    },
+    "24817": {
+      "vnum": 24817,
+      "name": "Green",
+      "description": "You are floating in a vast space of green.  Waves of sea green.  Hovering\ncarpets of hunter green.  Every shade of green ever created occupies your\nfield of vision.  This makes the rain forest seem like a drab grey.  All\nkinds of plant life flourish around you, seeming to thrive on the verdant\natmosphere.",
+      "sector": "air",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24823,
+        "up": 24829,
+        "west": 24824
+      },
+      "exdescs": {
+        "plant": "These plants are more exotic than you would have expected to see in midair.\nOf course, midair plants are not easily found, but that's neither here nor\nthere.",
+        "plants": "These plants are more exotic than you would have expected to see in midair.\nOf course, midair plants are not easily found, but that's neither here nor\nthere."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24805,
+          "count": 1,
+          "room": 24817
+        }
+      ],
+      "object_resets": []
+    },
+    "24818": {
+      "vnum": 24818,
+      "name": "Welmar's Left Foot",
+      "description": "Perhaps this painting was just a wee bit more interesting than it looked.\nYou are standing at the foot of King Welmar.  A three-hundred-foot tall King\nWelmar.  His foot alone is as big as ten of you!  You can see his huge toes\n(each bigger than your head) wiggling around in his sandals.  Evidently today\nwas his pedicure.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 24810,
+        "up": 24849
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24814,
+          "count": 1,
+          "room": 24818
+        }
+      ],
+      "object_resets": []
+    },
+    "24819": {
+      "vnum": 24819,
+      "name": "The Arena",
+      "description": "The painting you saw appears to be quite outdated.  Almost all the fans have\nleft, except for a few seated, robed figures, all intensely concentrating.\nSome of them notice you and slowly fade into nothingness as you watch.  The\nwave of a facial tentacle gives their identity away.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 24870,
+        "up": 24872,
+        "west": 24871
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24836,
+          "count": 1,
+          "room": 24819
+        },
+        {
+          "vnum": 24835,
+          "count": 1,
+          "room": 24819
+        }
+      ],
+      "object_resets": []
+    },
+    "24820": {
+      "vnum": 24820,
+      "name": "The Tea Party",
+      "description": "Now that you're in the scene, something seems horribly wrong.  The air stinks\nof death and decay.  You can faintly recall where you've encountered this\nstench before, but it escapes you at the mom--that's it!  A graveyard!  The\ncolor drains from your face as you hear tormented moans all around you.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24812,
+        "north": 24857
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24822,
+          "count": 1,
+          "room": 24820
+        },
+        {
+          "vnum": 24823,
+          "count": 1,
+          "room": 24820
+        },
+        {
+          "vnum": 24824,
+          "count": 1,
+          "room": 24820
+        }
+      ],
+      "object_resets": []
+    },
+    "24821": {
+      "vnum": 24821,
+      "name": "The Funeral",
+      "description": "A few dozen people gather around an open grave here, sniffling and wiping\ntheir eyes.  A priest solemnly eulogizes the new occupant.  Or it seems as\nthough he is.  His lips are moving, but you don't hear anything.  As you\nwatch, the priest, and then the rest of the mourners shimmer and fade into\nnothingness, leaving only yourself with an open grave.  *gulp*",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 24864
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24822": {
+      "vnum": 24822,
+      "name": "Danishes N Donuts",
+      "description": "The freshly baked bread in the back of this store makes your mouth start to\nwater in anticipation.  The selection beneath the display case is astounding.\nThe fare ranges from omelettes to muffins to freshly popped popcorn.  They\nall look incredibly appetizing.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24867,
+        "north": 24814
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24853,
+          "count": 1,
+          "room": 24822
+        }
+      ],
+      "object_resets": []
+    },
+    "24823": {
+      "vnum": 24823,
+      "name": "Blue",
+      "description": "The blue sky has never been this clear that YOU've ever seen.  You can see\nfor miles...at least you think it's miles.  There's no landmark to judge\ndistance by.  Sky as far as the eye can see around you, and a deep blue ocean\nbeneath you.  Blue jays and midnight blue dragonflies hover around you.",
+      "sector": "air",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24825,
+        "up": 24829,
+        "west": 24817
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24806,
+          "count": 1,
+          "room": 24823
+        },
+        {
+          "vnum": 24843,
+          "count": 2,
+          "room": 24823
+        },
+        {
+          "vnum": 24843,
+          "count": 2,
+          "room": 24823
+        },
+        {
+          "vnum": 24844,
+          "count": 2,
+          "room": 24823
+        },
+        {
+          "vnum": 24844,
+          "count": 2,
+          "room": 24823
+        }
+      ],
+      "object_resets": []
+    },
+    "24824": {
+      "vnum": 24824,
+      "name": "Yellow",
+      "description": "Sunlight envelops you as you find yourself standing on a seemingly boundless\nfield of yellow.  The sun dominates the sky, easily a hundred times larger\nthan usual.  Golden trees make up a forest all around you, with lemons and\nbananas hanging from every tree.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24817,
+        "up": 24829,
+        "west": 24826
+      },
+      "exdescs": {
+        "sky": "The sun stretches as far as your peripheral vision can see, almost occupying\nthe entire sky.  Strangely, though, it is not hot.  It's actually pleasantly\nwarm.  Ahhhhhhhh.",
+        "sun": "The sun stretches as far as your peripheral vision can see, almost occupying\nthe entire sky.  Strangely, though, it is not hot.  It's actually pleasantly\nwarm.  Ahhhhhhhh."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24807,
+          "count": 1,
+          "room": 24824
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 24897,
+          "count": 1,
+          "room": 24824
+        },
+        {
+          "vnum": 24898,
+          "count": 1,
+          "room": 24824
+        }
+      ]
+    },
+    "24825": {
+      "vnum": 24825,
+      "name": "Indigo",
+      "description": "You just missed the dusk here, apparently.  The sky is a thick dark blue,\nwith a hint of violet.  The moon is not out tonight, leaving you with a clear\nview of the night sky.  Numerous trees surround you, laden with blueberries\nlarger than any berries you've seen.  A small pond lies quietly off in the\ndistance, undisturbed by the wind that ruffles your clothes and hair.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24827,
+        "up": 24829,
+        "west": 24823
+      },
+      "exdescs": {
+        "pond": "The dark blue sky reflects onto the pond beautifully, and its cool waters\nentice you.  Feel like a swim?  Too bad.  You wouldn't be able to reach it."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24808,
+          "count": 1,
+          "room": 24825
+        }
+      ],
+      "object_resets": []
+    },
+    "24826": {
+      "vnum": 24826,
+      "name": "Orange",
+      "description": "You find yourself walking through a beautiful forest.  Somehow the season has\nchanged to fall, as evidenced by the numerous hues of orange on the leaves of\nthe trees.  The dirt you stand on is a deep reddish orange, with many paw\nprints lining the path.  The bark of the trees has somehow been changed into\na very rich brown-tinged orange.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24824,
+        "up": 24829,
+        "west": 24828
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24809,
+          "count": 1,
+          "room": 24826
+        },
+        {
+          "vnum": 24833,
+          "count": 1,
+          "room": 24826
+        }
+      ],
+      "object_resets": []
+    },
+    "24827": {
+      "vnum": 24827,
+      "name": "Violet",
+      "description": "The waning dusk turns the lake you are standing in into a picture of the\ndeepest purple.  Light reflecting off the lake turns all the colors around\nyou into progressive shades of the same color, including the grapevines in\nthe distance.  A table is set up on the shore, draped in a violet tablecloth.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "up": 24829,
+        "west": 24825
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24810,
+          "count": 1,
+          "room": 24827
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 24899,
+          "count": 1,
+          "room": 24827
+        },
+        {
+          "vnum": 24899,
+          "count": 2,
+          "room": 24827
+        }
+      ]
+    },
+    "24828": {
+      "vnum": 24828,
+      "name": "Red",
+      "description": "Horror dawns on you as you realize what the thick red liquid you're wading in\nis.  You quickly scramble out of it and take in your surroundings.  The sky\nis the light red of sunrise.  The blood you were just swimming in drips off\nyour equipment onto the brick path under your feet.  The sunlight bathes the\nnearby trees in red, matching the color of the leaves.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 24830,
+        "east": 24826,
+        "up": 24829
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24811,
+          "count": 1,
+          "room": 24828
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 24896,
+          "count": 1,
+          "room": 24828
+        }
+      ]
+    },
+    "24829": {
+      "vnum": 24829,
+      "name": "White",
+      "description": "The brightness that encompasses you makes everything you've ever seen seem\ndim and diluted by comparison.  Everywhere you turn, you can see nothing but\nwhite.  Closing your eyes doesn't help; the afterimage is just as bad.  There\nis no horizon; no floor, no ceiling, no walls.  Panic wells up in you as you\nlose track of the exit.  You spin around and look in all directions, quickly\nrealizing that, for once in your life, your sense of direction is totally gone.",
+      "sector": "air",
+      "flags": {},
+      "exits": {
+        "down": 24809
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24812,
+          "count": 1,
+          "room": 24829
+        }
+      ],
+      "object_resets": []
+    },
+    "24830": {
+      "vnum": 24830,
+      "name": "Black",
+      "description": "Your light source does nothing to penetrate the thick, silent darkness around\nyou.  The only thing that gives you ANY sense of direction is the division of\nblackness; there are actually deeper shades of black than what you saw when\nyou first arrived here, evidenced by the horizon of absolute darkness in the\ndistance.  The \"sky\" is actually a lighter shade of black than the \"ground\"\nhere.  You wonder how this is possible.",
+      "sector": "air",
+      "flags": {},
+      "exits": {
+        "up": 24809
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24813,
+          "count": 1,
+          "room": 24830
+        }
+      ],
+      "object_resets": []
+    },
+    "24831": {
+      "vnum": 24831,
+      "name": "High above Icewind Dale",
+      "description": "Two things immediately strike you as you step onto the top of this mountain.\nHow beautiful the view is, with the mountains almost touching the sky, their\nsnow-capped peaks untouched by any creature, and how COLD it is!  Yikes!\nYou'd best get moving if you want your blood to stay in liquid form.",
+      "sector": "mountain",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 24832,
+        "east": 24805
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24832": {
+      "vnum": 24832,
+      "name": "Trudging along in Icewind Dale",
+      "description": "Hmm.  There goes your way back up.  The mountain is virtually unclimbable from\nhere.  Looks like the only way out now is to the east, towards a huge glacier\nfar in the distance.  Your slowly numbing legs scream for action.  Time to get\nmoving before they fall off.",
+      "sector": "mountain",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24833
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24827,
+          "count": 3,
+          "room": 24832
+        },
+        {
+          "vnum": 24826,
+          "count": 2,
+          "room": 24832
+        }
+      ],
+      "object_resets": []
+    },
+    "24833": {
+      "vnum": 24833,
+      "name": "Within Sight of the Reghed Glacier",
+      "description": "The huge glacier looming in the distance is even bigger than you thought, now\nthat you are nearing it.  Something seems odd about the glacier, but you can't\nstop to figure it out now.  It's either move or freeze.  The glacier awaits, as\ndoes glory.  You can also see a long path to the north that eventually leads\nto a huge rocky cliff.",
+      "sector": "mountain",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24834,
+        "west": 24832
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24827,
+          "count": 3,
+          "room": 24833
+        }
+      ],
+      "object_resets": []
+    },
+    "24834": {
+      "vnum": 24834,
+      "name": "At the Base of the Reghed Glacier",
+      "description": "Well, whatever was abnormal about this glacier seems to have vanished now that\nyou're this close to it.  The surface of the glacier is an impregnable wall of\ndeep-frozen ice.  Seemingly impregnable.  You didn't come all this way just to\nlook at a glacier.  Perhaps there's something else of interest here...",
+      "sector": "mountain",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24835,
+        "west": 24833
+      },
+      "exdescs": {
+        "base": "There is a rather large crack at the base of the glacier.  So large, in fact,\nthat you'd probably be able to fit through it with a bit of help.",
+        "glacier": "The glacier does indeed look impenetrable.  It'd be a cold day in hell before\nyou found any way inside of it.  No pun intended.  Hmm.  Well, actually, now\nthat you're looking REALLY hard, you can see some sort of depression at the\nbase of the mountain.  Probably just a trick of the imagination, though.",
+        "mountain": "The glacier does indeed look impenetrable.  It'd be a cold day in hell before\nyou found any way inside of it.  No pun intended.  Hmm.  Well, actually, now\nthat you're looking REALLY hard, you can see some sort of depression at the\nbase of the mountain.  Probably just a trick of the imagination, though.",
+        "wall": "The glacier does indeed look impenetrable.  It'd be a cold day in hell before\nyou found any way inside of it.  No pun intended.  Hmm.  Well, actually, now\nthat you're looking REALLY hard, you can see some sort of depression at the\nbase of the mountain.  Probably just a trick of the imagination, though."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24827,
+          "count": 3,
+          "room": 24834
+        },
+        {
+          "vnum": 24826,
+          "count": 2,
+          "room": 24834
+        }
+      ],
+      "object_resets": []
+    },
+    "24835": {
+      "vnum": 24835,
+      "name": "The Shores of Evermelt",
+      "description": "The cold temperature no longer seems incapacitating by this warm pool.  In\nfact, you could stay here for quite a while if you had a mind to.  Steam\nbillows off the surface of the pool in great clouds.  You have heard legends\nof what lies beyond the pool.  Care to find out if they're true?",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 24836,
+        "west": 24834
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 24820,
+          "count": 1,
+          "room": 24835
+        }
+      ]
+    },
+    "24836": {
+      "vnum": 24836,
+      "name": "Swimming in Evermelt",
+      "description": "The water is remarkably warm down here.  The steam rising off the surface\nabove you doesn't do justice to the toasty feeling flowing through your\nveins.  Remaining down here would be a bad idea, though...if you get to used\nto this temperature, you'll turn into an icicle seconds after getting out.",
+      "sector": "r1",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 24837,
+        "up": 24835
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24837": {
+      "vnum": 24837,
+      "name": "Swept Along by the Current",
+      "description": "Hmm.  The current feels a lot stronger than it felt a few seconds ago.  In\nfact, it's doubtful you could make it back to where you just were those few\nseconds ago.  Might as well enjoy the ride now.",
+      "sector": "r1",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 24838
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24838": {
+      "vnum": 24838,
+      "name": "Still Lost in the Current",
+      "description": "Your lungs are screaming for air now.  It takes all of your years of\nexperience as an adventurer to keep from gulping in a mouthful of water.\nPerhaps now would be a good time to find some oxygen, before you find\nsomething less pleasant--death.",
+      "sector": "r1",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 24839
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24839": {
+      "vnum": 24839,
+      "name": "The Waterfall (!!)",
+      "description": "Uh-oh.  Time to act quick.  Just to your north, you hear the telltale roar of\nwater falling into a lower pool.  And from the sound of it, that pool is\nquite a ways away.  Frantically looking around for a way out of this, you spy\na few icicles above you.  Maybe that's your ticket out of this mess.  It\nprobably would be a good idea to grab one before you go over the falls north.",
+      "sector": "r1",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 24858,
+        "up": 24859
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24840": {
+      "vnum": 24840,
+      "name": "Lost in the barren wasteland",
+      "description": "Your throat constricts involuntarily as a huge wave of thirst overwhelms\nyou.  It doesn't look like there's any way out of this godforsaken place.\nYou promise yourself that if you ever see a painting of a wasteland, you'll\nstay the hell away from it.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24840,
+        "south": 24841,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24841": {
+      "vnum": 24841,
+      "name": "Lost in the barren wasteland",
+      "description": "The lack of moisture in your throat fits nicely with the look of this place.\nYou're beginning to wonder if there is a way out of this place, or if the\ngods have cursed you to a slow, agonizing death.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24842,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24842": {
+      "vnum": 24842,
+      "name": "Lost in the barren wasteland",
+      "description": "You can feel the heat of the sun overhead beating down on your already burned\nskin.  What a way to go.  There's not even anyone, anyTHING around to notice\nyou expire.  You thought your death would bring more fanfare than this.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24843,
+        "north": 24840,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24843": {
+      "vnum": 24843,
+      "name": "Lost in the barren wasteland",
+      "description": "*pant* *pant* This is not good.  Although you feel like you're making\nprogress in this accursed place, you still don't see any change in\natmosphere.  That could be what is causing you to panic.  Or perhaps it's\nbecause you can feel your brain frying.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24844,
+        "north": 24840,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24844": {
+      "vnum": 24844,
+      "name": "Lost in the barren wasteland",
+      "description": "You whistle a little tune that has no melody to yourself as you trudge\nfurther along in this place.  Relief seems close at hand, but not by much.\nYour grip on sanity is starting to loosen.  Time to leave.  Now.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24845,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24845": {
+      "vnum": 24845,
+      "name": "Lost in the barren wasteland",
+      "description": "Your heart skips a beat as you see a huge pond in the distance.  You run\ntowards it, without caring what happens to you and your equipment.  You reach\nthe shore and dive in...\n\nOnly to land headfirst on more of the cracked, dry, hard ground you've been\ndestroying your footgear on for the last hour.  *groan*",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24840,
+        "south": 24846,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24846": {
+      "vnum": 24846,
+      "name": "Lost in the barren wasteland",
+      "description": "Perhaps that dog over there can tell you how to get out of here.  Or maybe\nthat purple zorgflatz to your left.  Wait a minute--what's a zorgflatz?\nDimly you realize that to stay in this hell means a fate worse than death.\nInsanity.  This may be your last hope of escape.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24847,
+        "north": 24840,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24847": {
+      "vnum": 24847,
+      "name": "Lost in the barren wasteland",
+      "description": "Doo de doo de doo de doo...la de da de da...you've never been so happy.  The\npack of purple zorgflatzes that guards your dreams is right on your tail, but\nyou're happy, happy, happy!!  (You're also on the edge of insanity.  Be\ncareful)",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24848,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24848": {
+      "vnum": 24848,
+      "name": "The Edge of the Barren Wasteland",
+      "description": "By all the gods!  It's the edge of this accursed, blasted land!  Yippee!!\nYeehaa!  Alri--uh-oh.  Your elation evaporates in the blink of an eye,\nquickly replaced by dread, as you look more closely at the pile of white\npowder right next to you.  Sniffing carefully, you discover that it is\npowdered bone!  What could have crushed THIS many bones, into THIS fine a\nsubstance.  You have a sick feeling you might just find out.",
+      "sector": "desert",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 24840,
+        "north": 24803,
+        "south": 24840,
+        "west": 24840
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24821,
+          "count": 1,
+          "room": 24848
+        }
+      ],
+      "object_resets": []
+    },
+    "24849": {
+      "vnum": 24849,
+      "name": "Welmar's Left Knee",
+      "description": "The old king's knee is pretty bony, but there is a good deal of muscle\nbeneath.  The old codger has, after all, seen his share of adventuring.  But\nthese knees creak from arthritis when they move.  Doesn't look like his\nmajesty will be doing any strenuous activity today.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 24818,
+        "west": 24850
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24850": {
+      "vnum": 24850,
+      "name": "Welmar's Lower Torso",
+      "description": "Now that you're here, you realize you don't feel like spending too much time\nnear the waist of a seventy-year-old man.  Ugh.  Welmar doesn't have a\nqueen.  You wonder how the old man can keep such a sunny outlook on life\nwithout any female companionship.  Or maybe that's what the guards are for...",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 24849,
+        "up": 24853,
+        "west": 24851
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24851": {
+      "vnum": 24851,
+      "name": "Welmar's Right Knee",
+      "description": "His majesty's right knee is covered by his opulent robe, but if it's like the\nrest of his skin, it's probably pretty pale and splotchy.  Why his subjects\nchoose to follow the old man is a mystery to you.  He doesn't look very\nauthoritative from down here.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 24852,
+        "east": 24850
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24852": {
+      "vnum": 24852,
+      "name": "Welmar's Right Foot",
+      "description": "King Welmar's right foot is as exquisitely pedicured as his left.  It looks\nas though he hasn't made any pilgrimages recently.  Or ever will.  Welmar\ngets carried wherever he goes now.  Ah, the life of a king.  Sounds pretty\nboring.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "up": 24851
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24815,
+          "count": 1,
+          "room": 24852
+        }
+      ],
+      "object_resets": []
+    },
+    "24853": {
+      "vnum": 24853,
+      "name": "Welmar's Chest",
+      "description": "Despite the years of inactivity, Welmar's chest remains finely muscled.\nHowever, it is not the same type of muscle that he used to possess.  Welmar\nused to make the ladies swoon with his displays of strength.  Now his only\nstrength comes from the inside.  You begin to understand why he is respected.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 24850,
+        "east": 24855,
+        "up": 24854,
+        "west": 24856
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24854": {
+      "vnum": 24854,
+      "name": "Welmar's Head",
+      "description": "Welmar's white beard chokes you as you walk around on his face.  his\naristocratic nose is a hundred times as intimidating at this size.  You could\nprobably fetch a pretty hefty price for that nose.  Assuming, of course, his\nMajesty would part with it.  You could always...convince him.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 24853
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24818,
+          "count": 1,
+          "room": 24854
+        },
+        {
+          "vnum": 24819,
+          "count": 1,
+          "room": 24854
+        },
+        {
+          "vnum": 24820,
+          "count": 1,
+          "room": 24854
+        }
+      ],
+      "object_resets": []
+    },
+    "24855": {
+      "vnum": 24855,
+      "name": "Welmar's Left Arm",
+      "description": "The old man's arm still has a few corded muscles deep beneath the skin,\nalthough they have long since atrophied due to inactivity.  You feel\nrelatively certain you could put him down in an arm-wrestling contest.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 24853
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24817,
+          "count": 1,
+          "room": 24855
+        }
+      ],
+      "object_resets": []
+    },
+    "24856": {
+      "vnum": 24856,
+      "name": "Welmar's Right Arm",
+      "description": "This arm doesn't get much activity nowadays.  Welmar only uses it to\ngesticulate feebly with his golden sceptre.  Of course, doing anything with a\nsceptre THAT big would require you to either be this Welmar's size, or to get\na few thousand giant strength spells cast on you.  Neither seems to be an\noption.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 24853
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24816,
+          "count": 1,
+          "room": 24856
+        }
+      ],
+      "object_resets": []
+    },
+    "24857": {
+      "vnum": 24857,
+      "name": "The Head of the Table",
+      "description": "Several exotic-looking glasses line the table here, all of them empty.  One\nof them has a familiar reddish tinge in the bottom.  It looks like...blood!\nWhat kind of fiend would drink a glass of blood?  Looking at a half-eaten\npiece of bread on the table, you realize exactly what kind of fiend would.\nThe two small holes in the top of the bread gives it away.  Vampire.",
+      "sector": "field",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "south": 24820
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24825,
+          "count": 1,
+          "room": 24857
+        }
+      ],
+      "object_resets": []
+    },
+    "24858": {
+      "vnum": 24858,
+      "name": "Over the Falls",
+      "description": "Your failure to find a handhold on the icicles also means the failure of all\nyour life functions.  You are thrown over the side...\n\n\n\n\n\nAnd land on the rocks below.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24859": {
+      "vnum": 24859,
+      "name": "Hugging the Icicle",
+      "description": "Your lungs eagerly gulp in air as you cling for dear life to the icicle.\nThankfully, your almost numb hands remembered how to grip, although the grip\nis a tenuous one.  It looks like you can swing yourself down to the shore of\nthe raging river.",
+      "sector": "mountain",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 24860
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24860": {
+      "vnum": 24860,
+      "name": "On the Riverbank",
+      "description": "You land on the solid ice painfully.  Your ordeal with Evermelt is at an end,\nfinally.  However, another ordeal appears to be awaiting you to the west.\nThe rhythmic breathing you hear from that direction easily drowns out the\nroaring of the waterfall behind you.  Torn between self-preservation and\ncuriousity, you stand indecisively.",
+      "sector": "field",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "west": 24861
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24861": {
+      "vnum": 24861,
+      "name": "The Tunnel to...?",
+      "description": "All is silent now except the heavy breathing coming from the north.  You can\nsee light glinting off some material in the large cavern, but the rest of\nthe room is obscured.  Your legs feel frozen in place, but the sound from the\nnorth is so intriguing...",
+      "sector": "field",
+      "flags": {
+        "indoors": true,
+        "nomob": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 24860,
+        "north": 24862
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24862": {
+      "vnum": 24862,
+      "name": "The Lair of Ingeloakastimizilian",
+      "description": "The treasure all around you is utterly astounding.  Not the amount of it, of\ncourse.  You have seen more treasure in other lairs.  It's the way the\ncoins, gems, weapons, and other fascinating items are frozen to the floor.\nLooking around, you see other things frozen to the floor.  A human, dressed\nin full armor, is encased in an icy tomb for eternity, his death scream\nforever locked in his throat.  The entire floor is covered with some form of\ntreasure or life, or what USED to be life before Ingeloakastimizilian\ndestroyed it.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 24861,
+        "up": 24863
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24828,
+          "count": 1,
+          "room": 24862
+        }
+      ],
+      "object_resets": []
+    },
+    "24863": {
+      "vnum": 24863,
+      "name": "On top of the Reghed Glacier",
+      "description": "Now what?  You're on top of the biggest glacier in all the Realms, with no\nway to go but down, back into Icingdeath's lair.  As you sink into\ndespondency, you hear a low hum above you.  You look up and see...the\nportal!  You can make it back to the Art Gallery!",
+      "sector": "mountain",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 24862,
+        "up": 24805
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24864": {
+      "vnum": 24864,
+      "name": "The Grave",
+      "description": "As you step down into the soft dirt, a chill passes through your bones.  You\nlook around for the source of the feeling, everything goes dark.  The earth\nhas sealed above you!  The only sound now is your breathing, which is becoming\nmore and more rapid.  Trying to collect your thoughts, you notice something\nunusual about this pit.  There are cobwebs on every surface around here, almost\nas if this grave has been closed for years.  The only exception is the south\nwall, which is completely clean.",
+      "sector": "field",
+      "flags": {
+        "nomob": true,
+        "tunnel": true
+      },
+      "exits": {
+        "south": 24865
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24865": {
+      "vnum": 24865,
+      "name": "Lair of Aram-Dol",
+      "description": "You now realize why this area was perfectly clean.  The walls in this room,\nas well as the floor, are solid stone.  There are corpses strewn about the\nroom, most with a horrified look on their face.  Whatever killed them must\nhave given them one hell of a scare.  You've heard tales of underground stone\nlairs, and combined with the many corpses strewn about, everything starts to\nfall into place.  This is the lair of a lich.",
+      "sector": "field",
+      "flags": {
+        "nomob": true,
+        "tunnel": true
+      },
+      "exits": {
+        "north": 24864,
+        "up": 24813
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24829,
+          "count": 1,
+          "room": 24865
+        }
+      ],
+      "object_resets": []
+    },
+    "24866": {
+      "vnum": 24866,
+      "name": "Death",
+      "description": "..Everything begins to fade to black.\n\nYou feel yourself leaving your body... rising up into the air, you feel\nmore free than you have ever felt before...\n\nHowever, before your deity comes to collect your soul, you feel a strange\npulling sensation as strange and colorful mists swirl around you...\n",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24867": {
+      "vnum": 24867,
+      "name": "Ye Olde Meat Shoppe",
+      "description": "Entering this store, you're reminded of how long it has been since you've had\na good steak.  The cuts of meat hanging from hooks in the back remind you,\nhowever.  You can see large sides of beef, medium-sized veal cutlets, and a\nfew other tasty delectables.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24868,
+        "west": 24822
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24851,
+          "count": 1,
+          "room": 24867
+        }
+      ],
+      "object_resets": []
+    },
+    "24868": {
+      "vnum": 24868,
+      "name": "Fruits R Us",
+      "description": "Every fruit ever to grace a tree in all the Realms is displayed here in front\nof you.  Apples, oranges, kiwis, melons, everything.  Vegetables completely\noccupy another container next to the fruit.  This one is filled with corn,\nzucchini, and other healthy foods.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 24869,
+        "west": 24867
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24854,
+          "count": 1,
+          "room": 24868
+        }
+      ],
+      "object_resets": []
+    },
+    "24869": {
+      "vnum": 24869,
+      "name": "Goodbody Dairy",
+      "description": "You vow to never even think about anything bovine once leaving this place.\nEvery milk and cheese product you can imagine lies here, carefully kept cool\nby a bluish-white glow.  A sign says, \"ALL PRODUCTS KEPT REFRIGERATED\".\nYou'll have to ask the local scholar what ree-frigg-er-ated means sometime.\nIt sounds dangerous.  But the food is so enticing...",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "west": 24868
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24852,
+          "count": 1,
+          "room": 24869
+        }
+      ],
+      "object_resets": []
+    },
+    "24870": {
+      "vnum": 24870,
+      "name": "The Arena",
+      "description": "As you step near the two humanoids fighting in this section of the arena,\nthey both grow limp and collapse, their eyes rolling back in their heads.  By\nthe time you reach them, they are both quite dead.  Looking up in the stands,\nyou see one of the mind flayers gurgle something to his companion, and they\nboth disappear suddenly.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "west": 24819
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 24889,
+          "count": 1,
+          "room": 24870
+        },
+        {
+          "vnum": 24890,
+          "count": 1,
+          "room": 24870
+        }
+      ]
+    },
+    "24871": {
+      "vnum": 24871,
+      "name": "The Arena",
+      "description": "Before you can get near the lizardman and warrior, they fall down in a heap\ntogether, both quite dead.  They didn't kill each other, so what could have\npossibly killed them?  Hmm.  This is unlike anything you've ever seen\nbefore.  They don't look like they had any history of coronary trouble...how\nutterly puzzling.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 24819
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 24890,
+          "count": 1,
+          "room": 24871
+        },
+        {
+          "vnum": 24889,
+          "count": 1,
+          "room": 24871
+        }
+      ]
+    },
+    "24872": {
+      "vnum": 24872,
+      "name": "In the Stands",
+      "description": "As you climb up into the seating section, what few remaining illithids you\ncould see disappear suddenly.  Ignoring the yawning portal above you (which\nleads back to the gallery, incidentally), you look around for an explanation\nas to where the brain feeders could have gone.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "down": 24819,
+        "up": 24811
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [
+        {
+          "vnum": 24837,
+          "count": 3,
+          "room": 24872
+        },
+        {
+          "vnum": 24837,
+          "count": 3,
+          "room": 24872
+        },
+        {
+          "vnum": 24837,
+          "count": 3,
+          "room": 24872
+        }
+      ],
+      "object_resets": []
+    },
+    "24873": {
+      "vnum": 24873,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24874": {
+      "vnum": 24874,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24875": {
+      "vnum": 24875,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24880": {
+      "vnum": 24880,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24884": {
+      "vnum": 24884,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24885": {
+      "vnum": 24885,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24886": {
+      "vnum": 24886,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24891": {
+      "vnum": 24891,
+      "name": "Tex's Room",
+      "description": "Nothing too remarkable about this room, other than a stolen lounge table and\nan interesting poster.  perhaps that's why Tex is ALWAYS in Grant and Seguin's\nroom.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "west": 24893
+      },
+      "exdescs": {
+        "poster": "The poster has five women with flags on their bikini tops.  It says on the\nbottom, \"WORLD CUPS\".  How...liberating."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24892": {
+      "vnum": 24892,
+      "name": "Aaron and Rob's room",
+      "description": "So the rumors are true.  Aaron's side of the room IS always messy.  And today\nis no exception.  Aaron's side is covered with clothes and papers, and the\neverpresent brown beanbag chair.  Rob's side is spotless, as usual, except for\na broken bottle of Snapple on the floor.  Neither of them are on the MUD,\nthough.  They're not as addicted as the rest of us.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 24893
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24893": {
+      "vnum": 24893,
+      "name": "Outside 305 and 310",
+      "description": "You stand between two open doorways.  They both lead to triples.  Ordinarily,\nit would be quite cramped.  But Rob and Aaron did a pretty good job of making\nHuguley move, so they've only got the two of them in there.  Plus, Tex and his\nroommate managed to only ahve the two of them in there.  Lucky bastards.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 24891,
+        "west": 24892
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24894": {
+      "vnum": 24894,
+      "name": "Still in the hallway",
+      "description": "To the west is Vu's room.  He's gone through four roommates already, and he\ndoesn't appear to mind.  He's got quite a setup behind that door.  The other\nthree doors are a mystery, though.  No idea who lives in them.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 24894,
+        "north": 24895,
+        "south": 24893,
+        "west": 24894
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24895": {
+      "vnum": 24895,
+      "name": "Walking down the hallway",
+      "description": "You are outside four locked rooms.  One is blaring Stone Temple Pilots.  The\nsame Stone Temple Pilots song they've been playing the entire year.  The room\nnext to that one on the west wall is the R.A.'s room.  No one has any idea\nwho lives through the two doors on the east wall.  The hallway continues to\nthe south, or back to outside MUD Central to the north.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 24894,
+        "north": 24898,
+        "south": 24894,
+        "west": 24894
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24896": {
+      "vnum": 24896,
+      "name": "223 Rasche Hall",
+      "description": "This is Scott and Matt's room.  You wouldn't know who Matt is.  He's never on\nthe MUD.  There is a big computer under Scott's loft, the most powerful\ncomputer that's used for MUDding among the circle of friends.  The room is\nspotless, since any of the commanding officers in Echo Company could burst in\nfor inspection at any time.  Sounds like an exciting life.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "up": 24899
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24897": {
+      "vnum": 24897,
+      "name": "Forrester and Cox's Room",
+      "description": "Quite an interesting design.  A closet door stretches between the two lofts\nin this poorly lit room.  A stereo on said closet door is playing 96.3 ROV FM.\nCox's computer is on, of course (never, NEVER turn off a UNIX computer),\nwhile Forrester's computer has the Warp screen saver on.  There are several\nboxes stapled to Cox's loft.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "west": 24898
+      },
+      "exdescs": {
+        "box": "Cox's loft has food boxes stapled to it!  What a weirdo!",
+        "boxes": "Cox's loft has food boxes stapled to it!  What a weirdo!",
+        "computer": "Cox has four windows open on the screen.  The joy of owning an X Windows\nsystem.  You wonder how he can keep track of everything.  Forrester's screen\nsaver has a password, though.  Good luck getting in.",
+        "computers": "Cox has four windows open on the screen.  The joy of owning an X Windows\nsystem.  You wonder how he can keep track of everything.  Forrester's screen\nsaver has a password, though.  Good luck getting in.",
+        "loft": "Cox's loft has food boxes stapled to it!  What a weirdo!"
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24898": {
+      "vnum": 24898,
+      "name": "The Third Floor Miles Hallway",
+      "description": "To your west is Grant and Seguin's room, and east is Forrester and Cox's\nroom.  The other two doors here are closed and locked, though.  Brett,\nJeremy, Dave, and the other Jeremy don't take too kindly to visitors. Way down\nthe hall to the south are two more open doors.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "east": 24897,
+        "south": 24895,
+        "west": 24899
+      },
+      "exdescs": {},
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "24899": {
+      "vnum": 24899,
+      "name": "Grant and Seguin's Room",
+      "description": "This is a pretty cool room.  It has two lofts, numerous posters on the wall,\ntwo computers, and one hell of an entertainment center.  Faith No More plays\nloudly from the four speakers in the room, and a paused game of Final Fantasy\nIII is on the TV.  Care to relax for a bit?",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true
+      },
+      "exits": {
+        "down": 24896,
+        "east": 24898
+      },
+      "exdescs": {
+        "computer": "Somehow Grant and Seguin have figured out a way to be on the MUD at the same\ntime.  And, of course, they both are.  Grant is building, while Seguin is\nbitching about losing another apple of discord.",
+        "computers": "Somehow Grant and Seguin have figured out a way to be on the MUD at the same\ntime.  And, of course, they both are.  Grant is building, while Seguin is\nbitching about losing another apple of discord.",
+        "desk": "Another contrast.  Seguin's is perfectly organized, Grant's is perfectly\nmessy.  Rather appropriate, actually.",
+        "desks": "Another contrast.  Seguin's is perfectly organized, Grant's is perfectly\nmessy.  Rather appropriate, actually.",
+        "loft": "The lofts are quite different in appearance.  Seguin's is quite sturday and\nclean, while Grant's is unmade and wobbly.",
+        "lofts": "The lofts are quite different in appearance.  Seguin's is quite sturday and\nclean, while Grant's is unmade and wobbly.",
+        "television": "Looks like Seguin has finally caught up to Grant in Final Fantasy III.  He's\nat the last fight.  As you watch, the Blitz guy does a Bum Rush on Kefka.",
+        "tv": "Looks like Seguin has finally caught up to Grant in Final Fantasy III.  He's\nat the last fight.  As you watch, the Blitz guy does a Bum Rush on Kefka."
+      },
+      "area_name": "Darkhaven Art Gallery",
+      "area_author": "Zaknafein",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "24800": {
+      "vnum": 24800,
+      "keywords": [
+        "woman",
+        "receptionist"
+      ],
+      "short": "the receptionist",
+      "long": "The gallery's receptionist looks up at you and smiles warmly.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 3800,
+      "max_mana": 3800,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24801": {
+      "vnum": 24801,
+      "keywords": [
+        "mike",
+        "michael",
+        "cosner",
+        "curator"
+      ],
+      "short": "the Art Gallery's curator",
+      "long": "The gallery curator sits here, moaning about the unending sea of papers.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 20000,
+      "max_mana": 20000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24802": {
+      "vnum": 24802,
+      "keywords": [
+        "cashier",
+        "woman",
+        "gift",
+        "shoppe"
+      ],
+      "short": "the cashier",
+      "long": "The gift shoppe cashier stands here, ready to accept your money.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 30000,
+      "hp": 30000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24803": {
+      "vnum": 24803,
+      "keywords": [
+        "sculpture",
+        "phunbaba",
+        "demon"
+      ],
+      "short": "the sculpture of Phunbaba",
+      "long": "A hideous-looking sculpture stands hunched over here.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5000,
+      "hp": 5000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24804": {
+      "vnum": 24804,
+      "keywords": [
+        "phunbaba",
+        "demon",
+        "green"
+      ],
+      "short": "Phunbaba",
+      "long": "A hideous-looking, hunchbacked demon snarls at you ferally.  Run!",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3000,
+      "hp": 3000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24805": {
+      "vnum": 24805,
+      "keywords": [
+        "green",
+        "envy",
+        "color"
+      ],
+      "short": "Envy",
+      "long": "A vague sense of fiery jealousy forms a humanoid shape in front of you.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24806": {
+      "vnum": 24806,
+      "keywords": [
+        "melancholy",
+        "blue",
+        "color"
+      ],
+      "short": "Melancholy",
+      "long": "Sadness washes over you as a nebulous mass congeals into a shape above you.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24807": {
+      "vnum": 24807,
+      "keywords": [
+        "yellow",
+        "cowardice",
+        "color"
+      ],
+      "short": "Cowardice",
+      "long": "A yellow mist forms around you and immediately darts off into the distance.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24808": {
+      "vnum": 24808,
+      "keywords": [
+        "confusion",
+        "indigo",
+        "color"
+      ],
+      "short": "Confusion",
+      "long": "A dark blue fog creeps towards you, causing you to look around in bewilderment.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24809": {
+      "vnum": 24809,
+      "keywords": [
+        "life",
+        "orange",
+        "color"
+      ],
+      "short": "Life",
+      "long": "An orange glow surrounds the area, filling your body with vitality.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24810": {
+      "vnum": 24810,
+      "keywords": [
+        "purple",
+        "violet",
+        "love",
+        "color"
+      ],
+      "short": "Love",
+      "long": "A purple cloud becomes a beautiful shape before you, filling you with love.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24811": {
+      "vnum": 24811,
+      "keywords": [
+        "anger",
+        "red",
+        "hatred",
+        "color"
+      ],
+      "short": "Anger",
+      "long": "A red mist surrounds you, filling you with an intense hatred.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24812": {
+      "vnum": 24812,
+      "keywords": [
+        "white",
+        "innocence",
+        "ball",
+        "color"
+      ],
+      "short": "Innocence",
+      "long": "An innocent-looking white ball of light floats here, seeming almost amused.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 9000,
+      "hp": 9000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24813": {
+      "vnum": 24813,
+      "keywords": [
+        "evil",
+        "black",
+        "color"
+      ],
+      "short": "Evil",
+      "long": "A large mass of absolute blackness surrounds you, chilling you to your bones.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10000,
+      "hp": 10000,
+      "mana": 1,
+      "max_mana": 1,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24814": {
+      "vnum": 24814,
+      "keywords": [
+        "left",
+        "foot",
+        "welmar",
+        "leftfoot"
+      ],
+      "short": "Welmar's Left Foot",
+      "long": "The monstrous left foot of King Welmar is here, tapping impatiently.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 900,
+      "hp": 900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24815": {
+      "vnum": 24815,
+      "keywords": [
+        "right",
+        "foot",
+        "welmar",
+        "rightfoot"
+      ],
+      "short": "Welmar's Right Foot",
+      "long": "The humongous right foot of King Welmar is here, tracing designs on the floor.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 900,
+      "hp": 900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24816": {
+      "vnum": 24816,
+      "keywords": [
+        "right",
+        "hand",
+        "welmar",
+        "righthand"
+      ],
+      "short": "Welmar's Right hand",
+      "long": "The gigantic right hand of King Welmar is here, gripping a huge golden sceptre.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1900,
+      "hp": 1900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24817": {
+      "vnum": 24817,
+      "keywords": [
+        "left",
+        "hand",
+        "welmar",
+        "lefthand"
+      ],
+      "short": "Welmar's Left hand",
+      "long": "Welmar's enormous left hand is here, drumming its fingers.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1900,
+      "hp": 1900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24818": {
+      "vnum": 24818,
+      "keywords": [
+        "left",
+        "eye",
+        "welmar"
+      ],
+      "short": "Welmar's Left Eye",
+      "long": "King Welmar's left eye glares at you in irritation.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2400,
+      "hp": 2400,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24819": {
+      "vnum": 24819,
+      "keywords": [
+        "right",
+        "eye",
+        "welmar"
+      ],
+      "short": "Welmar's Right Eye",
+      "long": "King Welmar's right eye stares at you impassively.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2400,
+      "hp": 2400,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24820": {
+      "vnum": 24820,
+      "keywords": [
+        "mouth",
+        "welmar"
+      ],
+      "short": "Welmar's Mouth",
+      "long": "King Welmar's mouth mutters something about \"kill\" and \"damn intruders\".",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2900,
+      "hp": 2900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24821": {
+      "vnum": 24821,
+      "keywords": [
+        "dragon",
+        "dust",
+        "Dracolithos"
+      ],
+      "short": "Dracolithos",
+      "long": "A swirling cloud of dust forms a terrifying dragon shape before you.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 11000,
+      "max_mana": 11000,
+      "attributes": [
+        18,
+        13,
+        13,
+        16,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24822": {
+      "vnum": 24822,
+      "keywords": [
+        "zombie",
+        "noble"
+      ],
+      "short": "a zombie noble",
+      "long": "A well-dressed zombie turns to you and emits a terrifying moan.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1000,
+      "hp": 1000,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24823": {
+      "vnum": 24823,
+      "keywords": [
+        "ghoul",
+        "noble"
+      ],
+      "short": "a ghoul noble",
+      "long": "A ghoul dressed in tattered majestic robes growls at you hungrily.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1200,
+      "hp": 1200,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24824": {
+      "vnum": 24824,
+      "keywords": [
+        "skeleton",
+        "lady"
+      ],
+      "short": "a lady skeleton",
+      "long": "A lady of regal bearing stands here, devoid of everything but bone.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1300,
+      "hp": 1300,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24825": {
+      "vnum": 24825,
+      "keywords": [
+        "vampire",
+        "lord",
+        "king"
+      ],
+      "short": "The Vampire Lord",
+      "long": "A fearsome vampire sits here, smiling coldly.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2800,
+      "hp": 2800,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24826": {
+      "vnum": 24826,
+      "keywords": [
+        "deer"
+      ],
+      "short": "a strong deer",
+      "long": "A deer spies you and quickly bounds away.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 400,
+      "hp": 400,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24827": {
+      "vnum": 24827,
+      "keywords": [
+        "yeti"
+      ],
+      "short": "a tundra yeti",
+      "long": "A huge yeti rises up before you, its white fur blending with the snow.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 800,
+      "max_mana": 800,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24828": {
+      "vnum": 24828,
+      "keywords": [
+        "dragon",
+        "icingdeath",
+        "ingeloakastimizilian",
+        "ice",
+        "white"
+      ],
+      "short": "Icingdeath",
+      "long": "Icingdeath, king of the white dragons, lies here on a frozen bed of gold.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        17,
+        13,
+        13,
+        16,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24829": {
+      "vnum": 24829,
+      "keywords": [
+        "lich",
+        "aram",
+        "aram-dol",
+        "dol"
+      ],
+      "short": "Aram-Dol",
+      "long": "A skeletal being of pure evil lies here, its eyes glowing with an unholy light.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7000,
+      "hp": 7000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24830": {
+      "vnum": 24830,
+      "keywords": [
+        "butcher",
+        "graeme",
+        "davis"
+      ],
+      "short": "the butcher",
+      "long": "A blond young man offers a blood-stained hand as you enter the room.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24831": {
+      "vnum": 24831,
+      "keywords": [
+        "baker",
+        "jon",
+        "lang"
+      ],
+      "short": "the baker",
+      "long": "A wild-eyed man is here, covered in flour from his shoes to his glasses.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24832": {
+      "vnum": 24832,
+      "keywords": [
+        "stafford",
+        "fruit",
+        "markham",
+        "vendor"
+      ],
+      "short": "the fruit stand vendor",
+      "long": "A grizzled, moustached man stands here, offering you various fruits.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24833": {
+      "vnum": 24833,
+      "keywords": [
+        "tabby",
+        "cat",
+        "orange"
+      ],
+      "short": "the orange tabby",
+      "long": "A beautiful orange tabby cat rubs up against your leg and purrs here.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 900,
+      "hp": 900,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24834": {
+      "vnum": 24834,
+      "keywords": [
+        "bonnie",
+        "dairy",
+        "milkmaid",
+        "roberts"
+      ],
+      "short": "the dimpled milkmaid",
+      "long": "A beautiful blonde woman shyly offers you dairy products.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24835": {
+      "vnum": 24835,
+      "keywords": [
+        "barbarian",
+        "heafstaag"
+      ],
+      "short": "a barbarian fighter",
+      "long": "A huge barbarian stands here motionless, awaiting his next target.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3500,
+      "hp": 3500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24836": {
+      "vnum": 24836,
+      "keywords": [
+        "storm",
+        "giant",
+        "galstorm"
+      ],
+      "short": "the storm giant chieftain",
+      "long": "A storm giant stands here, completely motionless.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5500,
+      "hp": 5500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24837": {
+      "vnum": 24837,
+      "keywords": [
+        "mind",
+        "flayer",
+        "galflayer"
+      ],
+      "short": "the mind flayer",
+      "long": "A revoltingly colored mind flayer stands here, its eyes widening in shock.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2500,
+      "hp": 2500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24838": {
+      "vnum": 24838,
+      "keywords": [
+        "siberian",
+        "husky",
+        "dog"
+      ],
+      "short": "a Siberian Husky",
+      "long": "A healthy-looking Siberian Husky sits here at the table, intent on his hand.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24839": {
+      "vnum": 24839,
+      "keywords": [
+        "golden",
+        "retriever",
+        "dog"
+      ],
+      "short": "a Golden Retriever",
+      "long": "A Golden Retriever with a shiny coat sits here oblivious at the table.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24840": {
+      "vnum": 24840,
+      "keywords": [
+        "dachsund",
+        "weiner",
+        "dog"
+      ],
+      "short": "a Wirehaired Dachsund",
+      "long": "A seemingly bored Wirehaired Dachsund is losing.  Poor doggie.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24841": {
+      "vnum": 24841,
+      "keywords": [
+        "irish",
+        "setter",
+        "dog"
+      ],
+      "short": "an Irish Setter",
+      "long": "An excited Irish Setter leans up against the table here, wagging its tail.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24842": {
+      "vnum": 24842,
+      "keywords": [
+        "boxer",
+        "dog"
+      ],
+      "short": "a Boxer",
+      "long": "A mean-looking Boxer has lost all his money.  Better watch out.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24843": {
+      "vnum": 24843,
+      "keywords": [
+        "dragonfly",
+        "blue"
+      ],
+      "short": "a sky blue dragonfly",
+      "long": "A gigantic light blue dragonfly buzzes next to your ear.",
+      "race": "monster",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        0
+      ],
+      "room_vnum": 0
+    },
+    "24844": {
+      "vnum": 24844,
+      "keywords": [
+        "blue",
+        "jay",
+        "bluejay"
+      ],
+      "short": "an exuberant blue jay",
+      "long": "A happy-looking blue jay flies circles around your head.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1000,
+      "hp": 1000,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24845": {
+      "vnum": 24845,
+      "keywords": [],
+      "short": "the butcher",
+      "long": "A blond young man offers a blood-stained hand as you enter the room.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24846": {
+      "vnum": 24846,
+      "keywords": [],
+      "short": "the baker",
+      "long": "A wild-eyed man is here, covered in flour from his shoes to his glasses.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24847": {
+      "vnum": 24847,
+      "keywords": [],
+      "short": "the fruit stand vendor",
+      "long": "A grizzled, moustached man stands here, offering you various fruits.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24848": {
+      "vnum": 24848,
+      "keywords": [],
+      "short": "the dimpled milkmaid",
+      "long": "A beautiful blonde woman shyly offers you dairy products.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24850": {
+      "vnum": 24850,
+      "keywords": [],
+      "short": "the butcher",
+      "long": "A blond young man offers a blood-stained hand as you enter the room.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24851": {
+      "vnum": 24851,
+      "keywords": [
+        "butcher",
+        "graeme",
+        "davis"
+      ],
+      "short": "the butcher",
+      "long": "A blond young man offers a blood-stained hand as you enter the room.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 600,
+      "max_mana": 600,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24852": {
+      "vnum": 24852,
+      "keywords": [
+        "milkmaid",
+        "dairy",
+        "roberts",
+        "bonnie"
+      ],
+      "short": "the dimpled milkmaid",
+      "long": "A beautiful blonde woman shyly offers you dairy products.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 300,
+      "hp": 300,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24853": {
+      "vnum": 24853,
+      "keywords": [
+        "baker",
+        "jon",
+        "lang"
+      ],
+      "short": "the baker",
+      "long": "A wild-eyed man is here, covered in flour from his shoes to his glasses.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 300,
+      "hp": 300,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24854": {
+      "vnum": 24854,
+      "keywords": [
+        "stafford",
+        "fruit",
+        "markham",
+        "vendor"
+      ],
+      "short": "the fruit stand vendor",
+      "long": "A grizzled, moustached man stands here, offering you various fruits.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 200,
+      "hp": 200,
+      "mana": 650,
+      "max_mana": 650,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24892": {
+      "vnum": 24892,
+      "keywords": [
+        "wiggins",
+        "scott"
+      ],
+      "short": "Scott",
+      "long": "A towering man in a Corps of Cadets uniform stands here at attention.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24893": {
+      "vnum": 24893,
+      "keywords": [
+        "aaron",
+        "white"
+      ],
+      "short": "Aaron",
+      "long": "A smiling student in tattered sweatshorts stands here, whining about work.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24894": {
+      "vnum": 24894,
+      "keywords": [
+        "schneider",
+        "rob",
+        "schneidr"
+      ],
+      "short": "Rob",
+      "long": "A tall young lad with thick glasses is here, making fun of you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24895": {
+      "vnum": 24895,
+      "keywords": [
+        "tex",
+        "aaron",
+        "lee"
+      ],
+      "short": "Tex",
+      "long": "A tall, lanky Texan stands here with his thumbs in his belt loops.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24896": {
+      "vnum": 24896,
+      "keywords": [
+        "forrester",
+        "chris"
+      ],
+      "short": "Forrester",
+      "long": "A thin, goateed weakling stands here doing impressions.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24897": {
+      "vnum": 24897,
+      "keywords": [
+        "cox",
+        "brian",
+        "bastard"
+      ],
+      "short": "Cox",
+      "long": "An annoying bastard is here, wandering about the area.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24898": {
+      "vnum": 24898,
+      "keywords": [
+        "roberts",
+        "grant",
+        "troll-boy"
+      ],
+      "short": "Grant",
+      "long": "A disinterested, long haired freak sits here at his computer.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "24899": {
+      "vnum": 24899,
+      "keywords": [
+        "seguin",
+        "brian"
+      ],
+      "short": "Seguin",
+      "long": "Brian Seguin stands here, laughing at something.  What a dork.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 29000,
+      "hp": 29000,
+      "mana": 1000,
+      "max_mana": 1000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "24800": {
+      "vnum": 24800,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "the Art Gallery key",
+      "long": "A silver key with the initials \"D A G\" carved on it lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24801": {
+      "vnum": 24801,
+      "keywords": [
+        "ruby",
+        "sabre",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "a ruby sabre",
+      "long": "A long sabre, completely covered in rubies, is stuck in the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24802": {
+      "vnum": 24802,
+      "keywords": [
+        "topaz",
+        "staff",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "a topaz staff",
+      "long": "A five-foot-long staff made of orange topaz lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24803": {
+      "vnum": 24803,
+      "keywords": [
+        "golden",
+        "axe",
+        "gold",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "a golden axe",
+      "long": "A huge half moon-bladed axe made entirely of gold lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24804": {
+      "vnum": 24804,
+      "keywords": [
+        "emerald",
+        "morningstar",
+        "star",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "an emerald morningstar",
+      "long": "A large emerald spiked ball, chained to a long handle, is here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24805": {
+      "vnum": 24805,
+      "keywords": [
+        "blue",
+        "topaz",
+        "claw",
+        "glove",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "a blue topaz glove",
+      "long": "A blue topaz-encrusted glove with wicked claws on the fingers lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24806": {
+      "vnum": 24806,
+      "keywords": [
+        "blue",
+        "sapphire",
+        "scythe",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "a sapphire scythe",
+      "long": "A midnight blue scythe lies here, light glinting off its wicked blade.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24807": {
+      "vnum": 24807,
+      "keywords": [
+        "amethyst",
+        "dagger",
+        "gauche",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "an amethyst gauche",
+      "long": "A long dagger completely covered in amethyst lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24808": {
+      "vnum": 24808,
+      "keywords": [
+        "ivory",
+        "rapier",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "an ivory rapier",
+      "long": "A perfectly balanced ivory-covered rapier is skewered into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24809": {
+      "vnum": 24809,
+      "keywords": [
+        "onyx",
+        "whip",
+        "spectrum"
+      ],
+      "type": "weapon",
+      "short": "an onyx whip",
+      "long": "A whip with a handle of the deepest onyx lies here forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24810": {
+      "vnum": 24810,
+      "keywords": [
+        "daisy",
+        "flower"
+      ],
+      "type": "wand",
+      "short": "bhelliom",
+      "long": "An intricately designed rose made of sapphire lies here, pulsing with life.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24811": {
+      "vnum": 24811,
+      "keywords": [
+        "dandelion",
+        "flower"
+      ],
+      "type": "wand",
+      "short": "a dandelion",
+      "long": "A huge dandelion is sprouting up from the ground below you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24812": {
+      "vnum": 24812,
+      "keywords": [
+        "bouquet",
+        "marigolds",
+        "flower",
+        "marigold"
+      ],
+      "type": "wand",
+      "short": "a marigold",
+      "long": "A single marigold is pushing up through the soil here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24813": {
+      "vnum": 24813,
+      "keywords": [
+        "pansy",
+        "flower"
+      ],
+      "type": "pill",
+      "short": "a pansy",
+      "long": "A tasty-looking pansy grows by itself off to the side here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24814": {
+      "vnum": 24814,
+      "keywords": [
+        "primrose",
+        "flower"
+      ],
+      "type": "pill",
+      "short": "a potted primrose",
+      "long": "A bright red primrose grows in a pot here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24815": {
+      "vnum": 24815,
+      "keywords": [
+        "plaque",
+        "keystone"
+      ],
+      "type": "furniture",
+      "short": "the Art Gallery's keystone",
+      "long": "A plaque is mounted on the keystone of the gallery.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24816": {
+      "vnum": 24816,
+      "keywords": [
+        "scorched",
+        "band",
+        "glass"
+      ],
+      "type": "armor",
+      "short": "a scorched band of glass",
+      "long": "A dark piece of sand-etched glass has fallen here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24817": {
+      "vnum": 24817,
+      "keywords": [
+        "tattered",
+        "cape"
+      ],
+      "type": "armor",
+      "short": "a tattered cape",
+      "long": "An old, tattered, moth-eaten cape lies here in a heap.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24818": {
+      "vnum": 24818,
+      "keywords": [
+        "crown"
+      ],
+      "type": "armor",
+      "short": "a flawless crown",
+      "long": "A completely flawless golden crown lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24819": {
+      "vnum": 24819,
+      "keywords": [
+        "sceptre",
+        "death"
+      ],
+      "type": "staff",
+      "short": "the Death Sceptre",
+      "long": "A jet black sceptre is here, exuding an aura of evil.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24820": {
+      "vnum": 24820,
+      "keywords": [
+        "pool",
+        "evermelt"
+      ],
+      "type": "fountain",
+      "short": "mikeCosnerGraemeDavisLaszloTabaJonLangBrianSeguinBrianCoxAaronWhiteRobSchneiderAaronLeeScottWigginsChrisForrester",
+      "long": "The pool's water looks inviting and refreshing.  Care for a sip?",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24821": {
+      "vnum": 24821,
+      "keywords": [
+        "fat",
+        "deer",
+        "animal",
+        "layer"
+      ],
+      "type": "armor",
+      "short": "a layer of animal fat",
+      "long": "A disgusting mass of black-tinged animal fat lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24822": {
+      "vnum": 24822,
+      "keywords": [
+        "crown",
+        "jeweled"
+      ],
+      "type": "armor",
+      "short": "an extravagantly jeweled crown",
+      "long": "A gold crown layered in huge jewels lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24823": {
+      "vnum": 24823,
+      "keywords": [
+        "wand",
+        "decay"
+      ],
+      "type": "wand",
+      "short": "the Wand of Decay",
+      "long": "An ice-cold onyx wand lies here on the ground, killing all life underneath it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24824": {
+      "vnum": 24824,
+      "keywords": [
+        "ice",
+        "plate",
+        "breastplate"
+      ],
+      "type": "armor",
+      "short": "the Ice Breastplate",
+      "long": "A large breastplate made entirely of ice lies here twinkling the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24825": {
+      "vnum": 24825,
+      "keywords": [
+        "ice",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "the Ice Leggings",
+      "long": "A pair of leggings fashioned entirely of ice lie here, shining brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24826": {
+      "vnum": 24826,
+      "keywords": [
+        "ice",
+        "arm",
+        "guards"
+      ],
+      "type": "armor",
+      "short": "the Ice Arm Guards",
+      "long": "Two arm guards made of opaque ice lie here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24827": {
+      "vnum": 24827,
+      "keywords": [
+        "ice",
+        "earrings"
+      ],
+      "type": "armor",
+      "short": "the Ice Earrings",
+      "long": "Two dragon's head-shaped earrings made of ice lie here untouched.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24828": {
+      "vnum": 24828,
+      "keywords": [
+        "ice",
+        "gauntlets"
+      ],
+      "type": "armor",
+      "short": "the Ice Gauntlets",
+      "long": "Two rock-hard gauntlets made entirely of ice lie here waiting to be picked up.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24829": {
+      "vnum": 24829,
+      "keywords": [
+        "ice",
+        "helm"
+      ],
+      "type": "armor",
+      "short": "the Ice Helm",
+      "long": "A helmet made of the hardest ice lies here, seemingly giving off its own light.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24830": {
+      "vnum": 24830,
+      "keywords": [
+        "ice",
+        "girth"
+      ],
+      "type": "armor",
+      "short": "the Ice Girth",
+      "long": "A large hoop of ice lies here on the ground, waiting to be put on.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24831": {
+      "vnum": 24831,
+      "keywords": [
+        "pork",
+        "chop",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a juicy pork chop",
+      "long": "A pork chop, stewing in its own juices, lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24832": {
+      "vnum": 24832,
+      "keywords": [
+        "steak",
+        "huge",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a huge steak",
+      "long": "A steak, weighing several pounds, lies here growing cold on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24833": {
+      "vnum": 24833,
+      "keywords": [
+        "haunch",
+        "goat",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a haunch of goat",
+      "long": "A warm haunch of goat lies here on the dirty ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24834": {
+      "vnum": 24834,
+      "keywords": [
+        "veal",
+        "cutlet",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a veal cutlet",
+      "long": "A small cutlet of tender veal is lying on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24835": {
+      "vnum": 24835,
+      "keywords": [
+        "venison",
+        "cut",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a cut of venison",
+      "long": "A tasty-looking cut of venison is growing dirty on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24836": {
+      "vnum": 24836,
+      "keywords": [
+        "chicken",
+        "breast",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a broiled chicken breast",
+      "long": "A breast of some poor chicken is going to waste on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24837": {
+      "vnum": 24837,
+      "keywords": [
+        "ribs",
+        "rack",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a rack of ribs",
+      "long": "A rack of ribs, covered in an unknown sauce, is here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24838": {
+      "vnum": 24838,
+      "keywords": [
+        "liver",
+        "steak",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a liver steak",
+      "long": "A cut of liver formed into a steak lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24839": {
+      "vnum": 24839,
+      "keywords": [
+        "meatloaf",
+        "slab",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a slab of meatloaf",
+      "long": "A slab of old-looking meatloaf is here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24840": {
+      "vnum": 24840,
+      "keywords": [
+        "turkey",
+        "drumstick",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a turkey drumstick",
+      "long": "A yummy-looking turkey drumstick lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24841": {
+      "vnum": 24841,
+      "keywords": [
+        "pheasant",
+        "roast",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a roast pheasant",
+      "long": "A plump roast pheasant lies here on the ground, surrounded by steam.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24842": {
+      "vnum": 24842,
+      "keywords": [
+        "honeybaked",
+        "ham",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a honeybaked ham",
+      "long": "A large ham, slathered with honey and sugar, lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24843": {
+      "vnum": 24843,
+      "keywords": [
+        "bacon",
+        "strips",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a few strips of bacon",
+      "long": "Several strips of lean bacon lie on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24844": {
+      "vnum": 24844,
+      "keywords": [
+        "apple",
+        "pie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a hot apple pie",
+      "long": "A freshly baked apple pie lies here steaming on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24845": {
+      "vnum": 24845,
+      "keywords": [
+        "cherry",
+        "pie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a fresh cherry pie",
+      "long": "A hot cherry pie with oh-so-flaky crust lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24846": {
+      "vnum": 24846,
+      "keywords": [
+        "blueberry",
+        "pie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a yummy blueberry pie",
+      "long": "A large blueberry pie lies here on the ground growing cold.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24847": {
+      "vnum": 24847,
+      "keywords": [
+        "pecan",
+        "pie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a tasty pecan pie",
+      "long": "A perfectly baked pecan pie lies here on the ground, losing its heat.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24848": {
+      "vnum": 24848,
+      "keywords": [
+        "pumpkin",
+        "pie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a moist pumpkin pie",
+      "long": "A glorious-smelling pumpkin pie lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24849": {
+      "vnum": 24849,
+      "keywords": [
+        "donut",
+        "doughnut",
+        "jelly",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a jelly donut",
+      "long": "Jelly leaks out of a powdered donut that is on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24850": {
+      "vnum": 24850,
+      "keywords": [
+        "stickybun",
+        "gooey",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a gooey stickybun",
+      "long": "A gooey, sugar-covered stickybun lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24851": {
+      "vnum": 24851,
+      "keywords": [
+        "chocolate",
+        "chip",
+        "cookie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a chocolate-chip cookie",
+      "long": "The most tasty-looking cookie you have ever seen lies on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24852": {
+      "vnum": 24852,
+      "keywords": [
+        "brownie",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a moist brownie",
+      "long": "A nut-filled, frosted brownie lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24854": {
+      "vnum": 24854,
+      "keywords": [
+        "angel",
+        "food",
+        "angelfood",
+        "cake",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a freshly baked angel food cake",
+      "long": "A moist, bouncy angel food cake lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24855": {
+      "vnum": 24855,
+      "keywords": [
+        "chocolate",
+        "cake",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a sinful chocolate cake",
+      "long": "A chocolate cake sits here, beckoning you to eat it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24856": {
+      "vnum": 24856,
+      "keywords": [
+        "ice",
+        "shoes"
+      ],
+      "type": "armor",
+      "short": "the Ice Shoes",
+      "long": "A pair of shoes made of flawless ice lie here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24857": {
+      "vnum": 24857,
+      "keywords": [
+        "ice",
+        "orb"
+      ],
+      "type": "staff",
+      "short": "the Ice Orb",
+      "long": "A crystal clear, perfectly formed sphere gives off its own light here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24858": {
+      "vnum": 24858,
+      "keywords": [
+        "ice",
+        "tooth"
+      ],
+      "type": "weapon",
+      "short": "the Ice Tooth",
+      "long": "The razor-sharp tooth of a white dragon lies here embedded in the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24859": {
+      "vnum": 24859,
+      "keywords": [
+        "statue",
+        "hokies",
+        "1995",
+        "nit",
+        "champs",
+        "baby"
+      ],
+      "type": "trash",
+      "short": "the 1995 NIT Championship Statue",
+      "long": "A solid gold statue of a heavyset, moustached man stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24860": {
+      "vnum": 24860,
+      "keywords": [
+        "juicy",
+        "big",
+        "red",
+        "apple",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a big red apple",
+      "long": "An unbruised, big, juicy apple lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24861": {
+      "vnum": 24861,
+      "keywords": [
+        "orange",
+        "plump",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a plump orange",
+      "long": "A yummy-looking orange is here lying on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24862": {
+      "vnum": 24862,
+      "keywords": [
+        "banana",
+        "underripe",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "an underripe banana",
+      "long": "A greenish banana lies here on the ground, waiting to be peeled and eaten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24863": {
+      "vnum": 24863,
+      "keywords": [
+        "grapes",
+        "bunch",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a bunch of red grapes",
+      "long": "A bunch of red grapes lie here, glistening with water.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24864": {
+      "vnum": 24864,
+      "keywords": [
+        "watermelon",
+        "huge",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a huge half watermelon",
+      "long": "A perfectly ripe half of a watermelon lies here, ready to be eaten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24865": {
+      "vnum": 24865,
+      "keywords": [
+        "pear",
+        "ripe",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a ripe pear",
+      "long": "A pear-shaped pear lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24866": {
+      "vnum": 24866,
+      "keywords": [
+        "peach",
+        "juicy",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a juicy peach",
+      "long": "A moist, juicy peach is here lying on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24867": {
+      "vnum": 24867,
+      "keywords": [
+        "tomato",
+        "large",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a large tomato",
+      "long": "An abnormally large tomato lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24868": {
+      "vnum": 24868,
+      "keywords": [
+        "corn",
+        "ear",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "an ear of white corn",
+      "long": "A shucked ear of white, buttered corn lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24869": {
+      "vnum": 24869,
+      "keywords": [
+        "zucchini",
+        "crisp",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a crisp zucchini",
+      "long": "A watery, crisp zucchini lies here on the ground getting dirty.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24870": {
+      "vnum": 24870,
+      "keywords": [
+        "carrot",
+        "dirty",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a dirty carrot",
+      "long": "A fresh carrot lies here, tinged with dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24871": {
+      "vnum": 24871,
+      "keywords": [
+        "celery",
+        "stalk",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a celery stalk",
+      "long": "A leafy stalk of celery lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24872": {
+      "vnum": 24872,
+      "keywords": [
+        "broccoli",
+        "flower",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a broccoli flower",
+      "long": "A flower of fresh broccoli is lying here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24873": {
+      "vnum": 24873,
+      "keywords": [
+        "apricot",
+        "tart",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a tart apricot",
+      "long": "A shriveled apricot lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24874": {
+      "vnum": 24874,
+      "keywords": [
+        "milk",
+        "bottle",
+        "marketplace"
+      ],
+      "type": "drinkcon",
+      "short": "a bottle of ice cold milk",
+      "long": "A bottle of milk stands here, condensation glistening on its side.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24875": {
+      "vnum": 24875,
+      "keywords": [
+        "milk",
+        "buttermilk",
+        "butter",
+        "jug",
+        "marketplace"
+      ],
+      "type": "drinkcon",
+      "short": "a jug of buttermilk",
+      "long": "A jug of buttermilk stands here, overflowing with its contents.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24876": {
+      "vnum": 24876,
+      "keywords": [
+        "milk",
+        "chocolate",
+        "carton",
+        "marketplace"
+      ],
+      "type": "drinkcon",
+      "short": "a carton of chocolate milk",
+      "long": "A big carton of chocolate milk lies here, ready to be chugged.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24877": {
+      "vnum": 24877,
+      "keywords": [
+        "swiss",
+        "cheese",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a block of swiss cheese",
+      "long": "A large block of cheese, filled with holes, lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24878": {
+      "vnum": 24878,
+      "keywords": [
+        "cheddar",
+        "cheese",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "several slices of cheddar cheese",
+      "long": "A few slices of heavy cheddar cheese lie here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24879": {
+      "vnum": 24879,
+      "keywords": [
+        "muenster",
+        "cheese",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a wedge of muenster cheese",
+      "long": "A large wedge of muenster cheese is lying here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24880": {
+      "vnum": 24880,
+      "keywords": [
+        "monterey",
+        "jack",
+        "cheese",
+        "wheel",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a wheel of Monterey Jack cheese",
+      "long": "A yummy-looking wheel of Monterey Jack cheese lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24881": {
+      "vnum": 24881,
+      "keywords": [
+        "bag",
+        "mozzarella",
+        "cheese",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a bag of shredded mozzarella cheese",
+      "long": "A large quantity of shredded mozzarella cheese is here in a bag.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24882": {
+      "vnum": 24882,
+      "keywords": [
+        "ice",
+        "cream",
+        "vanilla",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a bowl of vanilla ice cream",
+      "long": "A large bowl lies here, filled with a few scoops of vanilla ice cream.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24883": {
+      "vnum": 24883,
+      "keywords": [
+        "ice",
+        "cream",
+        "chocolate",
+        "marketplace"
+      ],
+      "type": "food",
+      "short": "a bowl of chocolate ice cream",
+      "long": "A large bowl lies here, filled with a few scoops of chocolate ice cream.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24884": {
+      "vnum": 24884,
+      "keywords": [
+        "flamberge",
+        "sword",
+        "two-handed"
+      ],
+      "type": "weapon",
+      "short": "a flamberge",
+      "long": "A massive, fearsome-looking, two-handed sword lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24885": {
+      "vnum": 24885,
+      "keywords": [
+        "slave",
+        "crown"
+      ],
+      "type": "armor",
+      "short": "the Slave Crown",
+      "long": "An ordinary-looking crown with a blood red stone lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24887": {
+      "vnum": 24887,
+      "keywords": [
+        "storm",
+        "giant",
+        "beard"
+      ],
+      "type": "armor",
+      "short": "a storm giant beard",
+      "long": "A large mass of thick violet hair lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24888": {
+      "vnum": 24888,
+      "keywords": [
+        "club",
+        "gigantic"
+      ],
+      "type": "weapon",
+      "short": "a gigantic club",
+      "long": "A ridiculously big club lies here on the ground.  Good luck picking it up.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24889": {
+      "vnum": 24889,
+      "keywords": [
+        "lifeless",
+        "body",
+        "corpse"
+      ],
+      "type": "container",
+      "short": "the drained body",
+      "long": "A dead human with a horrified look on his pale face lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24890": {
+      "vnum": 24890,
+      "keywords": [
+        "body",
+        "corpse",
+        "dead",
+        "lizardman"
+      ],
+      "type": "container",
+      "short": "the drained lizardman body",
+      "long": "A lizardman corpse lies here, its scales seeming somehow pale.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24891": {
+      "vnum": 24891,
+      "keywords": [
+        "mind",
+        "flayer",
+        "tentacle"
+      ],
+      "type": "armor",
+      "short": "a mind flayer tentacle",
+      "long": "The severed tentacle of a mind flayer lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24892": {
+      "vnum": 24892,
+      "keywords": [
+        "mind",
+        "flayer",
+        "robe"
+      ],
+      "type": "armor",
+      "short": "a mind flayer's robe",
+      "long": "An exotic-looking robe lies here, its inside covered with slime.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24893": {
+      "vnum": 24893,
+      "keywords": [
+        "cards",
+        "deck"
+      ],
+      "type": "wand",
+      "short": "a deck of cards",
+      "long": "An old, beat-up deck of cards lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24894": {
+      "vnum": 24894,
+      "keywords": [
+        "visor",
+        "clear"
+      ],
+      "type": "armor",
+      "short": "a clear visor",
+      "long": "A flimsy-looking visor lies here crumpled on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24895": {
+      "vnum": 24895,
+      "keywords": [
+        "chest",
+        "dusty"
+      ],
+      "type": "container",
+      "short": "a dusty chest",
+      "long": "An old, dusty-looking chest sits here, covered with cobwebs and blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24896": {
+      "vnum": 24896,
+      "keywords": [
+        "lake",
+        "blood",
+        "red"
+      ],
+      "type": "blood",
+      "short": "the lake of blood",
+      "long": "The lake of blood you just crawled out of is as still as death here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24897": {
+      "vnum": 24897,
+      "keywords": [
+        "tree",
+        "lemon"
+      ],
+      "type": "container",
+      "short": "a lemon tree",
+      "long": "A brilliant yellow tree, covered with lemons, grows eagerly here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24898": {
+      "vnum": 24898,
+      "keywords": [
+        "lemon",
+        "tiny"
+      ],
+      "type": "food",
+      "short": "a tiny lemon",
+      "long": "A perfectly formed lemon lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "24899": {
+      "vnum": 24899,
+      "keywords": [
+        "glass",
+        "wine"
+      ],
+      "type": "drinkcon",
+      "short": "a glass of violet wine",
+      "long": "A violet crystal glass of exquisite wine stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

@@ -1,0 +1,2431 @@
+{
+  "name": "Chapel Catacombs",
+  "author": "Copper",
+  "reset_minutes": 15,
+  "rooms": {
+    "3405": {
+      "vnum": 3405,
+      "name": "Inside the Chapel",
+      "description": "You are in a small, dark chapel.  The dark brown glass in the tiny windows\ndo not let much light through.  A few rows of worn wooden benches stand here.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "down": 3421,
+        "north": 3604
+      },
+      "exdescs": {
+        "benches": "The benches are not of the comfortable kind.",
+        "glass": "The windows must be meant to be dark.  At least they are completely clean.",
+        "rows": "The benches are not of the comfortable kind.",
+        "windows": "The windows must be meant to be dark.  At least they are completely clean."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3405,
+          "count": 1,
+          "room": 3405
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3400,
+          "count": 1,
+          "room": 3405
+        }
+      ]
+    },
+    "3406": {
+      "vnum": 3406,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3407": {
+      "vnum": 3407,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3408": {
+      "vnum": 3408,
+      "name": "Stairwell into Darkness",
+      "description": "You sense even more danger coming from below but are urged onward ...",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 3450,
+        "west": 3449
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3409": {
+      "vnum": 3409,
+      "name": "The Acolyte's Bedroom",
+      "description": "This is why you were not welcomed at the entrance by the tomb's faithful\nservants ... blood and gore is ankle deep in here.\nOh NO! the door shut behind you!  It's a trap!\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {
+        "corpse": "Mauled and torn apart ... throats were ripped out and guts spilled on the\nfloor ... you slip and land, planting yourself firmly in the slick wetness\nand splattering yourself with offal.",
+        "corpses": "Mauled and torn apart ... throats were ripped out and guts spilled on the\nfloor ... you slip and land, planting yourself firmly in the slick wetness\nand splattering yourself with offal."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3409
+        },
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3409
+        }
+      ],
+      "object_resets": []
+    },
+    "3410": {
+      "vnum": 3410,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 3415,
+        "west": 3411
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3410
+        }
+      ],
+      "object_resets": []
+    },
+    "3411": {
+      "vnum": 3411,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3410
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3403,
+          "count": 1,
+          "room": 3411
+        },
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3411
+        }
+      ],
+      "object_resets": []
+    },
+    "3412": {
+      "vnum": 3412,
+      "name": "The Grand Hall of Kings",
+      "description": "You are at the west end of the Grand Hall of Kings.  There is a doorway to the\nsouth with something strange written above it.  Also on the floor are dried\nblood stains, but their color seems a little wrong.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3417,
+        "south": 3413
+      },
+      "exdescs": {
+        "door": "Above the door is some strange writing!  It is worn with age, but it refers\nto an ancient ruler named 'Shohan'.",
+        "stain": "That's odd ... they seem a little GREEN.",
+        "stains": "That's odd ... they seem a little GREEN.",
+        "writing": "Above the door is some strange writing!  It is worn with age, but it refers\nto an ancient ruler named 'Shohan'."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3413": {
+      "vnum": 3413,
+      "name": "The Shrine of Shohan",
+      "description": "BLOOD EVERYWHERE!\nThe walls are coated with blood, bits of bloody flesh lie at your feet,\nand torn clothing is scattered about.  It wouldn't disturb you in the least\nexcept that it is all FRESH!  What ever used to pass as an altar here,\nlies overturned and smashed.  Doors lead to the south and to the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3412,
+        "south": 3414
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3414": {
+      "vnum": 3414,
+      "name": "The Tomb of Shohan",
+      "description": "Once beautiful, this place has been turned into a slaughterhouse by the hands\nof evil beings ... even more blood and dead, rotting flesh.  This place looks\nlike the feeding grounds of beasts and monsters.  The overturned sarcophagus\nof the once powerful King Shohan lies here.  A door leads to the north and a\ndoorway has been hewn to the east.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3419,
+        "north": 3413
+      },
+      "exdescs": {
+        "coffin": "Now destroyed ... there is writing on it: 'All hail the new king; we serve\nthe Roch'tar, the Undying One!  Those who decline his worship shall be\nslaughtered!'",
+        "sarcophagus": "Now destroyed ... there is writing on it: 'All hail the new king; we serve\nthe Roch'tar, the Undying One!  Those who decline his worship shall be\nslaughtered!'"
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        },
+        {
+          "vnum": 3401,
+          "count": 8,
+          "room": 3414
+        }
+      ],
+      "object_resets": []
+    },
+    "3415": {
+      "vnum": 3415,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3410,
+        "south": 3420,
+        "west": 3416
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3416": {
+      "vnum": 3416,
+      "name": "Entrance to the Lower Chambers",
+      "description": "You can tell that this area wasn't a part of the original construction.\nThe walls have been hewn by a mighty force look as though they were CLAWED.\nThe passage slopes upward here and also continues to the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3415,
+        "up": 3418
+      },
+      "exdescs": {
+        "walls": "Something BIG must have done this job!  There are traces of BLOOD in the\nclaw marks."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3417": {
+      "vnum": 3417,
+      "name": "The Grand Hall of Kings",
+      "description": "This is the western wing of the Grand Hall of Kings.  Your only exits are to\nthe east and west in this gloomy hallway.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3422,
+        "west": 3412
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3417
+        }
+      ],
+      "object_resets": []
+    },
+    "3418": {
+      "vnum": 3418,
+      "name": "The Shrine of Cristis",
+      "description": "Different than the rest, this place has not been desecrated.  An altar still\nstands here and the walls show scenes from the life of Cristis the Kind,\na ruler of the outlying regions west of Darkhaven.  There is a stone staircase\nleading down.  The Ghost of Cristis the Kind stands here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 3416,
+        "south": 3419
+      },
+      "exdescs": {
+        "altar": "It stands 2 feet high with the remnants of candle-wax on top.  There is\nan inscription on the side:  'Praise the almighty Cristis the bringer of\ngood and justice to the world.  He who fought the evilest finally is at\npeace.  May the Gods remember him forever ...'",
+        "cristis": "His rest has been disturbed by evil creatures who have invaded his domain\nand grave.  He holds up a parchment for you to read:\n\n     Hello stranger and last hope for Darkhaven and this tomb!\n   This is a plea for aid by a man long since dead from this Earth.\n     The forces of evil have taken control of this tomb and the\n   Kings of old need your aid to free us and deliver us to peace\n   once again.  I think that I alone have been able to appear and\n   communicate with the mortal world.\n     Roch'tar, the reincarnate Vampire, now rules these tombs.\n   You must find and defeat him and his minions!\n     May God bless you on your Quest!",
+        "ghost": "His rest has been disturbed by evil creatures who have invaded his domain\nand grave.  He holds up a parchment for you to read:\n\n     Hello stranger and last hope for Darkhaven and this tomb!\n   This is a plea for aid by a man long since dead from this Earth.\n     The forces of evil have taken control of this tomb and the\n   Kings of old need your aid to free us and deliver us to peace\n   once again.  I think that I alone have been able to appear and\n   communicate with the mortal world.\n     Roch'tar, the reincarnate Vampire, now rules these tombs.\n   You must find and defeat him and his minions!\n     May God bless you on your Quest!"
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3418
+        }
+      ],
+      "object_resets": []
+    },
+    "3419": {
+      "vnum": 3419,
+      "name": "The Tomb of Cristis",
+      "description": "Everything here has simply been destroyed.   Exits lead north and west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3418,
+        "west": 3414
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3419
+        }
+      ],
+      "object_resets": []
+    },
+    "3420": {
+      "vnum": 3420,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3415,
+        "west": 3425
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3421": {
+      "vnum": 3421,
+      "name": "Entrance Chamber to the Grand Hall of Kings",
+      "description": "Whoever built this place must have been very rich indeed!  Though you did\nenter through a rather small door this place has enough room to hold several\nscore of people.  The floor has a beautifully woven carpet, and the walls are\ncovered in finely crafted tapestries. You can tell that these things must have\nbeen worth much but they have not lasted well throughout the ages.  Massive\ndoors lead off to the south and a large stone staircase leads up.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 3422,
+        "up": 3405
+      },
+      "exdescs": {
+        "door": "It's rather small and looks quite heavy but maybe with some kind of leverage\nyou could move it.  It has a queerly shaped hole that looks big enough\nfor an equally queerly shaped pole to fit inside.  If only you had it!",
+        "graffiti": "'Beware here all of man, because past here lies only death.'\n\n    Insho'rkthon brsskra-lehsn Roch'tar\n\nBeneath, there are two criss-crossing scratchmarks in an X formation that\nlook like someone (or something) raked their claws across the wood.",
+        "letters": "'Beware here all of man, because past here lies only death.'\n\n    Insho'rkthon brsskra-lehsn Roch'tar\n\nBeneath, there are two criss-crossing scratchmarks in an X formation that\nlook like someone (or something) raked their claws across the wood.",
+        "oak": "They're HUGE!  They are at least 12 feet tall and about 10 feet wide.\nIf not for one thing they would be perfectly preserved.  There appears\nto be some letters crudely scratched into the wood.",
+        "staircase": "Though quite cracked they do look very stable.",
+        "stairs": "Though quite cracked they do look very stable.",
+        "stone": "It's rather small and looks quite heavy but maybe with some kind of leverage\nyou could move it.  It has a queerly shaped hole that looks big enough\nfor an equally queerly shaped pole to fit inside.  If only you had it!",
+        "tapestries": "The tapestries were woven into beautiful and exciting scenes of battles\nlong ago.  One on the left your shows the historic battle between Jubal the\nBenevolent and Hroth Kragen's forces that eventually Jubal's army won (of\ncourse).",
+        "tapestry": "The tapestries were woven into beautiful and exciting scenes of battles\nlong ago.  One on the left your shows the historic battle between Jubal the\nBenevolent and Hroth Kragen's forces that eventually Jubal's army won (of\ncourse).",
+        "trapdoor": "It's rather small and looks quite heavy but maybe with some kind of leverage\nyou could move it.  It has a queerly shaped hole that looks big enough\nfor an equally queerly shaped pole to fit inside.  If only you had it!"
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3422": {
+      "vnum": 3422,
+      "name": "The Grand Hall of Kings",
+      "description": "A long hallway stretches east and west.  On the southern side of the hall\nthere are many doors, each with the name of a king who has died and is\nentombed here.  The hallway is beautiful yet chilling.  Even though the area\nhas been kept well by acolytes, there remains a stench of the undead.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3427,
+        "north": 3421,
+        "south": 3423,
+        "west": 3417
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3423": {
+      "vnum": 3423,
+      "name": "The Shrine of Crotus",
+      "description": "Mostly rubble, this place used to be the shrine of the famous king Crotus,\nwho saved the northern regions from being overrun by the goblin hordes of\n100 years ago.  If not for him, Darkhaven of course would have eventually been\nconquered as well.  Though Crotus was a goodly king, it was rumored that he\nturned to the dark ways in his dying years ... and died an evil man.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3422,
+        "south": 3424
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3424": {
+      "vnum": 3424,
+      "name": "The Tomb of Crotus",
+      "description": "A sarcophagus lies in the middle of the room and seems undisturbed.\nA hole has been knocked into the east wall.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3429,
+        "north": 3423
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3412,
+          "count": 1,
+          "room": 3424
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3415,
+          "count": 1,
+          "room": 3424
+        }
+      ]
+    },
+    "3425": {
+      "vnum": 3425,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3420,
+        "west": 3426
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3426": {
+      "vnum": 3426,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3425,
+        "south": 3430
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3426
+        },
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3426
+        },
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3426
+        }
+      ],
+      "object_resets": []
+    },
+    "3427": {
+      "vnum": 3427,
+      "name": "The Grand Hall of Kings",
+      "description": "You are in the western part of the Grand Hall of Kings.  To the south is a\ndoor and to the east and west the hall continues.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3432,
+        "south": 3428,
+        "west": 3422
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3428": {
+      "vnum": 3428,
+      "name": "The Shrine of Mitnar",
+      "description": "Mitnar was a gruesome beast of a man ... he loved battle ... and nothing\nelse.  Warriors did love Mitnar, and all fighting men honored him.\nOn the wall is depicted battle after battle after battle.\nA small opening has been shaped carefully to the east.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3433,
+        "north": 3427,
+        "south": 3429
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3429": {
+      "vnum": 3429,
+      "name": "The Tomb of Mitnar",
+      "description": "The wall paintings show men and women warriors alike bowing down to Mitnar,\nprisoners of war being put to the sword by Mitnar, and great heaps of gold\nand weapons under the feet of Mitnar.  Where his coffin was, there is now\nonly a rectangular blemish on the floor of the dusty room.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3428,
+        "west": 3424
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3430": {
+      "vnum": 3430,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3431,
+        "north": 3426,
+        "south": 3435
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3430
+        }
+      ],
+      "object_resets": []
+    },
+    "3431": {
+      "vnum": 3431,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3430,
+        "south": 3436
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3432": {
+      "vnum": 3432,
+      "name": "The Grand Hall of Kings",
+      "description": "You are still walking through the gloomy hallway.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3437,
+        "west": 3427
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3432
+        }
+      ],
+      "object_resets": []
+    },
+    "3433": {
+      "vnum": 3433,
+      "name": "The Shrine of Frath",
+      "description": "Little chunks of dried meat are spattered throughout this room.  The walls\nare covered in gore.  Almost as if they were painted ... ICK!  You can\nalmost make out the design!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3438,
+        "west": 3428
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3434": {
+      "vnum": 3434,
+      "name": "The Tomb of Frath",
+      "description": "UGH!  The sarcophagus is opened up and the mummified body lies out in the\nopen, ripped to pieces.  Gnawed pieces of flesh and bone are strewn here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 3439
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3411,
+          "count": 1,
+          "room": 3434
+        }
+      ],
+      "object_resets": []
+    },
+    "3435": {
+      "vnum": 3435,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3440,
+        "north": 3436,
+        "west": 3430
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3436": {
+      "vnum": 3436,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3441,
+        "south": 3431,
+        "west": 3435
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3437": {
+      "vnum": 3437,
+      "name": "The Grand Hall of Kings",
+      "description": "You are at the western end of the Grand Hall of Kings.  There is a\ndoor leading north and the hallway continues west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3409,
+        "west": 3432
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3437
+        }
+      ],
+      "object_resets": []
+    },
+    "3438": {
+      "vnum": 3438,
+      "name": "The Shrine of Jubal",
+      "description": "This was once beautiful.  Now the huge tapestries have been torn down and the\ncarpeting pulled up ... the paintings on the ceiling are unreadable and the\naltar is crumbled.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 3439,
+        "west": 3433
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3439": {
+      "vnum": 3439,
+      "name": "The Tomb of Jubal",
+      "description": "The smell coming off of the opened sarcophagus is nauseating.  The floor is\nslightly crumpled and walls are raked ... but the worst part is the mummy ...\nJubal the Benevolent is missing his head!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3438,
+        "up": 3434
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3440": {
+      "vnum": 3440,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3441,
+        "north": 3449,
+        "south": 3445,
+        "west": 3435
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3441": {
+      "vnum": 3441,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3446,
+        "north": 3440,
+        "south": 3436
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3400,
+          "count": 8,
+          "room": 3441
+        },
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3441
+        }
+      ],
+      "object_resets": []
+    },
+    "3442": {
+      "vnum": 3442,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3447,
+        "south": 3443
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3442
+        }
+      ],
+      "object_resets": []
+    },
+    "3443": {
+      "vnum": 3443,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3442,
+        "west": 3444
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3444": {
+      "vnum": 3444,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 3443
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3444
+        },
+        {
+          "vnum": 3409,
+          "count": 4,
+          "room": 3444
+        }
+      ],
+      "object_resets": []
+    },
+    "3445": {
+      "vnum": 3445,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3446,
+        "west": 3440
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3446": {
+      "vnum": 3446,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3445,
+        "north": 3447,
+        "west": 3441
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3447": {
+      "vnum": 3447,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3446,
+        "north": 3448,
+        "south": 3442
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3447
+        }
+      ],
+      "object_resets": []
+    },
+    "3448": {
+      "vnum": 3448,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "This room has been totally hollowed out and smoothed, and a pit has been\ndrilled in the center of the floor.  There are extensive gruesome paintings\nof beasts and monsters terrorizing the countryside; vampires sucking the\nblood of beasts and humans alike.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3447
+      },
+      "exdescs": {
+        "mural": "There is a tiny painting of a vault in this mural ... and it seems to be a\nreflected picture of the vault ... the word in tiny print is 'rathcor'.",
+        "painting": "There is a tiny painting of a vault in this mural ... and it seems to be a\nreflected picture of the vault ... the word in tiny print is 'rathcor'.",
+        "paintings": "There is a tiny painting of a vault in this mural ... and it seems to be a\nreflected picture of the vault ... the word in tiny print is 'rathcor'."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3416,
+          "count": 4,
+          "room": 3448
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 3420,
+          "count": 1,
+          "room": 3448
+        }
+      ]
+    },
+    "3449": {
+      "vnum": 3449,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "description": "The stench of death is heavy in these caverns.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 3440,
+        "south": 3408
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3410,
+          "count": 1,
+          "room": 3449
+        }
+      ],
+      "object_resets": []
+    },
+    "3450": {
+      "vnum": 3450,
+      "name": "Entrance to the Forbidden Catacombs",
+      "description": "You have entered the forbidden catacombs.  This cave system must have been\nbuilt long ago.  The air is dank and smells of something dead ...  or maybe\nundead.  Enter here at your own risk ... something evil abides.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3452,
+        "north": 3451,
+        "south": 3453,
+        "up": 3408,
+        "west": 3454
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3413,
+          "count": 5,
+          "room": 3450
+        }
+      ],
+      "object_resets": []
+    },
+    "3451": {
+      "vnum": 3451,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3455,
+        "south": 3450
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3452": {
+      "vnum": 3452,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3461,
+        "west": 3450
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3452
+        }
+      ],
+      "object_resets": []
+    },
+    "3453": {
+      "vnum": 3453,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3450
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3453
+        }
+      ],
+      "object_resets": []
+    },
+    "3454": {
+      "vnum": 3454,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3450
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3454
+        }
+      ],
+      "object_resets": []
+    },
+    "3455": {
+      "vnum": 3455,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 3456,
+        "west": 3451
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3455
+        }
+      ],
+      "object_resets": []
+    },
+    "3456": {
+      "vnum": 3456,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3457,
+        "north": 3455
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3457": {
+      "vnum": 3457,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 3458,
+        "west": 3456
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3457
+        }
+      ],
+      "object_resets": []
+    },
+    "3458": {
+      "vnum": 3458,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 3457,
+        "south": 3472,
+        "west": 3459
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3459": {
+      "vnum": 3459,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3458,
+        "west": 3460
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3460": {
+      "vnum": 3460,
+      "name": "Den of the Vampire",
+      "description": "Your mind whirls in the hideous madness of this place.  The stench is\nhorrendous and dead bodies, sucked of life, lay all over.  One coffin\nlies in the center of the room ... waiting for YOU!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 3475,
+        "east": 3459
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3404,
+          "count": 1,
+          "room": 3460
+        }
+      ],
+      "object_resets": []
+    },
+    "3461": {
+      "vnum": 3461,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3462,
+        "south": 3452
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3462": {
+      "vnum": 3462,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 3463,
+        "west": 3461
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3402,
+          "count": 8,
+          "room": 3462
+        }
+      ],
+      "object_resets": []
+    },
+    "3463": {
+      "vnum": 3463,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3464,
+        "north": 3462
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3463
+        }
+      ],
+      "object_resets": []
+    },
+    "3464": {
+      "vnum": 3464,
+      "name": "The Catacombs",
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 3470,
+        "south": 3465,
+        "west": 3463
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3465": {
+      "vnum": 3465,
+      "name": "The Gilded Hallway",
+      "description": "Wow!  Although this hallway is quite filthy and dusty, it is noticeably\ndifferent than the rest of the catacombs ... but you don't feel safe yet.\nThe walls faintly show ancient detailed etchings in gold and silver of\nancient rituals ... not all of which seem pleasant.  The hallway continues\nnorth into the catacombs and further south as long as you can see.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3464,
+        "south": 3466
+      },
+      "exdescs": {
+        "etchings": "Beautiful yet disturbing, they urge you to move onward."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3465
+        },
+        {
+          "vnum": 3407,
+          "count": 5,
+          "room": 3465
+        }
+      ],
+      "object_resets": []
+    },
+    "3466": {
+      "vnum": 3466,
+      "name": "The Gilded Hallway",
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3465,
+        "south": 3467
+      },
+      "exdescs": {
+        "etchings": "Beautiful yet disturbing, they urge you to move onward."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3406,
+          "count": 4,
+          "room": 3466
+        }
+      ],
+      "object_resets": []
+    },
+    "3467": {
+      "vnum": 3467,
+      "name": "The Gilded Hallway",
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3466,
+        "south": 3468
+      },
+      "exdescs": {
+        "etchings": "Beautiful yet disturbing, they urge you to move onward."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3468": {
+      "vnum": 3468,
+      "name": "The Gilded Hallway",
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3467,
+        "south": 3469
+      },
+      "exdescs": {
+        "etchings": "Beautiful yet disturbing, they urge you to move onward."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3414,
+          "count": 1,
+          "room": 3468
+        },
+        {
+          "vnum": 3415,
+          "count": 1,
+          "room": 3468
+        }
+      ],
+      "object_resets": []
+    },
+    "3469": {
+      "vnum": 3469,
+      "name": "The Gilded Hallway",
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3468
+      },
+      "exdescs": {
+        "etchings": "Beautiful yet disturbing, they urge you to move onward."
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3470": {
+      "vnum": 3470,
+      "name": "A Secret Passageway",
+      "description": "A secret passage!  You wonder where it may lead!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 3471
+      },
+      "exdescs": {
+        "door": "The door closed on you so softly that you didn't even notice!",
+        "east": "The door closed on you so softly that you didn't even notice!",
+        "secret": "The door closed on you so softly that you didn't even notice!"
+      },
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3471": {
+      "vnum": 3471,
+      "name": "A Secret Passageway",
+      "description": "A secret passage!  You wonder where it may lead!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 3470
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [
+        {
+          "vnum": 3408,
+          "count": 1,
+          "room": 3471
+        }
+      ],
+      "object_resets": []
+    },
+    "3472": {
+      "vnum": 3472,
+      "name": "The Short Way to Hell ...",
+      "description": "You fall ...\n            hmm .... it's getting really HOT!\nYou fall ...\n                        you fall ...\n     Slowly you are cooking as you fall further ... your skin is burning and\nyour hair evaporates ...\n\n                                           you fall ...\n\n                 and fall ...\n\n                                     AND STOP!\n\nWelcome to HELL!\n\nBut even in Hell we give you another chance.\n",
+      "sector": "inside",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "3475": {
+      "vnum": 3475,
+      "name": "Inside the coffin",
+      "description": "You are inside a coffin.  It seems rather cramped in here.  You can climb\nup out of the coffin, or you can wait for here the real occupant to join you.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "solitary": true
+      },
+      "exits": {
+        "up": 3460
+      },
+      "exdescs": {},
+      "area_name": "Chapel Catacombs",
+      "area_author": "Copper",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "3400": {
+      "vnum": 3400,
+      "keywords": [
+        "skeleton",
+        "bony"
+      ],
+      "short": "the bony skeleton",
+      "long": "A bony skeleton is here.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 19,
+      "max_mana": 19,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3401": {
+      "vnum": 3401,
+      "keywords": [
+        "undead",
+        "zombie"
+      ],
+      "short": "the undead zombie",
+      "long": "An undead zombie sits here munching on something ...",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 49,
+      "max_mana": 49,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3402": {
+      "vnum": 3402,
+      "keywords": [
+        "undead",
+        "ghoul"
+      ],
+      "short": "The ghoul",
+      "long": "A ghoul is here staring at you hungrily.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 79,
+      "max_mana": 79,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3403": {
+      "vnum": 3403,
+      "keywords": [
+        "undead",
+        "wraith"
+      ],
+      "short": "The wraith",
+      "long": "You spot a wraith advancing towards you from the shadows.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 149,
+      "max_mana": 149,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3404": {
+      "vnum": 3404,
+      "keywords": [
+        "undead",
+        "guardian",
+        "vampire"
+      ],
+      "short": "a guardian vampire",
+      "long": "A vampire is here hiding his face from your light source.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 385,
+      "max_mana": 385,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3405": {
+      "vnum": 3405,
+      "keywords": [
+        "priest"
+      ],
+      "short": "the priest",
+      "long": "A priest of God stands here solemnly speaking words of praise.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 15,
+      "hp": 15,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3406": {
+      "vnum": 3406,
+      "keywords": [
+        "Mi-Go",
+        "Fungi"
+      ],
+      "short": "the Mi-Go",
+      "long": "A Mi-Go is crawling here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3407": {
+      "vnum": 3407,
+      "keywords": [
+        "nightgaunt"
+      ],
+      "short": "The nightgaunt",
+      "long": "A nightgaunt is standing here",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3408": {
+      "vnum": 3408,
+      "keywords": [
+        "hunting",
+        "horror"
+      ],
+      "short": "The hunting horror",
+      "long": "The hunting horror is here in wait of an unwary traveler.",
+      "race": "spirit",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 200,
+      "max_mana": 200,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3409": {
+      "vnum": 3409,
+      "keywords": [
+        "weeds"
+      ],
+      "short": "some cave weeds",
+      "long": "Some weeds are creeping across the floor.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 75,
+      "max_mana": 75,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3410": {
+      "vnum": 3410,
+      "keywords": [
+        "snapper",
+        "joe"
+      ],
+      "short": "Snapper Joe",
+      "long": "Snapper Joe is standing here leering at you chillingly.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 365,
+      "max_mana": 365,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3411": {
+      "vnum": 3411,
+      "keywords": [
+        "X-ist",
+        "eater"
+      ],
+      "short": "The X-ist flesh eater",
+      "long": "An X-ist flesh eater is sitting here munching on some coffin remains",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 215,
+      "max_mana": 215,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3412": {
+      "vnum": 3412,
+      "keywords": [
+        "spirit",
+        "ghost",
+        "king",
+        "crotus"
+      ],
+      "short": "the spirit of King Crotus",
+      "long": "The spirit of King Crotus is floating lazily above the floor.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 260,
+      "max_mana": 260,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3413": {
+      "vnum": 3413,
+      "keywords": [
+        "rock",
+        "slug"
+      ],
+      "short": "the rock slug",
+      "long": "A rock slug is slowly creeping along, leaving a slime trail behind it.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 42,
+      "max_mana": 42,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3414": {
+      "vnum": 3414,
+      "keywords": [
+        "etcher"
+      ],
+      "short": "The mad etcher",
+      "long": "The mad etcher is sitting here babbling to himself and working on the wall.",
+      "race": "human",
+      "class": "warrior",
+      "position": "aggressive",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3415": {
+      "vnum": 3415,
+      "keywords": [
+        "wife",
+        "ghost",
+        "specter"
+      ],
+      "short": "The spectral etcher's wife",
+      "long": "The spectral wife of the etcher is very faintly floating here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 86,
+      "max_mana": 86,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "3416": {
+      "vnum": 3416,
+      "keywords": [
+        "body"
+      ],
+      "short": "The half-decomposed body",
+      "long": "A half-decomposed body is lying in the corner here.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "3400": {
+      "vnum": 3400,
+      "keywords": [
+        "candlestick"
+      ],
+      "type": "light",
+      "short": "a candlestick",
+      "long": "A pewter candlestick is standing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3402": {
+      "vnum": 3402,
+      "keywords": [
+        "tickler"
+      ],
+      "type": "weapon",
+      "short": "a nightgaunt's tickler",
+      "long": "A nightgaunt's tickler has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3403": {
+      "vnum": 3403,
+      "keywords": [
+        "plasma",
+        "webbing"
+      ],
+      "type": "armor",
+      "short": "disgusting pinkish plasma webbing",
+      "long": "A pile of pink material is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3410": {
+      "vnum": 3410,
+      "keywords": [
+        "rod",
+        "key"
+      ],
+      "type": "key",
+      "short": "a queerly shaped rod",
+      "long": "A queerly shaped rod is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3411": {
+      "vnum": 3411,
+      "keywords": [
+        "large",
+        "black",
+        "dirty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a large black dirty key",
+      "long": "A large black dirty key is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3412": {
+      "vnum": 3412,
+      "keywords": [
+        "head",
+        "jubal",
+        "mummy"
+      ],
+      "type": "container",
+      "short": "the mummified head of Jubal the Benevolent",
+      "long": "The mummified head of Jubal the Benevolent is lolling back and forth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3413": {
+      "vnum": 3413,
+      "keywords": [
+        "ring",
+        "black",
+        "marble"
+      ],
+      "type": "treasure",
+      "short": "a black marble ring",
+      "long": "A black marble ring is lying here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3414": {
+      "vnum": 3414,
+      "keywords": [
+        "rapier",
+        "thin"
+      ],
+      "type": "weapon",
+      "short": "a whisper thin rapier",
+      "long": "A rapier is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3415": {
+      "vnum": 3415,
+      "keywords": [
+        "sarcophagus",
+        "coffin"
+      ],
+      "type": "container",
+      "short": "a stone sarcophagus",
+      "long": "A stone sarcophagus is sitting here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3416": {
+      "vnum": 3416,
+      "keywords": [
+        "iron",
+        "heavy",
+        "key"
+      ],
+      "type": "key",
+      "short": "a heavy iron key",
+      "long": "A heavy iron key is lying here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3417": {
+      "vnum": 3417,
+      "keywords": [
+        "flask",
+        "wineflask"
+      ],
+      "type": "drinkcon",
+      "short": "a wineflask",
+      "long": "A wineflask has been been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3418": {
+      "vnum": 3418,
+      "keywords": [
+        "coins"
+      ],
+      "type": "money",
+      "short": "a mound of coins fit for a dead king",
+      "long": "You see a mound of coins fit for a dead king here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3419": {
+      "vnum": 3419,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "a coffin key",
+      "long": "A coffin key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3420": {
+      "vnum": 3420,
+      "keywords": [
+        "rathcor"
+      ],
+      "type": "container",
+      "short": "a hidden compartment in the room",
+      "long": "",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3421": {
+      "vnum": 3421,
+      "keywords": [
+        "rusty",
+        "sword",
+        "curved",
+        "scimitar"
+      ],
+      "type": "weapon",
+      "short": "a rusty curved scimitar",
+      "long": "A sword has been left lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3422": {
+      "vnum": 3422,
+      "keywords": [
+        "piece",
+        "slime"
+      ],
+      "type": "food",
+      "short": "a piece of slime",
+      "long": "You step on a piece of slime...your foot squishes a bit",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3423": {
+      "vnum": 3423,
+      "keywords": [
+        "smock"
+      ],
+      "type": "armor",
+      "short": "an artist's smock",
+      "long": "An artist's smock is lying here on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3424": {
+      "vnum": 3424,
+      "keywords": [
+        "scroll",
+        "tightly",
+        "rolled"
+      ],
+      "type": "scroll",
+      "short": "a tightly rolled scroll",
+      "long": "A yellowing, tightly-rolled scroll lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3425": {
+      "vnum": 3425,
+      "keywords": [
+        "auburn",
+        "orb"
+      ],
+      "type": "staff",
+      "short": "an auburn-colored orb",
+      "long": "An orb is here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3426": {
+      "vnum": 3426,
+      "keywords": [
+        "bar",
+        "gold"
+      ],
+      "type": "treasure",
+      "short": "a bar of gold",
+      "long": "A bar of gold is lying here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3427": {
+      "vnum": 3427,
+      "keywords": [
+        "cape",
+        "dark",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a cape of darkest black",
+      "long": "A cape of darkest black lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3428": {
+      "vnum": 3428,
+      "keywords": [
+        "flaming",
+        "sword",
+        "long",
+        "longsword"
+      ],
+      "type": "weapon",
+      "short": "a pitch-black longsword which flames brightly",
+      "long": "A pitch-black sword which flames brightly lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3429": {
+      "vnum": 3429,
+      "keywords": [
+        "breast",
+        "plate",
+        "dented",
+        "worn"
+      ],
+      "type": "armor",
+      "short": "a worn and dented breast plate",
+      "long": "A piece of armour is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "3430": {
+      "vnum": 3430,
+      "keywords": [
+        "key",
+        "silver"
+      ],
+      "type": "key",
+      "short": "a silver key",
+      "long": "You see a silver key here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

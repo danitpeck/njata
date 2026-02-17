@@ -590,3 +590,29 @@ func (w *World) BroadcastCombatMessage(player *Player, message string) {
 		}
 	}
 }
+
+// SpawnMob creates a mob instance from a prototype and adds it to the player's current room
+func (w *World) SpawnMob(player *Player, vnum int) (*Mobile, error) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	// Find the mob prototype
+	proto, ok := w.mobiles[vnum]
+	if !ok {
+		return nil, fmt.Errorf("mob vnum %d does not exist", vnum)
+	}
+
+	// Find the player's current room
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, fmt.Errorf("player is not in a valid room")
+	}
+
+	// Create a copy of the prototype
+	mobCopy := *proto
+
+	// Add to room
+	room.Mobiles = append(room.Mobiles, &mobCopy)
+
+	return &mobCopy, nil
+}

@@ -3,6 +3,7 @@ package commands
 import (
 	"fmt"
 	"math/rand"
+	"strconv"
 	"strings"
 	"time"
 
@@ -17,17 +18,17 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("say", cmdSay)
 	registry.Register("who", cmdWho)
 	registry.Register("stats", cmdStats)
-	registry.Register("score", cmdScore)
 	registry.Register("exits", cmdExits)
 	registry.Register("autoexits", cmdAutoexits)
 	registry.Register("astat", cmdAstat)
-	registry.Register("spellbook", cmdSpellbook)
+	registry.Register("abilities", cmdAbilities)
 	registry.Register("cast", cmdCast)
 	registry.Register("slash", cmdSlash)
 	registry.Register("study", cmdStudy)
 	registry.Register("save", cmdSave)
 	registry.Register("makekeeper", cmdMakeKeeper)
 	registry.Register("removekeeper", cmdRemoveKeeper)
+	registry.Register("spawn", cmdSpawn)
 	registry.Register("teleport", cmdTeleport)
 	registerMovement(registry)
 	registry.Register("help", func(ctx Context, args string) {
@@ -140,59 +141,9 @@ func cmdStats(ctx Context, args string) {
 	ctx.Output.WriteLine(fmt.Sprintf("Alignment: %d | Hitroll: %d | Damroll: %d | Armor: %d", p.Alignment, p.Hitroll, p.Damroll, p.Armor))
 }
 
-func cmdScore(ctx Context, args string) {
-	p := ctx.Player
-
-	ctx.Output.WriteLine("")
-	ctx.Output.WriteLine(fmt.Sprintf("==== %s (Level %d) ====", p.Name, p.Level))
-
-	raceName := "Unknown"
-	if r := races.GetByID(p.Race); r != nil {
-		raceName = r.Name
-	}
-
-	sexNames := []string{"neuter", "male", "female"}
-	sexName := "unknown"
-	if p.Sex >= 0 && p.Sex < len(sexNames) {
-		sexName = sexNames[p.Sex]
-	}
-
-	ctx.Output.WriteLine(fmt.Sprintf("Race: %s | Sex: %s", raceName, sexName))
-	ctx.Output.WriteLine("")
-
-	// Attributes
-	attrNames := []string{"STR", "DEX", "CON", "INT", "WIS", "CHA", "LCK"}
-	ctx.Output.WriteLine("ATTRIBUTES:")
-	for i, name := range attrNames {
-		ctx.Output.WriteLine(fmt.Sprintf("  %s  : %2d", name, p.Attributes[i]))
-	}
-	ctx.Output.WriteLine("")
-
-	// Vitals
-	ctx.Output.WriteLine("VITALS:")
-	ctx.Output.WriteLine(fmt.Sprintf("  Hitpoints: %d / %d", p.HP, p.MaxHP))
-	ctx.Output.WriteLine(fmt.Sprintf("  Mana:      %d / %d", p.Mana, p.MaxMana))
-	ctx.Output.WriteLine(fmt.Sprintf("  Movement:  %d / %d", p.Move, p.MaxMove))
-	ctx.Output.WriteLine("")
-
-	// Experience & Gold
-	ctx.Output.WriteLine("EXPERIENCE & WEALTH:")
-	ctx.Output.WriteLine(fmt.Sprintf("  Experience: %d", p.Experience))
-	ctx.Output.WriteLine(fmt.Sprintf("  Gold:       %d", p.Gold))
-	ctx.Output.WriteLine("")
-
-	// Combat
-	ctx.Output.WriteLine("COMBAT STATS:")
-	ctx.Output.WriteLine(fmt.Sprintf("  Alignment:  %d", p.Alignment))
-	ctx.Output.WriteLine(fmt.Sprintf("  Hitroll:    %d", p.Hitroll))
-	ctx.Output.WriteLine(fmt.Sprintf("  Damroll:    %d", p.Damroll))
-	ctx.Output.WriteLine(fmt.Sprintf("  Armor:      %d", p.Armor))
-	ctx.Output.WriteLine("")
-}
-
-func cmdSpellbook(ctx Context, args string) {
+func cmdAbilities(ctx Context, args string) {
 	if ctx.Player == nil {
-		ctx.Output.WriteLine("You must be logged in to use spellbook")
+		ctx.Output.WriteLine("You must be logged in to view abilities")
 		return
 	}
 
@@ -203,17 +154,20 @@ func cmdSpellbook(ctx Context, args string) {
 		p.Skills = make(map[int]*skills.PlayerSkillProgress)
 	}
 
-	ctx.Output.WriteLine("=== SPELLBOOK ===")
+	ctx.Output.WriteLine("=== ABILITIES ===")
 	ctx.Output.WriteLine("")
 
 	if len(p.Skills) == 0 {
-		ctx.Output.WriteLine("You haven't learned any spells yet.")
+		ctx.Output.WriteLine("You haven't learned any abilities yet.")
 		ctx.Output.WriteLine("")
 		return
 	}
 
-	// Display all learned spells
+	// Separate spells and maneuvers
 	allSpells := skills.AllSpells()
+	spellsList := make([]*skills.Spell, 0)
+	maneuversList := make([]*skills.Spell, 0)
+
 	for spellID, progress := range p.Skills {
 		if !progress.Learned {
 			continue
@@ -224,12 +178,44 @@ func cmdSpellbook(ctx Context, args string) {
 			continue
 		}
 
-		ctx.Output.WriteLine(fmt.Sprintf("[%d] %s", spell.ID, spell.Name))
-		ctx.Output.WriteLine(fmt.Sprintf("    Mana: %d | Cooldown: %ds | Proficiency: %d%%",
-			spell.ManaCost, spell.CooldownSeconds, progress.Proficiency))
-		ctx.Output.WriteLine(fmt.Sprintf("    Casts: %d", progress.LifetimeCasts))
+		// Categorize: spells (1000-8999) vs maneuvers (9000+)
+		if spell.ID >= 9000 {
+			maneuversList = append(maneuversList, spell)
+		} else {
+			spellsList = append(spellsList, spell)
+		}
 	}
-	ctx.Output.WriteLine("")
+
+	// Display spells
+	if len(spellsList) > 0 {
+		ctx.Output.WriteLine("SPELLS:")
+		for _, spell := range spellsList {
+			progress := p.Skills[spell.ID]
+			ctx.Output.WriteLine(fmt.Sprintf("  [%d] %s", spell.ID, spell.Name))
+			ctx.Output.WriteLine(fmt.Sprintf("      Mana: %d | Cooldown: %ds | Proficiency: %d%%",
+				spell.ManaCost, spell.CooldownSeconds, progress.Proficiency))
+			ctx.Output.WriteLine(fmt.Sprintf("      Casts: %d", progress.LifetimeCasts))
+			ctx.Output.WriteLine("")
+		}
+	}
+
+	// Display maneuvers
+	if len(maneuversList) > 0 {
+		ctx.Output.WriteLine("MANEUVERS:")
+		for _, spell := range maneuversList {
+			progress := p.Skills[spell.ID]
+			ctx.Output.WriteLine(fmt.Sprintf("  [%d] %s", spell.ID, spell.Name))
+			ctx.Output.WriteLine(fmt.Sprintf("      Cooldown: %ds | Proficiency: %d%%",
+				spell.CooldownSeconds, progress.Proficiency))
+			ctx.Output.WriteLine(fmt.Sprintf("      Uses: %d", progress.LifetimeCasts))
+			ctx.Output.WriteLine("")
+		}
+	}
+
+	if len(spellsList) == 0 && len(maneuversList) == 0 {
+		ctx.Output.WriteLine("You haven't learned any abilities yet.")
+		ctx.Output.WriteLine("")
+	}
 }
 
 func cmdCast(ctx Context, args string) {
@@ -240,7 +226,7 @@ func cmdCast(ctx Context, args string) {
 
 	args = strings.TrimSpace(args)
 	if args == "" {
-		ctx.Output.WriteLine("Cast what? (syntax: cast <spell name>)")
+		ctx.Output.WriteLine("Cast what? (syntax: cast <spell> or cast <spell> <target>)")
 		return
 	}
 
@@ -251,17 +237,34 @@ func cmdCast(ctx Context, args string) {
 		p.Skills = make(map[int]*skills.PlayerSkillProgress)
 	}
 
-	// Find the spell by name
-	spell := skills.GetSpellByName(args)
-	if spell == nil {
-		ctx.Output.WriteLine(fmt.Sprintf("You don't know any spell called '%s'", args))
-		return
+	// Parse spell name and target
+	// Try to find the longest matching spell name
+	var spell *skills.Spell
+	var targetKeyword string
+	var skillProgress *skills.PlayerSkillProgress
+	var hasSkill bool
+
+	// Try matching from longest to shortest spell name
+	words := strings.Fields(args)
+	for i := len(words); i > 0; i-- {
+		potentialSpellName := strings.Join(words[:i], " ")
+		spell = skills.GetSpellByName(potentialSpellName)
+
+		if spell != nil {
+			skillProgress, hasSkill = p.Skills[spell.ID]
+			if hasSkill && skillProgress.Learned {
+				// Found a matching learned spell
+				if i < len(words) {
+					targetKeyword = strings.Join(words[i:], " ")
+				}
+				break
+			}
+			spell = nil // Reset if not learned
+		}
 	}
 
-	// Check if player has learned this spell
-	skillProgress, hasSkill := p.Skills[spell.ID]
-	if !hasSkill || !skillProgress.Learned {
-		ctx.Output.WriteLine(fmt.Sprintf("You haven't learned %s yet.", spell.Name))
+	if spell == nil {
+		ctx.Output.WriteLine(fmt.Sprintf("You don't know any spell called '%s'", args))
 		return
 	}
 
@@ -273,19 +276,89 @@ func cmdCast(ctx Context, args string) {
 		return
 	}
 
+	// Handle targeting based on spell type
+	var targetMob *game.Mobile
+	needsTarget := spell.Targeting.Mode == "hostile_single" || spell.Targeting.Mode == "hostile_area"
+
+	if needsTarget {
+		if targetKeyword == "" {
+			ctx.Output.WriteLine("Cast on whom?")
+			return
+		}
+
+		// Find target mob by keyword
+		mob, found := ctx.World.FindMobInRoom(p, targetKeyword)
+		if !found {
+			ctx.Output.WriteLine(fmt.Sprintf("You don't see '%s' here.", targetKeyword))
+			return
+		}
+		targetMob = mob
+	}
+
 	// Cast the spell!
 	p.Mana -= spell.ManaCost
 	skillProgress.UpdateCooldown()
 	skillProgress.UpdateProficiency(1) // +1% proficiency per cast
 
-	// Success message
-	msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
-	msg = strings.ReplaceAll(msg, "$spell", spell.Name)
-	ctx.Output.WriteLine(fmt.Sprintf("%s (Proficiency: %d%%)", msg, skillProgress.Proficiency))
-	ctx.Output.WriteLine(fmt.Sprintf("Mana remaining: %d/%d", p.Mana, p.MaxMana))
+	// Calculate damage if it's a damage spell
+	totalDamage := 0
+	if spell.Effects.Damage != "" && spell.Effects.Damage != "0" {
+		// Parse damage formula: "1d6 + I/2" means 1d6 + INT/2
+		damageFormula := spell.Effects.Damage
 
-	// For now, spell effects (damage, healing, etc.) would be implemented here
-	// This is a placeholder for actual combat/effect system integration
+		// Roll base dice (e.g., "1d6")
+		parts := strings.Split(damageFormula, "+")
+		baseDamage := 0
+		if len(parts) > 0 {
+			dicePart := strings.TrimSpace(parts[0])
+			baseDamage = rollDice(dicePart)
+		}
+
+		// Add attribute bonus (INT for spells)
+		intBonus := p.Attributes[1] / 2 // INT is index 1
+		totalDamage = baseDamage + intBonus
+
+		// Add proficiency scaling
+		proficiencyBonus := skillProgress.Proficiency / 20
+		totalDamage += proficiencyBonus
+
+		// Deal damage to target
+		if targetMob != nil {
+			died := ctx.World.DamageMob(p, targetMob, totalDamage)
+
+			// Show messages
+			msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+			msg = strings.ReplaceAll(msg, "$spell", spell.Name)
+			msg = strings.ReplaceAll(msg, "$target", targetMob.Short)
+			msg = strings.TrimSuffix(msg, ".") // Remove trailing period before appending damage
+			ctx.Output.WriteLine(fmt.Sprintf("%s for &R%d&w damage! (Proficiency: %d%%)",
+				msg, totalDamage, skillProgress.Proficiency))
+			ctx.Output.WriteLine(fmt.Sprintf("Mana remaining: %d/%d", p.Mana, p.MaxMana))
+
+			// Broadcast to room
+			roomMsg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+			roomMsg = strings.ReplaceAll(roomMsg, "$target", targetMob.Short)
+			ctx.World.BroadcastCombatMessage(p, roomMsg)
+
+			if died {
+				deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", targetMob.Short)
+				ctx.Output.WriteLine(deathMsg)
+				ctx.World.BroadcastCombatMessage(p, deathMsg)
+			} else {
+				hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", targetMob.Short, targetMob.HP, targetMob.MaxHP)
+				ctx.Output.WriteLine(hpMsg)
+			}
+		}
+	} else {
+		// Non-damage spell (utility, healing, etc.)
+		msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+		msg = strings.ReplaceAll(msg, "$spell", spell.Name)
+		if targetMob != nil {
+			msg = strings.ReplaceAll(msg, "$target", targetMob.Short)
+		}
+		ctx.Output.WriteLine(fmt.Sprintf("%s (Proficiency: %d%%)", msg, skillProgress.Proficiency))
+		ctx.Output.WriteLine(fmt.Sprintf("Mana remaining: %d/%d", p.Mana, p.MaxMana))
+	}
 }
 
 // rollDice rolls XdY dice (e.g., "1d6" rolls 1 six-sided die)
@@ -294,11 +367,11 @@ func rollDice(notation string) int {
 	if len(parts) != 2 {
 		return 0
 	}
-	
+
 	var numDice, dieSize int
 	fmt.Sscanf(parts[0], "%d", &numDice)
 	fmt.Sscanf(parts[1], "%d", &dieSize)
-	
+
 	total := 0
 	for i := 0; i < numDice; i++ {
 		total += rand.Intn(dieSize) + 1
@@ -366,7 +439,7 @@ func cmdSlash(ctx Context, args string) {
 	baseDamage := rollDice("1d6")
 	strBonus := p.Attributes[0] / 2 // STR is index 0
 	totalDamage := baseDamage + strBonus
-	
+
 	// Apply proficiency scaling (higher proficiency = more consistent/higher damage)
 	// For MVP, proficiency adds a small bonus: +1 damage per 20% proficiency
 	proficiencyBonus := skillProgress.Proficiency / 20
@@ -380,10 +453,10 @@ func cmdSlash(ctx Context, args string) {
 	died := ctx.World.DamageMob(p, mob, totalDamage)
 
 	// Show messages
-	playerMsg := fmt.Sprintf("You slash at %s for &R%d&w damage! (Proficiency: %d%%)", 
+	playerMsg := fmt.Sprintf("You slash at %s for &R%d&w damage! (Proficiency: %d%%)",
 		mob.Short, totalDamage, skillProgress.Proficiency)
 	ctx.Output.WriteLine(playerMsg)
-	
+
 	roomMsg := fmt.Sprintf("%s slashes at %s!", p.Name, mob.Short)
 	ctx.World.BroadcastCombatMessage(p, roomMsg)
 
@@ -645,6 +718,41 @@ func cmdRemoveKeeper(ctx Context, args string) {
 	target.IsKeeper = false
 	ctx.Output.WriteLine(fmt.Sprintf("You strip %s of their Keeper responsibilities.", target.Name))
 	target.Output.WriteLine("Your status as a Keeper has been revoked.")
+}
+
+func cmdSpawn(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in.")
+		return
+	}
+
+	if !ctx.Player.IsKeeper {
+		ctx.Output.WriteLine("You do not have the authority to do that.")
+		return
+	}
+
+	vnumStr := strings.TrimSpace(args)
+	if vnumStr == "" {
+		ctx.Output.WriteLine("Usage: spawn <mob vnum>")
+		ctx.Output.WriteLine("Example: spawn 90001")
+		return
+	}
+
+	vnum, err := strconv.Atoi(vnumStr)
+	if err != nil {
+		ctx.Output.WriteLine("Invalid vnum. Must be a number.")
+		return
+	}
+
+	// Spawn the mob
+	mob, err := ctx.World.SpawnMob(ctx.Player, vnum)
+	if err != nil {
+		ctx.Output.WriteLine(fmt.Sprintf("Failed to spawn mob: %s", err.Error()))
+		return
+	}
+
+	ctx.Output.WriteLine(fmt.Sprintf("&GYou summon %s into existence!&w", mob.Short))
+	ctx.World.BroadcastCombatMessage(ctx.Player, fmt.Sprintf("%s summons %s into existence!", ctx.Player.Name, mob.Short))
 }
 
 func cmdTeleport(ctx Context, args string) {

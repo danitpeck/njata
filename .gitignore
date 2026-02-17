@@ -1,0 +1,14 @@
+# Build artifacts
+njata.exe
+njata.exe~
+*.exe
+*.exe~
+*.out
+bin/
+dist/
+build/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db

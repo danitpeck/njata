@@ -1,0 +1,1803 @@
+{
+  "name": "Build Interface Stuff",
+  "author": "Haus",
+  "reset_minutes": 15,
+  "rooms": {
+    "9500": {
+      "vnum": 9500,
+      "name": "Hermit's hut",
+      "description": "You are inside the hermit's hut. It is rather old, but serves it purpose.\nIt keeps its habitant from the rough winds and dangerous beasts of the\nplains and foothills. There is a small fireplace here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9501,
+        "south": 9504
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 30,
+          "count": 1,
+          "room": 9500
+        }
+      ]
+    },
+    "9501": {
+      "vnum": 9501,
+      "name": "Inside a small tent",
+      "description": "This is a small and simple tent with few possessions in sight. Lying\nhere and there are young-looking men and women, possibly slaves to the\nleader of this band.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 9502,
+        "south": 9505,
+        "west": 9500
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9502": {
+      "vnum": 9502,
+      "name": "A Hovel",
+      "description": "You are inside the hermit's hut. It is rather old, but serves it purpose.\nIt keeps its habitant from the rough winds and dangerous beasts of the\nplains and foothills. There is a small fireplace here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9503,
+        "south": 9506,
+        "west": 9501
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9503": {
+      "vnum": 9503,
+      "name": "A Campsite",
+      "description": "This small group of desert nomads has stopped for the day to rest\nand refresh themselves beside this beautiful oasis. Three tents and some\ncamels make up the party. From within two of the tents you hear muffled\nvoices, obviously surprised at your visit.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "south": 9507,
+        "west": 9502
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9504": {
+      "vnum": 9504,
+      "name": "A Shack",
+      "description": "You are inside the hermit's hut. It is rather old, but serves it purpose.\nIt keeps its habitant from the rough winds and dangerous beasts of the\nplains and foothills. There is a small fireplace here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9505,
+        "north": 9500,
+        "south": 9508
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9505": {
+      "vnum": 9505,
+      "name": "Inside the cabin",
+      "description": "You are inside a small one-room cabin made entirely from heavy logs.  It is\nvery sparsely furnished, containing only most basic housekeeping equipment,\nsuch as a bed, a chair and a table.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9506,
+        "north": 9501,
+        "south": 9509,
+        "west": 9504
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9506": {
+      "vnum": 9506,
+      "name": "A Homestead",
+      "description": "You are inside a small one-room cabin made entirely from heavy logs.  It is\nvery sparsely furnished, containing only most basic housekeeping equipment,\nsuch as a bed, a chair and a table.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9507,
+        "north": 9502,
+        "south": 9510,
+        "west": 9505
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9507": {
+      "vnum": 9507,
+      "name": "A Keep",
+      "description": "You are in a huge hall. Large tapestries line the walls and huge statues of\nvarious make and appearance are spread about. The ceiling above supports huge\ncandelabras, which light the room. To the east, you see a bright light and\nhear sounds of inhabitation. Looking west, you see the entry gates to the keep.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 9503,
+        "south": 9511,
+        "west": 9506
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9508": {
+      "vnum": 9508,
+      "name": "A Fortress",
+      "description": "You are in a huge hall. Large tapestries line the walls and huge statues of\nvarious make and appearance are spread about. The ceiling above supports huge\ncandelabras, which light the room. To the east, you see a bright light and\nhear sounds of inhabitation. Looking west, you see the entry gates to the keep.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9509,
+        "north": 9504,
+        "south": 9513
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9509": {
+      "vnum": 9509,
+      "name": "A Castle",
+      "description": "You are in a huge hall. Large tapestries line the walls and huge statues of\nvarious make and appearance are spread about. The ceiling above supports huge\ncandelabras, which light the room. To the east, you see a bright light and\nhear sounds of inhabitation. Looking west, you see the entry gates to the keep.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9510,
+        "north": 9505,
+        "south": 9514,
+        "west": 9508
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9510": {
+      "vnum": 9510,
+      "name": "Guard House",
+      "description": "You are in the guard house to the west of the entrance\nto the castle.  There are nude posters covering the walls.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9511,
+        "north": 9506,
+        "south": 9515,
+        "west": 9509
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9511": {
+      "vnum": 9511,
+      "name": "By the Temple Altar",
+      "description": "You are by the temple altar in the northern end of the Temple of Darkhaven.\nA huge altar made from white polished marble is standing in front of you and\nbehind it is a ten foot tall sitting statue of Odin, the King of the Gods.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomagic": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "north": 9507,
+        "south": 9516,
+        "west": 9510
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9512": {
+      "vnum": 9512,
+      "name": "Inside a Store",
+      "description": "You are in a small room that smells of rare chemicals and spices.\nDividing the room in two is a large desk, and on the wall behind it are\nnumerous shelves crammed with jars, bottles, books and scrolls of all\nsorts and sizes.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9513,
+        "south": 9517
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9513": {
+      "vnum": 9513,
+      "name": "A Spooky Graveyard",
+      "description": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.  An iron\ngrate is to the north and narrow gravel paths lead east and west.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 9514,
+        "north": 9508,
+        "south": 9518,
+        "west": 9512
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9514": {
+      "vnum": 9514,
+      "name": "A Monestary",
+      "description": "You are in a huge hall. Large tapestries line the walls and huge statues of\nvarious make and appearance are spread about. The ceiling above supports huge\ncandelabras, which light the room. To the east, you see a bright light and\nhear sounds of inhabitation. Looking west, you see the entry gates to the keep.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "lawful": true
+      },
+      "exits": {
+        "east": 9515,
+        "north": 9509,
+        "south": 9519,
+        "west": 9513
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9515": {
+      "vnum": 9515,
+      "name": "A Stable",
+      "description": "This is a large stable where mounts of all types are brought to be trained\nas mounts.  Looking about you see four stable-hands trying to saddle a\nexcitable and sleek looking stallion that stands nearly 18 hands tall.\nThere are a number of different stalls here each holding a different mount,\nfrom the every day pack mule to the exotic Tros horse.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9516,
+        "north": 9510,
+        "south": 9520,
+        "west": 9514
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9516": {
+      "vnum": 9516,
+      "name": "A Tavern",
+      "description": "You are standing in the bar.  The bar is set against the northern wall, old\narchaic writing, carvings and symbols cover its top.  A fireplace is built into\nthe western wall, and through the southeastern windows you can see the temple\nsquare.  This place makes you feel like home.\nA small sign with big letters is fastened to the bar.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9511,
+        "south": 9521,
+        "west": 9515
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9517": {
+      "vnum": 9517,
+      "name": "The Basement",
+      "description": "This seems like your average basement.  Old Christmas decorations,\nsuitcases, bicycles litter your way.  You hear the squeaking of\nrats in the corners.",
+      "sector": "mountain",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9518,
+        "north": 9512,
+        "south": 9522
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9518": {
+      "vnum": 9518,
+      "name": "A Bedroom",
+      "description": "This is a snugly set bedroom with all the necessities for a romantic evening.\nA large fireplace adorns the east wall, and sizzling away is the wood that\nis ablaze within.  The bed is enormous, covering at least HALF of this great\nroom.  This stretches at least 300 square feet, so can you imagine the BED?\nA large staircase leads down to the hall.  A couple of doors open up to a\nbroad balcony to the south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9519,
+        "north": 9513,
+        "south": 9523,
+        "west": 9517
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9519": {
+      "vnum": 9519,
+      "name": "A Banquet Room",
+      "description": "You are in the dining area of the student mages. From the number of\ntables and chairs here, you can see that this room could easily seat\nseveral hundred people. It is oddly deserted here, obviously not meal time.\n  Exits lead west to the kitchen, and back east.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9520,
+        "north": 9514,
+        "south": 9524,
+        "west": 9518
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9520": {
+      "vnum": 9520,
+      "name": "A Corridor",
+      "description": "You stand in the great hall of the keep. Huge pillars rise up to the vaulted\nceiling and torch light glimmers off the marble floor here. You are amazed at\nthe sheer size of the hall. The hall itself leads north and east. You notice a\nsmaller hall leading south, deeper into the keep.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9521,
+        "north": 9515,
+        "south": 9525,
+        "west": 9519
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9521": {
+      "vnum": 9521,
+      "name": "An Attic",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9516,
+        "south": 9526,
+        "west": 9520
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9522": {
+      "vnum": 9522,
+      "name": "A Vault",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9523,
+        "north": 9517,
+        "south": 9527
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9523": {
+      "vnum": 9523,
+      "name": "Sitting Room",
+      "description": "You are standing in the middle of a really comfortable place. The walls are\ndecorated with paintings of smiling Kings and Queens. The most attractive\npicture is one of a Prince in shiny armour. By one of the walls there is an\nold arm-chair. The only exit is through the aspenwood door to the east.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9524,
+        "north": 9518,
+        "south": 9528,
+        "west": 9522
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9524": {
+      "vnum": 9524,
+      "name": "Study",
+      "description": "You are in a small dark passage, which would be unremarkable if not for\nthe fact that it ends in a blinding blue light to the west. On hooks set\ninto the wall here there hang several travel worthy cloaks, and a small\nleather backpack.  It looks as if someone has prepared this room to be used\nin the event speedy of a evacuation.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "silence": true
+      },
+      "exits": {
+        "east": 9525,
+        "north": 9519,
+        "south": 9529,
+        "west": 9523
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9525": {
+      "vnum": 9525,
+      "name": "A Passageway",
+      "description": "This Passageway branches off from the main hall and leads somewhere ... where?",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9526,
+        "north": 9520,
+        "south": 9530,
+        "west": 9524
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9526": {
+      "vnum": 9526,
+      "name": "Tower",
+      "description": "The tower creaks and groans, almost as if it were muttering to\nitself.  There are windows displaying a full moon, reigning over\nthe night sky.  The room is dark and there is almost a musty odor\nto it.  You are surprised that you can't detect any dust or dirt,\nalthough there are a couple of cobwebs in the corner.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9521,
+        "south": 9531,
+        "west": 9525
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9527": {
+      "vnum": 9527,
+      "name": "Crypt",
+      "description": "You are in a large room which continues to the west.  You notice many\ncoffins here.  Open coffins reveal remains of something other than man.\nThe smell of reptile is very strong here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9528,
+        "north": 9522,
+        "south": 9532
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9528": {
+      "vnum": 9528,
+      "name": "Work Room",
+      "description": "You are in the workroom of The Mad Alchemist. Bubbling braziers, long\nglass tubes and scores of oddly shaped vials and bottles are everywhere.\nIt is incredibly messy here, crushed glass and other trash litter the floor.\n  The only apparent exit is the one you entered by.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9529,
+        "north": 9523,
+        "south": 9533,
+        "west": 9527
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9529": {
+      "vnum": 9529,
+      "name": "Laboratory",
+      "description": "You are in the workroom of The Mad Alchemist. Bubbling braziers, long\nglass tubes and scores of oddly shaped vials and bottles are everywhere.\nIt is incredibly messy here, crushed glass and other trash litter the floor.\n  The only apparent exit is the one you entered by.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9530,
+        "north": 9524,
+        "south": 9534,
+        "west": 9528
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9530": {
+      "vnum": 9530,
+      "name": "A hallway",
+      "description": "You are in a long hallway leading north and south. The walls emit a faint\nmagical glow which provides enough light to see by.\n  The sharp sound of metal on metal can be heard to the west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9531,
+        "north": 9525,
+        "south": 9535,
+        "west": 9529
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9531": {
+      "vnum": 9531,
+      "name": "Turret",
+      "description": "The tower creaks and groans, almost as if it were muttering to\nitself.  There are windows displaying a full moon, reigning over\nthe night sky.  The room is dark and there is almost a musty odor\nto it.  You are surprised that you can't detect any dust or dirt,\nalthough there are a couple of cobwebs in the corner.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9526,
+        "south": 9536,
+        "west": 9530
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9532": {
+      "vnum": 9532,
+      "name": "Storage Room",
+      "description": "You are in a small store room. Assorted junk is piled on shelves or\nleaning against walls.\n  The only apparent exit it back south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "private": true
+      },
+      "exits": {
+        "east": 9533,
+        "north": 9527,
+        "south": 9537
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9533": {
+      "vnum": 9533,
+      "name": "Kitchen",
+      "description": "This must be the place of food and drink. You can hear the faint noise of\nrats feasting on meat and bread from somewhere undeterminable. The sound\nmakes you feel the agony of HUNGER. The only visible exit is south to the\nNorthern end of the hall. To the north there is a larder, and to the east\nstands a fridge.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9534,
+        "north": 9528,
+        "south": 9538,
+        "west": 9532
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9534": {
+      "vnum": 9534,
+      "name": "The Larder",
+      "description": "You can see food all over. Among the heaps of food you notice HUGE rats\nscuttering around, nibbling pieces off the heaps here and there.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "private": true
+      },
+      "exits": {
+        "east": 9535,
+        "north": 9529,
+        "south": 9539,
+        "west": 9533
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9535": {
+      "vnum": 9535,
+      "name": "The Stairs",
+      "description": "The stairs continue to circle up and down here.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9536,
+        "north": 9530,
+        "south": 9540,
+        "west": 9534
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9536": {
+      "vnum": 9536,
+      "name": "On The Rooftop",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "north": 9531,
+        "south": 9541,
+        "west": 9535
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9537": {
+      "vnum": 9537,
+      "name": "Closet",
+      "description": "You are in a dark broom closet. Many straw brooms and other cleaning\ninstruments have been left here, apparently unused (perhaps the maid quit?).\n  The only exit leads back north to the hallway.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "solitary": true
+      },
+      "exits": {
+        "east": 9538,
+        "north": 9532,
+        "south": 9542
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9538": {
+      "vnum": 9538,
+      "name": "Office",
+      "description": "This is the central office of Discordia.  Here meetings are held and\nimportant issues discussed.  Here the deities and leaders merge together\ntheir trains of thought, to form the governing body of Discordia.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9539,
+        "north": 9533,
+        "south": 9543,
+        "west": 9537
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9539": {
+      "vnum": 9539,
+      "name": "The treasury",
+      "description": "You are in a small chamber, the stale air here is testament to the fact\nthat it has gone undisturbed for many years.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9540,
+        "north": 9534,
+        "south": 9544,
+        "west": 9538
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9540": {
+      "vnum": 9540,
+      "name": "The landing",
+      "description": "You are on a small landing in the middle of a long stairway leading up.\nYour senses seem dulled here, no sound or smell can be detected at all, and\nthe only thing you can see in any direction is endless stairway.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9541,
+        "north": 9535,
+        "south": 9545,
+        "west": 9539
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9541": {
+      "vnum": 9541,
+      "name": "On The Balcony",
+      "description": "You see a splendid of the most of this world. The valleys stretch as far as\nthe eye reaches to the south from here. Down below you can see the entrance\nof this magnificent building. To the north are the doors to Redferne's Bedroom.",
+      "sector": "hills",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9536,
+        "south": 9546,
+        "west": 9540
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9542": {
+      "vnum": 9542,
+      "name": "Foyer",
+      "description": "You are inside the high tower of sorcery. The sight is truly amazing.\nFrom here, it is obvious that somehow, the tower is much larger on the\ninside than it is on the outside. Young mages walk about, completely\noblivious to your presence.\n  Exits lead north to the common room, west to the dinning room, east to\na plain hallway and back south through the gate.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 9543,
+        "north": 9537,
+        "south": 9547
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9543": {
+      "vnum": 9543,
+      "name": "Drawing Room",
+      "description": "You have entered the master enchanter's chamber. Upon all the walls here\nare racks of finely crafted weapons. A huge chest with a glowing lock is\nset to one side. Several unfinished looking blades rest atop a small work\ntable.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9544,
+        "north": 9538,
+        "south": 9548,
+        "west": 9542
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9544": {
+      "vnum": 9544,
+      "name": "The Den",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9545,
+        "north": 9539,
+        "south": 9549,
+        "west": 9543
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9545": {
+      "vnum": 9545,
+      "name": "At A Ladder",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "mountain",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9546,
+        "north": 9540,
+        "south": 9550,
+        "west": 9544
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9546": {
+      "vnum": 9546,
+      "name": "On A Catwalk",
+      "description": "You stand on a precarious catwalk, high above the ground.\nThis small beam is so thin that your toes hang off into the air.",
+      "sector": "mountain",
+      "flags": {
+        "private": true
+      },
+      "exits": {
+        "north": 9541,
+        "south": 9551,
+        "west": 9545
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9547": {
+      "vnum": 9547,
+      "name": "Entrance",
+      "description": "\"Magnificent\" does not even begin to describe the foyer.  Lavishly\ndecorated, yet elegant, it gives an impression of indescribable\nwealth.  Paintings and tapestries line the walls depicting scenes\nfrom throughout history.  Antiques furnitures and oriental rugs are\ntastefully placed in ideal spots.  The door is at least 10 feet\nhigh and is made of oak.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 9548,
+        "north": 9542,
+        "south": 9552
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9548": {
+      "vnum": 9548,
+      "name": "Arboretum.",
+      "description": "A small indoor garden so that the residents don't have to go\noutside to enjoy plants and commune with nature.  There are several\ntrees, a small pond and flowers of every kind.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9549,
+        "north": 9543,
+        "south": 9553,
+        "west": 9547
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9549": {
+      "vnum": 9549,
+      "name": "The Library",
+      "description": "This is truly a magnificent place! Books and scrolls lie together on every\nshelf. A large globe, with the map of the Mud-world upon it, stands in the\ndimly lit north-western corner of the room. Two large and comfortable-\nlooking leather arm-chairs adorn the center of the library together with\na huge oak desk. Dim light radiates from an enormous crystal chandelier\nhanging down from the ceiling approximately 10 feet off the floor. To the\neast there is a great old ashen door. A large glass window is set in the\nwest wall.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9550,
+        "north": 9544,
+        "south": 9554,
+        "west": 9548
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9550": {
+      "vnum": 9550,
+      "name": "A Vent",
+      "description": "It is very dark here...",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "private": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9551,
+        "north": 9545,
+        "south": 9555,
+        "west": 9549
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9551": {
+      "vnum": 9551,
+      "name": "A Shaft",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "north": 9546,
+        "south": 9556,
+        "west": 9550
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9552": {
+      "vnum": 9552,
+      "name": "Gate",
+      "description": "You have reached the entrance to the high tower of sorcerery. The\ntower looms above you at an incredible height. It seems to disappear\ninto the storm clouds above.\n  A diamond gate is to the north, guarded by a huge golem. The trail\nback south has disappeared behind you.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9553,
+        "north": 9547,
+        "south": 9557
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9553": {
+      "vnum": 9553,
+      "name": "Audience Room",
+      "description": "You are in a large chamber. Small bolts of energy leap from wall to wall,\ncrackling with power. The floor is a swirl of indeterminable colors and\npatterns ever changing. Bright bursts of color seem to explode into the air\nand fade again at random times. All this splendor plays about and draws\nattention to a large throne in the center of the room, it seems to be cut\nfrom a single enormous emerald.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9554,
+        "north": 9548,
+        "south": 9558,
+        "west": 9552
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9554": {
+      "vnum": 9554,
+      "name": "Conservatory",
+      "description": "Here was the rehearsal and recital room for the residents of the\nestate.  There is a Steinway piano in the corner and various gilded\ninstruments are on display in a glass cabinet.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9555,
+        "north": 9549,
+        "south": 9559,
+        "west": 9553
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9555": {
+      "vnum": 9555,
+      "name": "A Dumbwaiter",
+      "description": "It is very dark here...",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "private": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9556,
+        "north": 9550,
+        "south": 9560,
+        "west": 9554
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9556": {
+      "vnum": 9556,
+      "name": "A Chimney",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9551,
+        "south": 9561,
+        "west": 9555
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9557": {
+      "vnum": 9557,
+      "name": "Porch",
+      "description": "A huge patio overlooks the lawn area.  There are enough tables and\nchairs for a party of 100.  The tables and chairs are ornate and\nexpensive, tasteful and elegant.  Stairs lead up to the main\nhouse.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 9558,
+        "north": 9552,
+        "south": 9562
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9558": {
+      "vnum": 9558,
+      "name": "Classroom",
+      "description": "You are in an apparently empty classroom. A strange feeling of being\nwatched comes over you, and you hear the faint rustle of robes.\n  The only apparent exit is back east to the hallway.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9559,
+        "north": 9553,
+        "south": 9563,
+        "west": 9557
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9559": {
+      "vnum": 9559,
+      "name": "Limbo",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9560,
+        "north": 9554,
+        "south": 9564,
+        "west": 9558
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9560": {
+      "vnum": 9560,
+      "name": "Lawn",
+      "description": "The lawn seems to stretch and stretch to the south and to the west.\nNorth of you is a gate.  The grass is emerald green and luscious,\nobviously well cared for.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 9561,
+        "north": 9555,
+        "south": 9565,
+        "west": 9559
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9561": {
+      "vnum": 9561,
+      "name": "Limbo",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 9556,
+        "south": 9566,
+        "west": 9560
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9562": {
+      "vnum": 9562,
+      "name": "Lake",
+      "description": "A huge patio overlooks the lawn area.  There are enough tables and\nchairs for a party of 100.  The tables and chairs are ornate and\nexpensive, tasteful and elegant.  Stairs lead up to the main\nhouse.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 9563,
+        "north": 9557,
+        "south": 9567
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9563": {
+      "vnum": 9563,
+      "name": "Forest",
+      "description": "You are in an apparently empty classroom. A strange feeling of being\nwatched comes over you, and you hear the faint rustle of robes.\n  The only apparent exit is back east to the hallway.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9564,
+        "north": 9558,
+        "south": 9568,
+        "west": 9562
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9564": {
+      "vnum": 9564,
+      "name": "Swamp",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9565,
+        "north": 9559,
+        "south": 9569,
+        "west": 9563
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9565": {
+      "vnum": 9565,
+      "name": "Well",
+      "description": "The lawn seems to stretch and stretch to the south and to the west.\nNorth of you is a gate.  The grass is emerald green and luscious,\nobviously well cared for.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "private": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9566,
+        "north": 9560,
+        "south": 9570,
+        "west": 9564
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9566": {
+      "vnum": 9566,
+      "name": "Street",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 9561,
+        "south": 9571,
+        "west": 9565
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9567": {
+      "vnum": 9567,
+      "name": "On the River",
+      "description": "The levee is directly north of here.  The river flows in an east west\ndirection.",
+      "sector": "r1",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9568,
+        "north": 9562,
+        "south": 9572
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9568": {
+      "vnum": 9568,
+      "name": "The Floor of the Canyon",
+      "description": "Various elemental forms wander the floor of the canyon.  Some seem to be\ngoing about their business, while others seem to have no business at all.\nIn general, it is calm, yet there is always a incessant buzz of things\ngoing on about.  The canyon continues north and east.",
+      "sector": "mountain",
+      "flags": {},
+      "exits": {
+        "east": 9569,
+        "north": 9563,
+        "south": 9573,
+        "west": 9567
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9569": {
+      "vnum": 9569,
+      "name": "Beach",
+      "description": "This damp, cold beach is covered in a thick grey mist limiting vision\nto arms reach.  The ghostly sound of the waves can be heard off to the\neast. The mist itself seem to be flowing in from the west.",
+      "sector": "desert",
+      "flags": {},
+      "exits": {
+        "east": 9570,
+        "north": 9564,
+        "south": 9574,
+        "west": 9568
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9570": {
+      "vnum": 9570,
+      "name": "Mine",
+      "description": "You are at the bottom of the mineshaft.  The air here is very sooty, and\nit is very hard to breath.  The mineshaft leads up and east.",
+      "sector": "mountain",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9571,
+        "north": 9565,
+        "south": 9575,
+        "west": 9569
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9571": {
+      "vnum": 9571,
+      "name": "Road",
+      "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east and west while to the north lies the general store.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "north": 9566,
+        "south": 9576,
+        "west": 9570
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9572": {
+      "vnum": 9572,
+      "name": "On the Stream",
+      "description": "The stream is cold and frigid, yet it supports plenty of life beneath its\nsurface.  The current trickles west and there is a field to the south.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 9573,
+        "north": 9567
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9573": {
+      "vnum": 9573,
+      "name": "The forest clearing",
+      "description": "You are in a clearing in the forest.  Lots of fresh stumps of varying sizes\nprotrude from the ground and heavy logs are stacked neatly in a big pile\nsupported by stakes set into the ground.  Paths lead north, east and west.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 9574,
+        "north": 9568,
+        "west": 9572
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9574": {
+      "vnum": 9574,
+      "name": "Snake Pit",
+      "description": "You stand beside a large dark pond.  The water boils not with heat, but with\nmotion, as if it is alive.  A creaking beat pulses through the air, leaving\nyou with a cold sweat and fear in your heart.",
+      "sector": "mountain",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9575,
+        "north": 9569,
+        "south": 9577,
+        "west": 9573
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9575": {
+      "vnum": 9575,
+      "name": "Tunnel",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9576,
+        "north": 9570,
+        "south": 9578,
+        "west": 9574
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9576": {
+      "vnum": 9576,
+      "name": "Path",
+      "description": "You are on a small path leading through the dense forest.  The crowns of the\nold trees leave the forest in an unreal twilight illumination.  The path\ncontinues east and west.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 9571,
+        "south": 9579,
+        "west": 9575
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9577": {
+      "vnum": 9577,
+      "name": "Sandstorm",
+      "description": "A vast desert stretches for miles, the sand constantly shifting around you.\nYou feel lost.",
+      "sector": "desert",
+      "flags": {},
+      "exits": {
+        "east": 9578,
+        "north": 9574,
+        "south": 9582
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9578": {
+      "vnum": 9578,
+      "name": "Rope",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 9579,
+        "north": 9575,
+        "south": 9583,
+        "west": 9577
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9579": {
+      "vnum": 9579,
+      "name": "Cliff",
+      "description": "Being very careful not to lose your balance, you look around and\nfind that this canyon is about a half a kilometer deep. To the west is\na dark cave leading under the desert sands.",
+      "sector": "mountain",
+      "flags": {},
+      "exits": {
+        "north": 9576,
+        "south": 9584,
+        "west": 9578
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9580": {
+      "vnum": 9580,
+      "name": "An Underground River",
+      "description": "You are standing in water, the tunnel continues both to the\nnorth and south.",
+      "sector": "r1",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "tunnel": true
+      },
+      "exits": {
+        "east": 9581,
+        "south": 9585
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9581": {
+      "vnum": 9581,
+      "name": "Jungle",
+      "description": "You stand beside a large dark pond.  The water boils not with heat, but with\nmotion, as if it is alive.  A creaking beat pulses through the air, leaving\nyou with a cold sweat and fear in your heart.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9582,
+        "south": 9586,
+        "west": 9580
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9582": {
+      "vnum": 9582,
+      "name": "Sand Bar",
+      "description": "You are on a little sand bar in the water.",
+      "sector": "desert",
+      "flags": {},
+      "exits": {
+        "east": 9583,
+        "north": 9577,
+        "south": 9587,
+        "west": 9581
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9583": {
+      "vnum": 9583,
+      "name": "On the Rope Bridge",
+      "description": "You are on the rope bridge.  From here, you can see the whole Valley of the\nElves.  To the south, you see the main valley.  To the north-east, you see a\nsmaller valley with a building in the center of it.  To the north-west, you\ncan see a very small valley with a shack in it's center.  A rope ladder\nleads down into a trail.",
+      "sector": "mountain",
+      "flags": {},
+      "exits": {
+        "east": 9584,
+        "north": 9578,
+        "south": 9588,
+        "west": 9582
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9584": {
+      "vnum": 9584,
+      "name": "A Bridge",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 9579,
+        "south": 9589,
+        "west": 9583
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9585": {
+      "vnum": 9585,
+      "name": "An Underground Lake",
+      "description": "You stand beside a large dark pond.  The water boils not with heat, but with\nmotion, as if it is alive.  A creaking beat pulses through the air, leaving\nyou with a cold sweat and fear in your heart.",
+      "sector": "r1",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9586,
+        "north": 9580
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9586": {
+      "vnum": 9586,
+      "name": "Cave",
+      "description": "This cavern overwhelms you. The walls and ceiling seem miles away.\nBones of previous adventurers lie strewn on the cavern floor.",
+      "sector": "mountain",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9587,
+        "north": 9581,
+        "west": 9585
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9587": {
+      "vnum": 9587,
+      "name": "Sombody Ignored This Room",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 9588,
+        "north": 9582,
+        "west": 9586
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9588": {
+      "vnum": 9588,
+      "name": "A Rope Ladder",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "mountain",
+      "flags": {},
+      "exits": {
+        "east": 9589,
+        "north": 9583,
+        "west": 9587
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9589": {
+      "vnum": 9589,
+      "name": "A Natural Bridge",
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "sector": "hills",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 9584,
+        "west": 9588
+      },
+      "exdescs": {},
+      "area_name": "Build Interface Stuff",
+      "area_author": "Haus",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {},
+  "objects": {}
+}

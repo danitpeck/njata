@@ -1,0 +1,5268 @@
+{
+  "name": "Sewer",
+  "author": "Diku",
+  "reset_minutes": 15,
+  "rooms": {
+    "7001": {
+      "vnum": 7001,
+      "name": "The muddy sewer",
+      "description": "You are standing in mud to your knees. This is not the kind of place\nfor a picnic. The muddy sewer stretches further into the south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7002
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7002": {
+      "vnum": 7002,
+      "name": "The muddy sewer junction",
+      "description": "The muddy sewer stretches into the dark to the south. It looks as if\nno person has ever sat his foot here before. It's too muddy for that\nanyway. The sewer leads north, south and east from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7007,
+        "north": 7001,
+        "south": 7003
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7003": {
+      "vnum": 7003,
+      "name": "The mudhole",
+      "description": "You stand in mud all the way up to your thighs and it's not too\ncomfortable since you are used to a somewhat different environment.\nThe sewer leads to the north of here. In the middle you can just make\nout an enormous drainpipe leading down.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 7101,
+        "north": 7002
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7004": {
+      "vnum": 7004,
+      "name": "The Dark Pit",
+      "description": "You are standing by the edge of a dark pit that leads down into even\ndeeper darkness. \u003eBWWAAADDRR\u003c - The smell from down there is unbearable.\nThe sewer stretches into the darkness to the east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7102,
+        "east": 7009
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7004
+        },
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7004
+        }
+      ],
+      "object_resets": []
+    },
+    "7005": {
+      "vnum": 7005,
+      "name": "The muddy sewer",
+      "description": "You are standing in the middle of a bend of the sewer pipe. It is very\ndark around here and the mud is sticking to your legs, not very pleasant.\nThe pipe leads east and south from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7011,
+        "south": 7006
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7006": {
+      "vnum": 7006,
+      "name": "The muddy sewer",
+      "description": "You are standing in something that reminds you very much of porridge, this\nhas the advantage that it's not hot, it's rather cold actually. The pipe\nbends to the north and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7012,
+        "north": 7005
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7007": {
+      "vnum": 7007,
+      "name": "The muddy sewer bend",
+      "description": "This isn't your idea of a place to stay too long. You're in up to your\nknees in something that resembles mud, but you're not quite sure. The\nbend in which you stand leads west and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7008,
+        "west": 7002
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7008": {
+      "vnum": 7008,
+      "name": "A muddy intersection",
+      "description": "You have both your feet safely stuck in mud. It isn't the mud that's wrong\nit's the smell, the sounds, the total darkness that surrounds you. Everything\nhere is so depressing. The pipe leads on with a trail of thick mud to the\nnorth, east and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7014,
+        "north": 7007,
+        "south": 7009
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7009": {
+      "vnum": 7009,
+      "name": "The Sewer Junction",
+      "description": "You stand in the middle of a huge junction of sewer pipes right under\nwhat you'd think was an air shaft. The sewer pipes lead to the north,\nsouth, east and west. It look quite impossible to force your way up.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7017,
+        "north": 7008,
+        "south": 7010,
+        "west": 7004
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7010": {
+      "vnum": 7010,
+      "name": "A bend in sewer pipe",
+      "description": "You are in a bend in the sewer pipe. A strong smell seeps in from the north.\nThe sewer goes north and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7018,
+        "north": 7009
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7011": {
+      "vnum": 7011,
+      "name": "The muddy sewer pipe",
+      "description": "You have entered a kind of tube intersection that leads south, west and east.\nYour legs are covered in mud up to the knees. REAL yucky!",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7024,
+        "south": 7021,
+        "west": 7005
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7012": {
+      "vnum": 7012,
+      "name": "The bend in the Muddy sewer",
+      "description": "This is not your idea of a holiday. You stand in mud up to your knees.\nIt's absolutely inconceivable how all this mud could have been placed\nhere. The pipe leads to the west and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7013,
+        "west": 7006
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7013": {
+      "vnum": 7013,
+      "name": "A MUDDY intersection",
+      "description": "You wouldn't want to know the true feeling of standing in this mud up to\nyour hips. \u003eBWAADR\u003c. All that fills your mind right now is the dream of\na hot bath. This is NOT very clean mud you know, remember you're in the\nsewer! The pipes leads north, south and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7026,
+        "north": 7012,
+        "south": 7014
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING.",
+        "sediment": "It's NOT the kind of matter that would concern you too much, normally, but\nas you are in the middle of it, it just might become your main concern.\nREAL YUCKY!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7014": {
+      "vnum": 7014,
+      "name": "Muddy sewer",
+      "description": "You stand in a bend of the pipe system of the sewer with mud up to your\nthighs. Contemplating a higher level of existence here would be utterly\ninappropriate, as the smell would keep any intelligent creature from even\nthinking of anything but getting away from this foul end of the WORLD.\nThe bend goes from north to west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7013,
+        "west": 7008
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7015": {
+      "vnum": 7015,
+      "name": "The old well",
+      "description": "You are standing by an old and worn well from before this century. The sewer\nleads to the east from here and the well leads down into darkness. Metal\nbars implanted in the side of the well lead down as a ladder.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7105,
+        "east": 7028
+      },
+      "exdescs": {
+        "bars": "These look like they're pretty slippery, and not very safe, but perhaps safe\nenough for you to climb down, WITH both hands on them."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7016": {
+      "vnum": 7016,
+      "name": "The ordinary bend",
+      "description": "You are in the middle of a bend in the pipe system of the sewer system,\nWHAT a place!!! The pipe leads to the south and the east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7021,
+        "south": 7017
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7017": {
+      "vnum": 7017,
+      "name": "The sewer junction",
+      "description": "You are in a junction that leads north, west and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7016,
+        "south": 7018,
+        "west": 7009
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7018": {
+      "vnum": 7018,
+      "name": "The ordinary junction",
+      "description": "This looks like an ordinary junction, actually it seems very quiet\nhere. The pipelines lead west, east and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7031,
+        "north": 7017,
+        "west": 7010
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7021": {
+      "vnum": 7021,
+      "name": "A quiet pipe junction",
+      "description": "This is the kind of place to rest, though the smell could be a LOT better\nthan this. The sewer goes east, north and west from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7029,
+        "north": 7011,
+        "west": 7016
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7022": {
+      "vnum": 7022,
+      "name": "The odd room with smooth walls",
+      "description": "As you enter you hear a loud click from one of the walls ... and you fall\nand fall and fall ...\n.\n.\n.\n.\n ... And come to an abrupt end. THIS is strange indeed. There's an arched\nentryway leading down.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7112
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7024": {
+      "vnum": 7024,
+      "name": "The sewer",
+      "description": "You are standing in mud up to your ankles. This is an intersection with\nsewer pipes leading east, south and west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7037,
+        "south": 7025,
+        "west": 7011
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7025": {
+      "vnum": 7025,
+      "name": "Another intersection",
+      "description": "You have never seen anything so BORING...This is an intersection with pipes\nleading north, south and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7038,
+        "north": 7024,
+        "south": 7026
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7025
+        }
+      ],
+      "object_resets": []
+    },
+    "7026": {
+      "vnum": 7026,
+      "name": "A junction",
+      "description": "This one seems interesting, a big difference from all the other junctions.\nIt seems cleaner than the rest of them. Weird. Something that looks like\nan air shaft leads upwards, but it looks far too slippery to climb.\nThe pipes lead to the south, west and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 7025,
+        "south": 7028,
+        "west": 7013
+      },
+      "exdescs": {
+        "mud": "It's dark as tar and looks like something out of a toilet, on top of THAT\nthe smell is absolutely OVERWHELMING."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7028": {
+      "vnum": 7028,
+      "name": "The sewer junction",
+      "description": "You stand in a junction of sewer pipes leading north, east and west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7034,
+        "north": 7026,
+        "west": 7015
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7029": {
+      "vnum": 7029,
+      "name": "The Triple Junction",
+      "description": "You stand in the middle of a huge junction of concrete sewer pipes. The\npipes lead into three different directions : east, south and west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7035,
+        "south": 7030,
+        "west": 7021
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7030": {
+      "vnum": 7030,
+      "name": "A junction point under the southern gate",
+      "description": "You are standing in something that reminds you of an entry to an ant hive.\nThere are enormous concrete pipes leading north, south, east and west.\nThere's also a metal ladder built into the concrete wall leading up through\na layer of garbage.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7036,
+        "north": 7029,
+        "south": 7031,
+        "up": 21075,
+        "west": 7022
+      },
+      "exdescs": {
+        "ladder": "It looks as if it's made of stainless steel, and it would very well function\nas a club of considerable power, but alas ... You can't take at all since\nit's firmly set into the concrete wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7031": {
+      "vnum": 7031,
+      "name": "A darker junction",
+      "description": "You stand in a darkly-shadowed junction, with passages leading west, north\nand east, while a crude opening in the earth leads south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7044,
+        "north": 7030,
+        "south": 3590,
+        "west": 7018
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 3,
+          "room": 7031
+        }
+      ],
+      "object_resets": []
+    },
+    "7034": {
+      "vnum": 7034,
+      "name": "A bend in the sewer pipe",
+      "description": "You can look in two directions where the pipe leads : south and west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7035,
+        "west": 7028
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7035": {
+      "vnum": 7035,
+      "name": "The sewer pipe bend",
+      "description": "You can look in two different directions where the pipe goes : west and\nnorth.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7034,
+        "west": 7029
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7036": {
+      "vnum": 7036,
+      "name": "The pit",
+      "description": "You stand in a section of a pipe that leads to a dead end. In the floor\nthere's a pit leading down. There are bars set in the side of the pit wall\nfunctioning as a ladder.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7122,
+        "west": 7030
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7037": {
+      "vnum": 7037,
+      "name": "The round room",
+      "description": "As you enter the room it starts rotating - at first slowly, later faster\nand faster - You get totally confused as to where up and down is, but you are\ncertain that the doorway is in the opposite direction of what it was when\nyou entered. It now leads east. There was only this one exit.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7050
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7037
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7037
+        }
+      ],
+      "object_resets": []
+    },
+    "7038": {
+      "vnum": 7038,
+      "name": "The three way junction",
+      "description": "You are standing in a junction of pipes that lead west, east and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7045,
+        "south": 7039,
+        "west": 7025
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7039": {
+      "vnum": 7039,
+      "name": "The Sewer Store Room",
+      "description": "You stand in a small room lit by a single torch set in the wall. The only\nway out of here is to the north.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7038
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        },
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7039
+        }
+      ],
+      "object_resets": []
+    },
+    "7041": {
+      "vnum": 7041,
+      "name": "The Shaft",
+      "description": "You are standing by the edge of a deep, dark shaft leading down. A single\nladder is your tool to work your way down if you so wish. The sewer pipe\nleads south from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7123,
+        "south": 7043
+      },
+      "exdescs": {
+        "ladder": "Firmly set into the wall of the shaft it's impossible to even rock, is your\nestimate."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7001,
+          "count": 12,
+          "room": 7041
+        }
+      ],
+      "object_resets": []
+    },
+    "7043": {
+      "vnum": 7043,
+      "name": "The Sewer Entrance",
+      "description": "You stand in the middle of a pipe that leads from north to south. Above you\nan air shaft leads up into sunlight. It seems totally impossible to go up\nthat way.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7041,
+        "south": 7044
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7044": {
+      "vnum": 7044,
+      "name": "The junction going three ways",
+      "description": "You are in a passageway in the pipes of the sewer system leading north, east\nand west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7049,
+        "north": 7043,
+        "west": 7031
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7045": {
+      "vnum": 7045,
+      "name": "The Sewer Room",
+      "description": "You are standing in a large room with chairs set in the walls. You have the\nfeeling of being watched. To the south there's an entry to a larger room.\nThe room is lit by five torches, also set in the walls. To the west there\nis a doorway leading out to the sewers.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 7046,
+        "west": 7038
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7046": {
+      "vnum": 7046,
+      "name": "The Sewer room",
+      "description": "This is a Room with walls that glitters like gold though not quite like it.\nThis is strange as it looks as if the glitter lights the whole room. It\nlooks very bright. To the south the floor is covered with yucky water. The\nNorth leads to sort of a Guard Room.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7045,
+        "south": 7047
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7047": {
+      "vnum": 7047,
+      "name": "The Pool in the Sewer",
+      "description": "You stand in water to your waist.  To the north is the entrance to this room.\nA single door leads east.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7053,
+        "north": 7046
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7048": {
+      "vnum": 7048,
+      "name": "The Sewers",
+      "description": "You stand in a dead end of the sewer. The only way out is south.\nYou can see a shaft leading up but it looks too difficult to go up\nthat way.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7049
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7049": {
+      "vnum": 7049,
+      "name": "The junction",
+      "description": "You stand in a junction leading north, west and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7060,
+        "north": 7048,
+        "west": 7044
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 3,
+          "room": 7049
+        }
+      ],
+      "object_resets": []
+    },
+    "7050": {
+      "vnum": 7050,
+      "name": "The small room",
+      "description": "The only thing in this room of interest is a chair, and that's tight to the\nrock floor. A doorway leads south and another leads east into darkness.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7055,
+        "south": 7051
+      },
+      "exdescs": {
+        "chair": "This chair is made of marble, but the fact that it is worn and attached to the\nfloor makes you think twice about taking it along with you."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7003,
+          "count": 8,
+          "room": 7050
+        }
+      ],
+      "object_resets": []
+    },
+    "7051": {
+      "vnum": 7051,
+      "name": "The Sewer pipe",
+      "description": "You are in what reminds you of a foul sewer, as if you liked being here!\nYou can see two exits leading either north or south.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7050,
+        "south": 7052
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7052": {
+      "vnum": 7052,
+      "name": "The Grand Sewer",
+      "description": "You are in a Grand Sewer Pipe. This stretches toward the south. It's large\nindeed! A doorway leads to the east from here.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7056,
+        "north": 7051,
+        "south": 7053
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7053": {
+      "vnum": 7053,
+      "name": "The South end of the Grand Pipe",
+      "description": "You stand in water to your knees. A doorway leads west from here. The Pipe\nstretches north.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7052,
+        "west": 7047
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7055": {
+      "vnum": 7055,
+      "name": "The Edge of The Water Sewer",
+      "description": "You stand in a room where half of the floor is covered in water. The water\nleads east and a doorway leads west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7061,
+        "west": 7050
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7056": {
+      "vnum": 7056,
+      "name": "The Dark hallway",
+      "description": "You can't see much of this, even with a light. The hallway goes into a\npassageway to the south. A doorway leads west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7057,
+        "west": 7052
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7057": {
+      "vnum": 7057,
+      "name": "The dark passageway",
+      "description": "You can't see anything but the ground where you put your feet. The\npassageway seems to continue south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7056,
+        "south": 7058
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7058": {
+      "vnum": 7058,
+      "name": "The dark passageway",
+      "description": "You can't see anything but the ground where you put your feet. The\npassageway seems to continue south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7057,
+        "south": 7059
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7059": {
+      "vnum": 7059,
+      "name": "The dark passageway",
+      "description": "You can't see anything but the ground where you put your feet. The\npassageway seems to continue south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7058,
+        "south": 7060
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7060": {
+      "vnum": 7060,
+      "name": "The dark passageway",
+      "description": "You can't see anything but the ground where you put your feet. The\npassageway seems to continue west and north. To the east there's water\ncovering the floor and that leads through an arched entry to a watery\nsewer.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7068,
+        "north": 7059,
+        "west": 7049
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7061": {
+      "vnum": 7061,
+      "name": "The Watery Sewer Bend",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to bend and lead south and west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7062,
+        "west": 7055
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7062": {
+      "vnum": 7062,
+      "name": "The Watery sewer",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7061,
+        "south": 7063
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7063": {
+      "vnum": 7063,
+      "name": "The Watery sewer",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7062,
+        "south": 7064
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7064": {
+      "vnum": 7064,
+      "name": "The Watery Sewer Junction",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead into a junction going south, north and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7069,
+        "north": 7063,
+        "south": 7065
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7065": {
+      "vnum": 7065,
+      "name": "The Watery sewer",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7064,
+        "south": 7066
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7066": {
+      "vnum": 7066,
+      "name": "The Watery sewer junction",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead into a junction that goes north, south and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7070,
+        "north": 7065,
+        "south": 7067
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7067": {
+      "vnum": 7067,
+      "name": "The Watery sewer",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to lead south and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7066,
+        "south": 7068
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7068": {
+      "vnum": 7068,
+      "name": "The Watery sewer bend",
+      "description": "You can't see anything but the water you're in up to your hips. The sewer\nseems to bend and lead west and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7067,
+        "west": 7060
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7069": {
+      "vnum": 7069,
+      "name": "A ledge by the dark pool",
+      "description": "You can't see much here but the echo tells you that there's quite a drop\ndown. You can just make out a huge dark pool out there in the darkness,\nmostly because of the trickling of water. The water from the sewer actually\nwashes over this ledge and makes it quite slippery. From here it drops,\nlike a waterfall, into the pool far down.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7070,
+        "west": 7064
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7070": {
+      "vnum": 7070,
+      "name": "A ledge by the dark pool",
+      "description": "You can't see much here but the echo tells you that there's quite a drop\ndown. You can just make out a huge dark pool out there in the darkness,\nmostly because of the trickling of water. The water from the sewer actually\nwashes over this ledge and makes it quite slippery. From here it drops,\nlike a waterfall, into the pool far down. Under you there is a small fissure\nin the rock. It seems big enough to contain a few people.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7099,
+        "north": 7069,
+        "west": 7066
+      },
+      "exdescs": {
+        "water": "It looks dark and murky, and emanates a foul stench."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7071": {
+      "vnum": 7071,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7099": {
+      "vnum": 7099,
+      "name": "The fissure under the ledge",
+      "description": "This is a small fissure in the solid rock. Under you lies the deep dark pool.\nThe water trickles quietly down from the ledge above you. The water smells\nlike the water in a sewer.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 7199,
+        "up": 7070
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7101": {
+      "vnum": 7101,
+      "name": "Under the mudhole",
+      "description": "You stand in a small room with a great big opening in the ceiling. From this\nopening there's mud dripping down in large lumps. \u003eYUCK\u003c. You can smell the\nfoul stench of the slimy sediment as you try not to get covered by the\nfalling sludge. To the east there is an entryway leading out from here and\nit seems absolutely impossible to force the muddy decent.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7103
+      },
+      "exdescs": {
+        "mud": "You never saw such disgusting matter before, it nearly makes you puke."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7101
+        }
+      ],
+      "object_resets": []
+    },
+    "7102": {
+      "vnum": 7102,
+      "name": "Under the Dark Pit",
+      "description": "Nice place you found yourself. You stand in the middle of a room with only\ntwo exits, Up and East. A tall ladder is left here so that you can climb\nup through the Pit without the use of a rope.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7400,
+        "east": 7104,
+        "up": 7004
+      },
+      "exdescs": {
+        "ladder": "This is funny enough a wooden ladder and, after closer inspection, you\ndiscover it is magically held towards the wall! You can't, even with your\ngreatest effort, rock it at ALL!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7004,
+          "count": 3,
+          "room": 7102
+        },
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7102
+        }
+      ],
+      "object_resets": []
+    },
+    "7103": {
+      "vnum": 7103,
+      "name": "A muddy bend in the sewer system",
+      "description": "You are standing in what looks like a bend in the pipe system of the\nsewer. The 'floor' is covered completely by mud! This includes covering\nyour legs up to your knees as well. The pipe leads west and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7104,
+        "west": 7101
+      },
+      "exdescs": {
+        "mud": "You never saw such disgusting matter before, it nearly makes you puke."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 3,
+          "room": 7103
+        },
+        {
+          "vnum": 7000,
+          "count": 3,
+          "room": 7103
+        }
+      ],
+      "object_resets": []
+    },
+    "7104": {
+      "vnum": 7104,
+      "name": "A junction in the sewer pipes",
+      "description": "You stand in the middle of what looks like a triple junction of pipes\ngoing east, west and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7112,
+        "north": 7103,
+        "west": 7102
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 7,
+          "room": 7104
+        },
+        {
+          "vnum": 7006,
+          "count": 5,
+          "room": 7104
+        }
+      ],
+      "object_resets": []
+    },
+    "7105": {
+      "vnum": 7105,
+      "name": "Down the old well",
+      "description": "You are dangling on the slippery sides of the old well leading down and up.\nThe only secure point here is the metal bars that are cemented into the\nsides, the ones that you cling frantically to so that you don't fall. Who\nknows how deep this well is?",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "up": 7015
+      },
+      "exdescs": {
+        "bars": "These look like they're pretty slippery, and not very safe.  You'd better\nnot go down any further."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7106": {
+      "vnum": 7106,
+      "name": "The northwestern corner of the ledge",
+      "description": "You stand, swaying out from the ledge, with only a couple of inches of safe,\nsolid ledge under your feet. The ledge continues to the east but not back\nsouth. It seems that the ledge is too narrow to turn on so you'll have to\ncontinue forward.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7113,
+        "south": 7107
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7107": {
+      "vnum": 7107,
+      "name": "The narrow ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7190,
+        "north": 7106,
+        "south": 7108
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7108": {
+      "vnum": 7108,
+      "name": "The narrow ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7190,
+        "north": 7107,
+        "south": 7109
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7109": {
+      "vnum": 7109,
+      "name": "The narrow ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7190,
+        "north": 7108,
+        "south": 7110
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7110": {
+      "vnum": 7110,
+      "name": "The narrow ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7190,
+        "north": 7109,
+        "south": 7111
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7111": {
+      "vnum": 7111,
+      "name": "The southwestern corner of the ledge",
+      "description": "This seems like a ledge that is a little broader than the one just to the\nnorth of here. The ledge seems to lead around some sort of Abyss of total\ndarkness. The ledge seems to have an odd-looking edge here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 7279,
+        "east": 7115,
+        "north": 7110,
+        "south": 7112
+      },
+      "exdescs": {
+        "edge": "This is truly a weird piece of craftsmanship in your eyes. The edge seems to\nform a step leading down, but WHAT a STEP DOWN. The Abyss opens down there\nleading to seemingly total destruction.",
+        "odd-looking": "This is truly a weird piece of craftsmanship in your eyes. The edge seems to\nform a step leading down, but WHAT a STEP DOWN. The Abyss opens down there\nleading to seemingly total destruction.",
+        "rock": "It looks as if it can be opened in a door-like fashion. Maybe this will lead\nthe way down.",
+        "step": "A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and\nSPLAT!!!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7112": {
+      "vnum": 7112,
+      "name": "An odd intersection",
+      "description": "You stand in a rather odd intersection of pipes. The pipes actually don't\nresemble pipes anymore. They look more like a real stone tunnel, or a\npassageway hewn directly into the rock. The ways from here lead north, east\nand west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7122,
+        "north": 7111,
+        "west": 7104
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7112
+        },
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7112
+        }
+      ],
+      "object_resets": []
+    },
+    "7113": {
+      "vnum": 7113,
+      "name": "The narrow ledge going east to west",
+      "description": "You are in the process of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7116,
+        "south": 7190,
+        "west": 7106
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7114": {
+      "vnum": 7114,
+      "name": "Mid-air",
+      "description": "You've just stepped into the most unlucky position in the whole of Merc Mud.\nThe result of such a foolish act should be punished with death, you know.\nWith an acceleration of approximately 9.82 metres per second per second, you\nare now descending the Abyss. What awaits you at the bottom will continue to\nbe a mystery. Bye Cruel World.\n\nYou've fallen, and you can't get up!!!",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7115": {
+      "vnum": 7115,
+      "name": "The Broad ledge",
+      "description": "You are standing on a ledge that seems quite a lot larger than the rest\nof the ledges. This one leads to the west and the east, plus it has an exit\ngoing to the south. Though you could jump into mid-air, but it probably\nwouldn't be such a good idea. The way south is in utter darkness.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7121,
+        "north": 7114,
+        "south": 7129,
+        "west": 7111
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7116": {
+      "vnum": 7116,
+      "name": "The northeastern corner of the ledge",
+      "description": "You stand, swaying out from the ledge, with only a couple of inches of safe,\nsolid ledge under your feet. The ledge continues to the west and leads south\nfrom here into darkness.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 7280,
+        "south": 7117,
+        "west": 7113
+      },
+      "exdescs": {
+        "earth": "You can just make out the outline of a trapdoor here in the soil. The earth\nis probably there to conceal a secret entrance. This looks as if it leads down\ninto the seemingly solid rock face of the ledge.",
+        "ground": "The ground here seems a little different from all the other ledges along the\nAbyss. There's a kind of soft soil on this ledge, maybe you should look\ncarefully at this. It seems to be of some interest.",
+        "ledge": "The ground here seems a little different from all the other ledges along the\nAbyss. There's a kind of soft soil on this ledge, maybe you should look\ncarefully at this. It seems to be of some interest.",
+        "rock": "The ground here seems a little different from all the other ledges along the\nAbyss. There's a kind of soft soil on this ledge, maybe you should look\ncarefully at this. It seems to be of some interest.",
+        "soft": "You can just make out the outline of a trapdoor here in the soil. The earth\nis probably there to conceal a secret entrance. This looks as if it leads down\ninto the seemingly solid rock face of the ledge.",
+        "soil": "You can just make out the outline of a trapdoor here in the soil. The earth\nis probably there to conceal a secret entrance. This looks as if it leads down\ninto the seemingly solid rock face of the ledge."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7117": {
+      "vnum": 7117,
+      "name": "The narrow eastern ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards. And THAT is west of here so watch your step.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 7118,
+        "west": 7114
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7118": {
+      "vnum": 7118,
+      "name": "The narrow eastern ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards. And THAT is west of here so watch your step.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 7119,
+        "west": 7114
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7119": {
+      "vnum": 7119,
+      "name": "The narrow eastern ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards. And THAT is west of here so watch your step.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 7120,
+        "west": 7114
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7120": {
+      "vnum": 7120,
+      "name": "The narrow eastern ledge",
+      "description": "You are in the progress of walking all the way around the ledge since there's\nno way of turning around on this all too narrow path. There IS another exit\nfrom here but that leads right into mid-air and with high probability of a\nfree fall session afterwards. And THAT is west of here so watch your step.\nYou also see a small opening to the east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7123,
+        "south": 7121,
+        "west": 7114
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7121": {
+      "vnum": 7121,
+      "name": "The southeastern corner of the ledge",
+      "description": "This seems like a ledge that is a little broader than the one just to the\nnorth of here. The ledge seems to lead around some sort of abyss of total\ndarkness.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 7120,
+        "west": 7115
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7122": {
+      "vnum": 7122,
+      "name": "Under the pit",
+      "description": "You stand in a completely dark cavern leading west. The wall looks weird here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 7112
+      },
+      "exdescs": {
+        "wall": "There is a crack here that looks like it has been made recently."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7005,
+          "count": 7,
+          "room": 7122
+        }
+      ],
+      "object_resets": []
+    },
+    "7123": {
+      "vnum": 7123,
+      "name": "Under The Shaft",
+      "description": "A ladder leads up from here to the Shaft.\nA small opening leads west from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "up": 7041,
+        "west": 7120
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7129": {
+      "vnum": 7129,
+      "name": "The sewer line.",
+      "description": "You are in a narrow part of the sewer. Down the sewer continues and to the\nnorth is the ledge.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7221,
+        "north": 7115
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7130": {
+      "vnum": 7130,
+      "name": "The sewer pipe.",
+      "description": "You are in an odd sewer pipe You see some odd scratches on the pipe wall, as\nfrom a gigantic rat. You can see some slimy water gently running down into\na sewer drain, and north the drain continues.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7190": {
+      "vnum": 7190,
+      "name": "Mid-air",
+      "description": "You've just stepped into the most unlucky position in the whole of the\nRealms.  The result of such a foolish act should be punished with death,\nyou know.  With an acceleration of approximately 9.82 metres per second\nper second, you are now descending the Abyss.  What awaits you at the\nbottom will continue to be a mystery, though it certainly seems like it\nwill be a long, long fall.  Bye cruel world... this may be the end.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7199": {
+      "vnum": 7199,
+      "name": "The Edge of the Water",
+      "description": "The pool side is dimly lit up by your light. You can see absolutely nothing\nelse nearby. The darkness here seems enormously oppressive here. The air is\ndamp and the rock on which you stand is slippery. The pool seems too dark\nto make anything clear. The rock can be climbed upwards from here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "up": 7099
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7200": {
+      "vnum": 7200,
+      "name": "The Treasury",
+      "description": "You are in a small but well equipped treasury.  You can see some writing on\nthe wall.  The ceiling has a funny glow, which enables you to see.  You can\nget back into the inner lair through the stone door which is east.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7201
+      },
+      "exdescs": {
+        "door": "This is a heavy black stone door it looks very solid.",
+        "stone": "This is a heavy black stone door it looks very solid.",
+        "writing": "You read the number '666'."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7204,
+          "count": 6,
+          "room": 7200
+        }
+      ]
+    },
+    "7201": {
+      "vnum": 7201,
+      "name": "The inner Lair",
+      "description": "You are in a octagonal room with smooth purple stone walls.  The floor is\nmade from black stone.  In the western wall you see a large black stone door.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7202,
+        "west": 7200
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7200,
+          "count": 1,
+          "room": 7201
+        }
+      ],
+      "object_resets": []
+    },
+    "7202": {
+      "vnum": 7202,
+      "name": "The Lair",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce. To the north\nare a wooden door.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7205,
+        "north": 7201,
+        "south": 7203
+      },
+      "exdescs": {
+        "bones": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "decay": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "skull": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "skulls": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7203": {
+      "vnum": 7203,
+      "name": "The Lair",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7206,
+        "north": 7202,
+        "south": 7204
+      },
+      "exdescs": {
+        "bones": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "decay": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "skull": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "skulls": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7201,
+          "count": 1,
+          "room": 7203
+        }
+      ],
+      "object_resets": []
+    },
+    "7204": {
+      "vnum": 7204,
+      "name": "The Lair",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7207,
+        "north": 7203,
+        "south": 7208
+      },
+      "exdescs": {
+        "bones": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "decay": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "skull": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "skulls": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7205": {
+      "vnum": 7205,
+      "name": "The Lair",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 7206,
+        "west": 7202
+      },
+      "exdescs": {
+        "bones": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "decay": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "skull": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "skulls": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7202,
+          "count": 2,
+          "room": 7205
+        }
+      ],
+      "object_resets": []
+    },
+    "7206": {
+      "vnum": 7206,
+      "name": "The lair.",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 7205,
+        "south": 7207,
+        "west": 7203
+      },
+      "exdescs": {
+        "bones": "All the bones are broken and old.",
+        "decay": "All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 7206,
+          "count": 4,
+          "room": 7206
+        }
+      ]
+    },
+    "7207": {
+      "vnum": 7207,
+      "name": "The lair.",
+      "description": "On the floor you see a lot of human decay, like bones and skulls. You also\nsee a lot of slime. On the wall is a torch sitting in its sconce.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7206,
+        "west": 7204
+      },
+      "exdescs": {
+        "bones": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "decay": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "sconce": "The torch is bolted to the sconce and the sconce to the wall.",
+        "skull": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "skulls": "On all the skulls you notice that there is a three inch hole in the\nforehead. All the bones are broken and old.",
+        "slime": "The slime is slimy and uninteresting.",
+        "torch": "The torch is bolted to the sconce and the sconce to the wall."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7202,
+          "count": 2,
+          "room": 7207
+        }
+      ],
+      "object_resets": []
+    },
+    "7208": {
+      "vnum": 7208,
+      "name": "The lair entrance.",
+      "description": "You are in a dry part of the sewer. To the north is a wooden door, you\ncan see some slime at the lower part of the door. You also see some skulls\nand some broken bones.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7209,
+        "north": 7204
+      },
+      "exdescs": {
+        "slime": "The slime is slimy and uninteresting."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7209": {
+      "vnum": 7209,
+      "name": "The crawlway.",
+      "description": "You are in a narrow crawlway.  You don't notice anything interesting here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7210,
+        "west": 7208
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7210": {
+      "vnum": 7210,
+      "name": "The four-way junction.",
+      "description": "You are in a sewer junction. To the north is a small hole, to the west is a\nnarrow crawlway and to the east and south the sewer continues.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7212,
+        "north": 7211,
+        "south": 7215,
+        "west": 7209
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7211": {
+      "vnum": 7211,
+      "name": "The small cave.",
+      "description": "You are in a collapsed sewer drain, which now is more like a small cave.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7210
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7212": {
+      "vnum": 7212,
+      "name": "The sewer drain.",
+      "description": "You are in a dry sewer drain which bends to the north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7213,
+        "west": 7210
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7213": {
+      "vnum": 7213,
+      "name": "The sewer drain.",
+      "description": "You are in a dry sewer drain which bends to the east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7214,
+        "south": 7212
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7213
+        }
+      ],
+      "object_resets": []
+    },
+    "7214": {
+      "vnum": 7214,
+      "name": "The drain end.",
+      "description": "You are at the end of the drain around you the sewer has collapsed, the only\nexit is west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 7213
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7214
+        }
+      ],
+      "object_resets": []
+    },
+    "7215": {
+      "vnum": 7215,
+      "name": "The half-wet drain.",
+      "description": "You are in a sewer drain where the floor is covered with water. To the north\nit looks more dry, south however the drain runs down into some water.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7210,
+        "south": 7216
+      },
+      "exdescs": {
+        "water": "The water is dirty but it looks like you would be able to swim in it."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7215
+        }
+      ],
+      "object_resets": []
+    },
+    "7216": {
+      "vnum": 7216,
+      "name": "Under water in the sewer.",
+      "description": "You begin swimming through some dirty water and hold your breath.  You'd\nbetter continue before you drown.  It's a good thing that you can hold\nyour light above water-level.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7215,
+        "south": 7217
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7217": {
+      "vnum": 7217,
+      "name": "The half-dry drain.",
+      "description": "You are in a half-dry sewer drain. To the north the drain runs a little bit\ndownwards into some water to the east you can see a small hole. To the west\nyou see another drain.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7218,
+        "north": 7216,
+        "west": 7219
+      },
+      "exdescs": {
+        "hole": "Through the hole you can just make out a very small room.",
+        "water": "The water is dirty but it looks like you would be able to swim in it."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7217
+        }
+      ],
+      "object_resets": []
+    },
+    "7218": {
+      "vnum": 7218,
+      "name": "The very small room.",
+      "description": "You are in a very small room, it is pretty uninteresting.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 7217
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7219": {
+      "vnum": 7219,
+      "name": "A dry sewer drain.",
+      "description": "You are in a dry but dirty sewer drain. The drain continues east and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7217,
+        "south": 7220
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7219
+        }
+      ],
+      "object_resets": []
+    },
+    "7220": {
+      "vnum": 7220,
+      "name": "A boring drain.",
+      "description": "You are in yet another sewer drain.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7221,
+        "north": 7219
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7221": {
+      "vnum": 7221,
+      "name": "The sewer drain.",
+      "description": "You are in a sewer drain, there is nothing special inhere, except for a\nloud echo.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7222,
+        "up": 7129,
+        "west": 7220
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7221
+        }
+      ],
+      "object_resets": []
+    },
+    "7222": {
+      "vnum": 7222,
+      "name": "The sewer drain.",
+      "description": "You are in a drain, with some slimy water on the floor.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7223,
+        "west": 7221
+      },
+      "exdescs": {
+        "slimy": "The water floats to the east from here.",
+        "water": "The water floats to the east from here."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7223": {
+      "vnum": 7223,
+      "name": "The sewer bend.",
+      "description": "You find yourself in an ordinary sewer bend, which bend from west to north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7224,
+        "west": 7222
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7223
+        }
+      ],
+      "object_resets": []
+    },
+    "7224": {
+      "vnum": 7224,
+      "name": "The sewer junction",
+      "description": "You stand in a junction of three sewer drains. You see some odd scratches on\nthe pipe wall, as from a gigantic rat.North and south the sewer continues\nas usual, but west it looks a little strange.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7225,
+        "south": 7223,
+        "west": 7229
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7225": {
+      "vnum": 7225,
+      "name": "The sewer",
+      "description": "You are in a sewer, where the slimy water runs down through a tiny hole.\nYou see some odd scratches on the pipe wall, as from a gigantic rat. There\nis a sewer drain south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7224
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7225
+        }
+      ],
+      "object_resets": []
+    },
+    "7229": {
+      "vnum": 7229,
+      "name": "The strange sewer",
+      "description": "You are in a very strange sewer indeed, there are some odd scratches on the\npipe wall, as from a gigantic rat. And you can see a lot of organic decay\nlike bones from animals AND humans. West the drain runs slightly upwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7224,
+        "west": 7230
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7230": {
+      "vnum": 7230,
+      "name": "The damp sewer",
+      "description": "You are in a sewer drain with a funny damp substance on the floor, in the\nsubstance you see a lot of decay. You see some odd scratches on the wall, as\nfrom a gigantic rat. Both to the east and west the pipe seems to run down.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7229,
+        "west": 7231
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7231": {
+      "vnum": 7231,
+      "name": "The strange sewer",
+      "description": "You are in an ordinary sewer except for a lot of scratches on the sewer wall,\nad a lot of debris on the floor.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7230,
+        "west": 7232
+      },
+      "exdescs": {
+        "debris": "You see a lot of organic decay on the floor."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7232": {
+      "vnum": 7232,
+      "name": "The sewer",
+      "description": "You are in a sewer with more scratches on the walls. And of course a whole lot\nof decay. The drain runs east and north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7231,
+        "north": 7233
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7233": {
+      "vnum": 7233,
+      "name": "The sewer drain",
+      "description": "You stand in in a sewer drain, you are able to see some kind of cave-like\nroom. You see some odd scratches on the drain wall, as from a gigantic rat.\nThe sewer leads south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7234,
+        "south": 7232
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7233
+        },
+        {
+          "vnum": 7203,
+          "count": 10,
+          "room": 7233
+        }
+      ],
+      "object_resets": []
+    },
+    "7234": {
+      "vnum": 7234,
+      "name": "The rat's lair",
+      "description": "You are in a little cave. You are able to see quite a lot of debris on the\nfloor. There is a sewer drain west of here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 7233
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7204,
+          "count": 1,
+          "room": 7234
+        }
+      ],
+      "object_resets": []
+    },
+    "7235": {
+      "vnum": 7235,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "underground",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7268": {
+      "vnum": 7268,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "underground",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7279": {
+      "vnum": 7279,
+      "name": "The Wall of the Abyss",
+      "description": "You hang onto some steps leading down into utter darkness. There's an exit\nleading up as well, though you'll have to open the tiny rock again to do so.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 7399,
+        "up": 7111
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7280": {
+      "vnum": 7280,
+      "name": "The entrance.",
+      "description": "You are in a very dark room. You notice that some faces are\nstaring at you from inside the walls. In the middle of the room\nthere is a small altar. To the north there is a small round\ndoor.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7281,
+        "up": 7116
+      },
+      "exdescs": {
+        "altar": "This altar are very special. Faces are smiling from it. There\nis a triangle in top of it.",
+        "triangle": "The triangle is filled with small symbols in a language you have\nnever seen before."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7280
+        }
+      ],
+      "object_resets": []
+    },
+    "7281": {
+      "vnum": 7281,
+      "name": "The corridor.",
+      "description": "The corridor is glowing oppressively in a red hue. You can hear wailing\nthrough an open black hole to the east. To the south there is a round door.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7282,
+        "south": 7280
+      },
+      "exdescs": {
+        "door": "The door is completely round without a keyhole.",
+        "light": "The red light glows from the walls.",
+        "red": "The red light glows from the walls.",
+        "round": "The door is completely round without a keyhole.",
+        "small": "The door is completely round without a keyhole.",
+        "walls": "The walls look alive."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7281
+        },
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7281
+        }
+      ],
+      "object_resets": []
+    },
+    "7282": {
+      "vnum": 7282,
+      "name": "The Realm of lost souls",
+      "description": "You are standing in nothing. All around you there are stars.\nSometimes a shadow flies closely by you, wailing very loudly.\nTo the north there is a small bright hole. To the west there is\na small red hole.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7283,
+        "west": 7281
+      },
+      "exdescs": {
+        "shadow": "The shadow looks like a man in great pain."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7283": {
+      "vnum": 7283,
+      "name": "The T-crossing",
+      "description": "You are in a small hallway. There are doors to the east and to\nthe west. To the south there are a black hole. There is writing\nin the wall. Wails can be heard from the south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7286,
+        "south": 7282,
+        "west": 7284
+      },
+      "exdescs": {
+        "writing": "The writing says 'The one to the east, belongs to the beast.\nTo the west you will surely END your quest!'."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7284": {
+      "vnum": 7284,
+      "name": "The firedeath",
+      "description": "This room is very hot. There are flames surrounding you.  You can\nsee no exits at all!  Skeletons are lying all over the floor.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {
+        "skeletons": "The skeletons looks like they had suffered the death of hunger.\nOne of them looks like he has written something at the wall.",
+        "wall": "The writing says 'A pray to the GODS will not be heard, though\nthe only exit is death..... Mother, I love you'.",
+        "writing": "The writing says 'A pray to the GODS will not be heard, though\nthe only exit is death..... Mother, I love you'."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7285": {
+      "vnum": 7285,
+      "name": "The tortureroom.",
+      "description": "You are standing in a middle of a square room. Along the walls skeletons\nare hanging in rusty chains. In the middle of the room there is a big metal\nbox, covered with dust. To the south you can just make out a small exit.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 7286
+      },
+      "exdescs": {
+        "big": "The metal box is covered with dust. You notice that is once has been\nfilled with coal, as you see some of them.",
+        "box": "The metal box is covered with dust. You notice that is once has been\nfilled with coal, as you see some of them.",
+        "metal": "The metal box is covered with dust. You notice that is once has been\nfilled with coal, as you see some of them.",
+        "skeletons": "When you look at the skeletons, you can see that they once had been in great\npain. They are hanging in their arms, and some of them has been killed\nwith a sharp instrument."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7002,
+          "count": 5,
+          "room": 7285
+        },
+        {
+          "vnum": 7002,
+          "count": 5,
+          "room": 7285
+        }
+      ],
+      "object_resets": []
+    },
+    "7286": {
+      "vnum": 7286,
+      "name": "The hells yard",
+      "description": "You are standing in a lot of mud. A disgusting smell surrounds\nthe place, and makes you fell sick. Small flames sometimes shoot\nup from the hot mud. To the west there is a small door. To the\nnorth you can see an iron door.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 7285,
+        "west": 7283
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7000,
+          "count": 8,
+          "room": 7286
+        },
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7286
+        }
+      ],
+      "object_resets": []
+    },
+    "7301": {
+      "vnum": 7301,
+      "name": "The Entrance to the Realm of silence",
+      "description": "This is an utterly silent place. As you look around you see that there\nhasn't been a living thing in a long time. The dust lies here in a thick\nlayer on the floor and on the furniture. On the wall hangs a bleak and\nworn tapestry. A winding stone staircase leads up into darkness. On the\nwall to the west you can see a huge torch stuck into the solid rock.\nA large portcullis blocks your way to the north.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {
+        "gate": "This seems like an exceptionally heavy gate, made of thick iron.",
+        "light": "This VERY old torch looks as if it has burned for ages, yet no traces of\nthe searing flame can be seen on it!",
+        "portcullis": "This seems like an exceptionally heavy gate, made of thick iron.",
+        "staircase": "This looks as if it has been standing here for at least 12 centuries. It's\nVery worn and cracks in the surface mingle with the cores of mineral that\npenetrates the rock from which these steps are chiselled.",
+        "stairs": "This looks as if it has been standing here for at least 12 centuries. It's\nVery worn and cracks in the surface mingle with the cores of mineral that\npenetrates the rock from which these steps are chiselled.",
+        "torch": "This VERY old torch looks as if it has burned for ages, yet no traces of\nthe searing flame can be seen on it!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7399": {
+      "vnum": 7399,
+      "name": "On the walls of the Abyss",
+      "description": "You are clutching the steps on the wall so that you don't fall to the ground\ndown below.\nA large sign says : I haven't gotten any further ... Yet. But  I'm pushing\n                    to get finished with this sewer.\n                                           Greetings and Good Health :)\n\n                                                     Redferne The Gentle\nThis stops your journey down, the only exit is up.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "up": 7279
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7400": {
+      "vnum": 7400,
+      "name": "Cave entrance",
+      "description": "You are standing in the cave entrance. It is very dark\ndown here. There is writing at the wall. There is an exit\nto the north. A stairway leads up.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7401,
+        "up": 7102
+      },
+      "exdescs": {
+        "wall": "The writing says 'BEWARE adventurer!'",
+        "writing": "The writing says 'BEWARE adventurer!'"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7401": {
+      "vnum": 7401,
+      "name": "Cave tunnel",
+      "description": "You are walking in a tunnel. It is very cold. You\ncan feel the presence of a living thing ... SOMEWHERE.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7402,
+        "south": 7400
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7008,
+          "count": 4,
+          "room": 7401
+        }
+      ],
+      "object_resets": []
+    },
+    "7402": {
+      "vnum": 7402,
+      "name": "Cave room",
+      "description": "You are standing in a room. It's much cooler now.\nThe walls are glowing.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7403,
+        "south": 7401,
+        "west": 7421
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7403": {
+      "vnum": 7403,
+      "name": "Cave T-cross",
+      "description": "You are standing in a mud-like substance. The smell here is\nawful, it is rotten. To the west you can see some light.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7404,
+        "south": 7408,
+        "west": 7402
+      },
+      "exdescs": {
+        "mud": "When you examine the mud, you notice small worms crawling\naround.",
+        "worms": "The worms are purple. They do not look edible."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7403
+        }
+      ],
+      "object_resets": []
+    },
+    "7404": {
+      "vnum": 7404,
+      "name": "Cave turning-point",
+      "description": "The mud is getting deeper. You are wondering, 'Would\nit be an idea to leave, before I disappear?'. To the\nsouth you notice a flat round stone are blocking the\nway. To the west you can see mud.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7405,
+        "west": 7403
+      },
+      "exdescs": {
+        "flat": "The stone looks very uninteresting. BUT as you are\nabout to turn away, you see a lightstribe coming\nthrough a small hole. Conclusion: The stone is movable.",
+        "round": "The stone looks very uninteresting. BUT as you are\nabout to turn away, you see a lightstribe coming\nthrough a small hole. Conclusion: The stone is movable.",
+        "stone": "The stone looks very uninteresting. BUT as you are\nabout to turn away, you see a lightstribe coming\nthrough a small hole. Conclusion: The stone is movable."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7405": {
+      "vnum": 7405,
+      "name": "The secret room",
+      "description": "There is dust all over the place. It looks like nobody\nhas been here for ages. In the middle of the room you see\na socket with a crystal globe. The globe glows with a\npulsing light. To the north you see a stone door. To the\nsouth you see a grey block.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7404,
+        "south": 7406
+      },
+      "exdescs": {
+        "crystal": "The crystal globe is glowing with a pulsing light. It\nlooks like there is smoke inside it.",
+        "globe": "The crystal globe is glowing with a pulsing light. It\nlooks like there is smoke inside it.",
+        "socket": "The socket looks like the work of a dwarf. It is VERY beautiful."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7406": {
+      "vnum": 7406,
+      "name": "The mudhole",
+      "description": "You are standing in a lot of mud. The mud goes to your\nchest. You feel the presence of something IN the mud.\nThe only obvious exit is to the west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7405,
+        "west": 7407
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7044,
+          "count": 6,
+          "room": 7406
+        }
+      ],
+      "object_resets": []
+    },
+    "7407": {
+      "vnum": 7407,
+      "name": "Tunnel",
+      "description": "The mud goes to your knees. Otherwise the tunnel looks\nvery normal.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7406,
+        "north": 7408,
+        "south": 7409
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7408": {
+      "vnum": 7408,
+      "name": "The long tunnel",
+      "description": "Here There is almost no mud, as you stand at the top\nof a small rock. Just beside you there are a sign which\nsays 'WARNING! The worms are dangerous!'.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7403,
+        "south": 7407
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7409": {
+      "vnum": 7409,
+      "name": "The hot room",
+      "description": "You are very surprised, as this room for a change are\nhot instead of cold. To the north it goes downwards into\nsome mud. There are also an exit to the west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7407,
+        "west": 7410
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7410": {
+      "vnum": 7410,
+      "name": "The small room",
+      "description": "As you look around you notice a small statue. There are\nexits to the west and to the east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7409,
+        "west": 7411
+      },
+      "exdescs": {
+        "small": "This is a statue of a imp, pointing to the west. The imp\nlooks like a man with horns and a tail.",
+        "statue": "This is a statue of a imp, pointing to the west. The imp\nlooks like a man with horns and a tail."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7411": {
+      "vnum": 7411,
+      "name": "The stalagmite cave",
+      "description": "You are standing in a stalagmite cave. Water is dripping\nfrom the walls. It is very cold in here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7410,
+        "north": 7414,
+        "south": 7412
+      },
+      "exdescs": {
+        "stalagmite": "The stalagmites are very tall, and looks very beautiful."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7412": {
+      "vnum": 7412,
+      "name": "The stalagmite tunnel",
+      "description": "You has entered a small tunnel. Here it is quite dry.\nMaybe it would be an idea to rest here.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7411,
+        "west": 7413
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7013,
+          "count": 3,
+          "room": 7412
+        }
+      ],
+      "object_resets": []
+    },
+    "7413": {
+      "vnum": 7413,
+      "name": "The spongy room",
+      "description": "You definately do NOT like this area.  It is very dank, and nearly\nevery inch of the floor is covered in a damp dew.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7412,
+        "west": 7445
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7414": {
+      "vnum": 7414,
+      "name": "The stalagmite T-cross",
+      "description": "You are standing in a cross. To the north you can see\nsome light. Otherwise it is dark.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7415,
+        "north": 7417,
+        "south": 7411
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7415": {
+      "vnum": 7415,
+      "name": "The blind end room",
+      "description": "This room is obviously a blind end. To the north you see\na primitive picture.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7416,
+        "west": 7414
+      },
+      "exdescs": {
+        "picture": "You see some persons dancing around a huge sun. The\nsun is about 7 feet in diameter, which shows the size\nof the picture.",
+        "primitive": "You see some persons dancing around a huge sun. The\nsun is about 7 feet in diameter, which shows the size\nof the picture."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7416": {
+      "vnum": 7416,
+      "name": "The treasure room",
+      "description": "This room is rich ornamented. The walls has carves showing\npersons dancing around a sun which is drawn at the floor. It\nlooks very old, and it is very dusty. To the south you see a\nsecret door.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7415
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7417": {
+      "vnum": 7417,
+      "name": "The square lair",
+      "description": "You are standing in the south-east part of the lair. You can\nsee a skeleton lying at the wall.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 7418,
+        "south": 7414,
+        "west": 7420
+      },
+      "exdescs": {
+        "skeleton": "It looks like a adventurer who wasn't lucky. You better\nwatch out-"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7418": {
+      "vnum": 7418,
+      "name": "The square lair",
+      "description": "You are standing in the north-east part of the lair. You see\na sign at the wall",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7421,
+        "south": 7417,
+        "west": 7419
+      },
+      "exdescs": {
+        "sign": "The sign says 'Gods of War I call you, my sword is by my side,\n               I seek a light free from all false pride'\n                       Reyemle Grug.....",
+        "wall": "The sign says 'Gods of War I call you, my sword is by my side,\n               I seek a light free from all false pride'\n                       Reyemle Grug....."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7419": {
+      "vnum": 7419,
+      "name": "The square lair",
+      "description": "You are standing in the north-west part of the lair. Here's\nanother sign. There are a exit from the lair to the north.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7418,
+        "north": 7422,
+        "south": 7420
+      },
+      "exdescs": {
+        "sign": "The sign says 'I'm wandering around in a everlasting tale,\n               seeking the light to regain my pride\n                           Corama..."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7045,
+          "count": 1,
+          "room": 7419
+        }
+      ],
+      "object_resets": []
+    },
+    "7420": {
+      "vnum": 7420,
+      "name": "The lair end",
+      "description": "You can see a table in front of you. It's very dusty.\nAround the table five skeletons are siting. Exits are\nnorth and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7417,
+        "north": 7419
+      },
+      "exdescs": {
+        "dragon": "it looks like a silver dragon. It is nailed onto the table.\nThe dragon sits on a red dragon that looks dead. But the\neyes of the red dragon is glowing pulsating red. You feel\ndrained.",
+        "skeleton": "You can see that they have been killed in some sort of way. Not\nby sword or club.",
+        "skeletons": "You can see that they have been killed in some sort of way. Not\nby sword or club.",
+        "statue": "it looks like a silver dragon. It is nailed onto the table.\nThe dragon sits on a red dragon that looks dead. But the\neyes of the red dragon is glowing pulsating red. You feel\ndrained.",
+        "table": "On the table there is dust, in the center there is a small statue of a\nDragon sleeping."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7421": {
+      "vnum": 7421,
+      "name": "East tunnel",
+      "description": "You are standing in dark tunnel, the exits are east\nand west. To the west you see a wooden door.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7402,
+        "west": 7418
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7422": {
+      "vnum": 7422,
+      "name": "North tunnel",
+      "description": "You are standing in a dark tunnel, it leads upwards.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7423,
+        "south": 7419,
+        "west": 7436
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7007,
+          "count": 3,
+          "room": 7422
+        }
+      ],
+      "object_resets": []
+    },
+    "7423": {
+      "vnum": 7423,
+      "name": "The L-shaped room.",
+      "description": "You are standing in deep darkness. To the south there is a small exit.\nTo the east you can see a gaping hole.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7424,
+        "south": 7422
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7011,
+          "count": 3,
+          "room": 7423
+        }
+      ],
+      "object_resets": []
+    },
+    "7424": {
+      "vnum": 7424,
+      "name": "The Circular hall.",
+      "description": "You are standing in round hall. To the north, east and south you\ncan see a stone head hanging on the walls.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7425,
+        "west": 7423
+      },
+      "exdescs": {
+        "blue": "This looks like a good dragon",
+        "green": "This looks like a evil dragon",
+        "head": "When you study the faces of the heads you see that it\nis faces of dragons. The face to the north is red, the\nface to the east is green and the face to the south is\nblue.",
+        "heads": "When you study the faces of the heads you see that it\nis faces of dragons. The face to the north is red, the\nface to the east is green and the face to the south is\nblue.",
+        "red": "This looks like a neutral dragon"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7046,
+          "count": 1,
+          "room": 7424
+        }
+      ],
+      "object_resets": []
+    },
+    "7425": {
+      "vnum": 7425,
+      "name": "Dusty tunnel",
+      "description": "You are standing in dust. This place has not been\ntouched for a long time. Otherwise it is quite boring\nhere, looks like a place to rest! To the west you see\nthe outline of a door. A tunnel leads to the east.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7426,
+        "west": 7424
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7426": {
+      "vnum": 7426,
+      "name": "The crossing",
+      "description": "You are standing in a crossing of hallways. You can leave this place\nin every direction, except up and down. In the dust you notice strange\nfootprints.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7430,
+        "north": 7431,
+        "south": 7427,
+        "west": 7425
+      },
+      "exdescs": {
+        "foot": "You have never seen this kind of footprints before!",
+        "footprints": "You have never seen this kind of footprints before!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7427": {
+      "vnum": 7427,
+      "name": "The L-shaped room",
+      "description": "You are standing in a L-shaped room. You can hear noises from the long\ntunnel to the east. You can feel fear! A sign is hanging on the wall.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7428,
+        "north": 7426
+      },
+      "exdescs": {
+        "sign": "The sign says 'DANGER!!'."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7428": {
+      "vnum": 7428,
+      "name": "The Lair of the Red Dragon",
+      "description": "You see burned walls, and the floorstones are fiery red.  Bones of all types\nare scattered all over the floor, on the walls you see burned, and you smell\nburned flesh.  Two creatures are melted into the floor.\nYou're next.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 7429,
+        "west": 7427
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7040,
+          "count": 1,
+          "room": 7428
+        }
+      ],
+      "object_resets": []
+    },
+    "7429": {
+      "vnum": 7429,
+      "name": "The burned room",
+      "description": "You are in a room, which once had been quite burned.\nThere is writing on the wall.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7428,
+        "west": 7430
+      },
+      "exdescs": {
+        "writing": "The writing says 'DANGER!!!'"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7010,
+          "count": 2,
+          "room": 7429
+        }
+      ],
+      "object_resets": []
+    },
+    "7430": {
+      "vnum": 7430,
+      "name": "The wind tunnel",
+      "description": "You are standing in a tunnel. Above you, you can feel\na breeze.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7429,
+        "west": 7426
+      },
+      "exdescs": {
+        "breeze": "The breeze comes from a hole above you. NO way to get up\nthere."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7431": {
+      "vnum": 7431,
+      "name": "The glittering room",
+      "description": "This room are all bright. In the walls you can see some\nsilver. Exits are: West, east and south.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7432,
+        "south": 7426,
+        "west": 7433
+      },
+      "exdescs": {
+        "glitter": "The glittering silver looks like it is INSIDE the walls.",
+        "silver": "The glittering silver looks like it is INSIDE the walls.",
+        "walls": "The glittering silver looks like it is INSIDE the walls."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7432": {
+      "vnum": 7432,
+      "name": "The secret passageroom",
+      "description": "You have entered a tiny room. There WAS an exit down, and an\nexit to the west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 7431
+      },
+      "exdescs": {
+        "down": "A sign is blocking the way. It says 'we have closed an entrance to DEATH'"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7433": {
+      "vnum": 7433,
+      "name": "End of long tunnel",
+      "description": "You are at a end of a long tunnel. Right in front of you,\nyou can see a grey mass. To the east you can see a tremendous\nlong tunnel, but you know that, you has just been there.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7431,
+        "west": 7434
+      },
+      "exdescs": {
+        "grey": "The mass is nothing but a mass, but it is quite suspicious!",
+        "mass": "The mass is nothing but a mass, but it is quite suspicious!"
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7434": {
+      "vnum": 7434,
+      "name": "Stair-room",
+      "description": "You are standing in a small room. Drawings of faces in pain\nare on the walls. You can feel darkness is ruling the place.\nthere are two exits: south and down.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7435
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7435": {
+      "vnum": 7435,
+      "name": "Dark tunnel",
+      "description": "You are standing in a dark tunnel. It continues to the north\nand to the south. Bones are spread on the floor",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7434,
+        "south": 7436
+      },
+      "exdescs": {
+        "bone": "it looks like bones of a human.",
+        "bones": "it looks like bones of a human."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7042,
+          "count": 2,
+          "room": 7435
+        }
+      ],
+      "object_resets": []
+    },
+    "7436": {
+      "vnum": 7436,
+      "name": "Entrance to lair",
+      "description": "The smell here is awful.  To the south you can see some smoke.\nA tunnel leads north, and east.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 7422,
+        "north": 7435,
+        "south": 7437
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7437": {
+      "vnum": 7437,
+      "name": "North-eastern part of Basilisks cave",
+      "description": "It is hard to see here because of the smoke. To the north you\ncan see barely see a small tunnel. Other exits are to the south\nand to the west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7436,
+        "south": 7438,
+        "west": 7439
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7438": {
+      "vnum": 7438,
+      "name": "South-eastern part of basilisks cave",
+      "description": "There are a very small hole in wall, from where the smoke\nare coming from. Otherwise it is pitch dark. Exits are north\nand west.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 7437,
+        "west": 7440
+      },
+      "exdescs": {
+        "hole": "It's a small hole. About 1 feet in diameter.",
+        "small": "It's a small hole. About 1 feet in diameter."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7439": {
+      "vnum": 7439,
+      "name": "North-western part of basilisks cave",
+      "description": "You can see some hay spread on the floor. The smell is awful here,\nand it makes you feel sick.  The basilisk sleeps here.\nWatch out ... Maybe it is not far away.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7437,
+        "south": 7440
+      },
+      "exdescs": {
+        "hay": "The hay is very dirty. The smell of it makes you feel sick."
+      },
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7043,
+          "count": 3,
+          "room": 7439
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 7300,
+          "count": 8,
+          "room": 7439
+        }
+      ]
+    },
+    "7440": {
+      "vnum": 7440,
+      "name": "South-western part of basilisks cave",
+      "description": "You can see nothing but smoke.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7438,
+        "north": 7439,
+        "south": 7441
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7441": {
+      "vnum": 7441,
+      "name": "The small cave",
+      "description": "You are standing in small cave. You can see\nsome light in the end. Exits are north and south.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 7440,
+        "south": 7442
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7442": {
+      "vnum": 7442,
+      "name": "The northern end of the pool",
+      "description": "You have wet feet, you are standing in water. The water looks calm. You can\nsee that it's a big lake. Light seeps from the water.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7443,
+        "north": 7441,
+        "south": 7444
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7443": {
+      "vnum": 7443,
+      "name": "The pool",
+      "description": "You are swimming in water. It is getting deep here. It is dark in this end.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 7445,
+        "west": 7442
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "7444": {
+      "vnum": 7444,
+      "name": "The south end of the pool",
+      "description": "You standing in water up to you neck. You can only see water.",
+      "sector": "underground",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 7445,
+        "north": 7442
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [
+        {
+          "vnum": 7041,
+          "count": 2,
+          "room": 7444
+        }
+      ],
+      "object_resets": []
+    },
+    "7445": {
+      "vnum": 7445,
+      "name": "The pool",
+      "description": "You are swimming in DARKNESS. You feel something\ntouching your right leg.",
+      "sector": "underground",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 7413,
+        "north": 7443,
+        "west": 7444
+      },
+      "exdescs": {},
+      "area_name": "Sewer",
+      "area_author": "Diku",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "7000": {
+      "vnum": 7000,
+      "keywords": [
+        "mud",
+        "monster",
+        "mudmonster"
+      ],
+      "short": "the horrifying Mudmonster",
+      "long": "A horrifying Mudmonster is slowly evolving from the mud ...",
+      "race": "magical",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7001": {
+      "vnum": 7001,
+      "keywords": [
+        "bat"
+      ],
+      "short": "the small bat",
+      "long": "The small fierce-looking bat is hanging from the ceiling.",
+      "race": "mammal",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 6,
+      "max_mana": 6,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7002": {
+      "vnum": 7002,
+      "keywords": [
+        "rat"
+      ],
+      "short": "the great sewer rat",
+      "long": "The huge hungry-looking sewer rat sits here.",
+      "race": "rat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7003": {
+      "vnum": 7003,
+      "keywords": [
+        "spider"
+      ],
+      "short": "the small spider",
+      "long": "The small hairy spider.",
+      "race": "spider",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 8,
+      "max_mana": 8,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7004": {
+      "vnum": 7004,
+      "keywords": [
+        "beetle"
+      ],
+      "short": "the giant earth beetle",
+      "long": "The giant mean-looking earth beetle crawls towards you.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7005": {
+      "vnum": 7005,
+      "keywords": [
+        "maggot"
+      ],
+      "short": "the maggot",
+      "long": "The giant maggot crawls toward you.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7006": {
+      "vnum": 7006,
+      "keywords": [
+        "snake"
+      ],
+      "short": "the slithering snake",
+      "long": "The snake slithers towards you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7007": {
+      "vnum": 7007,
+      "keywords": [
+        "wanderer"
+      ],
+      "short": "the evil wanderer",
+      "long": "The evil wanderer stares at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7008": {
+      "vnum": 7008,
+      "keywords": [
+        "homonculus",
+        "homo"
+      ],
+      "short": "the homonculus",
+      "long": "The homonculus is here, looking at you with an evil look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 11,
+      "hp": 11,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7010": {
+      "vnum": 7010,
+      "keywords": [
+        "chreffn"
+      ],
+      "short": "the evil chreffn",
+      "long": "The chreffn are crawling here, looking around with their yellow eyes.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 148,
+      "max_mana": 148,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7011": {
+      "vnum": 7011,
+      "keywords": [
+        "morkoth"
+      ],
+      "short": "the shadowy morkoth",
+      "long": "The morkoth is standing here, waiting for someone to KILL!",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7013": {
+      "vnum": 7013,
+      "keywords": [
+        "mud",
+        "monster",
+        "mudmonster"
+      ],
+      "short": "the horrifying mudmonster",
+      "long": "A horrifying mudmonster is slowly evolving from the mud ...",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7040": {
+      "vnum": 7040,
+      "keywords": [
+        "fierce",
+        "red",
+        "dragon"
+      ],
+      "short": "a fierce red dragon",
+      "long": "A fierce looking red dragon, its slumber disturbed, awakes angrily.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "mana": 2500,
+      "max_mana": 2500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7041": {
+      "vnum": 7041,
+      "keywords": [
+        "sea",
+        "hag"
+      ],
+      "short": "the sea hag",
+      "long": "The sea hag is swimming around here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 172,
+      "max_mana": 172,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7042": {
+      "vnum": 7042,
+      "keywords": [
+        "guardian",
+        "naga"
+      ],
+      "short": "the guardian naga",
+      "long": "The guardian naga looks kindly at you.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 148,
+      "max_mana": 148,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7043": {
+      "vnum": 7043,
+      "keywords": [
+        "basilisk"
+      ],
+      "short": "the scaled basilisk",
+      "long": "The scaled basilisk crawls towards you slowly.",
+      "race": "reptile",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7044": {
+      "vnum": 7044,
+      "keywords": [
+        "lemure",
+        "blob"
+      ],
+      "short": "the lemure blob",
+      "long": "The lemure blob slithers terribly precisely towards you for an attack!",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 57,
+      "max_mana": 57,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7045": {
+      "vnum": 7045,
+      "keywords": [
+        "jones",
+        "cruncher",
+        "ettin"
+      ],
+      "short": "Jones",
+      "long": "Jones 'Cruncher' the ettin is standing here glaring at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7046": {
+      "vnum": 7046,
+      "keywords": [
+        "herald",
+        "mouse",
+        "killer",
+        "ettin"
+      ],
+      "short": "Herald",
+      "long": "Herald 'Mouse-Killer' the ettin is standing here looking confused at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sitting",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7200": {
+      "vnum": 7200,
+      "keywords": [
+        "master",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the master mindflayer",
+      "long": "The master mindflayer is here, looking at you with an evil look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 14,
+      "hp": 14,
+      "mana": 140,
+      "max_mana": 140,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7201": {
+      "vnum": 7201,
+      "keywords": [
+        "senior",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the senior mindflayer",
+      "long": "The senior mindflayer walks around here, looking for something useful.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 8,
+      "hp": 8,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7202": {
+      "vnum": 7202,
+      "keywords": [
+        "junior",
+        "mind",
+        "mindflayer"
+      ],
+      "short": "the junior mindflayer",
+      "long": "The junior mindflayer is here, watching you carefully from the corner.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 6,
+      "hp": 6,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7203": {
+      "vnum": 7203,
+      "keywords": [
+        "wererat",
+        "rat",
+        "were"
+      ],
+      "short": "the ugly wererat",
+      "long": "An ugly wererat is here, looking at you with a strange flick in his eyes.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 69,
+      "max_mana": 69,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7204": {
+      "vnum": 7204,
+      "keywords": [
+        "rat",
+        "gigantic"
+      ],
+      "short": "the gigantic rat",
+      "long": "There is a gigantic rat here, looking at you with a hungry look.",
+      "race": "human",
+      "class": "warrior",
+      "position": "sleeping",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 12,
+      "hp": 12,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7205": {
+      "vnum": 7205,
+      "keywords": [
+        "jay"
+      ],
+      "short": "a newly created jay",
+      "long": "Some god abandoned a newly created jay here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "7206": {
+      "vnum": 7206,
+      "keywords": [
+        "bird"
+      ],
+      "short": "a newly created bird",
+      "long": "Some god abandoned a newly created bird here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "7190": {
+      "vnum": 7190,
+      "keywords": [
+        "ring",
+        "silver"
+      ],
+      "type": "armor",
+      "short": "a glinting ring of silver",
+      "long": "A lovely silver ring has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7200": {
+      "vnum": 7200,
+      "keywords": [
+        "rod",
+        "devil"
+      ],
+      "type": "weapon",
+      "short": "the devil rod",
+      "long": "The mysterious devil rod lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7201": {
+      "vnum": 7201,
+      "keywords": [
+        "mace",
+        "large"
+      ],
+      "type": "weapon",
+      "short": "the large mace",
+      "long": "A large mace lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7202": {
+      "vnum": 7202,
+      "keywords": [
+        "mace",
+        "small"
+      ],
+      "type": "weapon",
+      "short": "the small mace",
+      "long": "A small mace has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7203": {
+      "vnum": 7203,
+      "keywords": [
+        "cloak",
+        "purple"
+      ],
+      "type": "armor",
+      "short": "a purple cloak",
+      "long": "A purple cloak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7204": {
+      "vnum": 7204,
+      "keywords": [
+        "potion",
+        "neon",
+        "blue"
+      ],
+      "type": "potion",
+      "short": "an neon blue potion",
+      "long": "A neon blue potion stands on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7205": {
+      "vnum": 7205,
+      "keywords": [
+        "key",
+        "black"
+      ],
+      "type": "key",
+      "short": "a black key",
+      "long": "A black key has been left on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7206": {
+      "vnum": 7206,
+      "keywords": [
+        "skull",
+        "white"
+      ],
+      "type": "armor",
+      "short": "a strange white skull",
+      "long": "A strange white skull lies on the floor looking at you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7207": {
+      "vnum": 7207,
+      "keywords": [
+        "eye",
+        "basilisk"
+      ],
+      "type": "staff",
+      "short": "a basilisk's eye",
+      "long": "Rolling on the ground before you is the eye of a foul beast.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7208": {
+      "vnum": 7208,
+      "keywords": [
+        "stick",
+        "small",
+        "light"
+      ],
+      "type": "light",
+      "short": "a small stick",
+      "long": "A small stick lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7209": {
+      "vnum": 7209,
+      "keywords": [
+        "boots",
+        "muddy"
+      ],
+      "type": "armor",
+      "short": "a pair of muddy boots",
+      "long": "A pair of muddy boots has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7210": {
+      "vnum": 7210,
+      "keywords": [
+        "treasure",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a huge treasure",
+      "long": "There is a huge treasure here, looking very valuable.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7211": {
+      "vnum": 7211,
+      "keywords": [
+        "sword",
+        "short"
+      ],
+      "type": "weapon",
+      "short": "a short sword",
+      "long": "There lies a short sword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7216": {
+      "vnum": 7216,
+      "keywords": [
+        "claw",
+        "red",
+        "redclaw"
+      ],
+      "type": "weapon",
+      "short": "the enormous claw of a red dragon",
+      "long": "On the floor rests the enormous claw of a red dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7217": {
+      "vnum": 7217,
+      "keywords": [
+        "plate",
+        "breast",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a silvery breast plate",
+      "long": "There is a silvery breast plate on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7218": {
+      "vnum": 7218,
+      "keywords": [
+        "plates",
+        "leg",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "some silvery leg plates",
+      "long": "On the floor you see some silvery leg plates.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7219": {
+      "vnum": 7219,
+      "keywords": [
+        "gloves",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a pair of silvery gloves",
+      "long": "You can see a pair of silvery gloves on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7220": {
+      "vnum": 7220,
+      "keywords": [
+        "helmet",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a silvery helmet",
+      "long": "The silvery helmet lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7221": {
+      "vnum": 7221,
+      "keywords": [
+        "shield"
+      ],
+      "type": "armor",
+      "short": "the shield of the rose",
+      "long": "The shield of the rose rests on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7222": {
+      "vnum": 7222,
+      "keywords": [
+        "boots",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "a pair of silvery boots",
+      "long": "A pair of silvery boots stand on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7223": {
+      "vnum": 7223,
+      "keywords": [
+        "plates",
+        "arm",
+        "silvery"
+      ],
+      "type": "armor",
+      "short": "some silvery arm plates",
+      "long": "On the floor you see some silvery arm plates.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7224": {
+      "vnum": 7224,
+      "keywords": [
+        "cloak",
+        "white"
+      ],
+      "type": "armor",
+      "short": "a white cloak",
+      "long": "A white cloak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7298": {
+      "vnum": 7298,
+      "keywords": [
+        "treasure",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a huge treasure",
+      "long": "A huge treasure is lying here, looking very valuable.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7299": {
+      "vnum": 7299,
+      "keywords": [
+        "sword",
+        "short"
+      ],
+      "type": "weapon",
+      "short": "a short sword",
+      "long": "There lies a short sword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7300": {
+      "vnum": 7300,
+      "keywords": [
+        "backpack",
+        "pack",
+        "back"
+      ],
+      "type": "container",
+      "short": "a backpack",
+      "long": "A backpack stands upright here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7301": {
+      "vnum": 7301,
+      "keywords": [
+        "beltpouch",
+        "pouch"
+      ],
+      "type": "container",
+      "short": "a large beltpouch",
+      "long": "A large beltpouch lies here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7303": {
+      "vnum": 7303,
+      "keywords": [
+        "orb",
+        "dragonorb"
+      ],
+      "type": "staff",
+      "short": "the Red DragonOrb",
+      "long": "A large reddish orb draws your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7304": {
+      "vnum": 7304,
+      "keywords": [
+        "red",
+        "torso"
+      ],
+      "type": "armor",
+      "short": "a torso of red dragonscale",
+      "long": "A large pile of red dragonscale lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7305": {
+      "vnum": 7305,
+      "keywords": [
+        "leggings",
+        "red"
+      ],
+      "type": "armor",
+      "short": "leggings of red dragonscale",
+      "long": "On the floor are two leggings of red dragonscale.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7306": {
+      "vnum": 7306,
+      "keywords": [
+        "red",
+        "dragonclaws",
+        "fore",
+        "claws"
+      ],
+      "type": "armor",
+      "short": "the fore claws of a red dragon",
+      "long": "A set of claws covered in red dragonscale lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7307": {
+      "vnum": 7307,
+      "keywords": [
+        "skull",
+        "dragonhelm",
+        "red"
+      ],
+      "type": "armor",
+      "short": "a red dragonhelm",
+      "long": "A helmet fashioned into the likeness of a dragon skull is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7308": {
+      "vnum": 7308,
+      "keywords": [
+        "dragonshield",
+        "red",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a shield of red dragonscale",
+      "long": "A large shield of red dragonscale rests on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7309": {
+      "vnum": 7309,
+      "keywords": [
+        "red",
+        "greaves",
+        "rear",
+        "claws"
+      ],
+      "type": "armor",
+      "short": "the rear claws of a red dragon",
+      "long": "The rear claws of a red dragon lay on the foor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "7310": {
+      "vnum": 7310,
+      "keywords": [
+        "arm",
+        "guards",
+        "red"
+      ],
+      "type": "armor",
+      "short": "armguards of red dragonscale",
+      "long": "On the ground are two armguards of red dragonscale.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

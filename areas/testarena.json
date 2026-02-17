@@ -1,0 +1,52 @@
+{
+  "name": "Test Arena",
+  "author": "NJATA",
+  "reset_minutes": 60,
+  "rooms": {
+    "90000": {
+      "vnum": 90000,
+      "name": "Test Arena",
+      "description": "A small circular room marked for testing. The air hums with arcane residue.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Test Arena",
+      "area_author": "NJATA",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "90001": {
+      "vnum": 90001,
+      "keywords": [
+        "dummy",
+        "test",
+        "target"
+      ],
+      "short": "a test dummy",
+      "long": "A test dummy stands here, waiting to be struck.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neutral",
+      "level": 1,
+      "max_hp": 25,
+      "hp": 25,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {}
+}

@@ -1,0 +1,2977 @@
+{
+  "name": "Along the Forest Path",
+  "author": "Lycorlyntras",
+  "reset_minutes": 15,
+  "rooms": {
+    "400": {
+      "vnum": 400,
+      "name": "Surrounded by bushes",
+      "description": "You are amongst the foliage.  Thick bushes press in from all sides\na sticky sap from the leaves of one of the kinds of bushes deposits\nitself on your clothing, tinting it green.  The trees here are relatively\nsparse, but the thick brush itself stops most progress.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "southeast": 409
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 414,
+          "count": 2,
+          "room": 400
+        }
+      ],
+      "object_resets": []
+    },
+    "401": {
+      "vnum": 401,
+      "name": "A corner of the Forest",
+      "description": "A thickened area of the woods.  You haven't traveled far off the path\nand already the trees have formed a cordon around you preventing most\nfurther travel.   A large moss covered rock sits here, mostly hidden\nby the underbrush.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 409,
+        "southeast": 410
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "402": {
+      "vnum": 402,
+      "name": "Inside the woods",
+      "description": "This small corner of the forest is lined by a grove of trees forming a\nsymetrical wall of green and brown around you, blocking progress in\nall directions except back the way you came.   The grass in the centre\nof the grove has grown out of the shade of the trees and looks like\nan inviting place to rest.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 410
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 421,
+          "count": 3,
+          "room": 402
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 402
+        }
+      ]
+    },
+    "403": {
+      "vnum": 403,
+      "name": "A small ford",
+      "description": "The sylvan wildness is broken here by a small stream passing through.\nThe trees loom just away from the bubbling water, and the sounds do\nmuch to soothe you.  This looks like a good place to rest amongst the\ngreens.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 404,
+        "southwest": 410
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 406,
+          "count": 1,
+          "room": 403
+        },
+        {
+          "vnum": 405,
+          "count": 1,
+          "room": 403
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 403,
+          "count": 1,
+          "room": 403
+        }
+      ]
+    },
+    "404": {
+      "vnum": 404,
+      "name": "Along the path",
+      "description": "The forest continues along either side, again you notice a few patches of\nbrown in the mass of green.  A few bushes creep near the trail itself\nproviding an ideal ambush site here.  The trees also provide much cover\nto an unsavory lurkers.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 405,
+        "west": 403
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "405": {
+      "vnum": 405,
+      "name": "Along the Forest Path",
+      "description": "The main path turns here from, continuing west and south.  The brush rises up\nsharply at the sides of the trail and trees loom over even the path itself.\nMany large trees also loom nearby, creating an almost solid wall\nof cover on each side of the path.",
+      "sector": "forest",
+      "flags": {
+        "arena": true
+      },
+      "exits": {
+        "south": 413,
+        "west": 404
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "406": {
+      "vnum": 406,
+      "name": "An underground grotto",
+      "description": "The sound of dripping water greets you as you enter.   The slick moss\nthe covers the walls of this small cave looks healthy.  A few small\nbones line part of the caves floor.  A dank smell permeates the area\nfrom being too enclosed with some unknown substances.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "southeast": 415
+      },
+      "exdescs": {
+        "bones": "The scattered remains of a small animal or bird eaten by a small\nsharp toothed carnivore.  They have been here for some time and\nthe carpet of moss has already begun to encroach over them.",
+        "small": "The scattered remains of a small animal or bird eaten by a small\nsharp toothed carnivore.  They have been here for some time and\nthe carpet of moss has already begun to encroach over them."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "407": {
+      "vnum": 407,
+      "name": "A small cave",
+      "description": "This is a small natural cave.  Thick hanging moss covers the walls and\nceiling and the sound of dripping water is almost constant.  The slime\ncovered rocks of the floor offer somewhat treacherous footing.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 415
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "408": {
+      "vnum": 408,
+      "name": "Inside a large tree",
+      "description": "This small room is setup to be a home.  The wood has been polished into a\nsheen with the wood grain showing prominently.  The furniture is all of good\nquality wood construction.  Although the furniture is sized for someone in\nthe vicinity of three feet tall.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 416
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "409": {
+      "vnum": 409,
+      "name": "Along the Forest Path",
+      "description": "The path continues along here through the sylvan forest.  Thick\nbrush gives way in many directions.  The sky is visible as a long\nband through the middle of the path, here it seems to wind its\nway like a river in the air.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 410,
+        "north": 401,
+        "northwest": 400,
+        "southwest": 416
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 416,
+          "count": 1,
+          "room": 409
+        }
+      ],
+      "object_resets": []
+    },
+    "410": {
+      "vnum": 410,
+      "name": "Along the Forest Path",
+      "description": "The path continues along here through the sylvan forest.  Thick\nbrush gives way in many directions.  The sky is visible as a long\nband through the middle of the path, here it seems to wind its\nway like a river in the air.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 402,
+        "northeast": 403,
+        "northwest": 401,
+        "south": 418,
+        "west": 409
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "411": {
+      "vnum": 411,
+      "name": "Larger trees",
+      "description": "This part of the forest is definitely old growth.  The huge trees loom overhead\nand their distance apart is quite large.   The floor is littered with the\nremains of trees which fell, branches, leaves and other debris from from\nthe forest.  A pungent smell come from something nearby.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 412,
+        "south": 419,
+        "up": 448
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 411
+        }
+      ],
+      "object_resets": []
+    },
+    "412": {
+      "vnum": 412,
+      "name": "Larger trees",
+      "description": "This area of the forest contains larger trees than the rest you have seen,\nhere the tree cover is almost complete and the undercover is sparse.\nA few mottled steams of moss climb the trees to near the canopy.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "southwest": 419,
+        "west": 411
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 412
+        }
+      ],
+      "object_resets": []
+    },
+    "413": {
+      "vnum": 413,
+      "name": "Along the Forest Path",
+      "description": "The path continues along through the forest.   Directly alongside the trail\nbrush grows almost five feet tall in places and the trees long high overhead.\nThere are a few patches of brown amongst the strong greens but they remain\nsparse.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 405,
+        "southwest": 420
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "414": {
+      "vnum": 414,
+      "name": "A forested gully",
+      "description": "This lightly wooded area, contains a few moss covered rocks and small\nshrubs.  The area exudes peace, tranquillity and being one with nature.\nThe ground gently slopes down towards the west.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 415,
+        "south": 422
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 414
+        }
+      ],
+      "object_resets": []
+    },
+    "415": {
+      "vnum": 415,
+      "name": "A hollow depression",
+      "description": "The ground has sloped down into a depression, a rough rock wall juts\nfrom the earth.   The ground has large amounts of covering low\nshrubs and creepers that could conceal almost any amount of small\ncreatures.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 407,
+        "northwest": 406,
+        "west": 414
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "416": {
+      "vnum": 416,
+      "name": "Along the Forest Path",
+      "description": "The path here enters a small glade.   The trees that are scattered\naround the edges of the path are all old and large, stunting the\ngrowth of other plants with their canopy.   A carpet of soft\ngrass spreads out before you for a short distance before reaching\nthe edge of the trees.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 417,
+        "north": 408,
+        "northeast": 409
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 416
+        }
+      ]
+    },
+    "417": {
+      "vnum": 417,
+      "name": "Along the Forest Path",
+      "description": "This area has show some use of late, a few of the bushes alongside the trail\nproper have been ripped from the ground.  Also a few of the huge trees in the\narea show signs of abuse and have brown blotches amongst them.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 418,
+        "southwest": 424,
+        "west": 416
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 420,
+          "count": 2,
+          "room": 417
+        }
+      ],
+      "object_resets": []
+    },
+    "418": {
+      "vnum": 418,
+      "name": "Deep in the bushes",
+      "description": "Standing deep in the bushes you can barely see patches of the ground.\nForcing your way deeper, you hear the sounds of bushes moving around\nyou.  You stop, but the sounds don't.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "north": 410,
+        "west": 417
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 418
+        }
+      ]
+    },
+    "419": {
+      "vnum": 419,
+      "name": "Amongst the forest",
+      "description": "You have entered an area where the trees are slightly larger.\nThis simply means that the trees now loom right out of sight\namongst the mass of foliage.  The brush is a little lighter\nmaybe because of the lack of natural light down here.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 420,
+        "north": 411,
+        "northeast": 412
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 419
+        }
+      ]
+    },
+    "420": {
+      "vnum": 420,
+      "name": "A corner in the forest path",
+      "description": "The wide forest trail takes a sharp corner here around a large, thick stand\nof bushes.  The vegetation is thick on either side of the trail.\nThe sylvan vegitation is a healthy green which fills your soul with\nsoothing feelings of harmony, or maybe there is just something in the\nair.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 421,
+        "northeast": 413,
+        "west": 419
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "421": {
+      "vnum": 421,
+      "name": "Along the Forest Path",
+      "description": "Proceeding along the wide path, apparently not many wagons have traveled\nthis track recently.  Patches of green already attempt to regain the path\nin the name of the woods.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 422,
+        "west": 420
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 421,
+          "count": 1,
+          "room": 421
+        }
+      ],
+      "object_resets": []
+    },
+    "422": {
+      "vnum": 422,
+      "name": "Along start of the Forest Path",
+      "description": "\u003eFrom here you can still see the signs of gnomish habitation to the east.  The\nmain path continues wide and strong through east to west.  A small trail, not\nmuch more than a game trail heads south from here.  The trees rise up above you\nblocking any sign of the sky.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 423,
+        "north": 414,
+        "south": 430,
+        "west": 421
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 401,
+          "count": 1,
+          "room": 422
+        }
+      ],
+      "object_resets": []
+    },
+    "423": {
+      "vnum": 423,
+      "name": "East end of the Forest Path",
+      "description": "This is the entrance to a patch of the forest.  A sign has been plunged\ninto the earth here, providing some type of warning.  Thick brush hems you\nonto the path in most places.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 1501,
+        "west": 422
+      },
+      "exdescs": {
+        "sign": "By decree of the Gnome Council of Leaders, the old trade path, commonly\nknown as the Forest Path, is declared an unsafe area.  It is outside\nthe protection of the Gnome Guards, enter at your own risk."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "424": {
+      "vnum": 424,
+      "name": "West end of the Forest Path",
+      "description": "Stopping at the entrance to the forest, the trees and undergrowth go up\nlike a wall before you.  A sign has been hammered into the ground here,\nobviously providing some information for those who wish to travel the\ndepths of the forest.   A path wide enough for a small wagon proceeds\ninto the sylvan gloom.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 425,
+        "northeast": 417,
+        "west": 21119
+      },
+      "exdescs": {
+        "sign": "By decree of the Lords of Darkhaven, the old trade path, commonly\nknown as the Forest Path, is declared an unsafe area.  It is outside\nthe protection of the City of Darkhaven, enter at your own risk."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "425": {
+      "vnum": 425,
+      "name": "Amongst the trees",
+      "description": "A small creek passes through here not that far from the trade route.\nWere the route a true long distance path and not a simple short cut for\ntrades this idyllic watering hole would have seen more use.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 433,
+        "southwest": 432,
+        "west": 424
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 400,
+          "count": 1,
+          "room": 425
+        },
+        {
+          "vnum": 421,
+          "count": 2,
+          "room": 425
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 425
+        }
+      ]
+    },
+    "426": {
+      "vnum": 426,
+      "name": "Along a slope",
+      "description": "Standing on the north west corner of the slope with trees surrounding you\ninvokes a feeling of peace and nature, to the east, you can now see a huge\ntree raising above the forest.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 427,
+        "south": 434,
+        "southwest": 433
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "427": {
+      "vnum": 427,
+      "name": "A massive tree",
+      "description": "Standing before you is an embodiment of the power of nature.  This\ntree is so large that the curve in the trunk seems almost flat.\nGreat funnels of moss and lichen run in strands along and up the\ntrunk.  This is one of the oldest living things in the world.\nStanding as you are on the south side of the trunk you can see the\nslope of the hill curving around to the east and west.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 453,
+        "south": 435,
+        "southeast": 436,
+        "west": 426
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "428": {
+      "vnum": 428,
+      "name": "End of the faint path",
+      "description": "The trees seem to move in and get closer and the underbrush covers the ground.\nThe faint path comes to an end here.  It disappears completely amongst\nthe underbrush.   A row of broad leaved bushes stands along the path, then\nhelps to obscure it.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 429,
+        "south": 436,
+        "southeast": 437
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 420,
+          "count": 1,
+          "room": 428
+        }
+      ],
+      "object_resets": []
+    },
+    "429": {
+      "vnum": 429,
+      "name": "Along the faint path",
+      "description": "The path along this tranquil area of the forest is almost non-existent.\nTrees and bushes crowd along the sides of the trail.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "southeast": 438,
+        "west": 428
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 429
+        }
+      ]
+    },
+    "430": {
+      "vnum": 430,
+      "name": "Along the faint path",
+      "description": "You are just south of the main path, the faint path you traverse quickly\ndecreases from the main trade route into a disused game trail.  Green\nfoliage quickly rises close on either side of you.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 431,
+        "north": 422,
+        "southeast": 439
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "431": {
+      "vnum": 431,
+      "name": "In among the trees",
+      "description": "The trees stand like sentinels around you.  Heavy creepers try to choke the\nlife from these sentinels in the natural fight for survival.  Patches of\nbrown are quite prevelant in amongst the green.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "south": 439,
+        "west": 430
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "432": {
+      "vnum": 432,
+      "name": "In among the trees",
+      "description": "The brush here is thick, showing that nothing of any real size has passed\nhere.   The trees project upwards into the almost seamless canopy.  Moss\nand creepers grow here with great profusion in the damp conditions.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 433,
+        "northeast": 425,
+        "south": 440
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 432
+        }
+      ]
+    },
+    "433": {
+      "vnum": 433,
+      "name": "Bottom of the hill",
+      "description": "The trees rise in a gentle slope to the east.  The canopy above seems never\nto loose its almost seamless hold on the sight of the sky, the underbrush\nhere suffers as a result, making passage somewhat easy.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 425,
+        "northeast": 426,
+        "south": 441,
+        "southeast": 442,
+        "west": 432
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "434": {
+      "vnum": 434,
+      "name": "West side of the hill",
+      "description": "Here at the top of the hill you can get part of an overview of the forest, but\nonly part.  The canopy is still fairly complete.   This area is fairly flat\nand bare of shrubbery, leaving a long bladed grass to cower the ground.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 435,
+        "north": 426,
+        "south": 442
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 415,
+          "count": 1,
+          "room": 434
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 434
+        }
+      ]
+    },
+    "435": {
+      "vnum": 435,
+      "name": "East side of the hill",
+      "description": "Here at the top of the hill you can get part of an overview of the forest, but\nonly part.  The canopy is still fairly complete.  Very noticeable to the north\nis a massive tree rising far above its fellows.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 427,
+        "south": 443,
+        "west": 434
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "436": {
+      "vnum": 436,
+      "name": "Bottom of the hill",
+      "description": "Here at the bottom of the hill you see the canopy arching up and across to the\nwest.  The foliage blocks path directly up the hill, but you can make passage\nto the southern slope.  Upon the northern slope stands one of the greatest trees\nyou have every laid eyes upon.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 437,
+        "north": 428,
+        "northwest": 427,
+        "southwest": 443
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 402,
+          "count": 1,
+          "room": 436
+        }
+      ],
+      "object_resets": []
+    },
+    "437": {
+      "vnum": 437,
+      "name": "In the forest",
+      "description": "Admiring you sylvan surroundings you look around through the trees\nand shrubs you realize that almost any creature could sneak up on\nyou in this situation.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "northwest": 428,
+        "southeast": 446,
+        "southwest": 444,
+        "west": 436
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 1,
+          "room": 437
+        }
+      ],
+      "object_resets": []
+    },
+    "438": {
+      "vnum": 438,
+      "name": "Along the faint path",
+      "description": "Shoving the aside light underbrush is needed to follow this trail.  The\nsmell of broken plants assails your nose.  The mass of vegetation continues\nto loom up and around you, seemingly continuing forever.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 439,
+        "northwest": 429,
+        "southeast": 447
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 419,
+          "count": 2,
+          "room": 438
+        }
+      ],
+      "object_resets": []
+    },
+    "439": {
+      "vnum": 439,
+      "name": "Along the faint path",
+      "description": "The forest here seems a little greener.  Although most of the rest of the\nforest seems healthy this place along the faint path seems even more healthy\nand abundant.  The path itself is almost less than a game trail now.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 431,
+        "northwest": 430,
+        "south": 447,
+        "west": 438
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 418,
+          "count": 1,
+          "room": 439
+        }
+      ]
+    },
+    "440": {
+      "vnum": 440,
+      "name": "A small clearing",
+      "description": "This small clearing is heavily shielded by the surrounding bushes.  Judging\nby the amount of tracks, the smell of dank fur and occasional bones this\nis the lair of at least one carnivore.  The bushes themselves are thick\nwith leaves, some of which are mottled.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 441,
+        "north": 432
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 403,
+          "count": 1,
+          "room": 440
+        },
+        {
+          "vnum": 404,
+          "count": 1,
+          "room": 440
+        }
+      ],
+      "object_resets": []
+    },
+    "441": {
+      "vnum": 441,
+      "name": "In the forest",
+      "description": "The trees grow thick slowing progress down to a crawl.   Few bushes\ngrow here as the sun has difficulty reaching down into here.  There\nis a faint smell of decay here as decomposed vegetation covers the\nforest floor and a few pieces of fungi are growing around.\nThe smell seems to be stronger the closer you get to a hole in the\nground.  You might think twice before going down there.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 469,
+        "north": 433,
+        "west": 440
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 417,
+          "count": 4,
+          "room": 441
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 421,
+          "count": 1,
+          "room": 441
+        },
+        {
+          "vnum": 422,
+          "count": 1,
+          "room": 441
+        }
+      ]
+    },
+    "442": {
+      "vnum": 442,
+      "name": "Along the forested slope",
+      "description": "The forest continues unabated along the slope here,  travel to the south\nis blocked by the dense vegetation, but the hill itself is passable. To\nthe north and east you can see a massive tree rising far above the rest of\nthe forest.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 443,
+        "north": 434,
+        "northwest": 433
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "443": {
+      "vnum": 443,
+      "name": "On the slope",
+      "description": "The slope continues along here, the brush confines your progress along\nthe south.  The top of the hill stops your view to the north.  Trees\ngather in clumps here almost as if purposely planted as such.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 435,
+        "northeast": 436,
+        "west": 442
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 414,
+          "count": 2,
+          "room": 443
+        }
+      ],
+      "object_resets": []
+    },
+    "444": {
+      "vnum": 444,
+      "name": "Amongst the trees",
+      "description": "Wading deep through the underbrush, moving the smaller trees and\ngoing around the larger trees.  All manner of leaves and twigs stick to\nyour clothing as you press forth.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 445,
+        "northeast": 437
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "445": {
+      "vnum": 445,
+      "name": "A small glade",
+      "description": "The simplicity of this glade exudes an almost magical aura of peace\nand harmony, even your most aggressive urges are suppressed in this\nplace.   The vegetation seems to be in the epitome of life and vitality.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 446,
+        "west": 444
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "446": {
+      "vnum": 446,
+      "name": "In the forest",
+      "description": "The forest here seems greener and more alive.  Any unhealthy spots you\nhave seen elsewhere are banished from you mind.  All the plants and\ntrees seem almost cared for, but wilder at the same time.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "northwest": 437,
+        "west": 445
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "447": {
+      "vnum": 447,
+      "name": "A small camp",
+      "description": "This small clearing seems to be two things at once.  An idyllic sylvan glade\nmixes perfectly with a small encampment.  A moss-covered log seems to have\nbecome a seat and a tiny fire burns in the middle of the opening, far from\nthreatening any of the vegetation.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 439,
+        "northwest": 438
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 407,
+          "count": 1,
+          "room": 447
+        }
+      ],
+      "object_resets": []
+    },
+    "448": {
+      "vnum": 448,
+      "name": "Half way up a tree",
+      "description": "You have ascended half way up the massive tree,  a little foliage is here\nto grab a hold of and some depressions in the tree allow you to stop your\nascent here for a rest.  You view is mostly stopped by the dense leaves of\nthis and surrounding trees.",
+      "sector": "forest",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 411,
+        "up": 451
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "449": {
+      "vnum": 449,
+      "name": "The top of the tree",
+      "description": "Having managed to get to the top of this massive tree you now reap the\nbenefits.  A breathtaking view is spread around you.   The carpet of the\nforest is almost complete around you as you sit in the tall clump of trees.\nOff to the south you notice a hill, indicated by the gentle rise of the tree\ntops in that area.  Standing out predominately, just before the hill is a\nhuge tree, such as that the rest of the forest looks like saplings.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 451
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "450": {
+      "vnum": 450,
+      "name": "Out on the limb",
+      "description": "You stand out over the forest floor, any further progress is unattainable\nsimply because the limb you are on becomes too thin.  The ground seems a\nlong way making a fall inadvisable.   There is the remains of a large\nnest here, its state of decay suggest it has not been used for some time.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "east": 451
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "451": {
+      "vnum": 451,
+      "name": "A platform nestled in the tree",
+      "description": "This platform seems to be made out of the tree itself, some nature magic\nhas shaped it into a usable structure.  It is large enough for a small\ngroup of people to rest and shelter away from the dangers of the forest\nbelow.   Looking down you see that the surrounding foliage provides\nalmost perfect cover to anyone below and the smell of the forest wafts\ngently past you encouraging you to rest in this seemingly safe, haven.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "down": 448,
+        "east": 452,
+        "up": 449,
+        "west": 450
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "452": {
+      "vnum": 452,
+      "name": "Inside the hollow",
+      "description": "This small cubby in the tree is a seemingly natural space hidden into the\ntree itself with a hidden opening stopping easy location of this place.\nThe trees inside surface is a smooth, almost polished finish, the\nwood grain and swirls makes entrancing patterns around you.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "west": 451
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 411,
+          "count": 1,
+          "room": 452
+        }
+      ]
+    },
+    "453": {
+      "vnum": 453,
+      "name": "A pit amongst the roots",
+      "description": "You have descended deep into a natural crevasse in the roots.  This pit is\nfairly large and has been smoothed down by the passage of water and\nanimals as a few bones lay on the bottom.  Perhaps some poor beasts have\nfallen to their doom here.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 457,
+        "up": 427
+      },
+      "exdescs": {
+        "bone": "The bones are of perhaps a wolf or some other canine.  You can really\nidentify as the bones have worn into the dirt and are bleached of all\nflesh.",
+        "bones": "The bones are of perhaps a wolf or some other canine.  You can really\nidentify as the bones have worn into the dirt and are bleached of all\nflesh."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "454": {
+      "vnum": 454,
+      "name": "The end of the feast hall",
+      "description": "This enlarged area of the root tunnels has a soot lined roof, showing that\nthe cooking utensils that lay here are used.  The stench of smoke and soot\nfurther brings this feeling home.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 458
+      },
+      "exdescs": {
+        "cooking": "A few large pots, a much beaten kettle and some malformed spoons and\nladles make up the cooks equipment here.  As elsewhere in here everything\nis of differing quality, with the bandits using what they find\nthats is useful but not valuable enough to fence for some quick\nprofit.",
+        "utensils": "A few large pots, a much beaten kettle and some malformed spoons and\nladles make up the cooks equipment here.  As elsewhere in here everything\nis of differing quality, with the bandits using what they find\nthats is useful but not valuable enough to fence for some quick\nprofit."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 425,
+          "count": 1,
+          "room": 454
+        }
+      ]
+    },
+    "455": {
+      "vnum": 455,
+      "name": "Heart of the tree",
+      "description": "This a very small and cramped crack in the center of the tree.  Deeper inside\nthrough the split caused by the damage to the great trees roots is a small\nopen section about two feet around.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 456
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 419,
+          "count": 1,
+          "room": 455
+        }
+      ]
+    },
+    "456": {
+      "vnum": 456,
+      "name": "A hidden room",
+      "description": "This room seems to be used for storage.   A lining of roots and dirt have provided\na stable roof and wall, along the east wall a rough hession blanket has been attached\nto the wall, obviously to prevent anything falling upon the bench along that wall.\nOn the been are several items that gleam with the luster of precious metals and gems.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 460,
+        "west": 455
+      },
+      "exdescs": {
+        "blanket": "The large coarse weave blanket seems to have been attached to the wall with large\niron nails sticking into the thick roots.  A quick look behind the covering\nreveals only more wall.",
+        "hession": "The large coarse weave blanket seems to have been attached to the wall with large\niron nails sticking into the thick roots.  A quick look behind the covering\nreveals only more wall."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 426,
+          "count": 1,
+          "room": 456
+        }
+      ]
+    },
+    "457": {
+      "vnum": 457,
+      "name": "A root lined tunnel",
+      "description": "A small narrow passage further under the tree.   With the natural substance along\nroof, floor and walls only the relatively flat floor gives away the fact that\nthis passage sees use.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 453,
+        "south": 461
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "458": {
+      "vnum": 458,
+      "name": "The feast hall",
+      "description": "The largest room you have seen here under the tree, the roots almost seem\nto have been cut back too savagely.   The safety of the room does not seem\nto be too bad as the purpose of this room seems to be to provide the bandit\ngroup a place to eat their meals.  A large table and simple benches provide\nseating and the plain silver and steel cutlery and plates you feel must have\nbeen stolen.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 454,
+        "south": 462
+      },
+      "exdescs": {
+        "cutlery": "All of the eating utensils are now showing the signs of heavy and\nabusive use.   Even though some of them were quite fine and\nexpensive items, harsh use has devalued all of the items to\nnext to nothing.   Perhaps with the lack of merchants travelling\nthrough the bandit group is starting to feel a degrading lifestyle.",
+        "plates": "All of the eating utensils are now showing the signs of heavy and\nabusive use.   Even though some of them were quite fine and\nexpensive items, harsh use has devalued all of the items to\nnext to nothing.   Perhaps with the lack of merchants travelling\nthrough the bandit group is starting to feel a degrading lifestyle.",
+        "silver": "All of the eating utensils are now showing the signs of heavy and\nabusive use.   Even though some of them were quite fine and\nexpensive items, harsh use has devalued all of the items to\nnext to nothing.   Perhaps with the lack of merchants travelling\nthrough the bandit group is starting to feel a degrading lifestyle.",
+        "steel": "All of the eating utensils are now showing the signs of heavy and\nabusive use.   Even though some of them were quite fine and\nexpensive items, harsh use has devalued all of the items to\nnext to nothing.   Perhaps with the lack of merchants travelling\nthrough the bandit group is starting to feel a degrading lifestyle."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 5,
+          "room": 458
+        },
+        {
+          "vnum": 423,
+          "count": 5,
+          "room": 458
+        }
+      ],
+      "object_resets": []
+    },
+    "459": {
+      "vnum": 459,
+      "name": "Fnords Room",
+      "description": "This rooms walls are lined with cured deer hides.  Even the roof is covered\nby a canvas covering, perhaps the owner of room does not like being underground.\nThe floor is covered by a series of thick fur pelts, they would be worth money\nexcept for the fact they are dirty, stained and damaged.  The plush bed seems\nout of place in the surroundings, perhaps it fell of the back of a cart.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 463
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 411,
+          "count": 1,
+          "room": 459
+        }
+      ],
+      "object_resets": []
+    },
+    "460": {
+      "vnum": 460,
+      "name": "Erics Room",
+      "description": "The most fancy room in the place this is obviously the leaders quarters.\nSomeone has even gone to the trouble of nailing wooden boards to all sides\nof the room, thus this appears to be any normal room.  Well any normal room\nwithout any windows and a musty dirt smell pervading it.  A few pieces of\nfine furniture are in place, including a bed, dresser and a couple of fine\nchairs.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 456,
+        "south": 464
+      },
+      "exdescs": {
+        "board": "A cursory look over the room shows that boards from many sourses\nhave been tacked here to make the walls.  There is a general mottled\neffect caused by the very different grains and sizes of boards used.\nLittle furniture is directly against the walls, perhaps for safety.\nA quick search of the rough walls reveals that one large board in\nthe north wall is actually a hidden door.",
+        "wall": "A cursory look over the room shows that boards from many sourses\nhave been tacked here to make the walls.  There is a general mottled\neffect caused by the very different grains and sizes of boards used.\nLittle furniture is directly against the walls, perhaps for safety.\nA quick search of the rough walls reveals that one large board in\nthe north wall is actually a hidden door.",
+        "wood": "A cursory look over the room shows that boards from many sourses\nhave been tacked here to make the walls.  There is a general mottled\neffect caused by the very different grains and sizes of boards used.\nLittle furniture is directly against the walls, perhaps for safety.\nA quick search of the rough walls reveals that one large board in\nthe north wall is actually a hidden door."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 409,
+          "count": 1,
+          "room": 460
+        }
+      ],
+      "object_resets": []
+    },
+    "461": {
+      "vnum": 461,
+      "name": "The guard room",
+      "description": "A simple utility is filled by this room.  This is a guardroom, the occupants\nwill try their best to stop any unwelcome intruders from passing any further.\nWhen the guards are not fighting invaders to the death they are playing some\nsimple game of cards on the table here.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 462,
+        "north": 457
+      },
+      "exdescs": {
+        "cards": "Redit the table looks to be of very strong and thick construction\nperhaps the inhabitants use the table as a makeshift barricade\nwhen they are attacked.  The set of cards upon the table show\nsome heavy use and there are multiple layers of grime pressed\ninto each of them.",
+        "table": "Redit the table looks to be of very strong and thick construction\nperhaps the inhabitants use the table as a makeshift barricade\nwhen they are attacked.  The set of cards upon the table show\nsome heavy use and there are multiple layers of grime pressed\ninto each of them."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        },
+        {
+          "vnum": 423,
+          "count": 13,
+          "room": 461
+        }
+      ],
+      "object_resets": []
+    },
+    "462": {
+      "vnum": 462,
+      "name": "The armory",
+      "description": "A large cross roads type room with many apparent exits, this place serves\nas a storage place for weapons and armor while not in use.  Bare roots and\ndirt make up the construction of this room.  The roots of the roof have been\ncut back to allow an increase in the overall height of the room.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 463,
+        "north": 458,
+        "south": 466,
+        "southwest": 465,
+        "west": 461
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "463": {
+      "vnum": 463,
+      "name": "A musty hallway",
+      "description": "A large hallway, the dirt making the floor, roof and walls is lined with\nroots of all shapes and sizes.   The hallway is almost circular in shape\nsuggesting a mostly natural origin, although the floor is flattened down\nto an almost smooth surface by the passage of booted feet.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 464,
+        "north": 459,
+        "south": 467,
+        "west": 462
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "464": {
+      "vnum": 464,
+      "name": "End of the hallway",
+      "description": "The roof rapidly descends meeting the floor, roots are almost solid\nover head.  Roots have been torn away to the north and south and\nnow doors stand in holes.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 460,
+        "south": 468,
+        "west": 463
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "465": {
+      "vnum": 465,
+      "name": "Common room",
+      "description": "A very large root lined room,  rough boards make up the floor.  Most of\nthe area is filled with numerous bunks and pallets.  Many people seem\nto use this place as sleeping room as the combined smell of many unwashed\nbodies combines into an almost palpable aura.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northeast": 462
+      },
+      "exdescs": {
+        "bunk": "You do not approach the either the bunks or the pallets as the\nsmell is not good, and their appearance is worse.  All are stained\nto some degree and you swear that something moves in at least\nsome of them proclaiming pestial infestation.",
+        "pallet": "You do not approach the either the bunks or the pallets as the\nsmell is not good, and their appearance is worse.  All are stained\nto some degree and you swear that something moves in at least\nsome of them proclaiming pestial infestation."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        },
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        },
+        {
+          "vnum": 423,
+          "count": 8,
+          "room": 465
+        }
+      ],
+      "object_resets": []
+    },
+    "466": {
+      "vnum": 466,
+      "name": "Game room",
+      "description": "A rest room for the troops.   A few tables stand with cards and dice\nupon them.  A target board with several knives sticking from it has been\nhung upon the wall and the room is finished off by the smells of stale\nbeer and spilled wine.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 462
+      },
+      "exdescs": {
+        "cards": "The tables are fairly primitive wood construction, maybe the kind\nthat a peasant would use.  They are all fairly stained with pools\nand residue of various types of spilled alcohol.  The cards\nand dice are of a poor quality and some of the cards sport\nrather large stains making gaming against those who know\nthe splotches on the back of the cards inadvisable.\nThe dice look as they are made from somethings bone.",
+        "dice": "The tables are fairly primitive wood construction, maybe the kind\nthat a peasant would use.  They are all fairly stained with pools\nand residue of various types of spilled alcohol.  The cards\nand dice are of a poor quality and some of the cards sport\nrather large stains making gaming against those who know\nthe splotches on the back of the cards inadvisable.\nThe dice look as they are made from somethings bone.",
+        "table": "The tables are fairly primitive wood construction, maybe the kind\nthat a peasant would use.  They are all fairly stained with pools\nand residue of various types of spilled alcohol.  The cards\nand dice are of a poor quality and some of the cards sport\nrather large stains making gaming against those who know\nthe splotches on the back of the cards inadvisable.\nThe dice look as they are made from somethings bone.",
+        "target": "The target is a large fairly circular tree cross-section.  With\nprominent bands in its ring variation.  Apparently these are use for\nscoring the game.  The whole front of the target is a mass of wood\npulp from being repeatedly hit by knives and daggers."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        },
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        },
+        {
+          "vnum": 423,
+          "count": 3,
+          "room": 466
+        }
+      ],
+      "object_resets": []
+    },
+    "467": {
+      "vnum": 467,
+      "name": "Ogres room",
+      "description": "The owner of this room goes for the simple things in life.   A large\nplain pallet serves as a simple bed, a piece of cut off wood is a stool.\nAn old barrel seems be a simple table.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 463
+      },
+      "exdescs": {
+        "barrel": "The ball come table is very basic and only contains an empty\nbeer mug.   Tapping on the barrel itself sounds like it is hollow\nand probably contains nothing.",
+        "table": "The ball come table is very basic and only contains an empty\nbeer mug.   Tapping on the barrel itself sounds like it is hollow\nand probably contains nothing."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 412,
+          "count": 1,
+          "room": 467
+        }
+      ],
+      "object_resets": []
+    },
+    "468": {
+      "vnum": 468,
+      "name": "Lucellias room",
+      "description": "A fair simple room, the owner doesn't seem to that worried with emphereal things\nin life.  The basic simplicity of the bed, closet and table makes you wonder why\nthe occupant has taken up the life of a bandit.  Even the bare roots and dirt that\nmake up this underground complex are not covered.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 464
+      },
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 410,
+          "count": 1,
+          "room": 468
+        }
+      ],
+      "object_resets": []
+    },
+    "469": {
+      "vnum": 469,
+      "name": "Into the cave",
+      "description": "The stench is almost overpowering now as you go further into the cave.\nPieces of rotting flesh and decaying bone are strewn about the ground.\nSomething really disgusting must live down here.  There are scratches\non the wall.",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {
+        "up": 441
+      },
+      "exdescs": {
+        "scratches": "Long grooves have been cut into the rock here.  It had to take something\npowerful to make these marks.   Whatever lives down here probably does\nnot want to be disturbed.  Make sure you're up to the challenge before\nyou go any further."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "470": {
+      "vnum": 470,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true,
+        "prototype": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "497": {
+      "vnum": 497,
+      "name": "The mob closet",
+      "description": "This room stores the bandits that go to different places to\nambush the player characters.  This is so MpMload isn't used and\ncreating an infinite supply of them.",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [
+        {
+          "vnum": 422,
+          "count": 1,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 413,
+          "count": 12,
+          "room": 497
+        },
+        {
+          "vnum": 408,
+          "count": 1,
+          "room": 497
+        }
+      ],
+      "object_resets": []
+    },
+    "498": {
+      "vnum": 498,
+      "name": "Trash Room",
+      "description": "Purges mobs that so that purge self isn't needed.",
+      "sector": "city",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "499": {
+      "vnum": 499,
+      "name": "Last Room",
+      "description": "An Information room for Immortals.\nExamine the following:\n\"Plots\" for an overview of the plots.\n\"Area\" for general information.\n\"Info\" for Placement and integration into the world.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {
+        "area": "Originally from Black Aria:\n\n                     aria.tander.com 4000\n\nOkay here is my second area.   This Area represents more of a\n'realistic fantasy' rather than an 'epic fantasy' setting.\n\nThis area is a path to go from one area to another, but is a\nbit too dangerous to probably be considered a linkage area.\n\nNote that some of the mobs have Rand_progs for them attacking\nrather than being outright aggressive, both to suprise\nexperienced players and give newbies more a chance to\ndetermine combat.",
+        "info": "Make sure mobs 400,401 and 402 have mpinvis settings correct\nfor what your level your mud goes to, players should never\nsee them.\nIn Black Aria is is place from the start of the gnomes\nShattered Refuge(Vnum 1501) to the south east corner of\nthe trail around Darkhaven (Vnum 21119).",
+        "plot": "This represents an old trade route, made unusable by the\nBandit Eric and his group.\n\nAlong the main path the players meet the Knight Theggory.\nHe tells of seeking a druid.\nThe Druid tells of needing to help the forest as it isn't as\nhealthy as it seems, so he seeks the guardian of the forest a\ndryad.\nThe Dryad says that she has been driven from her tree by\nhumans, she needs the Heart of the Tree to regain her home.\nThe Tree is the base Erics Band and entry is hard to find\nwithout talking to the Dryad, deep in the tree is the\nheart for which the dryad will reward the return of.",
+        "plots": "This represents an old trade route, made unusable by the\nBandit Eric and his group.\n\nAlong the main path the players meet the Knight Theggory.\nHe tells of seeking a druid.\nThe Druid tells of needing to help the forest as it isn't as\nhealthy as it seems, so he seeks the guardian of the forest a\ndryad.\nThe Dryad says that she has been driven from her tree by\nhumans, she needs the Heart of the Tree to regain her home.\nThe Tree is the base Erics Band and entry is hard to find\nwithout talking to the Dryad, deep in the tree is the\nheart for which the dryad will reward the return of."
+      },
+      "area_name": "Along the Forest Path",
+      "area_author": "Lycorlyntras",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "400": {
+      "vnum": 400,
+      "keywords": [
+        "effects",
+        "mob",
+        "one"
+      ],
+      "short": "a forest spirit",
+      "long": "The number one effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "401": {
+      "vnum": 401,
+      "keywords": [
+        "effects",
+        "mob",
+        "two"
+      ],
+      "short": "a forest spirit",
+      "long": "The number two effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "402": {
+      "vnum": 402,
+      "keywords": [
+        "effects",
+        "mob",
+        "three"
+      ],
+      "short": "a forest spirit",
+      "long": "The number three effects mob stands here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "403": {
+      "vnum": 403,
+      "keywords": [
+        "gray",
+        "female",
+        "she",
+        "wolf"
+      ],
+      "short": "the she-wolf",
+      "long": "A thin, and desperate she-wolf, climbs this part of the forest for hunting.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        16,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "404": {
+      "vnum": 404,
+      "keywords": [
+        "wolf",
+        "cub"
+      ],
+      "short": "the wolf cub",
+      "long": "A small furry wolf cub looks at you, small teeth bared.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        7,
+        10,
+        15,
+        15,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "405": {
+      "vnum": 405,
+      "keywords": [
+        "theggory",
+        "knight",
+        "tall",
+        "man"
+      ],
+      "short": "Theggory the knight",
+      "long": "A tall man, clad in heraldic branded armor imposes his presence here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        20,
+        14,
+        13,
+        15,
+        13,
+        14,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "406": {
+      "vnum": 406,
+      "keywords": [
+        "sturdy",
+        "destrier",
+        "horse"
+      ],
+      "short": "sturdy destrier",
+      "long": "A large destrier paws the ground.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "407": {
+      "vnum": 407,
+      "keywords": [
+        "druid",
+        "Acwellan",
+        "tall",
+        "man"
+      ],
+      "short": "Acwellan the druid",
+      "long": "A tall skinny man, serenity fills his weather-lined face.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 110,
+      "max_mana": 110,
+      "attributes": [
+        14,
+        14,
+        17,
+        10,
+        10,
+        16,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "408": {
+      "vnum": 408,
+      "keywords": [
+        "bandersnatch",
+        "ball",
+        "fur"
+      ],
+      "short": "the bandersnatch",
+      "long": "A heaving, bouncing ball of fur.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "409": {
+      "vnum": 409,
+      "keywords": [
+        "bandit",
+        "Eric",
+        "halfelf"
+      ],
+      "short": "Eric the Bandit",
+      "long": "A powerfully build half-elf, in hunting leathers sneers at you.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        19,
+        18,
+        10,
+        15,
+        15,
+        16,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "410": {
+      "vnum": 410,
+      "keywords": [
+        "bandit",
+        "lucellia",
+        "lucky",
+        "petite",
+        "woman"
+      ],
+      "short": "Lucellia the Lucky",
+      "long": "A petite woman looks you over, her raggedness not despoiling her beauty.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 233,
+      "max_mana": 233,
+      "attributes": [
+        12,
+        15,
+        10,
+        12,
+        12,
+        5,
+        17
+      ],
+      "room_vnum": 0
+    },
+    "411": {
+      "vnum": 411,
+      "keywords": [
+        "bandit",
+        "fnord",
+        "quick",
+        "tall",
+        "thin",
+        "man"
+      ],
+      "short": "Fnord the Quick",
+      "long": "A very tall, thin man looks around nervously.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        10,
+        14,
+        11,
+        20,
+        10,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "412": {
+      "vnum": 412,
+      "keywords": [
+        "bandit",
+        "ogre",
+        "brute",
+        "short",
+        "man"
+      ],
+      "short": "Ogre the Brute",
+      "long": "A short man, almost as wide as he is tall stands here, bristling weaponry.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        9,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "413": {
+      "vnum": 413,
+      "keywords": [
+        "forest",
+        "bandit",
+        "man",
+        "outdoor"
+      ],
+      "short": "The forest bandit",
+      "long": "A man in dirty forest leathers skulks here",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 85,
+      "max_mana": 85,
+      "attributes": [
+        16,
+        12,
+        10,
+        15,
+        12,
+        12,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "414": {
+      "vnum": 414,
+      "keywords": [
+        "blood",
+        "hawk",
+        "large"
+      ],
+      "short": "The Blood Hawk",
+      "long": "A large hawk with razor claws arcs through the trees.",
+      "race": "animal",
+      "class": "paladin",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        16,
+        7,
+        10,
+        18,
+        18,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "415": {
+      "vnum": 415,
+      "keywords": [
+        "giant",
+        "boar",
+        "beast"
+      ],
+      "short": "A giant boar",
+      "long": "A true massive beast.  Its huge tusks threaten the lives of all nearby.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "416": {
+      "vnum": 416,
+      "keywords": [
+        "willum",
+        "halfling",
+        "thief"
+      ],
+      "short": "Willum",
+      "long": "A short halfling creeps around, looking for an easy score.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 121,
+      "max_mana": 121,
+      "attributes": [
+        10,
+        15,
+        10,
+        19,
+        14,
+        14,
+        16
+      ],
+      "room_vnum": 0
+    },
+    "417": {
+      "vnum": 417,
+      "keywords": [
+        "choke",
+        "creeper",
+        "vine",
+        "creeper"
+      ],
+      "short": "the choke creeper",
+      "long": "A series of vines and creepers infest the local flora.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 96,
+      "max_mana": 96,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "418": {
+      "vnum": 418,
+      "keywords": [
+        "young",
+        "wyvern",
+        "reptile"
+      ],
+      "short": "the young wyvern",
+      "long": "A large winged reptile with wings instead of forearms, its scales bright with youth.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 208,
+      "max_mana": 208,
+      "attributes": [
+        17,
+        7,
+        10,
+        15,
+        14,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "419": {
+      "vnum": 419,
+      "keywords": [
+        "fallow",
+        "deer"
+      ],
+      "short": "fallow deer",
+      "long": "A nervous fallow deer stands here looking at you.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "420": {
+      "vnum": 420,
+      "keywords": [
+        "black",
+        "crow",
+        "bird"
+      ],
+      "short": "the crow",
+      "long": "A black bird sits here up a tree.  The raven looks at you intently.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 46,
+      "max_mana": 46,
+      "attributes": [
+        22,
+        7,
+        10,
+        15,
+        20,
+        5,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "421": {
+      "vnum": 421,
+      "keywords": [
+        "porcupine"
+      ],
+      "short": "the small porcupine",
+      "long": "A small heavily quilled porcupine waddles through here.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 35,
+      "max_mana": 35,
+      "attributes": [
+        10,
+        10,
+        10,
+        15,
+        10,
+        10,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "422": {
+      "vnum": 422,
+      "keywords": [
+        "sylvan",
+        "dryad",
+        "guardian",
+        "spirit",
+        "semlina"
+      ],
+      "short": "the dryad",
+      "long": "A thin pale forest spirit is here, the dryad is at one with her sylvan environment.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 333,
+      "max_mana": 333,
+      "attributes": [
+        20,
+        17,
+        19,
+        18,
+        20,
+        15,
+        19
+      ],
+      "room_vnum": 0
+    },
+    "423": {
+      "vnum": 423,
+      "keywords": [
+        "forest",
+        "bandit",
+        "man",
+        "indoor"
+      ],
+      "short": "The forest bandit",
+      "long": "A man in dirty forest leathers.",
+      "race": "human",
+      "class": "bard",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 85,
+      "max_mana": 85,
+      "attributes": [
+        16,
+        12,
+        10,
+        15,
+        12,
+        12,
+        14
+      ],
+      "room_vnum": 0
+    },
+    "498": {
+      "vnum": 498,
+      "keywords": [
+        "zombie2",
+        "mob"
+      ],
+      "short": "a zombie mob",
+      "long": "A zombie mob to do tasks namely mpat because it can't be done by rooms :)",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    },
+    "499": {
+      "vnum": 499,
+      "keywords": [
+        "zombie1",
+        "mob"
+      ],
+      "short": "a zombie mob",
+      "long": "A zombie mob to do tasks namely mpat because it can't be done by rooms :)",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 5000,
+      "max_mana": 5000,
+      "attributes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "400": {
+      "vnum": 400,
+      "keywords": [
+        "ash",
+        "bow"
+      ],
+      "type": "missileweapon",
+      "short": "a huge ash bow",
+      "long": "A large ash wood bow lays here waiting to be used.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "401": {
+      "vnum": 401,
+      "keywords": [
+        "leather",
+        "archers",
+        "bracer"
+      ],
+      "type": "armor",
+      "short": "a leather archer's bracer",
+      "long": "A leather archer's bracer sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "402": {
+      "vnum": 402,
+      "keywords": [
+        "stream",
+        "water"
+      ],
+      "type": "fountain",
+      "short": "stream water",
+      "long": "A small creek winds its way amongst the bushes and trees.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "403": {
+      "vnum": 403,
+      "keywords": [
+        "stream",
+        "fordwater"
+      ],
+      "type": "fountain",
+      "short": "ford of the stream",
+      "long": "A small creek winds spreads out through large rocks creating a small ford.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "404": {
+      "vnum": 404,
+      "keywords": [
+        "hunters",
+        "cap",
+        "leather"
+      ],
+      "type": "armor",
+      "short": "a leather hunters cap",
+      "long": "A finely made leather hunters cap, has been placed on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "405": {
+      "vnum": 405,
+      "keywords": [
+        "guards",
+        "arm",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic arm guards",
+      "long": "A set of arm guards, heavily ornamented with the heraldry of a griffin.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "406": {
+      "vnum": 406,
+      "keywords": [
+        "breast",
+        "plate",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic breast plate",
+      "long": "A fine breast plate, the heraldic symbol of a griffin stands proudly in the centre.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "407": {
+      "vnum": 407,
+      "keywords": [
+        "leggings",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "Heraldic leggings",
+      "long": "A set of leggings heraldicly embossed with griffins has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "408": {
+      "vnum": 408,
+      "keywords": [
+        "pair",
+        "huge",
+        "vicious",
+        "cestus"
+      ],
+      "type": "weapon",
+      "short": "a pair of huge cestus",
+      "long": "A pair of  vicious cestus lay here, waiting to be worn.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "409": {
+      "vnum": 409,
+      "keywords": [
+        "sturdy",
+        "shined",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of sturdy, shined boots",
+      "long": "A pair of highly shined, sturdy boots wait here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "410": {
+      "vnum": 410,
+      "keywords": [
+        "shield",
+        "heraldic",
+        "griffin"
+      ],
+      "type": "armor",
+      "short": "the griffin heraldic shield.",
+      "long": "A shield bearing the heraldic symbol of the griffin rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "411": {
+      "vnum": 411,
+      "keywords": [
+        "elven",
+        "rune",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "an elven rune sword",
+      "long": "A sword bearing glowing elven runes lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "412": {
+      "vnum": 412,
+      "keywords": [
+        "leather",
+        "leggings",
+        "green"
+      ],
+      "type": "armor",
+      "short": "the leather leggings",
+      "long": "A set of greenish dyed leather leggings has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "413": {
+      "vnum": 413,
+      "keywords": [
+        "leather",
+        "jerkin",
+        "green"
+      ],
+      "type": "armor",
+      "short": "a leather jerkin",
+      "long": "A greenish colored leather jerkin is crumpled in a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "414": {
+      "vnum": 414,
+      "keywords": [
+        "leather",
+        "sleeves",
+        "reinforced"
+      ],
+      "type": "armor",
+      "short": "leather sleeves",
+      "long": "A pair of thick reinforced leather sleeves has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "415": {
+      "vnum": 415,
+      "keywords": [
+        "thick",
+        "leather",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a pair of thick leather boots",
+      "long": "A pair of thick leather boots wait here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "416": {
+      "vnum": 416,
+      "keywords": [
+        "long",
+        "hunters",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "A long, hunter's knife",
+      "long": "A large knife, its curved blade has been slightly rusted by the elements.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "417": {
+      "vnum": 417,
+      "keywords": [
+        "ironshod",
+        "quarterstaff",
+        "bronzewood",
+        "wood"
+      ],
+      "type": "weapon",
+      "short": "an ironshod quarterstaff",
+      "long": "A large ironshod quarterstaff made from bronzewood lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "418": {
+      "vnum": 418,
+      "keywords": [
+        "false",
+        "creeper"
+      ],
+      "type": "armor",
+      "short": "A series of vines and creeper infest the local flora",
+      "long": "A series of vines and creeper infest the local flora.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "419": {
+      "vnum": 419,
+      "keywords": [
+        "heart",
+        "forest"
+      ],
+      "type": "trash",
+      "short": "The Heart of the Forest",
+      "long": "A large knot of highly polished wood sits here, it almost seems to pulse.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "420": {
+      "vnum": 420,
+      "keywords": [
+        "deer",
+        "side",
+        "meat",
+        "venison"
+      ],
+      "type": "food",
+      "short": "the bloodied side of a deer",
+      "long": "The side of a deer lays here amongst a small pool of blood",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "421": {
+      "vnum": 421,
+      "keywords": [
+        "mushroom",
+        "pale",
+        "gray"
+      ],
+      "type": "pill",
+      "short": "a pale gray mushroom",
+      "long": "A pale gray mushroom grows here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "422": {
+      "vnum": 422,
+      "keywords": [
+        "mushroom",
+        "sickly",
+        "red"
+      ],
+      "type": "pill",
+      "short": "a sickly red mushroom",
+      "long": "A sickly red mushroom protrudes from the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "423": {
+      "vnum": 423,
+      "keywords": [
+        "short",
+        "battle",
+        "spear"
+      ],
+      "type": "weapon",
+      "short": "a short battle spear",
+      "long": "A short, wide bladed spear sits here waiting for someone to use it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "424": {
+      "vnum": 424,
+      "keywords": [
+        "sword",
+        "thick",
+        "wide",
+        "heavy",
+        "broad"
+      ],
+      "type": "weapon",
+      "short": "a very thick and heavy broad sword",
+      "long": "A black iron sword the seems almost ridiculously wide and thick lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "425": {
+      "vnum": 425,
+      "keywords": [
+        "boar",
+        "leg",
+        "roast"
+      ],
+      "type": "food",
+      "short": "a roasted boar leg",
+      "long": "A leg of roasted boar sits here filling the air with the smell of cooked meat.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "426": {
+      "vnum": 426,
+      "keywords": [
+        "large",
+        "pile",
+        "treasure",
+        "mixed"
+      ],
+      "type": "money",
+      "short": "a large pile of mixed treasure",
+      "long": "A large pile of mixed treasures lays here in a rough jumble.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "427": {
+      "vnum": 427,
+      "keywords": [
+        "quiver",
+        "arrows"
+      ],
+      "type": "quiver",
+      "short": "a quiver of arrows",
+      "long": "A quiver has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "428": {
+      "vnum": 428,
+      "keywords": [
+        "arrow"
+      ],
+      "type": "projectile",
+      "short": "an arrow",
+      "long": "An arrow has fallen here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "498": {
+      "vnum": 498,
+      "keywords": [
+        "regen",
+        "token"
+      ],
+      "type": "armor",
+      "short": "",
+      "long": "",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "499": {
+      "vnum": 499,
+      "keywords": [
+        "last",
+        "item"
+      ],
+      "type": "armor",
+      "short": "",
+      "long": "A token for the dryad as give an item checked seems to stuff Ovnumcarry check.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

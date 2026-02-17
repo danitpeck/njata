@@ -1,0 +1,1455 @@
+{
+  "name": "Dwarven Daycare",
+  "author": "Sandman",
+  "reset_minutes": 5,
+  "rooms": {
+    "6601": {
+      "vnum": 6601,
+      "name": "The Dwarven Drop Off",
+      "description": "You stand within a short tunnel carved into the hillside, and which leads\nsouth to the Dwarven Dropoff.  Built beneath the earth, a place of preference\nand safety for dwarves, this is where the dwarven mothers and fathers come\nto drop off their annoying little brats.  You can hear screams and wails\ncoming from the south, and you suddenly feel the urge to leave.  There\nis a small sign on the tunnel wall, with a small plaque below it.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 6617,
+        "up": 6500
+      },
+      "exdescs": {
+        "plaque": "Before you lies the Dwarven Daycare.  This area is intended for levels 1-5,\nand may not offer too much for levels higher than that.\n\nEnjoy the daycare, but watch out for the little anklebiters.\n\n-- Vaiza, Renovator and member of the Area Council",
+        "sign": "This is an area for newbies, so have fun.  -- Sandman"
+      },
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6602": {
+      "vnum": 6602,
+      "name": "Entrance to the Day Care",
+      "description": "You have entered into north-east corner of the dwarven daycare.  As you\nlook around, you can see toddlers running and playing.  There are toys\nand dolls scattered about the room, and the room itself is quite dirty.\nYour nostrils are filled with the scent of food which wafts in from the\nkitchen to the east.  A small gate guards the exit north to freedom.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6626,
+        "north": 6617,
+        "south": 6604,
+        "west": 6632
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6603": {
+      "vnum": 6603,
+      "name": "Day Care Center",
+      "description": "You stand in the north-west corner of the dwarven daycare.  As you\ntry to make a path through the toys at your feet, you give up and\njust walk over them.  Toddlers begin to wreak havoc on your legs\nand you try to shake some off that have clung to your ankles.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6632,
+        "south": 6605,
+        "west": 6606
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6605,
+          "count": 2,
+          "room": 6603
+        }
+      ],
+      "object_resets": []
+    },
+    "6604": {
+      "vnum": 6604,
+      "name": "Day Care Center",
+      "description": "As you walk through the daycare, the toddlers seem to get a little more\naggravating.  The floor seems to be lost in the sea of toys everywhere,\nand you try to find a path that will lead you out of the chaos.  There\nis a small staircase to the east.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6607,
+        "north": 6602,
+        "south": 6636,
+        "west": 6633
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6604,
+          "count": 2,
+          "room": 6604
+        }
+      ],
+      "object_resets": []
+    },
+    "6605": {
+      "vnum": 6605,
+      "name": "Day Care Center",
+      "description": "You carefully weave your way through the masses of toys and children\nin the daycare.  The little anklebiters are still attached to your legs\nand you try in vain to shake them off.  There is a small tunnel to the\nwest that leads to an open-air playground.  Perhaps if you run in that\ndirection, the kids will let go of your appendages.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6633,
+        "north": 6603,
+        "south": 6634,
+        "west": 6637
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6601,
+          "count": 2,
+          "room": 6605
+        }
+      ],
+      "object_resets": []
+    },
+    "6606": {
+      "vnum": 6606,
+      "name": "Inside a Filthy Bathroom",
+      "description": "You plug your nose as you enter the rancid bathroom.  The walls are stained\nand there is no evidence that this room has been cleaned in a very long time.\nBath toys are scattered everywhere, and water leaks freely from rotting\nwood tubs and cracked stone basins.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6603
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6602,
+          "count": 2,
+          "room": 6606
+        },
+        {
+          "vnum": 6604,
+          "count": 2,
+          "room": 6606
+        },
+        {
+          "vnum": 6610,
+          "count": 1,
+          "room": 6606
+        }
+      ],
+      "object_resets": []
+    },
+    "6607": {
+      "vnum": 6607,
+      "name": "Atop the Rickety Stairs",
+      "description": "You stand atop a wooden staircase which leads downwards.  The steps\nseem rickety and unstable, but they look like they're able to hold\nyour weight.  You begin to wonder what mystery could lie down there.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 6612,
+        "west": 6604
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6608": {
+      "vnum": 6608,
+      "name": "The Playground",
+      "description": "You are in the north-east corner of the playground.  In front of you\nis a comfortable looking wooden bench which you can sit on and take\na breath from the kids.  You can hear the pleasant sound of birds\nsinging, but their melodies are soon drowned out by the grating\nsound of screaming children.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 6610,
+        "west": 6639
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6601,
+          "count": 2,
+          "room": 6608
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6619,
+          "count": 1,
+          "room": 6608
+        }
+      ]
+    },
+    "6609": {
+      "vnum": 6609,
+      "name": "The Playground",
+      "description": "You are in the north-west corner of the playground.  Standing before\nyou is a brightly painted wooden see-saw, teetering and tottering back\nand forth.  Children frollick all about you, and the sound of their play\nis so comforting.  At least they're not clinging to your legs anymore.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6639,
+        "south": 6611
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6603,
+          "count": 2,
+          "room": 6609
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6618,
+          "count": 1,
+          "room": 6609
+        }
+      ]
+    },
+    "6610": {
+      "vnum": 6610,
+      "name": "The Playground",
+      "description": "You are in the south-east corner of the playground.  Before you is a\nlarge oak tree that seems to reach up to the sky.  Lush green grass\ntickles your ankles, and you can see remnants of wild flowers which\nhave been trampled upon by the toddlers.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6637,
+        "north": 6608,
+        "up": 6620,
+        "west": 6638
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 6620,
+          "count": 1,
+          "room": 6610
+        }
+      ]
+    },
+    "6611": {
+      "vnum": 6611,
+      "name": "The Playground",
+      "description": "You are in the south-west corner of the playground.  Before you stands\na large set of swings tethered by old, worn rope.  The swings sway in\nthe wind, beckoning you to sit upon them.  The sun beams brightly upon\nyour head, making you almost forget the chaos that surrounds you.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6638,
+        "north": 6609
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6606,
+          "count": 2,
+          "room": 6611
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 6617,
+          "count": 1,
+          "room": 6611
+        }
+      ]
+    },
+    "6612": {
+      "vnum": 6612,
+      "name": "Foot of the Stairs",
+      "description": "You stand in the entrance to a small, but confusing maze.  The area is\ndark, but there is still enough light to see by.  You really hope that\nyou don't get lost in here.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 6613,
+        "up": 6607
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6613": {
+      "vnum": 6613,
+      "name": "Lost in a mini-maze",
+      "description": "You stand in a small passage that looks like every other passage in\nthis maze.  The area is still quite dim, but your eyes seem to be\nadjusting to it.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 6614,
+        "south": 6612,
+        "west": 6615
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6614": {
+      "vnum": 6614,
+      "name": "Lost in a mini-maze",
+      "description": "You stand in a small passage that looks like every other passage in\nthis maze.  The area is still quite dim, but your eyes seem to be\nadjusting to it.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 6616,
+        "west": 6613
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6615": {
+      "vnum": 6615,
+      "name": "Lost in a mini-maze",
+      "description": "You stand in a small passage that looks like every other passage in\nthis maze.  The area is still quite dim, but your eyes seem to be\nadjusting to it.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 6613,
+        "north": 6616
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6616": {
+      "vnum": 6616,
+      "name": "Lost in a mini-maze",
+      "description": "You stand in a small passage that looks like every other passage in\nthis maze.  The area is still quite dim, but your eyes seem to be\nadjusting to it.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 6614,
+        "south": 6624,
+        "west": 6615
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6617": {
+      "vnum": 6617,
+      "name": "A Darkened Cloakroom",
+      "description": "Before you lies a pile of child-sized coats and boots.  The room is\nquite dark, and a musty smell wafts in the air.  Ahead, there is a\nsmall wooden gate blocking you from the daycare.  Presumably, this\ngate is to guard all of the dwarven children from the real world.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 6601,
+        "south": 6602
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6619": {
+      "vnum": 6619,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6620": {
+      "vnum": 6620,
+      "name": "At the top of the tree",
+      "description": "After a swift climb, you have reached the top of the majestic oak tree.\nAs you look around, you can see the town of Darkhaven, and all of the\npeople moving in it.  The air is very clean up here, and the leaves of\nthe tree graze across your face.",
+      "sector": "field",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "down": 6610
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6624": {
+      "vnum": 6624,
+      "name": "Near the End",
+      "description": "You made it through the maze, and you stand at the end of your journey.\nThe area is still quite dim, but there seems to be a light coming from\nthe south.  The is a scribbled sign here.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 6616,
+        "south": 6631
+      },
+      "exdescs": {
+        "sign": "If you are not level 5 or above, you should think twice about going south!\nThe room could be dangerous..."
+      },
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6607,
+          "count": 1,
+          "room": 6624
+        }
+      ],
+      "object_resets": []
+    },
+    "6626": {
+      "vnum": 6626,
+      "name": "A Filthy Kitchen",
+      "description": "You stand in the middle of the kitchen and eating area of the daycare\ncentre.  Food is sprayed all over the walls, and copper pots and pans\nare strewn in every direction.  Grubby fingerprints cover nearly every\nsurface here, and the stench of rotten food makes your stomach churn.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 6602
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6603,
+          "count": 2,
+          "room": 6626
+        },
+        {
+          "vnum": 6609,
+          "count": 1,
+          "room": 6626
+        }
+      ],
+      "object_resets": []
+    },
+    "6628": {
+      "vnum": 6628,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6631": {
+      "vnum": 6631,
+      "name": "Last Stop",
+      "description": "You have reached the final part of your journey.  This is a room where\nall the bad kids go to think about what they've done.  There is a small\nwooden stool in the corner, and a dunce-cap lays nearby.",
+      "sector": "field",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 6624
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6608,
+          "count": 1,
+          "room": 6631
+        }
+      ],
+      "object_resets": []
+    },
+    "6632": {
+      "vnum": 6632,
+      "name": "Day Care Center",
+      "description": "As you walk through the daycare, you can see children screaming and\nrunning everywhere.  Toys are strewn all around the room, and you\nstep all over them, tripping over them at times.  The daycare\ncontinues to the east, south and west.",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {
+        "east": 6602,
+        "south": 6633,
+        "west": 6603
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6632
+        }
+      ],
+      "object_resets": []
+    },
+    "6633": {
+      "vnum": 6633,
+      "name": "Day Care Center",
+      "description": "As you continue through the daycare, children start babbling nonsense\nto you.  In an effort to escape the madness, you thrash through the\nmasses of toys on the ground, only to find yourself making the mess\nworse.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6604,
+        "north": 6632,
+        "south": 6635,
+        "west": 6605
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6634": {
+      "vnum": 6634,
+      "name": "Day Care Center",
+      "description": "You are in the south-west corner of the daycare.  This area of the\ncentre seems more subdued, though it is still messy.  Many of the\nchildren seem to stay away from this corner, as it is rumoured that\nthe wicked old nanny visits here often.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6635,
+        "north": 6605
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6606,
+          "count": 2,
+          "room": 6634
+        }
+      ],
+      "object_resets": []
+    },
+    "6635": {
+      "vnum": 6635,
+      "name": "Day Care Center",
+      "description": "As you wander through the messy daycare, you start to get a little\nnervewracked by all of the children screaming and clinging at your\nlower appendages.  The floor seems to get messier and messier by the\nsecond, and you wish you could escape this chaos.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 6636,
+        "north": 6633,
+        "west": 6634
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6635
+        },
+        {
+          "vnum": 6605,
+          "count": 2,
+          "room": 6635
+        }
+      ],
+      "object_resets": []
+    },
+    "6636": {
+      "vnum": 6636,
+      "name": "Day Care Center",
+      "description": "You are in the south-east corner of the daycare.  Before you is a large\neasel and a pile of watercolour paints.  You suddenly get the urge to\nplop down in the small wooden chair and paint to your heart's content,\nbut you're a little afraid that the mean old nanny would catch you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 6604,
+        "west": 6635
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6602,
+          "count": 2,
+          "room": 6636
+        }
+      ],
+      "object_resets": []
+    },
+    "6637": {
+      "vnum": 6637,
+      "name": "A well worn path",
+      "description": "As you walk along this well trodden path, you can see the daycare to the\neast and the playground to the west.  You can hear laughter of the children\ncoming from both directions, but the fresh air outside seems more inviting.\nThe sun shines on your head, and the lush green grass sways at your feet.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6605,
+        "west": 6610
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6638": {
+      "vnum": 6638,
+      "name": "The Playground",
+      "description": "As you walk through the playground, the sound of children playing\nfills your ears with delight.  The air smells much fresher than the\nair in the daycare, and the feeling of the grass upon your heels is\nquite refreshing.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6610,
+        "north": 6639,
+        "west": 6611
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 6600,
+          "count": 3,
+          "room": 6638
+        }
+      ],
+      "object_resets": []
+    },
+    "6639": {
+      "vnum": 6639,
+      "name": "The Playground",
+      "description": "As you continue walking through the playground, children hop to and\nfro, giggling and frollicking.  The ground is moist, and what were\nonce beautiful wild flowers are now stomped into a mixture of grass\nand mud.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 6608,
+        "south": 6638,
+        "west": 6609
+      },
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6640": {
+      "vnum": 6640,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6641": {
+      "vnum": 6641,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6642": {
+      "vnum": 6642,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6643": {
+      "vnum": 6643,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6644": {
+      "vnum": 6644,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6645": {
+      "vnum": 6645,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6646": {
+      "vnum": 6646,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6647": {
+      "vnum": 6647,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6648": {
+      "vnum": 6648,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6649": {
+      "vnum": 6649,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6650": {
+      "vnum": 6650,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "6651": {
+      "vnum": 6651,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Dwarven Daycare",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "6600": {
+      "vnum": 6600,
+      "keywords": [
+        "dwarven",
+        "child"
+      ],
+      "short": "a dwarven child",
+      "long": "A dwarven child runs around, wreaking havoc everywhere.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6601": {
+      "vnum": 6601,
+      "keywords": [
+        "dwarven",
+        "youth"
+      ],
+      "short": "a dwarven youth",
+      "long": "A dwarven youth slouches here, trying to avoid her chores.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6602": {
+      "vnum": 6602,
+      "keywords": [
+        "dwarven",
+        "baby"
+      ],
+      "short": "a dwarven baby",
+      "long": "A small dwarven baby sits here, sucking her thumb.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 19,
+      "max_mana": 19,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6603": {
+      "vnum": 6603,
+      "keywords": [
+        "toddler",
+        "dwarven"
+      ],
+      "short": "a dwarven toddler",
+      "long": "A dwarven toddler sits here, crying for his mommy.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 26,
+      "max_mana": 26,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6604": {
+      "vnum": 6604,
+      "keywords": [
+        "bear",
+        "ugly",
+        "stuffed"
+      ],
+      "short": "an ugly stuffed bear",
+      "long": "An ugly stuffed bear stares at you through glass eyes.",
+      "race": "bear",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 25,
+      "max_mana": 25,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6605": {
+      "vnum": 6605,
+      "keywords": [
+        "old",
+        "doll"
+      ],
+      "short": "an old doll",
+      "long": "A worn out old doll flops here lifelessly.",
+      "race": "magical",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6606": {
+      "vnum": 6606,
+      "keywords": [
+        "nanny"
+      ],
+      "short": "the mean old nanny",
+      "long": "A mean old nanny stands here, watching over the children.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6607": {
+      "vnum": 6607,
+      "keywords": [
+        "knavish",
+        "bully"
+      ],
+      "short": "a knavish bully",
+      "long": "A knavish bully stands here, guarding the room to the south.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6608": {
+      "vnum": 6608,
+      "keywords": [
+        "brat",
+        "spoiled"
+      ],
+      "short": "a spoiled brat",
+      "long": "A spoiled brat sits in the corner, pouting.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 65,
+      "max_mana": 65,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6609": {
+      "vnum": 6609,
+      "keywords": [
+        "lady",
+        "old",
+        "cook"
+      ],
+      "short": "an old cook",
+      "long": "An old lady stands here, slaving over the hot oven.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 2,
+      "hp": 2,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "6610": {
+      "vnum": 6610,
+      "keywords": [
+        "obnoxious",
+        "dwarven",
+        "boy"
+      ],
+      "short": "an obnoxious dwarven boy",
+      "long": "A dwarven boy obnoxiously stamps his feet through the overflowing water.",
+      "race": "dwarf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30,
+      "max_mana": 30,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "6600": {
+      "vnum": 6600,
+      "keywords": [
+        "axe",
+        "toy"
+      ],
+      "type": "weapon",
+      "short": "a toy axe",
+      "long": "An axe made of plastic lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6601": {
+      "vnum": 6601,
+      "keywords": [
+        "ring",
+        "pink",
+        "ice"
+      ],
+      "type": "armor",
+      "short": "a pink ice ring",
+      "long": "A pink ice ring draws your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6602": {
+      "vnum": 6602,
+      "keywords": [
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a small plaque",
+      "long": "A small plaque is affixed to the wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6617": {
+      "vnum": 6617,
+      "keywords": [
+        "swing",
+        "swings",
+        "swing-set"
+      ],
+      "type": "furniture",
+      "short": "a set of worn rope swings",
+      "long": "A set of rope swings twist lazily in the breeze.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6618": {
+      "vnum": 6618,
+      "keywords": [
+        "wooden",
+        "seesaw",
+        "see-saw"
+      ],
+      "type": "furniture",
+      "short": "a brightly painted wooden see-saw",
+      "long": "A wooden see-saw promises hours of simple-minded distraction.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6619": {
+      "vnum": 6619,
+      "keywords": [
+        "wooden",
+        "bench"
+      ],
+      "type": "furniture",
+      "short": "a low wooden bench",
+      "long": "A low wooden bench offers respite for your aching feet.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6620": {
+      "vnum": 6620,
+      "keywords": [
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "a large oak tree",
+      "long": "A large oak tree stands here, waiting for you to climb it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6621": {
+      "vnum": 6621,
+      "keywords": [
+        "robe",
+        "linen"
+      ],
+      "type": "armor",
+      "short": "a linen robe",
+      "long": "A linen robe is crumpled into a ball here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6630": {
+      "vnum": 6630,
+      "keywords": [
+        "beanie",
+        "multi-coloured"
+      ],
+      "type": "armor",
+      "short": "a multi-coloured beanie",
+      "long": "A beanie of many colours has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6631": {
+      "vnum": 6631,
+      "keywords": [
+        "ring",
+        "frosty",
+        "roseate"
+      ],
+      "type": "armor",
+      "short": "a frosty roseate ring",
+      "long": "A frosty roseate ring catches your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6632": {
+      "vnum": 6632,
+      "keywords": [
+        "saffron",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a saffron potion",
+      "long": "A saffron potion is delicately balanced on the floor here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6633": {
+      "vnum": 6633,
+      "keywords": [
+        "pop",
+        "gun"
+      ],
+      "type": "weapon",
+      "short": "a pop gun",
+      "long": "A small pop gun lays here unattended.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6634": {
+      "vnum": 6634,
+      "keywords": [
+        "sticky",
+        "pacifier"
+      ],
+      "type": "weapon",
+      "short": "a sticky pacifier",
+      "long": "A sticky pacifier sits here, waiting to be sucked.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6635": {
+      "vnum": 6635,
+      "keywords": [
+        "shawl",
+        "woolen"
+      ],
+      "type": "armor",
+      "short": "a woolen shawl",
+      "long": "A delicate woolen shawl has been carelessly dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6644": {
+      "vnum": 6644,
+      "keywords": [
+        "saltine",
+        "dry"
+      ],
+      "type": "food",
+      "short": "a dry saltine",
+      "long": "A crumbly saltine is here, waiting to be stepped on.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6645": {
+      "vnum": 6645,
+      "keywords": [
+        "steak",
+        "rotten"
+      ],
+      "type": "food",
+      "short": "a rotten steak",
+      "long": "A dry steak lies on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6646": {
+      "vnum": 6646,
+      "keywords": [
+        "potion",
+        "amber"
+      ],
+      "type": "potion",
+      "short": "an amber potion",
+      "long": "An amber potion sits in a corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "6647": {
+      "vnum": 6647,
+      "keywords": [
+        "gun",
+        "toy"
+      ],
+      "type": "weapon",
+      "short": "a toy gun",
+      "long": "A toy gun with a sharp bayonet lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}
