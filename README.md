@@ -29,10 +29,48 @@ go build ./...
 go run ./cmd/njata -port 4000
 ```
 
+What this means:
+
+- go run = builds a temporary copy and starts it right away (nothing new appears in your folder).
+- go build = creates a real njata.exe you can run later.
+
+Build a binary (creates njata.exe in the repo root):
+
+```powershell
+go build ./cmd/njata
+```
+
+Run the compiled binary:
+
+```powershell
+./njata.exe -port 4000
+```
+
 Connect:
 
 ```powershell
 telnet localhost 4000
+```
+
+## Tests
+
+Unit tests (Go):
+
+```powershell
+go test ./...
+```
+
+Integration scripts (Python) live in scripts/tests and expect the server running on port 4000:
+
+```powershell
+go run ./cmd/njata -port 4000
+```
+
+Then in another terminal:
+
+```powershell
+python scripts/tests/test_spawn.py
+python scripts/tests/test_spell_combat.py
 ```
 
 See [modern/README.md](modern/README.md) for details and tests.
