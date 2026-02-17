@@ -5,9 +5,9 @@
   "race": 6,
   "sex": 2,
   "level": 10,
-  "hp": 85,
+  "hp": 79,
   "max_hp": 85,
-  "mana": 0,
+  "mana": 75,
   "max_mana": 120,
   "move": 100,
   "max_move": 100,
@@ -29,24 +29,24 @@
   "skills": {
     "1001": {
       "spell_id": 1001,
-      "proficiency": 58,
+      "proficiency": 59,
       "learned": true,
-      "lifetime_casts": 8,
-      "last_cast_time": 1771366127823202100
+      "lifetime_casts": 9,
+      "last_cast_time": 1771369361062633500
     },
     "1002": {
       "spell_id": 1002,
-      "proficiency": 33,
+      "proficiency": 34,
       "learned": true,
-      "lifetime_casts": 3,
-      "last_cast_time": 1771365219740042400
+      "lifetime_casts": 4,
+      "last_cast_time": 1771369368165214200
     },
     "9002": {
       "spell_id": 9002,
-      "proficiency": 20,
+      "proficiency": 22,
       "learned": true,
-      "lifetime_casts": 10,
-      "last_cast_time": 1771366139028196200
+      "lifetime_casts": 12,
+      "last_cast_time": 1771369372267758900
     }
   },
   "is_keeper": true
