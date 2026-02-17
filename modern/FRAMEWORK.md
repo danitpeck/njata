@@ -1,42 +1,63 @@
-# NJATA Skills System: Complete Framework
+# NJATA Design Framework
 
-**Five documents work together to build the skills system:**
+## Quick Navigation
+
+**Just want to build?** → Read [MVP_ROADMAP.md](MVP_ROADMAP.md)
+
+**Want design context?** → Read below, then [SCHOLAR_STUDY_DESIGN.md](SCHOLAR_STUDY_DESIGN.md)
 
 ---
 
 ## Design Philosophy
 
 Build small. Add meaningful. Like the original njata.c approach:
-- Start with only what's needed (8 core spells + Scholar Study)
+- Start with only what's needed (8 core spells + Scholar Study + Warrior Maneuvers)
 - Create clean extension points for custom additions
 - Grow organically based on actual gameplay needs, not pre-designed systems
 - Each addition should have purpose within the game world
 
 ---
 
-## The Five Documents
+## The Two Active Design Documents
 
-### 1. [MVP_ROADMAP.md](MVP_ROADMAP.md) — **START HERE**
-What you build in Week 1. The actual specification.
-- 8 core spells (not 28)
-- **Scholar's Study ability** (core feature)
-- 8 magical items for discovery
-- Dead simple implementation
-- 1-week timeline
+### [MVP_ROADMAP.md](MVP_ROADMAP.md) — **The Specification**
 
-**When to use**: You're starting Week 1 and need to know what to code.
+**What you're actually building in Week 1.**
+
+- Two classes: Scholar (Study-based learning) + Warrior (Maneuver-based combat)
+- 8 core spells usable by both
+- Equipment + Skills progression (no levels)
+- Self-reinforcing gear loops for both classes
+- Full technical specifications and examples
+
+**Read this first.** It's the authoritative spec.
 
 ---
 
-### 2. [SCHOLAR_STUDY_DESIGN.md](SCHOLAR_STUDY_DESIGN.md) — **The Core Feature**
-Deep dive into Scholar class and Study mechanic.
-- Study ability mechanics (complete)
-- Study proficiency system
-- Magical item types and placement
-- Scholar gameplay loop
-- Why Scholar is NJATA-specific custom content
+### [SCHOLAR_STUDY_DESIGN.md](SCHOLAR_STUDY_DESIGN.md) — **The Core Feature Deep Dive**
 
-**When to use**: Building the Study command, designing magical items, understanding Scholar identity.
+**Detailed design of Scholar's unique mechanic.**
+
+- Study ability mechanics (command, checks, proficiency)
+- Magical item types and discovery
+- Scholar gameplay loop and progression
+- Why Study creates unique class identity
+
+**Read this when:** Building the Study command or designing magical items.
+
+---
+
+## Archived Documents
+
+The `_legacy_design_archive/` folder contains earlier design iterations that are superseded by the new Equipment+Skills, no-levels approach:
+- IMPLEMENTATION_STRATEGY.md (old level-based design)
+- SPELL_CATALOG.md (comprehensive but pre-MVP)
+- SKILLS_SYSTEM_DESIGN.md (legacy framework)
+- MIGRATION.md (development status from earlier phase)
+- ARCHITECTURE_DIAGRAMS.md (reference only)
+- VISUAL_OVERVIEW.md (old doc navigation)
+
+These are kept for reference but **not authoritative** for current work.
 
 ---
 

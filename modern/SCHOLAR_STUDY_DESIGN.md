@@ -6,8 +6,31 @@ The Scholar is the game's **discovery-focused caster**. Rather than being grante
 
 - **Exploration incentive**: Players search areas for rare magical items
 - **Economic gameplay**: Magical items become valuable trade goods
-- **Proficiency path**: Scholars strengthen their Study skill to learn spells more reliably
-- **Unique identity**: Not just "mage with different stats," but fundamentally different gameplay
+- **Skill progression**: Scholars strengthen their Study skill to learn spells more reliably
+- **Unique identity**: Not just "caster with different loadout," but fundamentally different gameplay loop
+- **Natural progression gate**: Can't just camp casting Arcane Bolt forever—must hunt for new spells to stay viable
+
+## Scholar Progression Model (Equipment + Skills, No Levels)
+
+Scholars grow stronger through:
+
+**1. Equipment Discovery** (gear loops):
+- Hunt monsters → find better gear (armor, rings, etc.)
+- Better gear → fight tougher monsters → find rare magical items
+- Magical items often contain spells to study
+
+**2. Spell Repertoire Expansion** (via Study):
+- Find magical items (wands, scrolls, staves)
+- Study them → learn new spells at 30% proficiency
+- Cast spells to improve proficiency (scales damage/effectiveness)
+- Higher Study skill → easier to learn harder spells
+
+**3. Spell Proficiency Growth** (usage-based):
+- Each cast slightly increases spell proficiency
+- Higher proficiency = better damage/reliability
+- Different spells improve at different rates
+
+**The Loop**: Hunt → Find scalp → Study spell → Expand roster → Cast → Improve proficiency → Hunt harder areas
 
 ---
 
@@ -92,55 +115,55 @@ Example: "Magical Codex" in a library → multiple scholars learn from it
 
 ### Core Discovery Items (MVP)
 
-To make MVP work, we need 8 items (one per spell):
+The 8 MVP spells correspond to these items:
 
 ```
-1. Wand of Magic Missile        (value[3] = 1001)
-2. Wand of Fireball             (value[3] = 1002)
-3. Scroll of Healing            (value[3] = 1003)
-4. Wand of Blindness            (value[3] = 1004)
-5. Potion of Invisibility       (value[3] = 1005)
-6. Wand of Teleportation        (value[3] = 1006)
-7. Wand of Frost Bolt           (value[3] = 1007)
-8. Scroll of Identify           (value[3] = 1008)
+1. Wand of Arcane Bolt          (value[3] = 1001) - Immak libraries
+2. Wand of Leviathan's Fire     (value[3] = 1002) - Immak naiad cove
+3. Scroll of Mend               (value[3] = 1003) - Sedna herbalist
+4. Wand of Shadow Veil          (value[3] = 1004) - Hidden/dark locations
+5. Feather of Ephemeral Step    (value[3] = 1005) - Aviatrix fairy items
+6. Amulet of Path Shift         (value[3] = 1006) - Courier's secret item
+7. Crystal of Winter's Whisper  (value[3] = 1007) - Mountain/cold areas
+8. Tome of Knowing              (value[3] = 1008) - Sedna Bronze Artisan
 ```
 
-**Placement Strategy**:
-- Hidden in various rooms
-- Available for crafting
-- Reward for quests
-- Sellable by merchants
-- Dropped by mobs
+**Placement**: Items are scattered across the world, hidden in rooms or rewarded from early quests. Scholars hunt them down to expand their spell repertoire.
 
 ---
 
 ## Scholar Gameplay Loop
 
-### Level 1-5 (Starting)
+### Early Game (New Scholar)
 
-1. Create Dryad Scholar
-2. Start with basic spells: Magic Missile (auto-learned)
-3. Search Darkhaven Academy for wands
-4. Find Wand of Fireball → study it → learn Fireball (30%)
-5. Use Fireball in combat, proficiency grows to 50%
-6. Find Scroll of Healing → study it → success (higher Study proficiency now)
-7. Continue exploring and studying
+1. Create Scholar, receive starting gear (basic robe, dagger)
+2. Receive Arcane Bolt via training (starting spell)
+3. Fight goblins in starting area → gain basic combat experience
+4. Loot simple gear and first magical item (Wand of Leviathan's Fire)
+5. Bring wand back to study location
+6. Study → success → learn Leviathan's Fire at 30% proficiency
+7. Use Leviathan's Fire in combat → proficiency gradually improves to 50%+
+8. Find harder area with better gear and rare items
 
-### Level 5-10
+### Mid Game (Exploration Phase)
 
-1. Seek specific spells needed for play
-2. Hunt for Wand of Teleport (mobility)
-3. Trade with other players for scrolls
-4. Study skill approaches 50%, getting better results
-5. Learn to recognize which items contain which spells
+1. Actively hunt for specific spells needed for play style
+2. Explore deeper dungeons for rare wands/scrolls
+3. Trade with other players for hard-to-find items
+4. Study skill approaches 50-70%, success rate increases
+5. Can now tackle tougher monsters solo
+6. Spell roster expands: can cast 5-6 different spells effectively
+7. Each new area has new items to discover
 
-### Level 10+
+### Late Game (Mastery Phase)
 
-1. Actively seek rare spells
-2. Study proficiency high (80%+), rarely fail
-3. Trade valuable scroll knowledge
-4. Create own items with spells embedded (future crafting)
-5. Mentor other Scholars in study strategy
+1. Seek out legendary items with powerful spells
+2. Study proficiency 80%+, rarely fail
+3. Spell proficiency 80%+, damage is substantial
+4. Equipment at tier 3-4 (best gear available)
+5. Can mentor newer Scholars or trade knowledge
+6. Continually hunt for undiscovered items
+7. Build unique spell combinations from exploration finds
 
 ---
 
@@ -359,14 +382,24 @@ Specific locations with reusable furniture
 
 ## Why Scholar First
 
+**Scholar's place in the Equipment + Skills system:**
+
+Unlike Warriors who gain strength through gear and combat experience, Scholars have a *unique progression gate* built into their class design:
+- Gear improves like everyone else (hunt monsters → loot equipment)
+- **But spells only come from discovered items**
+- Can't just spam Arcane Bolt forever—must actively hunt to expand spell roster
+- This natural gate keeps Scholars engaged in exploration
+
+Example: 
+- Warrior can reach mid-game power by fighting the same monsters and improving weapon proficiency
+- Scholar hitting the same monsters eventually realizes "I need new spells" and must venture out to hunt items
+- Different incentive systems drive different playstyles
+
 **Three reasons to prioritize Scholar over generic spells**:
 
-1. **Unique gameplay**: Study is completely different from "auto-learn"
+1. **Unique gameplay**: Study is completely different from auto-learn
 2. **Drives item creation**: Need to create 8+ magical items anyway
-3. **Balances caster power**: Scholars have progression barrier other mages don't
-4. **Custom NJATA feeling**: Not generic spells, but specific to Scholar identity
-
-This is what makes NJATA feel like NJATA—custom class mechanics, not borrowed generics.
+3. **Custom NJATA feeling**: Not generic spells, but specific to Scholar identity
 
 ---
 

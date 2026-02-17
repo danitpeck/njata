@@ -34,11 +34,11 @@ Scholars learn spells by studying magical items (wands, scrolls)
 
 This changes from "generic eight spells" to **"eight spells + how Scholar uniquely learns them"**
 
-**Supporting 8-Spell Roster** (Colista-aligned, used by all classes):
+**Supporting 8-Spell Roster** (Colista-aligned, available to both Scholar and Warrior):
 ```
 1001: Arcane Bolt      (core offensive, foundation magic)
 1002: Leviathan's Fire (Immak fire, Scholars hunt in libraries)
-1003: Mend             (life magic, Clerics start with it)
+1003: Mend             (life magic, both classes can learn)
 1004: Shadow Veil      (darkness + illusion, debuffs and control)
 1005: Ephemeral Step   (fairy magic, escape and stealth)
 1006: Path Shift       (the Courier's secret, teleportation)
@@ -59,6 +59,55 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 - ✅ Spell learning from studied items
 - ✅ Simple persistence (player file)
 - ✅ 8 magical items with embedded spell IDs
+
+### Progression System: Equipment + Skills (No Levels)
+
+**Core Philosophy**: Players grow stronger through **equipment improvement** + **skill mastery**, not experience points or levels.
+
+**How It Works**:
+
+**Equipment Progression** (Self-reinforcing loop):
+- Weak monsters drop weak gear (low damage, low armor)
+- Player defeats weak monsters, loots their gear
+- Better gear enables fighting stronger monsters
+- Stronger monsters drop better gear
+- Cycle repeats: gear → monsters → gear
+- Natural difficulty scaling without artificial gates
+
+**Skill Progression** (Proficiency-based):
+- Weapons/spells have **proficiency** (0-100%)
+- Each use slightly increases proficiency
+- Higher proficiency = higher damage multiplier/effectiveness
+- Example: Longsword at 10% skill vs 90% skill makes huge difference
+- **Scaling formula**: `base_damage * (1.0 + proficiency * 0.5)` (scales to 150% at 100%)
+
+**Warrior Example Loop**:
+1. Start: basic sword, Slash proficiency 5%
+2. Fight goblins → loot dagger, short sword, leather armor
+3. Equip better gear, improve Slash proficiency to 15%
+4. Fight stronger goblins → loot hand axe, chain mail
+5. Discover trainer in Alklyu → learn Power Attack maneuver
+6. Use Power Attack, proficiency rises to 30%
+7. Hunt harder areas → find greatsword
+8. Repeat cycle indefinitely—always stronger monsters, better gear, improved skills
+
+**Scholar Example Loop**:
+1. Start: Arcane Bolt (learned via training), Study skill 5%
+2. Find Wand of Leviathan's Fire → Study DC 50
+3. Succeed → Learn Leviathan's Fire at 30% proficiency
+4. Cast spells in combat → improve Arcane Bolt to 40%, Leviathan's to 50%
+5. Hunt deeper areas for rare scrolls (Knowing, Winter's Whisper)
+6. Study better items → expand repertoire
+7. Powerful spells with high proficiency = can tackle harder content
+8. Exploration cycle: hunt → study → grow → hunt harder areas
+
+**Why This Works**:
+- No artificial plateaus (no "soft caps")
+- Equipment drops are tangible rewards
+- Skill feels earned through use
+- Both matter: bad gear limits early progress, low skill makes late-game difficult
+- Encourages both combat (Warrior) and exploration (Scholar)
+- Scales naturally from newbie to veteran
 
 **Systems to Skip (for now)**:
 - ❌ Components system
@@ -219,20 +268,36 @@ func StudyItem(scholar *Player, itemName string) {
 
 ### Deliverable: MVP
 
-- 8 core spells usable by all casters
+**Two Classes**:
+- **Scholar** - spell learning via Study mechanic (discovery-based)
+- **Warrior** - melee combat foundation
+
+**What Ships**:
+- 8 core spells usable by both classes
 - 8 magical items with embedded spell IDs
-- **Scholar's Study ability fully functional**
-- Players can discover items, study them, learn spells
-- Study proficiency tracks and improves with use
-- Non-Scholars can still cast learned spells normally
+- **Scholar's Study ability** (Scholar-exclusive) - discover items, make checks, learn spells
+- Study skill proficiency tracks and improves with use
+- **Warrior Combat Maneuvers** - learn from trainers (academy, combat masters), improve via combat use
+- **Equipment + Skills progression system** - no levels, growth via gear drops and skill proficiency
 - Combat-ready spell system for testing
+- Skill-based advancement (no traditional levels)
 - Test client passes
 
-**Why Scholar First**: 
-Scholar's Study system is the core NJATA custom content. It makes spell learning feel achievement-based (discover and study) rather than handed out (auto-learn). This drives:
-- Exploration (players hunt for items)
-- Item economy (wands/scrolls become valuable)
-- Class identity (Scholars are discovery-focused)
+**Why These Two**: 
+- **Scholar**: Unique, lore-grounded exploration-based progression. Must hunt items to grow, drives world engagement.
+- **Warrior**: Combat-focused maneuver progression. Low barrier to entry (grab weapon, learn basics, fight). Can explore for advanced trainers optionally.
+
+**Class Philosophy**:
+- **No levels** - skill-based advancement only
+- Each class has a unique progression flavor:
+  - Scholar: Exploration-driven (Study items → learn spells → improve Study skill)
+  - Warrior: Combat-driven (learn maneuvers → use in combat → improve maneuver skills)
+- Different incentive structures: Scholar must explore to stay viable. Warrior can fight immediately.
+
+**Deferred Classes**:
+- **Bard** (stretch goal for late MVP if time allows—has unique flavor tied to performance/inspiration)
+- Spirit-communing classes (Ranger, Druid variants) tied to Colistani animism—design these separately post-MVP
+- Legacy placeholders (Chevalier, Lancer, Paladin, Monk, Rogue, Illusionist, Elementalist, Enchanter) are removed—these were pre-design templates, not lore-grounded
 
 **Time estimate**: 3-4 days for one developer (includes 8 item definitions)
 
@@ -301,34 +366,46 @@ Once MVP is working, extend based on actual need, not pre-planning.
 
 **Trigger**: When experienced players want depth
 
-### Growth Point 6: Class-Specific Mechanics (HIGH PRIORITY)
+### Growth Point 6: Class Progression Philosophy
 
-**When**: After MVP, prioritize before generic professionalization
+**Warrior Advancement**:
+- **Combat Maneuvers** - Tactics learned from trainers (Vojvoda Zsa's academy, combat masters in towns)
+- Learn basic techniques (Power Attack, Defensive Stance, Guard)
+- **Lower barrier to entry**: grab a weapon, learn basic moves, fight monsters
+- Maneuver proficiency improves through combat use
+- Can optionally explore to find distant trainers for advanced techniques
+- Simple, self-directed loop: fight → improve → fight better
 
-**Scholar's Study Ability** (Core Feature):
-```
-Scholars can study magical items (wands, staves, scrolls)
-to learn the spells they contain.
+**Scholar Advancement**:
+- **Spell Discovery** - only way to learn new spells is Study
+- Must actively hunt for magical items
+- Can't just cast Arcane Bolt forever and plateau—exploration is built-in progression
+- Proficiency improves through successful studying
+- Engaging, exploration-driven loop: hunt → study → expand repertoire
+- Higher cognitive load but more rewarding for curious players
 
-Mechanics:
-- study <item> command
-- Item must contain a spell (value[3] = spell ID)
-- Scholar makes proficiency check vs Study skill
-- Success: Learn spell (at 30%), item consumed
-- Failure: No spell learned, item consumed
-- Can't learn spell twice
-```
+**Design Principle**: Both skill-based. Different incentive structures:
+- Warrior: fight monsters first, optionally explore for trainers
+- Scholar: must explore to stay viable
 
-This is a unique Scholar power—discovery through exploration, not auto-learning.
+### Growth Point 7: Class Expansion (After MVP)
+- Performance-based inspiration (buff allies)
+- Unique lore tie: wandering performers in Colistani culture
+- Spell learning: study performance items instead of scrolls
 
-**Other Class Mechanics** (Future):
-- Ranger: Track command, hunting bonuses
-- Rogue: Lockpick, steal, pickpocket
-- Cleric: Turn undead, divine protection
-- Paladin: Smite evil, lay on hands
-- Druid: Wild shape, animal companion
+**Spirit-Touched Classes** (Post-MVP, designed from animism):
+Tie to Colistani animal spirits (Fox/Owl/Deer/Snake):
+- Fox-touched: hunting/tracking bonuses
+- Owl-touched: wisdom/utility (Scholar already owns learning)
+- Deer-touched: blessing/warding
+- Snake-touched: underworld/shadow magic
 
-**Trigger**: Design each class's unique abilities first, spells come second
+**Design Philosophy**: Each new class needs:
+1. Lore grounding (tied to world, not generic archetype)
+2. Unique mechanic (not just "different spell list")
+3. Actual design document (not template placeholders)
+
+**What We're NOT Doing**: Legacy classes like Chevalier/Lancer/Paladin/Monk/Rogue/Illusionist were pre-design templates. Don't ship them. Only add classes that fit NJATA's world.
 
 ---
 
