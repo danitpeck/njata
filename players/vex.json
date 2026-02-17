@@ -1,13 +1,13 @@
 {
-  "name": "Vex",
+  "name": "vex",
   "location": 90000,
   "class": 12,
   "race": 6,
   "sex": 2,
   "level": 10,
-  "hp": 79,
+  "hp": 85,
   "max_hp": 85,
-  "mana": 75,
+  "mana": 120,
   "max_mana": 120,
   "move": 100,
   "max_move": 100,
@@ -43,10 +43,10 @@
     },
     "9002": {
       "spell_id": 9002,
-      "proficiency": 22,
+      "proficiency": 23,
       "learned": true,
-      "lifetime_casts": 12,
-      "last_cast_time": 1771369372267758900
+      "lifetime_casts": 13,
+      "last_cast_time": 1771369773709960100
     }
   },
   "is_keeper": true

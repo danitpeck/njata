@@ -30,6 +30,7 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("removekeeper", cmdRemoveKeeper)
 	registry.Register("spawn", cmdSpawn)
 	registry.Register("teleport", cmdTeleport)
+	registry.Register("restore", cmdRestore)
 	registerMovement(registry)
 	registry.Register("help", func(ctx Context, args string) {
 		commands := registry.List()
@@ -793,6 +794,25 @@ func cmdTeleport(ctx Context, args string) {
 	if err == nil {
 		DisplayRoomView(ctx.Output, view, ctx.Player.AutoExits)
 	}
+}
+
+func cmdRestore(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in.")
+		return
+	}
+
+	if !ctx.Player.IsKeeper {
+		ctx.Output.WriteLine("You do not have the authority to do that.")
+		return
+	}
+
+	ctx.Player.HP = ctx.Player.MaxHP
+	ctx.Player.Mana = ctx.Player.MaxMana
+	ctx.Player.Move = ctx.Player.MaxMove
+
+	ctx.Output.WriteLine(fmt.Sprintf("&G✓ Restored to full HP, Mana, and Move!&w"))
+	ctx.Output.WriteLine(fmt.Sprintf("HP: %d/%d | Mana: %d/%d | Move: %d/%d", ctx.Player.HP, ctx.Player.MaxHP, ctx.Player.Mana, ctx.Player.MaxMana, ctx.Player.Move, ctx.Player.MaxMove))
 }
 
 func registerMovement(registry *Registry) {
