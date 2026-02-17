@@ -1,10 +1,10 @@
 # NJATA Skills System: Minimal Viable Design
 
-**MVP Progress: ~80% Complete** | Last Updated: Feb 17, 2026
+**MVP Progress: ~85% Complete** | Last Updated: Feb 17, 2026
 
-**✅ DONE**: Spell system (8 spells + Slash), classless design, starter kits, character creation, Study command (MVP), save/load, combat system  
-**⏳ IN PROGRESS**: Magical item placement (8 items), simple mob AI  
-**📋 NEXT**: Place 8 magical items in world, test full gameplay loop
+**✅ DONE**: Spell system (8 spells), combat maneuvers (Slash), classless design, starter kits, character creation, Study command, save/load, basic combat (damage/death), mob counterattack  
+**⏳ IN PROGRESS**: Magical item placement (8 items), extended mob AI  
+**📋 NEXT**: Place 8 magical items in world, run full gameplay loop, test balance
 
 ---
 
@@ -15,6 +15,19 @@ Build small, add meaningful. Like the original njata.c approach:
 - Create clean extension points for custom additions
 - Grow organically based on actual gameplay needs, not pre-designed systems
 - Each addition should have purpose within the game world
+
+---
+
+## Testing & Development Approach
+
+**Vex: The Test Character**
+- A Wolffolk explorer-scout Keeper living in Test Arena (room 90000)
+- First player to test all features before release
+- Can use `restore` command to reset HP/Mana/Move for quick iteration
+- Represents player experience: bad UX for Vex = bad UX for everyone
+- Her journey is the game's journey—as njata grows, Vex explores more
+
+This keeps development grounded in actual gameplay rather than abstract feature lists.
 
 ---
 
@@ -62,7 +75,7 @@ This changes from "generic eight spells" to **"eight spells + discovery-driven l
 - ✅ cast command (execute spell, improve proficiency)
 - ✅ Study command (MVP version with keyword mapping)
 - ✅ Player save/load (persist skills, proficiency, learned status)
-- ✅ Classless design (starter kits replace classes)
+- ✅ Classless design (starter kits replace classes, no player levels)
 - ✅ Character creation (race + starter kit + age + sex)
 - ✅ Combat maneuver system (Slash implemented and tested)
 - ✅ Basic combat resolution (damage, HP tracking, mob death)
@@ -605,15 +618,21 @@ Growth 3 (Complexity):
 - ✅ Test: All 8 spells castable and tracked
 
 **In Progress:**
-- ⏳ Combat maneuver system:
-  - Define Slash maneuver (basic attack)
-  - Create maneuver command (like cast, but for combat)
-  - Proficiency improvement through use
-  - Simple AI/combat for testing
+- ✅ Combat maneuver system:
+  - ✅ Define Slash maneuver (basic attack)
+  - ✅ Create maneuver command (like cast, but for combat)
+  - ✅ Proficiency improvement through use
+  - ✅ Mob counterattack (mobs fight back when damaged)
+  - ✅ Keeper restore command (for testing iteration speed)
 - ⏳ 8 magical items with spell IDs:
   - Define items in JSON with value[3] = spell_id
   - Place in world areas for discovery
   - Update Study command to check for actual items in room
+- ⏳ Extended mob AI:
+  - ✅ Basic counterattack on hit
+  - ⏳ Mob wandering/patrolling
+  - ⏳ Mob ability use
+  - ⏳ Mob group tactics (optional for MVP)
 - ⏳ Optional: Trainer NPCs for teaching advanced maneuvers
 
 ### Week 2: Polish & Test
