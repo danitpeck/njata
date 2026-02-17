@@ -22,6 +22,10 @@ func RegisterBuiltins(registry *Registry) {
     registry.Register("astat", cmdAstat)
     registry.Register("spellbook", cmdSpellbook)
     registry.Register("cast", cmdCast)
+    registry.Register("study", cmdStudy)
+    registry.Register("makekeeper", cmdMakeKeeper)
+    registry.Register("removekeeper", cmdRemoveKeeper)
+    registry.Register("teleport", cmdTeleport)
     registerMovement(registry)
     registry.Register("help", func(ctx Context, args string) {
         commands := registry.List()
@@ -201,38 +205,37 @@ func cmdSpellbook(ctx Context, args string) {
     }
 
     p := ctx.Player
-    classID := p.Class
 
-    // Get skills available to this class
-    availableSkills := skills.GetSkillsByClass(classID)
-    if len(availableSkills) == 0 {
-        ctx.Output.WriteLine("You have no spells available.")
-        return
+    // Initialize skills map if needed
+    if p.Skills == nil {
+        p.Skills = make(map[int]*skills.PlayerSkillProgress)
     }
 
     ctx.Output.WriteLine("=== SPELLBOOK ===")
     ctx.Output.WriteLine("")
 
-    // Initialize skills map if needed
-    if p.Skills == nil {
-        p.Skills = make(map[int]int)
-    }
-    if p.SkillCooldowns == nil {
-        p.SkillCooldowns = make(map[int]int64)
+    if len(p.Skills) == 0 {
+        ctx.Output.WriteLine("You haven't learned any spells yet.")
+        ctx.Output.WriteLine("")
+        return
     }
 
-    // Learn all class skills if not already learned
-    for _, skill := range availableSkills {
-        if _, learned := p.Skills[skill.ID]; !learned {
-            p.Skills[skill.ID] = 100 // Start at full proficiency
+    // Display all learned spells
+    allSpells := skills.AllSpells()
+    for spellID, progress := range p.Skills {
+        if !progress.Learned {
+            continue
         }
-    }
 
-    for _, skill := range availableSkills {
-        proficiency := p.Skills[skill.ID]
-        ctx.Output.WriteLine(fmt.Sprintf("[%d] %s - %s", skill.ID, skill.Name, skill.Description))
-        ctx.Output.WriteLine(fmt.Sprintf("    Type: %s | Mana: %d | Cooldown: %d | Proficiency: %d%%", 
-            skill.Type, skill.ManaCost, skill.CooldownSeconds, proficiency))
+        spell := allSpells[spellID]
+        if spell == nil {
+            continue
+        }
+
+        ctx.Output.WriteLine(fmt.Sprintf("[%d] %s", spell.ID, spell.Name))
+        ctx.Output.WriteLine(fmt.Sprintf("    Mana: %d | Cooldown: %ds | Proficiency: %d%%", 
+            spell.ManaCost, spell.CooldownSeconds, progress.Proficiency))
+        ctx.Output.WriteLine(fmt.Sprintf("    Casts: %d", progress.LifetimeCasts))
     }
     ctx.Output.WriteLine("")
 }
@@ -246,69 +249,139 @@ func cmdCast(ctx Context, args string) {
 
     args = strings.TrimSpace(args)
     if args == "" {
-        ctx.Output.WriteLine("Cast what? (syntax: cast <spell name or number>)")
+        ctx.Output.WriteLine("Cast what? (syntax: cast <spell name>)")
         return
     }
 
     p := ctx.Player
 
-    // Initialize maps if needed
+    // Initialize skills map if needed
     if p.Skills == nil {
-        p.Skills = make(map[int]int)
-    }
-    if p.SkillCooldowns == nil {
-        p.SkillCooldowns = make(map[int]int64)
+        p.Skills = make(map[int]*skills.PlayerSkillProgress)
     }
 
-    // Find the skill by name or ID
-    var targetSkill *skills.Skill
-    allSkills := skills.ListAll()
-    
-    // Try to match by name
-    for _, s := range allSkills {
-        if strings.EqualFold(s.Name, args) {
-            targetSkill = s
-            break
-        }
-    }
-
-    if targetSkill == nil {
+    // Find the spell by name
+    spell := skills.GetSpellByName(args)
+    if spell == nil {
         ctx.Output.WriteLine(fmt.Sprintf("You don't know any spell called '%s'", args))
         return
     }
 
-    // Check if player learned this skill
-    proficiency, hasSkill := p.Skills[targetSkill.ID]
-    if !hasSkill {
-        ctx.Output.WriteLine(fmt.Sprintf("You haven't learned %s yet.", targetSkill.Name))
+    // Check if player has learned this spell
+    skillProgress, hasSkill := p.Skills[spell.ID]
+    if !hasSkill || !skillProgress.Learned {
+        ctx.Output.WriteLine(fmt.Sprintf("You haven't learned %s yet.", spell.Name))
         return
     }
 
-    // Check mana
-    if p.Mana < targetSkill.ManaCost {
-        ctx.Output.WriteLine(fmt.Sprintf("You need %d mana to cast %s, but only have %d.", targetSkill.ManaCost, targetSkill.Name, p.Mana))
-        return
-    }
-
-    // Check cooldown
+    // Check if player can cast (mana, cooldown)
     now := time.Now().UnixNano()
-    lastCast := p.SkillCooldowns[targetSkill.ID]
-    timeSinceCast := (now - lastCast) / 1e9 // Convert to seconds
-    cooldown := int64(targetSkill.CooldownSeconds)
-
-    if timeSinceCast < cooldown {
-        ctx.Output.WriteLine(fmt.Sprintf("%s is still on cooldown for %d more seconds.", targetSkill.Name, cooldown-timeSinceCast))
+    canCast, reason := skillProgress.CanCast(spell, p.Mana, now)
+    if !canCast {
+        ctx.Output.WriteLine(reason)
         return
     }
 
     // Cast the spell!
-    p.Mana -= targetSkill.ManaCost
-    p.SkillCooldowns[targetSkill.ID] = now
+    p.Mana -= spell.ManaCost
+    skillProgress.UpdateCooldown()
+    skillProgress.UpdateProficiency(1) // +1% proficiency per cast
 
     // Success message
-    ctx.Output.WriteLine(fmt.Sprintf("You cast %s!", targetSkill.Name))
-    ctx.Output.WriteLine(fmt.Sprintf("Effect: %s (Proficiency: %d%%)", targetSkill.Description, proficiency))
+    msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+    msg = strings.ReplaceAll(msg, "$spell", spell.Name)
+    ctx.Output.WriteLine(fmt.Sprintf("%s (Proficiency: %d%%)", msg, skillProgress.Proficiency))
     ctx.Output.WriteLine(fmt.Sprintf("Mana remaining: %d/%d", p.Mana, p.MaxMana))
+
+    // For now, spell effects (damage, healing, etc.) would be implemented here
+    // This is a placeholder for actual combat/effect system integration
+}
+
+func cmdStudy(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in to study")
+        return
+    }
+
+    args = strings.TrimSpace(args)
+    if args == "" {
+        ctx.Output.WriteLine("Study what? (syntax: study <item>)")
+        return
+    }
+
+    p := ctx.Player
+
+    // Initialize skills map if needed
+    if p.Skills == nil {
+        p.Skills = make(map[int]*skills.PlayerSkillProgress)
+    }
+
+    // For MVP: map item keywords to spell IDs
+    // In the future, this should be stored in object data
+    itemToSpell := map[string]int{
+        "wand":          1001, // Magic Missile
+        "missile":       1001,
+        "fireball":      1002,
+        "heal":          1003,
+        "healing":       1003,
+        "scroll":        1003, // default to heal for scrolls
+        "blindness":     1004,
+        "invisibility":  1005,
+        "teleport":      1006,
+        "frost":         1007,
+        "cold":          1007,
+        "identify":      1008,
+    }
+
+    // Find which spell the player is trying to study
+    var targetSpellID int
+    found := false
+    for keyword, spellID := range itemToSpell {
+        if strings.Contains(strings.ToLower(args), keyword) {
+            targetSpellID = spellID
+            found = true
+            break
+        }
+    }
+
+    if !found {
+        ctx.Output.WriteLine("You can't study that.")
+        return
+    }
+
+    // Get the spell
+    spell := skills.GetSpell(targetSpellID)
+    if spell == nil {
+        ctx.Output.WriteLine("That spell doesn't exist.")
+        return
+    }
+
+    // Check if already learned
+    if progress, ok := p.Skills[targetSpellID]; ok && progress.Learned {
+        ctx.Output.WriteLine(fmt.Sprintf("You already know %s!", spell.Name))
+        return
+    }
+
+    // Simulate finding and studying the item
+    // For MVP, just auto-succeed with 30% proficiency
+    // In full implementation, would:
+    // 1. Check if item is in room
+    // 2. Make proficiency check (DC = 55 - proficiency*0.8)
+    // 3. Remove item from room
+
+    p.Skills[targetSpellID] = &skills.PlayerSkillProgress{
+        SpellID:       targetSpellID,
+        Proficiency:   30,
+        Learned:       true,
+        LifetimeCasts: 0,
+        LastCastTime:  0,
+    }
+
+    ctx.Output.WriteLine(fmt.Sprintf("&YYou carefully study the item and learn &W%s&Y!&w", spell.Name))
+    ctx.Output.WriteLine(fmt.Sprintf("Proficiency: 30%% | Mana Cost: %d | Cooldown: %ds",
+        spell.ManaCost, spell.CooldownSeconds))
+
+    // In full implementation: ctx.World.RemoveObjectFromRoom(ctx.Player.Location, itemVnum)
 }
 
 
@@ -380,6 +453,116 @@ func capitalize(s string) string {
         return s
     }
     return strings.ToUpper(s[:1]) + s[1:]
+}
+
+// Keeper Commands
+
+func cmdMakeKeeper(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in.")
+        return
+    }
+
+    if !ctx.Player.IsKeeper {
+        ctx.Output.WriteLine("You do not have the authority to do that.")
+        return
+    }
+
+    targetName := strings.TrimSpace(args)
+    if targetName == "" {
+        ctx.Output.WriteLine("Usage: makekeeper <player name>")
+        return
+    }
+
+    // Find the player in the world
+    target, ok := ctx.World.FindPlayer(targetName)
+    if !ok {
+        ctx.Output.WriteLine(fmt.Sprintf("Player '%s' not found.", targetName))
+        return
+    }
+
+    if target.IsKeeper {
+        ctx.Output.WriteLine(fmt.Sprintf("%s is already a Keeper of the realm.", target.Name))
+        return
+    }
+
+    target.IsKeeper = true
+    ctx.Output.WriteLine(fmt.Sprintf("You grant %s the responsibility of a Keeper.", target.Name))
+    target.Output.WriteLine("You have been elevated to Keeper of the realm. Guard this position well.")
+}
+
+func cmdRemoveKeeper(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in.")
+        return
+    }
+
+    if !ctx.Player.IsKeeper {
+        ctx.Output.WriteLine("You do not have the authority to do that.")
+        return
+    }
+
+    targetName := strings.TrimSpace(args)
+    if targetName == "" {
+        ctx.Output.WriteLine("Usage: removekeeper <player name>")
+        return
+    }
+
+    // Find the player in the world
+    target, ok := ctx.World.FindPlayer(targetName)
+    if !ok {
+        ctx.Output.WriteLine(fmt.Sprintf("Player '%s' not found.", targetName))
+        return
+    }
+
+    if !target.IsKeeper {
+        ctx.Output.WriteLine(fmt.Sprintf("%s is not a Keeper.", target.Name))
+        return
+    }
+
+    target.IsKeeper = false
+    ctx.Output.WriteLine(fmt.Sprintf("You strip %s of their Keeper responsibilities.", target.Name))
+    target.Output.WriteLine("Your status as a Keeper has been revoked.")
+}
+
+func cmdTeleport(ctx Context, args string) {
+    if ctx.Player == nil {
+        ctx.Output.WriteLine("You must be logged in.")
+        return
+    }
+
+    if !ctx.Player.IsKeeper {
+        ctx.Output.WriteLine("You do not have the authority to do that.")
+        return
+    }
+
+    // Parse room vnum from args
+    args = strings.TrimSpace(args)
+    if args == "" {
+        ctx.Output.WriteLine("Usage: teleport <room vnum>")
+        return
+    }
+
+    var vnum int
+    _, err := fmt.Sscanf(args, "%d", &vnum)
+    if err != nil || vnum <= 0 {
+        ctx.Output.WriteLine("Invalid room vnum.")
+        return
+    }
+
+    if !ctx.World.HasRoom(vnum) {
+        ctx.Output.WriteLine(fmt.Sprintf("Room %d does not exist.", vnum))
+        return
+    }
+
+    ctx.Player.Location = vnum
+    ctx.Output.WriteLine(fmt.Sprintf("You teleport to room %d.", vnum))
+
+    // Show the room
+    view, err := ctx.World.DescribeRoom(ctx.Player)
+    if err == nil {
+        DisplayRoomView(ctx.Output, view, ctx.Player.AutoExits)
+    }
 }
 
 func registerMovement(registry *Registry) {

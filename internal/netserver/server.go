@@ -10,6 +10,7 @@ import (
     "njata/internal/game"
     "njata/internal/parser"
     "njata/internal/persist"
+    "njata/internal/skills"
 )
 
 const playerDataDir = "players"
@@ -72,7 +73,8 @@ func (s *Server) handleConn(conn net.Conn) {
     defer session.Close()
 
     WriteBanner(session)
-    session.WriteLine("Welcome to Njata (modern).")
+    session.WriteLine("")
+    session.WriteLine("")
 
     var player *game.Player
     var isNewPlayer bool
@@ -109,6 +111,7 @@ func (s *Server) handleConn(conn net.Conn) {
             Experience: 0,
             Gold:       0,
             Alignment:  1000,
+            Skills:     make(map[int]*skills.PlayerSkillProgress),
         }
 
         // If existing player, load their stats
@@ -119,6 +122,19 @@ func (s *Server) handleConn(conn net.Conn) {
             creation := NewCharacterCreation(session, player)
             if err := creation.Run(); err != nil {
                 return
+            }
+
+            // Auto-teach new players Magic Missile (spelling ID 1001) as a starter spell
+            magicMissileSpell := skills.GetSpell(1001)
+            if magicMissileSpell != nil {
+                player.Skills[1001] = &skills.PlayerSkillProgress{
+                    SpellID:       1001,
+                    Proficiency:   50,
+                    Learned:       true,
+                    LifetimeCasts: 0,
+                    LastCastTime:  0,
+                }
+                session.WriteLine("You have learned &YMagic Missile&w as your first spell!")
             }
         }
 

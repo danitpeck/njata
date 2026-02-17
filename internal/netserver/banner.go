@@ -20,13 +20,14 @@ const greetingBanner = `&p             |   |   ---   ^  ---   ^         |
        ()|-|_XX_|-|__|T|_|[T]-[T]|_|T|__|-|_XX_|-()
 &g   ^-^^-^^-^^-^    ^-^  """   &O/   \   &g"""  ^-^    ^-^^-^^-^^-^
 &w
-Njata 0.6a by Chieftain and Zoie.
+Welcome to Njata Reborn!
 
-SmaugFUSS 1.9 changes by Samson and various members of the SMAUG community.
-SMAUG 1.4 written by Thoric (Derek Snider) with Altrag, Blodkai, Haus, Narn,
+The original Njata was written by Chieftain and Zoie and was based on 
+SmaugFUSS 1.9 code by Samson and various members of the SMAUG community.
+SMAUG 1.4 code by Thoric (Derek Snider) with Altrag, Blodkai, Haus, Narn,
 Scryn, Swordbearer, Tricops, Gorog, Rennard, Grishnakh, Fireblade and Nivek.
-Original MERC 2.1 code by Hatchet, Furey, and Kahn.
-Original DikuMUD code by: Hans Staerfeldt, Katja Nyboe, Tom Madsen,
+MERC 2.1 code by Hatchet, Furey, and Kahn.
+DikuMUD code by: Hans Staerfeldt, Katja Nyboe, Tom Madsen, 
 Michael Seifert && Sebastian Hammer
 
 Most enthusiastic greetings to you, traveler! You have stumbled across a

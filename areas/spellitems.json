@@ -1,0 +1,167 @@
+{
+  "name": "Spell Items (Scholar Learning Items)",
+  "author": "Game System",
+  "reset_minutes": 0,
+  "rooms": {
+    "9001": {
+      "vnum": 9001,
+      "name": "The Library of Arcane Knowledge",
+      "description": "An ancient library filled with shelves of magical tomes, enchanted scrolls,\nand mystical artifacts. A faint glow emanates from various items scattered\nthroughout the room. Dust particles dance in the air, illuminated by the\nsorcerous light. This place is a treasure trove for those seeking to expand\ntheir magical knowledge.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "magic": true
+      },
+      "exits": {
+        "north": 400
+      },
+      "exdescs": {},
+      "area_name": "Spell Items",
+      "area_author": "Game System",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 5001,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5002,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5003,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5004,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5005,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5006,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5007,
+          "count": 1,
+          "room": 9001
+        },
+        {
+          "vnum": 5008,
+          "count": 1,
+          "room": 9001
+        }
+      ]
+    }
+  },
+  "mobiles": {},
+  "objects": {
+    "5001": {
+      "vnum": 5001,
+      "keywords": ["wand", "missile", "magic missile"],
+      "type": "wand",
+      "short": "a wand of magic missile",
+      "long": "This slim wand of polished oak is inscribed with glowing runes\nrepresenting the spell Magic Missile. A faint magical aura surrounds it.",
+      "weight": 50,
+      "value": [0, 0, 0, 1001],
+      "flags": {
+        "magic": true
+      }
+    },
+    "5002": {
+      "vnum": 5002,
+      "keywords": ["wand", "fireball", "fire"],
+      "type": "wand",
+      "short": "a wand of fireball",
+      "long": "This ornate wand of blackened steel radiates intense heat.\nFlame dances along its surface, and it smells of sulfur and ash.\nMagical runes depicting fire are etched along its length.",
+      "weight": 75,
+      "value": [0, 0, 0, 1002],
+      "flags": {
+        "magic": true,
+        "flaming": true
+      }
+    },
+    "5003": {
+      "vnum": 5003,
+      "keywords": ["scroll", "healing", "heal"],
+      "type": "scroll",
+      "short": "a scroll of healing",
+      "long": "An ancient scroll containing the spell of Healing. The parchment glows\nwith a soft green light, and words of power are inscribed upon it using\nink that seems to shimmer with life force.",
+      "weight": 10,
+      "value": [0, 0, 0, 1003],
+      "flags": {
+        "magic": true
+      }
+    },
+    "5004": {
+      "vnum": 5004,
+      "keywords": ["wand", "blindness", "blind"],
+      "type": "wand",
+      "short": "a wand of blindness",
+      "long": "A twisted wand carved from dark wood, its surface seems to absorb light.\nSwirling shadows dance within it, and looking at it for too long makes\nyour eyes water. The spell Blindness is inscribed upon it.",
+      "weight": 60,
+      "value": [0, 0, 0, 1004],
+      "flags": {
+        "magic": true
+      }
+    },
+    "5005": {
+      "vnum": 5005,
+      "keywords": ["potion", "invisibility", "invisible"],
+      "type": "potion",
+      "short": "a potion of invisibility",
+      "long": "This shimmering potion seems to fade in and out of sight. Its contents\nare barely visible, as if the liquid itself is partially invisible. The\nlabel reads 'Invisibility' and seems to whisper with magical power.",
+      "weight": 30,
+      "value": [0, 0, 0, 1005],
+      "flags": {
+        "magic": true
+      }
+    },
+    "5006": {
+      "vnum": 5006,
+      "keywords": ["wand", "teleport", "teleportation"],
+      "type": "wand",
+      "short": "a wand of teleportation",
+      "long": "A sleek wand of crystal and silver, it crackles with arcane energy.\nRunes depicting distant places shimmer across its surface. Mana pulses\nalong its length, and the space around it seems to shimmer and waver.",
+      "weight": 55,
+      "value": [0, 0, 0, 1006],
+      "flags": {
+        "magic": true
+      }
+    },
+    "5007": {
+      "vnum": 5007,
+      "keywords": ["wand", "frost", "cold", "bolt"],
+      "type": "wand",
+      "short": "a wand of frost bolt",
+      "long": "This elegant wand is crafted from ice-blue crystal that never melts.\nFrost crystals dance along its surface, and a chill radiates from it.\nThe spell Frost Bolt is inscribed using icy runes that glow with pale blue light.",
+      "weight": 65,
+      "value": [0, 0, 0, 1007],
+      "flags": {
+        "magic": true,
+        "cold": true
+      }
+    },
+    "5008": {
+      "vnum": 5008,
+      "keywords": ["scroll", "identify", "identification"],
+      "type": "scroll",
+      "short": "a scroll of identify",
+      "long": "An ancient scroll filled with wisdom about identifying magical objects.\nThe parchment is yellowed with age, but the writing is still clear.\nMystical symbols of identification glow faintly upon its surface.",
+      "weight": 15,
+      "value": [0, 0, 0, 1008],
+      "flags": {
+        "magic": true
+      }
+    }
+  }
+}

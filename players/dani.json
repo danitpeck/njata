@@ -1,5 +1,5 @@
 {
-  "name": "Dani",
+  "name": "dani",
   "location": 10300,
   "class": 12,
   "race": 25,
@@ -25,5 +25,15 @@
   "alignment": 1000,
   "hitroll": 18,
   "damroll": 0,
-  "armor": 30
+  "armor": 30,
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 50,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    }
+  },
+  "is_keeper": false
 }

@@ -126,7 +126,7 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
             Short    string            `json:"short"`
             Long     string            `json:"long"`
             Weight   int               `json:"weight"`
-            Value    int               `json:"value"`
+            Value    interface{}       `json:"value"` // Can be int or [4]int
             Flags    map[string]bool   `json:"flags"`
         } `json:"objects"`
     }
@@ -201,6 +201,21 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 
     objects := make(map[int]*game.Object)
     for _, objJSON := range areaJSON.Objects {
+        // Handle both int and [4]int value formats
+        var objValue [4]int
+        switch v := objJSON.Value.(type) {
+        case float64:
+            // Single int value (legacy format)
+            objValue[0] = int(v)
+        case []interface{}:
+            // Array format [quantity, _, _, spell_id]
+            for i := 0; i < len(v) && i < 4; i++ {
+                if fv, ok := v[i].(float64); ok {
+                    objValue[i] = int(fv)
+                }
+            }
+        }
+
         obj := &game.Object{
             Vnum:     objJSON.Vnum,
             Keywords: objJSON.Keywords,
@@ -208,7 +223,7 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
             Short:    objJSON.Short,
             Long:     objJSON.Long,
             Weight:   objJSON.Weight,
-            Value:    objJSON.Value,
+            Value:    objValue,
             Flags:    objJSON.Flags,
         }
         if obj.Vnum > 0 {

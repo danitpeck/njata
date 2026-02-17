@@ -8,6 +8,7 @@ import (
     "strings"
 
     "njata/internal/game"
+    "njata/internal/skills"
 )
 
 type PlayerRecord struct {
@@ -30,8 +31,8 @@ type PlayerRecord struct {
     Hitroll    int    `json:"hitroll"`
     Damroll    int    `json:"damroll"`
     Armor      int    `json:"armor"`
-    Skills     map[int]int `json:"skills"`
-    SkillCooldowns map[int]int64 `json:"skill_cooldowns"`
+    Skills     map[int]*skills.PlayerSkillProgress `json:"skills"`
+    IsKeeper   bool   `json:"is_keeper"`
 }
 
 func LoadPlayer(dir string, name string) (*PlayerRecord, bool, error) {
@@ -79,6 +80,14 @@ func playerPath(dir string, name string) string {
 
 // PlayerToRecord converts a game.Player to a PlayerRecord for saving
 func PlayerToRecord(p *game.Player) PlayerRecord {
+    // Deep copy the Skills map to ensure proper serialization
+    skillsCopy := make(map[int]*skills.PlayerSkillProgress)
+    if p.Skills != nil {
+        for k, v := range p.Skills {
+            skillsCopy[k] = v
+        }
+    }
+
     return PlayerRecord{
         Name:        p.Name,
         Location:    p.Location,
@@ -99,8 +108,8 @@ func PlayerToRecord(p *game.Player) PlayerRecord {
         Hitroll:     p.Hitroll,
         Damroll:     p.Damroll,
         Armor:       p.Armor,
-        Skills:      p.Skills,
-        SkillCooldowns: p.SkillCooldowns,
+        Skills:      skillsCopy,
+        IsKeeper:    p.IsKeeper,
     }
 }
 
@@ -125,5 +134,5 @@ func RecordToPlayer(p *game.Player, r *PlayerRecord) {
     p.Damroll = r.Damroll
     p.Armor = r.Armor
     p.Skills = r.Skills
-    p.SkillCooldowns = r.SkillCooldowns
+    p.IsKeeper = r.IsKeeper
 }

@@ -1,5 +1,5 @@
 {
-  "name": "zoie",
+  "name": "Zoie",
   "location": 10300,
   "class": 0,
   "race": 25,
@@ -26,6 +26,6 @@
   "hitroll": 0,
   "damroll": 0,
   "armor": 130,
-  "skills": null,
-  "skill_cooldowns": null
+  "skills": {},
+  "is_keeper": false
 }

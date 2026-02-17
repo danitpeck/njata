@@ -1,13 +1,13 @@
 {
-  "name": "vex",
-  "location": 10300,
+  "name": "Vex",
+  "location": 9001,
   "class": 12,
   "race": 6,
   "sex": 2,
   "level": 10,
   "hp": 85,
   "max_hp": 85,
-  "mana": 30,
+  "mana": 25,
   "max_mana": 120,
   "move": 100,
   "max_move": 100,
@@ -27,14 +27,20 @@
   "damroll": 3,
   "armor": 5,
   "skills": {
-    "1": 100,
-    "2": 100,
-    "3": 100,
-    "4": 100,
-    "5": 100,
-    "6": 100
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 51,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771293829981546900
+    },
+    "1002": {
+      "spell_id": 1002,
+      "proficiency": 32,
+      "learned": true,
+      "lifetime_casts": 2,
+      "last_cast_time": 1771294125299214900
+    }
   },
-  "skill_cooldowns": {
-    "1": 1771289599860564900
-  }
+  "is_keeper": true
 }

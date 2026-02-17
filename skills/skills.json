@@ -1,65 +1,208 @@
-{
-  "skills": {
-    "1": {
-      "name": "Fireball",
-      "id": 1,
-      "type": "offensive",
-      "mana_cost": 30,
-      "cooldown_seconds": 5,
-      "damage_formula": "int_bonus * 1.2 + 10",
-      "description": "Hurl a ball of flame at your target",
-      "classes": [12, 7]
+[
+  {
+    "id": 1001,
+    "name": "Magic Missile",
+    "mana_cost": 15,
+    "cooldown_seconds": 2,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 25,
+      "radius": 0
     },
-    "2": {
-      "name": "Frost Bolt",
-      "id": 2,
-      "type": "offensive",
-      "mana_cost": 25,
-      "cooldown_seconds": 4,
-      "damage_formula": "int_bonus * 1.0 + 8",
-      "description": "Strike your target with icy magic",
-      "classes": [12, 7]
+    "effects": {
+      "damage": "1d6 + I/2 + l",
+      "damage_type": "magic",
+      "save_type": "none",
+      "save_dc": 0
     },
-    "3": {
-      "name": "Heal",
-      "id": 3,
-      "type": "healing",
-      "mana_cost": 20,
-      "cooldown_seconds": 6,
-      "heal_formula": "wis_bonus * 1.5 + 15",
-      "description": "Restore health to yourself or an ally",
-      "classes": [2, 12, 8]
+    "messages": {
+      "cast": "You hurl a magical missile at $target.",
+      "hit": "$actor's magical missile strikes you!",
+      "miss": "$actor's magical missile misses you.",
+      "cast_room": "$actor hurls a magical missile at $target."
+    }
+  },
+  {
+    "id": 1002,
+    "name": "Fireball",
+    "mana_cost": 30,
+    "cooldown_seconds": 5,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_area",
+      "range": 30,
+      "radius": 3
     },
-    "4": {
-      "name": "Lightning Strike",
-      "id": 4,
-      "type": "offensive",
-      "mana_cost": 40,
-      "cooldown_seconds": 8,
-      "damage_formula": "int_bonus * 1.4 + 15",
-      "description": "Call down lightning upon your foes",
-      "classes": [12, 7, 8]
+    "effects": {
+      "damage": "4d8 + I",
+      "damage_type": "fire",
+      "save_type": "reflex",
+      "save_dc": 14
     },
-    "5": {
-      "name": "Magic Missile",
-      "id": 5,
-      "type": "offensive",
-      "mana_cost": 15,
-      "cooldown_seconds": 2,
-      "damage_formula": "int_bonus * 0.8 + 5",
-      "description": "Launch magical projectiles at your target",
-      "classes": [12, 7]
+    "messages": {
+      "cast": "You hurl a massive fireball at $target.",
+      "hit": "$actor's fireball scorches you for $damage damage!",
+      "miss": "$actor's fireball sails past $target.",
+      "save": "$target resists the flames!",
+      "cast_room": "$actor hurls a massive fireball!"
+    }
+  },
+  {
+    "id": 1003,
+    "name": "Heal",
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "level_required": 1,
+    "targeting": {
+      "mode": "ally_single",
+      "range": 5,
+      "radius": 0
     },
-    "6": {
-      "name": "Shield Spell",
-      "id": 6,
-      "type": "defensive",
-      "mana_cost": 18,
-      "cooldown_seconds": 10,
-      "ac_bonus": 5,
-      "duration_seconds": 30,
-      "description": "Summon a protective magical barrier",
-      "classes": [12, 2, 8]
+    "effects": {
+      "healing": "2d8 + 5 + W*1.5",
+      "damage_type": "healing",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You cast healing magic on $target.",
+      "hit": "Golden light washes over $target, healing $healing damage!",
+      "miss": "Nothing happens.",
+      "cast_room": "$actor casts healing magic on $target."
+    }
+  },
+  {
+    "id": 1004,
+    "name": "Blindness",
+    "mana_cost": 18,
+    "cooldown_seconds": 4,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 25,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "0",
+      "damage_type": "none",
+      "save_type": "will",
+      "save_dc": 13,
+      "affect": {
+        "name": "blindness",
+        "duration": "20 + L*2",
+        "ac_penalty": 4,
+        "description": "You are blinded!"
+      }
+    },
+    "messages": {
+      "cast": "You cast blindness on $target.",
+      "hit": "$target's eyes go blank!",
+      "miss": "$target resists the blindness.",
+      "cast_room": "$actor casts blindness on $target."
+    }
+  },
+  {
+    "id": 1005,
+    "name": "Invisibility",
+    "mana_cost": 20,
+    "cooldown_seconds": 30,
+    "level_required": 1,
+    "targeting": {
+      "mode": "ally_single",
+      "range": 5,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "0",
+      "damage_type": "none",
+      "save_type": "none",
+      "save_dc": 0,
+      "affect": {
+        "name": "invisibility",
+        "duration": "120 + W*4",
+        "description": "You fade from sight."
+      }
+    },
+    "messages": {
+      "cast": "You cast invisibility on $target.",
+      "hit": "$target fades from sight!",
+      "cast_room": "$actor casts invisibility on $target."
+    }
+  },
+  {
+    "id": 1006,
+    "name": "Teleport",
+    "mana_cost": 50,
+    "cooldown_seconds": 30,
+    "level_required": 1,
+    "targeting": {
+      "mode": "self",
+      "range": 50,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "0",
+      "damage_type": "none",
+      "save_type": "will",
+      "save_dc": 16,
+      "affect": {
+        "name": "teleport",
+        "duration": "0",
+        "description": "You vanish in a flash of light!"
+      }
+    },
+    "messages": {
+      "cast": "You cast teleportation magic!",
+      "hit": "You vanish in a flash of light!",
+      "cast_room": "$actor vanishes in a flash of light!"
+    }
+  },
+  {
+    "id": 1007,
+    "name": "Frost Bolt",
+    "mana_cost": 25,
+    "cooldown_seconds": 4,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 28,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "3d8 + I",
+      "damage_type": "cold",
+      "save_type": "reflex",
+      "save_dc": 13
+    },
+    "messages": {
+      "cast": "You hurl a bolt of frost at $target.",
+      "hit": "$actor's frost bolt freezes you for $damage damage!",
+      "miss": "$actor's frost bolt misses you.",
+      "cast_room": "$actor hurls a bolt of frost at $target."
+    }
+  },
+  {
+    "id": 1008,
+    "name": "Identify",
+    "mana_cost": 15,
+    "cooldown_seconds": 2,
+    "level_required": 1,
+    "targeting": {
+      "mode": "any_object",
+      "range": 5,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "0",
+      "damage_type": "none",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You examine $target carefully.",
+      "hit": "You identify $target.",
+      "cast_room": "$actor examines $target."
     }
   }
-}
+]

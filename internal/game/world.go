@@ -7,6 +7,8 @@ import (
     "sync"
     "time"
     "unicode"
+
+    "njata/internal/skills"
 )
 
 type Player struct {
@@ -42,9 +44,11 @@ type Player struct {
     Damroll    int
     Armor      int
     
-    // Skills
-    Skills     map[int]int // skill_id -> proficiency (0-100)
-    SkillCooldowns map[int]int64 // skill_id -> last_cast_time (unix nanoseconds)
+    // Skills tracking
+    Skills     map[int]*skills.PlayerSkillProgress // spell_id -> proficiency progress
+    
+    // Keeper flag - player who maintains the world
+    IsKeeper   bool
 }
 
 type Mobile struct {
@@ -71,7 +75,7 @@ type Object struct {
     Short       string
     Long        string
     Weight      int
-    Value       int
+    Value       [4]int // [0]=quantity [1]=unused [2]=unused [3]=spell_id for magical items
     Flags       map[string]bool
 }
 
@@ -274,6 +278,20 @@ func (w *World) ListPlayersExcept(name string) []string {
 
     sort.Strings(names)
     return names
+}
+
+// FindPlayer retrieves a player by name (case-insensitive)
+func (w *World) FindPlayer(name string) (*Player, bool) {
+    w.mu.RLock()
+    defer w.mu.RUnlock()
+
+    for playerName, player := range w.players {
+        if strings.EqualFold(playerName, name) {
+            return player, true
+        }
+    }
+
+    return nil, false
 }
 
 func (w *World) DescribeRoom(player *Player) (RoomView, error) {
