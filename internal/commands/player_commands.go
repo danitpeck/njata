@@ -114,7 +114,7 @@ func cmdWho(ctx Context, args string) {
 
 func cmdStats(ctx Context, args string) {
 	p := ctx.Player
-	ctx.Output.WriteLine(fmt.Sprintf("=== %s (Level %d) ===", p.Name, p.Level))
+	ctx.Output.WriteLine(fmt.Sprintf("=== %s ===", p.Name))
 
 	raceName := "Unknown"
 	if r := races.GetByID(p.Race); r != nil {

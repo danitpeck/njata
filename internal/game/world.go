@@ -24,7 +24,6 @@ type Player struct {
 	Race  int // Index into legacy/races
 	Sex   int // 0=neuter, 1=male, 2=female
 	Age   int // 0=child, 1=youth, 2=adult, 3=middle-aged, 4=elderly
-	Level int
 
 	// Vital stats
 	HP         int
