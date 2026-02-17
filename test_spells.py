@@ -53,11 +53,35 @@ def test_spells():
         sock.send(b"1\r\n")
         time.sleep(0.5)
         sock.recv(4096)
-        # Select warrior
+        # Confirm race
+        sock.send(b"y\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Select Scholar's Kit (has spells)
         sock.send(b"1\r\n")
         time.sleep(0.5)
         sock.recv(4096)
-        # Confirm
+        # Confirm kit
+        sock.send(b"y\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Age
+        sock.send(b"Adult\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Confirm age
+        sock.send(b"y\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Sex
+        sock.send(b"Male\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Confirm sex
+        sock.send(b"y\r\n")
+        time.sleep(0.5)
+        sock.recv(4096)
+        # Final confirm
         sock.send(b"y\r\n")
         time.sleep(0.5)
         sock.recv(4096)

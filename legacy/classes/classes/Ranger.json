@@ -1,0 +1,22 @@
+{
+  "name": "Ranger",
+  "class_id": 10,
+  "flavor_text": "As a Ranger, you will be capable of using light-bladed, ranged and throwing weapons, though your preferred weapons will be longswords, rapiers and longbows. Though you will be skilled in ranged combat and tracking, you may not be well suited to civilized life. Are you quite certain?",
+  "races": 29622528,
+  "attr_prime": 2,
+  "attr_second": 4,
+  "attr_deficient": 0,
+  "weapon": 10313,
+  "guild": 3039,
+  "thac0": 18,
+  "thac32": 6,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}
+

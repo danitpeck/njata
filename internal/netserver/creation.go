@@ -5,9 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"njata/internal/classes"
 	"njata/internal/game"
+	"njata/internal/kits"
 	"njata/internal/races"
+	"njata/internal/skills"
 )
 
 // Age categories
@@ -44,10 +45,10 @@ var sexDescriptions = []string{
 
 // CharacterCreation handles the character creation flow for new players
 type CharacterCreation struct {
-	session        *Session
-	player         *game.Player
-	selectedRace   *races.RaceJSON
-	selectedClass  *classes.ClassJSON
+	session      *Session
+	player       *game.Player
+	selectedRace *races.RaceJSON
+	selectedKit  *kits.StarterKit
 }
 
 // NewCharacterCreation creates a new character creation session
@@ -66,7 +67,7 @@ func (cc *CharacterCreation) Run() error {
 		return err
 	}
 
-	if err := cc.selectClass(); err != nil {
+	if err := cc.selectStarterKit(); err != nil {
 		return err
 	}
 
@@ -150,18 +151,17 @@ func (cc *CharacterCreation) selectRace() error {
 	}
 }
 
-func (cc *CharacterCreation) selectClass() error {
+func (cc *CharacterCreation) selectStarterKit() error {
 	for {
 		cc.session.WriteLine("")
-		cc.session.WriteLine("=== SELECT YOUR CLASS ===")
+		cc.session.WriteLine("=== SELECT YOUR STARTING PATH ===")
 		cc.session.WriteLine("")
-		cc.session.WriteLine(classes.MVPMenuString())
+		cc.session.WriteLine("In Wislyu, power comes from what you discover and who you learn from.")
+		cc.session.WriteLine("Choose how you wish to begin your journey:")
 		cc.session.WriteLine("")
-		cc.session.WriteLine("As a Scholar, you study magical items to learn spells.")
-		cc.session.WriteLine("As a Warrior, you master combat through weapons and tactics.")
+		cc.session.WriteLine(kits.MenuString())
 		cc.session.WriteLine("")
-		mvpCount := len(classes.MVPClasses())
-		cc.session.Write("Choice (1-" + fmt.Sprintf("%d", mvpCount) + "): ")
+		cc.session.Write("Choice (1-3) or [help]: ")
 
 		line, err := cc.session.ReadLine()
 		if err != nil {
@@ -171,15 +171,20 @@ func (cc *CharacterCreation) selectClass() error {
 		trimmed := strings.TrimSpace(line)
 		if strings.ToLower(trimmed) == "help" {
 			cc.session.WriteLine("")
-			cc.session.WriteLine("=== SCHOLAR ===")
-			cc.session.WriteLine("Scholars are seekers of knowledge who unlock magical power by studying")
-			cc.session.WriteLine("enchanted items found throughout the world. Each spell must be discovered,")
-			cc.session.WriteLine("studied, and mastered. Your growth is driven by curiosity and exploration.")
+			cc.session.WriteLine("=== SCHOLAR'S KIT ===")
+			cc.session.WriteLine(kits.ScholarKit.FlavorText)
 			cc.session.WriteLine("")
-			cc.session.WriteLine("=== WARRIOR ===")
-			cc.session.WriteLine("Warriors are masters of combat who learn devastating maneuvers and techniques.")
-			cc.session.WriteLine("You grow stronger through battle, honing your skills against increasingly")
-			cc.session.WriteLine("formidable foes. Your weapon is your path to power.")
+			cc.session.WriteLine("Starts with: Arcane Bolt spell (30%), Study skill (10%)")
+			cc.session.WriteLine("")
+			cc.session.WriteLine("=== WARRIOR'S KIT ===")
+			cc.session.WriteLine(kits.WarriorKit.FlavorText)
+			cc.session.WriteLine("")
+			cc.session.WriteLine("Starts with: Slash maneuver (10%)")
+			cc.session.WriteLine("")
+			cc.session.WriteLine("=== WANDERER'S KIT ===")
+			cc.session.WriteLine(kits.WandererKit.FlavorText)
+			cc.session.WriteLine("")
+			cc.session.WriteLine("Starts with: Arcane Bolt (20%), Study skill (5%), Slash maneuver (5%)")
 			cc.session.WriteLine("")
 			continue
 		}
@@ -190,19 +195,19 @@ func (cc *CharacterCreation) selectClass() error {
 			continue
 		}
 
-		class := classes.GetMVPByMenuChoice(choice)
-		if class == nil {
+		kit := kits.GetByMenuChoice(choice)
+		if kit == nil {
 			cc.session.WriteLine("Invalid choice. Please try again.")
 			continue
 		}
 
 		// Display flavor text and ask for confirmation
-		if class.FlavorText != "" {
+		if kit.FlavorText != "" {
 			cc.session.WriteLine("")
-			cc.session.WriteLine(class.FlavorText)
+			cc.session.WriteLine(kit.FlavorText)
 		}
 		cc.session.WriteLine("")
-		cc.session.Write("Would you like to be a " + class.Name + "? [Yes/No]: ")
+		cc.session.Write("Would you like to begin with the " + kit.Name + "? [Yes/No]: ")
 
 		confirmLine, err := cc.session.ReadLine()
 		if err != nil {
@@ -210,15 +215,14 @@ func (cc *CharacterCreation) selectClass() error {
 		}
 
 		if strings.ToLower(strings.TrimSpace(confirmLine))[0:1] == "y" {
-			cc.selectedClass = class
-			cc.player.Class = class.ClassID
-			cc.applyClassModifiers()
+			cc.selectedKit = kit
+			cc.applyKitModifiers()
 			cc.session.WriteLine("")
-			cc.session.WriteLine(fmt.Sprintf("Excellent! You will join the ranks of the %s.", class.Name))
+			cc.session.WriteLine(fmt.Sprintf("Excellent! You begin your journey with the %s.", kit.Name))
 			return nil
 		}
 
-		cc.session.WriteLine("If that does not appeal to you, what class would better suit you?")
+		cc.session.WriteLine("If that does not appeal to you, what path would better suit you?")
 	}
 }
 
@@ -235,13 +239,13 @@ func (cc *CharacterCreation) applyRaceModifiers() {
 	}
 
 	// Apply race modifiers (STR, INT, WIS, DEX, CON, LCK, CHM)
-	cc.player.Attributes[0] += cc.selectedRace.StrPlus    // STR
-	cc.player.Attributes[1] += cc.selectedRace.IntPlus    // INT
-	cc.player.Attributes[2] += cc.selectedRace.WisPlus    // WIS
-	cc.player.Attributes[3] += cc.selectedRace.DexPlus    // DEX
-	cc.player.Attributes[4] += cc.selectedRace.ConPlus    // CON
-	cc.player.Attributes[5] += cc.selectedRace.LckPlus    // LCK
-	cc.player.Attributes[6] += cc.selectedRace.ChaPlus    // CHA
+	cc.player.Attributes[0] += cc.selectedRace.StrPlus // STR
+	cc.player.Attributes[1] += cc.selectedRace.IntPlus // INT
+	cc.player.Attributes[2] += cc.selectedRace.WisPlus // WIS
+	cc.player.Attributes[3] += cc.selectedRace.DexPlus // DEX
+	cc.player.Attributes[4] += cc.selectedRace.ConPlus // CON
+	cc.player.Attributes[5] += cc.selectedRace.LckPlus // LCK
+	cc.player.Attributes[6] += cc.selectedRace.ChaPlus // CHA
 
 	// Apply racial stat bonuses
 	cc.player.HP += cc.selectedRace.Hit
@@ -251,19 +255,32 @@ func (cc *CharacterCreation) applyRaceModifiers() {
 	cc.player.Armor += cc.selectedRace.ACPlus
 }
 
-func (cc *CharacterCreation) applyClassModifiers() {
-	if cc.selectedClass == nil {
+func (cc *CharacterCreation) applyKitModifiers() {
+	if cc.selectedKit == nil {
 		return
 	}
 
-	// Class-specific HP range
-	cc.player.HP = cc.selectedClass.Hpmax
-	cc.player.MaxHP = cc.selectedClass.Hpmax
-	cc.player.Mana = cc.selectedClass.Mana
-	cc.player.MaxMana = cc.selectedClass.Mana
+	// Apply starter kit stats
+	cc.player.HP = cc.selectedKit.HP
+	cc.player.MaxHP = cc.selectedKit.HP
+	cc.player.Mana = cc.selectedKit.Mana
+	cc.player.MaxMana = cc.selectedKit.Mana
+	cc.player.Move = cc.selectedKit.Move
+	cc.player.MaxMove = cc.selectedKit.Move
 
-	// Thac0 (to hit armor class 0)
-	cc.player.Hitroll = cc.selectedClass.Thac0
+	// Grant starting skills/spells
+	if cc.player.Skills == nil {
+		cc.player.Skills = make(map[int]*skills.PlayerSkillProgress)
+	}
+
+	for skillID, proficiency := range cc.selectedKit.StartingSkills {
+		cc.player.Skills[skillID] = &skills.PlayerSkillProgress{
+			SpellID:       skillID,
+			Proficiency:   proficiency,
+			Learned:       true,
+			LifetimeCasts: 0,
+		}
+	}
 }
 
 func (cc *CharacterCreation) selectAge() error {
@@ -403,13 +420,12 @@ func (cc *CharacterCreation) displayFinalStats() {
 	cc.session.WriteLine("")
 	cc.session.WriteLine("=== FINAL CHARACTER STATS ===")
 	cc.session.WriteLine("")
-	cc.session.WriteLine(fmt.Sprintf("Name:  %s", cc.player.Name))
-	cc.session.WriteLine(fmt.Sprintf("Race:  %s", cc.selectedRace.Name))
-	cc.session.WriteLine(fmt.Sprintf("Class: %s", cc.selectedClass.Name))
-	cc.session.WriteLine(fmt.Sprintf("Age:   %s", ageNames[cc.player.Age]))
-	cc.session.WriteLine(fmt.Sprintf("Sex:   %s", sexNames[cc.player.Sex]))
+	cc.session.WriteLine(fmt.Sprintf("Name:        %s", cc.player.Name))
+	cc.session.WriteLine(fmt.Sprintf("Race:        %s", cc.selectedRace.Name))
+	cc.session.WriteLine(fmt.Sprintf("Starter Kit: %s", cc.selectedKit.Name))
+	cc.session.WriteLine(fmt.Sprintf("Age:         %s", ageNames[cc.player.Age]))
+	cc.session.WriteLine(fmt.Sprintf("Sex:         %s", sexNames[cc.player.Sex]))
 	cc.session.WriteLine("")
-
 	attrNames := []string{"STR", "INT", "WIS", "DEX", "CON", "LCK", "CHA"}
 	for i, name := range attrNames {
 		cc.session.WriteLine(fmt.Sprintf("%s: %d", name, cc.player.Attributes[i]))

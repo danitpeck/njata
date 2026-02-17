@@ -1,5 +1,13 @@
 # NJATA Skills System: Minimal Viable Design
 
+**MVP Progress: ~70% Complete** | Last Updated: Feb 17, 2026
+
+**✅ DONE**: Spell system (8 spells), classless design, starter kits, character creation, Study command (MVP), save/load  
+**⏳ IN PROGRESS**: Combat maneuvers (Slash), magical item placement, simple combat resolution  
+**📋 NEXT**: Implement combat maneuver system (Option A)
+
+---
+
 ## Philosophy
 
 Build small, add meaningful. Like the original njata.c approach:
@@ -12,19 +20,17 @@ Build small, add meaningful. Like the original njata.c approach:
 
 ## Part 1: Minimal Viable Product (MVP) - Week 1
 
-## Part 1: Minimal Viable Product (MVP) - Week 1
+**PRIORITY: Discovery-Based Progression**
 
-**PRIORITY: Scholar's Study System**
-
-The absolute minimum to have a working spell system for gameplay testing—with Scholar's unique discovery mechanics as the centerpiece.
+The absolute minimum to have a working spell system for gameplay testing—with discovery-based learning as the centerpiece.
 
 ### What Goes In
 
-**One Spotlight: Scholar Class + Study Ability**
+**Core Mechanic: Study Ability**
 
-Scholar is NJATA-specific custom content:
+Study is NJATA-specific progression:
 ```
-Scholars learn spells by studying magical items (wands, scrolls)
+All players can learn spells by studying magical items (wands, scrolls)
 - Discover items around the world
 - Make proficiency check to learn the spell inside
 - Items are consumed (create scarcity and value)
@@ -32,13 +38,13 @@ Scholars learn spells by studying magical items (wands, scrolls)
 - Different from auto-learning—feels like achievement
 ```
 
-This changes from "generic eight spells" to **"eight spells + how Scholar uniquely learns them"**
+This changes from "generic eight spells" to **"eight spells + discovery-driven learning"**
 
-**Supporting 8-Spell Roster** (Colista-aligned, available to both Scholar and Warrior):
+**Supporting 8-Spell Roster** (Colista-aligned, anyone can learn):
 ```
 1001: Arcane Bolt      (core offensive, foundation magic)
-1002: Leviathan's Fire (Immak fire, Scholars hunt in libraries)
-1003: Mend             (life magic, both classes can learn)
+1002: Leviathan's Fire (Immak fire, deep sea magic)
+1003: Mend             (life magic, healing)
 1004: Shadow Veil      (darkness + illusion, debuffs and control)
 1005: Ephemeral Step   (fairy magic, escape and stealth)
 1006: Path Shift       (the Courier's secret, teleportation)
@@ -47,18 +53,20 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 ```
 
 **Core Systems**:
-- ✅ Spell definitions (JSON, minimal)
-- ✅ Spell loading
-- ✅ Proficiency tracking (30-100%, learned through Study or auto-learn)
+- ✅ Spell definitions (8 spells, JSON format)
+- ✅ Spell loading (skills.Load())
+- ✅ Proficiency tracking (30-100%, increases with casting)
 - ✅ Mana cost & cooldown validation
-- ✅ Basic damage formula (no complex scaling yet)
-- ✅ spellbook command (view learned spells)
-- ✅ cast command (execute spell)
-- ✅ **NEW: Study command** (Scholar-specific, central feature)
-- ✅ Study skill proficiency tracking
-- ✅ Spell learning from studied items
-- ✅ Simple persistence (player file)
-- ✅ 8 magical items with embedded spell IDs
+- ✅ Basic damage formula (dice + attributes)
+- ✅ spellbook command (view learned spells with proficiency)
+- ✅ cast command (execute spell, improve proficiency)
+- ✅ Study command (MVP version with keyword mapping)
+- ✅ Player save/load (persist skills, proficiency, learned status)
+- ✅ Classless design (starter kits replace classes)
+- ✅ Character creation (race + starter kit + age + sex)
+- ⏳ 8 magical items with embedded spell IDs (need to create & place)
+- ⏳ Combat maneuver system (Slash defined in kits, needs implementation)
+- ⏳ Trainer NPCs (for teaching maneuvers)
 
 ### Progression System: Equipment + Skills (No Levels)
 
@@ -81,7 +89,7 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 - Example: Longsword at 10% skill vs 90% skill makes huge difference
 - **Scaling formula**: `base_damage * (1.0 + proficiency * 0.5)` (scales to 150% at 100%)
 
-**Warrior Example Loop**:
+**Combat-Focused Player Example**:
 1. Start: basic sword, Slash proficiency 5%
 2. Fight goblins → loot dagger, short sword, leather armor
 3. Equip better gear, improve Slash proficiency to 15%
@@ -91,8 +99,8 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 7. Hunt harder areas → find greatsword
 8. Repeat cycle indefinitely—always stronger monsters, better gear, improved skills
 
-**Scholar Example Loop**:
-1. Start: Arcane Bolt (learned via training), Study skill 5%
+**Magic-Focused Player Example**:
+1. Start: Arcane Bolt (from starter kit or early Study), Study skill 5%
 2. Find Wand of Leviathan's Fire → Study DC 50
 3. Succeed → Learn Leviathan's Fire at 30% proficiency
 4. Cast spells in combat → improve Arcane Bolt to 40%, Leviathan's to 50%
@@ -101,12 +109,20 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 7. Powerful spells with high proficiency = can tackle harder content
 8. Exploration cycle: hunt → study → grow → hunt harder areas
 
+**Hybrid Player Example**:
+1. Start with sword + basic spell
+2. Learn maneuvers from trainers, study magical items when found
+3. Equip STR/DEX gear for combat, keep INT-focused backup for spells
+4. Switch tactics based on enemy types (physical vs. magic-vulnerable)
+5. Natural specialization emerges from gear choices and time investment
+
 **Why This Works**:
 - No artificial plateaus (no "soft caps")
 - Equipment drops are tangible rewards
 - Skill feels earned through use
 - Both matter: bad gear limits early progress, low skill makes late-game difficult
-- Encourages both combat (Warrior) and exploration (Scholar)
+- Encourages player choice: focus combat, focus magic, or mix both
+- Natural specialization through gear and time investment (INT gear vs STR gear)
 - Scales naturally from newbie to veteran
 
 **Systems to Skip (for now)**:
@@ -116,7 +132,7 @@ This changes from "generic eight spells" to **"eight spells + how Scholar unique
 - ❌ Effect stacking
 - ❌ Cooldown categories
 - ❌ Area selection complexity
-- ❌ NPC teaching (except Scholar's unique study mechanic)
+- ❌ NPC teaching complexity (Study and trainers are simple MVP versions)
 - ❌ Item crafting (can add later)
 
 ### MVP Data Structures
@@ -210,10 +226,10 @@ func CastSpell(p *Player, args []string) {
     SetCooldown(p, spell.ID, spell.CooldownSecs)
 }
 
-// internal/commands/study.go - NEW for Scholar
-func StudyItem(scholar *Player, itemName string) {
+// internal/commands/study.go - Available to all players
+func StudyItem(player *Player, itemName string) {
     // Find item in room
-    item := GetItemInRoom(scholar, itemName)
+    item := GetItemInRoom(player, itemName)
     if item == nil { error }
     
     // Validate it contains a spell
@@ -221,28 +237,28 @@ func StudyItem(scholar *Player, itemName string) {
     if spellID == 0 { error }
     
     // Make Study skill check
-    studyProficiency := scholar.Skills[STUDY_SKILL_ID]
+    studyProficiency := player.Skills[STUDY_SKILL_ID]
     dc := 55 - int(float64(studyProficiency) * 0.8)
     roll := Rand(1, 100)
     
     if roll < dc {
         // Failed
-        Send(scholar, "You cannot glean any knowledge from it.")
-        scholar.Skills[STUDY_SKILL_ID] += 1  // +1% on failure
+        Send(player, "You cannot glean any knowledge from it.")
+        player.Skills[STUDY_SKILL_ID] += 1  // +1% on failure
         item.Remove()
         return
     }
     
     // Success
-    if scholar.KnowsSpell(spellID) {
-        Send(scholar, "You already know that spell!")
+    if player.KnowsSpell(spellID) {
+        Send(player, "You already know that spell!")
         return
     }
     
-    scholar.LearnSpell(spellID, 30)  // 30% proficiency
-    scholar.Skills[STUDY_SKILL_ID] += 2  // +2% on success
+    player.LearnSpell(spellID, 30)  // 30% proficiency
+    player.Skills[STUDY_SKILL_ID] += 2  // +2% on success
     item.Remove()
-    Send(scholar, 
+    Send(player, 
         fmt.Sprintf("You have learned the art of %s!", GetSpellName(spellID)))
 }
 ```
@@ -256,7 +272,7 @@ func StudyItem(scholar *Player, itemName string) {
 ✓ Cooldown prevents quick re-cast
 ✓ Damage dealt to target
 
-// Scholar Study tests (NEW)
+// Study tests (available to all players)
 ✓ Can study magical item in room
 ✓ Item must contain spell (value[3])
 ✓ Study success check works (DC vs proficiency)
@@ -264,40 +280,114 @@ func StudyItem(scholar *Player, itemName string) {
 ✓ On failure: No spell learned, item consumed
 ✓ Can't learn same spell twice
 ✓ Study proficiency increases with use
+
+// Starter kit tests
+✓ Character creation shows three starter kits
+✓ Scholar's Kit starts with Arcane Bolt (30%) + Study (10%)
+✓ Warrior's Kit starts with Slash maneuver (10%)
+✓ Wanderer's Kit starts with Arcane Bolt (20%) + Study (5%) + Slash (5%)
+✓ Final stats display shows race and sex (no class/kit after creation)
+
+// Combat maneuver tests (TODO)
+☐ Can use 'slash <target>' command to attack
+☐ Slash proficiency improves with use
+☐ Damage scales with proficiency (like spells)
+☐ Simple mob combat works (goblins fight back)
 ```
 
 ### Deliverable: MVP
 
-**Two Classes**:
-- **Scholar** - spell learning via Study mechanic (discovery-based)
-- **Warrior** - melee combat foundation
+**Current Status: ~70% Complete**
 
-**What Ships**:
-- 8 core spells usable by both classes
-- 8 magical items with embedded spell IDs
-- **Scholar's Study ability** (Scholar-exclusive) - discover items, make checks, learn spells
-- Study skill proficiency tracks and improves with use
-- **Warrior Combat Maneuvers** - learn from trainers (academy, combat masters), improve via combat use
-- **Equipment + Skills progression system** - no levels, growth via gear drops and skill proficiency
-- Combat-ready spell system for testing
-- Skill-based advancement (no traditional levels)
-- Test client passes
+**What Ships (MVP):**
+- ✅ 8 core spells (Colista-themed, anyone can learn)
+- ✅ Starter kit selection (Scholar/Warrior/Wanderer)
+- ✅ Study command (learn spells from items - MVP keyword version)
+- ✅ Cast command with proficiency improvement
+- ✅ Spellbook command (view learned spells)
+- ✅ Classless design (no more class restrictions)
+- ✅ Player persistence (skills, proficiency, learned spells)
+- ⏳ Combat maneuver system (Slash + basic combat)
+- ⏳ 8 magical items placed in world
+- ⏳ Simple combat testing (fight goblins, improve Slash proficiency)
 
-**Why These Two**: 
-- **Scholar**: Unique, lore-grounded exploration-based progression. Must hunt items to grow, drives world engagement.
-- **Warrior**: Combat-focused maneuver progression. Low barrier to entry (grab weapon, learn basics, fight). Can explore for advanced trainers optionally.
+### Combat Maneuver MVP Specification
 
-**Class Philosophy**:
+**Goal**: Warrior players can use Slash maneuver to fight, improving proficiency through use (parallel to Scholar's spell casting).
+
+**Minimum Implementation**:
+1. **Slash Maneuver** (skill ID 9002):
+   - Command: `slash <target>` or `maneuver slash <target>`
+   - Base damage: 1d6 + STR/2 + proficiency_bonus
+   - Proficiency scaling: same as spells (base_damage * (1.0 + proficiency * 0.5))
+   - Improves 1% per use
+   - No mana cost, no cooldown (basic attack)
+
+2. **Simple Combat Resolution**:
+   - Target selection (mob in room)
+   - Damage calculation
+   - Mob HP tracking
+   - Mob death / loot (optional for MVP)
+   - Combat messages (you slash, mob takes damage)
+
+3. **Test Scenario**:
+   - Create goblin mob (HP: 20)
+   - Warrior uses `slash goblin`
+   - Goblin takes damage
+   - Slash proficiency increases from 10% → 11%
+   - Repeat until goblin dies
+
+**Deferred Features**:
+- Mob counter-attacks (AI)
+- Multiple maneuvers (Power Attack, Defensive Stance, etc.)
+- Cooldowns on maneuvers
+- Equipment bonuses to damage
+- Combat rounds/initiative
+- Area attacks
+- Advanced targeting
+
+**Implementation Checklist**:
+```
+[ ] Define Slash as a "maneuver" type skill in skills.json or separate system
+[ ] Create cmdSlash or cmdManeuver command in player_commands.go
+[ ] Add damage calculation (1d6 + STR/2, scale with proficiency)
+[ ] Update proficiency on each use (+1%)
+[ ] Create simple mob HP system (extend game.Mobile)
+[ ] Add combat resolution (deal damage, check if mob dies)
+[ ] Add combat messages (you slash, mob takes X damage)
+[ ] Test: Warrior can kill goblin using slash command
+[ ] Test: Slash proficiency improves from 10% → 11% → 12% with use
+```
+
+**Deferred to Post-MVP:**
+- Equipment system (gear drops, wear slots, stat focus)
+- Trainer NPCs (can add advanced maneuvers later)
+- Study proficiency checks (DC system, success/failure)
+- Item consumption on Study
+- Complex combat (targeting, mob AI, tactics)
+
+**Why Classless Works** (✅ Validated through implementation): 
+- **Player agency**: Discover your own path, not locked into pre-made archetypes
+- **Natural specialization**: Starter kits provide direction without permanent restrictions
+- **Exploration incentive**: Both combat and magic paths reward exploration (trainers, spell items)
+- **Lower cognitive load**: No "what if I picked the wrong class?" anxiety
+- **Flexible progression**: Can pivot playstyle as gear allows
+- **Dev's brilliant insight**: Classes were artificial constraints on player creativity 💯
+
+**Progression Philosophy**:
 - **No levels** - skill-based advancement only
-- Each class has a unique progression flavor:
-  - Scholar: Exploration-driven (Study items → learn spells → improve Study skill)
-  - Warrior: Combat-driven (learn maneuvers → use in combat → improve maneuver skills)
-- Different incentive structures: Scholar must explore to stay viable. Warrior can fight immediately.
+- Two primary progression paths (not mutually exclusive):
+  - Magic: Study items → learn spells → improve spell proficiency via casting
+  - Combat: Seek trainers → learn maneuvers → improve proficiency via fighting
+- Different incentive structures create natural specialization:
+  - Magic-focused: Must explore to find spell items, rewards curiosity
+  - Combat-focused: Can fight immediately, optionally explore for advanced trainers
+  - Hybrid: Balanced approach, gear flexibility required (INT and STR stats)
 
-**Deferred Classes**:
-- **Bard** (stretch goal for late MVP if time allows—has unique flavor tied to performance/inspiration)
-- Spirit-communing classes (Ranger, Druid variants) tied to Colistani animism—design these separately post-MVP
-- Legacy placeholders (Chevalier, Lancer, Paladin, Monk, Rogue, Illusionist, Elementalist, Enchanter) are removed—these were pre-design templates, not lore-grounded
+**Deferred Content**:
+- Additional starter kits (merchant, performer, etc.)
+- Spirit-communing mechanics tied to Colistani animism (Fox/Owl/Deer/Snake spirits)
+- Performance-based inspiration system (bard-style buffing)
 
 **Time estimate**: 3-4 days for one developer (includes 8 item definitions)
 
@@ -366,9 +456,9 @@ Once MVP is working, extend based on actual need, not pre-planning.
 
 **Trigger**: When experienced players want depth
 
-### Growth Point 6: Class Progression Philosophy
+### Growth Point 6: Progression Paths (Architecture)
 
-**Warrior Advancement**:
+**Combat Path**:
 - **Combat Maneuvers** - Tactics learned from trainers (Vojvoda Zsa's academy, combat masters in towns)
 - Learn basic techniques (Power Attack, Defensive Stance, Guard)
 - **Lower barrier to entry**: grab a weapon, learn basic moves, fight monsters
@@ -376,36 +466,39 @@ Once MVP is working, extend based on actual need, not pre-planning.
 - Can optionally explore to find distant trainers for advanced techniques
 - Simple, self-directed loop: fight → improve → fight better
 
-**Scholar Advancement**:
-- **Spell Discovery** - only way to learn new spells is Study
+**Magic Path**:
+- **Spell Discovery** - learn new spells via Study
 - Must actively hunt for magical items
 - Can't just cast Arcane Bolt forever and plateau—exploration is built-in progression
-- Proficiency improves through successful studying
+- Proficiency improves through casting and successful studying
 - Engaging, exploration-driven loop: hunt → study → expand repertoire
 - Higher cognitive load but more rewarding for curious players
 
 **Design Principle**: Both skill-based. Different incentive structures:
-- Warrior: fight monsters first, optionally explore for trainers
-- Scholar: must explore to stay viable
+- Combat-focused: fight monsters first, optionally explore for trainers
+- Magic-focused: must explore to stay viable
+- Hybrid: balance time between both paths, gear flexibility required
 
-### Growth Point 7: Class Expansion (After MVP)
-- Performance-based inspiration (buff allies)
-- Unique lore tie: wandering performers in Colistani culture
-- Spell learning: study performance items instead of scrolls
+### Growth Point 7: Content Expansion (After MVP)
 
-**Spirit-Touched Classes** (Post-MVP, designed from animism):
+**Additional Starter Kits**:
+- Performer's Kit: Simple instrument, basic inspiration ability (buff allies)
+- Merchant's Kit: Trading goods, appraisal skill, negotiation focus
+- Hunter's Kit: Bow, tracking skill, wilderness survival
+
+**Spirit-Touched Mechanics** (Post-MVP, designed from animism):
 Tie to Colistani animal spirits (Fox/Owl/Deer/Snake):
-- Fox-touched: hunting/tracking bonuses
-- Owl-touched: wisdom/utility (Scholar already owns learning)
-- Deer-touched: blessing/warding
-- Snake-touched: underworld/shadow magic
+- Fox-touched: hunting/tracking bonuses, spirit favor system
+- Owl-touched: wisdom/utility, vision in darkness
+- Deer-touched: blessing/warding, protective magic
+- Snake-touched: underworld/shadow magic, stealth bonuses
 
-**Design Philosophy**: Each new class needs:
+**Design Philosophy**: Each new system needs:
 1. Lore grounding (tied to world, not generic archetype)
 2. Unique mechanic (not just "different spell list")
 3. Actual design document (not template placeholders)
 
-**What We're NOT Doing**: Legacy classes like Chevalier/Lancer/Paladin/Monk/Rogue/Illusionist were pre-design templates. Don't ship them. Only add classes that fit NJATA's world.
+**What We're NOT Doing**: Avoid generic fantasy archetypes. Only add systems that fit NJATA's world (Wislyu, Colista, animal spirits).
 
 ---
 
@@ -488,15 +581,31 @@ Growth 3 (Complexity):
 ## Part 4: Recommended Week-by-Week
 
 ### Week 1: MVP Foundation
-- [ ] Spell definitions (8 spells, minimal JSON)
-- [ ] Spell loader
-- [ ] Cast command (very simple)
-- [ ] **NEW: Study command (Scholar-specific)**
-- [ ] **NEW: 8 magical item definitions (wands/scrolls with spell IDs)**
-- [ ] Damage calculation (basic dice + attribute)
-- [ ] Proficiency tracking & Study skill tracking
-- [ ] Test: All 8 spells castable
-- [ ] Test: Scholar can find, study, and learn from items
+
+**Completed:**
+- ✅ Spell definitions (8 spells: Arcane Bolt, Leviathan's Fire, Mend, Shadow Veil, Ephemeral Step, Path Shift, Winter's Whisper, Knowing)
+- ✅ Spell loader (skills/skills.json)
+- ✅ Cast command (with proficiency improvement)
+- ✅ Spellbook command (displays learned spells)
+- ✅ Study command (MVP keyword-based version)
+- ✅ Damage calculation (dice + attribute modifiers)
+- ✅ Proficiency tracking (0-100%, increases on use)
+- ✅ Player persistence (JSON save/load with skills)
+- ✅ Classless character creation (removed class system)
+- ✅ Starter kit selection (Scholar/Warrior/Wanderer)
+- ✅ Test: All 8 spells castable and tracked
+
+**In Progress:**
+- ⏳ Combat maneuver system:
+  - Define Slash maneuver (basic attack)
+  - Create maneuver command (like cast, but for combat)
+  - Proficiency improvement through use
+  - Simple AI/combat for testing
+- ⏳ 8 magical items with spell IDs:
+  - Define items in JSON with value[3] = spell_id
+  - Place in world areas for discovery
+  - Update Study command to check for actual items in room
+- ⏳ Optional: Trainer NPCs for teaching advanced maneuvers
 
 ### Week 2: Polish & Test
 - [ ] Run 20+ hours of gameplay

@@ -47,16 +47,16 @@ if "SELECT YOUR RACE" in response:
     sock.send(b"1\r\n")
     time.sleep(0.5)
     
-    # Class selection
+    # Starter kit selection
     response = sock.recv(4096).decode('utf-8', errors='ignore')
-    print(f"Class response:\n{response[:200]}")
+    print(f"Kit response:\n{response[:200]}")
     
-    if "SELECT YOUR CLASS" in response or "class" in response.lower():
-        print("\n=== Selecting Class 1 (Warrior) ===")
+    if "SELECT YOUR STARTING PATH" in response or "starter" in response.lower() or "kit" in response.lower():
+        print("\n=== Selecting Starter Kit 1 (Scholar's Kit) ===")
         sock.send(b"1\r\n")
         time.sleep(0.5)
         
-        # Stats/confirm
+        # Confirm kit
         response = sock.recv(4096).decode('utf-8', errors='ignore')
         print(f"Confirm response:\n{response[:200]}")
         
