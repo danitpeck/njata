@@ -1,0 +1,87 @@
+{
+  "name": "Thematic Item Distribution",
+  "description": "8 magical items distributed across world areas for discovery-based learning",
+  "author": "Game System",
+  "distribution": [
+    {
+      "item_vnum": 5001,
+      "item_name": "Wand of Arcane Bolt",
+      "spell_name": "Arcane Bolt",
+      "spell_id": 1001,
+      "area": "aina",
+      "room_vnum": 1355,
+      "room_description": "Wizard's Study",
+      "reason": "Foundation magic in the city's scholarly district"
+    },
+    {
+      "item_vnum": 5002,
+      "item_name": "Wand of Leviathan's Fire",
+      "spell_name": "Leviathan's Fire",
+      "spell_id": 1002,
+      "area": "immak",
+      "room_vnum": 1420,
+      "room_description": "Docks at Immak",
+      "reason": "Fire from the deep sea, found in the port town"
+    },
+    {
+      "item_vnum": 5003,
+      "item_name": "Scroll of Mend",
+      "spell_name": "Mend",
+      "spell_id": 1003,
+      "area": "sedna",
+      "room_vnum": 3010,
+      "room_description": "Temple of Healing",
+      "reason": "Healing magic in sanctuary spaces"
+    },
+    {
+      "item_vnum": 5004,
+      "item_name": "Wand of Shadow Veil",
+      "spell_name": "Shadow Veil",
+      "spell_id": 1004,
+      "area": "forgotten",
+      "room_vnum": 2150,
+      "room_description": "Dark Grove",
+      "reason": "Shadow magic in the forgotten realm"
+    },
+    {
+      "item_vnum": 5005,
+      "item_name": "Feather of Ephemeral Step",
+      "spell_name": "Ephemeral Step",
+      "spell_id": 1005,
+      "area": "immakwoods",
+      "room_vnum": 1500,
+      "room_description": "Fairy Glade",
+      "reason": "Fairy magic found in enchanted forest"
+    },
+    {
+      "item_vnum": 5006,
+      "item_name": "Amulet of Path Shift",
+      "spell_name": "Path Shift",
+      "spell_id": 1006,
+      "area": "aina",
+      "room_vnum": 1320,
+      "room_description": "Courier's Office",
+      "reason": "Secret teleportation magic of the Courier's Guild"
+    },
+    {
+      "item_vnum": 5007,
+      "item_name": "Crystal of Winter's Whisper",
+      "spell_name": "Winter's Whisper",
+      "spell_id": 1007,
+      "area": "desert",
+      "room_vnum": 2501,
+      "room_description": "Mountain Peak",
+      "reason": "Ice magic found in frozen heights"
+    },
+    {
+      "item_vnum": 5008,
+      "item_name": "Tome of Knowing",
+      "spell_name": "Knowing",
+      "spell_id": 1008,
+      "area": "aina",
+      "room_vnum": 1300,
+      "room_description": "Scholar's Archive",
+      "reason": "Knowledge and wisdom in the city's great library"
+    }
+  ]
+}
