@@ -1,10 +1,36 @@
 # NJATA Skills System: Minimal Viable Design
 
-**MVP Progress: ~85% Complete** | Last Updated: Feb 17, 2026
+**MVP Progress: 92% Complete** | Last Updated: Feb 17, 2026 | **GAMEPLAY LOOP VALIDATED** ✅
 
-**✅ DONE**: Spell system (8 spells), combat maneuvers (Slash), classless design, starter kits, character creation, Study command, save/load, basic combat (damage/death), mob counterattack  
-**⏳ IN PROGRESS**: Magical item placement (8 items), extended mob AI  
-**📋 NEXT**: Place 8 magical items in world, run full gameplay loop, test balance
+## Core MVP Complete ✅
+- **✅ Spell System**: 8 spells with mana cost, cooldown tracking  
+- **✅ Combat Maneuvers**: Slash with proficiency & cooldown  
+- **✅ Discovery-Based Learning**: Find items → Study → Learn spells  
+- **✅ Classless Design**: No levels, pure proficiency/equipment progression  
+- **✅ Character System**: Race + starter kit + attributes  
+- **✅ Combat Resolution**: Damage calc (roll + attr + prof), mob HP tracking  
+- **✅ Mob Counterattack**: AI retaliation with scaled damage  
+- **✅ Keeper Tools**: Restore (instant HP/Mana/Move reset), spawn mobs, teleport  
+- **✅ Full Gameplay Loop**: Explore → Find items → Study → Learn → Cast → Combat ✓
+
+## Validation Complete
+Full end-to-end test suite passes:
+- Connection/login, stats display, ability tracking
+- Restore command resets player state (idempotent)
+- 8 magical items in Library (room 9001)
+- Study command finds items, extracts spells, teaches at 30% proficiency
+- Items consumed after study (scarcity mechanic)
+- Mobs spawn, take damage, counterattack
+- Damage scales to proficiency + attributes
+- Cooldowns properly enforced
+- Test can run repeatedly without manual reset
+
+## Next Steps (Post-MVP)
+- **Optional**: Spread items across 8 different world areas (thematic placement)
+- **Optional**: Extended mob AI (wandering between rooms, ability use, grouping)
+- **Optional**: Trainer NPCs for guided skill advancement
+- **Polish**: Balance pass on damage/proficiency progression
+- **Polish**: Extended spell list and maneuver variety
 
 ---
 
