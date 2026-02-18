@@ -12,6 +12,13 @@
 - **✅ Mob Counterattack**: AI retaliation with scaled damage  
 - **✅ Keeper Tools**: Restore (instant HP/Mana/Move reset), spawn mobs, teleport  
 - **✅ Full Gameplay Loop**: Explore → Find items → Study → Learn → Cast → Combat ✓
+- **✅ Help System**: Spell/maneuver descriptions with `help <name>` command ✓
+
+## Features Complete
+- `abilities` - Lists all learned spells with proficiency
+- `help <spell_name>` - Shows detailed spell card with description, mana cost, cooldown, targeting, damage formula, proficiency %
+- Partial name matching - `help fire` finds Leviathan's Fire, `help shadow` finds Shadow Veil
+- Streamlined learning curve - quick overview + detailed info on demand
 
 ## Validation Complete
 Full end-to-end test suite passes:
@@ -24,6 +31,7 @@ Full end-to-end test suite passes:
 - Damage scales to proficiency + attributes
 - Cooldowns properly enforced
 - Test can run repeatedly without manual reset
+- Help command with descriptions and proficiency display
 
 ## Next Steps (Post-MVP)
 - **Optional**: Spread items across 8 different world areas (thematic placement)
