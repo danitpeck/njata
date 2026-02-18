@@ -1,0 +1,89 @@
+{
+  "name": "dani",
+  "location": 8104,
+  "race": 16,
+  "sex": 2,
+  "hair": "",
+  "eyes": "",
+  "hp": 125,
+  "max_hp": 125,
+  "mana": 85,
+  "max_mana": 100,
+  "gold": 0,
+  "strength": 10,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 12,
+  "luck": 10,
+  "armor": 5,
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 11,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771393436148549200
+    },
+    "2001": {
+      "spell_id": 2001,
+      "proficiency": 5,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    }
+  },
+  "is_keeper": false,
+  "inventory": [],
+  "equipment": {
+    "body": {
+      "Vnum": 30003,
+      "Keywords": [
+        "armor",
+        "leather",
+        "leather armor"
+      ],
+      "Type": "armor",
+      "Short": "leather armor",
+      "Long": "A set of sturdy leather armor suitable for combat.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": null,
+      "EquipSlot": "body",
+      "ArmorVal": 5,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    "wield": {
+      "Vnum": 30004,
+      "Keywords": [
+        "sword",
+        "weapon",
+        "blade"
+      ],
+      "Type": "weapon",
+      "Short": "a basic sword",
+      "Long": "A simple sword, well-suited for a novice warrior.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": null,
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    }
+  }
+}

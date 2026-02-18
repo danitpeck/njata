@@ -92,6 +92,13 @@ type Mobile struct {
 	Mana       int
 	MaxMana    int
 	Attributes [7]int // STR, INT, WIS, DEX, CON, LCK, CHA
+
+	// Trainer metadata (if this mobile is a trainer)
+	IsTrainer         bool   // true if this mob teaches maneuvers
+	TeachesSpellID    int    // maneuver ID (e.g., 2002 for Power Attack)
+	RequiredStatName  string // "Strength", "Dexterity", "Constitution", etc.
+	RequiredStatValue int    // minimum value player needs in that stat
+	TrainerMessage    string // custom dialog from trainer
 }
 
 type Object struct {

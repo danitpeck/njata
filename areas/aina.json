@@ -2616,6 +2616,11 @@
         13,
         13
       ],
+      "is_trainer": true,
+      "teaches_spell_id": 2003,
+      "required_stat_name": "Constitution",
+      "required_stat_value": 18,
+      "trainer_message": "Wellon says: Steel yourself. Endurance is the first lesson of defense.",
       "room_vnum": 0
     },
     "4701": {

@@ -794,6 +794,11 @@
         13,
         13
       ],
+      "is_trainer": true,
+      "teaches_spell_id": 2002,
+      "required_stat_name": "Strength",
+      "required_stat_value": 18,
+      "trainer_message": "Nissa says: Only the truly strong can master Power Attack!",
       "room_vnum": 0
     },
     "1402": {
@@ -851,6 +856,11 @@
         13,
         13
       ],
+      "is_trainer": true,
+      "teaches_spell_id": 2004,
+      "required_stat_name": "Dexterity",
+      "required_stat_value": 18,
+      "trainer_message": "Harald says: Timing is everything. Show me your quickness, and I will teach you Riposte.",
       "room_vnum": 0
     },
     "1404": {

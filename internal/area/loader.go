@@ -118,6 +118,12 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Mana       int      `json:"mana"`
 			MaxMana    int      `json:"max_mana"`
 			Attributes [7]int   `json:"attributes"`
+			// Trainer fields
+			IsTrainer         bool   `json:"is_trainer"`
+			TeachesSpellID    int    `json:"teaches_spell_id"`
+			RequiredStatName  string `json:"required_stat_name"`
+			RequiredStatValue int    `json:"required_stat_value"`
+			TrainerMessage    string `json:"trainer_message"`
 		} `json:"mobiles"`
 		Objects map[string]struct {
 			Vnum      int             `json:"vnum"`
@@ -195,6 +201,12 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Mana:       mobJSON.Mana,
 			MaxMana:    mobJSON.MaxMana,
 			Attributes: mobJSON.Attributes,
+			// Trainer fields
+			IsTrainer:         mobJSON.IsTrainer,
+			TeachesSpellID:    mobJSON.TeachesSpellID,
+			RequiredStatName:  mobJSON.RequiredStatName,
+			RequiredStatValue: mobJSON.RequiredStatValue,
+			TrainerMessage:    mobJSON.TrainerMessage,
 		}
 		if mob.Vnum > 0 {
 			mobiles[mob.Vnum] = mob

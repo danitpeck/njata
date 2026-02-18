@@ -1,6 +1,6 @@
 {
   "name": "zoie",
-  "location": 8111,
+  "location": 1403,
   "race": 25,
   "sex": 2,
   "hair": "shoulder-length pig-tailed \"hair\"",
@@ -74,6 +74,13 @@
       "learned": true,
       "lifetime_casts": 0,
       "last_cast_time": 0
+    },
+    "2002": {
+      "spell_id": 2002,
+      "proficiency": 12,
+      "learned": true,
+      "lifetime_casts": 2,
+      "last_cast_time": 1771396449772359000
     }
   },
   "is_keeper": true,
@@ -98,7 +105,10 @@
       ],
       "Flags": {},
       "EquipSlot": "back",
-      "ArmorVal": 2
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "body": {
       "Vnum": 8105,
@@ -119,7 +129,10 @@
       ],
       "Flags": {},
       "EquipSlot": "body",
-      "ArmorVal": 2
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "head": {
       "Vnum": 8107,
@@ -140,7 +153,10 @@
       ],
       "Flags": {},
       "EquipSlot": "head",
-      "ArmorVal": 2
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "neck": {
       "Vnum": 8110,
@@ -160,7 +176,10 @@
       ],
       "Flags": {},
       "EquipSlot": "neck",
-      "ArmorVal": 1
+      "ArmorVal": 1,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "waist": {
       "Vnum": 8114,
@@ -180,7 +199,10 @@
       ],
       "Flags": {},
       "EquipSlot": "waist",
-      "ArmorVal": 1
+      "ArmorVal": 1,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     }
   }
 }

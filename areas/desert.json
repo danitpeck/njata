@@ -4740,6 +4740,11 @@
         13,
         13
       ],
+      "is_trainer": true,
+      "teaches_spell_id": 2005,
+      "required_stat_name": "Strength",
+      "required_stat_value": 20,
+      "trainer_message": "The guardsman says: Only the strongest can cleave through the crowd.",
       "room_vnum": 0
     },
     "31001": {
