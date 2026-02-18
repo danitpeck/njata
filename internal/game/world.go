@@ -684,10 +684,10 @@ func (w *World) mobCounterAttack(target *Player, mob *Mobile) {
 		target.Output.WriteLine("&RYou are defeated and left barely standing!&w")
 	}
 
-	roomMsg := fmt.Sprintf("&R%s strikes %s!&w", mobName, target.Name)
+	roomMsg := fmt.Sprintf("&R%s strikes %s!&w", mobName, CapitalizeName(target.Name))
 	w.BroadcastCombatMessage(target, roomMsg)
 	if died {
-		w.BroadcastCombatMessage(target, fmt.Sprintf("&R%s is defeated by %s!&w", target.Name, mobName))
+		w.BroadcastCombatMessage(target, fmt.Sprintf("&R%s is defeated by %s!&w", CapitalizeName(target.Name), mobName))
 	}
 }
 

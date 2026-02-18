@@ -32,6 +32,7 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("teleport", cmdTeleport)
 	registry.Register("restore", cmdRestore)
 	registry.Register("help", cmdHelp)
+	registry.Register("quit", cmdQuit)
 	registerMovement(registry)
 }
 
@@ -454,7 +455,7 @@ func cmdSlash(ctx Context, args string) {
 		mob.Short, totalDamage, skillProgress.Proficiency)
 	ctx.Output.WriteLine(playerMsg)
 
-	roomMsg := fmt.Sprintf("%s slashes at %s!", p.Name, mob.Short)
+	roomMsg := fmt.Sprintf("%s slashes at %s!", game.CapitalizeName(p.Name), mob.Short)
 	ctx.World.BroadcastCombatMessage(p, roomMsg)
 
 	if died {
