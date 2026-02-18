@@ -1,30 +1,23 @@
 {
   "name": "zoie",
-  "location": 90000,
-  "class": 0,
+  "location": 8111,
   "race": 25,
   "sex": 2,
+  "hair": "shoulder-length pig-tailed \"hair\"",
+  "eyes": "large dark green eyes",
   "hp": 1000,
   "max_hp": 1000,
   "mana": 961,
   "max_mana": 976,
-  "move": 1000,
-  "max_move": 1000,
   "gold": 51130,
-  "experience": 196608000,
-  "attributes": [
-    20,
-    13,
-    12,
-    16,
-    13,
-    18,
-    15
-  ],
-  "alignment": 1000,
-  "hitroll": 0,
-  "damroll": 0,
-  "armor": 130,
+  "strength": 20,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 13,
+  "wisdom": 12,
+  "charisma": 15,
+  "luck": 18,
+  "armor": 138,
   "skills": {
     "1001": {
       "spell_id": 1001,
@@ -83,5 +76,111 @@
       "last_cast_time": 0
     }
   },
-  "is_keeper": true
+  "is_keeper": true,
+  "inventory": [],
+  "equipment": {
+    "back": {
+      "Vnum": 8111,
+      "Keywords": [
+        "white",
+        "linen",
+        "cloak"
+      ],
+      "Type": "armor",
+      "Short": "a white linen cloak",
+      "Long": "A white linen cloak lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "back",
+      "ArmorVal": 2
+    },
+    "body": {
+      "Vnum": 8105,
+      "Keywords": [
+        "faded",
+        "leather",
+        "cuirass"
+      ],
+      "Type": "armor",
+      "Short": "a faded leather cuirass",
+      "Long": "A cuirass made of faded leather lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "body",
+      "ArmorVal": 2
+    },
+    "head": {
+      "Vnum": 8107,
+      "Keywords": [
+        "brown",
+        "muffin",
+        "hat"
+      ],
+      "Type": "armor",
+      "Short": "a brown muffin hat",
+      "Long": "A brown muffin hat lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "head",
+      "ArmorVal": 2
+    },
+    "neck": {
+      "Vnum": 8110,
+      "Keywords": [
+        "beaded",
+        "necklace"
+      ],
+      "Type": "armor",
+      "Short": "a beaded necklace",
+      "Long": "A beaded necklace lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "neck",
+      "ArmorVal": 1
+    },
+    "waist": {
+      "Vnum": 8114,
+      "Keywords": [
+        "leather",
+        "belt"
+      ],
+      "Type": "armor",
+      "Short": "a leather belt",
+      "Long": "A leather belt lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "waist",
+      "ArmorVal": 1
+    }
+  }
 }

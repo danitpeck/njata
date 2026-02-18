@@ -232,27 +232,30 @@ func (cc *CharacterCreation) applyRaceModifiers() {
 	}
 
 	// Initialize base attributes to 10 if not set
-	if cc.player.Attributes[0] == 0 {
-		for i := range cc.player.Attributes {
-			cc.player.Attributes[i] = 10
-		}
+	if cc.player.Strength == 0 {
+		cc.player.Strength = 10
+		cc.player.Dexterity = 10
+		cc.player.Constitution = 10
+		cc.player.Intelligence = 10
+		cc.player.Wisdom = 10
+		cc.player.Charisma = 10
+		cc.player.Luck = 10
 	}
 
-	// Apply race modifiers (STR, INT, WIS, DEX, CON, LCK, CHM)
-	cc.player.Attributes[0] += cc.selectedRace.StrPlus // STR
-	cc.player.Attributes[1] += cc.selectedRace.IntPlus // INT
-	cc.player.Attributes[2] += cc.selectedRace.WisPlus // WIS
-	cc.player.Attributes[3] += cc.selectedRace.DexPlus // DEX
-	cc.player.Attributes[4] += cc.selectedRace.ConPlus // CON
-	cc.player.Attributes[5] += cc.selectedRace.LckPlus // LCK
-	cc.player.Attributes[6] += cc.selectedRace.ChaPlus // CHA
+	// Apply race modifiers (STR, DEX, CON, INT, WIS, CHA, LCK)
+	cc.player.Strength += cc.selectedRace.StrPlus     // STR
+	cc.player.Dexterity += cc.selectedRace.DexPlus    // DEX
+	cc.player.Constitution += cc.selectedRace.ConPlus // CON
+	cc.player.Intelligence += cc.selectedRace.IntPlus // INT
+	cc.player.Wisdom += cc.selectedRace.WisPlus       // WIS
+	cc.player.Charisma += cc.selectedRace.ChaPlus     // CHA
+	cc.player.Luck += cc.selectedRace.LckPlus         // LCK
 
 	// Apply racial stat bonuses
-	cc.player.HP += cc.selectedRace.Hit
-	cc.player.MaxHP += cc.selectedRace.Hit
-	cc.player.Mana += cc.selectedRace.Mana
-	cc.player.MaxMana += cc.selectedRace.Mana
-	cc.player.Armor += cc.selectedRace.ACPlus
+	cc.player.HP += cc.selectedRace.HPBonus
+	cc.player.MaxHP += cc.selectedRace.HPBonus
+	cc.player.Mana += cc.selectedRace.ManaBonus
+	cc.player.MaxMana += cc.selectedRace.ManaBonus
 }
 
 func (cc *CharacterCreation) applyKitModifiers() {
@@ -265,8 +268,6 @@ func (cc *CharacterCreation) applyKitModifiers() {
 	cc.player.MaxHP = cc.selectedKit.HP
 	cc.player.Mana = cc.selectedKit.Mana
 	cc.player.MaxMana = cc.selectedKit.Mana
-	cc.player.Move = cc.selectedKit.Move
-	cc.player.MaxMove = cc.selectedKit.Move
 
 	// Grant starting skills/spells
 	if cc.player.Skills == nil {
@@ -344,7 +345,6 @@ func (cc *CharacterCreation) selectAge() error {
 		}
 
 		if strings.ToLower(strings.TrimSpace(confirmLine))[0:1] == "y" {
-			cc.player.Age = ageChoice
 			cc.session.WriteLine("")
 			return nil
 		}
@@ -423,13 +423,10 @@ func (cc *CharacterCreation) displayFinalStats() {
 	cc.session.WriteLine(fmt.Sprintf("Name:        %s", cc.player.Name))
 	cc.session.WriteLine(fmt.Sprintf("Race:        %s", cc.selectedRace.Name))
 	cc.session.WriteLine(fmt.Sprintf("Starter Kit: %s", cc.selectedKit.Name))
-	cc.session.WriteLine(fmt.Sprintf("Age:         %s", ageNames[cc.player.Age]))
 	cc.session.WriteLine(fmt.Sprintf("Sex:         %s", sexNames[cc.player.Sex]))
 	cc.session.WriteLine("")
-	attrNames := []string{"STR", "INT", "WIS", "DEX", "CON", "LCK", "CHA"}
-	for i, name := range attrNames {
-		cc.session.WriteLine(fmt.Sprintf("%s: %d", name, cc.player.Attributes[i]))
-	}
+	cc.session.WriteLine(fmt.Sprintf("STR: %d | DEX: %d | CON: %d", cc.player.Strength, cc.player.Dexterity, cc.player.Constitution))
+	cc.session.WriteLine(fmt.Sprintf("INT: %d | WIS: %d | CHA: %d | LCK: %d", cc.player.Intelligence, cc.player.Wisdom, cc.player.Charisma, cc.player.Luck))
 
 	cc.session.WriteLine("")
 	cc.session.WriteLine(fmt.Sprintf("HP:   %d", cc.player.MaxHP))

@@ -1,4 +1,4 @@
-# Scholar Class: The Study System
+# Scholar Starter Kit: The Study System
 
 ## Vision
 
@@ -384,7 +384,7 @@ Specific locations with reusable furniture
 
 **Scholar's place in the Equipment + Skills system:**
 
-Unlike Warriors who gain strength through gear and combat experience, Scholars have a *unique progression gate* built into their class design:
+Unlike Warriors who gain strength through gear and combat experience, Scholars have a *unique progression gate* built into their starter kit identity:
 - Gear improves like everyone else (hunt monsters → loot equipment)
 - **But spells only come from discovered items**
 - Can't just spam Arcane Bolt forever—must actively hunt to expand spell roster

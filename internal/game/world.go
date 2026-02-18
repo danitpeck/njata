@@ -19,36 +19,60 @@ type Player struct {
 	Location   int
 	AutoExits  bool
 
-	// Character attributes
-	Class int // Index into legacy/classes
-	Race  int // Index into legacy/races
-	Sex   int // 0=neuter, 1=male, 2=female
-	Age   int // 0=child, 1=youth, 2=adult, 3=middle-aged, 4=elderly
+	// Optional appearance descriptors
+	Hair string
+	Eyes string
+
+	// Character info
+	Race int // Index into legacy/races
+	Sex  int // 0=neuter, 1=male, 2=female
 
 	// Vital stats
-	HP         int
-	MaxHP      int
-	Mana       int
-	MaxMana    int
-	Move       int
-	MaxMove    int
-	Gold       int
-	Experience int
+	HP      int
+	MaxHP   int
+	Mana    int
+	MaxMana int
+	Gold    int
 
-	// Attribute scores (STR, INT, WIS, DEX, CON, LCK, CHM)
-	Attributes [7]int
+	// Attribute scores
+	Strength     int
+	Dexterity    int
+	Constitution int
+	Intelligence int
+	Wisdom       int
+	Charisma     int
+	Luck         int
 
-	// Combat stats
-	Alignment int
-	Hitroll   int
-	Damroll   int
-	Armor     int
+	// Combat stats (modified by equipment)
+	Armor int
 
 	// Skills tracking
 	Skills map[int]*skills.PlayerSkillProgress // spell_id -> proficiency progress
 
+	// Inventory tracking
+	Inventory []*Object
+
+	// Equipment tracking (slot -> object)
+	Equipment map[string]*Object
+
 	// Keeper flag - player who maintains the world
 	IsKeeper bool
+}
+
+const (
+	EquipHead  = "head"
+	EquipBody  = "body"
+	EquipNeck  = "neck"
+	EquipBack  = "back"
+	EquipWaist = "waist"
+)
+
+var EquipSlotOrder = []string{
+	EquipHead,
+	EquipBody,
+	EquipNeck,
+	EquipBack,
+	EquipWaist,
 }
 
 type Mobile struct {
@@ -69,14 +93,16 @@ type Mobile struct {
 }
 
 type Object struct {
-	Vnum     int
-	Keywords []string
-	Type     string
-	Short    string
-	Long     string
-	Weight   int
-	Value    [4]int // [0]=quantity [1]=unused [2]=unused [3]=spell_id for magical items
-	Flags    map[string]bool
+	Vnum      int
+	Keywords  []string
+	Type      string
+	Short     string
+	Long      string
+	Weight    int
+	Value     [4]int // [0]=quantity [1]=unused [2]=unused [3]=spell_id for magical items
+	Flags     map[string]bool
+	EquipSlot string // "head", "body", "neck", "back", "waist", or empty for non-equippable
+	ArmorVal  int    // bonus to player.Armor when worn
 }
 
 type Room struct {
@@ -294,6 +320,35 @@ func (w *World) FindPlayer(name string) (*Player, bool) {
 	return nil, false
 }
 
+// FindPlayerInRoom retrieves a player in the same room by name (case-insensitive or prefix match).
+func (w *World) FindPlayerInRoom(player *Player, keyword string) (*Player, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, other := range w.players {
+		if other.Location != room.Vnum {
+			continue
+		}
+
+		name := strings.ToLower(other.Name)
+		if name == key || strings.HasPrefix(name, key) {
+			return other, true
+		}
+	}
+
+	return nil, false
+}
+
 func (w *World) DescribeRoom(player *Player) (RoomView, error) {
 	w.mu.RLock()
 	defer w.mu.RUnlock()
@@ -349,6 +404,25 @@ func (w *World) DescribeRoom(player *Player) (RoomView, error) {
 		AreaName:    room.AreaName,
 		AreaAuthor:  room.AreaAuthor,
 	}, nil
+}
+
+// RoomObjectsSnapshot returns a copy of objects in the player's current room.
+func (w *World) RoomObjectsSnapshot(player *Player) []*Object {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil {
+		return nil
+	}
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil
+	}
+
+	objects := make([]*Object, 0, len(room.Objects))
+	objects = append(objects, room.Objects...)
+	return objects
 }
 
 func (w *World) FindRoomExDesc(player *Player, keyword string) (string, bool) {
@@ -581,6 +655,37 @@ func (w *World) FindObjectInRoom(player *Player, keyword string) (*Object, bool)
 	return nil, false
 }
 
+// FindObjectInInventory searches for an object in the player's inventory by keyword
+func (w *World) FindObjectInInventory(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, obj := range player.Inventory {
+		if obj == nil {
+			continue
+		}
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == key {
+				return obj, true
+			}
+		}
+		if strings.Contains(strings.ToLower(obj.Short), key) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
 // RemoveObjectFromRoom removes an object from the player's current room
 func (w *World) RemoveObjectFromRoom(player *Player, obj *Object) bool {
 	w.mu.Lock()
@@ -601,6 +706,165 @@ func (w *World) RemoveObjectFromRoom(player *Player, obj *Object) bool {
 	}
 
 	return false
+}
+
+// AddObjectToRoom adds an object to the player's current room
+func (w *World) AddObjectToRoom(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return false
+	}
+
+	room.Objects = append(room.Objects, obj)
+	return true
+}
+
+// AddObjectToInventory adds an object to the player's inventory
+func (w *World) AddObjectToInventory(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil {
+		return false
+	}
+
+	player.Inventory = append(player.Inventory, obj)
+	return true
+}
+
+// RemoveObjectFromInventory removes an object from the player's inventory
+func (w *World) RemoveObjectFromInventory(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil {
+		return false
+	}
+
+	for i, o := range player.Inventory {
+		if o == obj {
+			player.Inventory = append(player.Inventory[:i], player.Inventory[i+1:]...)
+			return true
+		}
+	}
+
+	return false
+}
+
+// FindObjectInEquipment searches for an object in the player's equipment by keyword
+func (w *World) FindObjectInEquipment(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, obj := range player.Equipment {
+		if obj == nil {
+			continue
+		}
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == key {
+				return obj, true
+			}
+		}
+		if strings.Contains(strings.ToLower(obj.Short), key) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
+// EquipmentSnapshot returns a copy of the player's equipment map.
+func (w *World) EquipmentSnapshot(player *Player) map[string]*Object {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil {
+		return map[string]*Object{}
+	}
+
+	copyMap := make(map[string]*Object, len(player.Equipment))
+	for slot, obj := range player.Equipment {
+		copyMap[slot] = obj
+	}
+
+	return copyMap
+}
+
+// FindEquippedSlot finds the slot for a given equipped object.
+func (w *World) FindEquippedSlot(player *Player, obj *Object) (string, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil || obj == nil {
+		return "", false
+	}
+
+	for slot, equipped := range player.Equipment {
+		if equipped == obj {
+			return slot, true
+		}
+	}
+
+	return "", false
+}
+
+// EquipObject equips an item into a slot and removes it from inventory.
+func (w *World) EquipObject(player *Player, obj *Object, slot string) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil || obj == nil {
+		return false
+	}
+
+	if player.Equipment == nil {
+		player.Equipment = make(map[string]*Object)
+	}
+
+	if _, exists := player.Equipment[slot]; exists && player.Equipment[slot] != nil {
+		return false
+	}
+
+	for i, o := range player.Inventory {
+		if o == obj {
+			player.Inventory = append(player.Inventory[:i], player.Inventory[i+1:]...)
+			break
+		}
+	}
+
+	player.Equipment[slot] = obj
+	return true
+}
+
+// UnequipObject removes an item from a slot and adds it to inventory.
+func (w *World) UnequipObject(player *Player, slot string) (*Object, bool) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil || player.Equipment == nil {
+		return nil, false
+	}
+
+	obj := player.Equipment[slot]
+	if obj == nil {
+		return nil, false
+	}
+
+	player.Equipment[slot] = nil
+	player.Inventory = append(player.Inventory, obj)
+	return obj, true
 }
 
 // DamageMob deals damage to a mobile and handles death

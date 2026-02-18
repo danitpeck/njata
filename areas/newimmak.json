@@ -16,8 +16,6 @@
       "exdescs": {
         "bucket": "This bucket is clean and pristine, it appears to be made out of silver."
       },
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -32,8 +30,6 @@
         "south": 2202
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -48,8 +44,6 @@
         "south": 2205
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -71,8 +65,6 @@
         "southwest": 2207
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -86,8 +78,6 @@
         "south": 2210
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 2201,
@@ -108,8 +98,6 @@
         "south": 2211
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -123,8 +111,6 @@
         "south": 2212
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -142,8 +128,6 @@
         "southwest": 2214
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -161,8 +145,6 @@
         "west": 2207
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -178,8 +160,6 @@
         "west": 2208
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -195,8 +175,6 @@
         "south": 2218
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -213,8 +191,6 @@
         "west": 2210
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -237,8 +213,6 @@
         "west": 2211
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -253,8 +227,6 @@
         "west": 2212
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -273,8 +245,6 @@
         "west": 2213
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -293,8 +263,6 @@
         "west": 2214
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -312,8 +280,6 @@
         "west": 2215
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -327,8 +293,6 @@
         "east": 2218
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -344,8 +308,6 @@
         "west": 2217
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -360,8 +322,6 @@
         "south": 2225
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -375,8 +335,6 @@
         "north": 2212
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -394,8 +352,6 @@
         "southwest": 2226
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -414,8 +370,6 @@
         "west": 2221
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -433,8 +387,6 @@
         "west": 2222
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -449,8 +401,6 @@
         "south": 2231
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -464,8 +414,6 @@
         "north": 2219
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -483,8 +431,6 @@
         "southwest": 2232
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -503,8 +449,6 @@
         "west": 2226
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -522,8 +466,6 @@
         "west": 2227
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -537,8 +479,6 @@
         "east": 2230
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -553,8 +493,6 @@
         "west": 2229
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -570,8 +508,6 @@
         "west": 2230
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -589,8 +525,6 @@
         "southwest": 2235
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -609,8 +543,6 @@
         "west": 2232
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -628,8 +560,6 @@
         "west": 2233
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -648,8 +578,6 @@
         "southwest": 2238
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -668,8 +596,6 @@
         "west": 2235
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -687,8 +613,6 @@
         "west": 2236
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -706,8 +630,6 @@
         "southwest": 2241
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -726,8 +648,6 @@
         "west": 2238
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -745,8 +665,6 @@
         "west": 2239
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -762,8 +680,6 @@
         "southeast": 2244
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -781,8 +697,6 @@
         "west": 2241
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -800,8 +714,6 @@
         "west": 2242
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -817,8 +729,6 @@
         "northwest": 2241
       },
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -832,8 +742,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "New Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     }
@@ -947,8 +855,8 @@
         "corset"
       ],
       "type": "armor",
-      "short": "\u0026za black leather corset\u0026w",
-      "long": "Some god dropped a newly created \u0026zblack leather corset\u0026w here.",
+      "short": "&za black leather corset&w",
+      "long": "Some god dropped a newly created &zblack leather corset&w here.",
       "weight": 0,
       "value": 0,
       "flags": {},
@@ -963,7 +871,7 @@
       ],
       "type": "fountain",
       "short": "an old stone well",
-      "long": "\u0026wAn old well made of stone is here.",
+      "long": "&wAn old well made of stone is here.",
       "weight": 0,
       "value": 0,
       "flags": {},

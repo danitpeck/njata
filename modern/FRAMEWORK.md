@@ -24,10 +24,10 @@ Build small. Add meaningful. Like the original njata.c approach:
 
 **What you're actually building in Week 1.**
 
-- Two classes: Scholar (Study-based learning) + Warrior (Maneuver-based combat)
-- 8 core spells usable by both
-- Equipment + Skills progression (no levels)
-- Self-reinforcing gear loops for both classes
+- Two starter kits: Scholar (Study-based learning) + Warrior (Maneuver-based combat)
+- 8 core spells usable by all players (no class restrictions)
+- Equipment + Skills progression (no levels, no classes)
+- Self-reinforcing gear loops for equipment discovery
 - Full technical specifications and examples
 
 **Read this first.** It's the authoritative spec.
@@ -41,7 +41,7 @@ Build small. Add meaningful. Like the original njata.c approach:
 - Study ability mechanics (command, checks, proficiency)
 - Magical item types and discovery
 - Scholar gameplay loop and progression
-- Why Study creates unique class identity
+- Why Study creates unique starter kit identity
 
 **Read this when:** Building the Study command or designing magical items.
 
@@ -49,7 +49,7 @@ Build small. Add meaningful. Like the original njata.c approach:
 
 ## Archived Documents
 
-The `_legacy_design_archive/` folder contains earlier design iterations that are superseded by the new Equipment+Skills, no-levels approach:
+The `backup/legacy_design/` folder contains earlier design iterations that are superseded by the new Equipment+Skills, no-levels approach:
 - IMPLEMENTATION_STRATEGY.md (old level-based design)
 - SPELL_CATALOG.md (comprehensive but pre-MVP)
 - SKILLS_SYSTEM_DESIGN.md (legacy framework)

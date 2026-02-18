@@ -16,13 +16,11 @@
         "down": 5001
       },
       "exdescs": {
-        "dripping": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "dripping": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
         "plaque": "---------------------------------------------------------------------------\nWelcome to the Caverns of the  Forgotten Kings. The names of the Kings have\nbeen lost. And for the most port so have the Caverns that housed them.\nPeople don't actually know the name of this place so it and most of its\nhistory has almost been entirely forgotten. Hence the name Forgotten\nCaverns. Journey on word my fellow adventurer and see what history  these\nCaverns house for you.\n\nBe Warn tho everyone who entered before you has never come bacK!!!!!\n---------------------------------------------------------------------------",
-        "sarcophagi": "\u0026zAs you look in the sarcophagus. You notice that they are competely empty.",
-        "water": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
+        "sarcophagi": "&zAs you look in the sarcophagus. You notice that they are competely empty.",
+        "water": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -40,26 +38,24 @@
         "up": 5000
       },
       "exdescs": {
-        "as": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "at": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "ceiling": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "continues": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "drip": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "as": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "at": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "ceiling": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "continues": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "drip": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
         "dripping": "As you shine your light toward the ceiling you notice the\nmuliply spots the the water is continuing to drip from.",
-        "from": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "light": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "notice": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "shine": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "spots": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "the": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "to": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "water": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "where": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "you": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
-        "your": "\u0026BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
+        "from": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "light": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "notice": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "shine": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "spots": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "the": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "to": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "water": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "where": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "you": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from.",
+        "your": "&BAs you shine your light toward the ceiling you notice the muliply spots\nthe water is dripping from."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -77,8 +73,6 @@
         "up": 5001
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -96,13 +90,17 @@
         "west": 5002
       },
       "exdescs": {
-        "circle": "\u0026RAs you look at the ground the circle you noticed as you walked in is a\nlarge red circle with a smaller red  circle in the middle of it. Probablly\nused for a cerimony. But no one knows for sure. Because the place was\nnever documented.",
+        "circle": "&RAs you look at the ground the circle you noticed as you walked in is a\nlarge red circle with a smaller red  circle in the middle of it. Probablly\nused for a cerimony. But no one knows for sure. Because the place was\nnever documented.",
         "plaque": "---------------------------------------------------------------------------\nIf you are reading this, then it's for 1 of two reason. Either, you are a\ncrazy adventurer and are comming here to find fame and fourtune. Or, you\nstummbled across the Room of Bright Lights Which for you sake. I hope it\nwas the former not the ladder. having wrote that, either way you are doom\nto live here  forever because no one has entered and left alive... HAHA!!!\n---------------------------------------------------------------------------"
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5004,
+          "count": 1,
+          "room": 5003
+        }
+      ]
     },
     "5004": {
       "vnum": 5004,
@@ -118,8 +116,6 @@
         "west": 5003
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -137,8 +133,6 @@
         "west": 5027
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -156,8 +150,6 @@
         "south": 5004
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -174,8 +166,6 @@
         "north": 5004
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -193,8 +183,6 @@
         "west": 5006
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -212,8 +200,6 @@
         "west": 5008
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -232,8 +218,6 @@
         "south": 5012
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -251,8 +235,6 @@
         "west": 5010
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -270,8 +252,6 @@
         "west": 5014
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -289,8 +269,6 @@
         "west": 5007
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -307,8 +285,6 @@
         "west": 5013
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -326,8 +302,6 @@
         "west": 5011
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -345,8 +319,6 @@
         "west": 5017
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -364,8 +336,6 @@
         "west": 5018
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -383,8 +353,6 @@
         "south": 5019
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -402,8 +370,6 @@
         "west": 5020
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -421,8 +387,6 @@
         "west": 5021
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -441,8 +405,6 @@
         "west": 5023
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -460,8 +422,6 @@
         "south": 5025
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -479,8 +439,6 @@
         "west": 5024
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -497,11 +455,9 @@
         "east": 5023
       },
       "exdescs": {
-        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
-        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+        "sarcophagi": "&zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n&OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -519,8 +475,6 @@
         "north": 5022
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -538,8 +492,6 @@
         "west": 5025
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -557,8 +509,6 @@
         "south": 5028
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -576,8 +526,6 @@
         "south": 5029
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -595,8 +543,6 @@
         "north": 5028
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -614,8 +560,6 @@
         "west": 5029
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -633,8 +577,6 @@
         "west": 5030
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -653,8 +595,6 @@
         "west": 5034
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -671,11 +611,9 @@
       },
       "exdescs": {
         "sarchopagi": "Key    sarchopagi",
-        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
-        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+        "sarcophagi": "&zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "&OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -693,8 +631,6 @@
         "west": 5035
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -712,8 +648,6 @@
         "south": 5036
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -731,8 +665,6 @@
         "south": 5037
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -750,8 +682,6 @@
         "north": 5036
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -769,8 +699,6 @@
         "west": 5037
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -788,8 +716,6 @@
         "west": 5038
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -808,8 +734,6 @@
         "west": 5042
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -826,11 +750,9 @@
         "west": 5040
       },
       "exdescs": {
-        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
-        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+        "sarcophagi": "&zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "&OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -848,8 +770,6 @@
         "west": 5043
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -866,8 +786,6 @@
         "west": 5003
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -882,8 +800,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -901,8 +817,6 @@
         "south": 5046
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -920,8 +834,6 @@
         "north": 5045
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -939,8 +851,6 @@
         "west": 5046
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -958,8 +868,6 @@
         "west": 5047
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -977,8 +885,6 @@
         "west": 5048
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -996,8 +902,6 @@
         "north": 5048
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1015,8 +919,6 @@
         "west": 5050
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1034,8 +936,6 @@
         "west": 5049
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1054,8 +954,6 @@
         "west": 5052
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1073,8 +971,6 @@
         "south": 5053
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1092,8 +988,6 @@
         "west": 5056
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1111,8 +1005,6 @@
         "west": 5051
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1130,8 +1022,6 @@
         "south": 5054
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1149,8 +1039,6 @@
         "west": 5057
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1168,8 +1056,6 @@
         "west": 5058
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1187,8 +1073,6 @@
         "west": 5061
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1206,8 +1090,6 @@
         "south": 5062
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1225,8 +1107,6 @@
         "north": 5061
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1244,8 +1124,6 @@
         "west": 5062
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1263,8 +1141,6 @@
         "west": 5063
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1282,8 +1158,6 @@
         "west": 5064
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1301,8 +1175,6 @@
         "south": 5065
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1320,8 +1192,6 @@
         "south": 5066
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1340,8 +1210,6 @@
         "west": 5069
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1359,8 +1227,6 @@
         "west": 5070
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1378,8 +1244,6 @@
         "west": 5071
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1398,8 +1262,6 @@
         "west": 5072
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1417,8 +1279,6 @@
         "west": 5073
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1436,8 +1296,6 @@
         "south": 5074
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1457,8 +1315,6 @@
         "west": 5080
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1476,11 +1332,9 @@
       },
       "exdescs": {
         "plaque": "---------------------------------------------------------------------------\nBah!!! so i guess you picked right.. or, you didn't and doubled back or\nmade the right choice the first time and have no idea why i am mad...\neither way you shouldn't of come this far go back while you still can!!!\nYour life depends on it!!! Don't Keep going... You should really quit the\nmud.. There is no point in going on.. If you take my advice you will not\nhave to deal with the issues of finshing this Dungeon.. Trust me you don't\nwant to see the end of it.. It's nasty and not something you want to see.\nJust type quit and never come back!! Trust me...\n---------------------------------------------------------------------------",
-        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
-        "shelves": "\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+        "sarcophagi": "&zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "&OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1498,8 +1352,6 @@
         "west": 5074
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1517,8 +1369,6 @@
         "west": 5076
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1536,8 +1386,6 @@
         "south": 5079
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -1563,10 +1411,8 @@
       "exdescs": {
         "plaque": "---------------------------------------------------------------------------\nCongratulation! on killing the evil vial monster.  As you can probably\nguess at this point I lied. I write this because i wrote in the past that\nno one has ever made it out of here alive. Well, how can that be if you\nhave been reading the various plaques that have been scattered though\nout.. At some point you had to think to yourself, how can thses be up if\nno one has lived. By the way, the ladder  you see behind you takes you\nback  to the enterance. so that being the only way out if the main\nenterance is blocked is totally not real. Tho like everything else in\nhere. No one actually knows what happened. For the kings where buried over\n1000 years and no one wrote   who they were, why they were buryed here or\nhow this place  Was built..\n---------------------------------------------------------------------------",
         "vase": "Key    vase",
-        "vases": "\u0026YAs you look closely at the pieces of the vase. It looks like it was at\nsome point a very elagent piece of solid gold with an empressive design\npanted on it.. Now it's sadly worth nothing in pieces."
+        "vases": "&YAs you look closely at the pieces of the vase. It looks like it was at\nsome point a very elagent piece of solid gold with an empressive design\npanted on it.. Now it's sadly worth nothing in pieces."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1584,8 +1430,6 @@
         "west": 5081
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1603,8 +1447,6 @@
         "south": 5082
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1622,8 +1464,6 @@
         "north": 5081
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1640,11 +1480,9 @@
         "west": 5082
       },
       "exdescs": {
-        "sarcophagi": "\u0026zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
-        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n\u0026OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
+        "sarcophagi": "&zAs you look at the sarcophagus you notice that something evil has happened\nseeing as that it is open and empty.",
+        "shelves": "As you look at the shelves they appear to have nothing on them. execpt for a\nfew broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers.\n&OAs you look at the shelves they appear to have nothing on them. Execpt, for\na few broken things. Apparently thay were ran sacked a long time ago by grave\nrobbers."
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1661,8 +1499,6 @@
         "west": 5085
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1680,8 +1516,6 @@
         "south": 5086
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1699,8 +1533,6 @@
         "west": 5087
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1718,8 +1550,6 @@
         "west": 5088
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1737,8 +1567,6 @@
         "north": 5089
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1756,8 +1584,6 @@
         "west": 5090
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1775,8 +1601,6 @@
         "west": 5091
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1796,8 +1620,6 @@
       "exdescs": {
         "plaque": "---------------------------------------------------------------------------\nAh!! I see that you are getting farther along in here. To bad you took the\nlong way... Tho to tell you the truth i didn't think you would make it\nthis far. I quess everyone is allowed to make mistakes. But, when you get\nto the fork in the road, are you going to take the right one? No, one has\never gone the right way will you be the first? I guess there is only way\nway to find out...\n---------------------------------------------------------------------------"
       },
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1815,8 +1637,6 @@
         "south": 5093
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1834,8 +1654,6 @@
         "south": 5071
       },
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1851,8 +1669,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "The Forgotten Caverns",
-      "area_author": "Alyarta",
       "mobile_resets": [
         {
           "vnum": 5099,

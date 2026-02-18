@@ -1,12 +1,12 @@
 {
   "name": "Newbie School",
-  "author": "Shadwen/Zoie",
+  "author": "Shadwen",
   "reset_minutes": 3,
   "rooms": {
     "8100": {
       "vnum": 8100,
       "name": "Newbie Area - Information Room [OOC]",
-      "description": "Name - Newbie School\nAuthor - Shadwen/Zoie\nPurpose - The first place players are sent to after character creation.\nHere, they learn all the basic commands of Njata and get an idea of what\nkind of game we're running.",
+      "description": "Name - Newbie School\nAuthor - Shadwen\nPurpose - The first place players are sent to after character creation.\nHere, they learn all the basic commands of Njata and get an idea of what\nkind of game we're running.",
       "sector": "city",
       "flags": {
         "indoors": true,
@@ -14,8 +14,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -32,15 +30,13 @@
         "north": 8102
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
     "8102": {
       "vnum": 8102,
       "name": "Learning About Yourself [OOC]",
-      "description": "Here is where you will learn more about yourself. Type [score] to see\ninformation about your character, [equipment] will show you your worn\nequipment, and [inventory] will show you what you're currently carrying.\nAs an option, you may explore our world with a map and compass to guide\nyou. Type [config +automap] and [config +compass] to turn these features\non. When you are ready to proceed, head [east].",
+      "description": "Here is where you will learn more about yourself. Type [stats] to see\ninformation about your character, [equipment] will show you your worn\nequipment, and [inventory] will show you what you're currently carrying.\nAs an option, you may explore our world with a map and compass to guide\nyou. Type [config +automap] and [config +compass] to turn these features\non. When you are ready to proceed, head [east].",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -50,15 +46,13 @@
         "south": 8101
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
     "8103": {
       "vnum": 8103,
       "name": "Becoming Acquainted with Skills [OOC]",
-      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type of one of the following: [Skills] will show you your\nlearned non-magic abilities. [Spells] will show you which spells you've\nlearned. [Proficiencies] will show you what weapons you're capable of\nhandling with any degree of skill. You may wish to shorten that to [Prof],\nmost commands can be shortened in Njata for your convenience! You can type\n[Slist] to learn what powers will become available to you as you level up,\nbut most skills will have to be learned from the appropriate teacher. If\nyou happen to be a Scholar, then do not fret. You will have to find relics\nto [study] to learn your spells, so make sure to look in every nook and\ncranny of the world.",
+      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type [abilities]. Most commands can be shortened in Njata\nfor your convenience! If you happen to be a Scholar, then do not fret. You\nwill have to find relics to [study] to learn your spells, so make sure to\nlook in every nook and cranny of the world.",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -68,8 +62,6 @@
         "west": 8109
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [
         {
           "vnum": 8102,
@@ -89,11 +81,10 @@
       },
       "exits": {
         "north": 8103,
-        "west": 8102
+        "west": 8102,
+        "east": 8111
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [
         {
           "vnum": 8101,
@@ -116,8 +107,6 @@
         "north": 8106
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -134,8 +123,6 @@
         "south": 8105
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -152,8 +139,6 @@
         "south": 8110
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [
         {
           "vnum": 8103,
@@ -175,8 +160,6 @@
         "south": 8107
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -193,8 +176,6 @@
         "west": 8105
       },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -213,26 +194,49 @@
       "exdescs": {
         "scroll": "regular, lithe, thin, rotund, curvaceous,\nvoluptuous, pear-shaped, fat, corpulent,\nstarved, lanky, muscular, stocky, toned, wiry\n\n[say] one of them to decide.\ne.g. [say stocky]"
       },
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
     "8111": {
       "vnum": 8111,
-      "name": "Choose a Specialty, Elementalist [OOC]",
-      "description": "In Njata, Elementalists choose to specialize in one of the Six Elements:\nFire, Water, Air, Earth, Life, and Darkness. To learn about the elements,\nand their differences, Type [Help Elements]. When you have made your\ndecision, say the name of the element and you will proceed into the World\nof Njata.",
+      "name": "Equipment Testing [OOC]",
+      "description": "A simple practice hall with a neat row of items laid out on the floor.\nTry [get] to pick them up, [wear all] to equip, [equipment] to review,\nthen [remove all] when you are done. Return [west] when finished.",
       "sector": "city",
       "flags": {
-        "nomob": true,
-        "prototype": true
+        "indoors": true
       },
-      "exits": {},
+      "exits": {
+        "west": 8104
+      },
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 8107,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8105,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8110,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8111,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8114,
+          "count": 1,
+          "room": 8111
+        }
+      ]
     },
     "8149": {
       "vnum": 8149,
@@ -245,8 +249,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Newbie School",
-      "area_author": "Shadwen/Zoie",
       "mobile_resets": [
         {
           "vnum": 8149,
@@ -520,6 +522,8 @@
       "weight": 0,
       "value": 0,
       "flags": {},
+      "equip_slot": "body",
+      "armor_value": 2,
       "room_vnum": 0
     },
     "8106": {
@@ -550,6 +554,8 @@
       "weight": 0,
       "value": 0,
       "flags": {},
+      "equip_slot": "head",
+      "armor_value": 2,
       "room_vnum": 0
     },
     "8108": {
@@ -594,6 +600,8 @@
       "weight": 0,
       "value": 0,
       "flags": {},
+      "equip_slot": "neck",
+      "armor_value": 1,
       "room_vnum": 0
     },
     "8111": {
@@ -609,6 +617,8 @@
       "weight": 0,
       "value": 0,
       "flags": {},
+      "equip_slot": "back",
+      "armor_value": 2,
       "room_vnum": 0
     },
     "8112": {
@@ -651,6 +661,8 @@
       "weight": 0,
       "value": 0,
       "flags": {},
+      "equip_slot": "waist",
+      "armor_value": 1,
       "room_vnum": 0
     },
     "8115": {

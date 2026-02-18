@@ -13,8 +13,6 @@
         "south": 4701
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -31,8 +29,6 @@
         "west": 4731
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4737,
@@ -53,8 +49,6 @@
         "west": 4701
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -69,8 +63,6 @@
         "west": 4702
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -85,8 +77,6 @@
         "west": 4703
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4706,
@@ -108,8 +98,6 @@
         "west": 4704
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -124,8 +112,6 @@
         "west": 4705
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -141,8 +127,6 @@
         "west": 4706
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -156,8 +140,6 @@
         "west": 4707
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -172,8 +154,6 @@
         "south": 4713
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -188,8 +168,6 @@
         "south": 4714
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -203,8 +181,6 @@
         "east": 4712
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4720,
@@ -225,8 +201,6 @@
         "west": 4711
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -242,8 +216,6 @@
         "west": 4712
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -258,8 +230,6 @@
         "south": 4718
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -274,8 +244,6 @@
         "up": 4805
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -289,8 +257,6 @@
         "north": 4713
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -308,8 +274,6 @@
         "ledge": "The ledge is wide enough to the west that a single person\ncould make their way in that direction, being careful with\ntheir footing, though if there is anything to be found there,\nthat would take some investigating to discover.",
         "stone": "The ledge is wide enough to the west that a single person\ncould make their way in that direction, being careful with\ntheir footing, though if there is anything to be found there,\nthat would take some investigating to discover."
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -324,8 +288,6 @@
         "south": 4719
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4723,
@@ -346,8 +308,6 @@
         "south": 4720
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -363,8 +323,6 @@
         "west": 4721
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -378,8 +336,6 @@
         "east": 4720
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -394,8 +350,6 @@
         "west": 4720
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4722,
@@ -416,8 +370,6 @@
         "west": 4722
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -432,8 +384,6 @@
         "west": 4723
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -449,8 +399,6 @@
         "west": 4724
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -465,8 +413,6 @@
         "south": 4725
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4721,
@@ -488,8 +434,6 @@
         "west": 4728
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -508,8 +452,6 @@
         "bricks": "One brick in particular is much larger than the rest, and looks\nlike it isn't mortared in as well as the rest. It makes one almost\nwant to push it back into the wall.",
         "wall": "The wall is made up from bricks, most of them of uniform size,\nexcept for one in the center of the wall."
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4750,
@@ -529,8 +471,6 @@
         "south": 4727
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4707,
@@ -550,8 +490,6 @@
         "west": 4725
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4712,
@@ -572,8 +510,6 @@
         "west": 4732
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -588,8 +524,6 @@
         "west": 4733
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -604,8 +538,6 @@
         "west": 4734
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -621,8 +553,6 @@
         "west": 4735
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -637,8 +567,6 @@
         "west": 4736
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -653,8 +581,6 @@
         "south": 4753
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -669,8 +595,6 @@
         "south": 4738
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -685,8 +609,6 @@
         "south": 4739
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -704,8 +626,6 @@
       "exdescs": {
         "sign": "Hours of Operation\n     4am - 10pm"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -719,8 +639,6 @@
         "east": 4739
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4700,
@@ -741,8 +659,6 @@
         "south": 4742
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -758,8 +674,6 @@
         "west": 4743
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -774,8 +688,6 @@
         "west": 4744
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -790,8 +702,6 @@
         "west": 4745
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -809,10 +719,14 @@
       "exdescs": {
         "sign": "Hours of Operation\n     4am - 10pm"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5006,
+          "count": 1,
+          "room": 4745
+        }
+      ]
     },
     "4746": {
       "vnum": 4746,
@@ -825,8 +739,6 @@
         "north": 4747
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -841,8 +753,6 @@
         "south": 4746
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4731,
@@ -864,8 +774,6 @@
         "west": 4749
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4800,
@@ -885,8 +793,6 @@
         "east": 4748
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4701,
@@ -907,8 +813,6 @@
         "south": 4748
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -922,8 +826,6 @@
         "north": 4745
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4709,
@@ -931,7 +833,13 @@
           "room": 4751
         }
       ],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5001,
+          "count": 1,
+          "room": 4751
+        }
+      ]
     },
     "4752": {
       "vnum": 4752,
@@ -944,8 +852,6 @@
         "south": 4750
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -960,8 +866,6 @@
         "south": 4754
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -977,8 +881,6 @@
         "west": 4756
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -993,8 +895,6 @@
         "south": 4760
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1009,8 +909,6 @@
         "west": 4757
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1028,8 +926,6 @@
       "exdescs": {
         "sign": "Hours of Operation\n      4am - 10pm"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1043,8 +939,6 @@
         "south": 4757
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4717,
@@ -1064,8 +958,6 @@
         "north": 4757
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4705,
@@ -1086,8 +978,6 @@
         "south": 4761
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1102,8 +992,6 @@
         "south": 4762
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4741,
@@ -1125,8 +1013,6 @@
         "south": 4831
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4724,
@@ -1146,8 +1032,6 @@
         "west": 4762
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4713,
@@ -1167,8 +1051,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4714,
@@ -1215,8 +1097,6 @@
         "south": 4827
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1231,8 +1111,6 @@
         "west": 4765
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1247,8 +1125,6 @@
         "west": 4766
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1264,8 +1140,6 @@
         "west": 4767
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1281,8 +1155,6 @@
         "west": 4768
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1298,8 +1170,6 @@
         "west": 4769
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4730,
@@ -1320,8 +1190,6 @@
         "west": 4770
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4710,
@@ -1342,8 +1210,6 @@
         "south": 4771
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1358,8 +1224,6 @@
         "south": 4772
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4704,
@@ -1380,8 +1244,6 @@
         "west": 4775
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1397,8 +1259,6 @@
         "west": 4776
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4725,
@@ -1419,8 +1279,6 @@
         "west": 4777
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1437,8 +1295,6 @@
         "west": 4779
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1452,8 +1308,6 @@
         "south": 4777
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4703,
@@ -1473,8 +1327,6 @@
         "east": 4777
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1488,8 +1340,6 @@
         "south": 4769
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4732,
@@ -1510,8 +1360,6 @@
         "south": 4782
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4744,
@@ -1535,8 +1383,6 @@
         "ornate": "Hours of Operation\n      4am - 10pm",
         "sign": "Hours of Operation\n      4am - 10pm"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1550,8 +1396,6 @@
         "west": 4782
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4711,
@@ -1572,8 +1416,6 @@
         "south": 4785
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1592,8 +1434,6 @@
         "sign": "Hours of Operation\n      4am - 10pm",
         "small": "Hours of Operation\n      4am - 10pm"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1607,8 +1447,6 @@
         "east": 4785
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4702,
@@ -1629,8 +1467,6 @@
         "west": 4785
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1645,8 +1481,6 @@
         "west": 4787
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1661,8 +1495,6 @@
         "west": 4788
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1678,8 +1510,6 @@
         "west": 4789
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4739,
@@ -1700,8 +1530,6 @@
         "west": 4790
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1715,8 +1543,6 @@
         "north": 4790
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4718,
@@ -1747,8 +1573,6 @@
         "west": 4791
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1764,8 +1588,6 @@
         "west": 4793
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1780,8 +1602,6 @@
         "south": 4794
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1796,8 +1616,6 @@
         "south": 4797
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4708,
@@ -1818,8 +1636,6 @@
         "south": 4798
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1835,8 +1651,6 @@
         "south": 4799
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1850,8 +1664,6 @@
         "north": 4798
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4738,
@@ -1872,8 +1684,6 @@
         "west": 4798
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1888,8 +1698,6 @@
         "west": 4800
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1904,8 +1712,6 @@
         "south": 4795
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1920,8 +1726,6 @@
         "west": 4802
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1936,8 +1740,6 @@
         "west": 4803
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1953,8 +1755,6 @@
         "west": 4804
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1969,8 +1769,6 @@
         "west": 4805
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1985,8 +1783,6 @@
         "west": 4806
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2001,8 +1797,6 @@
         "west": 4807
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2018,8 +1812,6 @@
         "west": 4808
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2033,8 +1825,6 @@
         "west": 4809
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2049,8 +1839,6 @@
         "south": 4812
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2064,8 +1852,6 @@
         "north": 4811
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -2090,8 +1876,6 @@
         "west": 4801
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4726,
@@ -2116,8 +1900,6 @@
         "west": 4813
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2134,8 +1916,6 @@
         "southeast": 4814
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2152,8 +1932,6 @@
         "west": 4815
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4727,
@@ -2174,8 +1952,6 @@
         "southwest": 4815
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2193,8 +1969,6 @@
         "southeast": 4821
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2213,8 +1987,6 @@
         "west": 4818
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2230,8 +2002,6 @@
         "northeast": 4819
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2247,8 +2017,6 @@
         "west": 4820
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2263,8 +2031,6 @@
         "up": 4823
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2279,8 +2045,6 @@
         "up": 4824
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2296,8 +2060,6 @@
       "exdescs": {
         "up": "The stars sparkle across the velvet night sky, shimmering in their formations.\nTo the north the Tiger constellation sparkles above the Pardor mountains.\nThe right eye of the tiger is an unusual star, it seems to be encircled by two\ngolden rings and shines brighter than all the rest."
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2313,8 +2075,6 @@
         "west": 4829
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2329,8 +2089,6 @@
         "south": 4828
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2345,8 +2103,6 @@
         "south": 4774
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2360,8 +2116,6 @@
         "east": 4825
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4729,
@@ -2381,8 +2135,6 @@
         "south": 4825
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4728,
@@ -2390,7 +2142,13 @@
           "room": 4830
         }
       ],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5008,
+          "count": 1,
+          "room": 4830
+        }
+      ]
     },
     "4831": {
       "vnum": 4831,
@@ -2403,8 +2161,6 @@
         "south": 4765
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2421,8 +2177,6 @@
         "crack": "Amazingly symmetrical, this crack is shaped like a large arch.  A small\nhole sits in the center of the arch.",
         "long": "Amazingly symmetrical, this crack is shaped like a large arch.  A small\nhole sits in the center of the arch."
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4736,
@@ -2443,8 +2197,6 @@
         "south": 4834
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2461,8 +2213,6 @@
         "west": 4836
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2477,8 +2227,6 @@
         "west": 4834
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2493,8 +2241,6 @@
         "south": 4837
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4734,
@@ -2517,8 +2263,6 @@
         "west": 4845
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2535,8 +2279,6 @@
         "west": 4837
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2552,8 +2294,6 @@
         "west": 4840
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4735,
@@ -2576,8 +2316,6 @@
         "west": 4844
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4733,
@@ -2598,8 +2336,6 @@
         "west": 4842
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2614,8 +2350,6 @@
         "north": 4837
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2630,8 +2364,6 @@
         "west": 4846
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2645,8 +2377,6 @@
         "east": 4845
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2662,8 +2392,6 @@
       "exdescs": {
         "sign": "***********************************************************\n*                                                         *\n*          Welcome to the Bank of Darkstone               *\n*                                                         *\n*        To deposit money type: bank deposit # coins      *\n*                                                         *\n*           To withdraw type: bank withdraw # coins       *\n*                                                         *\n* To see how much gold you have banked type: bank balance *\n*                                                         *\n***********************************************************"
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2677,8 +2405,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2698,8 +2424,6 @@
         "stone": "One stone in particular catches the eye, it is much smaller\nthan all the rest, and seems to be centered perfectly in this\nsection of wall, at just the right height to be pushed.",
         "stones": "One stone in particular catches the eye, it is much smaller\nthan all the rest, and seems to be centered perfectly in this\nsection of wall, at just the right height to be pushed."
       },
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2716,8 +2440,6 @@
         "north": 4851
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2736,8 +2458,6 @@
         "west": 4852
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -2760,8 +2480,6 @@
         "east": 4851
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 4745,
@@ -2784,8 +2502,6 @@
         "west": 4851
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2802,8 +2518,6 @@
         "north": 4855
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2820,8 +2534,6 @@
         "south": 4854
       },
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -2843,8 +2555,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2860,8 +2570,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2875,8 +2583,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Incomplete City",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     }

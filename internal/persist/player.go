@@ -12,26 +12,29 @@ import (
 )
 
 type PlayerRecord struct {
-	Name       string                              `json:"name"`
-	Location   int                                 `json:"location"`
-	Class      int                                 `json:"class"`
-	Race       int                                 `json:"race"`
-	Sex        int                                 `json:"sex"`
-	HP         int                                 `json:"hp"`
-	MaxHP      int                                 `json:"max_hp"`
-	Mana       int                                 `json:"mana"`
-	MaxMana    int                                 `json:"max_mana"`
-	Move       int                                 `json:"move"`
-	MaxMove    int                                 `json:"max_move"`
-	Gold       int                                 `json:"gold"`
-	Experience int                                 `json:"experience"`
-	Attributes [7]int                              `json:"attributes"`
-	Alignment  int                                 `json:"alignment"`
-	Hitroll    int                                 `json:"hitroll"`
-	Damroll    int                                 `json:"damroll"`
-	Armor      int                                 `json:"armor"`
-	Skills     map[int]*skills.PlayerSkillProgress `json:"skills"`
-	IsKeeper   bool                                `json:"is_keeper"`
+	Name         string                              `json:"name"`
+	Location     int                                 `json:"location"`
+	Race         int                                 `json:"race"`
+	Sex          int                                 `json:"sex"`
+	Hair         string                              `json:"hair"`
+	Eyes         string                              `json:"eyes"`
+	HP           int                                 `json:"hp"`
+	MaxHP        int                                 `json:"max_hp"`
+	Mana         int                                 `json:"mana"`
+	MaxMana      int                                 `json:"max_mana"`
+	Gold         int                                 `json:"gold"`
+	Strength     int                                 `json:"strength"`
+	Dexterity    int                                 `json:"dexterity"`
+	Constitution int                                 `json:"constitution"`
+	Intelligence int                                 `json:"intelligence"`
+	Wisdom       int                                 `json:"wisdom"`
+	Charisma     int                                 `json:"charisma"`
+	Luck         int                                 `json:"luck"`
+	Armor        int                                 `json:"armor"`
+	Skills       map[int]*skills.PlayerSkillProgress `json:"skills"`
+	IsKeeper     bool                                `json:"is_keeper"`
+	Inventory    []game.Object                       `json:"inventory"`
+	Equipment    map[string]game.Object              `json:"equipment"`
 }
 
 func LoadPlayer(dir string, name string) (*PlayerRecord, bool, error) {
@@ -87,49 +90,81 @@ func PlayerToRecord(p *game.Player) PlayerRecord {
 		}
 	}
 
+	inventoryCopy := make([]game.Object, 0, len(p.Inventory))
+	for _, item := range p.Inventory {
+		if item != nil {
+			inventoryCopy = append(inventoryCopy, *item)
+		}
+	}
+
+	equipmentCopy := map[string]game.Object{}
+	for slot, item := range p.Equipment {
+		if item != nil {
+			equipmentCopy[slot] = *item
+		}
+	}
+
 	return PlayerRecord{
-		Name:       p.Name,
-		Location:   p.Location,
-		Class:      p.Class,
-		Race:       p.Race,
-		Sex:        p.Sex,
-		HP:         p.HP,
-		MaxHP:      p.MaxHP,
-		Mana:       p.Mana,
-		MaxMana:    p.MaxMana,
-		Move:       p.Move,
-		MaxMove:    p.MaxMove,
-		Gold:       p.Gold,
-		Experience: p.Experience,
-		Attributes: p.Attributes,
-		Alignment:  p.Alignment,
-		Hitroll:    p.Hitroll,
-		Damroll:    p.Damroll,
-		Armor:      p.Armor,
-		Skills:     skillsCopy,
-		IsKeeper:   p.IsKeeper,
+		Name:         p.Name,
+		Location:     p.Location,
+		Race:         p.Race,
+		Sex:          p.Sex,
+		Hair:         p.Hair,
+		Eyes:         p.Eyes,
+		HP:           p.HP,
+		MaxHP:        p.MaxHP,
+		Mana:         p.Mana,
+		MaxMana:      p.MaxMana,
+		Gold:         p.Gold,
+		Strength:     p.Strength,
+		Dexterity:    p.Dexterity,
+		Constitution: p.Constitution,
+		Intelligence: p.Intelligence,
+		Wisdom:       p.Wisdom,
+		Charisma:     p.Charisma,
+		Luck:         p.Luck,
+		Armor:        p.Armor,
+		Skills:       skillsCopy,
+		IsKeeper:     p.IsKeeper,
+		Inventory:    inventoryCopy,
+		Equipment:    equipmentCopy,
 	}
 }
 
 // RecordToPlayer applies a PlayerRecord's data to a game.Player
 func RecordToPlayer(p *game.Player, r *PlayerRecord) {
 	p.Location = r.Location
-	p.Class = r.Class
 	p.Race = r.Race
 	p.Sex = r.Sex
+	p.Hair = r.Hair
+	p.Eyes = r.Eyes
 	p.HP = r.HP
 	p.MaxHP = r.MaxHP
 	p.Mana = r.Mana
 	p.MaxMana = r.MaxMana
-	p.Move = r.Move
-	p.MaxMove = r.MaxMove
 	p.Gold = r.Gold
-	p.Experience = r.Experience
-	p.Attributes = r.Attributes
-	p.Alignment = r.Alignment
-	p.Hitroll = r.Hitroll
-	p.Damroll = r.Damroll
+	p.Strength = r.Strength
+	p.Dexterity = r.Dexterity
+	p.Constitution = r.Constitution
+	p.Intelligence = r.Intelligence
+	p.Wisdom = r.Wisdom
+	p.Charisma = r.Charisma
+	p.Luck = r.Luck
 	p.Armor = r.Armor
 	p.Skills = r.Skills
 	p.IsKeeper = r.IsKeeper
+	if len(r.Inventory) > 0 {
+		p.Inventory = make([]*game.Object, 0, len(r.Inventory))
+		for _, item := range r.Inventory {
+			obj := item
+			p.Inventory = append(p.Inventory, &obj)
+		}
+	}
+	if len(r.Equipment) > 0 {
+		p.Equipment = make(map[string]*game.Object)
+		for slot, item := range r.Equipment {
+			obj := item
+			p.Equipment[slot] = &obj
+		}
+	}
 }

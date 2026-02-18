@@ -8,6 +8,24 @@ import (
 	"sort"
 )
 
+// RaceJSON represents a race definition in JSON format
+type RaceJSON struct {
+	Name       string `json:"name"`
+	RaceID     int    `json:"race_id"`
+	FlavorText string `json:"flavor_text"`
+	StrPlus    int    `json:"str_plus"`
+	DexPlus    int    `json:"dex_plus"`
+	ConPlus    int    `json:"con_plus"`
+	IntPlus    int    `json:"int_plus"`
+	WisPlus    int    `json:"wis_plus"`
+	ChaPlus    int    `json:"cha_plus"`
+	LckPlus    int    `json:"lck_plus"`
+	HPBonus    int    `json:"hp_bonus"`
+	ManaBonus  int    `json:"mana_bonus"`
+	HPRegen    int    `json:"hp_regen"`
+	ManaRegen  int    `json:"mana_regen"`
+}
+
 var (
 	racesByID   map[int]*RaceJSON
 	racesByName map[string]*RaceJSON

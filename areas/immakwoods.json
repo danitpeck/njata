@@ -14,8 +14,6 @@
         "south": 1435
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8007,
@@ -37,8 +35,6 @@
         "west": 8003
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -55,8 +51,6 @@
         "west": 8001
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8000,
@@ -64,7 +58,13 @@
           "room": 8002
         }
       ],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5005,
+          "count": 1,
+          "room": 8002
+        }
+      ]
     },
     "8003": {
       "vnum": 8003,
@@ -78,8 +78,6 @@
         "west": 8004
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8007,
@@ -100,8 +98,6 @@
         "south": 8005
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -116,8 +112,6 @@
         "south": 8006
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8005,
@@ -138,8 +132,6 @@
         "south": 8007
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8003,
@@ -167,8 +159,6 @@
         "west": 8023
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8005,
@@ -190,8 +180,6 @@
         "west": 8007
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -207,8 +195,6 @@
         "west": 8008
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -224,8 +210,6 @@
         "west": 8009
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8007,
@@ -247,8 +231,6 @@
         "west": 8016
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -264,8 +246,6 @@
         "west": 8015
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -280,8 +260,6 @@
         "west": 8014
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -297,8 +275,6 @@
         "west": 8019
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8003,
@@ -321,8 +297,6 @@
         "west": 8018
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8003,
@@ -346,8 +320,6 @@
         "west": 8017
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8005,
@@ -370,8 +342,6 @@
         "west": 8022
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8007,
@@ -394,8 +364,6 @@
         "west": 8021
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -411,8 +379,6 @@
         "west": 8020
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -430,8 +396,6 @@
       "exdescs": {
         "tombstone": "A large tombstone is here decaying over time."
       },
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8004,
@@ -454,8 +418,6 @@
         "west": 8025
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8003,
@@ -478,8 +440,6 @@
         "west": 8024
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -495,8 +455,6 @@
         "west": 8030
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -513,8 +471,6 @@
         "west": 8029
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -531,8 +487,6 @@
         "west": 8028
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -548,8 +502,6 @@
         "west": 8027
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8003,
@@ -571,8 +523,6 @@
         "west": 8034
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -589,8 +539,6 @@
         "west": 8033
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8005,
@@ -613,8 +561,6 @@
         "west": 8032
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -630,8 +576,6 @@
         "west": 8031
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -646,8 +590,6 @@
         "south": 8032
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -664,8 +606,6 @@
         "south": 8033
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -681,8 +621,6 @@
         "south": 8034
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -697,8 +635,6 @@
         "north": 8033
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -715,8 +651,6 @@
         "up": 8032
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -731,8 +665,6 @@
         "up": 8035
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -753,8 +685,6 @@
         "up": 8036
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -775,8 +705,6 @@
         "west": 8039
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -797,8 +725,6 @@
         "west": 8040
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -819,8 +745,6 @@
         "south": 8041
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -835,8 +759,6 @@
         "south": 8042
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -857,8 +779,6 @@
         "south": 8043
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -886,8 +806,6 @@
         "west": 8044
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -907,8 +825,6 @@
         "east": 8043
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -928,8 +844,6 @@
         "north": 8043
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8020,
@@ -952,8 +866,6 @@
         "west": 8043
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -968,8 +880,6 @@
         "west": 8046
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -995,8 +905,6 @@
         "north": 8047
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1022,8 +930,6 @@
         "west": 8048
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1044,8 +950,6 @@
         "up": 8049
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1060,8 +964,6 @@
         "south": 8050
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1076,8 +978,6 @@
         "south": 8051
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1098,8 +998,6 @@
         "south": 8052
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1120,8 +1018,6 @@
         "west": 8053
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1142,8 +1038,6 @@
         "west": 8054
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1164,8 +1058,6 @@
         "south": 8057
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1187,8 +1079,6 @@
         "south": 8059
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1208,8 +1098,6 @@
         "west": 8057
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1230,8 +1118,6 @@
         "north": 8057
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8021,
@@ -1259,8 +1145,6 @@
         "up": 8059
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1275,8 +1159,6 @@
         "south": 8062
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1298,8 +1180,6 @@
         "west": 8064
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1320,8 +1200,6 @@
         "west": 8065
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1341,8 +1219,6 @@
         "east": 8062
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1363,8 +1239,6 @@
         "west": 8066
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1385,8 +1259,6 @@
         "south": 8067
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1412,8 +1284,6 @@
         "west": 8069
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1427,8 +1297,6 @@
         "west": 8067
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8023,
@@ -1448,8 +1316,6 @@
         "east": 8067
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8023,
@@ -1469,8 +1335,6 @@
         "north": 8067
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8023,
@@ -1497,8 +1361,6 @@
         "west": 8077
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1512,8 +1374,6 @@
         "up": 8071
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8024,
@@ -1533,8 +1393,6 @@
         "up": 8002
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8001,
@@ -1554,8 +1412,6 @@
         "south": 8071
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1575,8 +1431,6 @@
         "north": 8071
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1596,8 +1450,6 @@
         "west": 8071
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1617,8 +1469,6 @@
         "east": 8071
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8022,
@@ -1639,8 +1489,6 @@
         "south": 8003
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1657,8 +1505,6 @@
         "west": 8090
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8007,
@@ -1679,8 +1525,6 @@
         "west": 8079
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1695,8 +1539,6 @@
         "west": 8080
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1711,8 +1553,6 @@
         "west": 8081
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1727,8 +1567,6 @@
         "south": 8082
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1743,8 +1581,6 @@
         "south": 8083
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1760,8 +1596,6 @@
         "south": 8084
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8006,
@@ -1782,8 +1616,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8010,
@@ -1806,8 +1638,6 @@
         "south": 8079
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1824,8 +1654,6 @@
         "south": 8087
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1842,8 +1670,6 @@
         "south": 8088
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1860,8 +1686,6 @@
         "north": 8091
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1877,8 +1701,6 @@
         "south": 8090
       },
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8030,
@@ -1904,8 +1726,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Immak Woods",
-      "area_author": "Shadwen",
       "mobile_resets": [
         {
           "vnum": 8099,

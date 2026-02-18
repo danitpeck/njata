@@ -30,9 +30,9 @@ func TestLoadSpells(t *testing.T) {
 		t.Fatal("Expected spells to be loaded, got none")
 	}
 
-	// We expect exactly 8 MVP spells
-	if len(spells) != 8 {
-		t.Errorf("Expected 8 spells, got %d", len(spells))
+	// We expect 8 MVP spells + 1 Slash ability
+	if len(spells) != 9 {
+		t.Errorf("Expected 9 spells, got %d", len(spells))
 	}
 }
 
@@ -86,8 +86,8 @@ func TestGetSpellByName(t *testing.T) {
 		shouldExist bool
 	}{
 		{"arcane bolt", 1001, true},
-		{"Arcane Bolt", 1001, true},        // Case insensitive
-		{"ARCANE BOLT", 1001, true},        // Case insensitive
+		{"Arcane Bolt", 1001, true}, // Case insensitive
+		{"ARCANE BOLT", 1001, true}, // Case insensitive
 		{"leviathan's fire", 1002, true},
 		{"mend", 1003, true},
 		{"nonexistent spell", 0, false},
@@ -275,8 +275,8 @@ func TestAllSpells(t *testing.T) {
 	}
 
 	spells := AllSpells()
-	if len(spells) != 8 {
-		t.Errorf("Expected 8 spells, got %d", len(spells))
+	if len(spells) != 9 {
+		t.Errorf("Expected 9 spells, got %d", len(spells))
 	}
 
 	// Verify we can iterate through all spells
@@ -291,8 +291,8 @@ func TestAllSpells(t *testing.T) {
 		spellCount++
 	}
 
-	if spellCount != 8 {
-		t.Errorf("Expected 8 spells in iteration, got %d", spellCount)
+	if spellCount != 9 {
+		t.Errorf("Expected 9 spells in iteration, got %d", spellCount)
 	}
 }
 

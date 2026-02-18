@@ -18,6 +18,15 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("say", cmdSay)
 	registry.Register("who", cmdWho)
 	registry.Register("stats", cmdStats)
+	registry.Register("inventory", cmdInventory)
+	registry.Register("inv", cmdInventory)
+	registry.Register("equipment", cmdEquipment)
+	registry.Register("wear", cmdWear)
+	registry.Register("remove", cmdRemove)
+	registry.Register("get", cmdGet)
+	registry.Register("drop", cmdDrop)
+	registry.Register("hair", cmdHair)
+	registry.Register("eyes", cmdEyes)
 	registry.Register("exits", cmdExits)
 	registry.Register("autoexits", cmdAutoexits)
 	registry.Register("astat", cmdAstat)
@@ -77,6 +86,31 @@ func cmdLook(ctx Context, args string) {
 			keyword = strings.TrimSpace(trimmed[3:])
 		}
 
+		if strings.EqualFold(keyword, "me") || strings.EqualFold(keyword, "self") {
+			writePlayerLook(ctx.Output, ctx.Player)
+			return
+		}
+
+		if target, ok := ctx.World.FindPlayerInRoom(ctx.Player, keyword); ok {
+			writePlayerLook(ctx.Output, target)
+			return
+		}
+
+		if mob, ok := ctx.World.FindMobInRoom(ctx.Player, keyword); ok {
+			ctx.Output.WriteLine(mob.Long)
+			return
+		}
+
+		if obj, ok := ctx.World.FindObjectInRoom(ctx.Player, keyword); ok {
+			ctx.Output.WriteLine(obj.Long)
+			return
+		}
+
+		if obj, ok := ctx.World.FindObjectInInventory(ctx.Player, keyword); ok {
+			ctx.Output.WriteLine(obj.Long)
+			return
+		}
+
 		if desc, ok := ctx.World.FindRoomExDesc(ctx.Player, keyword); ok {
 			ctx.Output.WriteLine(desc)
 			return
@@ -93,6 +127,24 @@ func cmdLook(ctx Context, args string) {
 	}
 
 	DisplayRoomView(ctx.Output, view, ctx.Player.AutoExits)
+}
+
+func writePlayerLook(output game.Output, target *game.Player) {
+	name := game.CapitalizeName(target.Name)
+	output.WriteLine(fmt.Sprintf("You see %s.", name))
+
+	hair := target.Hair
+	if hair == "" {
+		hair = "(none)"
+	}
+
+	eyes := target.Eyes
+	if eyes == "" {
+		eyes = "(none)"
+	}
+
+	output.WriteLine(fmt.Sprintf("Hair: %s", hair))
+	output.WriteLine(fmt.Sprintf("Eyes: %s", eyes))
 }
 
 func cmdSay(ctx Context, args string) {
@@ -126,17 +178,563 @@ func cmdStats(ctx Context, args string) {
 
 	ctx.Output.WriteLine(fmt.Sprintf("Race: %s | Sex: %s", raceName, sexName))
 	ctx.Output.WriteLine("")
-	ctx.Output.WriteLine(fmt.Sprintf("HP:    %d/%d | Mana: %d/%d | Move: %d/%d", p.HP, p.MaxHP, p.Mana, p.MaxMana, p.Move, p.MaxMove))
-	ctx.Output.WriteLine(fmt.Sprintf("Experience: %d | Gold: %d", p.Experience, p.Gold))
+	ctx.Output.WriteLine(fmt.Sprintf("HP:    %d/%d | Mana: %d/%d", p.HP, p.MaxHP, p.Mana, p.MaxMana))
+	ctx.Output.WriteLine(fmt.Sprintf("Gold: %d", p.Gold))
 	ctx.Output.WriteLine("")
 
-	attrNames := []string{"STR", "INT", "WIS", "DEX", "CON", "LCK", "CHM"}
-	for i, name := range attrNames {
-		ctx.Output.WriteLine(fmt.Sprintf("%s: %2d", name, p.Attributes[i]))
+	ctx.Output.WriteLine(fmt.Sprintf("STR: %2d | DEX: %2d | CON: %2d", p.Strength, p.Dexterity, p.Constitution))
+	ctx.Output.WriteLine(fmt.Sprintf("INT: %2d | WIS: %2d | CHA: %2d | LCK: %2d", p.Intelligence, p.Wisdom, p.Charisma, p.Luck))
+
+	ctx.Output.WriteLine("")
+	ctx.Output.WriteLine(fmt.Sprintf("Armor: %d", p.Armor))
+}
+
+func cmdInventory(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to view inventory.")
+		return
 	}
 
-	ctx.Output.WriteLine("")
-	ctx.Output.WriteLine(fmt.Sprintf("Alignment: %d | Hitroll: %d | Damroll: %d | Armor: %d", p.Alignment, p.Hitroll, p.Damroll, p.Armor))
+	if len(ctx.Player.Inventory) == 0 {
+		ctx.Output.WriteLine("You are carrying nothing.")
+		return
+	}
+
+	ctx.Output.WriteLine("You are carrying:")
+	for _, item := range ctx.Player.Inventory {
+		if item == nil {
+			continue
+		}
+		label := item.Short
+		if label == "" {
+			label = "something"
+		}
+		ctx.Output.WriteLine("  " + label)
+	}
+}
+
+func cmdEquipment(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to view equipment.")
+		return
+	}
+
+	equipment := ctx.World.EquipmentSnapshot(ctx.Player)
+	itemCount := 0
+	for _, obj := range equipment {
+		if obj != nil {
+			itemCount++
+		}
+	}
+	if itemCount == 0 {
+		ctx.Output.WriteLine("You are wearing nothing.")
+		return
+	}
+
+	ctx.Output.WriteLine("You are wearing:")
+	for _, slot := range game.EquipSlotOrder {
+		obj := equipment[slot]
+		if obj == nil {
+			continue
+		}
+		label := obj.Short
+		if label == "" {
+			label = "something"
+		}
+		ctx.Output.WriteLine(fmt.Sprintf("  %-5s %s", slot+":", label))
+	}
+}
+
+func cmdWear(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to wear items.")
+		return
+	}
+
+	trimmed := strings.TrimSpace(args)
+	if strings.EqualFold(trimmed, "all") {
+		items := append([]*game.Object(nil), ctx.Player.Inventory...)
+		worn := 0
+		for _, obj := range items {
+			if obj == nil {
+				continue
+			}
+			slot, ok := resolveEquipSlot(obj, "")
+			if !ok {
+				continue
+			}
+			equipment := ctx.World.EquipmentSnapshot(ctx.Player)
+			if equipment[slot] != nil {
+				continue
+			}
+			if ctx.World.EquipObject(ctx.Player, obj, slot) {
+				// Apply armor bonus
+				if obj.ArmorVal != 0 {
+					ctx.Player.Armor += obj.ArmorVal
+				}
+				label := obj.Short
+				if label == "" {
+					label = "something"
+				}
+				ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+				worn++
+			}
+		}
+		if worn == 0 {
+			ctx.Output.WriteLine("You have nothing you can wear.")
+			return
+		}
+		return
+	}
+
+	fields := strings.Fields(trimmed)
+	if len(fields) == 0 {
+		ctx.Output.WriteLine("Wear what?")
+		return
+	}
+
+	keyword := fields[0]
+	var slotOverride string
+	if len(fields) > 1 {
+		slotOverride = fields[1]
+	}
+
+	obj, found := ctx.World.FindObjectInInventory(ctx.Player, keyword)
+	if !found {
+		ctx.Output.WriteLine("You aren't carrying that.")
+		return
+	}
+
+	slot, ok := resolveEquipSlot(obj, slotOverride)
+	if !ok {
+		ctx.Output.WriteLine("You can't wear that.")
+		return
+	}
+
+	equipment := ctx.World.EquipmentSnapshot(ctx.Player)
+	if equipment[slot] != nil {
+		ctx.Output.WriteLine(fmt.Sprintf("You are already wearing something on your %s.", slot))
+		return
+	}
+
+	if !ctx.World.EquipObject(ctx.Player, obj, slot) {
+		ctx.Output.WriteLine("You can't wear that.")
+		return
+	}
+
+	// Apply armor bonus
+	if obj.ArmorVal != 0 {
+		ctx.Player.Armor += obj.ArmorVal
+	}
+
+	label := obj.Short
+	if label == "" {
+		label = "something"
+	}
+	ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+}
+
+func cmdRemove(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to remove items.")
+		return
+	}
+
+	trimmed := strings.TrimSpace(args)
+	if strings.EqualFold(trimmed, "all") {
+		removed := 0
+		for _, slot := range game.EquipSlotOrder {
+			obj, ok := ctx.World.UnequipObject(ctx.Player, slot)
+			if !ok {
+				continue
+			}
+			// Remove armor bonus
+			if obj.ArmorVal != 0 {
+				ctx.Player.Armor -= obj.ArmorVal
+			}
+			label := obj.Short
+			if label == "" {
+				label = "something"
+			}
+			ctx.Output.WriteLine(fmt.Sprintf("You remove %s from your %s.", label, slot))
+			removed++
+		}
+		if removed == 0 {
+			ctx.Output.WriteLine("You are wearing nothing.")
+			return
+		}
+		return
+	}
+
+	fields := strings.Fields(trimmed)
+	if len(fields) == 0 {
+		ctx.Output.WriteLine("Remove what?")
+		return
+	}
+
+	keyword := fields[0]
+	if slot, ok := normalizeEquipSlot(keyword); ok {
+		obj, ok := ctx.World.UnequipObject(ctx.Player, slot)
+		if !ok {
+			ctx.Output.WriteLine(fmt.Sprintf("You are not wearing anything on your %s.", slot))
+			return
+		}
+		// Remove armor bonus
+		if obj.ArmorVal != 0 {
+			ctx.Player.Armor -= obj.ArmorVal
+		}
+		label := obj.Short
+		if label == "" {
+			label = "something"
+		}
+		ctx.Output.WriteLine(fmt.Sprintf("You remove %s from your %s.", label, slot))
+		return
+	}
+
+	obj, found := ctx.World.FindObjectInEquipment(ctx.Player, keyword)
+	if !found {
+		ctx.Output.WriteLine("You are not wearing that.")
+		return
+	}
+
+	slot, ok := ctx.World.FindEquippedSlot(ctx.Player, obj)
+	if !ok {
+		ctx.Output.WriteLine("You are not wearing that.")
+		return
+	}
+
+	if _, ok := ctx.World.UnequipObject(ctx.Player, slot); !ok {
+		ctx.Output.WriteLine("You are not wearing that.")
+		return
+	}
+
+	// Remove armor bonus
+	if obj.ArmorVal != 0 {
+		ctx.Player.Armor -= obj.ArmorVal
+	}
+
+	label := obj.Short
+	if label == "" {
+		label = "something"
+	}
+	ctx.Output.WriteLine(fmt.Sprintf("You remove %s from your %s.", label, slot))
+}
+
+func normalizeEquipSlot(slot string) (string, bool) {
+	trimmed := strings.ToLower(strings.TrimSpace(slot))
+	if trimmed == "" {
+		return "", false
+	}
+
+	switch trimmed {
+	case game.EquipHead:
+		return game.EquipHead, true
+	case game.EquipBody:
+		return game.EquipBody, true
+	case game.EquipNeck:
+		return game.EquipNeck, true
+	case game.EquipBack:
+		return game.EquipBack, true
+	case game.EquipWaist:
+		return game.EquipWaist, true
+	default:
+		return "", false
+	}
+}
+
+func resolveEquipSlot(obj *game.Object, slotOverride string) (string, bool) {
+	if obj == nil {
+		return "", false
+	}
+
+	objType := strings.ToLower(strings.TrimSpace(obj.Type))
+	if objType != "armor" && objType != "_worn" {
+		return "", false
+	}
+
+	// Prefer explicit equip_slot field if set
+	var slotToUse string
+	if obj.EquipSlot != "" {
+		slotToUse = obj.EquipSlot
+	} else {
+		slotToUse = inferEquipSlot(obj)
+	}
+
+	if slotOverride == "" {
+		return slotToUse, true
+	}
+
+	slot, ok := normalizeEquipSlot(slotOverride)
+	if !ok {
+		return "", false
+	}
+
+	if slot != slotToUse {
+		return "", false
+	}
+
+	return slot, true
+}
+
+func inferEquipSlot(obj *game.Object) string {
+	if obj == nil {
+		return game.EquipBody
+	}
+
+	if objectHasAnyKeyword(obj, []string{"helm", "helmet", "hat", "cap", "hood", "mask", "crown", "circlet", "tiara", "coif", "bonnet", "earmuff", "earmuffs", "glasses", "goggles"}) {
+		return game.EquipHead
+	}
+	if objectHasAnyKeyword(obj, []string{"neck", "necklace", "amulet", "pendant", "torc", "choker", "collar", "gorget", "scarf"}) {
+		return game.EquipNeck
+	}
+	if objectHasAnyKeyword(obj, []string{"cloak", "cape", "back", "mantle", "shawl", "poncho"}) {
+		return game.EquipBack
+	}
+	if objectHasAnyKeyword(obj, []string{"belt", "waist", "girdle", "sash", "cincture"}) {
+		return game.EquipWaist
+	}
+
+	return game.EquipBody
+}
+
+func objectHasAnyKeyword(obj *game.Object, keywords []string) bool {
+	if obj == nil {
+		return false
+	}
+
+	shortText := strings.ToLower(obj.Short)
+	for _, keyword := range keywords {
+		key := strings.ToLower(keyword)
+		for _, objKeyword := range obj.Keywords {
+			if strings.Contains(strings.ToLower(objKeyword), key) {
+				return true
+			}
+		}
+		if strings.Contains(shortText, key) {
+			return true
+		}
+	}
+
+	return false
+}
+
+func objectMatchesKeyword(obj *game.Object, keyword string) bool {
+	if obj == nil {
+		return false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return false
+	}
+
+	for _, objKeyword := range obj.Keywords {
+		if strings.ToLower(objKeyword) == key {
+			return true
+		}
+	}
+
+	return strings.Contains(strings.ToLower(obj.Short), key)
+}
+
+func cmdGet(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to get items.")
+		return
+	}
+
+	keyword := strings.TrimSpace(args)
+	if keyword == "" {
+		ctx.Output.WriteLine("Get what?")
+		return
+	}
+
+	lower := strings.ToLower(keyword)
+	if lower == "all" || strings.HasPrefix(lower, "all ") || strings.HasPrefix(lower, "all.") {
+		filter := ""
+		if lower != "all" {
+			filter = strings.TrimSpace(keyword[4:])
+		}
+
+		objects := ctx.World.RoomObjectsSnapshot(ctx.Player)
+		picked := 0
+		for _, obj := range objects {
+			if obj == nil {
+				continue
+			}
+			if filter != "" && !objectMatchesKeyword(obj, filter) {
+				continue
+			}
+			if obj.Flags != nil && (obj.Flags["notake"] || obj.Flags["no_take"]) {
+				continue
+			}
+			if obj.Type == "fountain" || obj.Type == "furniture" {
+				continue
+			}
+			if !ctx.World.RemoveObjectFromRoom(ctx.Player, obj) {
+				continue
+			}
+			ctx.World.AddObjectToInventory(ctx.Player, obj)
+			label := obj.Short
+			if label == "" {
+				label = "something"
+			}
+			ctx.Output.WriteLine(fmt.Sprintf("You pick up %s.", label))
+			picked++
+		}
+
+		if picked == 0 {
+			ctx.Output.WriteLine("You see nothing here.")
+		}
+		return
+	}
+
+	obj, found := ctx.World.FindObjectInRoom(ctx.Player, keyword)
+	if !found {
+		ctx.Output.WriteLine("You don't see that here.")
+		return
+	}
+
+	if obj.Flags != nil && (obj.Flags["notake"] || obj.Flags["no_take"]) {
+		ctx.Output.WriteLine("You can't take that.")
+		return
+	}
+
+	if obj.Type == "fountain" || obj.Type == "furniture" {
+		ctx.Output.WriteLine("You can't take that.")
+		return
+	}
+
+	if !ctx.World.RemoveObjectFromRoom(ctx.Player, obj) {
+		ctx.Output.WriteLine("You can't take that.")
+		return
+	}
+
+	ctx.World.AddObjectToInventory(ctx.Player, obj)
+	label := obj.Short
+	if label == "" {
+		label = "something"
+	}
+	ctx.Output.WriteLine(fmt.Sprintf("You pick up %s.", label))
+}
+
+func cmdDrop(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to drop items.")
+		return
+	}
+
+	keyword := strings.TrimSpace(args)
+	if keyword == "" {
+		ctx.Output.WriteLine("Drop what?")
+		return
+	}
+
+	lower := strings.ToLower(keyword)
+	if lower == "all" || strings.HasPrefix(lower, "all ") || strings.HasPrefix(lower, "all.") {
+		filter := ""
+		if lower != "all" {
+			filter = strings.TrimSpace(keyword[4:])
+		}
+
+		items := append([]*game.Object(nil), ctx.Player.Inventory...)
+		dropped := 0
+		for _, obj := range items {
+			if obj == nil {
+				continue
+			}
+			if filter != "" && !objectMatchesKeyword(obj, filter) {
+				continue
+			}
+			if !ctx.World.RemoveObjectFromInventory(ctx.Player, obj) {
+				continue
+			}
+			ctx.World.AddObjectToRoom(ctx.Player, obj)
+			label := obj.Short
+			if label == "" {
+				label = "something"
+			}
+			ctx.Output.WriteLine(fmt.Sprintf("You drop %s.", label))
+			dropped++
+		}
+
+		if dropped == 0 {
+			ctx.Output.WriteLine("You are carrying nothing.")
+		}
+		return
+	}
+
+	obj, found := ctx.World.FindObjectInInventory(ctx.Player, keyword)
+	if !found {
+		ctx.Output.WriteLine("You aren't carrying that.")
+		return
+	}
+
+	if !ctx.World.RemoveObjectFromInventory(ctx.Player, obj) {
+		ctx.Output.WriteLine("You can't drop that.")
+		return
+	}
+
+	ctx.World.AddObjectToRoom(ctx.Player, obj)
+	label := obj.Short
+	if label == "" {
+		label = "something"
+	}
+	ctx.Output.WriteLine(fmt.Sprintf("You drop %s.", label))
+}
+
+func cmdHair(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to set your hair description.")
+		return
+	}
+
+	trimmed := strings.TrimSpace(args)
+	if trimmed == "" {
+		if ctx.Player.Hair != "" {
+			ctx.Output.WriteLine(fmt.Sprintf("Your hair description is: %s", ctx.Player.Hair))
+		} else {
+			ctx.Output.WriteLine("You have no hair description.")
+		}
+		return
+	}
+
+	if strings.EqualFold(trimmed, "clear") {
+		ctx.Player.Hair = ""
+		ctx.Output.WriteLine("Hair description cleared.")
+		return
+	}
+
+	trimmed = strings.ReplaceAll(trimmed, "~", "")
+	ctx.Player.Hair = trimmed
+	ctx.Output.WriteLine(fmt.Sprintf("Your hair description is: %s", ctx.Player.Hair))
+}
+
+func cmdEyes(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to set your eyes description.")
+		return
+	}
+
+	trimmed := strings.TrimSpace(args)
+	if trimmed == "" {
+		if ctx.Player.Eyes != "" {
+			ctx.Output.WriteLine(fmt.Sprintf("Your eyes description is: %s", ctx.Player.Eyes))
+		} else {
+			ctx.Output.WriteLine("You have no eyes description.")
+		}
+		return
+	}
+
+	if strings.EqualFold(trimmed, "clear") {
+		ctx.Player.Eyes = ""
+		ctx.Output.WriteLine("Eyes description cleared.")
+		return
+	}
+
+	trimmed = strings.ReplaceAll(trimmed, "~", "")
+	ctx.Player.Eyes = trimmed
+	ctx.Output.WriteLine(fmt.Sprintf("Your eyes description is: %s", ctx.Player.Eyes))
 }
 
 func cmdAbilities(ctx Context, args string) {
@@ -313,7 +911,7 @@ func cmdCast(ctx Context, args string) {
 		}
 
 		// Add attribute bonus (INT for spells)
-		intBonus := p.Attributes[1] / 2 // INT is index 1
+		intBonus := p.Intelligence / 2 // INT bonus
 		totalDamage = baseDamage + intBonus
 
 		// Add proficiency scaling
@@ -435,7 +1033,7 @@ func cmdSlash(ctx Context, args string) {
 	// Calculate damage: 1d6 + STR/2
 	// Damage formula from spell.Effects.Damage: "1d6 + S/2"
 	baseDamage := rollDice("1d6")
-	strBonus := p.Attributes[0] / 2 // STR is index 0
+	strBonus := p.Strength / 2 // STR bonus
 	totalDamage := baseDamage + strBonus
 
 	// Apply proficiency scaling (higher proficiency = more consistent/higher damage)
@@ -787,10 +1385,9 @@ func cmdRestore(ctx Context, args string) {
 
 	ctx.Player.HP = ctx.Player.MaxHP
 	ctx.Player.Mana = ctx.Player.MaxMana
-	ctx.Player.Move = ctx.Player.MaxMove
 
-	ctx.Output.WriteLine(fmt.Sprintf("&G✓ Restored to full HP, Mana, and Move!&w"))
-	ctx.Output.WriteLine(fmt.Sprintf("HP: %d/%d | Mana: %d/%d | Move: %d/%d", ctx.Player.HP, ctx.Player.MaxHP, ctx.Player.Mana, ctx.Player.MaxMana, ctx.Player.Move, ctx.Player.MaxMove))
+	ctx.Output.WriteLine(fmt.Sprintf("&G✓ Restored to full HP and Mana!&w"))
+	ctx.Output.WriteLine(fmt.Sprintf("HP: %d/%d | Mana: %d/%d", ctx.Player.HP, ctx.Player.MaxHP, ctx.Player.Mana, ctx.Player.MaxMana))
 }
 
 func cmdHelp(ctx Context, args string) {

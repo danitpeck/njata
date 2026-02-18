@@ -19,8 +19,6 @@
       "exdescs": {
         "desc_night": "The great walls of the City of Phatep stand to the north of here,\na black shape against the blacker darkness of the night. Warmly\nglowing lights illuminate the tops of the walls, where guards patrol\nnight and day, watching the surrounding lands for signs of danger.\nTwo tall towers topped with minarets frame the wide, strong-looking\ngates and soft, pale moonlight bathes the town in a pearl-like glow.\nTo the south, east and west stretches the endless sands of the Great\nDesert. The normally golden sands are now a gentle silver, like a sea\nof molten metal. To the far east, the Kithan mountains are framed\nagainst the starry sky like powerful black sentinels, watching over\nthe desert and the city."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -40,8 +38,6 @@
       "exdescs": {
         "desc_night": "This is the edge of the Great Haranian Desert, a vast area that covers\nmuch of the Haran region. The sweeping dunes of sand that expand out\nfrom here to the west, south and east, look strangely surreal in the\npearly glow of the moon, like a smooth, endless carpet of silver. In\nthe distance to the east, framed against the starry night sky are the\nKithan Mountains. To the north is the southern wall of the City of\nPhatep. The thick wooden gates of the city can be reached by travelling\nwest and north from here."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -61,8 +57,6 @@
       "exdescs": {
         "desc_night": "Torches burn brightly from sconces at the top of the massive walls\nof Phatep that run east and west from here around the city. The\nflickering yellow lights do little to banish the darkness of the\nnight, but the do help to highlight the numerous guards that patrol\nthe top of the wall throughout the night. The Great desert extends\nsouth, away from the wall. Moonlight illuminates only a small part,\nbut even without the benefit of sight, it is obvious that the\ndesert is huge. Some way east of here, the black outline of the\nKithan Mountains can be seen, silhouetted against the starlit sky."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -82,8 +76,6 @@
       "exdescs": {
         "desc_night": "Soft, pale moonlight slants down from the night sky, surrounding a\nsmall grove of young date trees nearby in a pearly, silver glow. The\ntrees stand close the high, thick walls of Phatep just north of here.\nLanterns hang from the top of the wall, bathing the smooth stone in\nan inviting yellow glow. The walls runs a short distance to the east\nin the direction of the Kithan Mountain range that stands against the\nstarry backdrop of the sky some distance east, and west, towards the\ngates of the city."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31009,
@@ -108,8 +100,6 @@
       "exdescs": {
         "desc_night": "A huge, circular tower topped with a crystal minaret forms the\nsoutheastern corner of the City of Phatep. Torches are hung from\nvarious levels on the tower but cast little light into the surrounding\ndarkness of the desert. The walls of the city run north and west from\nthe tower towards the north and west gates respectively. In all other\ndirections lies the Great Haran Desert, a vast expanse of golden sand\nthat stretches from Phatep, south to the Shagrim Hills."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -129,8 +119,6 @@
       "exdescs": {
         "desc_night": "Moonlight casts a wan, silvery glow over the vast, seemingly endless\nsands of the Great Haranian desert that stretch out into the horizon\nto the south, east and west. Almost directly north from here is the\nhigh walls of the City of Phatep. The walls are broad and thick and\nare broken at intervals by tall towers topped with sparkling minarets.\nThe soft moonlight sparkles on the pointed domes, making them gleam\nlike diamonds in the night. The gates to the city can be reached by\ntravelling east and north from this point."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -150,8 +138,6 @@
       "exdescs": {
         "desc_night": "The darkness of the night makes the golden, endless sands that stretch\naway east, south and west, seem almost eerie. The moon casts its pale,\nwan glow over everything, adding to the surreal quality of the surrounding.\nA small bunch of palm trees stand beneath the great wall of Phatep that\nis standing to the north. The trees shift in the breeze, creaking\nominously. The wall extends east, past two tall towers that mark the\ngates of Phatep, and on around the rest of the city, and west."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -171,8 +157,6 @@
       "exdescs": {
         "desc_night": "It is difficult to see in the near total darkness of the night, but\ntorches attached to scones at the top of the Phatep city walls to the\nnorth, provide dim circles of light. The pearly glow of the moon adds\nsome small illumination, but it is a surreal light, making the sands\nof the desert that stretch away to the east, west and south seem even\nmore beautiful and awe-inspiring than it is during the day."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -192,8 +176,6 @@
       "exdescs": {
         "desc_night": "The sand shimmers with a pearl-like radience and a soft, metalic\nquality in the pale glow of the moon. The silence of the desert that\nexpands to the east and south is broken only by the soft slithering\nof the sand as it shifts and settles in new positions. The huge walls\nof Phatep stand to the north, and run east and north from a circular\ntower that forms the southwestern corner of the city. To the west,\nbeyond the edge of Phatep, the sandy desert gives way to jagged rocks\nthat stick up from the ground and make travel difficult."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -217,8 +199,6 @@
         "west": 31111
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31034,
@@ -248,8 +228,6 @@
         "west": 31009
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -270,8 +248,6 @@
         "west": 31010
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -294,8 +270,6 @@
         "west": 31011
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -319,8 +293,6 @@
         "west": 31112
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -344,8 +316,6 @@
         "west": 31013
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -368,8 +338,6 @@
         "west": 31014
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31005,
@@ -399,8 +367,6 @@
         "west": 31015
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -421,8 +387,6 @@
       "exdescs": {
         "desc_night": "Pale moonlight slants down, covering the golden sands of the desert\nin a soft, pearly radience. A tall tower rears up out of dunes of\nsand that have piled up high around the base. The stone seems to\nshimmer silver in the moonlight, as though made from metal instead\nof the rough stone. The broken, crumbling shell of a toppled minaret\nlies near to the tower, little more than a cracked shell. More\nruins lie to the east and west of the tower, while the seemingly\nendless Haranian desert extends out in all other directions."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31028,
@@ -450,8 +414,6 @@
       "exdescs": {
         "desc_night": "The ruins that lie scattered around this section of the desert seem\nsurreal in the dim, silvery glow of the moonlight. A soft haze covers\neverything, like a fine mist, and the sand slivers across the stonework\nas though alive. A huge stone head lies half submerged in the sand\nnearby. A single eye stares up from the sand, ghost-like and eerie in\nthe pearly radience cast by the moon. More ruins lie to the west of here\nwhile the Great Desert extends out in all other directions."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -470,8 +432,6 @@
       "exdescs": {
         "desc_night": "The silvery moonlight slants down from the night sky, bathing the\nscattered ruins that lie in various states of decay across this small\nsection of desert. Rough stone blocks, half buried in the sand, glow\nwith the soft, pearly radience of the moon. It is obvious that the\nruins have been here for a great many years; the stone is rough and\ncrumbling, and the desert sands have consumed many of the structures,\nburying them beneath heaped dunes. More ruines lie to the east, while\nsome way to the west, beyond a long, thin line of jagged rocks is the\nocean, glowing like a vast carpet of liquid silver in the moonlight."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -488,8 +448,6 @@
       "exdescs": {
         "desc_night": "An ancient stone courtyard pokes up through the sand, the smooth,\nsand-polished stone glowing softly in the ghost-like pearly glow of\nthe moon. A large archway, made from the same type of stone as the\nrest of the ruins, arches across the courtyard. It is a strange sight\nagainst the backdrop of the desert, made even more surreal in the\nmoonlight, which makes even the most mundane of things seem unusual.\nMore of the ruins lie to the northeast and north of here, while some\ndistance to the west, the vast expanse of the ocean can be seen."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -513,8 +471,6 @@
         "west": 31018
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -538,8 +494,6 @@
         "west": 31021
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -556,8 +510,6 @@
       "exdescs": {
         "desc_night": "A large, bustling, apparently permanent campsite has been set up here\non the edge of a series of crumbling ruins. The moonlight surrounds the\ncamp in a soft haze, shining of the soft canvas of the brightly coloured\ntents. The glow of a large fire can be seen in the main part of the camp\nto the south. A long wall blocks entrance to the ruins to the north, but\nit looks possible to gain access to the complex by way of a partly buried\ncourtyard that lies to the west."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31000,
@@ -582,8 +534,6 @@
       "exdescs": {
         "desc_night": "A number of torches stand outside the various camps, giving light\nto the camp during the dark hours. Even during the night, the camp\nis a hive of activity, and it seems as though the place is never silent.\nA large tent stands to the east. Moonlight shines on the smooth canvas,\ngiving it a beautiful silvery glow. A proud banner flutters from a pole\noutside the flap. The central portion of the camp is to the south, while\nthe main entrance is to the north."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31010,
@@ -613,8 +563,6 @@
       "exdescs": {
         "desc_night": "The slanted, silvery rays of moonlight cast a soft, pearly haze over\na nearby fenced enclosure containing a large herd of bleating goats.\nThe smell of animal droppings is excruciatingly strong, and seems to\nfill the air even when there is no breeze. The fence is made from the\npalm and date trees that dot certain parts of the desert, and in greater\nquantities the Shagrim Hills. A path has been cleared in the sand to\nthe east, leading between two tents into the heart of the Bendoumi\ncamp."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31004,
@@ -634,8 +582,6 @@
         "west": 31024
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31021,
@@ -659,8 +605,6 @@
       "exdescs": {
         "desc_night": "The moonlight slants down from the night sky, illuminating this central\npart of the Bendoumi camp with a soft, silver glow. A large, circular\nwell stands nearby, providing much needed water to the nomads, while\nall around are clustered various tents of bright colours. The entrance\nflaps to several of these tents can be reached to the north and south,\nwhile a small opening between two of them leads out of the camp to the\neast. A number of torches nearby provide much needed light to the camp."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31007,
@@ -690,8 +634,6 @@
       "exdescs": {
         "desc_night": "Moonlight slants down through the camp, highlighting two large tents\nthat stand to the east and west here. Banners outside the entrance\nflaps flutter proudly in the desert breeze. The central part of the\ncamp is to the north, where the circular stone outline of a well can\nbe seen, silhouetted in the silvery glow of the moon. Beyond the well,\nthe soft sound of bleating can be heard."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -706,8 +648,6 @@
         "south": 31068
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31003,
@@ -728,8 +668,6 @@
         "west": 31027
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -745,8 +683,6 @@
       "exdescs": {
         "divan": "This is a comfortable looking couch, plumped high with cushions and\nembroidered with sequined buttons."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31002,
@@ -766,8 +702,6 @@
         "east": 31028
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31001,
@@ -800,8 +734,6 @@
         "southeast": 31036
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -823,8 +755,6 @@
         "west": 31033
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -845,8 +775,6 @@
         "west": 31034
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -867,8 +795,6 @@
         "southeast": 31039
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -891,8 +817,6 @@
         "west": 31036
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -911,8 +835,6 @@
         "west": 31030
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -933,8 +855,6 @@
         "west": 31038
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -956,8 +876,6 @@
         "southwest": 31071
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -980,8 +898,6 @@
         "west": 31040
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1004,8 +920,6 @@
         "west": 31012
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1026,8 +940,6 @@
         "west": 31042
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1050,8 +962,6 @@
         "west": 31043
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1075,8 +985,6 @@
         "west": 31044
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1097,8 +1005,6 @@
         "west": 31045
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1121,8 +1027,6 @@
         "west": 31016
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1145,8 +1049,6 @@
         "west": 31047
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1169,8 +1071,6 @@
       "exdescs": {
         "desc_night": "Soft, tranquil moonlight bathes this small oasis in a silver glow,\nturning the peaceful waters into molten silver. It is quiet and serene\nhere and the only sound is the soft swish of the desert breeze through\nthe grass at the poolside, and the gentle tinkling of the waters against\nthe rock that overhangs the pool like a ledge. A single palm tree hangs\nover the water, swaying slightly in the breeze."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1191,8 +1091,6 @@
         "west": 31049
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1212,8 +1110,6 @@
         "west": 31050
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1234,8 +1130,6 @@
         "west": 31022
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1258,8 +1152,6 @@
         "west": 31052
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31006,
@@ -1288,8 +1180,6 @@
         "west": 31053
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1311,8 +1201,6 @@
         "west": 31054
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1329,8 +1217,6 @@
         "west": 31055
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1351,8 +1237,6 @@
         "west": 31035
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1376,8 +1260,6 @@
       "exdescs": {
         "rock": "The surface of the rock is marked and pitted from the constantly blowing wind of the\ndesert. The indentions look like they may make good hand or footholds should someone\nwant to try to climb to the top of the rock."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1398,8 +1280,6 @@
         "west": 31037
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1422,8 +1302,6 @@
         "west": 31039
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1442,8 +1320,6 @@
         "west": 31041
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1463,8 +1339,6 @@
         "west": 31058
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1482,8 +1356,6 @@
         "west": 31062
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1507,8 +1379,6 @@
         "west": 31059
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1527,8 +1397,6 @@
         "west": 31064
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1546,8 +1414,6 @@
         "west": 31060
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1563,8 +1429,6 @@
         "west": 31066
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31008,
@@ -1584,8 +1448,6 @@
         "north": 31029
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1599,8 +1461,6 @@
         "north": 31025
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1618,8 +1478,6 @@
         "southeast": 31077
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1640,8 +1498,6 @@
         "west": 31070
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1664,8 +1520,6 @@
         "west": 31071
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1685,8 +1539,6 @@
         "west": 31072
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1708,8 +1560,6 @@
         "west": 31073
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1727,8 +1577,6 @@
         "west": 31074
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1744,8 +1592,6 @@
         "west": 31075
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1764,8 +1610,6 @@
         "southeast": 31106
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1787,8 +1631,6 @@
         "west": 31077
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1811,8 +1653,6 @@
         "west": 31078
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1834,8 +1674,6 @@
         "west": 31079
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1855,8 +1693,6 @@
         "west": 31080
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1878,8 +1714,6 @@
         "west": 31081
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1900,8 +1734,6 @@
         "west": 31082
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1922,8 +1754,6 @@
         "west": 31083
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1941,8 +1771,6 @@
         "west": 31084
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1963,8 +1791,6 @@
         "west": 31109
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -1987,8 +1813,6 @@
         "west": 31086
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2012,8 +1836,6 @@
         "west": 31087
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2034,8 +1856,6 @@
         "west": 31088
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2058,8 +1878,6 @@
         "west": 31117
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2081,8 +1899,6 @@
         "west": 31090
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31011,
@@ -2106,8 +1922,6 @@
         "west": 31091
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2129,8 +1943,6 @@
         "rock": "Upon closer inspection of the rock columns, one of them appears\nto have a crack in its surface that could possibly be an\nentrance into the depths of the column.",
         "tall": "Upon closer inspection of the rock columns, one of them appears\nto have a crack in its surface that could possibly be an\nentrance into the depths of the column."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2151,8 +1963,6 @@
         "west": 31122
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2171,8 +1981,6 @@
       "exdescs": {
         "desc_night": "Flickering torches cast dancing shadows across the dark backs of nearby\ntents that form a small camp to the east. The sand has been cleared away\nto form a crude path leading into the camp, and soft moonlight help\nilluminate the thick, heavy slabs that have been lain. A banner that has\nbeen atached to a pole and stuck in the ground flutters in the desert\nbreeze. It is not possible in the dark to see what, if anything, is\nprinted on the banner."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31015,
@@ -2196,8 +2004,6 @@
       "exdescs": {
         "desc_night": "The dark shadow of a large yurt stands to the east. Moonlight slants\ndown between broken clouds, illuminating the semi-permanent structure\nagainst the dark backdrop of the desert. It is made from a wooden frame\nwith skins stretched over it and hardened. The main part of the Alari\ncamp is to the south, where a number of tents are clustered around a\ncentral gathering area. The desert is to the west."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2211,8 +2017,6 @@
         "west": 31096
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31016,
@@ -2243,8 +2047,6 @@
       "exdescs": {
         "desc_night": "Moonlight breaks through the thin layer of clouds in the dark sky and\nsends shafts of silvery light down to illuminate this central portion\nof the Alari camps. Tents and the semi-permanent yurts stand in a loose\ncluster all around here. The biggest is to the south, and stands as a\ndark outline against the dark backdrop of the desert. Another tent flap\nis to the east. The camp extends further west, in the direction of an\noasis, while the entrance to the camp is to the north."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31019,
@@ -2275,8 +2077,6 @@
         "west": 31098
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31012,
@@ -2310,8 +2110,6 @@
       "exdescs": {
         "desc_night": "Away from the main part of the camp, it is dark and there are only a\nfew shafts of eerie, silver moonlight to illuminate the area. A large\ntent stands to the south of here and dim yellow lanterns hang outside\nthe flap, casting dancing shadows across the canvas walls. There is an\noasis to the west and main part of the Alari camp is to the east."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2325,8 +2123,6 @@
         "north": 31098
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31017,
@@ -2352,8 +2148,6 @@
         "north": 31100
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31020,
@@ -2375,8 +2169,6 @@
         "west": 31128
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2393,8 +2185,6 @@
         "west": 31136
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -2426,8 +2216,6 @@
         "southeast": 31114
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2450,8 +2238,6 @@
         "west": 31105
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2472,8 +2258,6 @@
         "west": 31106
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2497,8 +2281,6 @@
         "west": 31107
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2521,8 +2303,6 @@
         "west": 31108
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2540,8 +2320,6 @@
       "exdescs": {
         "desc_night": "Starlight briefly illumintes the jagged, sharp rocks that run in a\ncrooked line north and south of here. Bits of broken wood lie\nscattered among the spikes of rock where ships have run aground on\nthe treacherous coast in the past. To the east, pale moonlight\nslants down, flshing on the sands that are golden brown during the\ndaylight hours, but shimmer like silver during the night. The walls\nof the city of Phatep stand just north of the desert sands, and they\nare lit with dim oil lamps that hang from the top of the battlements."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2561,8 +2339,6 @@
       "exdescs": {
         "desc_night": "The soft pearly radience of the moonlight and the silvery glow of the\nstars above do little to alleviate the sharp angles and jagged look\nof this barrier of rocks that seperates the desert from the waters of\nthe ocean some way west. If anything, the shimmering glow of the moon\nadds a surreal, sinister aspect to the unturned spears of stone. Walking\nhere is difficult and hazardous, and the route south or north must be\npicked with care to avoid impalement."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2582,8 +2358,6 @@
       "exdescs": {
         "desc_night": "The jagged rocks that form this long barrier between the ocean and the\nsands of the desert are known as the Djinn's Teeth, after the powerful\ndesert dwelling spirit, the Djinn. The moonlight gives the rocks a surreal,\nspectral quality, that make them appear unnatural. Just south of here is\na scattered ruin and the vast, seemingly endless sands of the Great Desert\nexpand east from here into the distance."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2601,8 +2375,6 @@
         "southeast": 31119
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2625,8 +2397,6 @@
         "west": 31113
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2650,8 +2420,6 @@
         "west": 31114
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2672,8 +2440,6 @@
         "west": 31115
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2696,8 +2462,6 @@
         "west": 31116
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31018,
@@ -2725,8 +2489,6 @@
         "southwest": 31123
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2749,8 +2511,6 @@
         "west": 31118
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2774,8 +2534,6 @@
         "west": 31119
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2796,8 +2554,6 @@
         "west": 31120
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2820,8 +2576,6 @@
         "west": 31121
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2839,8 +2593,6 @@
       "exdescs": {
         "desc_night": "Moonlight illuminates a huge pile of sand that has been massed into\nan immense dune. The sand gleams like silver and shifts gently under\nthe weight of a huge, oval shaped wasp's nest that is perched on the\nsummit. Like everything else in the desert at night, the nest is little\nmore than a blob of darkness, surrounded by a pale, pearly glow from\nthe moon and starlight. A loud, constant buzz echoes from within the\nnest, and darker circles can just be seen where the wasps enter and\nexit. In most directions there is nothing but desert, but any travel\nto the west is blocked by a massive ridge of stone. The sound of waves\ncrashing against rock can be heard from beyond the barrier, indicating\nthat the ocean is hidden just out of view."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2861,8 +2613,6 @@
         "west": 31123
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2883,8 +2633,6 @@
         "west": 31124
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2907,8 +2655,6 @@
         "west": 31125
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2931,8 +2677,6 @@
         "west": 31126
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2951,8 +2695,6 @@
         "west": 31127
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2967,8 +2709,6 @@
         "south": 31130
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2983,8 +2723,6 @@
         "west": 31004
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -2999,8 +2737,6 @@
         "south": 31129
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3020,8 +2756,6 @@
         "southeast": 31138
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3044,8 +2778,6 @@
         "west": 31132
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3066,8 +2798,6 @@
         "west": 31133
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3090,8 +2820,6 @@
         "west": 31134
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3112,8 +2840,6 @@
         "west": 31135
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3133,8 +2859,6 @@
         "southeast": 31142
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3158,8 +2882,6 @@
         "west": 31137
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3180,8 +2902,6 @@
         "west": 31138
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3204,8 +2924,6 @@
         "west": 31139
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3225,8 +2943,6 @@
         "southeast": 31154
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3246,8 +2962,6 @@
         "west": 31141
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31022,
@@ -3273,8 +2987,6 @@
         "west": 31142
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31023,
@@ -3305,8 +3017,6 @@
         "west": 31143
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31025,
@@ -3326,8 +3036,6 @@
         "north": 31143
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31026,
@@ -3357,8 +3065,6 @@
         "west": 31140
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3380,8 +3086,6 @@
         "west": 31146
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3401,8 +3105,6 @@
         "west": 31147
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3419,8 +3121,6 @@
         "west": 31148
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31030,
@@ -3449,8 +3149,6 @@
         "west": 31144
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3471,8 +3169,6 @@
         "west": 31150
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3496,8 +3192,6 @@
         "west": 31151
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3520,8 +3214,6 @@
         "west": 31152
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3542,8 +3234,6 @@
         "west": 31155
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3563,8 +3253,6 @@
         "southeast": 31170
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3584,8 +3272,6 @@
         "southeast": 31175
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3609,8 +3295,6 @@
         "west": 31156
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3634,8 +3318,6 @@
         "west": 31157
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3658,8 +3340,6 @@
         "west": 31158
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3682,8 +3362,6 @@
         "west": 31159
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3705,8 +3383,6 @@
       "exdescs": {
         "desc_night": "The pearl-like glow of moonbeams slant down from the dark sky casting\na glow over the mounds of unusual sand that are heaped up here. The\nsand seems to swallow the light, and glow with an eerie, fire-like\nquality that is unnerving and surreal. Nothing seems to grow in this\nsection of the desert and there is an ominous silence over everything.\nThe sands to the west of here seem closer to normal and are suffused\na silvery sparkle from the moon and stars."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31027,
@@ -3733,8 +3409,6 @@
       "exdescs": {
         "desc_night": "Nothing grows in this desolate wasteland of coppery dunes. Walking on\nthe metallic sand is very difficult as anything with any weight seems\nto sink deep into the constanly shifting dunes. The moonlight makes\nthe landscape grow with a strange, firey red, as though it is alight.\nThe strange coppery landscape continues from here to the north, west\nand south."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3752,8 +3426,6 @@
       "exdescs": {
         "desc_night": "A strange sound echoes from the metalic sands of these coppery dunes,\nmoving across the dark desert landscape like the mournful howl of the\ndead. The soft glow of the moon highlights the crimson quality of\nthe unusual sand and adds another layer to the eerie, surreal quality\nof the place. The sands expand to the south and west from here."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3776,8 +3448,6 @@
       "exdescs": {
         "desc_night": "A low dip in the dunes here picks up the strange sound that is produced\nwhen the wind whistles across the sand and distorts it, making it sound\nfor all the world like the wail of a banshee, or some other lost soul in\npain and torment. It is an ominous, eerie sound, made all the more disturbing\nby the unusual surroundings that glow a deep crimson in the light of the\nmoon. The desert continues to the north, south, east and west, though\nthe coppery dunes go no further west."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3800,8 +3470,6 @@
       "exdescs": {
         "desc_night": "The moonlight does strange things to the copper coloured sand that is\nheaped into large dunes in this section of the desert. It glows like\nfire, a surreal sight in the darkness, making it seem as though the\nhorizon is burning. The strange sands extend from here to the north,\neast, south and west."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3821,8 +3489,6 @@
       "exdescs": {
         "desc_night": "Pale, shimmering pools of silvery moonlight flicker across the length\nof a tall metal pole that soars up into the air from the coppery sands\nto a height of several spans. It is an odd sight to see in the desert, but\nseems somehow at home among the unusal dunes. The pole is rusting and\nworn, but still strong and hardy. The strange dunes continue in all\ndirections from here."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3845,8 +3511,6 @@
       "exdescs": {
         "desc_night": "This is the edge of a series of strange, copper coloured dunes that\nglow like fire in the pale light of the moon, making it seem as though\nthe horizon to the east and north is ablaze. The odd dunes have a\nmetallic quality that makes them crunch underfoot and emit a whistling\nring when the wind blows across them. Walking is very difficult as the\nsand constantly shifts and slides underfoot."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3869,8 +3533,6 @@
       "exdescs": {
         "desc_night": "The dim glow of the stars and the soft, pale light of the moon cast\ndancing shadows across the sharp, jagged shards of copper coloured\nmetal that jut up from the dunes here. They glow like fire wherever the\nlight touches, and the wind whistling among them sets them vibrating\nwith a musical, metal ringing sound. The strange dunes extend from here\nin all directions."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3889,8 +3551,6 @@
       "exdescs": {
         "desc_night": "There is little light to illuminate the eerie surroundings of the copper\ndunes, but what little moonlight slants dwon from above, casts its hand\nacross the desert, causing the strange sand to glow a fiery red, as though\nablaze. Nothing grows here, and there are no rocks or other landmarks to\nbreak the strange, monotonous surroundings."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3911,8 +3571,6 @@
         "west": 31173
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3933,8 +3591,6 @@
         "west": 31170
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3957,8 +3613,6 @@
         "west": 31171
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -3978,8 +3632,6 @@
         "southeast": 31178
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4000,8 +3652,6 @@
         "west": 31175
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4024,8 +3674,6 @@
         "west": 31172
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4047,8 +3695,6 @@
         "west": 31174
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4072,8 +3718,6 @@
         "west": 31176
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4094,8 +3738,6 @@
         "southeast": 31188
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4116,8 +3758,6 @@
         "west": 31178
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4140,8 +3780,6 @@
         "west": 31179
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4164,8 +3802,6 @@
         "west": 31180
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31031,
@@ -4194,8 +3830,6 @@
         "west": 31181
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4219,8 +3853,6 @@
         "west": 31182
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4243,8 +3875,6 @@
         "west": 31183
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4258,8 +3888,6 @@
         "somewhere": 31123
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31029,
@@ -4280,8 +3908,6 @@
         "south": 31131
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4298,8 +3924,6 @@
         "southeast": 31197
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4322,8 +3946,6 @@
         "west": 31187
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4346,8 +3968,6 @@
         "west": 31188
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4369,8 +3989,6 @@
         "west": 31189
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4393,8 +4011,6 @@
         "west": 31190
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4416,8 +4032,6 @@
         "west": 31191
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4440,8 +4054,6 @@
         "west": 31192
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4464,8 +4076,6 @@
         "west": 31193
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4487,8 +4097,6 @@
       "exdescs": {
         "desc_night": "Strange, copper coloured dunes rise and fall like waves in the sea to\nthe north and east of here, and merge with the more normal looking,\ngolden coloured sands of the Great Desert that stretch away to the west.\nSoft moonlight lies like a blanket over everything, and though they\ngive some small illumination over the sands to the west, they cause\nthe coppery dunes to glow with a strong, firey red."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4509,8 +4117,6 @@
       "exdescs": {
         "desc_night": "Three black, metal pyramids, each some two spans high, rise up from the\ncurious coppery sands of the desert. They look like ancient black\nmonoliths, though they show no signs of wear or rust, despite being\nbuilt in the middle of a harsh desert environment. Each pyramid is\ntopped with a tiny cone of quartz. Each cone seems to absorb the light\nand refract it up into the night sky, but the central one sends a single,\nstrong beam of light down so that is strikes the sand directly infront\nof it."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4527,8 +4133,6 @@
         "northwest": 31187
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4548,8 +4152,6 @@
         "west": 31197
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4569,8 +4171,6 @@
         "west": 31198
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4588,8 +4188,6 @@
         "west": 31153
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4611,8 +4209,6 @@
         "west": 31210
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4631,8 +4227,6 @@
         "northwest": 31210
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4655,8 +4249,6 @@
         "west": 31201
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4675,8 +4267,6 @@
         "west": 31202
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4723,8 +4313,6 @@
         "west": 31093
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4748,8 +4336,6 @@
         "west": 31203
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4767,8 +4353,6 @@
         "west": 31206
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4788,8 +4372,6 @@
         "west": 31209
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4811,8 +4393,6 @@
         "west": 31204
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4833,8 +4413,6 @@
         "southeast": 31202
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4854,8 +4432,6 @@
         "northwest": 31204
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4873,8 +4449,6 @@
         "west": 31211
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4889,8 +4463,6 @@
         "south": 31186
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4905,8 +4477,6 @@
         "south": 31213
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4921,8 +4491,6 @@
         "south": 31214
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4937,8 +4505,6 @@
         "south": 31215
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4953,8 +4519,6 @@
         "south": 31216
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4968,8 +4532,6 @@
         "south": 31217
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -4987,10 +4549,14 @@
         "west": 31223
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
-      "object_resets": []
+      "object_resets": [
+        {
+          "vnum": 5007,
+          "count": 1,
+          "room": 31219
+        }
+      ]
     },
     "31220": {
       "vnum": 31220,
@@ -5002,8 +4568,6 @@
         "south": 31219
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 31033,
@@ -5023,8 +4587,6 @@
         "north": 31219
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -5038,8 +4600,6 @@
         "west": 31219
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -5053,8 +4613,6 @@
         "east": 31219
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -5102,8 +4660,6 @@
         "west": 31225
       },
       "exdescs": {},
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -5152,8 +4708,6 @@
       "exdescs": {
         "etching": "A crude drawing has been etched into the rock. It looks to be of a tall\nobelisk standing atop a hill."
       },
-      "area_name": "Incomplete Desert",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     }

@@ -21,8 +21,6 @@
         "bench": "Sturdy benches made of wood painted white are here lining the edges of the\ncobblestone square.",
         "benches": "Sturdy benches made of wood painted white are here lining the edges of the\ncobblestone square."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -45,8 +43,6 @@
         "west": 1402
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -61,8 +57,6 @@
         "west": 1424
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 1400,
@@ -85,8 +79,6 @@
         "west": 1401
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 1401,
@@ -109,8 +101,6 @@
         "south": 1401
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -133,8 +123,6 @@
         "west": 1422
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -148,8 +136,6 @@
         "west": 1405
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 1402,
@@ -170,8 +156,6 @@
         "south": 1410
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -187,8 +171,6 @@
         "west": 1417
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -205,8 +187,6 @@
         "west": 1418
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -223,8 +203,6 @@
         "west": 1408
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -241,8 +219,6 @@
         "west": 1409
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -259,8 +235,6 @@
         "west": 1410
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -277,8 +251,6 @@
         "west": 1411
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -294,8 +266,6 @@
         "west": 1416
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -311,8 +281,6 @@
         "west": 1419
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -328,8 +296,6 @@
         "west": 1415
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -345,8 +311,6 @@
         "south": 1418
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -363,8 +327,6 @@
         "west": 1425
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -379,8 +341,6 @@
         "north": 1418
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -395,8 +355,6 @@
         "southeast": 1417
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -411,8 +369,6 @@
         "south": 1420
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -427,8 +383,6 @@
         "west": 1438
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 1403,
@@ -450,8 +404,6 @@
         "south": 1421
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -466,8 +418,6 @@
         "southwest": 1423
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -481,12 +431,15 @@
         "east": 1418
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
           "vnum": 1440,
+          "count": 1,
+          "room": 1425
+        },
+        {
+          "vnum": 5002,
           "count": 1,
           "room": 1425
         }
@@ -504,8 +457,6 @@
         "west": 1413
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -523,8 +474,6 @@
       "exdescs": {
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -541,8 +490,6 @@
       "exdescs": {
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -559,8 +506,6 @@
       "exdescs": {
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -574,8 +519,6 @@
         "south": 1429
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -594,8 +537,6 @@
       "exdescs": {
         "desc_freezing": "The bridge is partially unnecessary at the moment as the Merroc River has\ncompletely frozen over. Parts of the shining ice peek out through clumps\nof snow."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -612,8 +553,6 @@
       "exdescs": {
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -629,8 +568,6 @@
       "exdescs": {
         "desc_freezing": "The Merroc River has completely frozen over due to the intense cold\nweather. The surface is solid enough to walk across at the moment."
       },
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -645,8 +582,6 @@
         "west": 1414
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -663,8 +598,6 @@
         "south": 1404
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -681,8 +614,6 @@
         "west": 1400
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -699,8 +630,6 @@
         "west": 1431
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -716,8 +645,6 @@
         "east": 1422
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": [
         {
@@ -740,8 +667,6 @@
         "west": 1442
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -759,8 +684,6 @@
         "west": 1437
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -776,8 +699,6 @@
         "south": 1412
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [
         {
           "vnum": 1404,
@@ -800,8 +721,6 @@
         "west": 1423
       },
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     },
@@ -815,8 +734,6 @@
       },
       "exits": {},
       "exdescs": {},
-      "area_name": "Port Town of Immak",
-      "area_author": "Zoie",
       "mobile_resets": [],
       "object_resets": []
     }
@@ -1032,7 +949,7 @@
       ],
       "type": "fountain",
       "short": "an old stone well",
-      "long": "\u0026wAn old well made of stone is here.",
+      "long": "&wAn old well made of stone is here.",
       "weight": 0,
       "value": 0,
       "flags": {},

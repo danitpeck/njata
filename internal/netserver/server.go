@@ -136,10 +136,9 @@ func (s *Server) handleConn(conn net.Conn) {
 			Output:     session,
 			Disconnect: session.RequestDisconnect,
 			AutoExits:  true,
-			Experience: 0,
-			Gold:       0,
-			Alignment:  1000,
 			Skills:     make(map[int]*skills.PlayerSkillProgress),
+			Inventory:  []*game.Object{},
+			Equipment:  make(map[string]*game.Object),
 		}
 
 		// If existing player, load their stats
