@@ -183,15 +183,12 @@ func (s *Server) handleConn(conn net.Conn) {
 					s.logger(fmt.Sprintf("save error for %s: %v", player.Name, err))
 				}
 				s.world.RemovePlayer(player.Name)
-				s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has left the game.", player.Name))
+				s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has left the game.", game.CapitalizeName(player.Name)))
 			}
 		}()
 
-		s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", player.Name))
-
-		// Show welcome message with capitalized name
-		capitalizedName := strings.ToUpper(player.Name[:1]) + player.Name[1:]
-		session.WriteLine(fmt.Sprintf("Welcome back, %s!", capitalizedName))
+		s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", game.CapitalizeName(player.Name)))
+		session.WriteLine(fmt.Sprintf("Welcome back, %s!", game.CapitalizeName(player.Name)))
 
 		view, err := s.world.DescribeRoom(player)
 		if err == nil {

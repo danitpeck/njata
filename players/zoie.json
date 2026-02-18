@@ -4,7 +4,6 @@
   "class": 0,
   "race": 25,
   "sex": 2,
-  "level": 64,
   "hp": 1000,
   "max_hp": 1000,
   "mana": 961,
@@ -33,6 +32,55 @@
       "learned": true,
       "lifetime_casts": 1,
       "last_cast_time": 1771296700325343800
+    },
+    "1002": {
+      "spell_id": 1002,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1003": {
+      "spell_id": 1003,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1004": {
+      "spell_id": 1004,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1005": {
+      "spell_id": 1005,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1006": {
+      "spell_id": 1006,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1007": {
+      "spell_id": 1007,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1008": {
+      "spell_id": 1008,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
     }
   },
   "is_keeper": true

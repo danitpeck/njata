@@ -730,7 +730,7 @@ func cmdSpawn(ctx Context, args string) {
 	}
 
 	ctx.Output.WriteLine(fmt.Sprintf("&GYou summon %s into existence!&w", mob.Short))
-	ctx.World.BroadcastCombatMessage(ctx.Player, fmt.Sprintf("%s summons %s into existence!", ctx.Player.Name, mob.Short))
+	ctx.World.BroadcastCombatMessage(ctx.Player, fmt.Sprintf("%s summons %s into existence!", game.CapitalizeName(ctx.Player.Name), mob.Short))
 }
 
 func cmdTeleport(ctx Context, args string) {

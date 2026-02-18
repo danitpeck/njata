@@ -260,7 +260,7 @@ func (w *World) ListPlayers() []string {
 	players := w.PlayersSnapshot()
 	names := make([]string, 0, len(players))
 	for _, player := range players {
-		names = append(names, player.Name)
+		names = append(names, CapitalizeName(player.Name))
 	}
 
 	sort.Strings(names)
@@ -272,7 +272,7 @@ func (w *World) ListPlayersExcept(name string) []string {
 	names := make([]string, 0, len(players))
 	for _, player := range players {
 		if !strings.EqualFold(player.Name, name) {
-			names = append(names, player.Name)
+			names = append(names, CapitalizeName(player.Name))
 		}
 	}
 
@@ -306,7 +306,7 @@ func (w *World) DescribeRoom(player *Player) (RoomView, error) {
 	others := make([]string, 0, len(w.players))
 	for _, other := range w.players {
 		if other.Location == room.Vnum && !strings.EqualFold(other.Name, player.Name) {
-			others = append(others, other.Name)
+			others = append(others, CapitalizeName(other.Name))
 		}
 	}
 	sort.Strings(others)
@@ -415,7 +415,7 @@ func (w *World) BroadcastSay(speaker *Player, message string) {
 			player.Output.WriteLine(fmt.Sprintf("You say '%s'", message))
 			continue
 		}
-		player.Output.WriteLine(fmt.Sprintf("%s says '%s'", speaker.Name, message))
+		player.Output.WriteLine(fmt.Sprintf("%s says '%s'", CapitalizeName(speaker.Name), message))
 	}
 }
 
