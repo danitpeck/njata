@@ -1,12 +1,12 @@
 {
   "name": "vex",
-  "location": 9001,
+  "location": 90000,
   "class": 12,
   "race": 6,
   "sex": 2,
-  "hp": 85,
+  "hp": 71,
   "max_hp": 85,
-  "mana": 120,
+  "mana": 77,
   "max_mana": 120,
   "move": 100,
   "max_move": 100,
@@ -42,17 +42,24 @@
     },
     "1004": {
       "spell_id": 1004,
-      "proficiency": 30,
+      "proficiency": 31,
       "learned": true,
-      "lifetime_casts": 0,
-      "last_cast_time": 0
+      "lifetime_casts": 1,
+      "last_cast_time": 1771377493008277800
+    },
+    "1007": {
+      "spell_id": 1007,
+      "proficiency": 31,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771377431136566300
     },
     "9002": {
       "spell_id": 9002,
-      "proficiency": 23,
+      "proficiency": 27,
       "learned": true,
-      "lifetime_casts": 13,
-      "last_cast_time": 1771369773709960100
+      "lifetime_casts": 17,
+      "last_cast_time": 1771377477059288200
     }
   },
   "is_keeper": true

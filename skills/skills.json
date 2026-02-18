@@ -2,6 +2,7 @@
   {
     "id": 1001,
     "name": "Arcane Bolt",
+    "description": "Hurl a bolt of pure magical energy at a single foe. Damage scales with INT and proficiency.",
     "mana_cost": 15,
     "cooldown_seconds": 2,
     "level_required": 1,
@@ -26,6 +27,7 @@
   {
     "id": 1002,
     "name": "Leviathan's Fire",
+    "description": "Unleash a torrent of dragon fire in an area around your target. High damage with a reflex save. Devastating against groups.",
     "mana_cost": 30,
     "cooldown_seconds": 5,
     "level_required": 1,
@@ -51,6 +53,7 @@
   {
     "id": 1003,
     "name": "Mend",
+    "description": "Cast golden healing light on yourself or an ally. Healing scales with WIS. Essential for survival.",
     "mana_cost": 20,
     "cooldown_seconds": 6,
     "level_required": 1,
@@ -75,6 +78,7 @@
   {
     "id": 1004,
     "name": "Shadow Veil",
+    "description": "Weave shadows around your foe's eyes, blinding them and reducing their armor. Will save resists.",
     "mana_cost": 18,
     "cooldown_seconds": 4,
     "level_required": 1,
@@ -105,6 +109,7 @@
   {
     "id": 1005,
     "name": "Ephemeral Step",
+    "description": "Shimmer out of reality, becoming ephemeral and hard to strike. Duration scales with WIS.",
     "mana_cost": 20,
     "cooldown_seconds": 30,
     "level_required": 1,
@@ -133,6 +138,7 @@
   {
     "id": 1006,
     "name": "Path Shift",
+    "description": "Vanish in a flash of light and reappear at a distant location. High mana cost, powerful escape.",
     "mana_cost": 50,
     "cooldown_seconds": 30,
     "level_required": 1,
@@ -161,6 +167,7 @@
   {
     "id": 1007,
     "name": "Winter's Whisper",
+    "description": "Whisper an icy incantation that freezes your foe with cold damage. Reflex save for half.",
     "mana_cost": 25,
     "cooldown_seconds": 4,
     "level_required": 1,
@@ -185,6 +192,7 @@
   {
     "id": 1008,
     "name": "Knowing",
+    "description": "Magically examine an object or creature to discern its true nature and properties.",
     "mana_cost": 15,
     "cooldown_seconds": 2,
     "level_required": 1,
@@ -208,6 +216,7 @@
   {
     "id": 9002,
     "name": "Slash",
+    "description": "A fundamental melee attack with your weapon. No mana cost. Damage scales with STR and proficiency.",
     "mana_cost": 0,
     "cooldown_seconds": 2,
     "level_required": 1,

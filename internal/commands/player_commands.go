@@ -31,12 +31,8 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("spawn", cmdSpawn)
 	registry.Register("teleport", cmdTeleport)
 	registry.Register("restore", cmdRestore)
+	registry.Register("help", cmdHelp)
 	registerMovement(registry)
-	registry.Register("help", func(ctx Context, args string) {
-		commands := registry.List()
-		ctx.Output.WriteLine("Commands: " + strings.Join(commands, ", "))
-	})
-	registry.Register("quit", cmdQuit)
 }
 
 // DisplayRoomView is a shared function to display a room view consistently
@@ -794,6 +790,79 @@ func cmdRestore(ctx Context, args string) {
 
 	ctx.Output.WriteLine(fmt.Sprintf("&G✓ Restored to full HP, Mana, and Move!&w"))
 	ctx.Output.WriteLine(fmt.Sprintf("HP: %d/%d | Mana: %d/%d | Move: %d/%d", ctx.Player.HP, ctx.Player.MaxHP, ctx.Player.Mana, ctx.Player.MaxMana, ctx.Player.Move, ctx.Player.MaxMove))
+}
+
+func cmdHelp(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in.")
+		return
+	}
+
+	if args == "" {
+		ctx.Output.WriteLine("Usage: help <spell_name>")
+		ctx.Output.WriteLine("")
+		ctx.Output.WriteLine("View detailed information about a spell or maneuver.")
+		ctx.Output.WriteLine("Example: help arcane bolt")
+		ctx.Output.WriteLine("")
+		ctx.Output.WriteLine("Type 'abilities' to see all your learned abilities.")
+		return
+	}
+
+	// Find spell by partial name match
+	spell, matchCount := skills.FindSpellByPartial(args)
+
+	if matchCount == 0 {
+		ctx.Output.WriteLine(fmt.Sprintf("Ability '%s' not found. Type 'abilities' to see what you can learn.", args))
+		return
+	}
+
+	if matchCount > 1 {
+		ctx.Output.WriteLine(fmt.Sprintf("Ambiguous: '%s' matches %d abilities. Please be more specific.", args, matchCount))
+		return
+	}
+
+	if spell == nil {
+		ctx.Output.WriteLine("Ability not found.")
+		return
+	}
+
+	// Display spell card
+	ctx.Output.WriteLine(fmt.Sprintf("&Y=== %s ===&w", spell.Name))
+	ctx.Output.WriteLine("")
+
+	// Description
+	if spell.Description != "" {
+		ctx.Output.WriteLine(spell.Description)
+		ctx.Output.WriteLine("")
+	}
+
+	// Show player's proficiency if they know it
+	p := ctx.Player
+	if p.Skills != nil {
+		if progress, ok := p.Skills[spell.ID]; ok && progress.Learned {
+			ctx.Output.WriteLine(fmt.Sprintf("&C[YOUR PROFICIENCY]&w"))
+			ctx.Output.WriteLine(fmt.Sprintf("  Proficiency: %d%% | Casts: %d", progress.Proficiency, progress.LifetimeCasts))
+			ctx.Output.WriteLine("")
+		}
+	}
+
+	// Cost and cooldown
+	ctx.Output.WriteLine(fmt.Sprintf("&CMana Cost:&w %d | &CCooldown:&w %ds", spell.ManaCost, spell.CooldownSeconds))
+
+	// Targeting info
+	ctx.Output.WriteLine(fmt.Sprintf("&CTargeting:&w %s (Range: %d)", spell.Targeting.Mode, spell.Targeting.Range))
+
+	// Damage/Effect formula
+	if spell.Effects.Damage != "0" && spell.Effects.Damage != "" {
+		ctx.Output.WriteLine(fmt.Sprintf("&CEffect:&w %s damage (%s)", spell.Effects.DamageType, spell.Effects.Damage))
+		if spell.Effects.SaveType != "none" && spell.Effects.SaveType != "" {
+			ctx.Output.WriteLine(fmt.Sprintf("&CSave:&w %s (DC %d)", spell.Effects.SaveType, spell.Effects.SaveDC))
+		}
+	} else if spell.Effects.Healing != "" {
+		ctx.Output.WriteLine(fmt.Sprintf("&CHealing:&w +%s HP", spell.Effects.Healing))
+	}
+
+	ctx.Output.WriteLine("")
 }
 
 func registerMovement(registry *Registry) {

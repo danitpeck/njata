@@ -16,19 +16,19 @@ type Targeting struct {
 }
 
 type Effects struct {
-	Damage       string `json:"damage"`       // Damage formula: "4d8 + I"
-	DamageType   string `json:"damage_type"` // fire, cold, magic, none
-	SaveType     string `json:"save_type"`   // reflex, will, fortitude, none
-	SaveDC       int    `json:"save_dc"`     // Difficulty class for save
-	Healing      string `json:"healing"`     // Healing formula (if applicable)
-	Affect       *Affect `json:"affect"`      // Optional: buff/debuff effect
+	Damage     string  `json:"damage"`      // Damage formula: "4d8 + I"
+	DamageType string  `json:"damage_type"` // fire, cold, magic, none
+	SaveType   string  `json:"save_type"`   // reflex, will, fortitude, none
+	SaveDC     int     `json:"save_dc"`     // Difficulty class for save
+	Healing    string  `json:"healing"`     // Healing formula (if applicable)
+	Affect     *Affect `json:"affect"`      // Optional: buff/debuff effect
 }
 
 type Affect struct {
-	Name        string `json:"name"`
-	Duration    string `json:"duration"`       // "120 + W*4" for formula-based
-	Description string `json:"description"`
-	ACPenalty   int    `json:"ac_penalty"`    // Positive = worse AC
+	Name        string         `json:"name"`
+	Duration    string         `json:"duration"` // "120 + W*4" for formula-based
+	Description string         `json:"description"`
+	ACPenalty   int            `json:"ac_penalty"` // Positive = worse AC
 	StatMods    map[string]int `json:"stat_mods"`
 }
 
@@ -41,14 +41,15 @@ type Messages struct {
 }
 
 type Spell struct {
-	ID              int        `json:"id"`
-	Name            string     `json:"name"`
-	ManaCost        int        `json:"mana_cost"`
-	CooldownSeconds int        `json:"cooldown_seconds"`
-	LevelRequired   int        `json:"level_required"`
-	Targeting       Targeting  `json:"targeting"`
-	Effects         Effects    `json:"effects"`
-	Messages        Messages   `json:"messages"`
+	ID              int       `json:"id"`
+	Name            string    `json:"name"`
+	Description     string    `json:"description"`
+	ManaCost        int       `json:"mana_cost"`
+	CooldownSeconds int       `json:"cooldown_seconds"`
+	LevelRequired   int       `json:"level_required"`
+	Targeting       Targeting `json:"targeting"`
+	Effects         Effects   `json:"effects"`
+	Messages        Messages  `json:"messages"`
 }
 
 var (
@@ -107,6 +108,29 @@ func GetSpellByName(name string) *Spell {
 	return spellRegistry[id]
 }
 
+// FindSpellByPartial finds a spell by partial name match (case-insensitive)
+// Returns the spell and the number of matches found
+func FindSpellByPartial(query string) (*Spell, int) {
+	mu.RLock()
+	defer mu.RUnlock()
+
+	query = strings.ToLower(query)
+	var matches []*Spell
+
+	for _, spell := range spellRegistry {
+		if strings.Contains(strings.ToLower(spell.Name), query) {
+			matches = append(matches, spell)
+		}
+	}
+
+	if len(matches) == 1 {
+		return matches[0], 1
+	} else if len(matches) > 1 {
+		return nil, len(matches) // Ambiguous
+	}
+	return nil, 0 // Not found
+}
+
 // AllSpells returns all loaded spells
 func AllSpells() map[int]*Spell {
 	mu.RLock()
@@ -116,11 +140,11 @@ func AllSpells() map[int]*Spell {
 
 // PlayerSkillProgress tracks a player's proficiency with a spell
 type PlayerSkillProgress struct {
-	SpellID      int   `json:"spell_id"`
-	Proficiency  int   `json:"proficiency"` // 0-100
-	Learned      bool  `json:"learned"`
-	LifetimeCasts int  `json:"lifetime_casts"`
-	LastCastTime int64 `json:"last_cast_time"` // Unix nanoseconds for cooldown
+	SpellID       int   `json:"spell_id"`
+	Proficiency   int   `json:"proficiency"` // 0-100
+	Learned       bool  `json:"learned"`
+	LifetimeCasts int   `json:"lifetime_casts"`
+	LastCastTime  int64 `json:"last_cast_time"` // Unix nanoseconds for cooldown
 }
 
 // CanCast checks if player can cast this spell (has mana, off cooldown, learned, etc)
@@ -181,4 +205,3 @@ func (psp *PlayerSkillProgress) UpdateProficiency(gain int) {
 	}
 	psp.LifetimeCasts++
 }
-
