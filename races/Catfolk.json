@@ -1,0 +1,16 @@
+{
+  "name": "Catfolk",
+  "race_id": 5,
+  "flavor_text": "These feline humanoids are graceful and quick, their keen senses making them exceptional hunters. They are known for their pride and independence, and their warrior traditions run deep.",
+  "str_plus": 0,
+  "dex_plus": 0,
+  "con_plus": 0,
+  "int_plus": 0,
+  "wis_plus": 2,
+  "cha_plus": 0,
+  "lck_plus": 2,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 100
+}

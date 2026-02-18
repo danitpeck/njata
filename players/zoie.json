@@ -1,0 +1,186 @@
+{
+  "name": "zoie",
+  "location": 8111,
+  "race": 25,
+  "sex": 2,
+  "hair": "shoulder-length pig-tailed \"hair\"",
+  "eyes": "large dark green eyes",
+  "hp": 1000,
+  "max_hp": 1000,
+  "mana": 961,
+  "max_mana": 976,
+  "gold": 51130,
+  "strength": 20,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 13,
+  "wisdom": 12,
+  "charisma": 15,
+  "luck": 18,
+  "armor": 138,
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 31,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771296700325343800
+    },
+    "1002": {
+      "spell_id": 1002,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1003": {
+      "spell_id": 1003,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1004": {
+      "spell_id": 1004,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1005": {
+      "spell_id": 1005,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1006": {
+      "spell_id": 1006,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1007": {
+      "spell_id": 1007,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1008": {
+      "spell_id": 1008,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    }
+  },
+  "is_keeper": true,
+  "inventory": [],
+  "equipment": {
+    "back": {
+      "Vnum": 8111,
+      "Keywords": [
+        "white",
+        "linen",
+        "cloak"
+      ],
+      "Type": "armor",
+      "Short": "a white linen cloak",
+      "Long": "A white linen cloak lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "back",
+      "ArmorVal": 2
+    },
+    "body": {
+      "Vnum": 8105,
+      "Keywords": [
+        "faded",
+        "leather",
+        "cuirass"
+      ],
+      "Type": "armor",
+      "Short": "a faded leather cuirass",
+      "Long": "A cuirass made of faded leather lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "body",
+      "ArmorVal": 2
+    },
+    "head": {
+      "Vnum": 8107,
+      "Keywords": [
+        "brown",
+        "muffin",
+        "hat"
+      ],
+      "Type": "armor",
+      "Short": "a brown muffin hat",
+      "Long": "A brown muffin hat lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "head",
+      "ArmorVal": 2
+    },
+    "neck": {
+      "Vnum": 8110,
+      "Keywords": [
+        "beaded",
+        "necklace"
+      ],
+      "Type": "armor",
+      "Short": "a beaded necklace",
+      "Long": "A beaded necklace lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "neck",
+      "ArmorVal": 1
+    },
+    "waist": {
+      "Vnum": 8114,
+      "Keywords": [
+        "leather",
+        "belt"
+      ],
+      "Type": "armor",
+      "Short": "a leather belt",
+      "Long": "A leather belt lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "waist",
+      "ArmorVal": 1
+    }
+  }
+}

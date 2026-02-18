@@ -1,0 +1,16 @@
+{
+  "name": "Dwarf",
+  "race_id": 1,
+  "flavor_text": "A strong start! Dwarves are a proud and intrepid people, particularly known for their skill at traveling by sea. Have you decided to join them?",
+  "str_plus": 0,
+  "dex_plus": 0,
+  "con_plus": 2,
+  "int_plus": 0,
+  "wis_plus": 0,
+  "cha_plus": 0,
+  "lck_plus": 0,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 100
+}

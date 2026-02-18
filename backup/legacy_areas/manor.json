@@ -1,0 +1,3894 @@
+{
+  "name": "Tullfuhrzky Manor",
+  "author": "Cedrick",
+  "reset_minutes": 10,
+  "rooms": {
+    "2400": {
+      "vnum": 2400,
+      "name": "The Main Gate",
+      "description": "As you reach the top of the hill, you come upon a large, three-story manor.\nPast the gate, you can see a nice, well-maintained yard, with trees and\nflowers.  The house is red brick with white trim, and two candle lamps are\non either side of the door.  You could turn around and go back the way you\ncame, or enter the yard through the gate.  As you look to your right, you\nsee a small bronze plaque embedded in a rock.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 2467,
+        "north": 2401
+      },
+      "exdescs": {
+        "plaque": "Welcome!  This area is intended for levels 1 to 10.  Remember, LOOK at\neverything.  There is a lot you will miss if you don't stop and examine your\nsurroundings.  Good luck and have fun!\n-Cedrick, April 1996",
+        "rock": "The rock has a small plaque embedded in it."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2401": {
+      "vnum": 2401,
+      "name": "Before the Front Door",
+      "description": "As you pass through the gate, you come up to the house's front door.  The\nwhite lacy blinds are drawn across the front windows, preventing you from\npeeking inside.  You peer through the window in the door.  Apparently\nnobody is home.  It really is a nice looking house.  It wouldn't hurt to\ntake a quick look inside, would it?  Or, you could wander into the yard,\nwhich extends east and west.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2402,
+        "north": 2406,
+        "south": 2400,
+        "west": 2403
+      },
+      "exdescs": {
+        "door": "The door has a small square window built into it.",
+        "window": "Looks pretty empty."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2402": {
+      "vnum": 2402,
+      "name": "East of the Front Door",
+      "description": "You walk around the east side of the house.  Looking in the windows, you\ncan see a parlor.  To the west is the front door to the home, and east takes\nyou around the house.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2405,
+        "west": 2401
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2403": {
+      "vnum": 2403,
+      "name": "West of the Front Door",
+      "description": "You are standing in the yard, west of the front door.  A small well is\nfull of cold, clear water.  The beautiful lawn takes you around the manor\nto the west, or back east to the main enterance.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2401,
+        "west": 2404
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2403,
+          "count": 1,
+          "room": 2403
+        }
+      ]
+    },
+    "2404": {
+      "vnum": 2404,
+      "name": "Southwest Corner of the Manor",
+      "description": "This is the southwest corner of the manor house.  To the north, you see the\nyard extends far back into the distance.  A large fence prevents movement\nto the west.  More yard lies north, or you could return the way you came.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2403,
+        "north": 2412
+      },
+      "exdescs": {
+        "fence": "The fence is about fifteen feet high.  Looks like the owners don't want\nanyone wandering around here."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2405": {
+      "vnum": 2405,
+      "name": "Southeast Corner of the Manor",
+      "description": "You are standing at the southeast corner of the manor.  A large fence prevents\nmovement to the east.  Your only choices are to go around the house to the\nnorth, or to return west to the front door.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2415,
+        "west": 2402
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2406": {
+      "vnum": 2406,
+      "name": "The Foyer",
+      "description": "As you step into the house, you take a look around.  You are standing in\nwhat appears to be the front hallway.  A mirror hangs on the wall to the\neast, and a coat stand sits in the corner.  On the floor, a beautiful rug\ndraws your attention.  Wait!  What's that?  You hear noises coming from\nwithin the house.  Maybe somebody is home after all.  You consider this\nas you decide whether or not to continue on.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 2407,
+        "east": 2464,
+        "north": 2408,
+        "south": 2401
+      },
+      "exdescs": {
+        "mirror": "You see...YOU!",
+        "rug": "As you lift up the rug, you see...a trapdoor!",
+        "stand": "Would you care to hang your coat?",
+        "trapdoor": "The trapdoor leads into darkness."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2407,
+          "count": 1,
+          "room": 2406
+        }
+      ],
+      "object_resets": []
+    },
+    "2407": {
+      "vnum": 2407,
+      "name": "The Basement",
+      "description": "Oops!  You wonder why you went down without looking first.  You slide down a\nchute, and land with a *THUMP* on the well-padded floor.  As you look at the\nopening well above your head, you realize that you will have to find another\nway out of here.  Other than a small safe built into the wall, there does\nnot seem to be anything else of interest here.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 2474
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2409,
+          "count": 2,
+          "room": 2407
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2407,
+          "count": 1,
+          "room": 2407
+        }
+      ]
+    },
+    "2408": {
+      "vnum": 2408,
+      "name": "A Luxurious Living Room",
+      "description": "You find yourself in a comfortable living room.  Beautiful artwork adorns\nthe walls, and you take a second to look at it all.  A crackling fire burns\nin the fireplace.  A large, sturdy oak chair and a nice couch makes this\nplace feel like home.  Turning around, you see the curtains which prevented\nyou from looking through the windows.  There are also a few potted plants\nsitting next to the windows, soaking up sunlight.  A beautiful grandfather\nclock sits against the west wall.  A staircase leads up from here.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 2409,
+        "east": 2410,
+        "north": 2411,
+        "south": 2406,
+        "up": 2419
+      },
+      "exdescs": {
+        "art": "Wow!  A real Picasso!",
+        "artwork": "Wow!  A real Picasso!",
+        "chair": "A sturdy, oak chair.",
+        "couch": "Makes you really want a nap.",
+        "curtains": "White lace curtains are drawn across the windows.",
+        "fire": "It looks like....well, a fire.",
+        "fireplace": "This brick fireplace appears to get a lot of use.",
+        "plant": "Just your run-of-the-mill houseplant."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2409": {
+      "vnum": 2409,
+      "name": "The Secret Room",
+      "description": "Well what do you know?  A secret room!  It is quite dark in here, although\nthe living room windows provide enough light to see with.  It is very damp\nin this room, and there is a tunnel leading down from here.  You try to peer\ndown, but can not penetrate the blackness.  You shiver unconsciously and\ndecide to move on.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 2429,
+        "up": 2408
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2410": {
+      "vnum": 2410,
+      "name": "A Comfortable Study",
+      "description": "As you enter a large room, all you see is books, books, and more books!\nEvery wall is lined with bookshelves.  They run from the ceiling to the\nfloor, all completely full.  You glance over some of the titles.  Two\nleather chairs sit in the corner with a coffee table between them.\nUnderneath your feet is a large Persian rug.  A window in the east wall\nreveals the yard outside.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2408
+      },
+      "exdescs": {
+        "books": "Some of the titles include \"Immortality on the Realms of Despair\", \"How to\nBuild an Area In Less Than 80 Days\", \"1,001 Ways to Annoy Taboo\", \"50 Reasons\nWhy All Areas Should Have DT's\", \"The Sad Life of an Avatar\", and \"Arkin's\nCoding: A SlaveDriver Speaks\".",
+        "bookshelves": "Never in your life have you seen so many shelves.",
+        "rug": "This thing must have cost a fortune!",
+        "window": "You can see the yard outside."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2410,
+          "count": 1,
+          "room": 2410
+        }
+      ],
+      "object_resets": []
+    },
+    "2411": {
+      "vnum": 2411,
+      "name": "The Kitchen",
+      "description": "Upon entering the kitchen, you begin to feel very warm.  A huge oven\ndominates the entire west wall.  Looking under it, you see the large\namount of wood fueling the flame.  Along the north wall is a small\nbasin, with a pitcher and towel alongside.  There are cabinets above\nthe basin, which probably contain dishes and glassware.  Hanging on\nthe south wall is a large array of knives.  In the middle of the\nroom is a large wooden table.  You may leave the house to the north,\nor enter the pantry to the east.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2463,
+        "north": 2418,
+        "south": 2408
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2411,
+          "count": 1,
+          "room": 2411
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2411,
+          "count": 1,
+          "room": 2411
+        }
+      ]
+    },
+    "2412": {
+      "vnum": 2412,
+      "name": "West of the Manor",
+      "description": "You are standing west of the manor.  Other than a toolshed sitting here,\nthere is nothing of interest.  The fence prevents your going west.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2413,
+        "south": 2404
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2412,
+          "count": 1,
+          "room": 2412
+        }
+      ]
+    },
+    "2413": {
+      "vnum": 2413,
+      "name": "Continuing Along the West Side of the Manor",
+      "description": "The yard continues north around the house.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2414,
+        "south": 2412
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2414": {
+      "vnum": 2414,
+      "name": "Northwest Corner of the Manor",
+      "description": "This is the northwest corner of the manor.  The fence prevents your\nmovement north and west.  To the east, you can see the back door to the\nhome.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2418,
+        "south": 2413
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2415": {
+      "vnum": 2415,
+      "name": "East of the Manor",
+      "description": "You are walking around the east side of the house.  The fence runs along\nto your right.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2416,
+        "south": 2405
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2416": {
+      "vnum": 2416,
+      "name": "Continuing Along the East Side of the Manor",
+      "description": "You are following the yard around the east side of the house.  You can see a\nstudy through a window to the west.  The fence still runs to your right.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2417,
+        "south": 2415
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2417": {
+      "vnum": 2417,
+      "name": "Northeast Corner of the Manor",
+      "description": "You are standing at the northeast corner of the house.  Going west leads to\nmore yard.  South takes you back towards the front of the house.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 2416,
+        "west": 2418
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2418": {
+      "vnum": 2418,
+      "name": "The Backyard",
+      "description": "You are standing behind the manor.  The yard stretches out to the north.\nLooking that way, you see two small structures standing next to each other.\nFarther on, you see a small garden, and beyond that, you think you can see\nanother building but can't quite make it out behind all the hedges.  The\nyard splits off in all directions here.  East and west takes you back\naround the manor,  and south leads back into the house.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2417,
+        "north": 2451,
+        "south": 2411,
+        "west": 2414
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2419": {
+      "vnum": 2419,
+      "name": "The Second Floor Landing",
+      "description": "The second floor branches off in all directions.  The carpeting here is\nworn and stained.  It evidently gets quite a bit of use, because you can\nsee the wood floor in the spots where the carpet has worn through.  You see\npaintings on the wall, along with a portrait of the entire family.  Looking\nnorth, you see another hallway.  To the west is a playroom, and east looks\nlike a bathroom.  Turning around, you notice yet another hallway leading\nsouth, and also a staircase leading up.  You wonder which way to go.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 2408,
+        "east": 2420,
+        "north": 2422,
+        "south": 2458,
+        "up": 2426,
+        "west": 2421
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2420": {
+      "vnum": 2420,
+      "name": "A Large Bathroom",
+      "description": "This is just a standard bathroom.  A wash basin, complete with a pitcher\nand towel, sits to your left.  Above that is a small, but adequate mirror.\nLinen cabinets line the wall.  A large tub sits along the wall to your right.\nA candle chandelier provides overhead illumination.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2419
+      },
+      "exdescs": {
+        "basin": "Just a standard basin, used for washing up.",
+        "cabinets": "The cabinet probably has towels and linens.",
+        "chandelier": "It appears to be made of diamond.",
+        "mirror": "Yup...it's you all right.",
+        "pitcher": "The pitcher is used to fill the basin.",
+        "tub": "You aren't sure if you're looking at a tub or a swimming pool."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2420,
+          "count": 1,
+          "room": 2420
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2420,
+          "count": 1,
+          "room": 2420
+        }
+      ]
+    },
+    "2421": {
+      "vnum": 2421,
+      "name": "The Playroom",
+      "description": "What a mess!  There are toys strewn about the room, and children are\neverywhere.  You carefully aviod stepping on anything.  The windows to the\nwest offer you a view of the endless forest beyond the house.  A toybox sits\nalong the north wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2419
+      },
+      "exdescs": {
+        "window": "You see a sprawling forest."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2421,
+          "count": 1,
+          "room": 2421
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2400,
+          "count": 1,
+          "room": 2421
+        }
+      ]
+    },
+    "2422": {
+      "vnum": 2422,
+      "name": "A Hallway on the Second Floor",
+      "description": "You are in a hallway on the second floor.  To the east, you can see\na fairly large bed and a dresser.  It doesn't appear to be in use, and you\nfigure that it is a guest room.  To the west is a room filled with beds and\nseveral dressers.  North you can see a huge room with an enormous bed and\na shield hanging on the wall.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2424,
+        "north": 2425,
+        "south": 2419,
+        "west": 2423
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2423": {
+      "vnum": 2423,
+      "name": "The Children's Bedroom",
+      "description": "Here is where all the children in the house sleep.  Beds line the wall to the\nnorth, and rows of dressers sit to the south.  It is brightly painted, giving\na sense of happiness and warmth.  Hanging on the walls are whimsical drawings\nwhich the children created.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2422
+      },
+      "exdescs": {
+        "drawing": "What a cute drawing!  You see a picture of the entire family, mom, dad,\nand all the siblings.",
+        "drawings": "What a cute drawing!  You see a picture of the entire family, mom, dad,\nand all the siblings.",
+        "painting": "What a cute drawing!  You see a picture of the entire family, mom, dad,\nand all the siblings."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2422,
+          "count": 1,
+          "room": 2423
+        }
+      ],
+      "object_resets": []
+    },
+    "2424": {
+      "vnum": 2424,
+      "name": "The Guest Bedroom",
+      "description": "This room is small and spartan, containing a bed, a chair, and a tiny\nOriental rug.  The master of the manor must not entertain a lot of house\nguests.  The tiny window in the east wall provides a poor view of the\noutlying forest.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2422
+      },
+      "exdescs": {
+        "bed": "Your baby crib was bigger than this.",
+        "chair": "This chair has no cushion, no arm rests, and does not look comfortable at all.",
+        "oriental": "A remnant of the Ming dynasty.",
+        "rug": "A remnant of the Ming dynasty.",
+        "window": "Peering through the tiny window, you get a glimpse of the yard and surrounding\nforest."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2425": {
+      "vnum": 2425,
+      "name": "The Master Bedroom",
+      "description": "Well, you have found your way to the master bedroom.  The owner would not be\npleased with your intrustion.  You see a huge, comfortable king-sized bed,\nalong with a large desk, two dressers, and a full-length mirror.  Several\nlarge windows offer you a wonderful view of the outlying forest.  Hanging\non the wall is a shield with the crest of a panther.  Crossed over the shield\nare two deadly scimitars.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2466,
+        "south": 2422
+      },
+      "exdescs": {
+        "bed": "The king-sized bed looks VERY inviting.",
+        "mirror": "You look into the mirror, and a horrible beast stares back!  You draw your\nweapon and prepare for battle!  Oh, wait, that's just you.",
+        "scimitar": "This blade could do some serious damage.",
+        "shield": "A large shield, crested with a panther.",
+        "window": "You see a sprawling forest."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2425,
+          "count": 1,
+          "room": 2425
+        }
+      ],
+      "object_resets": []
+    },
+    "2426": {
+      "vnum": 2426,
+      "name": "The Attic",
+      "description": "You are in the attic.  It is cold, damp, and really dark.  You can\nbarely see five feet in front of your face.  As you walk on the floorboards,\nyou can feel them bending beneath your feet.  Apparently nobody comes up here.\nIt does not look like this place has been entered in years.  The layer of\ndust on the walls is thick enough to write your name in.  The attic continues\nto the west, where it is pitch black.  You could leave back down the stairs.\nA cold chill runs down your spine as you decide what to do.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 2419,
+        "west": 2427
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2427": {
+      "vnum": 2427,
+      "name": "Further Into the Attic",
+      "description": "You really feel scared now.  The boards are bending more now, and making\nodd creaking sounds.  There aren't even rats up here.  The darkness is\nso thick that your light can't penetrate more than two meters.  As you try\nto peer north, you get a really bad feeling.  Maybe you should turn back\nright now.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2426,
+        "north": 2428
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2428": {
+      "vnum": 2428,
+      "name": "Oops",
+      "description": "On your next step, your foot goes right through the floorboard.  Unable to keep\nyou balance, you fall forward.  Fortunately, you fall onto a solid part of the\nfloor.  The part of the floor by the door crumbles away, leaving a gaping\nhole!  There's no way out...",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2429": {
+      "vnum": 2429,
+      "name": "The Sub-Basement",
+      "description": "It is really dark down here.  You can't see a thing.  You seriously\nconsider turning around immediately.  As a matter of fact, that might\nbe a good idea.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2430,
+        "up": 2409
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2430": {
+      "vnum": 2430,
+      "name": "The Labyrinth",
+      "description": "Looking up, you see a burning torch mounted high on the wall.  Maybe that's\nwhy it was so dark in the room to the west.  The torch must have gone out.\nThis room is utterly empty.  Damp, moldy walls make this place reek.  Your\nonly choice is to continue on or turn back.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 2431,
+        "west": 2429
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2431": {
+      "vnum": 2431,
+      "name": "The Laybrinth",
+      "description": "You are in some sort of maze underneath the manor house.  The dark gray, moldy\nwalls are disorienting.  You realize that it would be very easy to get\nhopelessly lost in here.  Looking back, you see the way you came, the path\nback to safety.  In the other directions, all you see is corridors, dark\nand dismal.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2434,
+        "north": 2430,
+        "south": 2432
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2432": {
+      "vnum": 2432,
+      "name": "The Laybrinth",
+      "description": "The laybrinth branches off in many directions.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2431,
+        "northeast": 2434,
+        "south": 2438,
+        "southeast": 2439,
+        "west": 2433
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2433": {
+      "vnum": 2433,
+      "name": "The Wine Cellar",
+      "description": "This room is cold and damp.  Wooden kegs of wine are stacked from the floor\nto the ceiling.  Along one wall is a huge wine rack, filled with various\nbottles of choice vintages.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2432
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2463,
+          "count": 2,
+          "room": 2433
+        }
+      ]
+    },
+    "2434": {
+      "vnum": 2434,
+      "name": "An Intersection",
+      "description": "The dark corridors branch off here.  You have no way of knowing which path\nto choose.  You can only pick one, and hope...",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2435,
+        "northeast": 2437,
+        "south": 2440,
+        "southwest": 2432,
+        "west": 2431
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2435": {
+      "vnum": 2435,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2436,
+        "north": 2437,
+        "south": 2445,
+        "west": 2434
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2408,
+          "count": 2,
+          "room": 2435
+        }
+      ],
+      "object_resets": []
+    },
+    "2436": {
+      "vnum": 2436,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "northwest": 2437,
+        "south": 2446,
+        "west": 2435
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2437": {
+      "vnum": 2437,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2441,
+        "south": 2435,
+        "southeast": 2436,
+        "southwest": 2434
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2438": {
+      "vnum": 2438,
+      "name": "The Laybrinth",
+      "description": "As you come up on a corner, you begin to feel completely lost.  Which way\ndid you come from?  You can't remember.  What could be lurking down here?\nYou shudder at the thought.  Best to keep moving.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2439,
+        "north": 2432
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2439": {
+      "vnum": 2439,
+      "name": "The Laybrinth",
+      "description": "You are really lost now.  As you come up on yet another intersection, you\nspy a massive slate-grey metal door to the south.  Curious, you pull on the\nhandle, but it does not budge.  Pressing your ear to the door, you hear\nthe sound of...machinery?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2440,
+        "northwest": 2432,
+        "south": 2450,
+        "west": 2438
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2440": {
+      "vnum": 2440,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2445,
+        "north": 2434,
+        "south": 2439
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2440
+        }
+      ],
+      "object_resets": []
+    },
+    "2441": {
+      "vnum": 2441,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2442,
+        "south": 2437
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2442": {
+      "vnum": 2442,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.  An absolutely repulsive stench drifts in\nfrom the west.  From the east, you hear a fearsome hissing and rattling.  You\nshiver as you decide what to do.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2444,
+        "south": 2441,
+        "west": 2443
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2443": {
+      "vnum": 2443,
+      "name": "The Laybrinth",
+      "description": "This is the final resting point of some poor adventurer.  Built into the\nwall is a small niche in which the corpse of a man lies.  The body is beginning\nto decompose, making the whole room stink.  You think about searching the\ncorpse for anything useful, but the very idea repulses you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2442
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2442,
+          "count": 1,
+          "room": 2443
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2444,
+          "count": 1,
+          "room": 2443
+        }
+      ]
+    },
+    "2444": {
+      "vnum": 2444,
+      "name": "A Gruesome Lair",
+      "description": "What a disgusting, horrible place!  Blood covers every square centimeter\nof the walls.  The decaying guts of several animals...or maybe people...\nare scattered across the floor.  Bones are everywhere.  This whole room\nreminds you of only one thing - DEATH.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2442
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2405,
+          "count": 1,
+          "room": 2444
+        }
+      ],
+      "object_resets": []
+    },
+    "2445": {
+      "vnum": 2445,
+      "name": "The Laybrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2435,
+        "southeast": 2468,
+        "west": 2440
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2446": {
+      "vnum": 2446,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2447,
+        "north": 2436,
+        "south": 2468
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2447": {
+      "vnum": 2447,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 2448,
+        "west": 2446
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2447
+        }
+      ],
+      "object_resets": []
+    },
+    "2448": {
+      "vnum": 2448,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2447,
+        "south": 2449
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2449": {
+      "vnum": 2449,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2448,
+        "northwest": 2468
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2408,
+          "count": 2,
+          "room": 2449
+        }
+      ],
+      "object_resets": []
+    },
+    "2450": {
+      "vnum": 2450,
+      "name": "Torture Room",
+      "description": "Now you've done it.  Maybe you shouldn't have been so curious about\nthis room.  Deadly looking machines and instruments are everywhere.\nYou see equipment for every type of torture imaginable.  Cringing,\nyou turn around and are greeted with an array of whips, spears,\nand chains.  A chill runs down your spine as you contemplate\nthe evil that can occur here.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2439
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2450,
+          "count": 1,
+          "room": 2450
+        }
+      ],
+      "object_resets": []
+    },
+    "2451": {
+      "vnum": 2451,
+      "name": "Farther into the Backyard",
+      "description": "You find yourself standing right outside two wooden shacks.  The one to\nthe west smells horrible.  The shack to the north appears to be a residence\nof some sort.  The yard continues to the east, and also leads back south to\nthe manor.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2453,
+        "north": 2462,
+        "south": 2418,
+        "west": 2452
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2452": {
+      "vnum": 2452,
+      "name": "The Outhouse",
+      "description": "Phew!  You really want to get out of here.  The whole place absolutely\nreeks.  How can the servants stand living right next to such a stench?\nApparently, the master of the house does not care.  At least the walls seem\nto be solid, and the roof is relatively whole.  You hold your nose, for the\nsmell is starting to gag you.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2451
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2453": {
+      "vnum": 2453,
+      "name": "An Intersection",
+      "description": "A few paths intersect here.  The north one brings you to a small, but very\nbeautiful garden.  Heading west brings you back to the manor.  From the\neast, you catch a whiff of...hay?",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2454,
+        "north": 2465,
+        "west": 2451
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2454": {
+      "vnum": 2454,
+      "name": "The Stable Entrance",
+      "description": "This is the gate to the stables.  Oddly enough, the stables seem to be in\nbetter condition than the servants' quarters.  It doesn't smell as bad either.\nAs you peer past the gate, you think that you see some motion from within.\nMaybe somebody's in there.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "east": 2455,
+        "west": 2453
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2455": {
+      "vnum": 2455,
+      "name": "The Horse Stalls",
+      "description": "This is the private stables for the manor.  You see 5 separate stalls,\neach with it's own bed of hay and feeding trough.  The floor is kept\nincredibly clean.  The owner must take really good care of the horses.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2457,
+        "south": 2456,
+        "west": 2454
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2455
+        },
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2455
+        }
+      ],
+      "object_resets": []
+    },
+    "2456": {
+      "vnum": 2456,
+      "name": "Equipment Storage",
+      "description": "This room is used to store extra equipment for the horses.  On the northern\nwall you see several saddles and bridles.  An array of horseshoes dominates\nthe west wall.  Hanging on the south wall are several pieces of jockey\nequipment:  whips, riding sticks, and chaps.  The only way out of here is\nback to the north.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2455
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2456,
+          "count": 1,
+          "room": 2456
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2455,
+          "count": 1,
+          "room": 2456
+        },
+        {
+          "vnum": 2456,
+          "count": 1,
+          "room": 2456
+        }
+      ]
+    },
+    "2457": {
+      "vnum": 2457,
+      "name": "The Field",
+      "description": "You are in a large field.  This is the area in which the horses are ridden.\nYou see several obstacles in various spots in the field.  The grass is fairly\nworn.  The owner is obviuosly an avid equestrian.  The field continues north\nand west, and the stables lie to the south.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "north": 2483,
+        "south": 2455,
+        "west": 2482
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2458": {
+      "vnum": 2458,
+      "name": "A Darkened Hallway on the Second Floor",
+      "description": "You are in a hallway on the second floor.  It is much darker here than the\nrest of the house.  This must be the servant's section of the manor.  East\nand south appear to be bedrooms, and to the west lies another bathroom.\nApparently, the owners do not want the servants to use the same bathroom.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2459,
+        "north": 2419,
+        "south": 2460,
+        "west": 2461
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2459": {
+      "vnum": 2459,
+      "name": "The Cook's Bedroom",
+      "description": "This room is absolutely pathetic.  You've seen prison cells with more\nfurniture than this.  The only things in the room are the bed, one chair,\nand a mirror that probably would fit into your pocket.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2458
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2448,
+          "count": 1,
+          "room": 2459
+        }
+      ]
+    },
+    "2460": {
+      "vnum": 2460,
+      "name": "Nanny's Bedroom",
+      "description": "This is where the nanny retires for the evening.  It is a sparse room, with\na bed, a small rocking chair, and a rug.  Nothing hangs on the cold, white\nwalls.  A tiny window provides minimal light during the daytime.  A single\ncandle is on a nightstand next to the bed, and a chest of drawers sits in\nthe corner.  The only way out of here is back the way you came.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2458
+      },
+      "exdescs": {
+        "bed": "A tiny bed with a cheap mattress.",
+        "chair": "Your typical nanny's rocking chair.",
+        "rug": "You see a small rug, which prevents what little heat in the room from escaping\nthrough the floor"
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2460,
+          "count": 1,
+          "room": 2460
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2460,
+          "count": 1,
+          "room": 2460
+        }
+      ]
+    },
+    "2461": {
+      "vnum": 2461,
+      "name": "A Tiny Bathroom",
+      "description": "You can't believe how small this room is.  You barely have room to walk,\nlet alone do anything else.  There is one candle on the wall, providing\nscant light for the room.  You can not imagine anyone older than 5 fitting\ninto that minute tub.  The washing basin is no wider than a dinner plate.\nEven the pitcher is small.  You start getting claustrophobic, and want to\nleave.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2458
+      },
+      "exdescs": {
+        "candle": "It provides a little light for the room.",
+        "tub": "Key    tub"
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2437,
+          "count": 1,
+          "room": 2461
+        }
+      ]
+    },
+    "2462": {
+      "vnum": 2462,
+      "name": "Servants' Quarters",
+      "description": "You walk through the doorway into a wooden shack.  You know that servants\ndon't usually get the best accomodations, but this is ridiculous.  The whole\nroom is virtually empty, except for a small straw mat and a cabinet, and\nunderneath your feet is clay;  the poor servants don't even have a floor to\ntheir house.  Poorly built walls have no chance of keeping any heat within\nthe shack, and the windows aren't even windows; they're small squares cut in\nthe wall covered with animal skin.  Above you is a straw roof, which has\nholes in several places.  The only exit is to the south.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 2451
+      },
+      "exdescs": {
+        "mat": "A simple straw mat serves as a bed."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2462,
+          "count": 1,
+          "room": 2462
+        },
+        {
+          "vnum": 2463,
+          "count": 1,
+          "room": 2462
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2457,
+          "count": 1,
+          "room": 2462
+        }
+      ]
+    },
+    "2463": {
+      "vnum": 2463,
+      "name": "The Pantry",
+      "description": "You have never seen so much food.  It is everywhere, stacked on the floor,\nand on shelves.  You see flour, dried meat, and grain on one wall.  On the\nother side sits pastries, cheese, and baskets full of fruit.  Stacked on\nthe floor are a few barrels of portwine.  You become really hungry, and\ndecide to take something.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2411
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2464,
+          "count": 1,
+          "room": 2463
+        },
+        {
+          "vnum": 2465,
+          "count": 1,
+          "room": 2463
+        },
+        {
+          "vnum": 2463,
+          "count": 2,
+          "room": 2463
+        }
+      ]
+    },
+    "2464": {
+      "vnum": 2464,
+      "name": "The Parlor",
+      "description": "You are in a small, comfortable room.  Several high-backed chairs line the\nwalls, and between them are solid cherry coffee tables.  The walls are made\nof oak paneling, with stunning crystal candlelamps providing light.  In\nthe center of the room sits a round table with several chairs surrounding\nit.  There is a deck of cards sitting on it.  The floor is carpeted, and\nmeticulously maintained.  Some works of art are hanging on the walls.  The\nonly exit is west, which takes you back to the main foyer.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2406
+      },
+      "exdescs": {
+        "art": "Looks like a genuine Breugel.",
+        "chair": "A rather large chair, upholstered with red velvet.",
+        "lamp": "Within the beautiful crystal lamp burns a solitary white candle."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2466,
+          "count": 1,
+          "room": 2464
+        }
+      ]
+    },
+    "2465": {
+      "vnum": 2465,
+      "name": "The Garden",
+      "description": "You are standing in a beautiful garden.  Row upon row of flowers stretch\noff into the distance.  A small patch of vegetables grows here as well.\nA wall standing six meters tall surrounds the garden.  Just beyond the wall\nis a small forest of trees.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 2453
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2465,
+          "count": 1,
+          "room": 2465
+        }
+      ],
+      "object_resets": []
+    },
+    "2466": {
+      "vnum": 2466,
+      "name": "The Master Bathroom",
+      "description": "Never in your life have you seen a more expensive bathroom.  The elegance and\nostentatiousness of this room astounds you.  Almost everything in the room is\nmade of marble.  The mirror hanging on the wall is framed in gold.  Overhead,\na diamond chandelier provides light.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 2425
+      },
+      "exdescs": {
+        "chandelier": "The chandelier is made totally of gold and diamonds.",
+        "mirror": "Just looking at this thing makes you feel rich."
+      },
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2426,
+          "count": 1,
+          "room": 2466
+        }
+      ],
+      "object_resets": []
+    },
+    "2467": {
+      "vnum": 2467,
+      "name": "A Gentle Hill",
+      "description": "Your progress becomes a little difficult as the ground slopes up into a hill.\nTo the east and west, all you can see is forest, and at the top of the hill\nyou think you can make out a gate and a large fence.  You can continue on\nand explore what lies ahead, or return south toward the pond.",
+      "sector": "hills",
+      "flags": {},
+      "exits": {
+        "south": 2492,
+        "up": 2400
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2468": {
+      "vnum": 2468,
+      "name": "An Intersection",
+      "description": "The dark corridors branch off here.  You have no way of knowing which\npath to choose.  You can only pick one, and hope...",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2446,
+        "northwest": 2445,
+        "south": 2469,
+        "southeast": 2449
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2468
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2446,
+          "count": 1,
+          "room": 2468
+        }
+      ]
+    },
+    "2469": {
+      "vnum": 2469,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2468,
+        "south": 2470,
+        "southeast": 2491
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2470": {
+      "vnum": 2470,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2469,
+        "west": 2471
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2409,
+          "count": 2,
+          "room": 2470
+        }
+      ],
+      "object_resets": []
+    },
+    "2471": {
+      "vnum": 2471,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2470,
+        "south": 2473,
+        "west": 2472
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2472": {
+      "vnum": 2472,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2471,
+        "south": 2475,
+        "west": 2478
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2472
+        }
+      ],
+      "object_resets": []
+    },
+    "2473": {
+      "vnum": 2473,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2471,
+        "southeast": 2488
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2474": {
+      "vnum": 2474,
+      "name": "A Staircase",
+      "description": "Ah!  You knew there had to be a way out!  You climb the stairs and come to\na door.  You push the door open, and finds that it opens into the parlor.\nLooking at the other side of the door, you find that it is ingeniously\nconcealed in the wall.  You realize that you will not be able to re-enter\nthis room from the parlor.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 2407,
+        "up": 2464
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2475": {
+      "vnum": 2475,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2472,
+        "south": 2476
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2476": {
+      "vnum": 2476,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2475,
+        "west": 2487
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2477": {
+      "vnum": 2477,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 2478
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2478": {
+      "vnum": 2478,
+      "name": "An Intersection",
+      "description": "The dark corridors branch off here.  You have no way of knowing which\npath to choose.  You can only pick one, and hope...",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2472,
+        "north": 2477,
+        "south": 2479,
+        "west": 2481
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2479": {
+      "vnum": 2479,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2478,
+        "south": 2487,
+        "west": 2480
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2479
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2447,
+          "count": 1,
+          "room": 2479
+        }
+      ]
+    },
+    "2480": {
+      "vnum": 2480,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2479,
+        "north": 2481
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2481": {
+      "vnum": 2481,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2478,
+        "south": 2480
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2412,
+          "count": 4,
+          "room": 2481
+        }
+      ],
+      "object_resets": []
+    },
+    "2482": {
+      "vnum": 2482,
+      "name": "The Field",
+      "description": "The field leads north and east from here.  The ground does not appear to be\nas worn here.  You can see a water trough to the north.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 2457,
+        "north": 2486
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2483": {
+      "vnum": 2483,
+      "name": "The Field",
+      "description": "You are in the northeast corner of the field.  There is nothing here but\nopen grass.  Well, it used to be grass.  It has been used so much that now\nthere is just a large area of mud.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "south": 2457,
+        "west": 2486
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2484": {
+      "vnum": 2484,
+      "name": "Final Judgment",
+      "description": "You have really done it now.  You are floating, helpless, in a void.\nThe judge sits behind his desk, ready to pass judgment on you.",
+      "sector": "inside",
+      "flags": {
+        "chaotic": true,
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2484,
+          "count": 1,
+          "room": 2484
+        }
+      ],
+      "object_resets": []
+    },
+    "2485": {
+      "vnum": 2485,
+      "name": "An Antechamber",
+      "description": "You are in a room with no walls at all.  Looking around, you see nothing.\nComplete and total nothingness.  A chill envelops your body.  Down below,\nyou can see an important-looking man sitting in a chair.  He doesn't look too\nhappy, and you would just as soon leave.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomagic": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 2484
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2486": {
+      "vnum": 2486,
+      "name": "The Field",
+      "description": "This is the northwest corner of the field.  The mud is ankle deep here, and\nis sticking to your shoes.  Apparently, the horses like to walk around the\nwater trough.",
+      "sector": "field",
+      "flags": {},
+      "exits": {
+        "east": 2483,
+        "south": 2482
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2455,
+          "count": 3,
+          "room": 2486
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2486,
+          "count": 1,
+          "room": 2486
+        }
+      ]
+    },
+    "2487": {
+      "vnum": 2487,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2476,
+        "north": 2479
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2488": {
+      "vnum": 2488,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 2489,
+        "northwest": 2473
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2488
+        }
+      ],
+      "object_resets": []
+    },
+    "2489": {
+      "vnum": 2489,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2490,
+        "west": 2488
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2490": {
+      "vnum": 2490,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 2491,
+        "south": 2489
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [
+        {
+          "vnum": 2471,
+          "count": 4,
+          "room": 2490
+        }
+      ],
+      "object_resets": []
+    },
+    "2491": {
+      "vnum": 2491,
+      "name": "The Labyrinth",
+      "description": "You are lost in a maze of corridors.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "northwest": 2469,
+        "south": 2490
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2492": {
+      "vnum": 2492,
+      "name": "A small path in the forest",
+      "description": "You find yourself wandering along a small path through the forest.  Ahead of\nyou is a gently sloping hill.  You can't quite make out what is at the top.\nTrees and brush surround you to the east and west.  You can investigate\nwhat lies ahead, or return south to the pond.",
+      "sector": "forest",
+      "flags": {},
+      "exits": {
+        "north": 2467,
+        "southwest": 2096
+      },
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2493": {
+      "vnum": 2493,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2494": {
+      "vnum": 2494,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2495": {
+      "vnum": 2495,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "nosummon": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2496": {
+      "vnum": 2496,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2497": {
+      "vnum": 2497,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2498": {
+      "vnum": 2498,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2499": {
+      "vnum": 2499,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Tullfuhrzky Manor",
+      "area_author": "Cedrick",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2405": {
+      "vnum": 2405,
+      "keywords": [
+        "snake",
+        "python"
+      ],
+      "short": "a python",
+      "long": "A python lies here, ready to sink its fangs into you.",
+      "race": "reptile",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2407": {
+      "vnum": 2407,
+      "keywords": [
+        "dog",
+        "collie"
+      ],
+      "short": "a collie",
+      "long": "A collie approaches you, looking rather dangerous.",
+      "race": "canine",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2408": {
+      "vnum": 2408,
+      "keywords": [
+        "a",
+        "large",
+        "rat"
+      ],
+      "short": "a large rat",
+      "long": "An enormous rat scurries around here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2409": {
+      "vnum": 2409,
+      "keywords": [
+        "large",
+        "rat"
+      ],
+      "short": "A large rat",
+      "long": "A large rat wanders about here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2410": {
+      "vnum": 2410,
+      "keywords": [
+        "grandpa",
+        "man"
+      ],
+      "short": "old grandpa",
+      "long": "An old grandpa sits here, smoking a pipe and reading a book.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2411": {
+      "vnum": 2411,
+      "keywords": [
+        "lady",
+        "cook",
+        "Kery"
+      ],
+      "short": "the fat cook",
+      "long": "An old, fat lady is preparing food here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 40,
+      "max_mana": 40,
+      "attributes": [
+        13,
+        6,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2412": {
+      "vnum": 2412,
+      "keywords": [
+        "rat",
+        "large"
+      ],
+      "short": "a huge rat",
+      "long": "An enormous rat scurries around here.",
+      "race": "rodent",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 52,
+      "max_mana": 52,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2420": {
+      "vnum": 2420,
+      "keywords": [
+        "child"
+      ],
+      "short": "A small child",
+      "long": "A small child washes himself in the tub.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 45,
+      "max_mana": 45,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2421": {
+      "vnum": 2421,
+      "keywords": [
+        "baby"
+      ],
+      "short": "a baby",
+      "long": "A cute baby crawls along on the floor.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2422": {
+      "vnum": 2422,
+      "keywords": [
+        "Robert",
+        "boy",
+        "child"
+      ],
+      "short": "Robert",
+      "long": "Robert Tullfuhrzky is drawing pictures here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2423": {
+      "vnum": 2423,
+      "keywords": [
+        "young",
+        "child"
+      ],
+      "short": "a young child",
+      "long": "A young child sits on his bed.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 75,
+      "max_mana": 75,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2425": {
+      "vnum": 2425,
+      "keywords": [
+        "Joshua",
+        "Tullfuhrzky",
+        "master",
+        "man"
+      ],
+      "short": "Master Tullfuhrzky",
+      "long": "Master Tullfuhrzky is angered by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7,
+      "hp": 7,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2426": {
+      "vnum": 2426,
+      "keywords": [
+        "Lady",
+        "Tullfuhrzky",
+        "woman"
+      ],
+      "short": "Lady Tullfuhrzky",
+      "long": "Lady Tullfuhrzky is terrified by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2442": {
+      "vnum": 2442,
+      "keywords": [
+        "spirit"
+      ],
+      "short": "the corpse's spirit",
+      "long": "The corpse's spirit floats above the rotting carcass.",
+      "race": "ghoul",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2443": {
+      "vnum": 2443,
+      "keywords": [
+        "rotting",
+        "corpse"
+      ],
+      "short": "this mob is not used",
+      "long": "A corpse slowly decomposes here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2450": {
+      "vnum": 2450,
+      "keywords": [
+        "torturer"
+      ],
+      "short": "an evil-looking torturer",
+      "long": "A black-hooded torturer stands here, ready to massacre you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2455": {
+      "vnum": 2455,
+      "keywords": [
+        "riding",
+        "horse"
+      ],
+      "short": "a riding horse",
+      "long": "A beautiful manor riding horse stands here.",
+      "race": "horse",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 9,
+      "hp": 9,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2456": {
+      "vnum": 2456,
+      "keywords": [
+        "stablehand",
+        "man"
+      ],
+      "short": "a stablehand",
+      "long": "An old stablehand is hard at work.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 80,
+      "max_mana": 80,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2460": {
+      "vnum": 2460,
+      "keywords": [
+        "Nanny",
+        "Nana"
+      ],
+      "short": "a decrepit old nanny",
+      "long": "Nana is here, rocking merrily away.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2462": {
+      "vnum": 2462,
+      "keywords": [
+        "servant",
+        "boy"
+      ],
+      "short": "a servant boy",
+      "long": "A small servant boy relaxes here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 3,
+      "hp": 3,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2463": {
+      "vnum": 2463,
+      "keywords": [
+        "man",
+        "servant"
+      ],
+      "short": "a house servant",
+      "long": "A house servant rests after a long day.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2465": {
+      "vnum": 2465,
+      "keywords": [
+        "gardener",
+        "man"
+      ],
+      "short": "the gardener",
+      "long": "The gardener works hard to produce fresh vegetables.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 160,
+      "max_mana": 160,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2471": {
+      "vnum": 2471,
+      "keywords": [
+        "cockroach",
+        "roach"
+      ],
+      "short": "a giant cockroach",
+      "long": "An extremely LARGE roach wanders about.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 78,
+      "max_mana": 78,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2472": {
+      "vnum": 2472,
+      "keywords": [
+        "cockroach",
+        "roach"
+      ],
+      "short": "this mob is not used",
+      "long": "An extremely LARGE roach wanders about.",
+      "race": "insect",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 4,
+      "hp": 4,
+      "mana": 20,
+      "max_mana": 20,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2484": {
+      "vnum": 2484,
+      "keywords": [
+        "judge"
+      ],
+      "short": "The Judge",
+      "long": "The Final Judge glares at you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 30000,
+      "max_mana": 30000,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2400": {
+      "vnum": 2400,
+      "keywords": [
+        "toybox",
+        "box"
+      ],
+      "type": "container",
+      "short": "a cute wooden toybox",
+      "long": "A cute wooden toybox sits here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2401": {
+      "vnum": 2401,
+      "keywords": [
+        "mixing",
+        "bowl"
+      ],
+      "type": "container",
+      "short": "a mixing bowl",
+      "long": "Here sits a large mixing bowl.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2402": {
+      "vnum": 2402,
+      "keywords": [
+        "wooden",
+        "spoon"
+      ],
+      "type": "weapon",
+      "short": "a wooden spoon",
+      "long": "A cook's wooden spoon has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2403": {
+      "vnum": 2403,
+      "keywords": [
+        "well"
+      ],
+      "type": "fountain",
+      "short": "a well",
+      "long": "A small stone water well descends into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2404": {
+      "vnum": 2404,
+      "keywords": [
+        "baker's",
+        "apron"
+      ],
+      "type": "container",
+      "short": "this object is not used",
+      "long": "A plain baker's apron has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2405": {
+      "vnum": 2405,
+      "keywords": [
+        "rolling",
+        "pin"
+      ],
+      "type": "weapon",
+      "short": "a rolling pin",
+      "long": "A rolling pin lies on the ground, forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2406": {
+      "vnum": 2406,
+      "keywords": [
+        "pile",
+        "gold",
+        "coins"
+      ],
+      "type": "money",
+      "short": "a large pile of gold",
+      "long": "A large pile of gold coins lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2407": {
+      "vnum": 2407,
+      "keywords": [
+        "safe"
+      ],
+      "type": "container",
+      "short": "a safe",
+      "long": "A safe sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2408": {
+      "vnum": 2408,
+      "keywords": [
+        "book"
+      ],
+      "type": "wand",
+      "short": "a book entitled \"50 Ways to Heal the Dying\"",
+      "long": "A book entitled \"50 Ways to Heal the Dying\" lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2409": {
+      "vnum": 2409,
+      "keywords": [
+        "smoking",
+        "jacket"
+      ],
+      "type": "armor",
+      "short": "a plaid smoking jacket",
+      "long": "A old, plaid smoking jacket has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2410": {
+      "vnum": 2410,
+      "keywords": [
+        "pipe"
+      ],
+      "type": "staff",
+      "short": "a hand-carved pipe",
+      "long": "Someone carelessly dropped their pipe on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2411": {
+      "vnum": 2411,
+      "keywords": [
+        "row",
+        "cabinet",
+        "cabinets"
+      ],
+      "type": "container",
+      "short": "a large array of cabinets",
+      "long": "A large row of cabinets hangs above the sink.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2412": {
+      "vnum": 2412,
+      "keywords": [
+        "toolshed",
+        "shed"
+      ],
+      "type": "container",
+      "short": "a small toolshed",
+      "long": "A small toolshed stands on the grounds here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2413": {
+      "vnum": 2413,
+      "keywords": [
+        "gardening",
+        "shears"
+      ],
+      "type": "weapon",
+      "short": "a small pair of gardening shears",
+      "long": "A small pair of gardening shears sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2414": {
+      "vnum": 2414,
+      "keywords": [
+        "snakeskin",
+        "hide",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "the hide of a python",
+      "long": "A cloak made from the skin of a python lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2415": {
+      "vnum": 2415,
+      "keywords": [
+        "wand",
+        "venom",
+        "fang"
+      ],
+      "type": "wand",
+      "short": "a fang filled with venom",
+      "long": "A fang filled with python's venom has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2416": {
+      "vnum": 2416,
+      "keywords": [
+        "dresser"
+      ],
+      "type": "container",
+      "short": "object not used",
+      "long": "Some god dropped a newly created dresser here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2417": {
+      "vnum": 2417,
+      "keywords": [
+        "panther-crested",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "panther-crested ring",
+      "long": "A ring with the crest of a panther glitters on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2418": {
+      "vnum": 2418,
+      "keywords": [
+        "bar",
+        "soap"
+      ],
+      "type": "pill",
+      "short": "a bar of soap",
+      "long": "A bar of soap is here for you to trip over.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2419": {
+      "vnum": 2419,
+      "keywords": [
+        "nightshirt",
+        "shirt"
+      ],
+      "type": "armor",
+      "short": "a nightshirt",
+      "long": "A nightshirt with the image of a panther has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2420": {
+      "vnum": 2420,
+      "keywords": [
+        "cabinet"
+      ],
+      "type": "container",
+      "short": "a small wooden cabinet",
+      "long": "A cabinet is here, waiting to be opened.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2421": {
+      "vnum": 2421,
+      "keywords": [
+        "silk",
+        "robe"
+      ],
+      "type": "armor",
+      "short": "a silk bathrobe",
+      "long": "A soft silk bathrobe sits here, waiting to be worn.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2422": {
+      "vnum": 2422,
+      "keywords": [
+        "ivory",
+        "cane"
+      ],
+      "type": "staff",
+      "short": "an ivory cane",
+      "long": "An expensive-looking ivory cane has been carelessly left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2423": {
+      "vnum": 2423,
+      "keywords": [
+        "black",
+        "patent",
+        "leather",
+        "shoes"
+      ],
+      "type": "armor",
+      "short": "black patent leather shoes",
+      "long": "Some rich person has left their black patent leather shoes here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2424": {
+      "vnum": 2424,
+      "keywords": [
+        "sapphire",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a dazzling sapphire ring",
+      "long": "A sapphire ring glistens and sparkles.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2425": {
+      "vnum": 2425,
+      "keywords": [
+        "key",
+        "safekey"
+      ],
+      "type": "key",
+      "short": "a small, metal safe key",
+      "long": "A small, metal safe key sits here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2426": {
+      "vnum": 2426,
+      "keywords": [
+        "vial",
+        "potion",
+        "undead"
+      ],
+      "type": "potion",
+      "short": "a vial of undead spirits",
+      "long": "On the ground is a vial of undead spirit potion.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2427": {
+      "vnum": 2427,
+      "keywords": [
+        "dog",
+        "collar"
+      ],
+      "type": "armor",
+      "short": "a gem encrusted dog collar",
+      "long": "On the ground sits a gem-encrusted dog collar.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2428": {
+      "vnum": 2428,
+      "keywords": [
+        "cowhide",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a cowhide whip",
+      "long": "A long whip made of cowhide lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2429": {
+      "vnum": 2429,
+      "keywords": [
+        "exoskeleton",
+        "breastplate",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a cockroach's exoskeleton",
+      "long": "Here lies a breastplate fashioned from the exoskeleton of an enormous roach.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2430": {
+      "vnum": 2430,
+      "keywords": [
+        "gold"
+      ],
+      "type": "money",
+      "short": "this object is not used",
+      "long": "25000 gold coins lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2431": {
+      "vnum": 2431,
+      "keywords": [
+        "purse",
+        "coin"
+      ],
+      "type": "container",
+      "short": "a coin purse",
+      "long": "A small coin purse lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2432": {
+      "vnum": 2432,
+      "keywords": [
+        "spectacles",
+        "glasses"
+      ],
+      "type": "armor",
+      "short": "gold spectacles",
+      "long": "Somebody has lost their spectacles here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2433": {
+      "vnum": 2433,
+      "keywords": [
+        "shawl"
+      ],
+      "type": "armor",
+      "short": "a shawl",
+      "long": "A raggedy shawl is lying in the dirt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2434": {
+      "vnum": 2434,
+      "keywords": [
+        "wooden",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a wooden knife",
+      "long": "A child has dropped a wooden knife here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2435": {
+      "vnum": 2435,
+      "keywords": [
+        "fairy",
+        "tale",
+        "book"
+      ],
+      "type": "scroll",
+      "short": "a book of fairy tales",
+      "long": "A book of fairy tales has been left on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2436": {
+      "vnum": 2436,
+      "keywords": [
+        "pocket",
+        "watch"
+      ],
+      "type": "armor",
+      "short": "an expensive-looking pocket watch",
+      "long": "An expensive-looking pocket watch has been left here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2437": {
+      "vnum": 2437,
+      "keywords": [
+        "candle"
+      ],
+      "type": "light",
+      "short": "a wax candle",
+      "long": "A wax candle flickers in the darkness.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2438": {
+      "vnum": 2438,
+      "keywords": [
+        "cloth",
+        "diaper"
+      ],
+      "type": "armor",
+      "short": "a cloth diaper",
+      "long": "A cloth diaper lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2439": {
+      "vnum": 2439,
+      "keywords": [
+        "paintbrush",
+        "brush"
+      ],
+      "type": "wand",
+      "short": "a paintbrush",
+      "long": "A brush drips with fresh watercolor paint.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2440": {
+      "vnum": 2440,
+      "keywords": [
+        "make-up",
+        "compact"
+      ],
+      "type": "staff",
+      "short": "an ivory make-up compact",
+      "long": "A small, ivory make-up compact has been forgotten on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2441": {
+      "vnum": 2441,
+      "keywords": [
+        "chef",
+        "apron"
+      ],
+      "type": "armor",
+      "short": "a chef's apron",
+      "long": "A white chef's apron has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2442": {
+      "vnum": 2442,
+      "keywords": [
+        "panther-crested",
+        "helmet"
+      ],
+      "type": "armor",
+      "short": "a panther-crested helmet",
+      "long": "Someone has dropped a helmet with the crest of a panther here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2443": {
+      "vnum": 2443,
+      "keywords": [
+        "panther-crested",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a panther-crested shield",
+      "long": "Lying here is a shield with the crest of a panther.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2444": {
+      "vnum": 2444,
+      "keywords": [
+        "rotting",
+        "corpse"
+      ],
+      "type": "container",
+      "short": "a rotting corpse",
+      "long": "A grotesque corpse rots away.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2445": {
+      "vnum": 2445,
+      "keywords": [
+        "scroll",
+        "avatar",
+        "avatar's"
+      ],
+      "type": "scroll",
+      "short": "an avatar's scroll",
+      "long": "An avatar's scroll lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2446": {
+      "vnum": 2446,
+      "keywords": [
+        "tin",
+        "shield"
+      ],
+      "type": "armor",
+      "short": "a tin shield",
+      "long": "Somebody dropped a cheap tin shield on the floor.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2447": {
+      "vnum": 2447,
+      "keywords": [
+        "rat",
+        "fur",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "a rat fur cloak",
+      "long": "A cloak made of rat fur sits on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2448": {
+      "vnum": 2448,
+      "keywords": [
+        "small",
+        "mirror"
+      ],
+      "type": "wand",
+      "short": "a small mirror",
+      "long": "A small mirror has been left on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2449": {
+      "vnum": 2449,
+      "keywords": [
+        "undershirt",
+        "shirt",
+        "tattered"
+      ],
+      "type": "armor",
+      "short": "a tattered undershirt",
+      "long": "An old, tattered undershirt has been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2450": {
+      "vnum": 2450,
+      "keywords": [
+        "key"
+      ],
+      "type": "key",
+      "short": "skeleton key",
+      "long": "A skeleton key lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2451": {
+      "vnum": 2451,
+      "keywords": [
+        "torturer's",
+        "whip"
+      ],
+      "type": "weapon",
+      "short": "a nasty torturer's whip",
+      "long": "A long, nasty-looking whip lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2452": {
+      "vnum": 2452,
+      "keywords": [
+        "torturer's",
+        "mask"
+      ],
+      "type": "armor",
+      "short": "black torturer's mask",
+      "long": "On the ground lies a black mask with two eyeholes.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2453": {
+      "vnum": 2453,
+      "keywords": [
+        "torn",
+        "pants"
+      ],
+      "type": "armor",
+      "short": "a pair of torn pants",
+      "long": "An old pair of torn pants have been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2454": {
+      "vnum": 2454,
+      "keywords": [
+        "gavel",
+        "judgement"
+      ],
+      "type": "weapon",
+      "short": "the Gavel of Judgement",
+      "long": "The Gavel of Judgement lies on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2455": {
+      "vnum": 2455,
+      "keywords": [
+        "riding",
+        "stick"
+      ],
+      "type": "weapon",
+      "short": "a riding stick",
+      "long": "A riding stick has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2456": {
+      "vnum": 2456,
+      "keywords": [
+        "pair",
+        "of",
+        "chaps"
+      ],
+      "type": "armor",
+      "short": "a pair of leather chaps",
+      "long": "A pair of leather chaps have been discarded here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2457": {
+      "vnum": 2457,
+      "keywords": [
+        "oil",
+        "lamp"
+      ],
+      "type": "light",
+      "short": "an oil lamp",
+      "long": "An oil lamp burns brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2458": {
+      "vnum": 2458,
+      "keywords": [
+        "carrot"
+      ],
+      "type": "pill",
+      "short": "an orange carrot",
+      "long": "A large, orange carrot pokes up from the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2460": {
+      "vnum": 2460,
+      "keywords": [
+        "chest",
+        "drawers"
+      ],
+      "type": "container",
+      "short": "a chest of drawers",
+      "long": "A chest of drawers sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2461": {
+      "vnum": 2461,
+      "keywords": [
+        "watermelon"
+      ],
+      "type": "pill",
+      "short": "a juicy watermelon",
+      "long": "A tantalizing watermelon grows here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2462": {
+      "vnum": 2462,
+      "keywords": [
+        "head",
+        "lettuce"
+      ],
+      "type": "pill",
+      "short": "a head of lettuce",
+      "long": "A head of lettuce is growing here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2463": {
+      "vnum": 2463,
+      "keywords": [
+        "port",
+        "barrel",
+        "wine"
+      ],
+      "type": "drinkcon",
+      "short": "a barrel of port wine",
+      "long": "Several barrels of port wine are stacked here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2464": {
+      "vnum": 2464,
+      "keywords": [
+        "dried",
+        "meat"
+      ],
+      "type": "food",
+      "short": "some dried meat",
+      "long": "On a shelf sits some dried meat.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2465": {
+      "vnum": 2465,
+      "keywords": [
+        "cheese"
+      ],
+      "type": "food",
+      "short": "delicious cheddar cheese",
+      "long": "The shelves contain some wonderful cheddar cheese.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2466": {
+      "vnum": 2466,
+      "keywords": [
+        "deck",
+        "cards"
+      ],
+      "type": "armor",
+      "short": "a deck of playing cards",
+      "long": "A deck of playing cards lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2486": {
+      "vnum": 2486,
+      "keywords": [
+        "trough"
+      ],
+      "type": "fountain",
+      "short": "a water trough",
+      "long": "A trough filled with cool water stands here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2498": {
+      "vnum": 2498,
+      "keywords": [
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "not used",
+      "long": "A deadly elvenbane lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2499": {
+      "vnum": 2499,
+      "keywords": [
+        "potion",
+        "sprite"
+      ],
+      "type": "potion",
+      "short": "not used",
+      "long": "A Sprite",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

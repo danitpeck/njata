@@ -1,0 +1,889 @@
+{
+  "name": "Newbie School",
+  "author": "Shadwen",
+  "reset_minutes": 3,
+  "rooms": {
+    "8100": {
+      "vnum": 8100,
+      "name": "Newbie Area - Information Room [OOC]",
+      "description": "Name - Newbie School\nAuthor - Shadwen\nPurpose - The first place players are sent to after character creation.\nHere, they learn all the basic commands of Njata and get an idea of what\nkind of game we're running.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8101": {
+      "vnum": 8101,
+      "name": "Welcome to Njata! [OOC]",
+      "description": "Welcome to Njata, traveler! Feel free to venture through our mud school in\norder to learn how we differ from other experiences you may be used to.\nWhether new to Muds or a grizzled veteran, make certain to read the room\ndescriptions here or else things may get confusing very quickly! If you\nhave visited this school before, or feel you need no help. Feel free to\nenter the portal downwards.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "down": 1400,
+        "north": 8102
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8102": {
+      "vnum": 8102,
+      "name": "Learning About Yourself [OOC]",
+      "description": "Here is where you will learn more about yourself. Type [stats] to see\ninformation about your character, [equipment] to see what you're wearing,\nand [inventory] to see what you're carrying. Get familiar with these\ncommands before you venture forth. When you are ready to proceed, head [east].",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8104,
+        "south": 8101
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8103": {
+      "vnum": 8103,
+      "name": "Becoming Acquainted with Skills [OOC]",
+      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type [abilities]. Most commands can be shortened in Njata\nfor your convenience! You'll grow stronger by using your abilities and finding\nrelics to study throughout the world. Look in every nook and cranny to discover\nit. Head north when you're ready to continue.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 8104,
+        "west": 8109
+      },
+      "exdescs": {},
+      "mobile_resets": [
+        {
+          "vnum": 8102,
+          "count": 1,
+          "room": 8103
+        }
+      ],
+      "object_resets": []
+    },
+    "8104": {
+      "vnum": 8104,
+      "name": "Getting Equipped for the First Time [OOC]",
+      "description": "Welcome to your starting equipment! Your starter kit has already\nprovided you with basic gear suited to your choice. You can use [equipment]\nto see what you're wearing and [inventory] to see what you're carrying.\nFeel free to explore the world now. Proceed to the north when you're ready\nto learn more commands.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8103,
+        "west": 8102
+      },
+      "exdescs": {},
+      "mobile_resets": [
+        {
+          "vnum": 8101,
+          "count": 1,
+          "room": 8104
+        }
+      ],
+      "object_resets": []
+    },
+    "8105": {
+      "vnum": 8105,
+      "name": "In-Character Communication [OOC]",
+      "description": "In-character communication is how you roleplay and interact with other\nplayers in the world. To speak to an entire room of people, simply type\n[Say] followed by your message. For example: [Say Hello, everyone!]\nEveryone in the room will see what you say. This is the primary way to\nconverse and tell stories in Njata.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8109,
+        "north": 8106
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8106": {
+      "vnum": 8106,
+      "name": "Describing Your Hair and Eyes [OOC]",
+      "description": "With all that out of the way, it's time to get down to business.  We still\ndon't even know what you look like! Here, you will learn how to remedy\nthat. Type [Hair] followed by a description to describe how your hair will\nappear to those who look at you. For example, if you wanted to have coarse\nbrown hair, you would type [Hair coarse brown hair] and anyone who looks\nat you would see He/She/It has coarse brown hair. Now to describe your\neyes, type [Eyes] followed by a description. Remember to make certain that\nthese descriptions make sense for your race. Dragons should skip\ndescribing their hair, unless they wanted to use that opportunity to\ndescribe their horns, pattern, etc.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8110,
+        "south": 8105
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8107": {
+      "vnum": 8107,
+      "name": "Your First Taste of Battle [OOC]",
+      "description": "Combat can be very dangerous and very thrilling, but it's important to remember, it's not the only option. If you decide to engage in battle, you can use your abilities. Warriors and Wanderers can [Slash] with their weapons, while Scholars and Mages can [Cast] spells like Arcane Bolt. Try out your abilities by practicing on the training dummy here!",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8108,
+        "south": 8110
+      },
+      "exdescs": {},
+      "mobile_resets": [
+        {
+          "vnum": 8103,
+          "count": 1,
+          "room": 8107
+        }
+      ],
+      "object_resets": []
+    },
+    "8108": {
+      "vnum": 8108,
+      "name": "The Final Consideration [OOC]",
+      "description": "Before you continue your adventure in Njata, it's crucial that you understand\nour rules. They are what hold this community together. Type [Help RULES] to\nread and understand them. Make sure you follow them as you play, and enjoy\nyour time in Njata!",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "south": 8107,
+        "down": 1400
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8109": {
+      "vnum": 8109,
+      "name": "Out-of-Character Communication [OOC]",
+      "description": "Out-of-character communication allows you to chat and socialize with other\nplayers worldwide. Type [Chat] followed by your message to speak with all\nplayers, regardless of where you are. For example: [Chat Hello everyone!]\nOther players will see your message marked with the [Chat] label so they\nknow it's out-of-character communication.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 8103,
+        "west": 8105
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8110": {
+      "vnum": 8110,
+      "name": "Describing Yourself Further [OOC]",
+      "description": "Now that your hair and eyes are described, you've got the basics down!\nYou can continue customizing your appearance as you progress through the\nworld, but for now you have what you need to get started. Head north when you're ready to continue exploring.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 8107,
+        "west": 8106
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "8111": {
+      "vnum": 8111,
+      "name": "Equipment Testing [OOC]",
+      "description": "A simple practice hall with a neat row of items laid out on the floor.\nTry [get] to pick them up, [wear all] to equip, [equipment] to review,\nthen [remove all] when you are done. Return [west] when finished.",
+      "sector": "city",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "west": 8104
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 8107,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8105,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8110,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8111,
+          "count": 1,
+          "room": 8111
+        },
+        {
+          "vnum": 8114,
+          "count": 1,
+          "room": 8111
+        }
+      ]
+    },
+    "8149": {
+      "vnum": 8149,
+      "name": "Last Room",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "mobile_resets": [
+        {
+          "vnum": 8149,
+          "count": 1,
+          "room": 8149
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 8149,
+          "count": 1,
+          "room": 8149
+        }
+      ]
+    }
+  },
+  "mobiles": {
+    "8100": {
+      "vnum": 8100,
+      "keywords": [
+        "first",
+        "mob"
+      ],
+      "short": "a newly created first mob",
+      "long": "Some god abandoned a newly created first mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8101": {
+      "vnum": 8101,
+      "keywords": [
+        "Brutus,",
+        "The",
+        "Trainer."
+      ],
+      "short": "Brutus, The Trainer",
+      "long": "Brutus, The Trainer stands here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8102": {
+      "vnum": 8102,
+      "keywords": [
+        "Elora,",
+        "The",
+        "Guide"
+      ],
+      "short": "Elora, The Guide.",
+      "long": "Elora, The Guide stands here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8103": {
+      "vnum": 8103,
+      "keywords": [
+        "Training",
+        "Dummy"
+      ],
+      "short": "The Training Dummy",
+      "long": "The Training Dummy is awaiting his defeat.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8104": {
+      "vnum": 8104,
+      "keywords": [
+        "Headmaster",
+        "Willis"
+      ],
+      "short": "Headmaster Willis",
+      "long": "Headmaster Willis rubs his hands together.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "8149": {
+      "vnum": 8149,
+      "keywords": [
+        "lastmob"
+      ],
+      "short": "a newly created lastmob",
+      "long": "Some god abandoned a newly created lastmob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "8100": {
+      "vnum": 8100,
+      "keywords": [
+        "first",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created first obj",
+      "long": "Some god dropped a newly created first obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8101": {
+      "vnum": 8101,
+      "keywords": [
+        "leather",
+        "fistwraps"
+      ],
+      "type": "weapon",
+      "short": "a pair of leather fistwraps",
+      "long": "You see some leather fistwraps here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8102": {
+      "vnum": 8102,
+      "keywords": [
+        "dull",
+        "bronze",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a dull bronze sword",
+      "long": "You see a dull sword made of bronze here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8103": {
+      "vnum": 8103,
+      "keywords": [
+        "heavy",
+        "bronze",
+        "lance"
+      ],
+      "type": "weapon",
+      "short": "a heavy bronze lance",
+      "long": "You see a heavy lance made of bronze here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8104": {
+      "vnum": 8104,
+      "keywords": [
+        "dull",
+        "knife"
+      ],
+      "type": "weapon",
+      "short": "a dull knife",
+      "long": "You see a dull knife here on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8105": {
+      "vnum": 8105,
+      "keywords": [
+        "faded",
+        "leather",
+        "cuirass"
+      ],
+      "type": "armor",
+      "short": "a faded leather cuirass",
+      "long": "A cuirass made of faded leather lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "equip_slot": "body",
+      "armor_value": 2,
+      "room_vnum": 0
+    },
+    "8106": {
+      "vnum": 8106,
+      "keywords": [
+        "metal",
+        "welded",
+        "mask"
+      ],
+      "type": "armor",
+      "short": "a welded metal mask",
+      "long": "A welded metal mask lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8107": {
+      "vnum": 8107,
+      "keywords": [
+        "brown",
+        "muffin",
+        "hat"
+      ],
+      "type": "armor",
+      "short": "a brown muffin hat",
+      "long": "A brown muffin hat lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "equip_slot": "head",
+      "armor_value": 2,
+      "room_vnum": 0
+    },
+    "8108": {
+      "vnum": 8108,
+      "keywords": [
+        "tinted",
+        "glasses"
+      ],
+      "type": "armor",
+      "short": "some tinted glasses",
+      "long": "Some tinted glasses lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8109": {
+      "vnum": 8109,
+      "keywords": [
+        "red",
+        "cotton",
+        "earmuffs",
+        "muffs"
+      ],
+      "type": "armor",
+      "short": "some red cotton earmuffs",
+      "long": "Some red cotton earmuffs lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8110": {
+      "vnum": 8110,
+      "keywords": [
+        "beaded",
+        "necklace"
+      ],
+      "type": "armor",
+      "short": "a beaded necklace",
+      "long": "A beaded necklace lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "equip_slot": "neck",
+      "armor_value": 1,
+      "room_vnum": 0
+    },
+    "8111": {
+      "vnum": 8111,
+      "keywords": [
+        "white",
+        "linen",
+        "cloak"
+      ],
+      "type": "armor",
+      "short": "a white linen cloak",
+      "long": "A white linen cloak lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "equip_slot": "back",
+      "armor_value": 2,
+      "room_vnum": 0
+    },
+    "8112": {
+      "vnum": 8112,
+      "keywords": [
+        "bronze",
+        "armor"
+      ],
+      "type": "armor",
+      "short": "some bronze armor",
+      "long": "Some bronze armor lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8113": {
+      "vnum": 8113,
+      "keywords": [
+        "quilted",
+        "cape"
+      ],
+      "type": "armor",
+      "short": "a quilted cape",
+      "long": "A quilted cape lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8114": {
+      "vnum": 8114,
+      "keywords": [
+        "leather",
+        "belt"
+      ],
+      "type": "armor",
+      "short": "a leather belt",
+      "long": "A leather belt lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "equip_slot": "waist",
+      "armor_value": 1,
+      "room_vnum": 0
+    },
+    "8115": {
+      "vnum": 8115,
+      "keywords": [
+        "patchwork",
+        "patch-work",
+        "work",
+        "sleeves"
+      ],
+      "type": "armor",
+      "short": "some patch-work sleeves",
+      "long": "Some patch-work sleeves lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8116": {
+      "vnum": 8116,
+      "keywords": [
+        "grass",
+        "woven",
+        "grasswoven",
+        "leggings"
+      ],
+      "type": "armor",
+      "short": "some grass-woven leggings",
+      "long": "Some grass-woven leggings lie here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8117": {
+      "vnum": 8117,
+      "keywords": [
+        "bound",
+        "leatherbound",
+        "leather-bound",
+        "gloves"
+      ],
+      "type": "armor",
+      "short": "a pair of leather-bound gloves",
+      "long": "A pair of leather-bound gloves lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8118": {
+      "vnum": 8118,
+      "keywords": [
+        "bell",
+        "anklets"
+      ],
+      "type": "armor",
+      "short": "a pair of bell anklets",
+      "long": "A pair of bell anklets lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8119": {
+      "vnum": 8119,
+      "keywords": [
+        "metal",
+        "cuff",
+        "link",
+        "cufflink"
+      ],
+      "type": "armor",
+      "short": "a metal cuff link",
+      "long": "A metal cuff link lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8120": {
+      "vnum": 8120,
+      "keywords": [
+        "copper",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "a copper ring",
+      "long": "A copper ring lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8121": {
+      "vnum": 8121,
+      "keywords": [
+        "rusty",
+        "greaves"
+      ],
+      "type": "armor",
+      "short": "a rusty set of greaves",
+      "long": "A rusty set of greaves lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8122": {
+      "vnum": 8122,
+      "keywords": [
+        "leaf-woven",
+        "leggings",
+        "leafwoven",
+        "woven"
+      ],
+      "type": "armor",
+      "short": "some leaf-woven leggings",
+      "long": "Some leaf-woven leggings lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8123": {
+      "vnum": 8123,
+      "keywords": [
+        "hand-me-down",
+        "boots"
+      ],
+      "type": "armor",
+      "short": "a hand-me-down pair of boots",
+      "long": "A hand-me-down pair of boots lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8124": {
+      "vnum": 8124,
+      "keywords": [
+        "adjustable",
+        "spiked",
+        "ring"
+      ],
+      "type": "armor",
+      "short": "an adjustable spiked ring",
+      "long": "An adjustable spiked ring lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8125": {
+      "vnum": 8125,
+      "keywords": [
+        "unlucky",
+        "horseshoes"
+      ],
+      "type": "armor",
+      "short": "some unlucky horseshoes",
+      "long": "Some unlucky horseshoes lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8126": {
+      "vnum": 8126,
+      "keywords": [
+        "cotton",
+        "ankle",
+        "bands"
+      ],
+      "type": "armor",
+      "short": "a pair of cotton ankle bands",
+      "long": "A pair of cotton ankle bands lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8127": {
+      "vnum": 8127,
+      "keywords": [
+        "sapphire"
+      ],
+      "type": "armor",
+      "short": "a sapphire",
+      "long": "A sapphire lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8130": {
+      "vnum": 8130,
+      "keywords": [
+        "back",
+        "pack",
+        "backpack",
+        "leather"
+      ],
+      "type": "container",
+      "short": "a leather backpack",
+      "long": "A backpack made from brown leather lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "8149": {
+      "vnum": 8149,
+      "keywords": [
+        "lastobj"
+      ],
+      "type": "trash",
+      "short": "a newly created lastobj",
+      "long": "Some god dropped a newly created lastobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

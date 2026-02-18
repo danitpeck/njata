@@ -1,0 +1,22 @@
+{
+  "name": "Scholar",
+  "class_id": 12,
+  "flavor_text": "As a Scholar, you will primarily learn magical spells through the use of scrolls, books, and word of mouth. You will doubtless acquire a vast treasury of knowledge of the world around you in the process, which can garner no small amount of respect among civilization. However, due to your studies you may not be very well prepared for harsh travel, and you will not be physically very strong. Are you quite certain?",
+  "races": 4210688,
+  "attr_prime": 3,
+  "attr_second": 0,
+  "attr_deficient": 0,
+  "weapon": 10312,
+  "guild": 3018,
+  "thac0": 18,
+  "thac32": 10,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}
+

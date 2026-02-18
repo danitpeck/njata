@@ -1,0 +1,16 @@
+{
+  "name": "Sphinx",
+  "race_id": 20,
+  "flavor_text": "Though their claws and talons are wicked and fierce, Sphinxes possess a great magical talent as well. Would you like to enter the world as a Sphinx?",
+  "str_plus": 2,
+  "dex_plus": 0,
+  "con_plus": 0,
+  "int_plus": 0,
+  "wis_plus": 0,
+  "cha_plus": 0,
+  "lck_plus": 0,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 110
+}

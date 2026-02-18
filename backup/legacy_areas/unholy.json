@@ -1,0 +1,2462 @@
+{
+  "name": "Unholy Grounds",
+  "author": "Eldaera",
+  "reset_minutes": 10,
+  "rooms": {
+    "2101": {
+      "vnum": 2101,
+      "name": "The Broken, Uneven Grounds",
+      "description": "Once inside the entrance, you see the hazy fog start to settle on the\nground, causing you to stumble over the uneven soil beneath your feet.\nSeveral broken twigs lay scattered on the rotten earth, crackling as\nyou continue through the haze-enshrouded cemetery.  Mossy stones cause\nyou to slip across the ground here and there, and you gasp with a\nstart as you slide unexpectedly into one of many holes left behind by\nthe ghoulish creatures which burrow through the grounds, searching for\nfresh new corpses that lay buried inside their wooden boxes like well-\nprepared banquet tables before their fiendish devourers.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2102,
+        "west": 2172
+      },
+      "exdescs": {
+        "stones": "Caused by the many rains that drench the area, several mossy stones\nscatter the grounds, covered in the slippery green carpet-like mold.",
+        "twigs": "Twisted brown twigs lay dead at your feet, blown away from the fingers\nof the tree that stands at the entrance."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2101
+        }
+      ],
+      "object_resets": []
+    },
+    "2102": {
+      "vnum": 2102,
+      "name": "Unholy Grounds of the Dead",
+      "description": "Trampling slowly through the cemetery, you find yourself standing at the\nbeginning of the many graves of the former dwellers of the land.  Hastily\nburied by uncaring gravediggers, many corpses now protrude from the earth,\nunwilling to accept their own fatalities, grotesquely twisted and mangled\nby savage animals feeding upon their flesh.  Others lay in their deathbeds\nonly to have their earthly blankets clawed away by grave robbers, leaving\ntheir broken coffin lids cracked and broken away.  Several statues, their\nfaces worn away to horrid stumps by the rains and the wind, stand as\nmangled monuments tothe very gods who stole the lives of those buried here.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2103,
+        "southeast": 2109,
+        "west": 2101
+      },
+      "exdescs": {
+        "corpses": "Sloppily buried in shallow graves, several corpses lay beneath the earth.\nTwisted arms and mangled legs lay half buried, left to be chewed by\nscavengers in the cemetery.",
+        "statues": "Statues of the gods stand here - their faces worn away to fiendish\nmutations that almost resemble gargoyles."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2103": {
+      "vnum": 2103,
+      "name": "An Unkempt Grave",
+      "description": "Like most of the graves around you, the one before you lays blanketed in\na brown, dead shroud of weeds.  The broken footstone, sunken deep into\nthe earth, crumbles to the touch as you reach down to its inscription.\nSunken patches of ground cover the plot, causing you to wend and move\nprecariously through the fog - only to stop in horror as you notice an\nunburied hand, rotted away to its skeletal bones, clutching toward your\nleg as if to pull you deep under the earth to a horrible death.  Tearing\nyourself from its grasp, you move quickly forward in hopes that you will\nsoon be away from this terrifying nightmare.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2104,
+        "south": 2110,
+        "west": 2102
+      },
+      "exdescs": {
+        "footstone": "This grey marble stone lays sunken into the earth, crumbling to the touch.",
+        "hand": "Rotting patches of flesh have fallen away to reveal the white skeletal\nbones of this hand."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2103
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2103
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2103
+        }
+      ],
+      "object_resets": []
+    },
+    "2104": {
+      "vnum": 2104,
+      "name": "The Coffin of Thomas",
+      "description": "Wandering through the darkness, your heart jumps as you find an old\npine box laying broken wide open on the ground before you.  Shattered and\nsplintered, the lid lies strewn in several pieces, left to rot in the cold\nrains like a pile of moldy garbage disposed by a vagrant. Looking into the\npine box, you shriek in horror to find that the box is used as a coffin,\nits decomposing corpse still rests inside in a deathly sleep, never to\nawaken.  Along one side of the box, a single cross lies scorched into the\nwood, the name 'Thomas' still barely legible beneath it despite many tool-\nmarkings left by countless thieves scavaging for anything of value.  A\nsingle dead and decaying rose rests in Thomas' hands, tied carefully with\na faded red ribbon which attaches a solemn note.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2105,
+        "south": 2111,
+        "west": 2103
+      },
+      "exdescs": {
+        "box": "Inside the box lay the corpse of Thomas.  Though thoroughly decaying,\nit is obvious that Thomas was a young man, perhaps no more than 21,\nwho's life was stolen long before it was time.",
+        "note": "Thomas,\n\nThough the gods have taken you from me before we were to be married,\nmy heart will always remain with you.  In my darkest hours I find\nmyself wishing to join you forever in your deathly slumber for I know\nthat I can not live without you.  I give you this rose to carry with\nyou eternally until I too join you and we walk together.\n\n                                Eternal Love,\n                                          Arabella",
+        "rose": "A single rose, its lovely red blossoms long withered away leaving\na long black thorny stem to rest in Thomas' hands, lays here with\na faded note attached to it."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2113,
+          "count": 1,
+          "room": 2104
+        }
+      ]
+    },
+    "2105": {
+      "vnum": 2105,
+      "name": "The Fallen Headstone",
+      "description": "Reeling from the things you have seen, you step quickly away in any\ndirection that might lead you from this place.  Darkened mists grow\nthick now, causing you to almost miss the headstone before you that\nhas fallen over on its side.  A grey fog encircles the stone, making\nit seem to have a cloudy aura, drawing you near.  Swirled black\nmarble, broken and cracked in several places, no longer shines as\nit slowly sinks into the soggy earth beneath it, forever resting\nhorizontally in the black of night.  Along the stoney face, in the\nheadstone's center, hangs a simple white plaque, muddy and worn and\noff-setting the dull black stone around it.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2106,
+        "west": 2104
+      },
+      "exdescs": {
+        "headstone": "Caused by the rain-soaked, uneven grounds, this tombstone appears to have\nfallen on its side.  Sinking deep into the earth, this tomstone probably\nhas been laying here for many years, neglected by even the caretakers of\nthe cemetary.  A white plaque is still legible on its face.",
+        "plaque": "Looking at the plaque, you see only the name 'Thomas' inscribed on it."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2105
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2105
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2121,
+          "count": 1,
+          "room": 2105
+        }
+      ]
+    },
+    "2106": {
+      "vnum": 2106,
+      "name": "Darkened Grave of the Unknown Warrior",
+      "description": "The word 'Unknown' catches your eye as you walk carefully through the mists.\nThe black, rotten earth is soggy here, pitted in puddles of stagnant water\nthat stand on the side of this unknown person.  Old, rusty swords, mounted\nforever on the headstone, cross themselves in dull, useless tribute to the\nwarrior herein, slain in a bloody battle and laid here to rest.  A lonesome\nowl hoots in the distance, adding to the uneasy feeling as your hands slowly\ntremble across the smooth headstone, one of the few untouched by thieves'\ntools.  The wind begins to blow slightly, bringing forth a slight odor of\nfresh death somewhere to the south of you, and raising your desires to\nleave this place, never to return.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2107,
+        "south": 2113,
+        "west": 2105
+      },
+      "exdescs": {
+        "headstone": "Two old swords are mounted here, crossed in a rusty brown tribute to the\nwarrior that lays beneath the rotting ground.  Though the weather has worn\nthis stone down, you can still read the word 'Unknown' carved deep into the\ncrumbly headstone.",
+        "swords": "Two old swords, rusting to a crumbly dust, are mounted upon the tombstone,\ncrossed forever."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2106
+        }
+      ],
+      "object_resets": []
+    },
+    "2107": {
+      "vnum": 2107,
+      "name": "An Overgrown Grave",
+      "description": "In the midsts of the cemetery, not unlike many of the other plots in the\narea, lies this overgrown plot.  Tall, dried grass entangles your legs,\ncausing your pace to slow as the long, brown, finger-like blades protrude\nfrom the earth.  Thick weeds curtain the old footstone which sinks deeper\ninto the ground with each miserable rain, forcing the cold, lifeless mud\nto seep through the weeds and thickly cover the footstoney, burying any\nchance you may have in learning who is buried here.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2108,
+        "west": 2106
+      },
+      "exdescs": {
+        "footstone": "The old grey tombstone, sinking deeper into the earth, lays cracked in\nseveral places where the tall weeks have broken through, trying to entrap\nanything that may wander by.  Thick brown mud has oozed through the weeds,\nmaking it impossible to read anything that may be written upon the footstone.",
+        "grass": "The tall brown grass grows thick here, in a smothering unkept jungle,\ncovering the grave beneath you.",
+        "mud": "Dark brown mud, caused by the many rains, has oozed over the footstone,\nmaking it impossible to read the epitaph written upon it."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2107
+        }
+      ],
+      "object_resets": []
+    },
+    "2108": {
+      "vnum": 2108,
+      "name": "The Fallen Tree",
+      "description": "Deeper into the cemetery, you find yourself in the presence of a rather\nlarge tree, blocking your view of the old, rusty fencing that surrounds\nthis hellish graveyard.  Long, dead branches, rotten and covered with a\ndark brown fungus, outstretch all around you, with their crooked, boney,\nfinger-like limbs bent downward in total resignation to death.  Upon\nlifting one of the many branches you gag at the sight of hordes of black\nbeetles which scurry from your light, rushing quickly for cover only to\nlater ravage the soil in search of anything that lay decaying on the\nground.  A single worm, its belly partially exposed above the ground,\ntunnels through the earth, seeking new corpses to devour.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "southeast": 2115,
+        "west": 2107
+      },
+      "exdescs": {
+        "beetles": "Several black beetles, suddenly revealed upon lifting the branch.\nscurry quickly away, hiding from your light source.",
+        "tree": "This tree, possibly a sycamore, lies rotting on its side, fallen to its\ndeath.",
+        "worm": "A fat brown worm, its belly undulating slowly downward, tunnels through\nthe soil to where ever its next grizzly meal may come from."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2108
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2115,
+          "count": 1,
+          "room": 2108
+        }
+      ]
+    },
+    "2109": {
+      "vnum": 2109,
+      "name": "The Death of a Child",
+      "description": "A small pair of leather shoes dipped in brass, tarnished to a dull brown,\nadorn this small headstone hidden deep inside a dead mulberry bush planted\nlong ago.  Remnants of a broken rattle lay scattered in a thousand pieces\nacross the ground, shattered by thieves trampling through in search of the\nmacabre treasures that lay beneath the ground in tombs housing the deceased.\nLooking at the tombstone, you see carved into the small marble monument the\nimage of a child's face, now deformed by the tools of vandals into the\nsickening head of a mutilated wolf.  A tiny rosary, with several beads\nbroken and cracked, lay covered in mud near the rattle's handle.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2110,
+        "northwest": 2102
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2110": {
+      "vnum": 2110,
+      "name": "Uneven Grounds of the Mourned",
+      "description": "Several small brown mounds, left behind by the many gophers tunneling\nthrough the earth in their gruesome hunt to find a newly buried feast,\nlitter the grounds here.  An eerie chill in the air sends shivers\nthrough your bones, and a lone wolf howls somewhere in the distance in\na solemm cry of despair as the mist settles throughout the lands as an\nunholy shroud of grey.  Several tombstones of the unfortunate souls\nburied here lay overturned on their sides by thieves savaging the area\nin search of any trinket that may be buried with the dead beneath the\nwretched earth at your feet.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2111,
+        "north": 2103,
+        "south": 2116,
+        "west": 2109
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2111": {
+      "vnum": 2111,
+      "name": "Darkened Grounds of the Dead",
+      "description": "Travelling deeper into the cemetery, your throat starts to tighten as the\nthick grey fog chokes you, bringing forth dark visions of death to your\nmind.  Deep brown puddles of mud, oozing in the uneven earth below you,\npit the land to make each step you take through the graveyard a difficult\none as you travel through the mist.  Off in the distance you see a few\nsmall trees fallen to the ground, leaving behind their own brown rotting\ncorpses of moldy bark and mangled limbs to shrivel in resignation to the\nlifeless existance within the rusty gates of this sickening place.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2104,
+        "south": 2117,
+        "west": 2110
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2112": {
+      "vnum": 2112,
+      "name": "Within the Graveyard",
+      "description": "Thick swirls of misty fog blanket the ground, smothering even the brown\nweeds beneath your feet, making for a difficult journey through the\ngraveyard.  Many statues, their faces worn away to mangled stumps by the\nrains and the wind, stand throughout the cemetary as horrid monuments to\nthe gods that have stolen the lives of each person buried here within\nthe muddy grounds.  Throughout the area a terrible stench permeates the\nair, arising from partially buried corpses rotting in the elements.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2113,
+        "south": 2118
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2112
+        }
+      ],
+      "object_resets": []
+    },
+    "2113": {
+      "vnum": 2113,
+      "name": "The Old Rugged Cross",
+      "description": "Blown by chilling winds, dried dead leaves lay in a rotten pile beneath a\nlarge wooden cross erected in the shadows of the unknown warrior's grave.\nLong smothering vines grow wild here - their many thorns digging into the\nholy symbol with a vengeance as they meander over its knotted surface in a\nchoking, death-bringing hold.  Remnants of old, beaded rosaries lie at the\nfoot of the cross, brought by the mourners of the souls buried within the\ndecaying cemetary in the hopes that their prayers of comfort will be\nanswered.  The ground is slippery here, causing you to fall before the\ncross, cutting your leg on a jagged branch severed from one of the skeletal\ntrees inhabiting the wretched grounds of the graveyard.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2114,
+        "north": 2106,
+        "west": 2112
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2122,
+          "count": 1,
+          "room": 2113
+        }
+      ]
+    },
+    "2114": {
+      "vnum": 2114,
+      "name": "The Twig-Covered Grave",
+      "description": "The air grows cold as the winds begin to stir the leaves laying on the\nground at your feet.  Large crooked branches, broken away by the winds,\nlay scattered across the graveyard like twisted skeletal arms violently\nripped away from their corpses by some vicious beast.  The earth is\nslippery here, puddled with mud left behind by common rainstorms that\nplague the area, making it difficult to keep your footing as you step\naround a small granite headstone that now lays on its side before you.\nJust as horrid during the day, this graveyard's poorly kept condition\nenhances the fear you feel as you travel through it at night, causing\nyou to want to leave this place as quickly as possible.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2115,
+        "west": 2113
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2115": {
+      "vnum": 2115,
+      "name": "Along the Wrought Iron Fence",
+      "description": "Thick patches of fog strangle you as you move deeper into the area,\ncausing you to step carefully through the tall vines entangling\nthemselves around the old wrought-iron fence that surrounds the\ncemetary.  Your stomach retches as you step along bloody piles\nof chewed human bones strewn across the ground amongst rotting\nhuman flesh savaged by wolves.  The ground is uneven here,\ncausing you to rethink any ideas of travelling farther.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "northwest": 2108,
+        "south": 2120,
+        "west": 2114
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2115
+        }
+      ],
+      "object_resets": []
+    },
+    "2116": {
+      "vnum": 2116,
+      "name": "The Withered Old Tree",
+      "description": "Like most of the other trees that used to grow mightily throughout the\ncemetery, this large oak now lays on its side, a lifeless corpse left\nto rot in the cold rains that plague the area.  Its once thick limbs\nnow stretch outward in a mangled heap of fungus-covered branches,\ntheir boney fingers now curled downwards as if pointing toward their\nown bleak graves.  Like long twisted legs, the roots now lay exposed\nbeneath a wide, rotten trunk lined deeply by hungry termites which\nchew through its fleshy bark.  Forever abandoned to its own fate, the\ntree now blocks your way south.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2117,
+        "north": 2110
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2116
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2116
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2127,
+          "count": 1,
+          "room": 2116
+        }
+      ]
+    },
+    "2117": {
+      "vnum": 2117,
+      "name": "Grave Beneath the Tree",
+      "description": "The colds winds begin to pick up a little bit, easily blowing away the\nthin wisps of fog that cover the ground, causing you to huddle closely to\nthe black granite headstone before you, marking the grave of a tortured\nsoul that has resigned its corpse.  Looking closely at the headstone, you\nnotice several deep cracks forming across its face, caused by careless\nchisel marks left behind by thieves attempting to remove the tarnished\nbrass plaque mounted upon it.  Large twisted roots of a tree to the west\nextend beneath the ground, causing you to almost trip over them as they\nprotrude through the rotten soil which now marks this grave.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2111,
+        "south": 2121,
+        "west": 2116
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2118": {
+      "vnum": 2118,
+      "name": "The Exhumed Grave",
+      "description": "A dirty brown skull lies crushed almost beyond recognition on the ground\nin front of a crumbling tombstone.  Your stomach churns as you look at\nthis moldy grave resting within the confines of the rusty wrought-iron\nfence.  Giant black beetles crawl quickly across the ground, feeding\nfrom flesh still decaying within the skull, abandoned by savage wolves\nin search of a more filling meal of partially exposed corpses littered\nthroughout the graveyard.  The air is thick here, causing you to\nstruggle for each breath while you examine the cracked headstone before\nyou.  Newly exhumed from the grave beneath you, the skeletal corpse now\nlays scattered on the ground in a trail leading to the east.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2119,
+        "north": 2112
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2119": {
+      "vnum": 2119,
+      "name": "Trail of Broken Bones",
+      "description": "A wretched stench fills the air as you follow the path of broken bones\nlaying on the ground in a trail that originates to the west.  Darkened\npools of blood, oozing from several dismembered corpses scattered along\nthe rotten earth, stain some of the bones, weakening your stomach as\nyou travel nervously along the path.  You gasp in horror as one hand,\nno longer attached to its body, reaches to grab your legs, causing your\npace to quicken as you seek desperate escape from this ghastly place.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 2123,
+        "west": 2118
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2120": {
+      "vnum": 2120,
+      "name": "Along the Wrought-Iron Fence",
+      "description": "Travelling along the old rusty fence, you feel a sense of dread encompass\nyour body.  Thick weeds choke the ground at your feet, smothering the earth\nin a mangled blanket of thorns and vines that twist upwardly through the\nrusty iron bars, blocking any view of the grounds that lay outside.  More\nbones lay scattered at your feet, filling your mind with disgust as you see\nlarge chunks of flesh rotting slowly against the bones.  A gut-wrenching\nstench seems too common throughout the graveyard, making it dificult to\nstay here for very much longer.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2115,
+        "south": 2125
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2121": {
+      "vnum": 2121,
+      "name": "Trail of the Mourned",
+      "description": "A cold chill sends shivers down your spine with each step you take as the\ncold winds begin to howl ferociously through the graveyard.  The vile odor\nof decaying corpses and stagnant puddles of water chokes you, causing you\nto gasp slightly at every breath.  All traces of the thick shroud of fog\nthat smothered the earth in a wispy grey blanket are now gone, revealing\noozing mud which cakes your feet in a slippery mixture of dead leaves and\nthick brown slime.  Further to the southeast, you see several tombstones\ncrumbling away on their sides, while others remain still upright.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2117,
+        "southeast": 2122
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2122": {
+      "vnum": 2122,
+      "name": "Along the Trail of the Mourned",
+      "description": "Farther along the darkened trail, you find yourself standing in front of\nan old, worn tombstone now turned on its side.  Worn with age and time,\nthe muddy old headstone lies forgotten as it sinks deeper into the soil\nwith each passing day.  Thick brown mud covers the stone in cold, slimy\npuddles that trickle down the sides of the now fallen granite marker.\nReading the inscription, carved long ago when the fresh corpse was lain\nto rest beneath the earth, proves virtually hopeless.  The white marble\ncross that once stood atop the headstone now lies broken on the ground,\nseparated from the marker by a violent kick from cruel graverobber's\nboot in an attempt to gain quicker access to the coffin buried beneath\nthe soggy earth.  Several more tombstones lie towards the southeast.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "northwest": 2121,
+        "southeast": 2127
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2123": {
+      "vnum": 2123,
+      "name": "The Trail Ends",
+      "description": "A thick odor of death and decay overwhelms you as you stand before the\nremains of several bodies.  Exhumed from their earthly graves here inside\nthe ghastly confines of the fence surrounding the cemetery, corpses have\nbeen unceremoniously dumped, left to rot in the vicious elements plaguing\nthis area.  Bloody stumps of arms and legs, still twitching as if to try\nto continue their fight for survival, lay scattered along the ground,\npartially chewed away by voracious wolves.  Still other corpses, decaying\naway to reveal white bones, lay completely intact among the mounds of\ncadavers at your feet.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2119
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2123
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2123,
+          "count": 1,
+          "room": 2123
+        }
+      ]
+    },
+    "2124": {
+      "vnum": 2124,
+      "name": "The Broken Old Fountain",
+      "description": "The lonely call of a wolf drifts through the wind, sending a shiver down\nyour spine as you travel through the dark graveyard.  Dried brown weeds\nare common here, growing tall around the dirty white cracked fountain\nthat stands before you, almost hiding the old granite fountain from view.\nDead brown leaves, carried by the winds and blown into the fountain, lay\ndecomposing in the murky stagnant water that fills the waterbowl, adding\nto the already stale odor that fills the air and causing your stomach to\nchurn miserably in protest of the vile stench that surrounds you.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2125
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2114,
+          "count": 1,
+          "room": 2124
+        }
+      ]
+    },
+    "2125": {
+      "vnum": 2125,
+      "name": "The Fallen Fence",
+      "description": "The winds begin to pick up as the thick grey fog is blown away, leaving\nsoil black as night newly exposed beneath your feet.  The pungent odor\nof death, still noticeable in the cold night winds, lingers heavily,\nfilling your lungs with the vile stench common throughout this area.\nTo the east, the tall wrought-iron fence lays on its side, obviously\nbroken by thieves in their feverish attempts to plunder treasures\nburied beneath the earth.  Twigs crackle loudly beneath your feet with\neach step you take through the unkept grounds.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2120,
+        "west": 2124
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2126": {
+      "vnum": 2126,
+      "name": "Mournful Death Trail",
+      "description": "The cold winds grow eerily calm, allowing fog to enshround the headstone\nwhich now lies slumped at a strange angle, causing an unnatural calmness\nto overcome you as you travel within the unholy confines of this graveyard.\nGetting a closer look at the tombstone, you recoil at the sight of a bloody\nmangled corpse lying crushed beneath the weight of a heavy granite stone.\nLarge chunks of flesh from the corpse are missing, chewed away by hungry\nscavengers, revealing rotten greay bones beneath shrivelled and decaying\nskin.  Fearing your own safety, you turn to flee from the morbid trail.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "northeast": 2127,
+        "south": 2131
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2126,
+          "count": 1,
+          "room": 2126
+        }
+      ]
+    },
+    "2127": {
+      "vnum": 2127,
+      "name": "The Mournful Trail Continues",
+      "description": "Your stomach tightens as you travel alongside a small winding path of\ncrumbling tombstones that mark the rotting graves within the confines\nof the cemetery.  Thick strips of human flesh decay slowly, hanging\nin shreds from dismembered corpses scattered throughout the area,\neach corpse crawling with hordes of maggots which feast in a sickening\nfrenzy upon the vile remains of the exhumed bodies.  Turning away from\nthe horrid sight, you find yourself whispering a silent prayer to the\ngods, begging them to remove you from this horrific ground.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "northwest": 2122,
+        "southwest": 2126
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2128": {
+      "vnum": 2128,
+      "name": "The Crypts",
+      "description": "An unusual silence eerily surrounds you, clouding your mind with thoughts\nof despair as you step deeper into the mausoleum.  Weakness gnaws at you,\nand you fight the urge to flee in terror from the sight of broken crypts\nclawed violently by some hideous creature seeking to devour corpses that\nstill rot within.  The musty, thick air, choking you with the vile odor\nof decaying flesh, fills your lungs.  A sickness begins to rise in your\nstomach as you notice a bloody leg, covered in maggots, hanging lifeless\nfrom one of the cells along the northern wall.  Still another crypt, its\ncontents ripped from its stone confines, leaks thickened brown blood.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2129,
+        "south": 2133
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2129": {
+      "vnum": 2129,
+      "name": "Beyond the Shadow of Death",
+      "description": "Still more crypts stand before you as you walk alongside the north side\nof the mausoleum.  Splintered almost beyond recognition, broken coffins\nripped from the crypts lie at your feet causing you to stumble\nprecariously as you back away from the visions of horror before you.  A\nhuman head lies on the ground, its jaw broken, eyes gouged, separated\nfrom the fresh body of a traveler who entered the crypt unprepared to\nface the hellish being that chewed upon his flesh, leaving pieces of\ntorso for a later time when hunger again strikes the belly of the beast.\nFeeling an urge to flee, your hands begin to tremble as you hear a growl\nresonate from somewhere below the crypt.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "down": 2130,
+        "south": 2134,
+        "west": 2128
+      },
+      "exdescs": {
+        "body": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds.",
+        "bones": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds.",
+        "corpse": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds.",
+        "floor": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds.",
+        "grate": "Twisted and scarred metal bars form the grate, beyond which comes\nnot a sight or sound...",
+        "torso": "Scavaging through the broken bones, you find a large puddle of a thick\nbloody liquid.  Its streaks stretch all the way to a small rusty grate\nhidden deep beneath the moldy remains of corpses that have been torn\nfrom their darkened crypts, and away from their final death beds."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2130": {
+      "vnum": 2130,
+      "name": "Beneath the Mausoleum",
+      "description": "You find yourself surrounded by darkness.  A sudden, throaty growl echos\nalmost deafeningly as you step deeper into the tunnel, sending surges of\nadrenaline through your veins.  Rusty, brown blood flows thick here,\ncovering the floor in splotches of death, marking the trail taken by the\nbeast to what you assume to be its feeding ground in the mausoleum above.\nStrips of torn skin, shriveled and dry, hang from the face of one of the\ncorpses mutilated almost beyond recognition on the ground.  A human head,\nits eyes still bulging from the realization that death drew near, lies\non one of the many piles of discarded body parts, forgotten by the beast\nin its frenzy to feed upon less boney pieces of its victim.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2135,
+        "up": 2129
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2131": {
+      "vnum": 2131,
+      "name": "The Barren Headstone",
+      "description": "The murky grey fog swirls around your feet as you step across the slippery\nweeds choking the ground before the large granite stone that marks yet\nanother victim fallen to the skeletal hands of death.  Thick piles of dead\nleaves, blown against the cold headstone, frame a small vase of flowers;\ntheir  beautiful blossoms of blue and violet faded into shriveled brown\nmasses, now carelessly thrown upon the ground by a long forgotten relative.\nAlong the top of the stone you see tool markings left behind by thieves in\ntheir quick haste to remove whatever it was that once adorned it.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2132,
+        "north": 2126
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2132": {
+      "vnum": 2132,
+      "name": "The Darkened Cemetary",
+      "description": "Thick brambles cover the ground as you travel forward, leaving behind any\nhopes of making it out alive.  A thick misty fog blankets the area, hiding\nholes in the ground left by earth creatures tunneling through the soil in\nsearch of their meals of rotting flesh and decomposing corpses left behind.\nWorn tombstones - some of the names long eroded away by time - mark final\nresting places of dwellers of this land, and stand as a monument to some\nforgotten time when this area was filled with life.  Broken bones lie\nentangled in the weeds of some graves while others lay covered with\nbroken slabs of stone.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 2137,
+        "west": 2131
+      },
+      "exdescs": {
+        "bones": "Brown, rotten bones scatter the ground - some of them chewed by the\ndifferent scavengers that dwell in the earth below.  Lying underneath\nbroken, flat, stoney slabs, still other bones seem to be chipped and\ncarved to form some sort of tool used to break into the many graves\nthat are here.",
+        "fog": "A damp thick fog surrounds you, causing you to stumble across the\nuneven grounds before you, adding an evil mist to the already hellish\ngraveyard that surrounds you.",
+        "holes": "Mounds of rotting earth lay at your feet, leaving the trails of a\nhungry animal marked clearly.",
+        "tombstones": "Tombstones scatter the area, standing as broken monuments of the\ndwellers of the city that used to surround the city.  Though many of\nthe names on these tombstones are legible, most remain worn away by\nthe winds and the rains that pound the cemetary."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2133": {
+      "vnum": 2133,
+      "name": "Hall of Death and Destruction",
+      "description": "Once inside the mausoleum, a sick feeling fills your stomach as you gaze\naround.  Dried bloodstains streak the walls, marking some violent struggle\nwhich leaves you with the horrid revelation that something else has\nvisited this place.  Strewn about the floor are piles of fallen rubble\nfrom a weather-weakened ceiling.  Looking closer, your eyes widen as you\nrealize that these piles are the gory remains of freshly killed humans;\ntheir blood still dripping from the gashes left by teeth marks of a\ncarnivourous beast.  Wanting to flee, you turn to run away, only to trip\nover a splintered coffin visciously ripped apart from one of the crypts.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2134,
+        "north": 2128,
+        "south": 2138
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2133
+        }
+      ],
+      "object_resets": []
+    },
+    "2134": {
+      "vnum": 2134,
+      "name": "Within the Decaying Mausoleum",
+      "description": "Stepping deeper into the mausoleum, you find yourself gripped in the\nterrifying embrace of fear.  Cracked walls, crumbling slowly to piles\nof dust and debris, allow just enough space for wicked moonlight to\ncreep into the small building, giving the room an eerie glow.  Moving\naround, you feel something entangle your feet.  Not quite certain of\nwhat it is, you look down in horror to find a human arm ripped away\nfrom its torso - its bloody stump covered with flies.  A thick, musty\naroma fills the air, burning your nostrils with a disgusting stench,\nleaving a sick feeling in the pit of your stomach.  Terror fills your\nmind, paralyzing you with fear as you notice the arm twitching in a\nreflexive motion.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2129,
+        "west": 2133
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2135": {
+      "vnum": 2135,
+      "name": "Darkened Trails of the Beast",
+      "description": "A stomach-churning stench chokes you as you enter.  Chewed and bloodied\ncorpses, some with gaping wounds exposing the white bones beneath their\nflesh, lie on the floor waiting to be devoured by the creature that\ninhabits this mausoleum.  A rusty-red pool of blood covers the floor,\nstaining it the colour of death.  A loud growl fills the air as you\nsuddenly realize that you may be the next victim to the vile\nbeast that resides within the room you have just entered.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "west": 2130
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2106,
+          "count": 1,
+          "room": 2135
+        }
+      ],
+      "object_resets": []
+    },
+    "2136": {
+      "vnum": 2136,
+      "name": "Arabella's Final Resting Place",
+      "description": "Traveling onward into the misty cemetary, you find yourself before a\nunique grave.  The air is thick here, damp and musty with the scent of\ndeath lingering beneath a large, stoney slab which covers the final\nresting place of yet another victim to mortality.  Moving the tangled\nvines and weeds that cover the stone, you see the slab, carved with the\nsingle word \"Arabella\", marred by the hammer marks of vandals who have\nvisited here before you.  As the wind howls, fear fills your mind,\nbringing with it an unholy terror that whatever lies beneath this stone\nis still moving, seeking any opportunity to remove the stone and pull\nyou deep within its graven belly ... and devour you whole.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "down": 2141,
+        "east": 2137,
+        "south": 2146
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2137": {
+      "vnum": 2137,
+      "name": "The Misty Cemetary",
+      "description": "Twigs crackle beneath your feet as you stumble upon a ground made\nuneven by a gravedigger's quickened haste to finish his thankless\njob of burying the dead.  As a misty fog blankets the area,\nheadstones of old forgotten fighters from the past stand before\nyou, eroding and crumbling to the elements of time, catching your\neye and bringing forth a sense of doom and despair.  As you gather\nyour wits, arm-like vines entangle your legs in the hopes of\nstealing your soul, leaving your rotting corpse to fill one of\nthe weed-covered plots reserved for the future warriors who dare\nto travel throughout these lands.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2138,
+        "north": 2132,
+        "west": 2136
+      },
+      "exdescs": {
+        "headstones": "Broken and chipped away, many tombstones fill the area.",
+        "twigs": "Dead broken twigs lay here, fallen from the huge tree that marks\nthe entrance.  Strong winds and wild animals must've scattered them\nthroughout the area.",
+        "vines": "Thick arm-like vines, their thorny brambles catching your armor,\nsmother the ground, cause you to slow your pace.  Bringing you to the\nrealization that maybe you shouldn't be here."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2137
+        },
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2137
+        }
+      ],
+      "object_resets": []
+    },
+    "2138": {
+      "vnum": 2138,
+      "name": "Pallbearer's Lament",
+      "description": "Towards the center of the graveyard, surrounded by a mysterious dark\ncloud, stands what appears to be a stone building.  Dirty brown bones\nscattered throughout the building lay in decaying piles, entangled by\nweeds that have broken through cracks in the floor.  A dusty old skull,\nmounted on a stake driven completely through its center and into the\nwall, seems to mockingly smile at you as you look at the mausoleum's\nvile contents.  Though some crypts still lay intact, most appear to\nhave been broken away with hammers or crumbled away during the hellish\ndeparture of the many souls that lay buried within this tomb.  Your\nheart races in fear as you open the cast-iron gate to the mausoleum.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2140,
+        "north": 2133,
+        "south": 2143,
+        "west": 2137
+      },
+      "exdescs": {
+        "bones": "Through the cast iron gate, you see many piles of bones scattered\nalong the floor, leaving you to wonder what kind of terrible beast could\ninhabit this area.  Though frightened by their appearance, you dredge onward.",
+        "building": "To the north, you see what appears to be a mausoleum.  The gate, clearly\nbroken and rusty, is the only barrier that stops you from going inside.",
+        "crypts": "Through the rusty fence you see the outlines of several crypts along\nthe northern wall.",
+        "gate": "A rusty cast iron gate stands here, keeping greedy grave-robbers from\ngaining entry to the mausoleum.  Though it appears to have a lock,\ntime has caused the lock to crumble away to the touch, making it possible\nfor you to gain entry to the mausoleum.",
+        "skull": "A broken skull, brown and grey with age, hangs as a grizzly artifact\nupon the walls of the mausoleum to the north."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2139": {
+      "vnum": 2139,
+      "name": "The Opened Grave",
+      "description": "Running quickly from the sights you have seen, you fall deep into a dark,\nopen grave.  Cold and frightened, you yell in fear, hoping that you are\nnot alone in the cemetery.  Leeches, trying to feed in a frenzy of hunger\nupon your flesh, attach themselves to your face, causing you to claw at\nyour skull, hopeful that you will not be their next meal.  Worms by the\nthousands barrel through the earth, slithering grotesquely at your feet\nas you stand up slowly, gathering all of your strength to climb out of\nthis gaping hole in the rotting earth.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "up": 2144
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2140": {
+      "vnum": 2140,
+      "name": "The Unholy Statue",
+      "description": "A deep, throaty scream escapes your mouth as you quickly retreat away from\nthe statue before you.  Though once a beautiful angel with outstretched\nhands, vandals have mangled the statue into a frightening gargoyle looming\nover you, standing ready to devour any living thing that crosses its path.\nThe longer slender hands, once guiding the living in their daily lives, are\nno longer welcoming, reaching out towards you with long talons, sharpened\nto a flesh-tearing sharpness, awaiting their chance to rip your soul from\nyour body.  Its fiery eyes not bore down through your skin as you notice\nfresh blood dripping fiendishly from its mouth.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 2145,
+        "west": 2138
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2140
+        },
+        {
+          "vnum": 2101,
+          "count": 4,
+          "room": 2140
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2129,
+          "count": 1,
+          "room": 2140
+        }
+      ]
+    },
+    "2141": {
+      "vnum": 2141,
+      "name": "Inside the Grave of Arabella",
+      "description": "Upon lifting the stone slab you find yourself standing in what appears to\nbe a small mausoleum.  Thick stoney walls, pitted by thieves whose greed\nled them to gouge the precious jewels which once adorned the walls, encase\nthe room, trapping a sour musty odor caused by numerous rains that managed\nto seep into the crypt.  In the room's center lies an oaken coffin adorned\nwith old brass hinges that have rusted firmly closed, forever sealing its\ncontents in a dark, musty sleep.  A simple brass plaque engraved with the\nsingle name \"Arabella\", tarnished and rusty due to neglect, adorns the\nhead of the coffin.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "down": 2142,
+        "up": 2136
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2142": {
+      "vnum": 2142,
+      "name": "Arabella's Coffin",
+      "description": "Breaking open the rusty brass hinges, you peer inside the oaken coffin -\nits white lining, stained from the bloody corpse that lies here, remains\ntattered and moldy.  Grey rats scatter quickly to safety as you reach\ninside the coffin to touch a small golden bracelet still attached to\nArabella's skeletal wrist.  Bits of flesh fall from Arabella's face,\nrevealing a skull writhing with maggots undisturbed by your presence.  A\nthroaty scream fills the air as Arabella sits up, reaching out to you.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "up": 2141
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2103,
+          "count": 1,
+          "room": 2142
+        },
+        {
+          "vnum": 2108,
+          "count": 2,
+          "room": 2142
+        },
+        {
+          "vnum": 2108,
+          "count": 2,
+          "room": 2142
+        }
+      ],
+      "object_resets": []
+    },
+    "2143": {
+      "vnum": 2143,
+      "name": "Deeper into the Cemetary",
+      "description": "The evil of the night presses closes as you move deeper into the cemetery.\nDistant calls of owls hidden inside the boughs of crooked trees cry out a\nshrill warning for you to leave this place, kicking up a howling wind to\nscattering debris across your path.  Along the uneven ground you find\nyourself before an unmarked grave.  Dirty bones, hastily thrown into the\nground with the luxury of even a simple casket, extend from the earth,\nbegging you to rescue them from their locale.  A chill courses down your\nspine as a warm trickle of blood flows down your leg, and you tear away a\nsmall rat crazed by the sight of the fleshy meal you've come to represent.\nA small grove of forboding trees to the south beckons you...",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2144,
+        "north": 2138,
+        "south": 2147
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2143
+        }
+      ],
+      "object_resets": []
+    },
+    "2144": {
+      "vnum": 2144,
+      "name": "The Shadowy Grave",
+      "description": "Deeper inside the graveyard, you find yourself standing in a place\ncompletely enshrouded by the evil shadows that bring horror to life before\nyour eyes.  The winds howl furiously through the darkness, filling your\nmind with terror as you fight the urge to flee away from the shadows that\nencase the grave before you.  The thick, musty odor of death is strong,\nchoking you in its attempt to steal your life slowly from you, making you\nanother victim that forever rots in this cemetery.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "down": 2139,
+        "east": 2145,
+        "west": 2143
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2145": {
+      "vnum": 2145,
+      "name": "The Broken Footstone",
+      "description": "The grounds grow slippery here, causing your feet to slide apart quickly\nin the thick brown mud beneath you.  In a bone-crunching thud, you find\nyourself laying precisely over a fresh grave, newly filled in the night\nby a withering old gravedigger in a rush to perform his ghastly duties\nbefore daybreak.  Near the grave's foot, you find a small footstone of\ngranite haphazardly dropped into the earth, causing it to shatter into\nseveral pieces.  A closer look at the stone reveals the several chisel\nmarks left in an attempt to remove the old name that was once carved in\nthe stone, causing its surface to bow inward and bringing a darkened\nshadow over the name now carved upon it.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2140,
+        "south": 2149,
+        "west": 2144
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2146": {
+      "vnum": 2146,
+      "name": "Dark Trail of Vines",
+      "description": "Leaves blown by cold night wings rustle beneath your feet as you travel\nacross the shaky grounds made uneven by a gravedigger's hasty burial\nbefore dawn.  As the soupy fog settles throughout the area, the outlines\nof tombstones become visible, giving the ghostly grey aura of evil that\nresonates throughout the cemetery, bringing forth a feeling of despair\nthat tortures your very soul.  As you gather your wits, long grey vines\nentangle your feet in a thorny grip of horror, causing you to choose\neach step carefully within the evil confines of the graveyard.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2136,
+        "south": 2150
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2147": {
+      "vnum": 2147,
+      "name": "Small Unholy Grove of Trees Within the Graveyard",
+      "description": "A twisted oak tree now lays on its side in a moldy wooden corpse, marking\nthe edge of a small grove of trees within the graveyard.  Thick brown weeds,\ntheir thorny brambles piercing to the touch, rustle beneath your feet as you\nwalk towards a darkened area filled with broken headstones and moldy coffins.\nDried leaves blow in the wind, landing in scattered piles of twigs, covering\nthe holes dug by wolves clawing the cold rotting earth in search of a fleshy\nfeast.  Several dead trees line the area, their mangled branches seeming to\ngrab ahold of you as you pass by.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2143,
+        "south": 2152
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2147
+        }
+      ],
+      "object_resets": []
+    },
+    "2148": {
+      "vnum": 2148,
+      "name": "Man's Best Friend",
+      "description": "Surrounded by small withered hedges, you find this small grave in the cold\nwet ground at your feet.  Darkened mist swirls at your feet, blanketing\nthe earth with a dreary grey shroud, causing you to stumble upon something\nprotruding through the rotten soil.  Your stomach churns in disgust as you\nsee the large decaying skull of the dog, partially buried in the wretched\ngrave beneath you, now laying on the ground, accidently decapitated from\nits body when you stumbled through the fog.  Your mind fills with horror\nas you notice large droplets of blood dripping from the teeth of the skull\ninto a bright red puddle beneath your feet causing you to scream at the\nrealization that you were the intended meal of the hellish hound that is\nburied here.  At the foot of the grave, a single word - \"beware\" - has\nbeen scribed in blood across the face of the footstone.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2149
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2148
+        }
+      ],
+      "object_resets": []
+    },
+    "2149": {
+      "vnum": 2149,
+      "name": "A Small Grove of Forgotten Trees",
+      "description": "Along the southern half of the graveyard, several trees line the area,\nstanding barely upright with their knotted trunks marred by different animals\nsharpening their claws against the rotting bark.  Thick vines of green and\nbrown ivy creep up the sides of some trees, strangling their crooked branches\nthat no longer bloom with leaves into a skeletal submission.  Near the base of\nanother tree, a dirty brown headstone lies covered with small chunks of mud-\ncovered rubble crumbling slowly away into the moldy earth.  Though most of the\ngrave sites can be found to the north, a few graves lay within this grove,\nlong forgotten as the winds and the rains howl throughout the cemetary.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2145,
+        "south": 2154,
+        "west": 2148
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2150": {
+      "vnum": 2150,
+      "name": "Overgrown Trail of Vines",
+      "description": "The lonely howl of a wolf in the distance echoes its curse over the land\nas you travel farther along the wretched path of thorny vines inside the\ngraveyard.  Broken brown bones, unearthed by graverobbers in their search\nfor any ghastly treasure buried within the coffins nestled beneath the\nrotten soil, lay scattered along the path, entangled within the thick weeds\nthat choke the graves here.  Chills run through your body as you hear the\ncrackle of debris beneath your feet, leaving you to hope that it was a twig\nbreaking rather then the sound of a freshly exhumed corpse being wrested\nfrom its grave.  Farther to the east, you see the beginning of a small\ngrove of trees.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2151,
+        "north": 2146,
+        "south": 2160
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2150
+        }
+      ],
+      "object_resets": []
+    },
+    "2151": {
+      "vnum": 2151,
+      "name": "The Edge of the Darkened Grove",
+      "description": "Whether it be day or night, the skies above the cemetery remain perpetually\ndarkened.  The ground is soggy, slowing your steps as mud cakes the bottom\nof your shoes with cold wet earth that houses the souls who have had their\nbodies ripped away by Death's savage grip.  Large mangled trees stand\nwithin the grove, their long finger-like branches bare of any leaves that\nmight have grown on them n the past.  A thick, rotten stench coming from\nthe many pilegoto s of debris tossed haphazardly within the grove fills\nyour nostrils with the odour of death and decay.  To the easy, the grove\ngrows darker, causing you to rethink any ideas of further travel.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2152,
+        "west": 2150
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2152": {
+      "vnum": 2152,
+      "name": "The Midsts of the Grove",
+      "description": "Traveling deeper into the grove, you barely catch your breath as you climb\nthrough several piles of broken tombstones crumbling away into piles of dusty\ngranite spattered with blood.  Long brown vines entangle your feet with\neach step you take through the ground which rots beneath you.  Cold winds\nhowl plaintively, sending several dead leaves into the air, adding to the\ndebris that clutters the grove.  Somewhere in the distance, you hear the\nlonely hoot of an owl perched high upon one of the many dead trees that line\nthe area.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2147,
+        "south": 2157,
+        "west": 2151
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2152
+        },
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2152
+        }
+      ],
+      "object_resets": []
+    },
+    "2153": {
+      "vnum": 2153,
+      "name": "Deep Inside the Brightened Grove",
+      "description": "Thick foliage surrounds you, punctuated by graceful trees, as you step\ndeeper into a sunny grove deep within the cemetary.  The ground is fresh\nhere, providing a warm blanket of soil for the wildflowers in full bloom,\ncausing you to momentarily forget the ghastly sights within the wrought-\niron confines of the graveyard.  Looking down, you see a blanket of\nlush grass thickly covering the grove, almost hiding a very faint\ntrail that leads to the south.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2159,
+        "south": 2158,
+        "west": 2157
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2154": {
+      "vnum": 2154,
+      "name": "The Grove Thickens",
+      "description": "The winds begin to die and an eerie calm settles over the cemetery as you\ntravel through this dreadful grove of trees.  The ground is soggy, causing\na thick layer of mud to cake on your feet with each step you take.  Near\nthe base of clump of mangled trees lie fragments of old, splintered coffins\nrotting in the rains and winds which have blown away the leaves from their\nbony branches.  Moldy bones crack sickeningly underfoot, and you struggle\nto step carefully over the piles of broken granite left behind by vandals\nseeking trinkets buried beneath the large tombstone that once marked the\nsite of one laid to eternal rest.  Sadly enough, the grave has been looted\nof its precious contents, its owner robbed of his earthly possessions.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2149,
+        "south": 2159
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2102,
+          "count": 12,
+          "room": 2154
+        }
+      ],
+      "object_resets": []
+    },
+    "2155": {
+      "vnum": 2155,
+      "name": "The Chapel Foyer",
+      "description": "Once inside the chapel, your ears fill with the sounds of sorrowful wailing\nthat echoes in from the east.  Along the northern wall, stands a small dust-\ncovered table with a single book opened to show the names of the mourners\nwho have come to show their final respects to the recently departed soul\nsoon to be laid to rest in the cemetary.  Brown muddy floors creak under\nyour weight with each step you take adding to the commotion that now grows\nlouder as you move towards the sanctuary.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2156,
+        "south": 2162
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2156": {
+      "vnum": 2156,
+      "name": "The Mournful Sanctuary",
+      "description": "Three solitary pews rest upon a wooden floor precariously slanted\nfrom the dark brown mud oozing from beneath.  A gray haired man,\nslumped horribly in his old age, stands crookedly in front of a candle-\nlit podium, preaching hollow words of comfort to mourners grieving\nanother miserable life ended hastily...soon to be forgotten.  Hanging upon\nthe wall behind the podium is a large black crucifix casting distorted\nshadows, bringing forth an eerie feeling from the depths of your stomach.\nIn the far corner of the room, beneath a trapdoor, you see a single\nladder leading to the belfry which houses a bell that will soon sound\nthroughout the cemetary, marking death's triumphant vicotry over life\njust recently ended.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "up": 2163,
+        "west": 2155
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2105,
+          "count": 1,
+          "room": 2156
+        },
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2156
+        },
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2156
+        }
+      ],
+      "object_resets": []
+    },
+    "2157": {
+      "vnum": 2157,
+      "name": "Within the Brightened Grove",
+      "description": "Climbing past the piles of debris and dead trees, you find yourself standing\nin the midsts of a small lightened grove of white oak trees blooming so\nthickly that you cannot see either the warm light of the sun or the\nglowing white moon shining through the thick canopy of leaves.  The ground\nbeneath you lies covered in a warm blanket of grass, untouched by the\nmarring tunnels created by the ravenous gophers scavenging the graveyard\nin search of their fleshy meals.  Small wildflowers blossom colourfully\nin patches of pink, blue and yellow along the ground.\npink, blue, and yellow along the ground.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2153,
+        "north": 2152,
+        "south": 2164
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2158": {
+      "vnum": 2158,
+      "name": "Before A Hidden Tomb",
+      "description": "Hidden deep within the trees and tucked far away from any thieves that may\nsavage the grounds for riches, a small well-kept building stands in\nreverence to the person who resides within this tiny mausoleum. Small\nyellow buttercups grow along the ground in two straight rows, surrounded\nby a white picket fence. Over the doorway you see the name \"Anastacia\"\nembossed in golden letters glittering softly in the light that has\nbroken through the heavy canopy of trees that enshroud this tomb.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2153,
+        "south": 2165
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2158
+        }
+      ],
+      "object_resets": []
+    },
+    "2159": {
+      "vnum": 2159,
+      "name": "Brightened Grove",
+      "description": "Clawing your way through the large forest of dead trees and piles of broken\ncoffins, you find yourself standing in the midst of tall, white oak\ntrees blooming so thickly that you cannot see the warm bright light of the sun\nor the glowing white moon shining through the canopy of foliage.\nThe ground beneath you is warmly blanketed with thick green grass, untouched by\nthe hellish gophers that scavenge the area in search of fleshy meals buried\nin their cold dark graves deep beneath the cemetary.  Small blue and\nwhite wild flowers grow in patches all throughout the trees.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2154,
+        "west": 2153
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2159
+        }
+      ],
+      "object_resets": []
+    },
+    "2160": {
+      "vnum": 2160,
+      "name": "Along the Dark Trail of Vines",
+      "description": "Thorny brambles within weeds smother the ground as you continue to follow the\nviney path, causing a warm trickle of blood to flow from a wound on your legs\nleft by the piercing thorns that grow like daggers wildy around you.  In the\ndistance you hear the mournful toll of a bell, annoucing the passing of another\nlife, leaving only its corpse behind to be buried within the decaying\ngraveyard.  The heavy odor of decomposing flesh is thick here, causing you to\ngasp for anything that may resemble fresh air as you hope that you will not\nbe the next resident of this hellish place.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2150,
+        "southeast": 2161
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2161": {
+      "vnum": 2161,
+      "name": "The Death of a Holy Man",
+      "description": "Lying in the shadows of the chapel, you find yourself standing at the foot\nof the grave of the preacher that once spoke words of comfort to mourners\nwho came to bury their beloved ones.  The large black headstone that marks\nthis grave stands covered thickly with the same overgrown weeds and thorny\nvines growing rampant elsewhere within the cemetery, never cleared away by\nthe new preacher who now serves as caretaker to the grounds.  Dry brown\nflowers, once vibrant with color and scent, now lay lifeless at the base\nof the headstone, trampled by uncaring gravediggers as they carry their\ncoffins from the chapel.  An overgrown trail lies to the northwest.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2162,
+        "northwest": 2160
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2125,
+          "count": 1,
+          "room": 2161
+        }
+      ]
+    },
+    "2162": {
+      "vnum": 2162,
+      "name": "In Front of a Shoddy Old Chapel",
+      "description": "Somewhere inside the graveyard, you find yourself standing in front of an\nold wooden chapel.  Two rotten wooden steps lead up to the door, savagely\nbeaten by the weather and splintering in several places; hanging upon rusty\nhinges that creak in a bone-shivering moan when opened by gravediggers\nperforming their ghastly rituals of burying their dead.  Somewhere above you,\nan old bell hangs in its belfry, awaiting to announce the final hours in which\nall mortals must surrender their lives.  The chapel's roof, sagging with age\nand disrepair does little to shelter the mourners, saddened by their loss,\nfrom the cold wind and rain plaguing the cemetary.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2155,
+        "south": 2166,
+        "west": 2161
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2163": {
+      "vnum": 2163,
+      "name": "For Whom The Bell Tolls",
+      "description": "Rotten floorboards creak loudly as you enter the belfry, stirring the\nbats that hang silently from the old rotted ceiling.  Cold winds swirl\nthrough the broken shutters that hang miserably upon each wall, causing\nyou to siver slightly as you look around the room.  Stepping carefully\naround the large bell suspended from a beam mounted upon the ceiling,\nyou notice an old worn rope unravelling slowly from the constant yanking\nof the preacher's calloused hands, marking the death of yet another victim.\nThe tarnished bell, cracked in several places, hangs in a darkened silence\nas the winds howl visciously outside, moaning with anticipation for your\nsoul to join those laid to rest in this sickening place.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "down": 2156
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2119,
+          "count": 1,
+          "room": 2163
+        }
+      ]
+    },
+    "2164": {
+      "vnum": 2164,
+      "name": "Grove of the Dead",
+      "description": "Jagged piles of broken granite litter the ground alongside splintered\ncoffins, causing you to step unsteadily through the field of debris which\nclutters the bases of the petrified trees.  Wide, knotted stumps, chewed\nupon hungrily by thousands of termites, jut through the debris while\nother trees, tall and twisted into skeletal forms, attempt to grab you\nwith boney, finger-like branches.  Your eyes widen as you sight a rotting\ncorpse swaying by a dangling rope in the wind, and you to consider making\nyourself scarce as quickly as possible.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2157,
+        "south": 2169
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2120,
+          "count": 1,
+          "room": 2164
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2124,
+          "count": 1,
+          "room": 2164
+        }
+      ]
+    },
+    "2165": {
+      "vnum": 2165,
+      "name": "The Shrine of Anastacia",
+      "description": "Once inside, you find yourself surrounded by several colourful paintings\nof a smiling woman carefully placed on the walls around you.  Large oak\ntables, resting on royal blue carpet beneath your feet, lovingly display\nseveral personal trinkets that once belonged to the tall, slender woman\nshown in the paintings.  Two curtained windows facing the forest bring in\njust enough light to highlight a large cherry chest, housing garments that\nthe raven-haired woman wore when she was still joyfully filled with life.\nA single lock of hair tied with a small red ribbon adorns a tiny white\nvelvet pillow delicately placed in a rocking chair directly leading to\nthe room where Anastacia now sleeps eternally.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2158,
+        "south": 2170
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2166": {
+      "vnum": 2166,
+      "name": "Near the Cemetary's Chapel",
+      "description": "Drudging slowly inside the confines of the fence, you find yourself\namongst the shadows of a chapel which served to perform funerals for\nthe past dwellers of this land.  At your feet, a small urn lies broken\ninto several pieces: dropped by the chapel's preacher in his rush to\ndispose of the ashes.  The winds blow slightly as you travel, causing\nyou to huddle closely to the dead brown hedges that grow alongside the\nrusty fence. Farther to the east you can barely make out the shadowy\noutlines of several headstones.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2167,
+        "north": 2162
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2167": {
+      "vnum": 2167,
+      "name": "The Beheaded Statue",
+      "description": "Farther along the southern edge of the graveyard, you find yourself standing\nbefore another statue mounted firmly upon a granite base in front of the\nold wrought-iron fence.  A closer look at the statue strikes terror in you\nas you notice the head, once that of a beautiful woman, replaced with the\nfleshy decomposing head of a traveler who foolishly ventured the graveyard\nalone...only to meet an untimely death at the jaws of a hungry wolf in\nsearch of a fresh meal.  Praying aloud, you beg the gods to spare your\nlife and allow you to flee the cemetary in one piece.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2168,
+        "west": 2166
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2128,
+          "count": 1,
+          "room": 2167
+        }
+      ]
+    },
+    "2168": {
+      "vnum": 2168,
+      "name": "The Bloody Headstone",
+      "description": "A rusty wrought-iron fence, crumbling with age and neglect, lines the\nsouthern side of the graveyard, barely withstanding the heavy winds and\nrains that frequent the area.  Tall untrimmed hedges, now a dull brown\ncolour, stand wretchedly alongside the fence, almost hiding a small\nblack marble headstone.  A closer look at the stone reveals several\nstreaks of dried blood smeared across the face of the stone, flooding\nyour mind with horrid visions of the struggle which resulted in this\ninhabitant's final resting place.  A place, which you may soon be\na permanent member.  To the east, a darkened grove of trees stands among\nbroken tombstones and piles of splintered coffins, their lids barely\nattached by their old rusty hinges.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2169,
+        "west": 2167
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2107,
+          "count": 12,
+          "room": 2168
+        }
+      ],
+      "object_resets": []
+    },
+    "2169": {
+      "vnum": 2169,
+      "name": "The Beginning of a Small Grove Within the Graveyard",
+      "description": "A cold wind blows through the air, sending a shiver down your spine as you\nfind yourself standing at the beginning of a small grove of trees within the\ngraveyard.  Piles of rotten earth lay upon the ground, marking the burrowing\nhabits of gophers in search of the many bodies laying under your feet.  The\ntrees are barren here, stretching their knotted, arm-like branches outward,\nas if to grasp anything that comes within reach.  Piles of splintered coffins,\nsome with rotten corpses tucked inside, lay scattered upon the ground,\ncausing your stomach to convulse reflexively.",
+      "sector": "forest",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2164,
+        "west": 2168
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2170": {
+      "vnum": 2170,
+      "name": "The Eternal Sleep of Anastacia",
+      "description": "Several large arrangements of flowers fill the room where Anastacia forever\nsleeps upon large white rose petals in her glass casket resting peacefully\nupon a white marble platform in the center of the room.  Gazing down at\nAnastacia, a feeling of sadness fills your heart as you see her delicate face\nframed by long raven hair still beautiful in its repose.  Her long scarlet\ndress, trimmed in white antique lace, flows gently across her creamy skin in a\nvelvety blanket, offsetting the single white lily placed in her hands as they\nrest softly across her waist.  Her full ruby lips almost seem to smile at you,\nbringing a warmth into the room as she eternally rests upon her delicate red\nsatin pillow.",
+      "sector": "inside",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "north": 2165
+      },
+      "exdescs": {},
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2104,
+          "count": 1,
+          "room": 2170
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 2116,
+          "count": 1,
+          "room": 2170
+        }
+      ]
+    },
+    "2171": {
+      "vnum": 2171,
+      "name": "Before the Graveyard",
+      "description": "Lying amidst the ruins, you come upon a cemetery in heavy disrepair.  Much\nakin to the southern ruins of the city, the cemetery lies in the poorest\nof condition:  neglected and weed-ridden.  A wrought-iron fence, rusted so\nbadly it rains down a perpetual shower of metal flakes, encircles the area\nin a vain attempt to keep greedy graverobbers at bay.  Vines of thorn and\nweed grow along the length of the fence, enshrouding the cemetery, yet\nfailing to stave off the stench of rot and decaying flesh that assails your\nnostrils.  A large gate, long ago unhinged, lays inextricably entangled in\na lush thicket, forever entombing it within the cold ground.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "south": 2172
+      },
+      "exdescs": {
+        "fence": "This tall, wrought iron fence encircles the area, locking all\nunwanted visitors out of the area.  Rusty and worn, the fence\nstands in ill repair, missing the gate that once stood firmly\nat the entrance.",
+        "gate": "Long ago fallen or broken away from its hinges, this gate lays\nentangled on the ground in weeds that have grown up around the\nbars, forever trapping it against the rotting earth beneath it.",
+        "weeds": "Tall brown weeds, growing almost like ivy up the bars of the fence,\nsmother the grounds before you."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [
+        {
+          "vnum": 2110,
+          "count": 4,
+          "room": 2171
+        }
+      ],
+      "object_resets": []
+    },
+    "2172": {
+      "vnum": 2172,
+      "name": "Entrance to the Graveyard",
+      "description": "A twisted and rotting tree marks the entrance to a long forgotten\ngraveyard.  Thick brambles tear at your tender flesh as you travel\nforward through the darkened cemetery, stealing away any hopes of\nmaking it out alive.  Travelling deeper, a misty fog envelops you,\nmaking it hard to avoid the holes left by tunneling creatures in\nsearch of their next meal of decomposing corpses.  Worn tombstones,\neroded long ago by age, mark the final resting place of dwellers\nof this land, standing as a monument to a time when this area teemed\nwith life.  Graves strewn with broken bones lie entangled amongst\nthe weeds while others fall carelessly, covered with broken slabs\nof stone.",
+      "sector": "city",
+      "flags": {
+        "dark": true
+      },
+      "exits": {
+        "east": 2101,
+        "north": 2171
+      },
+      "exdescs": {
+        "brambles": "Thorny brambles grab at your clothing as you walk across the grounds\nwith their brown spiney thorns ripping across your armor.",
+        "holes": "Mounds of the moldy earth lay here in piles, marking the paths of\nhungry gophers tunneling through the groun in search of food.",
+        "tombstones": "Broken tombstones stand here before you, crumbling with age and the\nabuse that the elements have bestowed upon them.  Greedy grave robbers\nhave left their mark on many of the tombstones, with the hopes to break\ninto the tombs that lay beneath the earth to find treasure, chiseling\naway uncarefully at many of the stones, making it difficult to read\nthe names inscribed upon them.",
+        "tree": "A tall, crooked tree stands before you with it's finger-like branches\noutreaching towards the blackened sky like a man begging to his deity\nto save him from this wretched place that stands before him.  Not\nunlike the deceased inhabitants that inhabit the area, this tree is no\nlonger living, but its twisted, mangled corpse remains."
+      },
+      "area_name": "Unholy Grounds",
+      "area_author": "Eldaera",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2101": {
+      "vnum": 2101,
+      "keywords": [
+        "gravedigger",
+        "grave",
+        "digger"
+      ],
+      "short": "a gravedigger",
+      "long": "A gravedigger is here, digging a new grave.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2102": {
+      "vnum": 2102,
+      "keywords": [
+        "graverobber",
+        "grave",
+        "robber",
+        "thief"
+      ],
+      "short": "a graverobber",
+      "long": "A graverobber seeks valuable treasures buried within the earth.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2103": {
+      "vnum": 2103,
+      "keywords": [
+        "Arabella"
+      ],
+      "short": "Arabella",
+      "long": "The corpse of Arabella lies here decaying within the coffin.",
+      "race": "skeleton",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 13,
+      "hp": 13,
+      "mana": 130,
+      "max_mana": 130,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2104": {
+      "vnum": 2104,
+      "keywords": [
+        "Anastacia"
+      ],
+      "short": "Anastacia",
+      "long": "The corpse of Anastacia sleeps peacefully within her glass coffin.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2105": {
+      "vnum": 2105,
+      "keywords": [
+        "preacher"
+      ],
+      "short": "a grey haired preacher",
+      "long": "A grey haired preacher stands here, offering hollow words of comfort.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 7,
+      "hp": 7,
+      "mana": 70,
+      "max_mana": 70,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2106": {
+      "vnum": 2106,
+      "keywords": [
+        "savage",
+        "beast"
+      ],
+      "short": "the savage beast",
+      "long": "A savage beast stands here, visciously gnawing upon a corpse.",
+      "race": "zombie",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        16,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2107": {
+      "vnum": 2107,
+      "keywords": [
+        "mourner"
+      ],
+      "short": "a mourner",
+      "long": "A mourner wails sadly, grieving the loss of her loved one.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 100,
+      "max_mana": 100,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2108": {
+      "vnum": 2108,
+      "keywords": [
+        "grey",
+        "rat"
+      ],
+      "short": "a small grey rat",
+      "long": "A small rat is here feasting upon the rotting corpse.",
+      "race": "rat",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 55,
+      "max_mana": 55,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2110": {
+      "vnum": 2110,
+      "keywords": [
+        "gravedigger",
+        "grave",
+        "digger"
+      ],
+      "short": "a gravedigger",
+      "long": "A gravedigger scouts for an open plot to begin digging a new grave.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2111": {
+      "vnum": 2111,
+      "keywords": [
+        "mutilated",
+        "decaying",
+        "corpse"
+      ],
+      "short": "a mutilated, decaying corpse",
+      "long": "A mutilated corpse arises from its grave, seeking to devour you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2113": {
+      "vnum": 2113,
+      "keywords": [
+        "vines",
+        "tangle",
+        "thorny"
+      ],
+      "short": "a tangle of thorny vines",
+      "long": "Long thorny vines wrap around your body, choking the life out of you.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2120": {
+      "vnum": 2120,
+      "keywords": [
+        "owl",
+        "bird",
+        "hoot"
+      ],
+      "short": "an owl",
+      "long": "A lone owl flies high among the branches, echoing cries of warning.",
+      "race": "shrieker",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2101": {
+      "vnum": 2101,
+      "keywords": [
+        "robe",
+        "muddy"
+      ],
+      "type": "armor",
+      "short": "a gravedigger's muddy robe",
+      "long": "A gravedigger's robe lays here caked in mud.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2102": {
+      "vnum": 2102,
+      "keywords": [
+        "shawl",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a black woolen shawl",
+      "long": "A mourner's shawl lays here in a crumpled pile.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2103": {
+      "vnum": 2103,
+      "keywords": [
+        "gravedigger",
+        "spade",
+        "shovel"
+      ],
+      "type": "weapon",
+      "short": "a gravedigger's spade",
+      "long": "A rusty gravedigger's shovel has been stuck into the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2104": {
+      "vnum": 2104,
+      "keywords": [
+        "headstone",
+        "plaque"
+      ],
+      "type": "armor",
+      "short": "a headstone's stolen plaque",
+      "long": "Stolen from a headstone, a brass plaque has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2105": {
+      "vnum": 2105,
+      "keywords": [
+        "crucifix",
+        "wooden",
+        "cross"
+      ],
+      "type": "wand",
+      "short": "a shattered crucifix",
+      "long": "An old wooden crucifix lays here, shattered into several pieces.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2106": {
+      "vnum": 2106,
+      "keywords": [
+        "chisel",
+        "rusted"
+      ],
+      "type": "weapon",
+      "short": "a graverobber's chisel",
+      "long": "A rusty chisel has been dropped here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2107": {
+      "vnum": 2107,
+      "keywords": [
+        "slippers",
+        "mourner",
+        "black"
+      ],
+      "type": "armor",
+      "short": "black pair of slippers caked with mud",
+      "long": "A pair of black slippers are here covered in mud.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2108": {
+      "vnum": 2108,
+      "keywords": [
+        "bible"
+      ],
+      "type": "staff",
+      "short": "a preacher's bible",
+      "long": "A tattered old bible lays on the ground gathering dust.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2109": {
+      "vnum": 2109,
+      "keywords": [
+        "gold",
+        "bracelet"
+      ],
+      "type": "armor",
+      "short": "Arabella's golden bracelet",
+      "long": "Arabella's shiny gold bracelet lays twinklink brightly on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2110": {
+      "vnum": 2110,
+      "keywords": [
+        "cane",
+        "widow",
+        "ebony"
+      ],
+      "type": "weapon",
+      "short": "a widow's cane",
+      "long": "A shiny black ebony cane rests on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2111": {
+      "vnum": 2111,
+      "keywords": [
+        "ring",
+        "diamond",
+        "Thomas"
+      ],
+      "type": "armor",
+      "short": "a golden ring encrusted with diamonds",
+      "long": "A small, glittering diamond ring lays on the ground, sparkling brightly.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2112": {
+      "vnum": 2112,
+      "keywords": [
+        "gloves",
+        "skin",
+        "chunk"
+      ],
+      "type": "armor",
+      "short": "gloves of rotten flesh",
+      "long": "A leathery chunk of flesh is here decaying in a pool of blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2113": {
+      "vnum": 2113,
+      "keywords": [
+        "pine",
+        "coffin"
+      ],
+      "type": "furniture",
+      "short": "Thomas' pine coffin",
+      "long": "An old, moldy pine box lays here, broken in several places.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2114": {
+      "vnum": 2114,
+      "keywords": [
+        "fountain",
+        "granite"
+      ],
+      "type": "fountain",
+      "short": "a crumbling fountain",
+      "long": "A crumbling granite fountain stands here, filled with stagnant water.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2115": {
+      "vnum": 2115,
+      "keywords": [
+        "tree",
+        "dead",
+        "fall"
+      ],
+      "type": "furniture",
+      "short": "a large dead tree",
+      "long": "A giant tree has fallen here, blocking your way to the east.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2116": {
+      "vnum": 2116,
+      "keywords": [
+        "glass",
+        "coffin"
+      ],
+      "type": "container",
+      "short": "Anastacia's glass coffin",
+      "long": "A crystal clear coffin made of glass lies upon a platform of swirled marble.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2117": {
+      "vnum": 2117,
+      "keywords": [
+        "petals",
+        "rose",
+        "bed"
+      ],
+      "type": "trash",
+      "short": "a bed of scattered white rose petals",
+      "long": "Thousands of white rose petals lay here, a floral bed of scented softness.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2118": {
+      "vnum": 2118,
+      "keywords": [
+        "lily",
+        "flower"
+      ],
+      "type": "trash",
+      "short": "a large white lily",
+      "long": "A large white flower grows along the earth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2119": {
+      "vnum": 2119,
+      "keywords": [
+        "bell",
+        "brass",
+        "cracked",
+        "rope"
+      ],
+      "type": "lever",
+      "short": "a shriveled rope attached to a bell",
+      "long": "A large brass bell hangs from the ceiling, suspended from a rotten wooden beam.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2120": {
+      "vnum": 2120,
+      "keywords": [
+        "veil",
+        "black"
+      ],
+      "type": "armor",
+      "short": "a thin black veil",
+      "long": "A ragged black veil has been tossed here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2121": {
+      "vnum": 2121,
+      "keywords": [
+        "swirled",
+        "headstone"
+      ],
+      "type": "furniture",
+      "short": "a swirled black marble headstone",
+      "long": "A swirled marble headstone lays on its side, sinking in the earth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2122": {
+      "vnum": 2122,
+      "keywords": [
+        "rugged",
+        "cross"
+      ],
+      "type": "furniture",
+      "short": "old rugged cross",
+      "long": "A splintered old cross stands here, entangled in vines.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2123": {
+      "vnum": 2123,
+      "keywords": [
+        "piles",
+        "corpse",
+        "limbs"
+      ],
+      "type": "furniture",
+      "short": "mangled limbs and bloody corpses",
+      "long": "Several piles of decapitated corpses and mangled limbs litter the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2124": {
+      "vnum": 2124,
+      "keywords": [
+        "corpse",
+        "suicide",
+        "rope"
+      ],
+      "type": "furniture",
+      "short": "decaying corpse hanging from a rope",
+      "long": "Dangling from an old rotten rope, a decaying corpse sways in the wind.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2125": {
+      "vnum": 2125,
+      "keywords": [
+        "headstone",
+        "flowered",
+        "preacher"
+      ],
+      "type": "furniture",
+      "short": "a preacher's headstone",
+      "long": "Crumbly, dead flowers lay decaying at the base of a dull black headstone.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2126": {
+      "vnum": 2126,
+      "keywords": [
+        "crushed",
+        "corpse",
+        "stone"
+      ],
+      "type": "furniture",
+      "short": "fallen headstone",
+      "long": "A large headstone lays on the ground, resting at a strange angle.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2127": {
+      "vnum": 2127,
+      "keywords": [
+        "withered",
+        "old",
+        "oak",
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "a withered old oak tree",
+      "long": "A withered old oak tree now lays on its side, decaying in the rains.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2128": {
+      "vnum": 2128,
+      "keywords": [
+        "statue",
+        "beheaded"
+      ],
+      "type": "furniture",
+      "short": "a beheaded statue",
+      "long": "A grisly statue caked in blood stands before you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2129": {
+      "vnum": 2129,
+      "keywords": [
+        "statue",
+        "gargoyle"
+      ],
+      "type": "furniture",
+      "short": "statue of a woman",
+      "long": "A statue, well worn and eroded, stands here dripping blood.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2150": {
+      "vnum": 2150,
+      "keywords": [
+        "border",
+        "object"
+      ],
+      "type": "trash",
+      "short": "a newly created border object",
+      "long": "Some god dropped a newly created border object here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

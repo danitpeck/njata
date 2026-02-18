@@ -1,0 +1,21 @@
+{
+  "name": "Warrior",
+  "class_id": 13,
+  "flavor_text": "As a Warrior, you will be capable of using any weapon, though your preferred weapons will be swords, maces and axes. Though you will be well-versed in combat, you may be somewhat lacking in other pursuits. Are you quite certain?",
+  "races": 0,
+  "attr_prime": 1,
+  "attr_second": 5,
+  "attr_deficient": 0,
+  "weapon": 10313,
+  "guild": 3022,
+  "thac0": 18,
+  "thac32": 6,
+  "hpmin": 10,
+  "hpmax": 14,
+  "mana": 1,
+  "expbase": 1000,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skills": {}
+}

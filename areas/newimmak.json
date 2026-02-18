@@ -1,0 +1,923 @@
+{
+  "name": "New Immak",
+  "author": "Zoie",
+  "reset_minutes": 15,
+  "rooms": {
+    "2200": {
+      "vnum": 2200,
+      "name": "Zoie's Room o' Doom",
+      "description": "Zoie lives here. This is a sparse room with a mirror in place of a fourth\nwall and a bucket in the corner for sleeping.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {
+        "bucket": "This bucket is clean and pristine, it appears to be made out of silver."
+      },
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2201": {
+      "vnum": 2201,
+      "name": "Road South of the Immak Woods",
+      "description": "A well travelled road leads north-south. To the north is a large forest,\nand to the south is the dwarven port town of Immak. The ground is hard\npacked dirt, flanked on either side by grasslands.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 8000,
+        "south": 2202
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2202": {
+      "vnum": 2202,
+      "name": "Road North of Immak",
+      "description": "A well travelled road leads north-south. In the distance to the north is a\nlarge forest. The hustle and bustle of Immak can be seen to the south. The\nground is hard packed dirt with grasslands to the east and west.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2201,
+        "south": 2205
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2203,
+          "count": 1,
+          "room": 2202
+        }
+      ]
+    },
+    "2203": {
+      "vnum": 2203,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "south": 2208,
+        "southeast": 2209,
+        "southwest": 2207
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2204": {
+      "vnum": 2204,
+      "name": "Immak Pub",
+      "description": "Boisterous drinkers enjoy themselves in Immak's pub at all\nhours of the day and night. Gambling and drinking can be found\nhere, as much as one could ever want. A staircase leads up to\nsome rooms that are occasionally rented by passersby on their\nway to the north or who may be awaiting a sea voyage. Harald is\nalso a retired adventurer, willing to show new adventurers some\nof his old tricks.",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 2210
+      },
+      "exdescs": {},
+      "mobile_resets": [
+        {
+          "vnum": 2201,
+          "count": 1,
+          "room": 2204
+        }
+      ],
+      "object_resets": []
+    },
+    "2205": {
+      "vnum": 2205,
+      "name": "Bazaar Road",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2202,
+        "south": 2211
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2206": {
+      "vnum": 2206,
+      "name": "Newly Created Room",
+      "description": "Newly Created Room",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "south": 2212
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2207": {
+      "vnum": 2207,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2208,
+        "northeast": 2203,
+        "south": 2215,
+        "southeast": 2216,
+        "southwest": 2214
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2208": {
+      "vnum": 2208,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2209,
+        "north": 2203,
+        "south": 2216,
+        "southwest": 2215,
+        "west": 2207
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2209": {
+      "vnum": 2209,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "northwest": 2203,
+        "southwest": 2216,
+        "west": 2208
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2210": {
+      "vnum": 2210,
+      "name": "Prosperity Avenue",
+      "description": "This road runs north to south. To the east, you can see the boisterous\nvillage square. To the north is a comfortable looking two-story Pub.\nDelicious smells waft out into the street from within.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2211,
+        "north": 2204,
+        "south": 2218
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2211": {
+      "vnum": 2211,
+      "name": "Village Square of Immak",
+      "description": "A cobblestoned village square is here with a sturdy old well in  the\nmiddle, benches line the edges of the cobblestoned square  for travellers\nand townsfolk alike to take a load off. To the  west is the pub, where\nadventurers congregate to share stories of their exploits. To the east are\nthe blacksmith's and tailor's shops.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2212,
+        "north": 2205,
+        "south": 2219,
+        "west": 2210
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 2202,
+          "count": 1,
+          "room": 2211
+        }
+      ]
+    },
+    "2212": {
+      "vnum": 2212,
+      "name": "Artisan Street",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2213,
+        "north": 2206,
+        "south": 2220,
+        "west": 2211
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2213": {
+      "vnum": 2213,
+      "name": "Artisan Street",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2214,
+        "west": 2212
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2214": {
+      "vnum": 2214,
+      "name": "Shore of Merroc River",
+      "description": "A small path runs southwest and northeast of here. The river runs quickly\nand could be dangerous to anyone who isn't a strong swimmer.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2215,
+        "northeast": 2207,
+        "south": 2222,
+        "southeast": 2223,
+        "southwest": 2221,
+        "west": 2213
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2215": {
+      "vnum": 2215,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2216,
+        "north": 2207,
+        "northeast": 2208,
+        "south": 2223,
+        "southwest": 2222,
+        "west": 2214
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2216": {
+      "vnum": 2216,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2208,
+        "northeast": 2209,
+        "northwest": 2207,
+        "southwest": 2223,
+        "west": 2215
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2217": {
+      "vnum": 2217,
+      "name": "Newly Created Room",
+      "description": "Newly Created Room",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "east": 2218
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2218": {
+      "vnum": 2218,
+      "name": "Prosperity Avenue",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2210,
+        "south": 2224,
+        "west": 2217
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2219": {
+      "vnum": 2219,
+      "name": "Bazaar Road",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2211,
+        "south": 2225
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2220": {
+      "vnum": 2220,
+      "name": "Newly Created Room",
+      "description": "Newly Created Room",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 2212
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2221": {
+      "vnum": 2221,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2222,
+        "northeast": 2214,
+        "south": 2227,
+        "southeast": 2228,
+        "southwest": 2226
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2222": {
+      "vnum": 2222,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2223,
+        "north": 2214,
+        "northeast": 2215,
+        "south": 2228,
+        "southwest": 2227,
+        "west": 2221
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2223": {
+      "vnum": 2223,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2215,
+        "northeast": 2216,
+        "northwest": 2214,
+        "southwest": 2228,
+        "west": 2222
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2224": {
+      "vnum": 2224,
+      "name": "Prosperity Avenue",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2218,
+        "south": 2231
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2225": {
+      "vnum": 2225,
+      "name": "Bazaar",
+      "description": "Newly Created Room",
+      "sector": "inside",
+      "flags": {},
+      "exits": {
+        "north": 2219
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2226": {
+      "vnum": 2226,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2227,
+        "northeast": 2221,
+        "south": 2233,
+        "southeast": 2234,
+        "southwest": 2232
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2227": {
+      "vnum": 2227,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2228,
+        "north": 2221,
+        "northeast": 2222,
+        "south": 2234,
+        "southwest": 2233,
+        "west": 2226
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2228": {
+      "vnum": 2228,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2222,
+        "northeast": 2223,
+        "northwest": 2221,
+        "southwest": 2234,
+        "west": 2227
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2229": {
+      "vnum": 2229,
+      "name": "Western Wislyu Road",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2230
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2230": {
+      "vnum": 2230,
+      "name": "Western Wislyu Road",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2231,
+        "west": 2229
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2231": {
+      "vnum": 2231,
+      "name": "Prosperity Avenue",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "north": 2224,
+        "south": 2235,
+        "west": 2230
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2232": {
+      "vnum": 2232,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2233,
+        "northeast": 2226,
+        "south": 2236,
+        "southeast": 2237,
+        "southwest": 2235
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2233": {
+      "vnum": 2233,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2234,
+        "north": 2226,
+        "northeast": 2227,
+        "south": 2237,
+        "southwest": 2236,
+        "west": 2232
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2234": {
+      "vnum": 2234,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2227,
+        "northeast": 2228,
+        "northwest": 2226,
+        "southwest": 2237,
+        "west": 2233
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2235": {
+      "vnum": 2235,
+      "name": "Shore of Merroc River",
+      "description": "A small path runs southwest and northeast of here. The river runs quickly\nand could be dangerous to anyone who isn't a strong swimmer.",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2236,
+        "north": 2231,
+        "northeast": 2232,
+        "south": 2239,
+        "southeast": 2240,
+        "southwest": 2238
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2236": {
+      "vnum": 2236,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2237,
+        "north": 2232,
+        "northeast": 2233,
+        "south": 2240,
+        "southwest": 2239,
+        "west": 2235
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2237": {
+      "vnum": 2237,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2233,
+        "northeast": 2234,
+        "northwest": 2232,
+        "southwest": 2240,
+        "west": 2236
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2238": {
+      "vnum": 2238,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2239,
+        "northeast": 2235,
+        "south": 2242,
+        "southeast": 2243,
+        "southwest": 2241
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2239": {
+      "vnum": 2239,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2240,
+        "north": 2235,
+        "northeast": 2236,
+        "south": 2243,
+        "southwest": 2242,
+        "west": 2238
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2240": {
+      "vnum": 2240,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2236,
+        "northeast": 2237,
+        "northwest": 2235,
+        "southwest": 2243,
+        "west": 2239
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2241": {
+      "vnum": 2241,
+      "name": "Shore of Merroc River",
+      "description": "Newly Created Room",
+      "sector": "city",
+      "flags": {},
+      "exits": {
+        "east": 2242,
+        "northeast": 2238,
+        "southeast": 2244
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2242": {
+      "vnum": 2242,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "east": 2243,
+        "north": 2238,
+        "northeast": 2239,
+        "south": 2244,
+        "west": 2241
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2243": {
+      "vnum": 2243,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2239,
+        "northeast": 2240,
+        "northwest": 2238,
+        "southwest": 2244,
+        "west": 2242
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2244": {
+      "vnum": 2244,
+      "name": "Merroc River",
+      "description": "The river runs rapidly from northeast to southwest.",
+      "sector": "r1",
+      "flags": {},
+      "exits": {
+        "north": 2242,
+        "northeast": 2243,
+        "northwest": 2241
+      },
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "2299": {
+      "vnum": 2299,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "2200": {
+      "vnum": 2200,
+      "keywords": [
+        "first",
+        "mob"
+      ],
+      "short": "a newly created first mob",
+      "long": "Some god abandoned a newly created first mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2201": {
+      "vnum": 2201,
+      "keywords": [
+        "Harald",
+        "Barkeeper"
+      ],
+      "short": "Harald the Barkeeper",
+      "long": "Harald the Barkeeper is here, polishing a glass.",
+      "race": "dwarf",
+      "class": "ranger",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "2299": {
+      "vnum": 2299,
+      "keywords": [
+        "last",
+        "mob"
+      ],
+      "short": "a newly created last mob",
+      "long": "Some god abandoned a newly created last mob here.",
+      "race": "human",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "2200": {
+      "vnum": 2200,
+      "keywords": [
+        "first",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created first obj",
+      "long": "Some god dropped a newly created first obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2201": {
+      "vnum": 2201,
+      "keywords": [
+        "black",
+        "leather",
+        "corset"
+      ],
+      "type": "armor",
+      "short": "&za black leather corset&w",
+      "long": "Some god dropped a newly created &zblack leather corset&w here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2202": {
+      "vnum": 2202,
+      "keywords": [
+        "old",
+        "stone",
+        "well"
+      ],
+      "type": "fountain",
+      "short": "an old stone well",
+      "long": "&wAn old well made of stone is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2203": {
+      "vnum": 2203,
+      "keywords": [
+        "weatherbeaten",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a weatherbeaten sign",
+      "long": "A weatherbeaten sign is hammered into the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2205": {
+      "vnum": 2205,
+      "keywords": [
+        "flagon",
+        "ale"
+      ],
+      "type": "drinkcon",
+      "short": "a flagon of ale",
+      "long": "Someone has forgotten their flagon of ale here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "2299": {
+      "vnum": 2299,
+      "keywords": [
+        "last",
+        "obj"
+      ],
+      "type": "trash",
+      "short": "a newly created last obj",
+      "long": "Some god dropped a newly created last obj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

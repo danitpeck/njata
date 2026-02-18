@@ -1,0 +1,1018 @@
+package game
+
+import (
+	"fmt"
+	"math/rand"
+	"sort"
+	"strings"
+	"sync"
+	"time"
+	"unicode"
+
+	"njata/internal/skills"
+)
+
+type Player struct {
+	Name       string
+	Output     Output
+	Disconnect func(reason string)
+	Location   int
+	AutoExits  bool
+
+	// Optional appearance descriptors
+	Hair string
+	Eyes string
+
+	// Character info
+	Race int // Index into legacy/races
+	Sex  int // 0=neuter, 1=male, 2=female
+
+	// Vital stats
+	HP      int
+	MaxHP   int
+	Mana    int
+	MaxMana int
+	Gold    int
+
+	// Attribute scores
+	Strength     int
+	Dexterity    int
+	Constitution int
+	Intelligence int
+	Wisdom       int
+	Charisma     int
+	Luck         int
+
+	// Combat stats (modified by equipment)
+	Armor int
+
+	// Skills tracking
+	Skills map[int]*skills.PlayerSkillProgress // spell_id -> proficiency progress
+
+	// Inventory tracking
+	Inventory []*Object
+
+	// Equipment tracking (slot -> object)
+	Equipment map[string]*Object
+
+	// Keeper flag - player who maintains the world
+	IsKeeper bool
+}
+
+const (
+	EquipHead  = "head"
+	EquipBody  = "body"
+	EquipNeck  = "neck"
+	EquipBack  = "back"
+	EquipWaist = "waist"
+	EquipWield = "wield"
+)
+
+var EquipSlotOrder = []string{
+	EquipHead,
+	EquipBody,
+	EquipNeck,
+	EquipBack,
+	EquipWaist,
+	EquipWield,
+}
+
+type Mobile struct {
+	Vnum       int
+	Keywords   []string
+	Short      string
+	Long       string
+	Race       string
+	Class      string
+	Position   string
+	Gender     string
+	Level      int
+	MaxHP      int
+	HP         int
+	Mana       int
+	MaxMana    int
+	Attributes [7]int // STR, INT, WIS, DEX, CON, LCK, CHA
+}
+
+type Object struct {
+	Vnum      int
+	Keywords  []string
+	Type      string
+	Short     string
+	Long      string
+	Weight    int
+	Value     [4]int // [0]=quantity [1]=unused [2]=unused [3]=spell_id for magical items
+	Flags     map[string]bool
+	EquipSlot string // "head", "body", "neck", "back", "waist", or empty for non-equippable
+	ArmorVal  int    // bonus to player.Armor when worn
+
+	// Spell teaching (for study items)
+	TeachesSpellID int  // spell ID taught by this item
+	TeachesAmount  int  // proficiency % to grant (0 = use default 30%)
+	Consumable     bool // true if item is destroyed after studying
+}
+
+type Room struct {
+	Vnum             int
+	Name             string
+	Description      string
+	Sector           string
+	Flags            map[string]bool
+	Exits            map[string]int
+	ExDescs          map[string]string
+	AreaName         string
+	AreaAuthor       string
+	AreaResetMinutes int
+	Mobiles          []*Mobile
+	Objects          []*Object
+	MobileResets     []Reset
+	ObjectResets     []Reset
+}
+
+type Reset struct {
+	MobVnum int // for Mobile resets
+	ObjVnum int // for Object resets
+	Count   int // how many to load
+	Room    int // which room to load into
+}
+
+type RoomView struct {
+	Name        string
+	Description string
+	Exits       []string
+	Others      []string
+	Mobiles     []string // NPC descriptions
+	Objects     []string // Object descriptions
+	AreaName    string
+	AreaAuthor  string
+}
+
+type World struct {
+	mu              sync.RWMutex
+	rooms           map[int]*Room
+	start           int
+	players         map[string]*Player
+	mobiles         map[int]*Mobile      // Prototypes for respawning
+	objects         map[int]*Object      // Prototypes for respawning
+	areaLastRespawn map[string]time.Time // Track when each area last respawned
+}
+
+func CreateDefaultWorld() *World {
+	defaultRoom := &Room{
+		Vnum:        1,
+		Name:        "The Crossroads",
+		Description: "A simple stone path crosses here, leading to all corners of the land.",
+		Sector:      "",
+		Flags:       map[string]bool{},
+		Exits:       map[string]int{},
+		ExDescs:     map[string]string{},
+	}
+
+	return &World{
+		rooms:           map[int]*Room{defaultRoom.Vnum: defaultRoom},
+		start:           defaultRoom.Vnum,
+		players:         map[string]*Player{},
+		mobiles:         map[int]*Mobile{},
+		objects:         map[int]*Object{},
+		areaLastRespawn: map[string]time.Time{},
+	}
+}
+
+func CreateWorldFromRooms(rooms map[int]*Room, start int) *World {
+	if len(rooms) == 0 {
+		return CreateDefaultWorld()
+	}
+
+	if start == 0 {
+		for vnum := range rooms {
+			if start == 0 || vnum < start {
+				start = vnum
+			}
+		}
+	}
+
+	return &World{
+		rooms:           rooms,
+		start:           start,
+		players:         map[string]*Player{},
+		mobiles:         map[int]*Mobile{},
+		objects:         map[int]*Object{},
+		areaLastRespawn: map[string]time.Time{},
+	}
+}
+
+// CreateWorldFromRoomsWithPrototypes creates a world with prototype data for respawning
+func (w *World) SetPrototypes(mobiles map[int]*Mobile, objects map[int]*Object) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+	w.mobiles = mobiles
+	w.objects = objects
+}
+
+func (w *World) StartRoom() int {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+	return w.start
+}
+
+func (w *World) HasRoom(vnum int) bool {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+	_, ok := w.rooms[vnum]
+	return ok
+}
+
+func ValidateName(name string) error {
+	if len(name) < 3 || len(name) > 16 {
+		return fmt.Errorf("name must be 3-16 characters")
+	}
+
+	for _, r := range name {
+		if r > 127 || (!unicode.IsLetter(r) && !unicode.IsDigit(r)) {
+			return fmt.Errorf("name must be letters or digits")
+		}
+	}
+
+	return nil
+}
+
+func (w *World) RoomSnapshot() Room {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+	if room, ok := w.rooms[w.start]; ok {
+		return *room
+	}
+	return Room{}
+}
+
+func (w *World) AddPlayer(player *Player) error {
+	if player == nil {
+		return fmt.Errorf("player is nil")
+	}
+
+	if err := ValidateName(player.Name); err != nil {
+		return err
+	}
+
+	key := normalizeName(player.Name)
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if _, exists := w.players[key]; exists {
+		return fmt.Errorf("name already in use")
+	}
+
+	if player.Location == 0 {
+		player.Location = w.start
+	}
+
+	w.players[key] = player
+	return nil
+}
+
+func (w *World) RemovePlayer(name string) {
+	key := normalizeName(name)
+	w.mu.Lock()
+	defer w.mu.Unlock()
+	delete(w.players, key)
+}
+
+func (w *World) PlayersSnapshot() []*Player {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	players := make([]*Player, 0, len(w.players))
+	for _, player := range w.players {
+		players = append(players, player)
+	}
+
+	return players
+}
+
+func (w *World) ListPlayers() []string {
+	players := w.PlayersSnapshot()
+	names := make([]string, 0, len(players))
+	for _, player := range players {
+		names = append(names, CapitalizeName(player.Name))
+	}
+
+	sort.Strings(names)
+	return names
+}
+
+func (w *World) ListPlayersExcept(name string) []string {
+	players := w.PlayersSnapshot()
+	names := make([]string, 0, len(players))
+	for _, player := range players {
+		if !strings.EqualFold(player.Name, name) {
+			names = append(names, CapitalizeName(player.Name))
+		}
+	}
+
+	sort.Strings(names)
+	return names
+}
+
+// FindPlayer retrieves a player by name (case-insensitive)
+func (w *World) FindPlayer(name string) (*Player, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	for playerName, player := range w.players {
+		if strings.EqualFold(playerName, name) {
+			return player, true
+		}
+	}
+
+	return nil, false
+}
+
+// FindPlayerInRoom retrieves a player in the same room by name (case-insensitive or prefix match).
+func (w *World) FindPlayerInRoom(player *Player, keyword string) (*Player, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, other := range w.players {
+		if other.Location != room.Vnum {
+			continue
+		}
+
+		name := strings.ToLower(other.Name)
+		if name == key || strings.HasPrefix(name, key) {
+			return other, true
+		}
+	}
+
+	return nil, false
+}
+
+func (w *World) DescribeRoom(player *Player) (RoomView, error) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return RoomView{}, fmt.Errorf("room not found")
+	}
+
+	others := make([]string, 0, len(w.players))
+	for _, other := range w.players {
+		if other.Location == room.Vnum && !strings.EqualFold(other.Name, player.Name) {
+			others = append(others, CapitalizeName(other.Name))
+		}
+	}
+	sort.Strings(others)
+
+	exits := make([]string, 0, len(room.Exits))
+	for exit := range room.Exits {
+		exits = append(exits, exit)
+	}
+	sort.Strings(exits)
+
+	// Format mobiles
+	mobiles := make([]string, 0, len(room.Mobiles))
+	for _, mob := range room.Mobiles {
+		if mob.Short != "" {
+			position := strings.TrimSpace(mob.Position)
+			if position == "" {
+				position = "standing"
+			}
+			mobiles = append(mobiles, mob.Short+" is "+position+".")
+		}
+	}
+	sort.Strings(mobiles)
+
+	// Format objects
+	objects := make([]string, 0, len(room.Objects))
+	for _, obj := range room.Objects {
+		if obj.Short != "" {
+			objects = append(objects, obj.Short+" is here.")
+		}
+	}
+	sort.Strings(objects)
+
+	return RoomView{
+		Name:        room.Name,
+		Description: room.Description,
+		Exits:       exits,
+		Others:      others,
+		Mobiles:     mobiles,
+		Objects:     objects,
+		AreaName:    room.AreaName,
+		AreaAuthor:  room.AreaAuthor,
+	}, nil
+}
+
+// RoomObjectsSnapshot returns a copy of objects in the player's current room.
+func (w *World) RoomObjectsSnapshot(player *Player) []*Object {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil {
+		return nil
+	}
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil
+	}
+
+	objects := make([]*Object, 0, len(room.Objects))
+	objects = append(objects, room.Objects...)
+	return objects
+}
+
+func (w *World) FindRoomExDesc(player *Player, keyword string) (string, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return "", false
+	}
+
+	if room.ExDescs == nil {
+		return "", false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return "", false
+	}
+
+	value, ok := room.ExDescs[key]
+	return value, ok
+}
+
+func (w *World) MovePlayer(player *Player, direction string) (RoomView, error) {
+	w.mu.Lock()
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		w.mu.Unlock()
+		return RoomView{}, fmt.Errorf("room not found")
+	}
+
+	targetVnum, ok := room.Exits[direction]
+	if !ok {
+		w.mu.Unlock()
+		return RoomView{}, fmt.Errorf("no exit")
+	}
+
+	targetRoom, ok := w.rooms[targetVnum]
+	if !ok {
+		w.mu.Unlock()
+		return RoomView{}, fmt.Errorf("exit leads nowhere")
+	}
+
+	player.Location = targetRoom.Vnum
+	w.mu.Unlock()
+
+	return w.DescribeRoom(player)
+}
+
+func (w *World) BroadcastSay(speaker *Player, message string) {
+	w.mu.RLock()
+	location := speaker.Location
+	players := make([]*Player, 0, len(w.players))
+	for _, player := range w.players {
+		if player.Location == location {
+			players = append(players, player)
+		}
+	}
+	w.mu.RUnlock()
+
+	for _, player := range players {
+		if strings.EqualFold(player.Name, speaker.Name) {
+			player.Output.WriteLine(fmt.Sprintf("You say '%s'", message))
+			continue
+		}
+		player.Output.WriteLine(fmt.Sprintf("%s says '%s'", CapitalizeName(speaker.Name), message))
+	}
+}
+
+func (w *World) BroadcastChat(speaker *Player, message string) {
+	w.mu.RLock()
+	players := make([]*Player, 0, len(w.players))
+	for _, player := range w.players {
+		players = append(players, player)
+	}
+	w.mu.RUnlock()
+
+	for _, player := range players {
+		if strings.EqualFold(player.Name, speaker.Name) {
+			player.Output.WriteLine(fmt.Sprintf("&Y[Chat] You: %s&w", message))
+			continue
+		}
+		player.Output.WriteLine(fmt.Sprintf("&Y[Chat] %s: %s&w", CapitalizeName(speaker.Name), message))
+	}
+}
+
+func (w *World) BroadcastSystemToRoomExcept(except *Player, message string) {
+	w.mu.RLock()
+	location := except.Location
+	players := make([]*Player, 0, len(w.players))
+	for _, player := range w.players {
+		if player.Location == location && !strings.EqualFold(player.Name, except.Name) {
+			players = append(players, player)
+		}
+	}
+	w.mu.RUnlock()
+
+	for _, player := range players {
+		player.Output.WriteLine(message)
+	}
+}
+
+func normalizeName(name string) string {
+	return strings.ToLower(strings.TrimSpace(name))
+}
+
+// RespawnTick checks each area for respawn eligibility and respawns as needed
+func (w *World) RespawnTick(defaultMinutes int, logger func(string)) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	now := time.Now()
+	areasRespawned := 0
+	var respawnLog []string
+
+	// Group rooms by area
+	areaRooms := make(map[string][]*Room)
+	for _, room := range w.rooms {
+		areaName := room.AreaName
+		if areaName == "" {
+			areaName = "Unknown"
+		}
+		areaRooms[areaName] = append(areaRooms[areaName], room)
+	}
+
+	// Check each area for respawn
+	for areaName, rooms := range areaRooms {
+		if len(rooms) == 0 {
+			continue
+		}
+
+		// Get reset minutes for this area (from first room)
+		resetMinutes := rooms[0].AreaResetMinutes
+		if resetMinutes <= 0 {
+			resetMinutes = defaultMinutes
+		}
+
+		// Check if area is due for respawn
+		lastRespawn, hasLastRespawn := w.areaLastRespawn[areaName]
+		if !hasLastRespawn {
+			// First respawn - mark as just respawned
+			w.areaLastRespawn[areaName] = now
+			areasRespawned++
+			respawnLog = append(respawnLog, fmt.Sprintf("%s (initial, next in %dm)", areaName, resetMinutes))
+			continue
+		}
+
+		timeSinceRespawn := now.Sub(lastRespawn)
+		respawnDue := timeSinceRespawn >= time.Duration(resetMinutes)*time.Minute
+
+		if respawnDue {
+			// Respawn this area
+			for _, room := range rooms {
+				// Clear existing mobs and objects
+				room.Mobiles = make([]*Mobile, 0)
+				room.Objects = make([]*Object, 0)
+
+				// Re-instantiate from resets
+				for _, reset := range room.MobileResets {
+					if proto, ok := w.mobiles[reset.MobVnum]; ok {
+						for i := 0; i < reset.Count; i++ {
+							mobCopy := *proto
+							room.Mobiles = append(room.Mobiles, &mobCopy)
+						}
+					}
+				}
+				for _, reset := range room.ObjectResets {
+					if proto, ok := w.objects[reset.ObjVnum]; ok {
+						for i := 0; i < reset.Count; i++ {
+							objCopy := *proto
+							room.Objects = append(room.Objects, &objCopy)
+						}
+					}
+				}
+			}
+
+			w.areaLastRespawn[areaName] = now
+			areasRespawned++
+			respawnLog = append(respawnLog, fmt.Sprintf("%s (next in %dm)", areaName, resetMinutes))
+		}
+	}
+
+	if logger == nil {
+		return
+	}
+
+	if areasRespawned == 0 {
+		logger(fmt.Sprintf("Respawn tick: no areas ready (%d monitored)", len(areaRooms)))
+		return
+	}
+
+	logger(fmt.Sprintf("Respawn tick: %d/%d areas respawned - %s", areasRespawned, len(areaRooms), strings.Join(respawnLog, ", ")))
+}
+
+// FindMobInRoom searches for a mobile in the player's current room by keyword
+func (w *World) FindMobInRoom(player *Player, keyword string) (*Mobile, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	keyword = strings.ToLower(keyword)
+	for _, mob := range room.Mobiles {
+		// Check if keyword matches any of the mob's keywords
+		for _, mobKeyword := range mob.Keywords {
+			if strings.ToLower(mobKeyword) == keyword {
+				return mob, true
+			}
+		}
+		// Also check if keyword appears in mob's short description
+		if strings.Contains(strings.ToLower(mob.Short), keyword) {
+			return mob, true
+		}
+	}
+
+	return nil, false
+}
+
+// FindObjectInRoom searches for an object in the player's current room by keyword
+func (w *World) FindObjectInRoom(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, false
+	}
+
+	keyword = strings.ToLower(keyword)
+	for _, obj := range room.Objects {
+		// Check if keyword matches any of the object's keywords
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == keyword {
+				return obj, true
+			}
+		}
+		// Also check if keyword appears in object's short description
+		if strings.Contains(strings.ToLower(obj.Short), keyword) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
+// FindObjectInInventory searches for an object in the player's inventory by keyword
+func (w *World) FindObjectInInventory(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, obj := range player.Inventory {
+		if obj == nil {
+			continue
+		}
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == key {
+				return obj, true
+			}
+		}
+		if strings.Contains(strings.ToLower(obj.Short), key) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
+// RemoveObjectFromRoom removes an object from the player's current room
+func (w *World) RemoveObjectFromRoom(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return false
+	}
+
+	// Find and remove the object
+	for i, o := range room.Objects {
+		if o == obj {
+			// Remove by swapping and truncating
+			room.Objects = append(room.Objects[:i], room.Objects[i+1:]...)
+			return true
+		}
+	}
+
+	return false
+}
+
+// AddObjectToRoom adds an object to the player's current room
+func (w *World) AddObjectToRoom(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return false
+	}
+
+	room.Objects = append(room.Objects, obj)
+	return true
+}
+
+// AddObjectToInventory adds an object to the player's inventory
+func (w *World) AddObjectToInventory(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil {
+		return false
+	}
+
+	player.Inventory = append(player.Inventory, obj)
+	return true
+}
+
+// RemoveObjectFromInventory removes an object from the player's inventory
+func (w *World) RemoveObjectFromInventory(player *Player, obj *Object) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil {
+		return false
+	}
+
+	for i, o := range player.Inventory {
+		if o == obj {
+			player.Inventory = append(player.Inventory[:i], player.Inventory[i+1:]...)
+			return true
+		}
+	}
+
+	return false
+}
+
+// FindObjectInEquipment searches for an object in the player's equipment by keyword
+func (w *World) FindObjectInEquipment(player *Player, keyword string) (*Object, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil {
+		return nil, false
+	}
+
+	key := strings.ToLower(strings.TrimSpace(keyword))
+	if key == "" {
+		return nil, false
+	}
+
+	for _, obj := range player.Equipment {
+		if obj == nil {
+			continue
+		}
+		for _, objKeyword := range obj.Keywords {
+			if strings.ToLower(objKeyword) == key {
+				return obj, true
+			}
+		}
+		if strings.Contains(strings.ToLower(obj.Short), key) {
+			return obj, true
+		}
+	}
+
+	return nil, false
+}
+
+// EquipmentSnapshot returns a copy of the player's equipment map.
+func (w *World) EquipmentSnapshot(player *Player) map[string]*Object {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil {
+		return map[string]*Object{}
+	}
+
+	copyMap := make(map[string]*Object, len(player.Equipment))
+	for slot, obj := range player.Equipment {
+		copyMap[slot] = obj
+	}
+
+	return copyMap
+}
+
+// FindEquippedSlot finds the slot for a given equipped object.
+func (w *World) FindEquippedSlot(player *Player, obj *Object) (string, bool) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	if player == nil || player.Equipment == nil || obj == nil {
+		return "", false
+	}
+
+	for slot, equipped := range player.Equipment {
+		if equipped == obj {
+			return slot, true
+		}
+	}
+
+	return "", false
+}
+
+// EquipObject equips an item into a slot and removes it from inventory.
+func (w *World) EquipObject(player *Player, obj *Object, slot string) bool {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil || obj == nil {
+		return false
+	}
+
+	if player.Equipment == nil {
+		player.Equipment = make(map[string]*Object)
+	}
+
+	if _, exists := player.Equipment[slot]; exists && player.Equipment[slot] != nil {
+		return false
+	}
+
+	for i, o := range player.Inventory {
+		if o == obj {
+			player.Inventory = append(player.Inventory[:i], player.Inventory[i+1:]...)
+			break
+		}
+	}
+
+	player.Equipment[slot] = obj
+	return true
+}
+
+// UnequipObject removes an item from a slot and adds it to inventory.
+func (w *World) UnequipObject(player *Player, slot string) (*Object, bool) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	if player == nil || player.Equipment == nil {
+		return nil, false
+	}
+
+	obj := player.Equipment[slot]
+	if obj == nil {
+		return nil, false
+	}
+
+	player.Equipment[slot] = nil
+	player.Inventory = append(player.Inventory, obj)
+	return obj, true
+}
+
+// DamageMob deals damage to a mobile and handles death
+func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool) {
+	w.mu.Lock()
+	mob.HP -= damage
+
+	if mob.HP <= 0 {
+		mob.HP = 0
+		// Remove mob from room
+		room, ok := w.rooms[player.Location]
+		if ok {
+			newMobiles := make([]*Mobile, 0, len(room.Mobiles)-1)
+			for _, m := range room.Mobiles {
+				if m != mob {
+					newMobiles = append(newMobiles, m)
+				}
+			}
+			room.Mobiles = newMobiles
+		}
+		w.mu.Unlock()
+		return true
+	}
+
+	w.mu.Unlock()
+	w.mobCounterAttack(player, mob)
+	return false
+}
+
+func (w *World) mobCounterAttack(target *Player, mob *Mobile) {
+	if target == nil || mob == nil {
+		return
+	}
+
+	// Simple melee damage: small roll + level and strength bonus
+	roll := rand.Intn(4) + 1
+	levelBonus := mob.Level / 2
+	strBonus := mob.Attributes[0] / 4
+	damage := roll + levelBonus + strBonus
+	if damage < 1 {
+		damage = 1
+	}
+
+	var died bool
+	var mobName string
+
+	w.mu.Lock()
+	room, ok := w.rooms[target.Location]
+	if !ok {
+		w.mu.Unlock()
+		return
+	}
+
+	mobStillHere := false
+	for _, m := range room.Mobiles {
+		if m == mob {
+			mobStillHere = true
+			break
+		}
+	}
+	if !mobStillHere {
+		w.mu.Unlock()
+		return
+	}
+
+	target.HP -= damage
+	if target.HP <= 0 {
+		target.HP = 1
+		died = true
+	}
+
+	mobName = mob.Short
+	w.mu.Unlock()
+
+	if strings.TrimSpace(mobName) == "" {
+		mobName = "The creature"
+	}
+
+	target.Output.WriteLine(fmt.Sprintf("&R%s strikes you for %d damage!&w", mobName, damage))
+	if died {
+		target.Output.WriteLine("&RYou are defeated and left barely standing!&w")
+	}
+
+	roomMsg := fmt.Sprintf("&R%s strikes %s!&w", mobName, CapitalizeName(target.Name))
+	w.BroadcastCombatMessage(target, roomMsg)
+	if died {
+		w.BroadcastCombatMessage(target, fmt.Sprintf("&R%s is defeated by %s!&w", CapitalizeName(target.Name), mobName))
+	}
+}
+
+// BroadcastCombatMessage sends a combat message to the player's room
+func (w *World) BroadcastCombatMessage(player *Player, message string) {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
+	for _, other := range w.players {
+		if other.Location == player.Location && !strings.EqualFold(other.Name, player.Name) {
+			other.Output.WriteLine(message)
+		}
+	}
+}
+
+// SpawnMob creates a mob instance from a prototype and adds it to the player's current room
+func (w *World) SpawnMob(player *Player, vnum int) (*Mobile, error) {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	// Find the mob prototype
+	proto, ok := w.mobiles[vnum]
+	if !ok {
+		return nil, fmt.Errorf("mob vnum %d does not exist", vnum)
+	}
+
+	// Find the player's current room
+	room, ok := w.rooms[player.Location]
+	if !ok {
+		return nil, fmt.Errorf("player is not in a valid room")
+	}
+
+	// Create a copy of the prototype
+	mobCopy := *proto
+
+	// Add to room
+	room.Mobiles = append(room.Mobiles, &mobCopy)
+
+	return &mobCopy, nil
+}

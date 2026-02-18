@@ -1,0 +1,1435 @@
+{
+  "name": "Spectral Gate",
+  "author": "Brittany",
+  "reset_minutes": 15,
+  "rooms": {
+    "100": {
+      "vnum": 100,
+      "name": "Ominous Tapestries",
+      "description": "You appear somehow within an arcane chamber.  Huge hanging tapestries,\neach intricately detailed in vibrant colors, cover the featureless walls\nof your octagonal surroundings.  Wide square bands of white marble serve\nto blur the sharp edges of the walls, giving the room an almost circular\nappearance.  Gazing about your surroundings, your eye is drawn upward by\na much larger round tapestry hanging directly overhead, and you struggle\nwith your balance as you examine the fabric's images.  The growing sense\nof wonder which pulls at you is tinged with a dose of trepidation.  The\nviews about you, while wondrous, are nevertheless quite ominous; these\nimages are of a truly darkened land.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 101
+      },
+      "exdescs": {
+        "'tapestry": "Key    'tapestry",
+        "e": "This side looks very busy.  There is a large crossroads leading in many\ndirections.  You see a large grove and castle far to the east.  West of\nthe crossroads is a city gate.  You can see blackened mountains, an open\nabandoned looking town and caves that appear to be made for dwarves.",
+        "east": "This side looks very busy.  There is a large crossroads leading in many\ndirections.  You see a large grove and castle far to the east.  West of\nthe crossroads is a city gate.  You can see blackened mountains, an open\nabandoned looking town and caves that appear to be made for dwarves.",
+        "n": "Outside you see a large field leading to the base of a large mountain,\nabove which floats a radiant city dominated by a palatial structure.",
+        "ne": "Far to the north and east you see a large city surrounded by verdant\nfields.  In the east of this city rises a huge citadel of gold.",
+        "north": "Outside you see a large field leading to the base of a large mountain,\nabove which floats a radiant city dominated by a palatial structure.",
+        "northeast": "Far to the north and east, you see a large city surrounded by verdant\nfields. To the east of the city is a huge golden castle.",
+        "northwest": "Far to the north and east you see a large city surrounded by verdant\nfields.  In the east of this city rises a huge citadel of gold.",
+        "nw": "To the north and west appears to be a valley and forest, probably home\nto the Elven population by the small structures there.  You can also\nmake out the beginning of an ocean and a few ships at port.",
+        "s": "You can see a large, busy dump out this direction, and a large opening to\na subterranean area there.  You can see a dark path leading south from this\ndump.  Altogether, it does not look like the most appealing of places for\nyou to visit.",
+        "se": "In this direction you see what appears to be a boathouse on a river.\nThe river seems to head from east to west, emptying to a large ocean.",
+        "south": "You can see a large, busy dump out this direction, and a large opening to\na subterranean area there.  You can see a dark path leading south from this\ndump.  Altogether, it does not look like the most appealing of places for\nyou to visit.",
+        "southeast": "In this direction you see what appears to be a boathouse on a river.\nThe river seems to head from east to west, emptying to a large ocean.",
+        "southwest": "The forest changes in this direction, the trees create a canopy over\nquite a large area. South of the forest is a huge swamp area.",
+        "sw": "The forest changes in this direction, the trees create a canopy over\nquite a large area. South of the forest is a huge swamp area.",
+        "tapestrie": "As you peer closer at this tapestry, you find it is not a tapestry at all,\nbut a window which looks out upon an strange and darkened land.  You begin\nto examine each separately, enjoying the view each affords.  Nine separate\nwindows are here, one above you and one in each of the eight directions.\nLOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.\nPerhaps you should have a brief peek at this new world.",
+        "tapestries": "As you peer closer at this tapestry, you find it is not a tapestry at all,\nbut a window which looks out upon an strange and darkened land.  You begin\nto examine each separately, enjoying the view each affords.  Nine separate\nwindows are here, one above you and one in each of the eight directions.\nLOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.\nPerhaps you should have a brief peek at this new world.",
+        "tapestry": "As you peer closer at this tapestry, you find it is not a tapestry at all,\nbut a window which looks out upon an strange and darkened land.  You begin\nto examine each separately, enjoying the view each affords.  Nine separate\nwindows are here, one above you and one in each of the eight directions.\nLOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.\nPerhaps you should have a brief peek at this new world.",
+        "u": "Far above you can make out several few dragons flying though the grey\nskies, and even a few Harpies are out stretching their wings.  Most\nseem to not see this building, nor you watching their passage.",
+        "up": "Far above you can make out several few dragons flying though the grey\nskies, and even a few Harpies are out stretching their wings.  Most\nseem to not see this building, nor you watching their passage.",
+        "w": "You can make out a guarded city gate in this direction.  North of the\ngate is a small forest, inhabited by many small pixies.  Farther west\nand north is a large town.  Straight west is a huge tree which seems\nto stop the path at its base.",
+        "west": "You can make out a guarded city gate in this direction.  North of the\ngate is a small forest, inhabited by many small pixies.  Farther west\nand north is a large town.  Straight west is a huge tree which seems\nto stop the path at its base."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 101,
+          "count": 1,
+          "room": 100
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 124,
+          "count": 1,
+          "room": 100
+        }
+      ]
+    },
+    "101": {
+      "vnum": 101,
+      "name": "An Unsettling Reception",
+      "description": "Muted sounds and the scent of cedar assail your senses as you enter this\nstately chamber.  Thick carpeting competes with leathered chairs in a bid\nfor your comfort, and a huge painting of a barren desert occupies the wall\nbehind a large desk of oak.  Four small luminescent globes float aimlessly\nabout the room, and you notice that though seemingly free floating these\nglobes always manage to remain equidistant from one another.  The huge\nbust of a fantastical lizard has been set upon the wall, an amazing\nhunting trophy of some sort.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "north": 102,
+        "up": 100
+      },
+      "exdescs": {
+        "bust": "Your mind clicks!  You know what this is, though your mind takes a moment\nto digest the information.  You are staring at a bust of a dragon, closer\nto such a thing than you have ever been before.  Its eyes seem to glare\nmenacingly at you, but a shiver courses the length of your spine as a\nsigh of relief passes your lips.  It is thankfully dead, and you are safe.",
+        "carpet": "This carpet appears to be made from a cashmere wool laid atop some sort of\nthick padding.  Your feet sink at least an inch into the flooring.",
+        "carpeting": "This carpet appears to be made from a cashmere wool laid atop some sort of\nthick padding.  Your feet sink at least an inch into the flooring.",
+        "cedar": "The walls here are made from the finest cedar, giving the room a luxurious\nlook and a fantastic smell.  Someone went to great expense and searching to\nfind these strips of perfectly matched wood.",
+        "chair": "Each of these chairs are made from the finest of leathers, polished to a\nhigh sheen and dyed a midnight black.  This is by far the best craftsmanship\nyou have ever seen, and as you approach you can smell the rich scent given\noff by fresh leather.",
+        "chairs": "Each of these chairs are made from the finest of leathers, polished to a\nhigh sheen and dyed a midnight black.  This is by far the best craftsmanship\nyou have ever seen, and as you approach you can smell the rich scent given\noff by fresh leather.",
+        "desk": "This desk is made from a carved oak wood, stained to a dark brown finish.\nThe crafting is done so that the legs appear to be clawed feet on the end\nof slightly bent legs.  The craftwork is excellent.",
+        "globe": "Each globe winks with an internal light, though not a flame or any sort of\nthing you can define by past experiences.  They dangle in mid air with no\nmeans of support.  Magic comes to mind, but you shrug it off.",
+        "globes": "Each globe winks with an internal light, though not a flame or any sort of\nthing you can define by past experiences.  They dangle in mid air with no\nmeans of support.  Magic comes to mind, but you shrug it off.",
+        "leather": "Each of these chairs are made from the finest of leathers, polished to a\nhigh sheen and dyed a midnight black.  This is by far the best craftsmanship\nyou have ever seen, and as you approach you can smell the rich scent given\noff by fresh leather.",
+        "lizard": "Your mind clicks!  You know what this is, though your mind takes a moment\nto digest the information.  You are staring at a bust of a dragon, closer\nto such a thing than you have ever been before.  Its eyes seem to glare\nmenacingly at you, but a shiver courses the length of your spine as a\nsigh of relief passes your lips.  It is thankfully dead, and you are safe.",
+        "oak": "This desk is made from a carved oak wood, stained to a dark brown finish.\nThe crafting is done so that the legs appear to be clawed feet on the end\nof slightly bent legs.  The craftwork is excellent.",
+        "painting": "Done on a stretched scroll in vivid, detailed colors, it looks almost as if\nyou could step into the painting (though it is a barren desert and does not\nappear to be somewhere you would want to visit).",
+        "trophy": "Your mind clicks!  You know what this is, though your mind takes a moment\nto digest the information.  You are staring at a bust of a dragon, closer\nto such a thing than you have ever been before.  Its eyes seem to glare\nmenacingly at you, but a shiver courses the length of your spine as a\nsigh of relief passes your lips.  It is thankfully dead, and you are safe.",
+        "wall": "These walls are made from a fine sample of cedar, decorative enough to\nrequire little in the way of painting and other decoration.  One painting\nadorns the wall behind the beautiful oak desk:  a painting of a barren\ndesert, hauntingly vivid, almost as if you could step directly into it.",
+        "walls": "These walls are made from a fine sample of cedar, decorative enough to\nrequire little in the way of painting and other decoration.  One painting\nadorns the wall behind the beautiful oak desk:  a painting of a barren\ndesert, hauntingly vivid, almost as if you could step directly into it."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 100,
+          "count": 1,
+          "room": 101
+        }
+      ],
+      "object_resets": []
+    },
+    "102": {
+      "vnum": 102,
+      "name": "The Path of Knowledge",
+      "description": "You travel upon an open pathway beyond the confines of the reception area\nto the south, heading toward your future.  After a time, you see a stocky\nman leaning casually against a large tree to the side of road.  Your path\nleads on to the north, or you can return to the structure to the south.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "north": 103,
+        "somewhere": 104,
+        "south": 101
+      },
+      "exdescs": {
+        "somewhere": "Somewhere is an exittype that you use for non-direction exits.\nThey are entered using a \"codeword\", usually preceeded by\nleave, climb, or enter. This somewhere is used by typing\neither LEAVE OPENING or OPENING alone.",
+        "tree": "This tree is huge! On the southern face you see a large opening, it\nappears big enough for you to enter. You wonder what is inside.\nHINT: Type OPENING or LEAVE OPENING to enter and leave the tree."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 102,
+          "count": 1,
+          "room": 102
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 199,
+          "count": 1,
+          "room": 102
+        }
+      ]
+    },
+    "103": {
+      "vnum": 103,
+      "name": "A Path Divided",
+      "description": "Do you wish to spend your time watching over your shoulder, hiding in the\nshadows, killing and being killed by other players?\n\nPkill -- that is the decision you must make here.  If you so choose to walk\nthe path of shadows, killing and stealing from other players, you should be\naware that you may never again walk the path of light.  Once deadly, always\ndeadly.  As a deadly character you will be the potential victim all other\npkillers within FIVE levels (higher or lower) of your own.  You do not have\nto decide to become pkill at this moment; you may embark upon that path at\nany time in the future by requesting Immortal assistance, or by joining a\nclan.  Both 'HELP RULES PKILL' and 'HELP RULES ASSIST' contain information\nimportant to pkill players.  The gods forbid peaceful players to give much\nin the way of assistance to pkillers.\n\n- If you have read this and would like to walk the path of the deadly, type:\n\"say I choose to walk on the shadowy path of the pkillers.\"\n\n- If you have read this and would like to remain on the peaceful path, type:\n\"say I choose to walk on the lighted path of the peaceful.\"",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 102
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 192,
+          "count": 1,
+          "room": 103
+        }
+      ]
+    },
+    "104": {
+      "vnum": 104,
+      "name": "Inside the Tree",
+      "description": "This is a small house, sparsely decorated.  It looks as if the dwarf who\nresides here prefers to spend all his time outside rather then indoors.\nThe table is covered with a few dishes and the bed is unmade, though the\nrest of the place is relatively clean.  Against the north wall you see a\nlarge chest.  Upon closer inspection you see the chest is open, and you\nwonder what it might contain.  The opening is back to the south.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "somewhere": 102
+      },
+      "exdescs": {
+        "bed": "Shorter than one that many would find comfortable, it is made with a\nwooden frame and a mattress of feathers in a cotten fabric.  The\nblankets are woolen and look warm, if not decorative.",
+        "dishes": "These dishes are made from a rough-finished pottery.  They look only\nfinished by fire, cooked to a brittle hardness.  They were definitely\nmade for use rather than appearance.",
+        "opening": "The opening leaves out the south of this room.  To use this type of exit,\ntype LEAVE OPENING or OPENING alone.  This is the way to return to the\npath to the new world.",
+        "table": "A small wooden table, only large enough to seat two.  There are a few\nplates and food pieces left here, and the only thing of note is that\nthe dinnerware is made of wood."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 194,
+          "count": 1,
+          "room": 104
+        },
+        {
+          "vnum": 104,
+          "count": 1,
+          "room": 104
+        }
+      ]
+    },
+    "105": {
+      "vnum": 105,
+      "name": "The Path of the Peaceful",
+      "description": "The path here is bright, glowing.  The trees on the sides are full and\ngreen, the grass thick and flowing, and you realize how lush this path\nis and how full of life it feels.  A large sign floats before a tree\non the eastern side of the path.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 106
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 120,
+          "count": 1,
+          "room": 105
+        }
+      ]
+    },
+    "106": {
+      "vnum": 106,
+      "name": "A Lighted Path",
+      "description": "The path continues here, the trees growing fuller and the pathway lighter.\nYou notice a parting ahead, towards the north.  Beyond this parting lies\nan open field, a joining of the two paths at which you see a small round\npiece of metal.  You can pick it up as you head north.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 109
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "107": {
+      "vnum": 107,
+      "name": "The Path of the Deadly",
+      "description": "The path here is dark, shadowy.  The trees alongside look skeletal, the\ngrass lays a dull brown, and you realize how lonely this path may prove\nto be.  A large sign floats before the trees on the eastern pathside.",
+      "sector": "forest",
+      "flags": {
+        "dark": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 108
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 121,
+          "count": 1,
+          "room": 107
+        }
+      ]
+    },
+    "108": {
+      "vnum": 108,
+      "name": "A Shadowy Path",
+      "description": "Your travels continue, the trees growing thinner and the pathway darker.\nYou notice a parting ahead, towards the north.  Beyond the parting lies\nan open field, a joining of the two paths, and at this joining you see\na small round piece of metal.  You can pick it up as you head north.",
+      "sector": "forest",
+      "flags": {
+        "dark": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 109
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "109": {
+      "vnum": 109,
+      "name": "Through the Field",
+      "description": "You find yourself in a grassy valley.  Mountains enclose you on all sides,\nand a forest lies ahead to the northwest.  Miniature daisies and clover are\nstrewn about the field like a fine dusting of snow.  As you scan about your\nsurroundings, you stop with a start.  The path you have just traversed has\ndisappeared, leaving behind no trace of its remains.  The trees are thick\nand impenetrable, removing your choices on ways to proceed.  There is no\nturning back; the only direction is forward, further into this new world.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northwest": 110
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 103,
+          "count": 1,
+          "room": 109
+        }
+      ],
+      "object_resets": []
+    },
+    "110": {
+      "vnum": 110,
+      "name": "A Ring of Trees",
+      "description": "You have entered a shadowy path, surrounded with trees.  This mystical\ncirle engulfs you with a strange, almost magical feeling.  This clearing\nleaves you with a sense of safety, a sense of well being.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "southeast": 109,
+        "west": 111
+      },
+      "exdescs": {
+        "tree": "These trees seem almost to be live, thinking beings, exuding an aura of\ndarkness and magic.  Not that they will harm you, but you sense that you\nwould not wish to attempt to chop down any found here.",
+        "trees": "These trees seem almost to be live, thinking beings, exuding an aura of\ndarkness and magic.  Not that they will harm you, but you sense that you\nwould not wish to attempt to chop down any found here."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "111": {
+      "vnum": 111,
+      "name": "Seeing the Forest through the Trees",
+      "description": "The forest opens up a bit here, without actually giving of itself to field\nor stream.  It is as if the forest were allowing you access to see the true\nbeauty that lies within.  Everything you had missed before, all the sights\nand sounds and scents, all come to you now.  Your eyes alight upon a flock\nof small purple birds which flutter and flow about the area.  A feathery,\nlight moss grows on the western side of the trees, giving off a faint,\nmusty smell, and small beetles work industriously in the moss, moulding it\ninto a haven from predators.  A gentle splashing sound causes your eyes to\ndrift northward, to a small pond.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 110,
+        "north": 112
+      },
+      "exdescs": {
+        "bird": "High above the trees are a group of birds, enjoying the gift of flight.\nThese birds look like those you have experienced before, yet their coloring\nis shockingly different, with feathers of a vivid purple, making the seem\nafire when hit directly by the sunlight.",
+        "birds": "High above the trees are a group of birds, enjoying the gift of flight.\nThese birds look like those you have experienced before, yet their coloring\nis shockingly different, with feathers of a vivid purple, making the seem\nafire when hit directly by the sunlight.",
+        "flock": "High above the trees are a group of birds, enjoying the gift of flight.\nThese birds look like those you have experienced before, yet their coloring\nis shockingly different, with feathers of a vivid purple, making the seem\nafire when hit directly by the sunlight.",
+        "moss": "This moss is the most brilliant green you can recall ever seeing.  It is\nthick and grows heavily on the west side of almost every tree trunk within\nsight.  As you peer closer you can see each is like a small city to the\nbugs of the forest which live and hide here to flee the predators."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "112": {
+      "vnum": 112,
+      "name": "Beside an Azure Pond",
+      "description": "The forest has grudgingly given way here to a small pond of azure waters,\nshallow and with a crystal clarity which captures your attention.  Lithe\nlapis-toned fish swim about, nibbling at the various plants growing among\nthe depths of the pond.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "south": 111,
+        "west": 113
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 111,
+          "count": 1,
+          "room": 112
+        }
+      ]
+    },
+    "113": {
+      "vnum": 113,
+      "name": "A Pathway of Strewn Rock",
+      "description": "The trees fall away here from the hill's edge, and jumbled rocks lie about\nlike forgotten toys left behind after a day's play.  Sharp edges and jagged\nlines define the pathway as it wends its way upward.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 112,
+        "up": 114
+      },
+      "exdescs": {
+        "rock": "The rocks here are of a slate grey or smoky black.  Neither decorative\nnor purposeful, they appear to have been ripped from far below the\nsurface of the hill.",
+        "rocks": "The rocks here are of a slate grey or smoky black.  Neither decorative\nnor purposeful, they appear to have been ripped from far below the\nsurface of the hill."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "114": {
+      "vnum": 114,
+      "name": "Upon a Desolate Hillside",
+      "description": "Shattered and blasted stone litters the hillside here.  First glance gives\nyou the impression that this is the result of volcanic activity, but this\nview is rapidly displaced as you gaze upon the ravaged bones strewn along\na section of the hill; a headless skeletal remains of a primitive beast.\nThe majesty of this huge, winged creature has not been diminished by its\nboney state.  As you study the remains, you are amazed by the sheer size\nof this beast, as he must have struck true fear into the hearts of those\nwho slew him.  Charred and shattered, hundreds of smaller bones splay\nacross the hillside, tangible proof that this great beast fought\nfiercely before succumbing to its own death.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 113,
+        "east": 115
+      },
+      "exdescs": {
+        "bone": "The bones here fit together to paint a vivid picture of a large battle -\nman against beast.  The men took losses of their own before the beast was\ndefeated.  The bones of this creature appear to stretch a good twenty men\nlong, from neck-top to the tip of its tail, and you can imagine the size\nof the missing skull.  Your mind wanders back to the reception area, to\nthe bust on the wall...",
+        "bones": "The bones here fit together to paint a vivid picture of a large battle -\nman against beast.  The men took losses of their own before the beast was\ndefeated.  The bones of this creature appear to stretch a good twenty men\nlong, from neck-top to the tip of its tail, and you can imagine the size\nof the missing skull.  Your mind wanders back to the reception area, to\nthe bust on the wall...",
+        "stone": "These stones are less sharp and jagged than those lower on the hill, but\ndefinitely more ravaged.  It appears as if they have been applied to very\nhigh temperatures that smoothed and blackened their exteriors.",
+        "stones": "These stones are less sharp and jagged than those lower on the hill, but\ndefinitely more ravaged.  It appears as if they have been applied to very\nhigh temperatures that smoothed and blackened their exteriors."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "115": {
+      "vnum": 115,
+      "name": "Cresting the Hill",
+      "description": "Burnt and dessicated ground gives way, grudgingly, to a grassy plateau.\nLow hanging clouds obscure your view of the surrounding countryside, with\nthe only visible landmark being a tall tower to the southwest, piercing\nthrough the clouds and disappearing skyward.  Pathways lead off down the\nhillside to the east and west, and deep, intermittent rumblings come from\nnearby.  Glancing southward you see the likely source - the dark opening\nof a cave mouth.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 117,
+        "south": 116,
+        "west": 114
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "116": {
+      "vnum": 116,
+      "name": "Inside the Cavern",
+      "description": "Large and darkly shadowed, the uneven form of the walls makes it difficult\nto determine the extent of this cave.  Strange shards litter the floor of\nthe cavern, and fresh marks gouged into the ground in and around these\nshards help you to determine just what they are:  remnants of a recently\nhatched egg of such enormous proportions the leathery pieces fill you with\na growing dread and caution.  Looking about with care, you easily discover\nthe skeletal remains of many humanoid creatures.  This barely has time to\nregister before a sharp rumbling causes you to look up suddenly.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 115
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 104,
+          "count": 1,
+          "room": 116
+        }
+      ],
+      "object_resets": []
+    },
+    "117": {
+      "vnum": 117,
+      "name": "Descending the Hillside",
+      "description": "Green and lush, the grass grows freely along the pathway here as this side\nof the hill was somehow spared the ravages of the battle which took place\non its southern front.  A feeling of safety comes over you as you wend\nyour way along, as though you yourself had avoided some great danger.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "north": 118,
+        "west": 115
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "118": {
+      "vnum": 118,
+      "name": "Edge of a Verdant Valley",
+      "description": "Here the hillside fades gently into a valley of verdant grass, filled with\nflowering thistle.  The soft sound of the wind through the grass, the scent\nof flowers on the air, all combine to give a feeling of accomplishment and\nexpectation... as though you are quickly approaching some indefinable goal.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 119,
+        "south": 117
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "119": {
+      "vnum": 119,
+      "name": "A Valley Pass",
+      "description": "Tall, sheer mountains hug this small valley like overprotective parents\nkeeping the ravages of the world at bay, and lending a peaceful feel to\nthis place.  The very air seems to hold itself in hushed reverence.\nGlancing to the south, you see a small wooden cabin built into the face\nof the hill.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "northeast": 121,
+        "south": 120,
+        "west": 118
+      },
+      "exdescs": {
+        "cabin": "This cabin looks like it melds with the surrounding hillside, a\npleasant mix of wood and stone making this attractive home. The\ndoor is closed, but unlocked. You can OPEN DOOR and go inside.",
+        "door": "This door is made of a solid wood. It looks more to keep the weather\nat bay than to prevent entry, the door is closed but unlocked. You\nmay OPEN DOOR to enter."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 105,
+          "count": 1,
+          "room": 119
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 198,
+          "count": 1,
+          "room": 119
+        }
+      ]
+    },
+    "120": {
+      "vnum": 120,
+      "name": "Inside a Small Cabin",
+      "description": "Various scents assail you as you enter the cabin.  The smell of cooked meats\nis overlaid with the scents of a crackling fire and the gentle tang of pine.\nSimple, well-made furniture adorns this well kept home.  As your eyes move\nabout, enjoying the rustic comfort of your surroundings, the gentle sound\nof a rocking chair intrudes upon your reverie.",
+      "sector": "city",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "nomob": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "down": 123,
+        "north": 119
+      },
+      "exdescs": {
+        "chair": "This rocking chair is made of a supple wood, bent and twisted rather than\ncarved.  It is finished with a light brown stain, highlighting the natural\ngrain in the wood.  The chair is placed on top of a hand braided rug, done\nin an intricate design.  The south corner of the rug appears to be caught\non something.",
+        "corner": "The corner of the rug is caught slightly caught what at first appears to\nbe two floorboards.  Upon closer review, you see the crack is actually the\nframe to some type of trap door in the flooring.  As you pull back the rug,\nyou notice a large keyhole.  This is very interesting indeed!",
+        "crack": "The corner of the rug is caught slightly caught what at first appears to\nbe two floorboards.  Upon closer review, you see the crack is actually the\nframe to some type of trap door in the flooring.  As you pull back the rug,\nyou notice a large keyhole.  This is very interesting indeed!",
+        "floorboard": "As you examine them, you notice a crack which has snagged part of the rug.",
+        "floorboards": "As you examine them, you notice a crack which has snagged part of the rug.",
+        "rocking": "This rocking chair is made of a supple wood, bent and twisted rather than\ncarved.  It is finished with a light brown stain, highlighting the natural\ngrain in the wood.  The chair is placed on top of a hand braided rug, done\nin an intricate design.  The south corner of the rug appears to be caught\non something.",
+        "rug": "This rug is done in a design that appears to be a six-sided star weaved in\nand out of a series of circles.  It is like a large Gods Eye light catcher,\nthe design pulls you deep into its pattern.  The decoration is so intense\nyou almost miss a crack pinning a small portion of the southern corner."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [
+        {
+          "vnum": 106,
+          "count": 1,
+          "room": 120
+        }
+      ],
+      "object_resets": []
+    },
+    "121": {
+      "vnum": 121,
+      "name": "Before the Passage",
+      "description": "The dense mountains, almost impassable to begin, here bring the pathway to\na sheer end.  Tall bluffs rising to the east abruptly halt at a large gate,\ngold in color.  The size of the gate and its obvious magical bestowments\ngive it the power to bar further passage into the world beyond until\nunlocked by those who find its key.",
+      "sector": "forest",
+      "flags": {
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "east": 122,
+        "southwest": 119
+      },
+      "exdescs": {
+        "gate": "It would clearly take a large key to unlock this gate.  Maybe the resident\nof the cabin southwest of here has it."
+      },
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 197,
+          "count": 1,
+          "room": 121
+        }
+      ]
+    },
+    "122": {
+      "vnum": 122,
+      "name": "A View of the World",
+      "description": "You find yourself standing atop a wide mesa offering a spectacular view of\nthe world below.   Expectation permeates the air, and you feel compelled\nto do something, as though some force awaits your actions.",
+      "sector": "forest",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "west": 121
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": [
+        {
+          "vnum": 115,
+          "count": 1,
+          "room": 122
+        }
+      ]
+    },
+    "123": {
+      "vnum": 123,
+      "name": "A Musty Cellar",
+      "description": "Dank musty air fills this room.  Fingers of darkness in the form of\nseveral begrimed cobwebs cling to your face.  Every movement seems\nto kick up long settled dust, making it nearly unbearable down here.\nThe creaking from above is magnified, changed, and lends a haunting\nfeel to this place.  Deep in the shadows is a small table, it holds\nonly one item:  a partially burned wooden box.  The trapdoor is up.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true,
+        "safe": true
+      },
+      "exits": {
+        "up": 120
+      },
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "199": {
+      "vnum": 199,
+      "name": "Floating in a void",
+      "description": "",
+      "sector": "city",
+      "flags": {
+        "nomob": true
+      },
+      "exits": {},
+      "exdescs": {},
+      "area_name": "Spectral Gate",
+      "area_author": "Brittany",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "100": {
+      "vnum": 100,
+      "keywords": [
+        "Samylla",
+        "receptionist",
+        "woman"
+      ],
+      "short": "Samylla",
+      "long": "The Realms of Despair hostess is here to greet you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "101": {
+      "vnum": 101,
+      "keywords": [
+        "mob",
+        "mobi",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "102": {
+      "vnum": 102,
+      "keywords": [
+        "Xouwasi",
+        "dwarven",
+        "dwarf",
+        "man",
+        "teacher"
+      ],
+      "short": "Xouwasi",
+      "long": "The statistics teacher sits here, guiding you towards your future.",
+      "race": "dwarf",
+      "class": "druid",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "103": {
+      "vnum": 103,
+      "keywords": [
+        "serpent",
+        "snake"
+      ],
+      "short": "a serpent",
+      "long": "A serpent springs from a coil deep within the grass and strikes!",
+      "race": "snake",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 25,
+      "max_mana": 25,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "104": {
+      "vnum": 104,
+      "keywords": [
+        "dragon",
+        "hatchling"
+      ],
+      "short": "the dragon hatchling",
+      "long": "A dragon hatchling peers at you, huge and darkly menacing.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "105": {
+      "vnum": 105,
+      "keywords": [
+        "mob",
+        "mobii",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "106": {
+      "vnum": 106,
+      "keywords": [
+        "Quercusi",
+        "Q",
+        "man"
+      ],
+      "short": "Quercusi",
+      "long": "A wise man is here, rocking himself on a beautiful chair.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        25,
+        13,
+        13,
+        25,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "107": {
+      "vnum": 107,
+      "keywords": [
+        "mob",
+        "mobiii",
+        "act"
+      ],
+      "short": "Act Mob",
+      "long": "An Act Mob is here, but can not be seen by Pre-Auths.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "199": {
+      "vnum": 199,
+      "keywords": [
+        "spacermob"
+      ],
+      "short": "a newly created spacermob",
+      "long": "Some god abandoned a newly created spacermob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "100": {
+      "vnum": 100,
+      "keywords": [
+        "candelabra"
+      ],
+      "type": "light",
+      "short": "a candelabra with six black candles",
+      "long": "Six black candles burn brightly in this brass candelabra",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "101": {
+      "vnum": 101,
+      "keywords": [
+        "spring"
+      ],
+      "type": "fountain",
+      "short": "a magical spring",
+      "long": "A magical spring sprinkles water from the corner of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "104": {
+      "vnum": 104,
+      "keywords": [
+        "chest"
+      ],
+      "type": "container",
+      "short": "a weapon's chest",
+      "long": "A weapons chest rests against the northern wall.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "105": {
+      "vnum": 105,
+      "keywords": [
+        "Weapon"
+      ],
+      "type": "weapon",
+      "short": "A finely honed weapon lies here, waiting to be carried into battle.",
+      "long": "You see a finely honed dagger here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "106": {
+      "vnum": 106,
+      "keywords": [
+        "ring",
+        "light",
+        "lightring"
+      ],
+      "type": "armor",
+      "short": "a ring of light",
+      "long": "A small circle of light lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "107": {
+      "vnum": 107,
+      "keywords": [
+        "ring",
+        "shadow",
+        "shadowring"
+      ],
+      "type": "armor",
+      "short": "a ring of shadows",
+      "long": "A small circle of shadows lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "108": {
+      "vnum": 108,
+      "keywords": [
+        "snakemeat",
+        "snake",
+        "meat"
+      ],
+      "type": "food",
+      "short": "a piece of meat",
+      "long": "A piece of meat from a snake",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "109": {
+      "vnum": 109,
+      "keywords": [
+        "feather",
+        "purple"
+      ],
+      "type": "wand",
+      "short": "a purple feather",
+      "long": "A bright purple feather lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "110": {
+      "vnum": 110,
+      "keywords": [
+        "bucket",
+        "water",
+        "tin"
+      ],
+      "type": "drinkcon",
+      "short": "a tin bucket",
+      "long": "A bucket full of water sits here, waiting for someone to carry it away.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "111": {
+      "vnum": 111,
+      "keywords": [
+        "pond"
+      ],
+      "type": "fountain",
+      "short": "the pond",
+      "long": "A shallow pond of crystal clear water",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "112": {
+      "vnum": 112,
+      "keywords": [
+        "shield",
+        "dragonscales",
+        "scales"
+      ],
+      "type": "armor",
+      "short": "a shield of dragonscales",
+      "long": "A shield of scales lie here, marred with deep burns.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "113": {
+      "vnum": 113,
+      "keywords": [
+        "armour",
+        "breast",
+        "plate"
+      ],
+      "type": "armor",
+      "short": "a thick plate of breast armour",
+      "long": "A breast plate lies here, unused and forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "114": {
+      "vnum": 114,
+      "keywords": [
+        "key",
+        "golden"
+      ],
+      "type": "key",
+      "short": "a huge golden key",
+      "long": "A large golden key lies here, it looks to open something important.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "115": {
+      "vnum": 115,
+      "keywords": [
+        "rope"
+      ],
+      "type": "lever",
+      "short": "a rope",
+      "long": "A rope hangs from high above, waiting to be pulled.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "116": {
+      "vnum": 116,
+      "keywords": [
+        "box"
+      ],
+      "type": "container",
+      "short": "the box",
+      "long": "A blackened wooden box sets in the shadows atop a small table.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "117": {
+      "vnum": 117,
+      "keywords": [
+        "earring",
+        "token"
+      ],
+      "type": "armor",
+      "short": "a token of a Goddesses affection",
+      "long": "An earring lies here, tarnished and forgotten.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "119": {
+      "vnum": 119,
+      "keywords": [
+        "gownq"
+      ],
+      "type": "armor",
+      "short": "a flowing white gown",
+      "long": "Some god dropped a newly created gown here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "120": {
+      "vnum": 120,
+      "keywords": [
+        "peaceful",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "the sign of the peaceful path",
+      "long": "A large sign floats before the trees alongside the pathway.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "121": {
+      "vnum": 121,
+      "keywords": [
+        "deadly",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "the sign of the deadly path",
+      "long": "A large sign floating alongside the pathway demands your attention.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "123": {
+      "vnum": 123,
+      "keywords": [
+        "sack",
+        "burlap"
+      ],
+      "type": "container",
+      "short": "a large burlap sack",
+      "long": "A sack made from a brown burlap lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "124": {
+      "vnum": 124,
+      "keywords": [
+        "stairs"
+      ],
+      "type": "trash",
+      "short": "a staircase",
+      "long": "A spiral staircase leads down from center of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "125": {
+      "vnum": 125,
+      "keywords": [
+        "menacing",
+        "granitic",
+        "blade"
+      ],
+      "type": "weapon",
+      "short": "a menacing granitic blade",
+      "long": "A blade of metallic stone protrudes from a leather-wrapped hilt.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "126": {
+      "vnum": 126,
+      "keywords": [
+        "adamantium",
+        "mace"
+      ],
+      "type": "weapon",
+      "short": "a gleaming adamantium mace",
+      "long": "A mace of brightly gleaming metal hums with inner power.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "127": {
+      "vnum": 127,
+      "keywords": [
+        "heavy",
+        "broadsword",
+        "broad",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a heavy, iron-forged broadsword",
+      "long": "Light glints from the blade of a heavy, iron-forged broadsword.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "190": {
+      "vnum": 190,
+      "keywords": [
+        "prog",
+        "cont"
+      ],
+      "type": "container",
+      "short": "a prog container",
+      "long": "A container set up with the progs to make useless for non-guilded players.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "191": {
+      "vnum": 191,
+      "keywords": [
+        "fountain"
+      ],
+      "type": "fountain",
+      "short": "a fountain",
+      "long": "A fountain of fresh water sits in the corner.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "192": {
+      "vnum": 192,
+      "keywords": [
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a plaque",
+      "long": "To the right of the path, a plaque is imbedded in a boulder.  (look plaque)",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "193": {
+      "vnum": 193,
+      "keywords": [
+        "golden",
+        "plaque"
+      ],
+      "type": "furniture",
+      "short": "a plaque",
+      "long": "Attached to the banister is an inscribed golden plaque.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "194": {
+      "vnum": 194,
+      "keywords": [
+        "thedoor"
+      ],
+      "type": "furniture",
+      "short": "the opening",
+      "long": "An opening in the tree, leading back to the path.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "196": {
+      "vnum": 196,
+      "keywords": [
+        "spiral",
+        "staircase"
+      ],
+      "type": "furniture",
+      "short": "a staircase",
+      "long": "A spiral staircase leads down from center of the room, with an inscribed\n\n\rgolden plaque attached to its banister.  [look plaque]",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "197": {
+      "vnum": 197,
+      "keywords": [
+        "thingy"
+      ],
+      "type": "furniture",
+      "short": "the gate",
+      "long": "A large, golden gate gives passage into the game.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "198": {
+      "vnum": 198,
+      "keywords": [
+        "cabin"
+      ],
+      "type": "furniture",
+      "short": "the cabin",
+      "long": "A cabin of logs has been built into the hillside south of here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "199": {
+      "vnum": 199,
+      "keywords": [
+        "tree"
+      ],
+      "type": "furniture",
+      "short": "the tree",
+      "long": "Towering beside the pathway is an enormous tree, a large opening at its base.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

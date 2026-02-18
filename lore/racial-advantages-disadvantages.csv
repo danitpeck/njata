@@ -1,0 +1,32 @@
+Ability (advantage),Human,Dwarf,Elf,Half-elf,Gnome,Catfolk,Wolffolk,Cyclops,Firebird,Benn ,Merfolk,Naga,Dryad,Naiad,Lizardfolk,Dollfolk,Fairy,Satyr,Minotaur,Centaur,Sphinx,Salamander,Gryphon,Dragon,Unicorn,Slime
+Aqua breath,,,,,,,,,,,x,,,x,,,,,,,,x,,,,
+Fire breath ,,,,,,,,,,,,,,,,,,,,,,x,,x,,
+Omnivore (any food and drink),x,x,x,x,x,,x,x,,x,x,,x,x,,x,,x,x,x,,,,,,x
+Claws (hand),,,,,,x,,,,,,,,,x,,,,,,,,x,x,,
+Fangs (mouth),,,,,,,x,,,,,x,x,,x,,,,,,,,,x,,
+Talons (feet),,,,,,,,,x,,,,,,,,,,,,x,,x,,,
+Flight,,,,,,,,,,,,,,,,,x,,,,x,,x,x,,
+Swimming,x,,,,,,,,,,x,,,x,,,,,,,,x,,,,
+Magically resistant,x,,,x,,,,,,x,,x,,,,,,,,,,,,,,x
+Magically inclined,,,,,,,,,x,,,,,,,,x,,,,,,,,x,
+"Hardy (eat and drink less often, resistant to poisons)",,x,,,,,,x,,x,,,,,,x,x,,,,,,,,,
+Enduring (endurance regen faster),,,x,x,,,x,,,,,,x,,,x,,,x,x,,,,,x,
+Healthy (hp regen faster),,,,,,,,,,x,,,x,,,,,,,,,,,,,x
+Magical (MP regen faster),,,,,,,,,x,,,,,,,,x,,,,x,,,,x,
+Charismatic,x,,x,x,,,,,,,x,x,,,,,x,,,,,,,,,
+Strong ,,,,,,,,x,,,,,,,,,,,x,,x,,,,,
+Intelligent ,,,,,,,,,x,x,,,,,,,,,,x,,,,,x,
+Dexterous ,,,,,x,,,,,,,,,x,,,x,x,,,,,,,,x
+Wise ,,,,,,x,,,,,,,x,,,,,,,,,x,x,,,
+Con Bonus ,,x,,,,,x,,,,,,,,x,x,,,,,,,,,,
+Darkvision ,,x,,,,x,,,,,,,x,,,x,,,,,,,,,,x
+Infravision ,,,,,x,,x,,,,,,,,,,,,x,,,x,,,,
+Cold resist ,,,,,,,,,,,x,,,x,,,,,,,,x,,,,
+Fire resist ,,,,,,,,,x,,,x,,,x,,,,,,,,,,,
+Mountable,,,,,,,,,,,,,,,,,,,,x,x,,x,x,x,
+Lucky?,,,,,x,x,,,,,,,,,,,,x,,,,,,,,
+Tough (High natural armor),,,,,,,,x,,,,,x,,x,x,,,,,,,,,,
+Versatile (can be any class),x,,,x,,,,,,,,,,,,,,,,,,,,,,x
+TOTAL,5,4,3,5,4,4,5,4,5,5,5,4,5,5,5,6,6,3,4,4,5,6,5,5,5,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total disadvantages,3,2,1,3,2,2,3,2,3,3,3,2,3,3,3,4,4,1,2,2,3,4,3,3,3,4

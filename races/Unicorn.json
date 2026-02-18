@@ -1,0 +1,16 @@
+{
+  "name": "Unicorn",
+  "race_id": 24,
+  "flavor_text": "A magicial being such as this may well suit you. Have you decided that you will be a Unicorn?",
+  "str_plus": 0,
+  "dex_plus": 0,
+  "con_plus": 0,
+  "int_plus": 2,
+  "wis_plus": 0,
+  "cha_plus": 0,
+  "lck_plus": 0,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 110
+}

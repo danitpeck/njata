@@ -1,0 +1,3145 @@
+{
+  "name": "Dragon Exports",
+  "author": "Sandman",
+  "reset_minutes": 15,
+  "rooms": {
+    "9810": {
+      "vnum": 9810,
+      "name": "Winter Altar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9833,
+        "southeast": 9834
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9811": {
+      "vnum": 9811,
+      "name": "The Winter Pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9895
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9812": {
+      "vnum": 9812,
+      "name": "A dark cell",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9813
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9813": {
+      "vnum": 9813,
+      "name": "North Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9814,
+        "south": 9836,
+        "west": 9812
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9814": {
+      "vnum": 9814,
+      "name": "North Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9815,
+        "west": 9813
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9815": {
+      "vnum": 9815,
+      "name": "Spring",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9816,
+        "west": 9814
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9816": {
+      "vnum": 9816,
+      "name": "Spring Altar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "southwest": 9838,
+        "west": 9815
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9817": {
+      "vnum": 9817,
+      "name": "The Spring Pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9897
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9818": {
+      "vnum": 9818,
+      "name": "A dark cell",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9819
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9819": {
+      "vnum": 9819,
+      "name": "East Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9818,
+        "south": 9820,
+        "west": 9840
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9820": {
+      "vnum": 9820,
+      "name": "East Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9819,
+        "south": 9821
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9821": {
+      "vnum": 9821,
+      "name": "Summer",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9820,
+        "south": 9822
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9822": {
+      "vnum": 9822,
+      "name": "Summer Altar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9821,
+        "northwest": 9842,
+        "west": 9823
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9823": {
+      "vnum": 9823,
+      "name": "The Summer Pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9822,
+        "north": 9897,
+        "west": 9824
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9824": {
+      "vnum": 9824,
+      "name": "A dark cell",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9823,
+        "west": 9825
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9825": {
+      "vnum": 9825,
+      "name": "South Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9824,
+        "north": 9844,
+        "west": 9826
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9826": {
+      "vnum": 9826,
+      "name": "South Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9825,
+        "west": 9827
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9827": {
+      "vnum": 9827,
+      "name": "Autumn",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9826,
+        "west": 9828
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9828": {
+      "vnum": 9828,
+      "name": "Autumn Altar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9827,
+        "northeast": 9846
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9829": {
+      "vnum": 9829,
+      "name": "The Autumn Pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9895
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9830": {
+      "vnum": 9830,
+      "name": "A dark cell",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9831,
+        "south": 9829
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9831": {
+      "vnum": 9831,
+      "name": "West Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9848,
+        "north": 9832,
+        "south": 9830
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9832": {
+      "vnum": 9832,
+      "name": "West Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9833,
+        "south": 9831
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9833": {
+      "vnum": 9833,
+      "name": "Winter",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9810,
+        "south": 9832
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9834": {
+      "vnum": 9834,
+      "name": "Winter Attendant",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northwest": 9810,
+        "southeast": 9835
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9835": {
+      "vnum": 9835,
+      "name": "Winter Liar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9811,
+        "northwest": 9834
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9836": {
+      "vnum": 9836,
+      "name": "North Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9813,
+        "south": 9837
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9837": {
+      "vnum": 9837,
+      "name": "North Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9836,
+        "south": 9891
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9838": {
+      "vnum": 9838,
+      "name": "Spring Attendant",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northeast": 9816,
+        "southwest": 9839
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9839": {
+      "vnum": 9839,
+      "name": "Spring Liar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9817,
+        "northeast": 9838
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9840": {
+      "vnum": 9840,
+      "name": "East Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9819,
+        "west": 9841
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9841": {
+      "vnum": 9841,
+      "name": "East Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9840,
+        "west": 9891
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9842": {
+      "vnum": 9842,
+      "name": "Summer Attendant",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northwest": 9843,
+        "southeast": 9822
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9843": {
+      "vnum": 9843,
+      "name": "Summer Liar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9823,
+        "southeast": 9842
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9844": {
+      "vnum": 9844,
+      "name": "South Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9845,
+        "south": 9825
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9845": {
+      "vnum": 9845,
+      "name": "South Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9891,
+        "south": 9844
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9846": {
+      "vnum": 9846,
+      "name": "Autumn Attendant",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "northeast": 9847,
+        "southwest": 9828
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9847": {
+      "vnum": 9847,
+      "name": "Autumn Liar",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9829,
+        "southwest": 9846
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9848": {
+      "vnum": 9848,
+      "name": "West Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9849,
+        "west": 9831
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9849": {
+      "vnum": 9849,
+      "name": "West Mage Route",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9891,
+        "west": 9848
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9849
+        }
+      ],
+      "object_resets": []
+    },
+    "9850": {
+      "vnum": 9850,
+      "name": "Dragon Exports front desk",
+      "description": "You have entered a very orderly office.  The room is painted in a light\ngold with a few sparse paintings on the east wall and a massive painting\non the west wall.  In the center of the room is a carved desk, impressive\nin stature and design.  A few potted plants stand sentry along the north\nwall, framing a door that blocks travel deeper into this building.  A\nsmall, golden plaque is attached to the north wall.",
+      "sector": "forest",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 9851,
+        "south": 21019
+      },
+      "exdescs": {
+        "desk": "This desk looks like it was built to last several lifetimes.  It is\nabout six feet wide and three feet tall.  The wood is a mahogany,\ncarved and stained to a gorgeous finish.  The thing looks to weigh\nat least a hundred pounds.  As you look it over, you wonder if it\nwas built in this room, because it does not appear to be able to fit\nthrough either doorway here.",
+        "e": "On the east wall there are five small paintings.  Each painting features\none dragon with a detailed background.  The pictures are arranged with\none in the center and the other four positioned around it.  The center\npicture is that of a wyrmling, named because it looks like a serpent\nwith wings.  The painting at 2'oclock is of a smallish brown dragon in\na background of budding trees and new grasses of early spring.  The\npainting at 4'oclock is that of a golden colored dragon basking in the\nbright sun of mid-summer.  The painting at 8'oclock is a large red dragon\nsurrounded by falling leaves of the autumn season.  The final picture,\nplaced at 10'oclock to the wyrmling, represents a huge dragon of the\ndeepest black perched on a snow-covered cliffside.",
+        "east": "On the east wall there are five small paintings.  Each painting features\none dragon with a detailed background.  The pictures are arranged with\none in the center and the other four positioned around it.  The center\npicture is that of a wyrmling, named because it looks like a serpent\nwith wings.  The painting at 2'oclock is of a smallish brown dragon in\na background of budding trees and new grasses of early spring.  The\npainting at 4'oclock is that of a golden colored dragon basking in the\nbright sun of mid-summer.  The painting at 8'oclock is a large red dragon\nsurrounded by falling leaves of the autumn season.  The final picture,\nplaced at 10'oclock to the wyrmling, represents a huge dragon of the\ndeepest black perched on a snow-covered cliffside.",
+        "painting": "A massive picture adorns the west wall, barely allowing the light\nblue from the walls to be seen.  The painting is done in oils,\ngiving a sheen to the subject it presents to you.  It is a massive\ndragon, larger then any you have seen in your adventures.  The\nbeast looks to stand about 40 feet from ground to nose tip and the\nbeasts body is about 300 feet long based by the the buildings in\nthe background.  At his feet are several men, all kneeling, and a\nfemale dressed in white.  You think the artist captured a virgin\nsacrifice on this canvas.  On the lower frame is a small brass\nplate reading:  'worship dragons'",
+        "paintings": "On the east wall there are five small paintings.  Each painting features\none dragon with a detailed background.  The pictures are arranged with\none in the center and the other four positioned around it.  The center\npicture is that of a wyrmling, named because it looks like a serpent\nwith wings.  The painting at 2'oclock is of a smallish brown dragon in\na background of budding trees and new grasses of early spring.  The\npainting at 4'oclock is that of a golden colored dragon basking in the\nbright sun of mid-summer.  The painting at 8'oclock is a large red dragon\nsurrounded by falling leaves of the autumn season.  The final picture,\nplaced at 10'oclock to the wyrmling, represents a huge dragon of the\ndeepest black perched on a snow-covered cliffside.",
+        "plants": "On each side of the northern door are several potted plants.  Each plant\nis a different variety of a miniature tree.  The green they add to this\nroom tames the otherwise antiseptic office.",
+        "plaque": "This dragon exports has had a major renovation recently, and there are\nplans to add another section soon.  Please let me know if you like the\nchanges or have suggestions for the upcoming addition.  Enjoy your time\nadventuring amongst those who worship dragons.\n\nBrittany Seccunda-DethBlayde, Godmother\nJuly 30, 1996",
+        "potted": "On each side of the northern door are several potted plants.  Each plant\nis a different variety of a miniature tree.  The green they add to this\nroom tames the otherwise antiseptic office.",
+        "w": "A massive picture adorns the west wall, barely allowing the light\ngold from the walls to be seen.  The painting is done in oils,\ngiving a sheen to the subject it presents to you.  It is a massive\ndragon, larger then any you have seen in your adventures.  The\nbeast looks to stand about 40 feet from ground to nose tip and the\nbeasts body is about 300 feet long based by the the buildings in\nthe background.  At his feet are several men, all kneeling, and a\nfemale dressed in white.  You think the artist captured a virgin\nsacrifice on this canvas.  On the lower frame is a small brass\nplate reading:  'worship dragons'",
+        "wall": "The walls here a well cleaned and painted a light gold.  On the 'east'\nyou see several small pictures and one massive picture on the 'west'.\nA small, golden plaque is attached to the north wall.",
+        "walls": "The walls here a well cleaned and painted a light gold.  On the 'east'\nyou see several small pictures and one massive picture on the 'west'.",
+        "west": "A massive picture adorns the west wall, barely allowing the light\ngold from the walls to be seen.  The painting is done in oils,\ngiving a sheen to the subject it presents to you.  It is a massive\ndragon, larger then any you have seen in your adventures.  The\nbeast looks to stand about 40 feet from ground to nose tip and the\nbeasts body is about 300 feet long based by the the buildings in\nthe background.  At his feet are several men, all kneeling, and a\nfemale dressed in white.  You think the artist captured a virgin\nsacrifice on this canvas.  On the lower frame is a small brass\nplate reading:  'worship dragons'"
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9800,
+          "count": 1,
+          "room": 9850
+        }
+      ],
+      "object_resets": []
+    },
+    "9851": {
+      "vnum": 9851,
+      "name": "A dimly lit corridor",
+      "description": "It takes a few moments for your eyes to adjust to the sudden darkness\nof this hallway.  The room is completely bare of color and decor.  The\nemptiness appears purposeful, a ruse to make the building appear bland\nenough to deter potential adventurers.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 9852,
+        "south": 9850
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9852": {
+      "vnum": 9852,
+      "name": "Dragon Hall Foyer",
+      "description": "This is the formal foyer for the Dragon Exports office.  The room is a\nstark contrast to the hallway leading into it.  The walls are painted\nin a flat gold color.  There are two paintings on the east wall and two\npaintings on the west wall.  To the north is an open doorway, leading\nto a brightly lit room.  South is the hallway leading back toward the\nreception area.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 9853,
+        "south": 9851
+      },
+      "exdescs": {
+        "paintings": "Four separate paintings adorn the walls here.  Two on the east wall\nand two on the west.  All four painting feature infamous dragons,\nin various forms of celebration.",
+        "wall": "The walls have intricate paintings of dragons upon them.  You see none of\nthe good dragons in the paintings though, they are all of famous evil\ndragons. Those like Tiamat and Shimmergloom.",
+        "walls": "Four separate paintings adorn the walls here.  Two on the east wall\nand two on the west.  All four painting feature infamous dragons,\nin various forms of celebration."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9853": {
+      "vnum": 9853,
+      "name": "The Front Office",
+      "description": "You have reached the front office of the Dragon Exports.  The decor here\nis somewhat gaudy compared to the parts of the building you have seen so\nfar.  The walls maintain the flat golden hue, but the knick knacks are\nmore overblown.  Bigger and brighter seems to be the theme here.  The\nvariety of colors and styles almost turns your stomach.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9854,
+        "east": 9880,
+        "south": 9852,
+        "west": 9871
+      },
+      "exdescs": {
+        "brochure": "____________________________________\n      | C U L T  O F  T H E  D R A G O N |\n      |                                  |\n      | Join today and you too can share |\n      | in the many benefits a cult      |\n      | member can have.                 |\n      | advantages like:                 |\n      |   - never having a heating bill  |\n      |   - those cool robes             |\n      |   - free virgin sacrifice        |\n      |     tickets!                     |\n      |   - a cool haircut               |\n      |                                  |\n      | For all this and more call       |\n      | 1-800-FOR-DRGN                   |\n      |                                  |\n      | Remember: vote no on 13          |\n      | Citizens of Darkhaven ban on     |\n      | Draconian activity.  If you      |\n      | feel like we do, Kill the Duke   |\n      | TODAY!                           |\n      |__________________________________|",
+        "door": "There is a door to the east, with a sign reading: Caution -- Do not enter!",
+        "east": "There is a door to the east, with a sign reading: Caution -- Do not enter!",
+        "plaque": "The Dragon Cult Temple was created by Sandman,\nlate one night, when he should have been studying\nfor finals.  12/13/93\n\nDragon Cult Temple revised \u0026 expanded\nSpring Break '94 by Sandman when he\nshould have been his paper."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9809,
+          "count": 1,
+          "room": 9853
+        }
+      ],
+      "object_resets": []
+    },
+    "9854": {
+      "vnum": 9854,
+      "name": "A five-way intersection",
+      "description": "You stand at a wide intersection of hallways.  There are exits to the\nnorth, south, east, and west.  Above you, you can see the outlines of\na trap door.  From the south you notice a bright glow, catching your\nattention.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9857,
+        "north": 9856,
+        "south": 9855,
+        "up": 9853,
+        "west": 9859
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9854
+        }
+      ],
+      "object_resets": []
+    },
+    "9855": {
+      "vnum": 9855,
+      "name": "The Candlelit Shrine",
+      "description": "The light in this place is overwhelming.  Candles completely cover\nthe walls, making this place hot as well as bright.  This place is\na place of worship, and the idol is a golden dragon statue.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "north": 9854
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9855
+        }
+      ],
+      "object_resets": [
+        {
+          "vnum": 9855,
+          "count": 1,
+          "room": 9855
+        }
+      ]
+    },
+    "9856": {
+      "vnum": 9856,
+      "name": "The Tapestry Room",
+      "description": "The walls of this room are covered with tapestries depicting various dragon\nscenes.  Befitting the theme seen throughout this building, there are five\ndistinct tapestries - two to the north, two to the south, and one large\ntapestry to the east.  As you begin to look them over in detail, you see\nthe east tapestry begin to move.  This may not be the best places to hang\naround.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9886,
+        "south": 9854
+      },
+      "exdescs": {
+        "e": "A large tapestry covers the entire eastern wall.  The tapestry portrays\na dragon wyrmling, feasting on a virgin sacrifice.  The tapestry appears\nto be shielding an opening in the wall.",
+        "east": "A large tapestry covers the entire eastern wall.  The tapestry portrays\na dragon wyrmling, feasting on a virgin sacrifice.  The tapestry appears\nto be shielding an opening in the wall.",
+        "n": "The two tapestries on the north wall feature an autumn and winter\nscene. The autumn tapestry is a portrait of a mammoth red dragon.\nHe is deep in a forest, surrounded by gorgeous leaves of vivid\ncolors of fall.  His is sitting on his hind legs, his tail wrapped\naround them.  His front legs are perched lightly on his tail, allowing\nhis to stand taller than if he were on all fours.  His chest appears\npuffed up, like he is trying to look even more large then he already\nis. He definitely makes a magestic statement, even in this medium.\nThe winter tapestry is so well done, it appears that your fingers would\nfreeze upon touching it.  It lacks much in the way of color, just the\nstark white of frozen winter and the deepest black of the immense\ndragon perching on the iced cliff.  The harsh contrast of the dragons\ncoloring to the background is shocking, stealing the more exact\ndeletes of it's being.",
+        "north": "The two tapestries on the north wall feature an autumn and winter\nscene. The autumn tapestry is a portrait of a mammoth red dragon.\nHe is deep in a forest, surrounded by gorgeous leaves of vivid\ncolors of fall.  His is sitting on his hind legs, his tail wrapped\naround them.  His front legs are perched lightly on his tail, allowing\nhis to stand taller than if he were on all fours.  His chest appears\npuffed up, like he is trying to look even more large then he already\nis. He definitely makes a magestic statement, even in this medium.\nThe winter tapestry is so well done, it appears that your fingers would\nfreeze upon touching it.  It lacks much in the way of color, just the\nstark white of frozen winter and the deepest black of the immense\ndragon perching on the iced cliff.  The harsh contrast of the dragons\ncoloring to the background is shocking, stealing the more exact\ndeletes of it's being.",
+        "tapestries": "The walls have several tapestries, to get a better look at them,\ntry 'look north', 'look west', and 'look east'.",
+        "tapestry": "The walls have several tapestries, to get a better look at them,\ntry 'look north', 'look west', and 'look east'.",
+        "w": "The two tapestries on the west wall feature an early spring and\na summer scene.  The spring tapestry is a portrait of a smallish\nbrown dragon, perched on a hillside.  The trees around him are just\nbeginning to bud with new leaves and the grass has that bright, new\ngrowth, green.  The dragon looks very prideful, sitting upright, it's\ntail twisted in several loops, crossing the front of his hind legs.\nHis eyes are an orange color and seem to follow as you move.  His\nwings are touching above his back, somewhat flexed in case he needs\nto take off for a quick flight.  Even in this relaxed, prancing state\nthis dragon is an impressive desplay of strength.\nThe summer tapestry is strikingly different.  It catches a majestic\ngolden dragon in mid flight.  It's wings spread far wider than this\ntapestry can hold.  In the background, you can see it is summertime,\nthe sun out in full heat.  It looks hot, and the dragon appears to\nenjoy it immensely.  The dragon flies, eyes closed, far above the\ngrassy hills.  His tail whipped up behind him, like a scorpion.  He\nlooks as if nothing could break his utter contentment of flight.",
+        "wall": "The walls have several tapestries, to get a better look at them,\ntry 'look north', 'look west', and 'look east'.",
+        "walls": "The walls have several tapestries, to get a better look at them,\ntry 'look north', 'look west', and 'look east'.",
+        "west": "The two tapestries on the west wall feature an early spring and\na summer scene.  The spring tapestry is a portrait of a smallish\nbrown dragon, perched on a hillside.  The trees around him are just\nbeginning to bud with new leaves and the grass has that bright, new\ngrowth, green.  The dragon looks very prideful, sitting upright, it's\ntail twisted in several loops, crossing the front of his hind legs.\nHis eyes are an orange color and seem to follow as you move.  His\nwings are touching above his back, somewhat flexed in case he needs\nto take off for a quick flight.  Even in this relaxed, prancing state\nthis dragon is an impressive desplay of strength.\nThe summer tapestry is strikingly different.  It catches a majestic\ngolden dragon in mid flight.  It's wings spread far wider than this\ntapestry can hold.  In the background, you can see it is summertime,\nthe sun out in full heat.  It looks hot, and the dragon appears to\nenjoy it immensely.  The dragon flies, eyes closed, far above the\ngrassy hills.  His tail whipped up behind him, like a scorpion.  He\nlooks as if nothing could break his utter contentment of flight."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9856
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9856
+        }
+      ],
+      "object_resets": []
+    },
+    "9857": {
+      "vnum": 9857,
+      "name": "An ordinary hallway.",
+      "description": "This is a small hallway, leading away from the more busy parts of the\ntemple area.  The walls here are deprived of color and decor.  Only\nthe doors have any color.  One door leads off the the east and the\nother to the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9858,
+        "north": 9892,
+        "west": 9854
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9858": {
+      "vnum": 9858,
+      "name": "The lavatory",
+      "description": "A horrible stench assaults your nostrils as you enter this room.  The\npresence of defecation and urine is heavy in the air.  While appearing\nto come from the much abused toilet, the scent could in fact be sourced\nto several places within this putrid room.  You allow the strange and\npowerfully mystic writings on the walls to draw your attention from the\nawful smell.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 9857
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9807,
+          "count": 1,
+          "room": 9858
+        }
+      ],
+      "object_resets": []
+    },
+    "9859": {
+      "vnum": 9859,
+      "name": "A hallway",
+      "description": "This portion of the hallway is lit by a strange glow that seems to be\nrising from the floor.  It's as if the stones had an internal light,\nmaking them radiate this faint lambency.  No matter how closely you\npeer into the flooring, you cannot locate the source of this power.",
+      "sector": "inside",
+      "flags": {
+        "indoors": true
+      },
+      "exits": {
+        "east": 9854,
+        "west": 9860
+      },
+      "exdescs": {
+        "floor": "The stones covering the floor are glowing with an undefined power.",
+        "flooring": "The stones covering the floor are glowing with an undefined power.",
+        "stones": "The stones covering the floor are glowing with an undefined power."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9860": {
+      "vnum": 9860,
+      "name": "Bend in the hallway",
+      "description": "You have come to a bend in the hallway of this strange place.  The\nroom is dark and dismal, devoid of all light and color.  The walls\nlook as if they have never experienced a cleaning, and the floors\nare scuffed from the passing of many feet over time.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9859,
+        "north": 9861
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9860
+        }
+      ],
+      "object_resets": []
+    },
+    "9861": {
+      "vnum": 9861,
+      "name": "A place of worship",
+      "description": "This darkened room is where the minor priests celebrate the passing\nof vows and rituals, prerequisites to being allowed to descend deeper\ninto the temple.  On the floor are patterns, drawings, and recordings\nof the rites performed here.  Worked into the patterning on the floor\nis an image of a door, a seeming trapdoor leading to the heart of the\ntemple.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9862,
+        "north": 9894,
+        "south": 9860
+      },
+      "exdescs": {
+        "door": "This is a heavy wooden door, leading down into the temple.",
+        "drawings": "Drawn and scratched into the floor are hundreds of patterns, drawings,\nand recordings of rituals preformed here.  The overall theme seems to\nbe that of dragons and sacrifice.  The whole place feels dark and evil.\nYou see a trapdoor in the middle of the room, but are you brave or\nfoolish enough to descend where it leads?",
+        "floor": "Drawn and scratched into the floor are hundreds of patterns, drawings,\nand recordings of rituals preformed here.  The overall theme seems to\nbe that of dragons and sacrifice.  The whole place feels dark and evil.\nYou see a trapdoor in the middle of the room, but are you brave or\nfoolish enough to descend where it leads?",
+        "patterns": "Drawn and scratched into the floor are hundreds of patterns, drawings,\nand recordings of rituals preformed here.  The overall theme seems to\nbe that of dragons and sacrifice.  The whole place feels dark and evil.\nYou see a trapdoor in the middle of the room, but are you brave or\nfoolish enough to descend where it leads?",
+        "recordings": "Drawn and scratched into the floor are hundreds of patterns, drawings,\nand recordings of rituals preformed here.  The overall theme seems to\nbe that of dragons and sacrifice.  The whole place feels dark and evil.\nYou see a trapdoor in the middle of the room, but are you brave or\nfoolish enough to descend where it leads?",
+        "trapdoor": "This is a heavy wooden door, leading down into the temple."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9861
+        },
+        {
+          "vnum": 9801,
+          "count": 7,
+          "room": 9861
+        }
+      ],
+      "object_resets": []
+    },
+    "9862": {
+      "vnum": 9862,
+      "name": "Dark Room",
+      "description": "The darkness is everpresent here.  The light you have barely breaks through\nits tight grip.  Above is a small ladder, leading up to the minor priests'\nsection of the temple.  To the south is a circular room.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9863,
+        "up": 9861
+      },
+      "exdescs": {
+        "ladder": "This small ladder looks like it will support your weight, but not\nmuch else.  It will take you to the upper levels of the temple."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9863": {
+      "vnum": 9863,
+      "name": "The Inner Circle",
+      "description": "Dark and foreboding, this place of worship has a penetrating evil about\nit. The priests barely maintain human form, as if turning into the very\ndragons they so devotedly worship.  The walls are splashed with a maroon\nred, that you can imagine used to be blood.  The room is a half circle,\nthe south wall being a perfect curve.  In the center of the room is a\nlong, rectangular table, painted blood red.  Attached to each corner is\nthick leather straps.  The leather appears to be used for restaints.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9864,
+        "north": 9862,
+        "west": 9865
+      },
+      "exdescs": {
+        "s": "The south wall is carved like a half moon, making the whole room\nappear roundish.  The walls are a dark, chiselled rock, bare\nexcept for splashings of long dried blood.",
+        "south": "The south wall is carved like a half moon, making the whole room\nappear roundish.  The walls are a dark, chiselled rock, bare\nexcept for splashings of long dried blood.",
+        "table": "This table is large enough to lay out a full grown man.  The leather straps\nat each corner look strong enough to tie down a bull.  This table looks to\nbe used for sacrifices.",
+        "wall": "The south wall is carved like a half moon, making the whole room\nappear roundish.  The walls are a dark, chiselled rock, bare\nexcept for splashings of long dried blood.",
+        "walls": "The walls are a dark, chiselled rock, bare except for splashings of\nlong dried blood.  The south wall is carved like a half moon, making\nthe whole room appear roundish."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9863,
+          "count": 2,
+          "room": 9863
+        },
+        {
+          "vnum": 9863,
+          "count": 2,
+          "room": 9863
+        }
+      ],
+      "object_resets": []
+    },
+    "9864": {
+      "vnum": 9864,
+      "name": "Priest Quarters",
+      "description": "The Priests of the Dragon Cult sleep here.  The room is very neat and tidy,\nexcept for one large tile on the floor with dirt around the edges.  The\nonly way out is west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9888,
+        "west": 9863
+      },
+      "exdescs": {
+        "tile": "This heavy tile appears to be placed directly over a hole in the ground."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9802,
+          "count": 4,
+          "room": 9864
+        }
+      ],
+      "object_resets": []
+    },
+    "9865": {
+      "vnum": 9865,
+      "name": "A foreboding corridor",
+      "description": "A cold chill soaks through your garments as you enter this room.  You\nhear echos of soft weeping resounding through this darkened corridor.\nA small cell lies to the north.  The hall continues east and west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9863,
+        "north": 9866,
+        "west": 9867
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9803,
+          "count": 1,
+          "room": 9865
+        }
+      ],
+      "object_resets": []
+    },
+    "9866": {
+      "vnum": 9866,
+      "name": "The Virgins' Cell",
+      "description": "This dark, damp place is apparently where the Virgin Sacrifices are kept.\nThis room's size alone is enough to impose the feeling of impending doom\nthat the virgins that are forced to wait here must feel.  The mortar walls\nshow scratch marks along the seems, where countless maidens have tried\nto claw their way to freedom.  One corner has straw packed in what must\nbe the excrement of the one waiting now.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9865,
+        "up": 9873
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9805,
+          "count": 1,
+          "room": 9866
+        }
+      ],
+      "object_resets": []
+    },
+    "9867": {
+      "vnum": 9867,
+      "name": "An even more forboding corridor...",
+      "description": "You're really getting somewhere now.  This you can tell by the knots\nforming in your stomach.  Exits open to the east and, if you really\nwish to continue, to the west.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9865,
+        "west": 9868
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9868": {
+      "vnum": 9868,
+      "name": "The Chamber of the High Priestess",
+      "description": "This is the bed chamber of Mistress Cosira, the High Priestess of the\nDragon cult.  Being caught in here could cause you serious trouble.  A\nhuge bed occupies the southern part of the room.  The room is lit by\ncandle light, as hundreds of candles flicker in holders along the walls.\nIt is rumored that his priestess beds the dragons, and that she is perhaps\nherself half dragon.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9867,
+        "north": 9869
+      },
+      "exdescs": {
+        "bed": "This bed is by far larger than any you have seen before.  It is very\npossibly large enough to sleep a full grown dragon.",
+        "candles": "The wall is covered in candle holders, each housing a lit candle.",
+        "walls": "The wall is covered in candle holders, each housing a lit candle."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9804,
+          "count": 1,
+          "room": 9868
+        }
+      ],
+      "object_resets": []
+    },
+    "9869": {
+      "vnum": 9869,
+      "name": "A foul smelling hallway",
+      "description": "Stench assults your senses as you enter this room.  Putrid wafts of\nstale air surround you, making you think of death and decay.  Your\neyes begin to accept the darkness of the room, yet water in response\nto the awful scent.  Along the walls are skeletal remains of humanoid\nfigures, posed in bizarre positions.  A single altar sits in the middle\nof the room, covered in a dried liquid you can only assume was once\nblood. You must get out of this gruesome place!  There are two doors\nleading from this room, once back to the south and a wide door leading\nto the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9870,
+        "south": 9868
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9870": {
+      "vnum": 9870,
+      "name": "Chamber of the Wyrmling",
+      "description": "You feel eyes on you the instant you enter this room.  As you fall silent,\nyou can hear the rumbling breathing of a large beast.  In the north corner\nis a huge creature, looking at you like you're going to be its next meal.\nIt's then that you notice the gnawed bones and large piles of dragon feces\nlittering the ground.  You give a shudder of revulsion as you absorb the\nstate of this place.  You suddenly feel you should leave, and soon.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9869
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9806,
+          "count": 1,
+          "room": 9870
+        }
+      ],
+      "object_resets": []
+    },
+    "9871": {
+      "vnum": 9871,
+      "name": "A Waiting Room",
+      "description": "This room is filled with chairs, coffee tables and parchments.  You may\nsit and rest here until your appointment.  The office has a number of\nemployees about, doing their jobs.  The front office is to the east and\nthe workshops, the Portable Dragon, and the main offices can be found\nto the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9853,
+        "north": 9872,
+        "west": 9873
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9872": {
+      "vnum": 9872,
+      "name": "Dragon Exports central hall",
+      "description": "This room is all a bustle with employees and visitors to the Dragon\nExports.  Most here are in transit from one section of the office to\nanother, as this is the middle hallway.  West is where the fruits\ntheir labor are sold, the Portable Dragon.  North is the Gemma's\noffice, she is the export coordinator, though you will usually find\nher running about elsewhere.  East is the main workshop, where the\ncreations are made to supply to the shop.  This is quite an active\nexport business, for all its outward attempts to remain unnoticed\nby the Darkhaven population.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9878,
+        "north": 9874,
+        "south": 9871,
+        "west": 9879
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9811,
+          "count": 1,
+          "room": 9872
+        }
+      ],
+      "object_resets": []
+    },
+    "9873": {
+      "vnum": 9873,
+      "name": "A strange, glowing room...",
+      "description": "The door snaps shut and you are left standing, locked in a small, tight,\nglowing room ... it does not look like there is any way out, so you may\nas well lie down on the rug that covers the floor.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9866,
+        "east": 9871
+      },
+      "exdescs": {
+        "floor": "It's pretty big rug, but it isn't nailed down or anything....\nHey, you think there could be something under it?",
+        "rug": "It's pretty big rug, but it isn't nailed down or anything....\nHey, you think there could be something under it?",
+        "under": "Yep you found it, a trapdoor...."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9874": {
+      "vnum": 9874,
+      "name": "A hallway in the office",
+      "description": "This is a basic hallway, free from any furnishing or decoration,\nsave one large painting on the east wall.  This hall sees much less\ntraffic than the one south, as only Gemma's office and an odd door\ncan be accessed from this direction.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9893,
+        "south": 9872,
+        "west": 9875
+      },
+      "exdescs": {
+        "door": "This is a door made of a thick metal, unlike anything else so far\nwitnessed in this building.  The door leaves north from here.",
+        "east": "This is a large painting of an adult Wyrmling dragon.  It is a\nimmense serpent with fleshy wings and a pointed head.  He looks\nfierce and deadly, even through this portrait.",
+        "painting": "This is a large painting of an adult Wyrmling dragon.  It is a\nimmense serpent with fleshy wings and a pointed head.  He looks\nfierce and deadly, even through this portrait.",
+        "wall": "This is a large painting of an adult Wyrmling dragon.  It is a\nimmense serpent with fleshy wings and a pointed head.  He looks\nfierce and deadly, even through this portrait."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9875": {
+      "vnum": 9875,
+      "name": "Gemma's office",
+      "description": "This office is very clean, almost too clean for the amount of work\nGemma does around here.  This office is painted an off white and\nthe doorframe and windows are trimmed in a dark brown.  Both windows\nare on the western wall, facing out to Vertic Avenue of the town of\nDarkhaven. There is a desk placed directly under one of the windows,\nallowing the person sitting there to gaze about the town as they\nwork.  The windows sure add a brightness and goodness to the room,\nwiping out the tinge of darkness and evil felt throughout the rest\nof the building.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9874
+      },
+      "exdescs": {
+        "desk": "This is an average desk, in size and structure.  The top is free\nfrom clutter.  Everything appears to be kept neatly filed in the\ndrawers.",
+        "w": "The walls here are painted an off white and the windows trimmed in\na dark brown.  Below one of the two windows is a large desk.  As\nyou gaze out the windows, you see the Vertic Avenue of Darkhaven.",
+        "wall": "The walls here are painted an off white and the windows trimmed in\na dark brown.  Below one of the two windows is a large desk.  As\nyou gaze out the windows, you see the Vertic Avenue of Darkhaven.",
+        "west": "The walls here are painted an off white and the windows trimmed in\na dark brown.  Below one of the two windows is a large desk.  As\nyou gaze out the windows, you see the Vertic Avenue of Darkhaven.",
+        "western": "The walls here are painted an off white and the windows trimmed in\na dark brown.  Below one of the two windows is a large desk.  As\nyou gaze out the windows, you see the Vertic Avenue of Darkhaven.",
+        "window": "You can look out upon the town of Darkhaven, on the Vertic Avenue.\nMany towns people and avdenturers can be seen going about their\nbusiness, not noticing you at all.",
+        "windows": "You can look out upon the town of Darkhaven, on the Vertic Avenue.\nMany towns people and avdenturers can be seen going about their\nbusiness, not noticing you at all."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9876": {
+      "vnum": 9876,
+      "name": "Fandarel's office",
+      "description": "Fandarel's office is the epitome of disarray.  There are parchments,\nashtrays, and coffee cups littering his desk.  It's amazing that any\nwork could be accomplished amongst this disaster.  Actually, by the\nlook of things, you doubt he really does any work around here.  Back\nto the south you can see the workshop, and can hear the people as they\nwork and talk.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9878
+      },
+      "exdescs": {
+        "desk": "This desk is in shambles, stained and littered.  It's amazing that any\nwork can be done amongst the garbage here."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9812,
+          "count": 1,
+          "room": 9876
+        }
+      ],
+      "object_resets": []
+    },
+    "9877": {
+      "vnum": 9877,
+      "name": "A small break room",
+      "description": "This room sees a lot less activity than would be expected from a business\nthis large.  Fandarel prefers his workers to break at their workstation\nrather than spend the extra two minutes walking between rooms.  On lunch\nbreak, the workers prefer to leave the building to get away from their\nemployer's dark mood and fits of ill temper.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9882
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9878": {
+      "vnum": 9878,
+      "name": "A large workshop",
+      "description": "This room, though oddly placed, is well equiped for crafting the\nitems sold at the shop.  The entire south wall is workbenches and\nstools, broken up into individual work sections by short wooden\ndividers.  As you peer north, you realize that the main boss has\ndesigned the workshop directly south of his office, he can watch\nthe progress without leaving his desk.  To the east is the storage\nand supply room.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9882,
+        "north": 9876,
+        "west": 9872
+      },
+      "exdescs": {
+        "workbenches": "This is one long counter, about four feet high, divided into\nseveral work stations.  It is not fancy, but looks very sturdy\nand likely to withstand several years of use."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9879": {
+      "vnum": 9879,
+      "name": "The Portable Dragon",
+      "description": "This shop appears to be the central point of this organization.  A place\nto sell the items crafted in the attached workshops.  All items are dragon\nrelated, in shape or spell, as a way to worship these enormous, fantastical\nbeasts.  There are four separate shelves attached to the back wall.  Each\nis dedicated to a certain color of dragon items, rather than particular\nstyle of dragon.  The only furnishing here is a counter and a tall stool\nfor the shopkeeper.  The counter is somewhat cluttered with parchments\nand various items.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 9872
+      },
+      "exdescs": {
+        "counter": "This counter is nothing fancy, but sturdy and well used.  The wood is\na strong oak, built to last through many years of service.  The top\nis somewhat stained with liquid rings, probably from the coffee cups\nlittering it currently.  A few pieces of parchment clutter the middle\nin a haphazard pile.",
+        "shelves": "There are four shelves here, each heavily ladden with dragon items.\nEach shelf is dedicated to one particular dragon color.  The first\nshelf has many dragon styles carved into brown staves.  The next\nshelf has several types of golden dragon statuettes, each a silent\ntribute the the beast they liken.  The third shelf is full of red\nwands, each with a grip carved into the form of a dragon.  The last\nshelf is stacked full of black potions, held in magical, dragon\nshaped flasks.  They definitely worship dragons here.  Nothing but\ntributes to these fantastical beasts are sold here.",
+        "stool": "This stool looks rickety.  You would not sit on it.  In fact, you\nare in fear of breathing, should the breeze from your exhale knock\nthe shopkeeper to the floor in a heap."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9814,
+          "count": 1,
+          "room": 9879
+        }
+      ],
+      "object_resets": []
+    },
+    "9880": {
+      "vnum": 9880,
+      "name": "A back hallway",
+      "description": "This hallway is used by the employees to bypass the busier parts\nof the building.  It is bare from any decor, except the same flat\ngold paint on the walls of the entrance hall and the front office.\nYou wonder again at the caution posted on the door that lead here,\nas nothing dangerous appears to be lurking here.  The hallway leads\nfurther north and there is a door to the west, leading back to the\nfront office.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9881,
+        "west": 9853
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9881": {
+      "vnum": 9881,
+      "name": "End of the hallway",
+      "description": "This hallway is completely bare.  You can not understand the reason for\nthe cautions on the doors leading here.  The hallway continues south and\nthere is a door leading west.  There is also a closed door to the north.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "north": 9887,
+        "south": 9880,
+        "west": 9882
+      },
+      "exdescs": {
+        "door": "There is a door to the north, with a sign reading:\nCaution -- Do not enter!"
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9882": {
+      "vnum": 9882,
+      "name": "Storage and supplies",
+      "description": "This room is stacked with several shelves ladden with raw materials\nused in the creation of Dragon Exports crafts.  Many types of woods,\nherbs, liquids, and clays line the shelves.  There are even a few\nitems you have never seen before, and are not sure you would want\nto touch.  North from here is the employee breakroom.  There is a\nclosed door to the east.  You can leave to the west back to the\nworkshop.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9881,
+        "north": 9877,
+        "west": 9878
+      },
+      "exdescs": {
+        "door": "There is a door to the east, with a sign reading: Caution -- Do not enter!",
+        "east": "There is a door to the east, with a sign reading: Caution -- Do not enter!"
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9810,
+          "count": 1,
+          "room": 9882
+        }
+      ],
+      "object_resets": []
+    },
+    "9883": {
+      "vnum": 9883,
+      "name": "The dungeon",
+      "description": "You now find yourself at the bottom of a long, dark, vertical tunnel.\nMore than fifty feet above is the Dragon Cult's export business.  As\nyou peer about the room, it becomes obvious what a farse this business\nreally is.  You begin to wonder what they are hiding to go to such\nextremes in disguising their true purpose here.  To the west is a door,\npossibly offering the chance to discover just what secrets these walls\ntruly hold.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 9884
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9815,
+          "count": 1,
+          "room": 9883
+        }
+      ],
+      "object_resets": []
+    },
+    "9884": {
+      "vnum": 9884,
+      "name": "The torture chamber",
+      "description": "All sorts of horrible devices, implements of pain, are strewn about the\nroom.  A decomposing corpse rots on a rack in the south corner.  This\nroom holds nothing but pain and torture for those unlucky enough to find\nit.  You will want to leave here, as quickly, and hopefully painlessly,\nas you possibly can.  There are two exits out of here, one to the north\nand one to the east, but they are both locked!  You must find the key.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "nosummon": true
+      },
+      "exits": {
+        "east": 9883,
+        "north": 9886
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9813,
+          "count": 1,
+          "room": 9884
+        }
+      ],
+      "object_resets": []
+    },
+    "9885": {
+      "vnum": 9885,
+      "name": "Sliding down the tunnel",
+      "description": "You're falling down...  You manage to stop your fall about midway\ndown this long drop in the tunnel.  You look up to where you were,\nand see you dropped a good twenty-five feet.  The sides are far too\nslick here to make your way back up.  Now, do you let go and fall\nthe last twenty feet to the bottom?  It appears you have no choice.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "noastral": true,
+        "norecall": true,
+        "nosummon": true
+      },
+      "exits": {
+        "down": 9883,
+        "up": 9887
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9886": {
+      "vnum": 9886,
+      "name": "A secret passageway",
+      "description": "This is a dark, damp passageway, with spiders and cob webs all around.\nExcluding all the twists and turns it takes, there appears to be one\nway out.  To the west you can see the backside of a huge tapestry,\nit hides this passageway from those who might happen into that room.\nYou also notice worn scratches in the floor, before the panelled wall\nto the south.  It looks like a great weight was dragged through the\ncrack between the wall and the floor.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 9884,
+        "west": 9856
+      },
+      "exdescs": {
+        "panel": "The panelled wall seems oddly out of place here, like it is more\nfor purpose of disguise than decor.  As you look closer, you see\na small handle, maybe it opens the wall?",
+        "panelling": "The panelled wall seems oddly out of place here, like it is more\nfor purpose of disguise than decor.  As you look closer, you see\na small handle, maybe it opens the wall?",
+        "tapestry": "The colors on this tapestry are dull and fragmentary.  The picture\non the front is indistinguishable from here.  You can move the\ntapestry and pass into the next room.",
+        "wall": "The panelled wall seems oddly out of place here, like it is more\nfor purpose of disguise than decor.  As you look closer, you see\na small handle, maybe it opens the wall?"
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9887": {
+      "vnum": 9887,
+      "name": "A Downward Tunnel",
+      "description": "This looks like a large air vent, leading from deep in the\nground to well above your head.  Looking up, you can see the\ntunnel closes to a small hole about five feet up.  Below, you\ncan see the tunnel disappear into a bottomless darkness.  To\ncontinue further downward would be to flirt with death. There\nis a definite stench flowing through this room, the miasmas\nof death and decay.  Whatever is down there may not like your\npresence, perhaps you should head back to the hallway to the\nsouth.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nofloor": true
+      },
+      "exits": {
+        "down": 9885,
+        "south": 9881
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9888": {
+      "vnum": 9888,
+      "name": "Deeper into the pit",
+      "description": "A great evil seems to radiates from the earth below.  The darkness is\nnot only visual, but has a distinct presence.  This staircase leads\naway from the Priests Quarters, to the deepest parts of the Cultists\nTemple. The stairs are sturdy, but seem to not welcome your intrusion.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9889,
+        "up": 9864
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9889": {
+      "vnum": 9889,
+      "name": "A darkened landing",
+      "description": "You have reached a landing on the staircase.  To the east is a small\ndoorway, leading away from the stairwell.  In the middle of the floor\nis a gaping whole, leading to the bottom of the pit.  You can see\nmovement below, but have trouble finding the cause.  Should you explore\nbelow, investigate to the east, or return to relative safety above?",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9891,
+        "east": 9890,
+        "up": 9888
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9890": {
+      "vnum": 9890,
+      "name": "A dark alcove",
+      "description": "This darkened alcove appears to be used as a changing room.  There\nis a spigot in the upper southeast corner, dripping a steady flow of\nwater.  This looks like a place for bathing.  On the eastern wall are\nseveral hooks, holding various articles of clothing.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "west": 9889
+      },
+      "exdescs": {
+        "spigot": "This water faucet streams a steady flow of fresh water, allowing\nthe opportunity to wash.",
+        "wall": "The wall is plain, without paint or polish.  Attached in several places\nare hooks, used for hanging clothes."
+      },
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9891": {
+      "vnum": 9891,
+      "name": "The bottom of the pit",
+      "description": "You are surrounded by corpses in various stages of decay.  A coldness\nsinks into your spine as you realize the full magnitude of what you've\nstumbled upon.  This is the home of Adrathom, a powerful lich, and he\ndoes not look pleased at your intrusion.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "up": 9889
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9816,
+          "count": 1,
+          "room": 9891
+        }
+      ],
+      "object_resets": []
+    },
+    "9892": {
+      "vnum": 9892,
+      "name": "Cultic Candies",
+      "description": "This backroom is where the cultists keep and sell their candies.  Each\ncandy is a secret brew of magical ingredients.  You should be cautious\nof eating anything you buy here, as the place does not look clean.  The\nwalls are covered in a thick layer of dust, and so is the shopkeeper!",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 9857
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [
+        {
+          "vnum": 9817,
+          "count": 1,
+          "room": 9892
+        }
+      ],
+      "object_resets": []
+    },
+    "9893": {
+      "vnum": 9893,
+      "name": "Top of the staircase",
+      "description": "This is a staircase that leads downward, into a darkness that is\nnot only seen, but felt.  The walls change from the painted walls\nof the office area to a dark stone surface.  Whatever is below,\nthey do not want to make you feel too welcome.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "down": 9894,
+        "south": 9874
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9894": {
+      "vnum": 9894,
+      "name": "Bottom of the staircase",
+      "description": "As you stand at the bottom of this staircase, you wonder why anyone\nwould want to be down here.  The darkness is so dense as to have an\nalmost physical presence.  The result is oppressive.  The cold, harsh\nstone walls seem to close in on you as you listen to the mezmerizing\nchants coming from the south.",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true,
+        "nomob": true
+      },
+      "exits": {
+        "south": 9861,
+        "up": 9893
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9895": {
+      "vnum": 9895,
+      "name": "The deepest pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9896,
+        "north": 9811,
+        "south": 9829
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9896": {
+      "vnum": 9896,
+      "name": "The fire pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "east": 9897,
+        "north": 9898,
+        "west": 9895
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9897": {
+      "vnum": 9897,
+      "name": "The deepest pit",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "north": 9817,
+        "south": 9823,
+        "west": 9896
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9898": {
+      "vnum": 9898,
+      "name": "The Passage to the pits",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "south": 9896,
+        "up": 9899
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    },
+    "9899": {
+      "vnum": 9899,
+      "name": "The servants passage",
+      "description": "",
+      "sector": "inside",
+      "flags": {
+        "dark": true,
+        "indoors": true
+      },
+      "exits": {
+        "down": 9898,
+        "south": 9890
+      },
+      "exdescs": {},
+      "area_name": "Dragon Exports",
+      "area_author": "Sandman",
+      "mobile_resets": [],
+      "object_resets": []
+    }
+  },
+  "mobiles": {
+    "9800": {
+      "vnum": 9800,
+      "keywords": [
+        "Kylara",
+        "cult",
+        "receptionist"
+      ],
+      "short": "Kylara",
+      "long": "The Dragon Exports receptionist greets you with a smile.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9999,
+      "max_mana": 9999,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9801": {
+      "vnum": 9801,
+      "keywords": [
+        "minor",
+        "priest"
+      ],
+      "short": "the minor priest",
+      "long": "A minor priest of the Dragon Cult scuffles along.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 250,
+      "max_mana": 250,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9802": {
+      "vnum": 9802,
+      "keywords": [
+        "robed",
+        "priest"
+      ],
+      "short": "the robed priest",
+      "long": "A robed priest of the Dragon Cult seems startled by your presence.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9803": {
+      "vnum": 9803,
+      "keywords": [
+        "S'goral",
+        "draconian",
+        "knight"
+      ],
+      "short": "S'goral",
+      "long": "A Draconian Knight stands here formidably.",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9804": {
+      "vnum": 9804,
+      "keywords": [
+        "Cosira",
+        "high",
+        "priestess",
+        "mistress"
+      ],
+      "short": "Mistress Cosira",
+      "long": "The High Priestess of the Dragon Cult is infuriated by your intrusion!",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 400,
+      "max_mana": 400,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9805": {
+      "vnum": 9805,
+      "keywords": [
+        "Prilla",
+        "virgin",
+        "sacrifice"
+      ],
+      "short": "Prilla",
+      "long": "A virgin is here, weeping over her pending death.",
+      "race": "monster",
+      "class": "druid",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 50,
+      "max_mana": 50,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9806": {
+      "vnum": 9806,
+      "keywords": [
+        "dragon",
+        "wyrmling"
+      ],
+      "short": "the Black Dragon Wyrmling",
+      "long": "A Black Dragon Wyrmling is here, moving to feed on you...",
+      "race": "dragon",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 600,
+      "max_mana": 600,
+      "attributes": [
+        18,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9807": {
+      "vnum": 9807,
+      "keywords": [
+        "minor",
+        "priest"
+      ],
+      "short": "the minor priest",
+      "long": "A minor priest of the Dragon Cult is here, tending to the call of nature.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 9,
+      "max_mana": 9,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9808": {
+      "vnum": 9808,
+      "keywords": [
+        "fanatic",
+        "monk"
+      ],
+      "short": "a fanatic monk",
+      "long": "A fanatic monk raves about the day of the great black death!",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9809": {
+      "vnum": 9809,
+      "keywords": [
+        "Belesdan",
+        "director"
+      ],
+      "short": "Belesdan",
+      "long": "Belesdan, the head merchandiser, greets you with a smarmy smile.",
+      "race": "half-elf",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 60,
+      "max_mana": 60,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9810": {
+      "vnum": 9810,
+      "keywords": [
+        "Moretta"
+      ],
+      "short": "Moretta",
+      "long": "Moretta wanders about here, keeping everything neat and tidy.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 120,
+      "max_mana": 120,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9811": {
+      "vnum": 9811,
+      "keywords": [
+        "Gemma",
+        "coordinator"
+      ],
+      "short": "Gemma",
+      "long": "Gemma, the office coordinator, bustles around the office.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "female",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 190,
+      "max_mana": 190,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9812": {
+      "vnum": 9812,
+      "keywords": [
+        "Fandarel",
+        "boss"
+      ],
+      "short": "Fandarel",
+      "long": "Fandarel sits here, smoking a pipe and looking important.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9813": {
+      "vnum": 9813,
+      "keywords": [
+        "Wilam",
+        "torturer"
+      ],
+      "short": "Wilam",
+      "long": "Wilam, the Cult Torturer, is ready to inflict great pain upon you.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 20,
+      "hp": 20,
+      "mana": 500,
+      "max_mana": 500,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9814": {
+      "vnum": 9814,
+      "keywords": [
+        "Jerint",
+        "sales",
+        "director"
+      ],
+      "short": "Jerint",
+      "long": "The Portable Dragon's vendor eyes you from bottom to top as you enter.",
+      "race": "human",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 5,
+      "hp": 5,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9815": {
+      "vnum": 9815,
+      "keywords": [
+        "zombie",
+        "zmee"
+      ],
+      "short": "the zombie",
+      "long": "The decayed remains of a hapless Dragonslayer.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 150,
+      "max_mana": 150,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9816": {
+      "vnum": 9816,
+      "keywords": [
+        "Adrathom",
+        "lich",
+        "priest"
+      ],
+      "short": "Adrathom",
+      "long": "The Lich Priest glares at you through dead eyes.",
+      "race": "undead",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 10,
+      "hp": 10,
+      "mana": 750,
+      "max_mana": 750,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9817": {
+      "vnum": 9817,
+      "keywords": [
+        "G'narish",
+        "old",
+        "monk"
+      ],
+      "short": "G'narish",
+      "long": "An old, dangerous looking monk is here attempting to sell you candy.",
+      "race": "ghoul",
+      "class": "cleric",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 10000,
+      "max_mana": 10000,
+      "attributes": [
+        13,
+        13,
+        13,
+        16,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9863": {
+      "vnum": 9863,
+      "keywords": [
+        "priest"
+      ],
+      "short": "the robed priest",
+      "long": "A trusted priest of the Dragon Cult wanders here, deep in worship.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "male",
+      "level": 0,
+      "max_hp": 1,
+      "hp": 1,
+      "mana": 300,
+      "max_mana": 300,
+      "attributes": [
+        15,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    },
+    "9899": {
+      "vnum": 9899,
+      "keywords": [
+        "spacer",
+        "mob"
+      ],
+      "short": "a newly created spacer mob",
+      "long": "Some god abandoned a newly created spacer mob here.",
+      "race": "human",
+      "class": "warrior",
+      "position": "standing",
+      "gender": "neuter",
+      "level": 0,
+      "max_hp": 0,
+      "hp": 0,
+      "mana": 0,
+      "max_mana": 0,
+      "attributes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "room_vnum": 0
+    }
+  },
+  "objects": {
+    "9810": {
+      "vnum": 9810,
+      "keywords": [
+        "altar"
+      ],
+      "type": "trash",
+      "short": "a newly created altar",
+      "long": "Some god dropped a newly created altar here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9825": {
+      "vnum": 9825,
+      "keywords": [
+        "black",
+        "key"
+      ],
+      "type": "key",
+      "short": "a black key",
+      "long": "You see a very important key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9826": {
+      "vnum": 9826,
+      "keywords": [
+        "primitive",
+        "key"
+      ],
+      "type": "key",
+      "short": "a primitive key",
+      "long": "You see a primitive key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9827": {
+      "vnum": 9827,
+      "keywords": [
+        "skull",
+        "key"
+      ],
+      "type": "key",
+      "short": "a skull key",
+      "long": "You see a skull key here!",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9828": {
+      "vnum": 9828,
+      "keywords": [
+        "bone",
+        "sword"
+      ],
+      "type": "weapon",
+      "short": "a bone sword",
+      "long": "A sharp piece of bone lays here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9829": {
+      "vnum": 9829,
+      "keywords": [
+        "skull",
+        "helm",
+        "dragon"
+      ],
+      "type": "armor",
+      "short": "a helm made from a dragon's skull",
+      "long": "The skull of a dragon lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9830": {
+      "vnum": 9830,
+      "keywords": [
+        "dark",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "some dark robes",
+      "long": "Some dark robes lay here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9831": {
+      "vnum": 9831,
+      "keywords": [
+        "black",
+        "pen"
+      ],
+      "type": "weapon",
+      "short": "a black pen",
+      "long": "A black pen catches your eye.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9832": {
+      "vnum": 9832,
+      "keywords": [
+        "evil",
+        "black",
+        "dagger"
+      ],
+      "type": "weapon",
+      "short": "an evil looking black dagger",
+      "long": "A black dagger is here radiating evil.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9833": {
+      "vnum": 9833,
+      "keywords": [
+        "black",
+        "staff"
+      ],
+      "type": "weapon",
+      "short": "a black staff",
+      "long": "A long, blackened stick is here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9834": {
+      "vnum": 9834,
+      "keywords": [
+        "heap",
+        "scales",
+        "black",
+        "dragonscale",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "dragonscale robes",
+      "long": "You see a shimering black heap of scales.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9835": {
+      "vnum": 9835,
+      "keywords": [
+        "ornate",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "ornate robes",
+      "long": "You see a pile of finely woven cloth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9836": {
+      "vnum": 9836,
+      "keywords": [
+        "white",
+        "dress",
+        "torn"
+      ],
+      "type": "armor",
+      "short": "a torn white dress",
+      "long": "A once pretty dress is lying here with holes torn in it.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9837": {
+      "vnum": 9837,
+      "keywords": [
+        "rusty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a rusty key",
+      "long": "A hunk of metal is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9838": {
+      "vnum": 9838,
+      "keywords": [
+        "cheap",
+        "plaid",
+        "pants",
+        "pair"
+      ],
+      "type": "armor",
+      "short": "a pair of cheap plaid pants",
+      "long": "Some really ugly pants are on the ground here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9839": {
+      "vnum": 9839,
+      "keywords": [
+        "donut"
+      ],
+      "type": "food",
+      "short": "a donut",
+      "long": "There is a jelly filled donut here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9840": {
+      "vnum": 9840,
+      "keywords": [
+        "coffee"
+      ],
+      "type": "drinkcon",
+      "short": "a cup of coffee",
+      "long": "There is a piping hot cup of coffee here",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9841": {
+      "vnum": 9841,
+      "keywords": [
+        "dragon",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "dragon candy",
+      "long": "A piece of Dragon candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9842": {
+      "vnum": 9842,
+      "keywords": [
+        "zombie",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "zombie candy",
+      "long": "A piece of Zombie candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9843": {
+      "vnum": 9843,
+      "keywords": [
+        "lich",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "lich candy",
+      "long": "A piece of Lich candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9844": {
+      "vnum": 9844,
+      "keywords": [
+        "vampire",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "vampire candy",
+      "long": "A piece of Vampire candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9845": {
+      "vnum": 9845,
+      "keywords": [
+        "beholder",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "beholder candy",
+      "long": "A piece of Beholder candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9846": {
+      "vnum": 9846,
+      "keywords": [
+        "ogre",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "ogre candy",
+      "long": "A piece of Ogre candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9847": {
+      "vnum": 9847,
+      "keywords": [
+        "troll",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "troll candy",
+      "long": "A piece of Troll candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9848": {
+      "vnum": 9848,
+      "keywords": [
+        "death",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "death candy",
+      "long": "A piece of Death candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9849": {
+      "vnum": 9849,
+      "keywords": [
+        "emerald",
+        "stone"
+      ],
+      "type": "treasure",
+      "short": "an emerald stone",
+      "long": "A dark green stone lies here forgotten",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9850": {
+      "vnum": 9850,
+      "keywords": [
+        "brochure"
+      ],
+      "type": "trash",
+      "short": "a brochure",
+      "long": "A sharp looking flyer flutters here in the breeze.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9851": {
+      "vnum": 9851,
+      "keywords": [
+        "glowing",
+        "caution",
+        "sign"
+      ],
+      "type": "furniture",
+      "short": "a brightly glowing sign of caution",
+      "long": "A new, brightly glowing caution sign beckons to you.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9852": {
+      "vnum": 9852,
+      "keywords": [
+        "ornate",
+        "robes"
+      ],
+      "type": "armor",
+      "short": "ornate robes",
+      "long": "You see a pile of finely woven cloth.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9855": {
+      "vnum": 9855,
+      "keywords": [
+        "statue"
+      ],
+      "type": "trash",
+      "short": "a statues of a dragon",
+      "long": "A pure gold dragon statue stands in the center of the room.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9860": {
+      "vnum": 9860,
+      "keywords": [
+        "brown",
+        "dragon",
+        "staff"
+      ],
+      "type": "staff",
+      "short": "a brown dragon staff",
+      "long": "Here lies a staff carved in a dark brown wood in the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9861": {
+      "vnum": 9861,
+      "keywords": [
+        "golden",
+        "dragon",
+        "statuette"
+      ],
+      "type": "armor",
+      "short": "a golden dragon statuette",
+      "long": "A golden statuette, carved into the shape of a dragon, lies here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9862": {
+      "vnum": 9862,
+      "keywords": [
+        "red",
+        "dragon",
+        "wand"
+      ],
+      "type": "wand",
+      "short": "a red dragon wand",
+      "long": "A red wand with the grip carved into the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9863": {
+      "vnum": 9863,
+      "keywords": [
+        "black",
+        "dragon",
+        "potion"
+      ],
+      "type": "potion",
+      "short": "a black dragon potion",
+      "long": "A black liquid, inside a dragon shaped flask, lies here bubbling.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9864": {
+      "vnum": 9864,
+      "keywords": [
+        "leaky",
+        "quill"
+      ],
+      "type": "weapon",
+      "short": "a leaky quill",
+      "long": "A battered quill lies here, leaking ink everywhere.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9865": {
+      "vnum": 9865,
+      "keywords": [
+        "meerschaum",
+        "dragon",
+        "pipe"
+      ],
+      "type": "pipe",
+      "short": "a meerschaum dragon pipe",
+      "long": "Here lies a pipe bowl, carved from white meerschaum, in the shape of a dragon.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9866": {
+      "vnum": 9866,
+      "keywords": [
+        "dragon",
+        "nip",
+        "herb"
+      ],
+      "type": "herb",
+      "short": "a pinch of dragon nip herb",
+      "long": "A brown herb lies here in a small pile.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9892": {
+      "vnum": 9892,
+      "keywords": [
+        "Dragon",
+        "candy"
+      ],
+      "type": "pill",
+      "short": "dragon candy",
+      "long": "A piece of Dragon candy.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9893": {
+      "vnum": 9893,
+      "keywords": [
+        "rusty",
+        "key"
+      ],
+      "type": "key",
+      "short": "a rusty key",
+      "long": "A hunk of metal is on the ground.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    },
+    "9899": {
+      "vnum": 9899,
+      "keywords": [
+        "spacerobj"
+      ],
+      "type": "trash",
+      "short": "a newly created spacerobj",
+      "long": "Some god dropped a newly created spacerobj here.",
+      "weight": 0,
+      "value": 0,
+      "flags": {},
+      "room_vnum": 0
+    }
+  }
+}

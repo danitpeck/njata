@@ -1,0 +1,64 @@
+{
+  "name": "vex",
+  "location": 2207,
+  "race": 6,
+  "sex": 2,
+  "hp": 79,
+  "max_hp": 85,
+  "mana": 120,
+  "max_mana": 120,
+  "gold": 5000,
+  "strength": 14,
+  "dexterity": 13,
+  "constitution": 15,
+  "intelligence": 18,
+  "wisdom": 16,
+  "charisma": 12,
+  "luck": 14,
+  "armor": 5,
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 59,
+      "learned": true,
+      "lifetime_casts": 9,
+      "last_cast_time": 1771369361062633500
+    },
+    "1002": {
+      "spell_id": 1002,
+      "proficiency": 34,
+      "learned": true,
+      "lifetime_casts": 4,
+      "last_cast_time": 1771369368165214200
+    },
+    "1003": {
+      "spell_id": 1003,
+      "proficiency": 30,
+      "learned": true,
+      "lifetime_casts": 0,
+      "last_cast_time": 0
+    },
+    "1004": {
+      "spell_id": 1004,
+      "proficiency": 31,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771377493008277800
+    },
+    "1007": {
+      "spell_id": 1007,
+      "proficiency": 31,
+      "learned": true,
+      "lifetime_casts": 1,
+      "last_cast_time": 1771377431136566300
+    },
+    "9002": {
+      "spell_id": 9002,
+      "proficiency": 35,
+      "learned": true,
+      "lifetime_casts": 25,
+      "last_cast_time": 1771378807815565200
+    }
+  },
+  "is_keeper": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Satyr",
+  "race_id": 17,
+  "flavor_text": "Satyrs, known for getting into mischief, are doubtless the keepers of the greatest foods and drinks known in the world. Does such knowledge whet your appetite?",
+  "str_plus": 0,
+  "dex_plus": 2,
+  "con_plus": 0,
+  "int_plus": 0,
+  "wis_plus": 0,
+  "cha_plus": 0,
+  "lck_plus": 2,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 100
+}

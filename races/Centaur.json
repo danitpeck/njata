@@ -1,0 +1,16 @@
+{
+  "name": "Centaur",
+  "race_id": 19,
+  "flavor_text": "Clever and quick, these large creatures are well-respected by other races for their interest in academia. Do the interests of Centaurs mesh well with yours?",
+  "str_plus": 0,
+  "dex_plus": 0,
+  "con_plus": 0,
+  "int_plus": 2,
+  "wis_plus": 0,
+  "cha_plus": 0,
+  "lck_plus": 0,
+  "hp_bonus": 0,
+  "mana_bonus": 0,
+  "hp_regen": 100,
+  "mana_regen": 100
+}
