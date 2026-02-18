@@ -288,7 +288,11 @@ func cmdWear(ctx Context, args string) {
 				if label == "" {
 					label = "something"
 				}
-				ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+				if slot == game.EquipWield {
+					ctx.Output.WriteLine(fmt.Sprintf("You equip %s.", label))
+				} else {
+					ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+				}
 				worn++
 			}
 		}
@@ -343,7 +347,11 @@ func cmdWear(ctx Context, args string) {
 	if label == "" {
 		label = "something"
 	}
-	ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+	if slot == game.EquipWield {
+		ctx.Output.WriteLine(fmt.Sprintf("You equip %s.", label))
+	} else {
+		ctx.Output.WriteLine(fmt.Sprintf("You wear %s on your %s.", label, slot))
+	}
 }
 
 func cmdRemove(ctx Context, args string) {
@@ -460,7 +468,7 @@ func resolveEquipSlot(obj *game.Object, slotOverride string) (string, bool) {
 	}
 
 	objType := strings.ToLower(strings.TrimSpace(obj.Type))
-	if objType != "armor" && objType != "_worn" {
+	if objType != "armor" && objType != "_worn" && objType != "weapon" {
 		return "", false
 	}
 
@@ -491,6 +499,11 @@ func resolveEquipSlot(obj *game.Object, slotOverride string) (string, bool) {
 func inferEquipSlot(obj *game.Object) string {
 	if obj == nil {
 		return game.EquipBody
+	}
+
+	// Check for weapons
+	if strings.ToLower(strings.TrimSpace(obj.Type)) == "weapon" {
+		return game.EquipWield
 	}
 
 	if objectHasAnyKeyword(obj, []string{"helm", "helmet", "hat", "cap", "hood", "mask", "crown", "circlet", "tiara", "coif", "bonnet", "earmuff", "earmuffs", "glasses", "goggles"}) {
@@ -1006,8 +1019,8 @@ func cmdSlash(ctx Context, args string) {
 		p.Skills = make(map[int]*skills.PlayerSkillProgress)
 	}
 
-	// Get the Slash maneuver (skill ID 9002)
-	const SlashSkillID = 9002
+	// Get the Slash maneuver (skill ID 2001)
+	const SlashSkillID = 2001
 	spell := skills.GetSpell(SlashSkillID)
 	if spell == nil {
 		ctx.Output.WriteLine("Slash maneuver not found in skill system.")
@@ -1097,16 +1110,35 @@ func cmdStudy(ctx Context, args string) {
 		p.Skills = make(map[int]*skills.PlayerSkillProgress)
 	}
 
-	// Look for the item in the current room
-	obj, found := ctx.World.FindObjectInRoom(p, args)
+	// Look for the item in inventory first, then in the room
+	var obj *game.Object
+	var found bool
+
+	obj, found = ctx.World.FindObjectInInventory(p, args)
 	if !found {
-		ctx.Output.WriteLine("You don't see that here.")
-		return
+		obj, found = ctx.World.FindObjectInRoom(p, args)
+		if !found {
+			ctx.Output.WriteLine("You don't see that here.")
+			return
+		}
 	}
 
-	// Extract spell ID from value[3]
-	spellID := obj.Value[3]
-	if spellID == 0 {
+	// Determine spell ID and proficiency amount
+	var spellID int
+	var teachAmount int
+
+	if obj.TeachesSpellID != 0 {
+		// Use new teaching fields
+		spellID = obj.TeachesSpellID
+		teachAmount = obj.TeachesAmount
+		if teachAmount == 0 {
+			teachAmount = 30 // default
+		}
+	} else if obj.Value[3] != 0 {
+		// Fall back to legacy Value[3]
+		spellID = obj.Value[3]
+		teachAmount = 30
+	} else {
 		ctx.Output.WriteLine("That item doesn't teach any spells.")
 		return
 	}
@@ -1127,14 +1159,14 @@ func cmdStudy(ctx Context, args string) {
 	// Learn or improve the spell
 	var proficiency int
 	if _, hasSkill := p.Skills[spellID]; hasSkill {
-		// Already has some proficiency, increase slightly
-		proficiency = p.Skills[spellID].Proficiency + 10
+		// Already has some proficiency, use teaching amount (usually less aggressive than +10)
+		proficiency = p.Skills[spellID].Proficiency + teachAmount
 		if proficiency > 100 {
 			proficiency = 100
 		}
 	} else {
-		// New spell, start at 30%
-		proficiency = 30
+		// New spell, start at the teaching amount
+		proficiency = teachAmount
 	}
 
 	p.Skills[spellID] = &skills.PlayerSkillProgress{
@@ -1149,9 +1181,22 @@ func cmdStudy(ctx Context, args string) {
 	ctx.Output.WriteLine(fmt.Sprintf("Proficiency: %d%% | Mana Cost: %d | Cooldown: %ds",
 		proficiency, spell.ManaCost, spell.CooldownSeconds))
 
-	// Remove the item from the room (it's consumed)
-	ctx.World.RemoveObjectFromRoom(p, obj)
-	ctx.Output.WriteLine(fmt.Sprintf("&GThe %s crumbles away as its magic is absorbed.&w", obj.Short))
+	// If item is consumable, destroy it
+	if obj.Consumable {
+		// Remove from inventory
+		newInventory := make([]*game.Object, 0)
+		for _, invObj := range p.Inventory {
+			if invObj != obj {
+				newInventory = append(newInventory, invObj)
+			}
+		}
+		p.Inventory = newInventory
+		// Strip article (a/an/the) from short description for better grammar
+		itemDesc := strings.TrimPrefix(obj.Short, "a ")
+		itemDesc = strings.TrimPrefix(itemDesc, "an ")
+		itemDesc = strings.TrimPrefix(itemDesc, "the ")
+		ctx.Output.WriteLine(fmt.Sprintf("&YThe %s crumbles to dust after you finish studying it.&w", itemDesc))
+	}
 }
 
 func cmdSave(ctx Context, args string) {

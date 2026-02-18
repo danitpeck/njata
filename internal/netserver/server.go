@@ -150,21 +150,6 @@ func (s *Server) handleConn(conn net.Conn) {
 			if err := creation.Run(); err != nil {
 				return
 			}
-
-			// Auto-teach new players Arcane Bolt (spell ID 1001) if they don't already know it
-			if _, hasArcaneBolt := player.Skills[1001]; !hasArcaneBolt {
-				arcaneBoltSpell := skills.GetSpell(1001)
-				if arcaneBoltSpell != nil {
-					player.Skills[1001] = &skills.PlayerSkillProgress{
-						SpellID:       1001,
-						Proficiency:   50,
-						Learned:       true,
-						LifetimeCasts: 0,
-						LastCastTime:  0,
-					}
-					session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", arcaneBoltSpell.Name))
-				}
-			}
 		}
 
 		if player.Location != 0 && !s.world.HasRoom(player.Location) {

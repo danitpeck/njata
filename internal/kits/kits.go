@@ -12,7 +12,6 @@ type StarterKit struct {
 	// Starting stats
 	HP   int `json:"hp"`
 	Mana int `json:"mana"`
-	Move int `json:"move"`
 
 	// Starting skills (skill_id -> initial proficiency %)
 	StartingSkills map[int]int `json:"starting_skills"`
@@ -24,17 +23,13 @@ type StarterKit struct {
 // Predefined starter kits
 var (
 	ScholarKit = &StarterKit{
-		ID:          1,
-		Name:        "Scholar's Kit",
-		Description: "Simple robes, basic spellbook, and studying supplies. Begin your journey with the foundation of magical study.",
-		FlavorText:  "Scholars are seekers of knowledge who unlock magical power by studying\nenchanted items found throughout the world. Your growth is driven by\ncuriosity and exploration.",
-		HP:          100,
-		Mana:        150,
-		Move:        100,
-		StartingSkills: map[int]int{
-			1001: 30, // Arcane Bolt at 30%
-			9001: 10, // Study skill at 10%
-		},
+		ID:                1,
+		Name:              "Scholar's Kit",
+		Description:       "A leather-bound libram of magical knowledge, scholar's robes, and study supplies. Begin unlocking magical secrets through research.",
+		FlavorText:        "Scholars are seekers of knowledge who unlock magical power by studying\nenchanted items found throughout the world. Your growth is driven by\ncuriosity and exploration.",
+		HP:                100,
+		Mana:              150,
+		StartingSkills:    map[int]int{},
 		StartingEquipment: []string{"robes", "spellbook"},
 	}
 
@@ -45,9 +40,8 @@ var (
 		FlavorText:  "Warriors are masters of combat who learn devastating maneuvers and\ntechniques. You grow stronger through battle, honing your skills\nagainst increasingly formidable foes.",
 		HP:          150,
 		Mana:        50,
-		Move:        120,
 		StartingSkills: map[int]int{
-			9002: 10, // Slash maneuver at 10%
+			2001: 10, // Slash maneuver at 10%
 		},
 		StartingEquipment: []string{"leather armor", "sword"},
 	}
@@ -55,15 +49,12 @@ var (
 	WandererKit = &StarterKit{
 		ID:          3,
 		Name:        "Wanderer's Kit",
-		Description: "Light armor, a simple weapon, and a basic spell scroll. Walk your own path between combat and magic.",
+		Description: "Light armor, a simple weapon, and a tattered spell scroll. Walk your own path between combat and magic through self-teaching.",
 		FlavorText:  "Wanderers embrace both blade and spell, forging their own unique path.\nYou begin with knowledge of both disciplines, allowing you to adapt\nto any challenge.",
 		HP:          125,
 		Mana:        100,
-		Move:        110,
 		StartingSkills: map[int]int{
-			1001: 20, // Arcane Bolt at 20%
-			9001: 5,  // Study skill at 5%
-			9002: 5,  // Slash maneuver at 5%
+			2001: 5, // Slash maneuver at 5%
 		},
 		StartingEquipment: []string{"leather armor", "sword", "spell scroll"},
 	}

@@ -285,11 +285,10 @@ func (cc *CharacterCreation) applyKitModifiers() {
 			if spell != nil {
 				cc.session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", spell.Name))
 			}
-		} else if skillID == 9002 {
+		} else if skillID == 2001 {
 			// Slash maneuver
 			cc.session.WriteLine("You have learned &YSlash&w, a devastating melee maneuver!")
 		}
-		// Note: Study (9001) is a skill, not a learnable spell or maneuver, so no message
 	}
 
 	// Create and equip starting equipment
@@ -319,12 +318,15 @@ func createStarterGear(equipType string) *game.Object {
 			ArmorVal:  2,
 		}
 	case "spellbook":
+		// Scholar's libram - high quality spell teaching
 		return &game.Object{
-			Vnum:     30002,
-			Keywords: []string{"spellbook", "book", "spell"},
-			Type:     "treasure",
-			Short:    "a worn spellbook",
-			Long:     "An old spellbook containing basic magical knowledge.",
+			Vnum:           30002,
+			Keywords:       []string{"libram", "spellbook", "book", "spell"},
+			Type:           "treasure",
+			Short:          "a leather-bound libram",
+			Long:           "A finely crafted libram bound in soft leather, containing detailed instructions on fundamental magic. The instructions on Arcane Bolt are particularly clear. Try [study libram] to learn from it.",
+			TeachesSpellID: 1001, // Arcane Bolt
+			TeachesAmount:  20,   // Scholars start at 20%
 		}
 	case "leather armor":
 		return &game.Object{
@@ -345,12 +347,16 @@ func createStarterGear(equipType string) *game.Object {
 			Long:     "A simple sword, well-suited for a novice warrior.",
 		}
 	case "spell scroll":
+		// Wanderer's tattered scroll - lower quality spell teaching
 		return &game.Object{
-			Vnum:     30005,
-			Keywords: []string{"scroll", "spell", "spell scroll"},
-			Type:     "treasure",
-			Short:    "a spell scroll",
-			Long:     "A magical scroll containing arcane knowledge.",
+			Vnum:           30005,
+			Keywords:       []string{"scroll", "spell", "spell scroll", "tattered"},
+			Type:           "treasure",
+			Short:          "a tattered spell scroll",
+			Long:           "A well-worn scroll with faded writing, containing scattered knowledge about Arcane Bolt. Though weathered, the instructions are still readable. Try [study scroll] to learn from it.",
+			TeachesSpellID: 1001, // Arcane Bolt
+			TeachesAmount:  10,   // Wanderers start at 10%
+			Consumable:     true, // Tattered scroll is destroyed after studying
 		}
 	}
 	return nil

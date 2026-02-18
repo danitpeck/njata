@@ -65,6 +65,7 @@ const (
 	EquipNeck  = "neck"
 	EquipBack  = "back"
 	EquipWaist = "waist"
+	EquipWield = "wield"
 )
 
 var EquipSlotOrder = []string{
@@ -73,6 +74,7 @@ var EquipSlotOrder = []string{
 	EquipNeck,
 	EquipBack,
 	EquipWaist,
+	EquipWield,
 }
 
 type Mobile struct {
@@ -103,6 +105,11 @@ type Object struct {
 	Flags     map[string]bool
 	EquipSlot string // "head", "body", "neck", "back", "waist", or empty for non-equippable
 	ArmorVal  int    // bonus to player.Armor when worn
+
+	// Spell teaching (for study items)
+	TeachesSpellID int  // spell ID taught by this item
+	TeachesAmount  int  // proficiency % to grant (0 = use default 30%)
+	Consumable     bool // true if item is destroyed after studying
 }
 
 type Room struct {

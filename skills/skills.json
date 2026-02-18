@@ -214,7 +214,7 @@
     }
   },
   {
-    "id": 9002,
+    "id": 2001,
     "name": "Slash",
     "description": "A fundamental melee attack with your weapon. No mana cost. Damage scales with STR and proficiency.",
     "mana_cost": 0,
