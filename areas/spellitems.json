@@ -67,10 +67,10 @@
   "objects": {
     "5001": {
       "vnum": 5001,
-      "keywords": ["wand", "missile", "magic missile"],
+      "keywords": ["wand", "arcane", "bolt"],
       "type": "wand",
-      "short": "a wand of magic missile",
-      "long": "This slim wand of polished oak is inscribed with glowing runes\nrepresenting the spell Magic Missile. A faint magical aura surrounds it.",
+      "short": "a wand of arcane bolt",
+      "long": "This slim wand of polished oak crackles with pure magical energy.\nGlowing runes depicting arcane force spiral down its length. A faint\nmessenger-blue aura surrounds it.",
       "weight": 50,
       "value": [0, 0, 0, 1001],
       "flags": {
@@ -79,10 +79,10 @@
     },
     "5002": {
       "vnum": 5002,
-      "keywords": ["wand", "fireball", "fire"],
+      "keywords": ["wand", "leviathan", "fire"],
       "type": "wand",
-      "short": "a wand of fireball",
-      "long": "This ornate wand of blackened steel radiates intense heat.\nFlame dances along its surface, and it smells of sulfur and ash.\nMagical runes depicting fire are etched along its length.",
+      "short": "a wand of leviathan's fire",
+      "long": "This ornate wand of blackened steel radiates intense heat.\nFlame writhes along its surface like living serpents, and it smells of\nsulfur, ash, and the deep sea. Runes depicting ancient dragon-fire\nare etched along its length.",
       "weight": 75,
       "value": [0, 0, 0, 1002],
       "flags": {
@@ -92,10 +92,10 @@
     },
     "5003": {
       "vnum": 5003,
-      "keywords": ["scroll", "healing", "heal"],
+      "keywords": ["scroll", "mend", "healing"],
       "type": "scroll",
-      "short": "a scroll of healing",
-      "long": "An ancient scroll containing the spell of Healing. The parchment glows\nwith a soft green light, and words of power are inscribed upon it using\nink that seems to shimmer with life force.",
+      "short": "a scroll of mend",
+      "long": "An ancient scroll containing the spell of Mend. The parchment glows\nwith a soft golden light, and words of power are inscribed upon it using\nink that seems to shimmer with life force and renewal.",
       "weight": 10,
       "value": [0, 0, 0, 1003],
       "flags": {
@@ -104,10 +104,10 @@
     },
     "5004": {
       "vnum": 5004,
-      "keywords": ["wand", "blindness", "blind"],
+      "keywords": ["wand", "shadow", "veil"],
       "type": "wand",
-      "short": "a wand of blindness",
-      "long": "A twisted wand carved from dark wood, its surface seems to absorb light.\nSwirling shadows dance within it, and looking at it for too long makes\nyour eyes water. The spell Blindness is inscribed upon it.",
+      "short": "a wand of shadow veil",
+      "long": "A twisted wand carved from dark wood, its surface seems to absorb light.\nSwirling shadows dance within it like living things, and looking at it\nfor too long fills you with unease. The spell Shadow Veil is inscribed upon it.",
       "weight": 60,
       "value": [0, 0, 0, 1004],
       "flags": {
@@ -116,10 +116,10 @@
     },
     "5005": {
       "vnum": 5005,
-      "keywords": ["potion", "invisibility", "invisible"],
-      "type": "potion",
-      "short": "a potion of invisibility",
-      "long": "This shimmering potion seems to fade in and out of sight. Its contents\nare barely visible, as if the liquid itself is partially invisible. The\nlabel reads 'Invisibility' and seems to whisper with magical power.",
+      "keywords": ["feather", "ephemeral", "step"],
+      "type": "wand",
+      "short": "a feather of ephemeral step",
+      "long": "A shimmering feather that seems to fade in and out of sight. Its edges\nshimmer like they exist between worlds, and holding it makes you feel\nlight and insubstantial. The spell Ephemeral Step is infused within it.",
       "weight": 30,
       "value": [0, 0, 0, 1005],
       "flags": {
@@ -128,10 +128,10 @@
     },
     "5006": {
       "vnum": 5006,
-      "keywords": ["wand", "teleport", "teleportation"],
+      "keywords": ["amulet", "path", "shift"],
       "type": "wand",
-      "short": "a wand of teleportation",
-      "long": "A sleek wand of crystal and silver, it crackles with arcane energy.\nRunes depicting distant places shimmer across its surface. Mana pulses\nalong its length, and the space around it seems to shimmer and waver.",
+      "short": "an amulet of path shift",
+      "long": "A sleek amulet of crystal and silver, it crackles with arcane energy.\nRunes depicting distant places shimmer across its surface. Mana pulses\nfrom it, and the space around it seems to shimmer and waver. This is the\nsecret of the Courier. The spell Path Shift is bound within it.",
       "weight": 55,
       "value": [0, 0, 0, 1006],
       "flags": {
@@ -140,10 +140,10 @@
     },
     "5007": {
       "vnum": 5007,
-      "keywords": ["wand", "frost", "cold", "bolt"],
+      "keywords": ["crystal", "winter", "whisper"],
       "type": "wand",
-      "short": "a wand of frost bolt",
-      "long": "This elegant wand is crafted from ice-blue crystal that never melts.\nFrost crystals dance along its surface, and a chill radiates from it.\nThe spell Frost Bolt is inscribed using icy runes that glow with pale blue light.",
+      "short": "a crystal of winter's whisper",
+      "long": "This elegant crystal is carved from ice-blue stone that never melts.\nFrost crystals dance along its surface in mesmerizing patterns, and\nan icy chill radiates from it. When held, you can almost hear a voice\nwhispering of frozen peaks. The spell Winter's Whisper is bound within.",
       "weight": 65,
       "value": [0, 0, 0, 1007],
       "flags": {
@@ -153,10 +153,10 @@
     },
     "5008": {
       "vnum": 5008,
-      "keywords": ["scroll", "identify", "identification"],
+      "keywords": ["tome", "knowing", "knowledge"],
       "type": "scroll",
-      "short": "a scroll of identify",
-      "long": "An ancient scroll filled with wisdom about identifying magical objects.\nThe parchment is yellowed with age, but the writing is still clear.\nMystical symbols of identification glow faintly upon its surface.",
+      "short": "a tome of knowing",
+      "long": "An ancient tome bound in leather that feels impossibly old, filled with\nwisdom about understanding all things. The parchment is yellowed with age,\nbut the writing is still vivid and clear. Bronze-colored symbols of\nknowledge and insight glow faintly upon its surface. The spell Knowing\nis recorded within it.",
       "weight": 15,
       "value": [0, 0, 0, 1008],
       "flags": {
