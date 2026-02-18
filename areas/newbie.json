@@ -26,7 +26,7 @@
         "indoors": true
       },
       "exits": {
-        "down": 400,
+        "down": 1400,
         "north": 8102
       },
       "exdescs": {},
@@ -36,7 +36,7 @@
     "8102": {
       "vnum": 8102,
       "name": "Learning About Yourself [OOC]",
-      "description": "Here is where you will learn more about yourself. Type [stats] to see\ninformation about your character, [equipment] will show you your worn\nequipment, and [inventory] will show you what you're currently carrying.\nAs an option, you may explore our world with a map and compass to guide\nyou. Type [config +automap] and [config +compass] to turn these features\non. When you are ready to proceed, head [east].",
+      "description": "Here is where you will learn more about yourself. Type [stats] to see\ninformation about your character, [equipment] to see what you're wearing,\nand [inventory] to see what you're carrying. Get familiar with these\ncommands before you venture forth. When you are ready to proceed, head [east].",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -52,7 +52,7 @@
     "8103": {
       "vnum": 8103,
       "name": "Becoming Acquainted with Skills [OOC]",
-      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type [abilities]. Most commands can be shortened in Njata\nfor your convenience! If you happen to be a Scholar, then do not fret. You\nwill have to find relics to [study] to learn your spells, so make sure to\nlook in every nook and cranny of the world.",
+      "description": "To learn the abilities that you are capable of performing and how practiced\nyou are in them, type [abilities]. Most commands can be shortened in Njata\nfor your convenience! You'll grow stronger by using your abilities and finding\nrelics to study throughout the world. Look in every nook and cranny to discover\nit. Head north when you're ready to continue.",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -74,15 +74,14 @@
     "8104": {
       "vnum": 8104,
       "name": "Getting Equipped for the First Time [OOC]",
-      "description": "Here is where you can get started on your journey, Simply [say gear me] and\nBrutus will hand you a good starting set. The races of Njata have diverse\nbody types and thus have different equipment requirements. Some dont even\nhave FEET! These items should fit any race and class, but keep that in\nmind when travelling the world. When you are ready to try on what Brutus\nhas given you, [wear armor] will allow you to put on the armor, [wear\ncloak] will allow you to don the cloak, and so on. The backpack is a\nspecial type of item called a container. Try storing the waterskin in your\nbackpack now with  [put waterskin backpack]. When you grow thirsty, you\ncan [get waterskin backpack] to retrieve it, and [drink waterskin] to take\na drink. Proceed to the north when you are ready to learn more.",
+      "description": "Welcome to your starting equipment! Your starter kit has already\nprovided you with basic gear suited to your choice. You can use [equipment]\nto see what you're wearing and [inventory] to see what you're carrying.\nFeel free to explore the world now. Proceed to the north when you're ready\nto learn more commands.",
       "sector": "city",
       "flags": {
         "indoors": true
       },
       "exits": {
         "north": 8103,
-        "west": 8102,
-        "east": 8111
+        "west": 8102
       },
       "exdescs": {},
       "mobile_resets": [
@@ -97,7 +96,7 @@
     "8105": {
       "vnum": 8105,
       "name": "In-Character Communication [OOC]",
-      "description": "Now that you know about the out-of-character communication channels, it's\ntime to learn about the channels used for in-character communication. To\nspeak to an entire room of people, you need only [Say] your message. Some\njolly people may prefer to [Sing] their message instead, however. To\ndirect your message to a specific person while still allowing the whole\nroom to hear it, you can [Sayto]. For more private conversations, you can\n[Whisper] to a person and they will be the only one to hear your message.\nIf you really need to get the attention of people nearby, you can [Yell]\nwhat you want to say. Yelling, while rude in some situations, can be very\nuseful to get the message across a longer distance than merely saying it.",
+      "description": "In-character communication is how you roleplay and interact with other\nplayers in the world. To speak to an entire room of people, simply type\n[Say] followed by your message. For example: [Say Hello, everyone!]\nEveryone in the room will see what you say. This is the primary way to\nconverse and tell stories in Njata.",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -129,7 +128,7 @@
     "8107": {
       "vnum": 8107,
       "name": "Your First Taste of Battle [OOC]",
-      "description": "Combat can be very dangerous and very thrilling, but it's important to\nremember, it's not the only option. If you decide to engage in battle,\nclasses have special abilities to use during combat, and some races have\nnatural weapons or special attacks. To begin attacking something, simply\ntype [Kill] followed by the name of your target. Always remember to\n[Consider] a target before you attack it, if you're unfamiliar with its\ncapabilities. Try it out! [Consider dummy], then it you feel you can\ndefeat it, [Kill dummy].",
+      "description": "Combat can be very dangerous and very thrilling, but it's important to remember, it's not the only option. If you decide to engage in battle, you can use your abilities. Warriors and Wanderers can [Slash] with their weapons, while Scholars and Mages can [Cast] spells like Arcane Bolt. Try out your abilities by practicing on the training dummy here!",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -151,13 +150,14 @@
     "8108": {
       "vnum": 8108,
       "name": "The Final Consideration [OOC]",
-      "description": "Now you know the basics of what is required to survive and thrive in Njata,\nbut before you go, we must talk about the rules. Rules are what  hold this\ngame together, They are something you should know and abide  by. Please\n[Help RULES] and make sure you know and follow them. When you are ready to\ncontinue your adventure, [Say I agree to follow all rules]",
+      "description": "Before you continue your adventure in Njata, it's crucial that you understand\nour rules. They are what hold this community together. Type [Help RULES] to\nread and understand them. Make sure you follow them as you play, and enjoy\nyour time in Njata!",
       "sector": "city",
       "flags": {
         "indoors": true
       },
       "exits": {
-        "south": 8107
+        "south": 8107,
+        "down": 1400
       },
       "exdescs": {},
       "mobile_resets": [],
@@ -166,7 +166,7 @@
     "8109": {
       "vnum": 8109,
       "name": "Out-of-Character Communication [OOC]",
-      "description": "Channels allow you to speak with other people in Njata, a very important\npart. If you find yourself confused by anything, feel free to [Ask] about\nit. Know the answer to a question? then you can [Answer] the individual.\nIf you just want to socialize with others, then you can [Chat] with them.\nTo speak to a single person, you may [Tell (person) (message)]. All of\nthese channels are for out-of-character communication. If you ever grow\ntired of hearing what others have to say, you can turn channels off. Type\n[channels] to see a list of channels, and to turn the shout channel off,\nfor example, you would type [chan -shout]. To turn it back on, you'd need\nonly type [chan +shout].",
+      "description": "Out-of-character communication allows you to chat and socialize with other\nplayers worldwide. Type [Chat] followed by your message to speak with all\nplayers, regardless of where you are. For example: [Chat Hello everyone!]\nOther players will see your message marked with the [Chat] label so they\nknow it's out-of-character communication.",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -182,7 +182,7 @@
     "8110": {
       "vnum": 8110,
       "name": "Describing Yourself Further [OOC]",
-      "description": "Now that your hair and eyes are described, perhaps you wish to describe\nyourself a little further? Here is a [Scroll], if you [Look scroll] you\nwill see a list of body types available to you. Once you have decided upon\nyour figure, then you would like to try your hand at a more advanced\ndescription. To write a freeform description, type [Desc]. This will enter\nyou into a buffer where you can write anything you please, but please keep\nit within the limits of an appearance reasonable for your race. Humans can\nhave hair dyed any color they please, but should never have wings!",
+      "description": "Now that your hair and eyes are described, you've got the basics down!\nYou can continue customizing your appearance as you progress through the\nworld, but for now you have what you need to get started. Head north when you're ready to continue exploring.",
       "sector": "city",
       "flags": {
         "indoors": true
@@ -191,9 +191,7 @@
         "north": 8107,
         "west": 8106
       },
-      "exdescs": {
-        "scroll": "regular, lithe, thin, rotund, curvaceous,\nvoluptuous, pear-shaped, fat, corpulent,\nstarved, lanky, muscular, stocky, toned, wiry\n\n[say] one of them to decide.\ne.g. [say stocky]"
-      },
+      "exdescs": {},
       "mobile_resets": [],
       "object_resets": []
     },

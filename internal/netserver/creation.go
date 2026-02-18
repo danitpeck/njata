@@ -71,10 +71,6 @@ func (cc *CharacterCreation) Run() error {
 		return err
 	}
 
-	if err := cc.selectAge(); err != nil {
-		return err
-	}
-
 	if err := cc.selectSex(); err != nil {
 		return err
 	}
@@ -249,7 +245,7 @@ func (cc *CharacterCreation) applyRaceModifiers() {
 	cc.player.Intelligence += cc.selectedRace.IntPlus // INT
 	cc.player.Wisdom += cc.selectedRace.WisPlus       // WIS
 	cc.player.Charisma += cc.selectedRace.ChaPlus     // CHA
-	cc.player.Luck += cc.selectedRace.LckPlus         // LCK
+	cc.player.Luck += cc.selectedRace.LuckPlus        // LCK
 
 	// Apply racial stat bonuses
 	cc.player.HP += cc.selectedRace.HPBonus
@@ -281,7 +277,83 @@ func (cc *CharacterCreation) applyKitModifiers() {
 			Learned:       true,
 			LifetimeCasts: 0,
 		}
+
+		// Show messages for learned spells and maneuvers
+		if skillID >= 1001 && skillID <= 1008 {
+			// Spell
+			spell := skills.GetSpell(skillID)
+			if spell != nil {
+				cc.session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", spell.Name))
+			}
+		} else if skillID == 9002 {
+			// Slash maneuver
+			cc.session.WriteLine("You have learned &YSlash&w, a devastating melee maneuver!")
+		}
+		// Note: Study (9001) is a skill, not a learnable spell or maneuver, so no message
 	}
+
+	// Create and equip starting equipment
+	if cc.selectedKit.StartingEquipment != nil {
+		if cc.player.Inventory == nil {
+			cc.player.Inventory = make([]*game.Object, 0)
+		}
+		for _, equipType := range cc.selectedKit.StartingEquipment {
+			obj := createStarterGear(equipType)
+			if obj != nil {
+				cc.player.Inventory = append(cc.player.Inventory, obj)
+			}
+		}
+	}
+}
+
+func createStarterGear(equipType string) *game.Object {
+	switch equipType {
+	case "robes":
+		return &game.Object{
+			Vnum:      30001,
+			Keywords:  []string{"robes", "scholar", "robe"},
+			Type:      "armor",
+			Short:     "simple scholar's robes",
+			Long:      "A simple set of robes designed for scholarly pursuits.",
+			EquipSlot: game.EquipBody,
+			ArmorVal:  2,
+		}
+	case "spellbook":
+		return &game.Object{
+			Vnum:     30002,
+			Keywords: []string{"spellbook", "book", "spell"},
+			Type:     "treasure",
+			Short:    "a worn spellbook",
+			Long:     "An old spellbook containing basic magical knowledge.",
+		}
+	case "leather armor":
+		return &game.Object{
+			Vnum:      30003,
+			Keywords:  []string{"armor", "leather", "leather armor"},
+			Type:      "armor",
+			Short:     "leather armor",
+			Long:      "A set of sturdy leather armor suitable for combat.",
+			EquipSlot: game.EquipBody,
+			ArmorVal:  5,
+		}
+	case "sword":
+		return &game.Object{
+			Vnum:     30004,
+			Keywords: []string{"sword", "weapon", "blade"},
+			Type:     "weapon",
+			Short:    "a basic sword",
+			Long:     "A simple sword, well-suited for a novice warrior.",
+		}
+	case "spell scroll":
+		return &game.Object{
+			Vnum:     30005,
+			Keywords: []string{"scroll", "spell", "spell scroll"},
+			Type:     "treasure",
+			Short:    "a spell scroll",
+			Long:     "A magical scroll containing arcane knowledge.",
+		}
+	}
+	return nil
 }
 
 func (cc *CharacterCreation) selectAge() error {
@@ -374,10 +446,13 @@ func (cc *CharacterCreation) selectSex() error {
 		trimmed := strings.TrimSpace(line)
 		if strings.ToLower(trimmed) == "help" {
 			cc.session.WriteLine("")
-			for _, desc := range sexDescriptions {
-				cc.session.WriteLine(desc)
-				cc.session.WriteLine("")
-			}
+			// Display in prompt order: Male, Female, Neutral
+			cc.session.WriteLine(sexDescriptions[SexMale])
+			cc.session.WriteLine("")
+			cc.session.WriteLine(sexDescriptions[SexFemale])
+			cc.session.WriteLine("")
+			cc.session.WriteLine(sexDescriptions[SexNeutral])
+			cc.session.WriteLine("")
 			continue
 		}
 
@@ -420,7 +495,7 @@ func (cc *CharacterCreation) displayFinalStats() {
 	cc.session.WriteLine("")
 	cc.session.WriteLine("=== FINAL CHARACTER STATS ===")
 	cc.session.WriteLine("")
-	cc.session.WriteLine(fmt.Sprintf("Name:        %s", cc.player.Name))
+	cc.session.WriteLine(fmt.Sprintf("Name:        %s", game.CapitalizeName(cc.player.Name)))
 	cc.session.WriteLine(fmt.Sprintf("Race:        %s", cc.selectedRace.Name))
 	cc.session.WriteLine(fmt.Sprintf("Starter Kit: %s", cc.selectedKit.Name))
 	cc.session.WriteLine(fmt.Sprintf("Sex:         %s", sexNames[cc.player.Sex]))

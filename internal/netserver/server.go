@@ -151,17 +151,19 @@ func (s *Server) handleConn(conn net.Conn) {
 				return
 			}
 
-			// Auto-teach new players Arcane Bolt (spell ID 1001) as a starter spell
-			arcaneBoltSpell := skills.GetSpell(1001)
-			if arcaneBoltSpell != nil {
-				player.Skills[1001] = &skills.PlayerSkillProgress{
-					SpellID:       1001,
-					Proficiency:   50,
-					Learned:       true,
-					LifetimeCasts: 0,
-					LastCastTime:  0,
+			// Auto-teach new players Arcane Bolt (spell ID 1001) if they don't already know it
+			if _, hasArcaneBolt := player.Skills[1001]; !hasArcaneBolt {
+				arcaneBoltSpell := skills.GetSpell(1001)
+				if arcaneBoltSpell != nil {
+					player.Skills[1001] = &skills.PlayerSkillProgress{
+						SpellID:       1001,
+						Proficiency:   50,
+						Learned:       true,
+						LifetimeCasts: 0,
+						LastCastTime:  0,
+					}
+					session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", arcaneBoltSpell.Name))
 				}
-				session.WriteLine(fmt.Sprintf("You have learned &Y%s&w as your first spell!", arcaneBoltSpell.Name))
 			}
 		}
 
@@ -187,7 +189,11 @@ func (s *Server) handleConn(conn net.Conn) {
 		}()
 
 		s.world.BroadcastSystemToRoomExcept(player, fmt.Sprintf("%s has entered the game.", game.CapitalizeName(player.Name)))
-		session.WriteLine(fmt.Sprintf("Welcome back, %s!", game.CapitalizeName(player.Name)))
+		if isNewPlayer {
+			session.WriteLine(fmt.Sprintf("Welcome to the world, %s!", game.CapitalizeName(player.Name)))
+		} else {
+			session.WriteLine(fmt.Sprintf("Welcome back, %s!", game.CapitalizeName(player.Name)))
+		}
 
 		view, err := s.world.DescribeRoom(player)
 		if err == nil {

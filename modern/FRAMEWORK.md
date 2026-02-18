@@ -47,6 +47,21 @@ Build small. Add meaningful. Like the original njata.c approach:
 
 ---
 
+### [UI_DESIGN.md](UI_DESIGN.md) — **Phase 3: Visual Polish**
+
+**Professional MUD UI inspired by original njata.c.**
+
+- Output formatter system (colors, alignment, templates)
+- Room display redesign (exits, description, NPCs, objects)
+- Status bar (health/mana/endurance always visible)
+- Combat message system (color-coded, readable)
+- Health bar visualization
+- Implementation roadmap for visual polish phase
+
+**Read this when:** Ready to make the game look professional (Post-MVP, Week 2+)
+
+---
+
 ## Archived Documents
 
 The `backup/legacy_design/` folder contains earlier design iterations that are superseded by the new Equipment+Skills, no-levels approach:

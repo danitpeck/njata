@@ -493,6 +493,23 @@ func (w *World) BroadcastSay(speaker *Player, message string) {
 	}
 }
 
+func (w *World) BroadcastChat(speaker *Player, message string) {
+	w.mu.RLock()
+	players := make([]*Player, 0, len(w.players))
+	for _, player := range w.players {
+		players = append(players, player)
+	}
+	w.mu.RUnlock()
+
+	for _, player := range players {
+		if strings.EqualFold(player.Name, speaker.Name) {
+			player.Output.WriteLine(fmt.Sprintf("&Y[Chat] You: %s&w", message))
+			continue
+		}
+		player.Output.WriteLine(fmt.Sprintf("&Y[Chat] %s: %s&w", CapitalizeName(speaker.Name), message))
+	}
+}
+
 func (w *World) BroadcastSystemToRoomExcept(except *Player, message string) {
 	w.mu.RLock()
 	location := except.Location

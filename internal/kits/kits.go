@@ -17,8 +17,8 @@ type StarterKit struct {
 	// Starting skills (skill_id -> initial proficiency %)
 	StartingSkills map[int]int `json:"starting_skills"`
 
-	// Future: Starting equipment vnums
-	// StartingEquipment []int `json:"starting_equipment"`
+	// Starting equipment item types
+	StartingEquipment []string `json:"starting_equipment"`
 }
 
 // Predefined starter kits
@@ -35,6 +35,7 @@ var (
 			1001: 30, // Arcane Bolt at 30%
 			9001: 10, // Study skill at 10%
 		},
+		StartingEquipment: []string{"robes", "spellbook"},
 	}
 
 	WarriorKit = &StarterKit{
@@ -48,6 +49,7 @@ var (
 		StartingSkills: map[int]int{
 			9002: 10, // Slash maneuver at 10%
 		},
+		StartingEquipment: []string{"leather armor", "sword"},
 	}
 
 	WandererKit = &StarterKit{
@@ -63,6 +65,7 @@ var (
 			9001: 5,  // Study skill at 5%
 			9002: 5,  // Slash maneuver at 5%
 		},
+		StartingEquipment: []string{"leather armor", "sword", "spell scroll"},
 	}
 )
 

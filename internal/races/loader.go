@@ -19,7 +19,7 @@ type RaceJSON struct {
 	IntPlus    int    `json:"int_plus"`
 	WisPlus    int    `json:"wis_plus"`
 	ChaPlus    int    `json:"cha_plus"`
-	LckPlus    int    `json:"lck_plus"`
+	LuckPlus   int    `json:"lck_plus"`
 	HPBonus    int    `json:"hp_bonus"`
 	ManaBonus  int    `json:"mana_bonus"`
 	HPRegen    int    `json:"hp_regen"`

@@ -1,8 +1,10 @@
 package commands
 
 import (
+	"encoding/json"
 	"fmt"
 	"math/rand"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -16,6 +18,7 @@ import (
 func RegisterBuiltins(registry *Registry) {
 	registry.Register("look", cmdLook)
 	registry.Register("say", cmdSay)
+	registry.Register("chat", cmdChat)
 	registry.Register("who", cmdWho)
 	registry.Register("stats", cmdStats)
 	registry.Register("inventory", cmdInventory)
@@ -156,6 +159,15 @@ func cmdSay(ctx Context, args string) {
 	ctx.World.BroadcastSay(ctx.Player, args)
 }
 
+func cmdChat(ctx Context, args string) {
+	if strings.TrimSpace(args) == "" {
+		ctx.Output.WriteLine("Chat what?")
+		return
+	}
+
+	ctx.World.BroadcastChat(ctx.Player, args)
+}
+
 func cmdWho(ctx Context, args string) {
 	players := ctx.World.ListPlayers()
 	ctx.Output.WriteLine(fmt.Sprintf("Players online (%d): %s", len(players), strings.Join(players, ", ")))
@@ -163,7 +175,7 @@ func cmdWho(ctx Context, args string) {
 
 func cmdStats(ctx Context, args string) {
 	p := ctx.Player
-	ctx.Output.WriteLine(fmt.Sprintf("=== %s ===", p.Name))
+	ctx.Output.WriteLine(fmt.Sprintf("=== %s ===", game.CapitalizeName(p.Name)))
 
 	raceName := "Unknown"
 	if r := races.GetByID(p.Race); r != nil {
@@ -1397,20 +1409,33 @@ func cmdHelp(ctx Context, args string) {
 	}
 
 	if args == "" {
-		ctx.Output.WriteLine("Usage: help <spell_name>")
+		ctx.Output.WriteLine("Usage: help <topic_or_spell_name>")
 		ctx.Output.WriteLine("")
-		ctx.Output.WriteLine("View detailed information about a spell or maneuver.")
+		ctx.Output.WriteLine("View information about a topic (like 'rules') or spell/maneuver.")
+		ctx.Output.WriteLine("Example: help rules")
 		ctx.Output.WriteLine("Example: help arcane bolt")
 		ctx.Output.WriteLine("")
 		ctx.Output.WriteLine("Type 'abilities' to see all your learned abilities.")
 		return
 	}
 
-	// Find spell by partial name match
+	// Try to load help.json
+	helpTopics := loadHelpTopics()
+	topicKey := strings.ToLower(args)
+
+	// Check if this is a help topic
+	if topic, ok := helpTopics[topicKey]; ok {
+		ctx.Output.WriteLine(fmt.Sprintf("&Y=== %s ===&w", topic.Title))
+		ctx.Output.WriteLine("")
+		ctx.Output.WriteLine(topic.Content)
+		return
+	}
+
+	// Fall back to spell/ability help
 	spell, matchCount := skills.FindSpellByPartial(args)
 
 	if matchCount == 0 {
-		ctx.Output.WriteLine(fmt.Sprintf("Ability '%s' not found. Type 'abilities' to see what you can learn.", args))
+		ctx.Output.WriteLine(fmt.Sprintf("Help topic '%s' not found. Type 'help' for usage.", args))
 		return
 	}
 
@@ -1461,6 +1486,30 @@ func cmdHelp(ctx Context, args string) {
 	}
 
 	ctx.Output.WriteLine("")
+}
+
+type HelpTopic struct {
+	Title   string `json:"title"`
+	Content string `json:"content"`
+}
+
+func loadHelpTopics() map[string]HelpTopic {
+	helpMap := make(map[string]HelpTopic)
+
+	data, err := os.ReadFile("system/help.json")
+	if err != nil {
+		// If file doesn't exist, return empty map; help will still work for spells
+		return helpMap
+	}
+
+	var helpData map[string]HelpTopic
+	err = json.Unmarshal(data, &helpData)
+	if err != nil {
+		// If JSON is invalid, return empty map
+		return helpMap
+	}
+
+	return helpData
 }
 
 func registerMovement(registry *Registry) {
