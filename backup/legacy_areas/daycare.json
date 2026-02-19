@@ -204,9 +204,9 @@
     "6609": {
       "vnum": 6609,
       "name": "The Playground",
-      "description": "You are in the north-west corner of the playground.  Standing before\nyou is a brightly painted wooden see-saw, teetering and tottering back\nand forth.  Children frollick all about you, and the sound of their play\nis so comforting.  At least they're not clinging to your legs anymore.",
-      "sector": "inside",
-      "flags": {},
+        "description": "You are in the north-west corner of the playground.  Standing before\nyou is a brightly painted wooden see-saw, teetering and tottering back\nand forth.  Children frolic all about you, and the sound of their play\nis so comforting.  At least they're not clinging to your legs anymore.",
+        "sector": "inside",
+        "flags": {},
       "exits": {
         "east": 6639,
         "south": 6611
@@ -689,7 +689,7 @@
     "6639": {
       "vnum": 6639,
       "name": "The Playground",
-      "description": "As you continue walking through the playground, children hop to and\nfro, giggling and frollicking.  The ground is moist, and what were\nonce beautiful wild flowers are now stomped into a mixture of grass\nand mud.",
+      "description": "As you continue walking through the playground, children hop to and\nfro, giggling and frolicking.  The ground is moist, and what were\nonce beautiful wild flowers are now stomped into a mixture of grass\nand mud.",
       "sector": "inside",
       "flags": {},
       "exits": {

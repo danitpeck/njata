@@ -1276,7 +1276,7 @@
       ],
       "type": "armor",
       "short": "a ring of protection",
-      "long": "A circle of obsidian lies here, omitting a strange glow.",
+      "long": "A circle of obsidian lies here, emitting a strange glow.",
       "weight": 0,
       "value": 0,
       "flags": {},
