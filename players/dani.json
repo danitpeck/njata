@@ -1,13 +1,13 @@
 {
   "name": "dani",
-  "location": 8104,
+  "location": 1417,
   "race": 16,
   "sex": 2,
   "hair": "",
   "eyes": "",
   "hp": 125,
   "max_hp": 125,
-  "mana": 85,
+  "mana": 25,
   "max_mana": 100,
   "gold": 0,
   "strength": 10,
@@ -26,16 +26,254 @@
       "lifetime_casts": 1,
       "last_cast_time": 1771393436148549200
     },
+    "1002": {
+      "spell_id": 1002,
+      "proficiency": 32,
+      "learned": true,
+      "lifetime_casts": 2,
+      "last_cast_time": 1771482120237071800
+    },
     "2001": {
       "spell_id": 2001,
-      "proficiency": 5,
+      "proficiency": 12,
       "learned": true,
-      "lifetime_casts": 0,
-      "last_cast_time": 0
+      "lifetime_casts": 7,
+      "last_cast_time": 1771482124953971200
     }
   },
   "is_keeper": false,
-  "inventory": [],
+  "inventory": [
+    {
+      "Vnum": 1642,
+      "Keywords": [
+        "crab",
+        "shell"
+      ],
+      "Type": "trash",
+      "Short": "a crab shell",
+      "Long": "A cracked crab shell lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1643,
+      "Keywords": [
+        "gull",
+        "feather"
+      ],
+      "Type": "trash",
+      "Short": "a gull feather",
+      "Long": "A white gull feather is here on the sand.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1643,
+      "Keywords": [
+        "gull",
+        "feather"
+      ],
+      "Type": "trash",
+      "Short": "a gull feather",
+      "Long": "A white gull feather is here on the sand.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1642,
+      "Keywords": [
+        "crab",
+        "shell"
+      ],
+      "Type": "trash",
+      "Short": "a crab shell",
+      "Long": "A cracked crab shell lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1643,
+      "Keywords": [
+        "gull",
+        "feather"
+      ],
+      "Type": "trash",
+      "Short": "a gull feather",
+      "Long": "A white gull feather is here on the sand.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1644,
+      "Keywords": [
+        "driftwood",
+        "club"
+      ],
+      "Type": "weapon",
+      "Short": "a driftwood club",
+      "Long": "A driftwood club lies here, worn smooth by the surf.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1645,
+      "Keywords": [
+        "ragged",
+        "sandals"
+      ],
+      "Type": "armor",
+      "Short": "ragged sandals",
+      "Long": "A pair of ragged sandals sits in the sand.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1646,
+      "Keywords": [
+        "salted",
+        "fish"
+      ],
+      "Type": "meat",
+      "Short": "a salted fish",
+      "Long": "A salted fish rests here, wrapped in rough cloth.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1642,
+      "Keywords": [
+        "crab",
+        "shell"
+      ],
+      "Type": "trash",
+      "Short": "a crab shell",
+      "Long": "A cracked crab shell lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1642,
+      "Keywords": [
+        "crab",
+        "shell"
+      ],
+      "Type": "trash",
+      "Short": "a crab shell",
+      "Long": "A cracked crab shell lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    }
+  ],
   "equipment": {
     "body": {
       "Vnum": 30003,

@@ -1,0 +1,153 @@
+{
+  "name": "Dev",
+  "location": 1417,
+  "race": 20,
+  "sex": 0,
+  "hair": "a writhing mass of snakes",
+  "eyes": "that carry the weight of a thousand years",
+  "hp": 100,
+  "max_hp": 100,
+  "mana": 105,
+  "max_mana": 150,
+  "gold": 0,
+  "strength": 12,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "luck": 10,
+  "armor": 2,
+  "skills": {
+    "1001": {
+      "spell_id": 1001,
+      "proficiency": 23,
+      "learned": true,
+      "lifetime_casts": 3,
+      "last_cast_time": 1771484092738495400
+    }
+  },
+  "is_keeper": false,
+  "inventory": [
+    {
+      "Vnum": 30002,
+      "Keywords": [
+        "libram",
+        "spellbook",
+        "book",
+        "spell"
+      ],
+      "Type": "treasure",
+      "Short": "a leather-bound libram",
+      "Long": "A finely crafted libram bound in soft leather, containing detailed instructions on fundamental magic. The instructions on Arcane Bolt are particularly clear. Try [study libram] to learn from it.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": null,
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 1001,
+      "TeachesAmount": 20,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1642,
+      "Keywords": [
+        "crab",
+        "shell"
+      ],
+      "Type": "trash",
+      "Short": "a crab shell",
+      "Long": "A cracked crab shell lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    {
+      "Vnum": 1645,
+      "Keywords": [
+        "ragged",
+        "sandals"
+      ],
+      "Type": "armor",
+      "Short": "ragged sandals",
+      "Long": "A pair of ragged sandals sits in the sand.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    }
+  ],
+  "equipment": {
+    "body": {
+      "Vnum": 30001,
+      "Keywords": [
+        "robes",
+        "scholar",
+        "robe"
+      ],
+      "Type": "armor",
+      "Short": "simple scholar's robes",
+      "Long": "A simple set of robes designed for scholarly pursuits.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": null,
+      "EquipSlot": "body",
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    },
+    "wield": {
+      "Vnum": 1644,
+      "Keywords": [
+        "driftwood",
+        "club"
+      ],
+      "Type": "weapon",
+      "Short": "a driftwood club",
+      "Long": "A driftwood club lies here, worn smooth by the surf.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "",
+      "ArmorVal": 0,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    }
+  }
+}

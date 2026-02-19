@@ -17,6 +17,7 @@ import (
 
 func RegisterBuiltins(registry *Registry) {
 	registry.Register("look", cmdLook)
+	registry.Register("consider", cmdConsider)
 	registry.Register("say", cmdSay)
 	registry.Register("chat", cmdChat)
 	registry.Register("who", cmdWho)
@@ -53,6 +54,101 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("help", cmdHelp)
 	registry.Register("quit", cmdQuit)
 	registerMovement(registry)
+}
+
+func cmdConsider(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in.")
+		return
+	}
+
+	args = strings.TrimSpace(args)
+	if args == "" {
+		ctx.Output.WriteLine("Consider whom? (syntax: consider <target>)")
+		return
+	}
+
+	if strings.EqualFold(args, "me") || strings.EqualFold(args, "self") {
+		ctx.Output.WriteLine("You look capable enough to handle yourself.")
+		return
+	}
+
+	if targetPlayer, ok := ctx.World.FindPlayerInRoom(ctx.Player, args); ok {
+		assessment := compareCombatScores(combatScorePlayer(ctx.Player), combatScorePlayer(targetPlayer))
+		ctx.Output.WriteLine(fmt.Sprintf("You size up %s. %s", game.CapitalizeName(targetPlayer.Name), assessment))
+		return
+	}
+
+	mob, ok := ctx.World.FindMobInRoom(ctx.Player, args)
+	if !ok {
+		ctx.Output.WriteLine(fmt.Sprintf("You don't see '%s' here.", args))
+		return
+	}
+
+	assessment := compareCombatScores(combatScorePlayer(ctx.Player), combatScoreMob(mob))
+	ctx.Output.WriteLine(fmt.Sprintf("You size up %s. %s", mob.Short, assessment))
+}
+
+func combatScorePlayer(p *game.Player) int {
+	if p == nil {
+		return 1
+	}
+
+	score := 0
+	score += p.MaxHP
+	score += p.Strength * 5
+	score += p.Dexterity * 3
+	score += p.Constitution * 4
+	score += p.Armor * 2
+	if score < 1 {
+		score = 1
+	}
+	return score
+}
+
+func combatScoreMob(mob *game.Mobile) int {
+	if mob == nil {
+		return 1
+	}
+
+	maxHP := mob.MaxHP
+	if maxHP <= 0 {
+		maxHP = mob.HP
+	}
+
+	score := 0
+	score += maxHP
+	score += mob.Attributes[0] * 5
+	score += mob.Attributes[3] * 3
+	score += mob.Attributes[4] * 4
+	score += mob.Level * 10
+	if score < 1 {
+		score = 1
+	}
+	return score
+}
+
+func compareCombatScores(playerScore int, targetScore int) string {
+	if playerScore < 1 {
+		playerScore = 1
+	}
+	if targetScore < 1 {
+		targetScore = 1
+	}
+
+	ratio := float64(targetScore) / float64(playerScore)
+	switch {
+	case ratio <= 0.5:
+		return "It looks trivial."
+	case ratio <= 0.8:
+		return "You would have the advantage."
+	case ratio <= 1.2:
+		return "It seems evenly matched."
+	case ratio <= 1.6:
+		return "It looks dangerous."
+	default:
+		return "You would likely be defeated."
+	}
 }
 
 // DisplayRoomView is a shared function to display a room view consistently
@@ -952,7 +1048,7 @@ func cmdCast(ctx Context, args string) {
 
 		// Deal damage to target
 		if targetMob != nil {
-			died := ctx.World.DamageMob(p, targetMob, totalDamage)
+			died, loot := ctx.World.DamageMob(p, targetMob, totalDamage)
 
 			// Show messages
 			msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
@@ -972,6 +1068,9 @@ func cmdCast(ctx Context, args string) {
 				deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", targetMob.Short)
 				ctx.Output.WriteLine(deathMsg)
 				ctx.World.BroadcastCombatMessage(p, deathMsg)
+				if len(loot) > 0 {
+					ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+				}
 			} else {
 				hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", targetMob.Short, targetMob.HP, targetMob.MaxHP)
 				ctx.Output.WriteLine(hpMsg)
@@ -1078,7 +1177,7 @@ func cmdSlash(ctx Context, args string) {
 	skillProgress.UpdateProficiency(1) // +1% proficiency per use
 
 	// Deal damage to mob
-	died := ctx.World.DamageMob(p, mob, totalDamage)
+	died, loot := ctx.World.DamageMob(p, mob, totalDamage)
 
 	// Show messages
 	playerMsg := fmt.Sprintf("You slash at %s for &R%d&w damage! (Proficiency: %d%%)",
@@ -1092,6 +1191,9 @@ func cmdSlash(ctx Context, args string) {
 		deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", mob.Short)
 		ctx.Output.WriteLine(deathMsg)
 		ctx.World.BroadcastCombatMessage(p, deathMsg)
+		if len(loot) > 0 {
+			ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+		}
 	} else {
 		hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", mob.Short, mob.HP, mob.MaxHP)
 		ctx.Output.WriteLine(hpMsg)
@@ -1184,7 +1286,7 @@ func performManeuver(ctx Context, args string, skillID int, commandName string) 
 		proficiencyBonus := skillProgress.Proficiency / 20
 		totalDamage := baseDamage + statBonus + proficiencyBonus
 
-		died := ctx.World.DamageMob(p, targetMob, totalDamage)
+		died, loot := ctx.World.DamageMob(p, targetMob, totalDamage)
 
 		msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
 		msg = strings.ReplaceAll(msg, "$target", targetMob.Short)
@@ -1200,6 +1302,9 @@ func performManeuver(ctx Context, args string, skillID int, commandName string) 
 			deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", targetMob.Short)
 			ctx.Output.WriteLine(deathMsg)
 			ctx.World.BroadcastCombatMessage(p, deathMsg)
+			if len(loot) > 0 {
+				ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+			}
 		} else {
 			hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", targetMob.Short, targetMob.HP, targetMob.MaxHP)
 			ctx.Output.WriteLine(hpMsg)

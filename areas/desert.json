@@ -79,8 +79,7 @@
       "mobile_resets": [
         {
           "vnum": 31009,
-          "count": 6,
-          "room": 31003
+          "count": 6
         }
       ],
       "object_resets": []
@@ -202,8 +201,7 @@
       "mobile_resets": [
         {
           "vnum": 31034,
-          "count": 5,
-          "room": 31009
+          "count": 5
         }
       ],
       "object_resets": []
@@ -341,8 +339,7 @@
       "mobile_resets": [
         {
           "vnum": 31005,
-          "count": 5,
-          "room": 31015
+          "count": 5
         }
       ],
       "object_resets": []
@@ -390,8 +387,7 @@
       "mobile_resets": [
         {
           "vnum": 31028,
-          "count": 1,
-          "room": 31017
+          "count": 1
         }
       ],
       "object_resets": []
@@ -513,8 +509,7 @@
       "mobile_resets": [
         {
           "vnum": 31000,
-          "count": 1,
-          "room": 31023
+          "count": 1
         }
       ],
       "object_resets": []
@@ -537,15 +532,13 @@
       "mobile_resets": [
         {
           "vnum": 31010,
-          "count": 3,
-          "room": 31024
+          "count": 3
         }
       ],
       "object_resets": [
         {
           "vnum": 31000,
-          "count": 1,
-          "room": 31024
+          "count": 1
         }
       ]
     },
@@ -566,8 +559,7 @@
       "mobile_resets": [
         {
           "vnum": 31004,
-          "count": 1,
-          "room": 31025
+          "count": 1
         }
       ],
       "object_resets": []
@@ -585,8 +577,7 @@
       "mobile_resets": [
         {
           "vnum": 31021,
-          "count": 1,
-          "room": 31026
+          "count": 1
         }
       ],
       "object_resets": []
@@ -608,15 +599,13 @@
       "mobile_resets": [
         {
           "vnum": 31007,
-          "count": 1,
-          "room": 31027
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 31001,
-          "count": 1,
-          "room": 31027
+          "count": 1
         }
       ]
     },
@@ -651,8 +640,7 @@
       "mobile_resets": [
         {
           "vnum": 31003,
-          "count": 4,
-          "room": 31029
+          "count": 4
         }
       ],
       "object_resets": []
@@ -686,8 +674,7 @@
       "mobile_resets": [
         {
           "vnum": 31002,
-          "count": 1,
-          "room": 31031
+          "count": 1
         }
       ],
       "object_resets": []
@@ -705,15 +692,13 @@
       "mobile_resets": [
         {
           "vnum": 31001,
-          "count": 1,
-          "room": 31032
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 31006,
-          "count": 1,
-          "room": 31032
+          "count": 1
         }
       ]
     },
@@ -1155,8 +1140,7 @@
       "mobile_resets": [
         {
           "vnum": 31006,
-          "count": 9,
-          "room": 31053
+          "count": 9
         }
       ],
       "object_resets": []
@@ -1432,8 +1416,7 @@
       "mobile_resets": [
         {
           "vnum": 31008,
-          "count": 6,
-          "room": 31067
+          "count": 6
         }
       ],
       "object_resets": []
@@ -1902,8 +1885,7 @@
       "mobile_resets": [
         {
           "vnum": 31011,
-          "count": 6,
-          "room": 31091
+          "count": 6
         }
       ],
       "object_resets": []
@@ -1984,8 +1966,7 @@
       "mobile_resets": [
         {
           "vnum": 31015,
-          "count": 1,
-          "room": 31095
+          "count": 1
         }
       ],
       "object_resets": []
@@ -2020,15 +2001,13 @@
       "mobile_resets": [
         {
           "vnum": 31016,
-          "count": 1,
-          "room": 31097
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 31030,
-          "count": 1,
-          "room": 31097
+          "count": 1
         }
       ]
     },
@@ -2050,20 +2029,17 @@
       "mobile_resets": [
         {
           "vnum": 31019,
-          "count": 2,
-          "room": 31098
+          "count": 2
         }
       ],
       "object_resets": [
         {
           "vnum": 31036,
-          "count": 1,
-          "room": 31098
+          "count": 1
         },
         {
           "vnum": 31037,
-          "count": 1,
-          "room": 31098
+          "count": 1
         }
       ]
     },
@@ -2080,18 +2056,15 @@
       "mobile_resets": [
         {
           "vnum": 31012,
-          "count": 1,
-          "room": 31099
+          "count": 1
         },
         {
           "vnum": 31013,
-          "count": 1,
-          "room": 31099
+          "count": 1
         },
         {
           "vnum": 31014,
-          "count": 1,
-          "room": 31099
+          "count": 1
         }
       ],
       "object_resets": []
@@ -2126,15 +2099,13 @@
       "mobile_resets": [
         {
           "vnum": 31017,
-          "count": 1,
-          "room": 31101
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 31033,
-          "count": 1,
-          "room": 31101
+          "count": 1
         }
       ]
     },
@@ -2151,8 +2122,7 @@
       "mobile_resets": [
         {
           "vnum": 31020,
-          "count": 1,
-          "room": 31102
+          "count": 1
         }
       ],
       "object_resets": []
@@ -2189,13 +2159,11 @@
       "object_resets": [
         {
           "vnum": 31018,
-          "count": 1,
-          "room": 31104
+          "count": 1
         },
         {
           "vnum": 31038,
-          "count": 1,
-          "room": 31104
+          "count": 1
         }
       ]
     },
@@ -2465,8 +2433,7 @@
       "mobile_resets": [
         {
           "vnum": 31018,
-          "count": 3,
-          "room": 31117
+          "count": 3
         }
       ],
       "object_resets": []
@@ -2965,8 +2932,7 @@
       "mobile_resets": [
         {
           "vnum": 31022,
-          "count": 1,
-          "room": 31142
+          "count": 1
         }
       ],
       "object_resets": []
@@ -2990,13 +2956,11 @@
       "mobile_resets": [
         {
           "vnum": 31023,
-          "count": 1,
-          "room": 31143
+          "count": 1
         },
         {
           "vnum": 31024,
-          "count": 1,
-          "room": 31143
+          "count": 1
         }
       ],
       "object_resets": []
@@ -3020,8 +2984,7 @@
       "mobile_resets": [
         {
           "vnum": 31025,
-          "count": 1,
-          "room": 31144
+          "count": 1
         }
       ],
       "object_resets": []
@@ -3039,8 +3002,7 @@
       "mobile_resets": [
         {
           "vnum": 31026,
-          "count": 1,
-          "room": 31145
+          "count": 1
         }
       ],
       "object_resets": []
@@ -3124,8 +3086,7 @@
       "mobile_resets": [
         {
           "vnum": 31030,
-          "count": 1,
-          "room": 31149
+          "count": 1
         }
       ],
       "object_resets": []
@@ -3386,8 +3347,7 @@
       "mobile_resets": [
         {
           "vnum": 31027,
-          "count": 2,
-          "room": 31161
+          "count": 2
         }
       ],
       "object_resets": []
@@ -3805,8 +3765,7 @@
       "mobile_resets": [
         {
           "vnum": 31031,
-          "count": 6,
-          "room": 31181
+          "count": 6
         }
       ],
       "object_resets": []
@@ -3891,8 +3850,7 @@
       "mobile_resets": [
         {
           "vnum": 31029,
-          "count": 1,
-          "room": 31185
+          "count": 1
         }
       ],
       "object_resets": []
@@ -4553,8 +4511,7 @@
       "object_resets": [
         {
           "vnum": 5007,
-          "count": 1,
-          "room": 31219
+          "count": 1
         }
       ]
     },
@@ -4571,8 +4528,7 @@
       "mobile_resets": [
         {
           "vnum": 31033,
-          "count": 1,
-          "room": 31220
+          "count": 1
         }
       ],
       "object_resets": []
@@ -4744,8 +4700,7 @@
       "teaches_spell_id": 2005,
       "required_stat_name": "Strength",
       "required_stat_value": 20,
-      "trainer_message": "The guardsman says: Only the strongest can cleave through the crowd.",
-      "room_vnum": 0
+      "trainer_message": "The guardsman says: Only the strongest can cleave through the crowd."
     },
     "31001": {
       "vnum": 31001,
@@ -4773,8 +4728,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31002": {
       "vnum": 31002,
@@ -4802,8 +4756,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31003": {
       "vnum": 31003,
@@ -4830,8 +4783,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31004": {
       "vnum": 31004,
@@ -4858,8 +4810,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31005": {
       "vnum": 31005,
@@ -4887,8 +4838,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31006": {
       "vnum": 31006,
@@ -4917,8 +4867,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31007": {
       "vnum": 31007,
@@ -4946,8 +4895,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31008": {
       "vnum": 31008,
@@ -4976,8 +4924,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31009": {
       "vnum": 31009,
@@ -5004,8 +4951,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31010": {
       "vnum": 31010,
@@ -5032,8 +4978,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31011": {
       "vnum": 31011,
@@ -5061,8 +5006,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31012": {
       "vnum": 31012,
@@ -5091,8 +5035,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31013": {
       "vnum": 31013,
@@ -5119,8 +5062,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31014": {
       "vnum": 31014,
@@ -5148,8 +5090,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31015": {
       "vnum": 31015,
@@ -5177,8 +5118,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31016": {
       "vnum": 31016,
@@ -5204,8 +5144,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31017": {
       "vnum": 31017,
@@ -5234,8 +5173,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31018": {
       "vnum": 31018,
@@ -5262,8 +5200,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31019": {
       "vnum": 31019,
@@ -5291,8 +5228,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31020": {
       "vnum": 31020,
@@ -5319,8 +5255,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31021": {
       "vnum": 31021,
@@ -5348,8 +5283,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31022": {
       "vnum": 31022,
@@ -5377,8 +5311,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31023": {
       "vnum": 31023,
@@ -5405,8 +5338,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31024": {
       "vnum": 31024,
@@ -5433,8 +5365,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31025": {
       "vnum": 31025,
@@ -5461,8 +5392,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31026": {
       "vnum": 31026,
@@ -5489,8 +5419,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31027": {
       "vnum": 31027,
@@ -5518,8 +5447,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31028": {
       "vnum": 31028,
@@ -5547,8 +5475,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31029": {
       "vnum": 31029,
@@ -5575,8 +5502,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31030": {
       "vnum": 31030,
@@ -5603,8 +5529,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31031": {
       "vnum": 31031,
@@ -5632,8 +5557,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31032": {
       "vnum": 31032,
@@ -5661,8 +5585,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31033": {
       "vnum": 31033,
@@ -5690,8 +5613,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "31034": {
       "vnum": 31034,
@@ -5719,8 +5641,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     }
   },
   "objects": {
@@ -5735,8 +5656,7 @@
       "long": "A campfire burns brightly, sending flickering shadows across the nearby tents.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31001": {
       "vnum": 31001,
@@ -5750,8 +5670,7 @@
       "long": "A large stone well stands in the centre of the camp.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31002": {
       "vnum": 31002,
@@ -5765,8 +5684,7 @@
       "long": "A black Bendoumi hood lies in a small heap on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31003": {
       "vnum": 31003,
@@ -5780,8 +5698,7 @@
       "long": "A black silk caftan lies on the ground, abandoned.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31004": {
       "vnum": 31004,
@@ -5795,8 +5712,7 @@
       "long": "A hardwood battle pike has been left behind on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31005": {
       "vnum": 31005,
@@ -5810,8 +5726,7 @@
       "long": "A pair of loose black leggings lie in an untidy heap on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31006": {
       "vnum": 31006,
@@ -5826,8 +5741,7 @@
       "long": "A cooking brazier sends small puffs of smoke up towards the roof.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31007": {
       "vnum": 31007,
@@ -5841,8 +5755,7 @@
       "long": "A black Wazir's sash rests nearby, in a small pile.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31008": {
       "vnum": 31008,
@@ -5856,8 +5769,7 @@
       "long": "A conical Wazir's cap has been dropped nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31009": {
       "vnum": 31009,
@@ -5872,8 +5784,7 @@
       "long": "An exquisite, night blue caftan resets on the ground, awaiting an owner.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31010": {
       "vnum": 31010,
@@ -5887,8 +5798,7 @@
       "long": "The Sheikh's jade pendant has been foolishly dropped here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31011": {
       "vnum": 31011,
@@ -5901,8 +5811,7 @@
       "long": "A pair of exquisite crimson pantalons lies folded on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31012": {
       "vnum": 31012,
@@ -5917,8 +5826,7 @@
       "long": "A pair of soft, goat skin sandals have been left here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31013": {
       "vnum": 31013,
@@ -5932,8 +5840,7 @@
       "long": "A gold embroidered bisht lies is a pile on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31014": {
       "vnum": 31014,
@@ -5947,8 +5854,7 @@
       "long": "A massive Haranian scimitar lies on the ground, slowly rusting.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31015": {
       "vnum": 31015,
@@ -5964,8 +5870,7 @@
       "long": "A dull brown bisht lies in a crumpled heap on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31016": {
       "vnum": 31016,
@@ -5980,8 +5885,7 @@
       "long": "A simple wooden goat herder's staff lies on the ground here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31017": {
       "vnum": 31017,
@@ -5996,8 +5900,7 @@
       "long": "A dull red desert shawl lies crumpled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31018": {
       "vnum": 31018,
@@ -6010,8 +5913,7 @@
       "long": "A natural spring gushes up from the pool in the middle of the oasis.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31019": {
       "vnum": 31019,
@@ -6025,8 +5927,7 @@
       "long": "A dark red caftan lies in a small heap on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31020": {
       "vnum": 31020,
@@ -6041,8 +5942,7 @@
       "long": "A pair of soft cotton foot bindings lies in a tangled heap nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31021": {
       "vnum": 31021,
@@ -6057,8 +5957,7 @@
       "long": "There is a dark red veil lying on the ground here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31022": {
       "vnum": 31022,
@@ -6071,8 +5970,7 @@
       "long": "A Bendoumi spear lies on the ground, apparently forgotten.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31023": {
       "vnum": 31023,
@@ -6086,8 +5984,7 @@
       "long": "A soft satin dress lies in a crumpled heap here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31024": {
       "vnum": 31024,
@@ -6101,8 +5998,7 @@
       "long": "There is an elegant silk dress lying in an untidy heap nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31025": {
       "vnum": 31025,
@@ -6116,8 +6012,7 @@
       "long": "A pair of slippers made from silk, lie close by.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31026": {
       "vnum": 31026,
@@ -6132,8 +6027,7 @@
       "long": "A hardwood Alari battle hammer has been unwisely dropped here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31027": {
       "vnum": 31027,
@@ -6147,8 +6041,7 @@
       "long": "A huge, flaming scimitar lies on the ground, fire lapping at the blade.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31028": {
       "vnum": 31028,
@@ -6163,8 +6056,7 @@
       "long": "A bright red sleeveless tunic lies nearby, unclaimed.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31029": {
       "vnum": 31029,
@@ -6179,8 +6071,7 @@
       "long": "A bundle of white cloth lies in a heap nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31030": {
       "vnum": 31030,
@@ -6194,8 +6085,7 @@
       "long": "A small coal fire burns in the centre of the room.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31031": {
       "vnum": 31031,
@@ -6210,8 +6100,7 @@
       "long": "A pair of supple, night blue slippers lie nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31032": {
       "vnum": 31032,
@@ -6224,8 +6113,7 @@
       "long": "A pile of satin lies nearby, awaiting an owner.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31033": {
       "vnum": 31033,
@@ -6239,8 +6127,7 @@
       "long": "An ornate wooden dresser is pushed up against a wall.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31034": {
       "vnum": 31034,
@@ -6254,8 +6141,7 @@
       "long": "A talisman made from sandstone lies on the ground nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31035": {
       "vnum": 31035,
@@ -6269,8 +6155,7 @@
       "long": "A small metal key lies close by, slowly rusting.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31036": {
       "vnum": 31036,
@@ -6283,8 +6168,7 @@
       "long": "A roasting pit has been hollowed out of the ground here and the coals burn brightly.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31037": {
       "vnum": 31037,
@@ -6297,8 +6181,7 @@
       "long": "Some barrels have been left here as seats.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31038": {
       "vnum": 31038,
@@ -6312,8 +6195,7 @@
       "long": "A small but juicy date lies on the ground nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31039": {
       "vnum": 31039,
@@ -6327,8 +6209,7 @@
       "long": "An Alari nomad bow lies close by.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31040": {
       "vnum": 31040,
@@ -6342,8 +6223,7 @@
       "long": "An Alari arrow made for a short bow lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31041": {
       "vnum": 31041,
@@ -6356,8 +6236,7 @@
       "long": "Some thick robes have been dropped here and left in an untidy heap.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31042": {
       "vnum": 31042,
@@ -6371,8 +6250,7 @@
       "long": "A crimson sash lies curled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31043": {
       "vnum": 31043,
@@ -6386,8 +6264,7 @@
       "long": "A pair of short, baggy leggings have been dropped here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31044": {
       "vnum": 31044,
@@ -6403,8 +6280,7 @@
       "long": "A long coat without any sleeves lies where it was dropped nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31045": {
       "vnum": 31045,
@@ -6417,8 +6293,7 @@
       "long": "A jade necklace lies curled on the ground as though abandoned.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31046": {
       "vnum": 31046,
@@ -6432,8 +6307,7 @@
       "long": "A sweat stained shirt lies nearby, emitting a strong smell.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31047": {
       "vnum": 31047,
@@ -6447,8 +6321,7 @@
       "long": "A pair of dirty trousers lie on the ground in a heap.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31048": {
       "vnum": 31048,
@@ -6462,8 +6335,7 @@
       "long": "A camel driver's whip lies curled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31049": {
       "vnum": 31049,
@@ -6477,8 +6349,7 @@
       "long": "A brown cloth shirt lies nearby, obviously abandoned.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31050": {
       "vnum": 31050,
@@ -6492,8 +6363,7 @@
       "long": "A rusting bronze rod lies on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31051": {
       "vnum": 31051,
@@ -6506,8 +6376,7 @@
       "long": "A long wasp sting lies on the ground, glistening darkly.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31052": {
       "vnum": 31052,
@@ -6521,8 +6390,7 @@
       "long": "A notebook detailing desert ruins lies on the ground nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31053": {
       "vnum": 31053,
@@ -6535,8 +6403,7 @@
       "long": "An Alari head made from wax lies on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31054": {
       "vnum": 31054,
@@ -6549,8 +6416,7 @@
       "long": "A scrap of parchment grows yellow with age.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31055": {
       "vnum": 31055,
@@ -6564,8 +6430,7 @@
       "long": "A golden scorpion claw lies on the ground here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31056": {
       "vnum": 31056,
@@ -6578,8 +6443,7 @@
       "long": "A strange book lies here, open at the first page. It is splattered with blood.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31057": {
       "vnum": 31057,
@@ -6592,8 +6456,7 @@
       "long": "A skin from a wyvern is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31058": {
       "vnum": 31058,
@@ -6606,8 +6469,7 @@
       "long": "A skin from a snake is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31059": {
       "vnum": 31059,
@@ -6620,8 +6482,7 @@
       "long": "A skin from a kendig is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31060": {
       "vnum": 31060,
@@ -6634,8 +6495,7 @@
       "long": "A skin from a crocodile is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31061": {
       "vnum": 31061,
@@ -6648,8 +6508,7 @@
       "long": "A skin from a unicorn is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31062": {
       "vnum": 31062,
@@ -6663,8 +6522,7 @@
       "long": "A skin from a hell hound is piled on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "31063": {
       "vnum": 31063,
@@ -6677,8 +6535,7 @@
       "long": "A satin handkerchief with the letter 'A' on it lies nearby.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     }
   }
 }

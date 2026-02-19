@@ -95,12 +95,10 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			MobileResets []struct {
 				Vnum  int `json:"vnum"`
 				Count int `json:"count"`
-				Room  int `json:"room"`
 			} `json:"mobile_resets"`
 			ObjectResets []struct {
 				Vnum  int `json:"vnum"`
 				Count int `json:"count"`
-				Room  int `json:"room"`
 			} `json:"object_resets"`
 		} `json:"rooms"`
 		Mobiles map[string]struct {
@@ -118,6 +116,10 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Mana       int      `json:"mana"`
 			MaxMana    int      `json:"max_mana"`
 			Attributes [7]int   `json:"attributes"`
+			Loot       []struct {
+				Vnum  int `json:"vnum"`
+				Count int `json:"count"`
+			} `json:"loot"`
 			// Trainer fields
 			IsTrainer         bool   `json:"is_trainer"`
 			TeachesSpellID    int    `json:"teaches_spell_id"`
@@ -136,6 +138,9 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Flags     map[string]bool `json:"flags"`
 			EquipSlot string          `json:"equip_slot"`
 			ArmorVal  int             `json:"armor_value"`
+			TeachesSpellID int         `json:"teaches_spell_id"`
+			TeachesAmount  int         `json:"teaches_amount"`
+			Consumable     bool        `json:"consumable"`
 		} `json:"objects"`
 	}
 
@@ -151,7 +156,6 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			mobResets[i] = game.Reset{
 				MobVnum: mr.Vnum,
 				Count:   mr.Count,
-				Room:    mr.Room,
 			}
 		}
 		objResets := make([]game.Reset, len(roomJSON.ObjectResets))
@@ -159,7 +163,6 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			objResets[i] = game.Reset{
 				ObjVnum: or.Vnum,
 				Count:   or.Count,
-				Room:    or.Room,
 			}
 		}
 
@@ -186,6 +189,14 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 
 	mobiles := make(map[int]*game.Mobile)
 	for _, mobJSON := range areaJSON.Mobiles {
+		loot := make([]game.LootEntry, 0, len(mobJSON.Loot))
+		for _, entry := range mobJSON.Loot {
+			loot = append(loot, game.LootEntry{
+				Vnum:  entry.Vnum,
+				Count: entry.Count,
+			})
+		}
+
 		mob := &game.Mobile{
 			Vnum:       mobJSON.Vnum,
 			Keywords:   mobJSON.Keywords,
@@ -201,6 +212,7 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Mana:       mobJSON.Mana,
 			MaxMana:    mobJSON.MaxMana,
 			Attributes: mobJSON.Attributes,
+			Loot:       loot,
 			// Trainer fields
 			IsTrainer:         mobJSON.IsTrainer,
 			TeachesSpellID:    mobJSON.TeachesSpellID,
@@ -241,6 +253,9 @@ func parseAreasFromJSON(path string) (map[int]*game.Room, map[int]*game.Mobile, 
 			Flags:     objJSON.Flags,
 			EquipSlot: objJSON.EquipSlot,
 			ArmorVal:  objJSON.ArmorVal,
+			TeachesSpellID: objJSON.TeachesSpellID,
+			TeachesAmount:  objJSON.TeachesAmount,
+			Consumable:     objJSON.Consumable,
 		}
 		if obj.Vnum > 0 {
 			objects[obj.Vnum] = obj

@@ -92,6 +92,7 @@ type Mobile struct {
 	Mana       int
 	MaxMana    int
 	Attributes [7]int // STR, INT, WIS, DEX, CON, LCK, CHA
+	Loot       []LootEntry
 
 	// Trainer metadata (if this mobile is a trainer)
 	IsTrainer         bool   // true if this mob teaches maneuvers
@@ -99,6 +100,11 @@ type Mobile struct {
 	RequiredStatName  string // "Strength", "Dexterity", "Constitution", etc.
 	RequiredStatValue int    // minimum value player needs in that stat
 	TrainerMessage    string // custom dialog from trainer
+}
+
+type LootEntry struct {
+	Vnum  int
+	Count int
 }
 
 type Object struct {
@@ -140,7 +146,6 @@ type Reset struct {
 	MobVnum int // for Mobile resets
 	ObjVnum int // for Object resets
 	Count   int // how many to load
-	Room    int // which room to load into
 }
 
 type RoomView struct {
@@ -898,8 +903,9 @@ func (w *World) UnequipObject(player *Player, slot string) (*Object, bool) {
 	return obj, true
 }
 
-// DamageMob deals damage to a mobile and handles death
-func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool) {
+// DamageMob deals damage to a mobile and handles death.
+// Returns whether the mob died and any loot labels that were granted.
+func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool, loot []string) {
 	w.mu.Lock()
 	mob.HP -= damage
 
@@ -916,13 +922,36 @@ func (w *World) DamageMob(player *Player, mob *Mobile, damage int) (died bool) {
 			}
 			room.Mobiles = newMobiles
 		}
+
+		lootLabels := make([]string, 0)
+		if player != nil && len(mob.Loot) > 0 {
+			for _, entry := range mob.Loot {
+				if entry.Vnum <= 0 || entry.Count <= 0 {
+					continue
+				}
+				proto, ok := w.objects[entry.Vnum]
+				if !ok || proto == nil {
+					continue
+				}
+				for i := 0; i < entry.Count; i++ {
+					objCopy := *proto
+					player.Inventory = append(player.Inventory, &objCopy)
+					label := objCopy.Short
+					if label == "" {
+						label = "something"
+					}
+					lootLabels = append(lootLabels, label)
+				}
+			}
+		}
+
 		w.mu.Unlock()
-		return true
+		return true, lootLabels
 	}
 
 	w.mu.Unlock()
 	w.mobCounterAttack(player, mob)
-	return false
+	return false, nil
 }
 
 func (w *World) mobCounterAttack(target *Player, mob *Mobile) {

@@ -65,8 +65,7 @@
       "mobile_resets": [
         {
           "vnum": 8102,
-          "count": 1,
-          "room": 8103
+          "count": 1
         }
       ],
       "object_resets": []
@@ -87,8 +86,7 @@
       "mobile_resets": [
         {
           "vnum": 8101,
-          "count": 1,
-          "room": 8104
+          "count": 1
         }
       ],
       "object_resets": []
@@ -141,8 +139,7 @@
       "mobile_resets": [
         {
           "vnum": 8103,
-          "count": 1,
-          "room": 8107
+          "count": 1
         }
       ],
       "object_resets": []
@@ -211,28 +208,23 @@
       "object_resets": [
         {
           "vnum": 8107,
-          "count": 1,
-          "room": 8111
+          "count": 1
         },
         {
           "vnum": 8105,
-          "count": 1,
-          "room": 8111
+          "count": 1
         },
         {
           "vnum": 8110,
-          "count": 1,
-          "room": 8111
+          "count": 1
         },
         {
           "vnum": 8111,
-          "count": 1,
-          "room": 8111
+          "count": 1
         },
         {
           "vnum": 8114,
-          "count": 1,
-          "room": 8111
+          "count": 1
         }
       ]
     },
@@ -250,15 +242,13 @@
       "mobile_resets": [
         {
           "vnum": 8149,
-          "count": 1,
-          "room": 8149
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 8149,
-          "count": 1,
-          "room": 8149
+          "count": 1
         }
       ]
     }
@@ -289,8 +279,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8101": {
       "vnum": 8101,
@@ -318,8 +307,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8102": {
       "vnum": 8102,
@@ -347,8 +335,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8103": {
       "vnum": 8103,
@@ -375,8 +362,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8104": {
       "vnum": 8104,
@@ -403,8 +389,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8149": {
       "vnum": 8149,
@@ -430,8 +415,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     }
   },
   "objects": {
@@ -446,8 +430,7 @@
       "long": "Some god dropped a newly created first obj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8101": {
       "vnum": 8101,
@@ -460,8 +443,7 @@
       "long": "You see some leather fistwraps here on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8102": {
       "vnum": 8102,
@@ -475,8 +457,7 @@
       "long": "You see a dull sword made of bronze here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8103": {
       "vnum": 8103,
@@ -490,8 +471,7 @@
       "long": "You see a heavy lance made of bronze here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8104": {
       "vnum": 8104,
@@ -504,8 +484,7 @@
       "long": "You see a dull knife here on the ground.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8105": {
       "vnum": 8105,
@@ -521,8 +500,7 @@
       "value": 0,
       "flags": {},
       "equip_slot": "body",
-      "armor_value": 2,
-      "room_vnum": 0
+      "armor_value": 2
     },
     "8106": {
       "vnum": 8106,
@@ -536,8 +514,7 @@
       "long": "A welded metal mask lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8107": {
       "vnum": 8107,
@@ -553,8 +530,7 @@
       "value": 0,
       "flags": {},
       "equip_slot": "head",
-      "armor_value": 2,
-      "room_vnum": 0
+      "armor_value": 2
     },
     "8108": {
       "vnum": 8108,
@@ -567,8 +543,7 @@
       "long": "Some tinted glasses lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8109": {
       "vnum": 8109,
@@ -583,8 +558,7 @@
       "long": "Some red cotton earmuffs lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8110": {
       "vnum": 8110,
@@ -599,8 +573,7 @@
       "value": 0,
       "flags": {},
       "equip_slot": "neck",
-      "armor_value": 1,
-      "room_vnum": 0
+      "armor_value": 1
     },
     "8111": {
       "vnum": 8111,
@@ -616,8 +589,7 @@
       "value": 0,
       "flags": {},
       "equip_slot": "back",
-      "armor_value": 2,
-      "room_vnum": 0
+      "armor_value": 2
     },
     "8112": {
       "vnum": 8112,
@@ -630,8 +602,7 @@
       "long": "Some bronze armor lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8113": {
       "vnum": 8113,
@@ -644,8 +615,7 @@
       "long": "A quilted cape lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8114": {
       "vnum": 8114,
@@ -660,8 +630,7 @@
       "value": 0,
       "flags": {},
       "equip_slot": "waist",
-      "armor_value": 1,
-      "room_vnum": 0
+      "armor_value": 1
     },
     "8115": {
       "vnum": 8115,
@@ -676,8 +645,7 @@
       "long": "Some patch-work sleeves lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8116": {
       "vnum": 8116,
@@ -692,8 +660,7 @@
       "long": "Some grass-woven leggings lie here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8117": {
       "vnum": 8117,
@@ -708,8 +675,7 @@
       "long": "A pair of leather-bound gloves lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8118": {
       "vnum": 8118,
@@ -722,8 +688,7 @@
       "long": "A pair of bell anklets lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8119": {
       "vnum": 8119,
@@ -738,8 +703,7 @@
       "long": "A metal cuff link lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8120": {
       "vnum": 8120,
@@ -752,8 +716,7 @@
       "long": "A copper ring lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8121": {
       "vnum": 8121,
@@ -766,8 +729,7 @@
       "long": "A rusty set of greaves lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8122": {
       "vnum": 8122,
@@ -782,8 +744,7 @@
       "long": "Some leaf-woven leggings lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8123": {
       "vnum": 8123,
@@ -796,8 +757,7 @@
       "long": "A hand-me-down pair of boots lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8124": {
       "vnum": 8124,
@@ -811,8 +771,7 @@
       "long": "An adjustable spiked ring lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8125": {
       "vnum": 8125,
@@ -825,8 +784,7 @@
       "long": "Some unlucky horseshoes lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8126": {
       "vnum": 8126,
@@ -840,8 +798,7 @@
       "long": "A pair of cotton ankle bands lay here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8127": {
       "vnum": 8127,
@@ -853,8 +810,7 @@
       "long": "A sapphire lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8130": {
       "vnum": 8130,
@@ -869,8 +825,7 @@
       "long": "A backpack made from brown leather lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8149": {
       "vnum": 8149,
@@ -882,8 +837,7 @@
       "long": "Some god dropped a newly created lastobj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     }
   }
 }

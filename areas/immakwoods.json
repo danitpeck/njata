@@ -17,8 +17,7 @@
       "mobile_resets": [
         {
           "vnum": 8007,
-          "count": 3,
-          "room": 8000
+          "count": 3
         }
       ],
       "object_resets": []
@@ -54,15 +53,13 @@
       "mobile_resets": [
         {
           "vnum": 8000,
-          "count": 1,
-          "room": 8002
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 5005,
-          "count": 1,
-          "room": 8002
+          "count": 1
         }
       ]
     },
@@ -81,8 +78,7 @@
       "mobile_resets": [
         {
           "vnum": 8007,
-          "count": 2,
-          "room": 8003
+          "count": 2
         }
       ],
       "object_resets": []
@@ -115,8 +111,7 @@
       "mobile_resets": [
         {
           "vnum": 8005,
-          "count": 3,
-          "room": 8005
+          "count": 3
         }
       ],
       "object_resets": []
@@ -135,13 +130,11 @@
       "mobile_resets": [
         {
           "vnum": 8003,
-          "count": 4,
-          "room": 8006
+          "count": 4
         },
         {
           "vnum": 8007,
-          "count": 4,
-          "room": 8006
+          "count": 4
         }
       ],
       "object_resets": []
@@ -162,8 +155,7 @@
       "mobile_resets": [
         {
           "vnum": 8005,
-          "count": 4,
-          "room": 8007
+          "count": 4
         }
       ],
       "object_resets": []
@@ -213,8 +205,7 @@
       "mobile_resets": [
         {
           "vnum": 8007,
-          "count": 8,
-          "room": 8010
+          "count": 8
         }
       ],
       "object_resets": []
@@ -278,8 +269,7 @@
       "mobile_resets": [
         {
           "vnum": 8003,
-          "count": 6,
-          "room": 8014
+          "count": 6
         }
       ],
       "object_resets": []
@@ -300,8 +290,7 @@
       "mobile_resets": [
         {
           "vnum": 8003,
-          "count": 5,
-          "room": 8015
+          "count": 5
         }
       ],
       "object_resets": []
@@ -323,8 +312,7 @@
       "mobile_resets": [
         {
           "vnum": 8005,
-          "count": 6,
-          "room": 8016
+          "count": 6
         }
       ],
       "object_resets": []
@@ -345,8 +333,7 @@
       "mobile_resets": [
         {
           "vnum": 8007,
-          "count": 7,
-          "room": 8017
+          "count": 7
         }
       ],
       "object_resets": []
@@ -399,8 +386,7 @@
       "mobile_resets": [
         {
           "vnum": 8004,
-          "count": 1,
-          "room": 8020
+          "count": 1
         }
       ],
       "object_resets": []
@@ -421,8 +407,7 @@
       "mobile_resets": [
         {
           "vnum": 8003,
-          "count": 4,
-          "room": 8021
+          "count": 4
         }
       ],
       "object_resets": []
@@ -505,8 +490,7 @@
       "mobile_resets": [
         {
           "vnum": 8003,
-          "count": 7,
-          "room": 8026
+          "count": 7
         }
       ],
       "object_resets": []
@@ -542,8 +526,7 @@
       "mobile_resets": [
         {
           "vnum": 8005,
-          "count": 5,
-          "room": 8028
+          "count": 5
         }
       ],
       "object_resets": []
@@ -668,8 +651,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 1,
-          "room": 8036
+          "count": 1
         }
       ],
       "object_resets": []
@@ -688,8 +670,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 2,
-          "room": 8037
+          "count": 2
         }
       ],
       "object_resets": []
@@ -708,8 +689,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 3,
-          "room": 8038
+          "count": 3
         }
       ],
       "object_resets": []
@@ -728,8 +708,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 4,
-          "room": 8039
+          "count": 4
         }
       ],
       "object_resets": []
@@ -762,8 +741,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 5,
-          "room": 8041
+          "count": 5
         }
       ],
       "object_resets": []
@@ -782,13 +760,11 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 7,
-          "room": 8042
+          "count": 7
         },
         {
           "vnum": 8020,
-          "count": 7,
-          "room": 8042
+          "count": 7
         }
       ],
       "object_resets": []
@@ -809,8 +785,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 9,
-          "room": 8043
+          "count": 9
         }
       ],
       "object_resets": []
@@ -828,8 +803,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 10,
-          "room": 8044
+          "count": 10
         }
       ],
       "object_resets": []
@@ -847,8 +821,7 @@
       "mobile_resets": [
         {
           "vnum": 8020,
-          "count": 8,
-          "room": 8045
+          "count": 8
         }
       ],
       "object_resets": []
@@ -883,13 +856,11 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 6,
-          "room": 8047
+          "count": 6
         },
         {
           "vnum": 8021,
-          "count": 6,
-          "room": 8047
+          "count": 6
         }
       ],
       "object_resets": []
@@ -908,13 +879,11 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 8,
-          "room": 8048
+          "count": 8
         },
         {
           "vnum": 8021,
-          "count": 8,
-          "room": 8048
+          "count": 8
         }
       ],
       "object_resets": []
@@ -933,8 +902,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 9,
-          "room": 8049
+          "count": 9
         }
       ],
       "object_resets": []
@@ -981,8 +949,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 12,
-          "room": 8052
+          "count": 12
         }
       ],
       "object_resets": []
@@ -1001,8 +968,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 13,
-          "room": 8053
+          "count": 13
         }
       ],
       "object_resets": []
@@ -1021,8 +987,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 14,
-          "room": 8054
+          "count": 14
         }
       ],
       "object_resets": []
@@ -1041,8 +1006,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 15,
-          "room": 8055
+          "count": 15
         }
       ],
       "object_resets": []
@@ -1061,8 +1025,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 16,
-          "room": 8056
+          "count": 16
         }
       ],
       "object_resets": []
@@ -1082,8 +1045,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 16,
-          "room": 8057
+          "count": 16
         }
       ],
       "object_resets": []
@@ -1101,8 +1063,7 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 17,
-          "room": 8058
+          "count": 17
         }
       ],
       "object_resets": []
@@ -1121,13 +1082,11 @@
       "mobile_resets": [
         {
           "vnum": 8021,
-          "count": 19,
-          "room": 8059
+          "count": 19
         },
         {
           "vnum": 8021,
-          "count": 19,
-          "room": 8059
+          "count": 19
         }
       ],
       "object_resets": []
@@ -1162,8 +1121,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 1,
-          "room": 8061
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1183,8 +1141,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 2,
-          "room": 8062
+          "count": 2
         }
       ],
       "object_resets": []
@@ -1203,8 +1160,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 4,
-          "room": 8063
+          "count": 4
         }
       ],
       "object_resets": []
@@ -1222,8 +1178,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 3,
-          "room": 8064
+          "count": 3
         }
       ],
       "object_resets": []
@@ -1242,8 +1197,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 5,
-          "room": 8065
+          "count": 5
         }
       ],
       "object_resets": []
@@ -1262,8 +1216,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 6,
-          "room": 8066
+          "count": 6
         }
       ],
       "object_resets": []
@@ -1300,8 +1253,7 @@
       "mobile_resets": [
         {
           "vnum": 8023,
-          "count": 2,
-          "room": 8068
+          "count": 2
         }
       ],
       "object_resets": []
@@ -1319,8 +1271,7 @@
       "mobile_resets": [
         {
           "vnum": 8023,
-          "count": 2,
-          "room": 8069
+          "count": 2
         }
       ],
       "object_resets": []
@@ -1338,8 +1289,7 @@
       "mobile_resets": [
         {
           "vnum": 8023,
-          "count": 3,
-          "room": 8070
+          "count": 3
         }
       ],
       "object_resets": []
@@ -1377,8 +1327,7 @@
       "mobile_resets": [
         {
           "vnum": 8024,
-          "count": 1,
-          "room": 8072
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1396,8 +1345,7 @@
       "mobile_resets": [
         {
           "vnum": 8001,
-          "count": 1,
-          "room": 8073
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1415,8 +1363,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 7,
-          "room": 8074
+          "count": 7
         }
       ],
       "object_resets": []
@@ -1434,8 +1381,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 10,
-          "room": 8075
+          "count": 10
         }
       ],
       "object_resets": []
@@ -1453,8 +1399,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 9,
-          "room": 8076
+          "count": 9
         }
       ],
       "object_resets": []
@@ -1472,8 +1417,7 @@
       "mobile_resets": [
         {
           "vnum": 8022,
-          "count": 8,
-          "room": 8077
+          "count": 8
         }
       ],
       "object_resets": []
@@ -1508,8 +1452,7 @@
       "mobile_resets": [
         {
           "vnum": 8007,
-          "count": 1,
-          "room": 8079
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1599,8 +1542,7 @@
       "mobile_resets": [
         {
           "vnum": 8006,
-          "count": 1,
-          "room": 8085
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1619,8 +1561,7 @@
       "mobile_resets": [
         {
           "vnum": 8010,
-          "count": 2,
-          "room": 8086
+          "count": 2
         }
       ],
       "object_resets": []
@@ -1704,13 +1645,11 @@
       "mobile_resets": [
         {
           "vnum": 8030,
-          "count": 2,
-          "room": 8091
+          "count": 2
         },
         {
           "vnum": 8030,
-          "count": 2,
-          "room": 8091
+          "count": 2
         }
       ],
       "object_resets": []
@@ -1729,15 +1668,13 @@
       "mobile_resets": [
         {
           "vnum": 8099,
-          "count": 1,
-          "room": 8099
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 8099,
-          "count": 1,
-          "room": 8099
+          "count": 1
         }
       ]
     }
@@ -1768,8 +1705,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8001": {
       "vnum": 8001,
@@ -1797,8 +1733,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8003": {
       "vnum": 8003,
@@ -1824,8 +1759,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8004": {
       "vnum": 8004,
@@ -1852,8 +1786,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8005": {
       "vnum": 8005,
@@ -1880,8 +1813,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8006": {
       "vnum": 8006,
@@ -1908,8 +1840,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8007": {
       "vnum": 8007,
@@ -1935,8 +1866,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8010": {
       "vnum": 8010,
@@ -1963,8 +1893,7 @@
         13,
         13,
         25
-      ],
-      "room_vnum": 0
+      ]
     },
     "8020": {
       "vnum": 8020,
@@ -1992,8 +1921,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8021": {
       "vnum": 8021,
@@ -2021,8 +1949,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8022": {
       "vnum": 8022,
@@ -2050,8 +1977,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8023": {
       "vnum": 8023,
@@ -2078,8 +2004,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8024": {
       "vnum": 8024,
@@ -2109,8 +2034,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8030": {
       "vnum": 8030,
@@ -2138,8 +2062,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "8099": {
       "vnum": 8099,
@@ -2165,8 +2088,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     }
   },
   "objects": {
@@ -2181,8 +2103,7 @@
       "long": "A shimmering potion lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8001": {
       "vnum": 8001,
@@ -2197,8 +2118,7 @@
       "long": "a potion of recall lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8030": {
       "vnum": 8030,
@@ -2212,8 +2132,7 @@
       "long": "A wickedly curved knife lies here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8031": {
       "vnum": 8031,
@@ -2227,8 +2146,7 @@
       "long": "A brigandine cuirass made of blackened iron has been left here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "8099": {
       "vnum": 8099,
@@ -2240,8 +2158,7 @@
       "long": "Some god dropped a newly created lastobj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     }
   }
 }
