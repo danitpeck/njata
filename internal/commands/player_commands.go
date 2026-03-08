@@ -17,6 +17,7 @@ import (
 
 func RegisterBuiltins(registry *Registry) {
 	registry.Register("look", cmdLook)
+	registry.Register("consider", cmdConsider)
 	registry.Register("say", cmdSay)
 	registry.Register("chat", cmdChat)
 	registry.Register("who", cmdWho)
@@ -36,7 +37,14 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("abilities", cmdAbilities)
 	registry.Register("cast", cmdCast)
 	registry.Register("slash", cmdSlash)
+	registry.Register("power", cmdPowerAttack)
+	registry.Register("powerattack", cmdPowerAttack)
+	registry.Register("riposte", cmdRiposte)
+	registry.Register("cleave", cmdCleave)
+	registry.Register("defensive", cmdDefensiveStance)
+	registry.Register("defensivestance", cmdDefensiveStance)
 	registry.Register("study", cmdStudy)
+	registry.Register("train", cmdTrain)
 	registry.Register("save", cmdSave)
 	registry.Register("makekeeper", cmdMakeKeeper)
 	registry.Register("removekeeper", cmdRemoveKeeper)
@@ -46,6 +54,101 @@ func RegisterBuiltins(registry *Registry) {
 	registry.Register("help", cmdHelp)
 	registry.Register("quit", cmdQuit)
 	registerMovement(registry)
+}
+
+func cmdConsider(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in.")
+		return
+	}
+
+	args = strings.TrimSpace(args)
+	if args == "" {
+		ctx.Output.WriteLine("Consider whom? (syntax: consider <target>)")
+		return
+	}
+
+	if strings.EqualFold(args, "me") || strings.EqualFold(args, "self") {
+		ctx.Output.WriteLine("You look capable enough to handle yourself.")
+		return
+	}
+
+	if targetPlayer, ok := ctx.World.FindPlayerInRoom(ctx.Player, args); ok {
+		assessment := compareCombatScores(combatScorePlayer(ctx.Player), combatScorePlayer(targetPlayer))
+		ctx.Output.WriteLine(fmt.Sprintf("You size up %s. %s", game.CapitalizeName(targetPlayer.Name), assessment))
+		return
+	}
+
+	mob, ok := ctx.World.FindMobInRoom(ctx.Player, args)
+	if !ok {
+		ctx.Output.WriteLine(fmt.Sprintf("You don't see '%s' here.", args))
+		return
+	}
+
+	assessment := compareCombatScores(combatScorePlayer(ctx.Player), combatScoreMob(mob))
+	ctx.Output.WriteLine(fmt.Sprintf("You size up %s. %s", mob.Short, assessment))
+}
+
+func combatScorePlayer(p *game.Player) int {
+	if p == nil {
+		return 1
+	}
+
+	score := 0
+	score += p.MaxHP
+	score += p.Strength * 5
+	score += p.Dexterity * 3
+	score += p.Constitution * 4
+	score += p.Armor * 2
+	if score < 1 {
+		score = 1
+	}
+	return score
+}
+
+func combatScoreMob(mob *game.Mobile) int {
+	if mob == nil {
+		return 1
+	}
+
+	maxHP := mob.MaxHP
+	if maxHP <= 0 {
+		maxHP = mob.HP
+	}
+
+	score := 0
+	score += maxHP
+	score += mob.Attributes[0] * 5
+	score += mob.Attributes[3] * 3
+	score += mob.Attributes[4] * 4
+	score += mob.Level * 10
+	if score < 1 {
+		score = 1
+	}
+	return score
+}
+
+func compareCombatScores(playerScore int, targetScore int) string {
+	if playerScore < 1 {
+		playerScore = 1
+	}
+	if targetScore < 1 {
+		targetScore = 1
+	}
+
+	ratio := float64(targetScore) / float64(playerScore)
+	switch {
+	case ratio <= 0.5:
+		return "It looks trivial."
+	case ratio <= 0.8:
+		return "You would have the advantage."
+	case ratio <= 1.2:
+		return "It seems evenly matched."
+	case ratio <= 1.6:
+		return "It looks dangerous."
+	default:
+		return "You would likely be defeated."
+	}
 }
 
 // DisplayRoomView is a shared function to display a room view consistently
@@ -799,8 +902,8 @@ func cmdAbilities(ctx Context, args string) {
 			continue
 		}
 
-		// Categorize: spells (1000-8999) vs maneuvers (9000+)
-		if spell.ID >= 9000 {
+		// Categorize: spells (1000-1999) vs maneuvers (2000-2999)
+		if spell.ID >= 2000 && spell.ID < 3000 {
 			maneuversList = append(maneuversList, spell)
 		} else {
 			spellsList = append(spellsList, spell)
@@ -945,7 +1048,7 @@ func cmdCast(ctx Context, args string) {
 
 		// Deal damage to target
 		if targetMob != nil {
-			died := ctx.World.DamageMob(p, targetMob, totalDamage)
+			died, loot := ctx.World.DamageMob(p, targetMob, totalDamage)
 
 			// Show messages
 			msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
@@ -965,6 +1068,9 @@ func cmdCast(ctx Context, args string) {
 				deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", targetMob.Short)
 				ctx.Output.WriteLine(deathMsg)
 				ctx.World.BroadcastCombatMessage(p, deathMsg)
+				if len(loot) > 0 {
+					ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+				}
 			} else {
 				hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", targetMob.Short, targetMob.HP, targetMob.MaxHP)
 				ctx.Output.WriteLine(hpMsg)
@@ -1071,7 +1177,7 @@ func cmdSlash(ctx Context, args string) {
 	skillProgress.UpdateProficiency(1) // +1% proficiency per use
 
 	// Deal damage to mob
-	died := ctx.World.DamageMob(p, mob, totalDamage)
+	died, loot := ctx.World.DamageMob(p, mob, totalDamage)
 
 	// Show messages
 	playerMsg := fmt.Sprintf("You slash at %s for &R%d&w damage! (Proficiency: %d%%)",
@@ -1085,10 +1191,170 @@ func cmdSlash(ctx Context, args string) {
 		deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", mob.Short)
 		ctx.Output.WriteLine(deathMsg)
 		ctx.World.BroadcastCombatMessage(p, deathMsg)
+		if len(loot) > 0 {
+			ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+		}
 	} else {
 		hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", mob.Short, mob.HP, mob.MaxHP)
 		ctx.Output.WriteLine(hpMsg)
 	}
+}
+
+func cmdPowerAttack(ctx Context, args string) {
+	args = strings.TrimSpace(args)
+	args = strings.TrimPrefix(args, "attack ")
+	performManeuver(ctx, strings.TrimSpace(args), 2002, "power")
+}
+
+func cmdRiposte(ctx Context, args string) {
+	performManeuver(ctx, strings.TrimSpace(args), 2004, "riposte")
+}
+
+func cmdCleave(ctx Context, args string) {
+	performManeuver(ctx, strings.TrimSpace(args), 2005, "cleave")
+}
+
+func cmdDefensiveStance(ctx Context, args string) {
+	args = strings.TrimSpace(args)
+	args = strings.TrimPrefix(args, "stance")
+	performManeuver(ctx, strings.TrimSpace(args), 2003, "defensive")
+}
+
+func performManeuver(ctx Context, args string, skillID int, commandName string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to use combat maneuvers")
+		return
+	}
+
+	p := ctx.Player
+
+	if p.Skills == nil {
+		p.Skills = make(map[int]*skills.PlayerSkillProgress)
+	}
+
+	spell := skills.GetSpell(skillID)
+	if spell == nil {
+		ctx.Output.WriteLine("That maneuver is not available.")
+		return
+	}
+
+	skillProgress, hasSkill := p.Skills[skillID]
+	if !hasSkill || !skillProgress.Learned {
+		ctx.Output.WriteLine(fmt.Sprintf("You haven't learned %s yet.", spell.Name))
+		return
+	}
+
+	now := time.Now().UnixNano()
+	canUse, reason := skillProgress.CanCast(spell, p.Mana, now)
+	if !canUse {
+		if strings.Contains(reason, "mana") {
+			canUse = true
+		} else {
+			ctx.Output.WriteLine(reason)
+			return
+		}
+	}
+
+	needsTarget := spell.Targeting.Mode == "hostile_single" || spell.Targeting.Mode == "hostile_area"
+	if needsTarget && args == "" {
+		ctx.Output.WriteLine(fmt.Sprintf("%s whom? (syntax: %s <target>)", spell.Name, commandName))
+		return
+	}
+
+	var targetMob *game.Mobile
+	if needsTarget {
+		mob, found := ctx.World.FindMobInRoom(p, args)
+		if !found {
+			ctx.Output.WriteLine(fmt.Sprintf("You don't see '%s' here.", args))
+			return
+		}
+		targetMob = mob
+	}
+
+	skillProgress.UpdateCooldown()
+	skillProgress.UpdateProficiency(1)
+
+	if spell.Effects.Damage != "" && spell.Effects.Damage != "0" && targetMob != nil {
+		damageFormula := spell.Effects.Damage
+		parts := strings.Split(damageFormula, "+")
+		baseDamage := 0
+		if len(parts) > 0 {
+			dicePart := strings.TrimSpace(parts[0])
+			baseDamage = rollDice(dicePart)
+		}
+		statBonus := maneuverStatBonus(parts, p)
+		proficiencyBonus := skillProgress.Proficiency / 20
+		totalDamage := baseDamage + statBonus + proficiencyBonus
+
+		died, loot := ctx.World.DamageMob(p, targetMob, totalDamage)
+
+		msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+		msg = strings.ReplaceAll(msg, "$target", targetMob.Short)
+		msg = strings.TrimSuffix(msg, ".")
+		ctx.Output.WriteLine(fmt.Sprintf("%s for &R%d&w damage! (Proficiency: %d%%)",
+			msg, totalDamage, skillProgress.Proficiency))
+
+		roomMsg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+		roomMsg = strings.ReplaceAll(roomMsg, "$target", targetMob.Short)
+		ctx.World.BroadcastCombatMessage(p, roomMsg)
+
+		if died {
+			deathMsg := fmt.Sprintf("&R%s falls to the ground, defeated!&w", targetMob.Short)
+			ctx.Output.WriteLine(deathMsg)
+			ctx.World.BroadcastCombatMessage(p, deathMsg)
+			if len(loot) > 0 {
+				ctx.Output.WriteLine("You loot: " + strings.Join(loot, ", ") + ".")
+			}
+		} else {
+			hpMsg := fmt.Sprintf("%s has &Y%d/%d&w HP remaining.", targetMob.Short, targetMob.HP, targetMob.MaxHP)
+			ctx.Output.WriteLine(hpMsg)
+		}
+
+		return
+	}
+
+	msg := strings.ReplaceAll(spell.Messages.Cast, "$actor", p.Name)
+	if targetMob != nil {
+		msg = strings.ReplaceAll(msg, "$target", targetMob.Short)
+	}
+	ctx.Output.WriteLine(fmt.Sprintf("%s (Proficiency: %d%%)", msg, skillProgress.Proficiency))
+}
+
+func maneuverStatBonus(parts []string, p *game.Player) int {
+	if len(parts) < 2 {
+		return 0
+	}
+
+	bonusPart := strings.TrimSpace(parts[1])
+	if bonusPart == "" {
+		return 0
+	}
+
+	statChar := strings.ToUpper(string(bonusPart[0]))
+	divisor := 1
+	if slashIdx := strings.Index(bonusPart, "/"); slashIdx != -1 {
+		if value, err := strconv.Atoi(strings.TrimSpace(bonusPart[slashIdx+1:])); err == nil && value > 0 {
+			divisor = value
+		}
+	}
+
+	statValue := 0
+	switch statChar {
+	case "S":
+		statValue = p.Strength
+	case "D":
+		statValue = p.Dexterity
+	case "C":
+		statValue = p.Constitution
+	case "I":
+		statValue = p.Intelligence
+	case "W":
+		statValue = p.Wisdom
+	case "L":
+		statValue = p.Luck
+	}
+
+	return statValue / divisor
 }
 
 func cmdStudy(ctx Context, args string) {
@@ -1196,6 +1462,112 @@ func cmdStudy(ctx Context, args string) {
 		itemDesc = strings.TrimPrefix(itemDesc, "an ")
 		itemDesc = strings.TrimPrefix(itemDesc, "the ")
 		ctx.Output.WriteLine(fmt.Sprintf("&YThe %s crumbles to dust after you finish studying it.&w", itemDesc))
+	}
+}
+
+func cmdTrain(ctx Context, args string) {
+	if ctx.Player == nil {
+		ctx.Output.WriteLine("You must be logged in to train")
+		return
+	}
+
+	args = strings.TrimSpace(args)
+	if args == "" {
+		ctx.Output.WriteLine("Train with whom? (syntax: train <trainer> [maneuver])")
+		return
+	}
+
+	parts := strings.Fields(args)
+	trainerKeyword := parts[0]
+
+	p := ctx.Player
+	mob, found := ctx.World.FindMobInRoom(p, trainerKeyword)
+	if !found {
+		ctx.Output.WriteLine("That trainer is not here.")
+		return
+	}
+
+	if !mob.IsTrainer {
+		ctx.Output.WriteLine(fmt.Sprintf("%s doesn't offer training.", mob.Short))
+		return
+	}
+
+	spellID := mob.TeachesSpellID
+	spell := skills.GetSpell(spellID)
+	if spell == nil {
+		ctx.Output.WriteLine("That trainer seems confused about what to teach. (Internal error)")
+		return
+	}
+
+	if len(parts) > 1 {
+		desired := strings.ToLower(strings.Join(parts[1:], " "))
+		if !strings.Contains(strings.ToLower(spell.Name), desired) {
+			ctx.Output.WriteLine(fmt.Sprintf("%s teaches %s. Try: train %s", mob.Short, spell.Name, trainerKeyword))
+			return
+		}
+	}
+
+	if p.Skills == nil {
+		p.Skills = make(map[int]*skills.PlayerSkillProgress)
+	}
+
+	if progress, ok := p.Skills[spellID]; ok && progress.Learned {
+		ctx.Output.WriteLine(fmt.Sprintf("You already know %s.", spell.Name))
+		return
+	}
+
+	if mob.RequiredStatName != "" && mob.RequiredStatValue > 0 {
+		statValue, ok := getPlayerStatValue(p, mob.RequiredStatName)
+		if !ok {
+			ctx.Output.WriteLine("That trainer seems confused about what to teach. (Invalid stat requirement)")
+			return
+		}
+		if statValue < mob.RequiredStatValue {
+			deficit := mob.RequiredStatValue - statValue
+			ctx.Output.WriteLine(fmt.Sprintf("%s says: You're not ready yet. You need +%d %s to learn from me.",
+				mob.Short, deficit, mob.RequiredStatName))
+			return
+		}
+	}
+
+	proficiency := 10
+	p.Skills[spellID] = &skills.PlayerSkillProgress{
+		SpellID:       spellID,
+		Proficiency:   proficiency,
+		Learned:       true,
+		LifetimeCasts: 0,
+		LastCastTime:  0,
+	}
+
+	ctx.Output.WriteLine(fmt.Sprintf("&YYou train with %s and learn &W%s&Y!&w", mob.Short, spell.Name))
+	ctx.Output.WriteLine(fmt.Sprintf("Proficiency: %d%% | Cooldown: %ds",
+		proficiency, spell.CooldownSeconds))
+	if mob.TrainerMessage != "" {
+		ctx.Output.WriteLine(mob.TrainerMessage)
+	}
+
+	ctx.World.BroadcastSystemToRoomExcept(p, fmt.Sprintf("%s trains with %s.",
+		game.CapitalizeName(p.Name), mob.Short))
+}
+
+func getPlayerStatValue(p *game.Player, statName string) (int, bool) {
+	switch strings.ToLower(statName) {
+	case "strength", "str":
+		return p.Strength, true
+	case "dexterity", "dex":
+		return p.Dexterity, true
+	case "constitution", "con":
+		return p.Constitution, true
+	case "intelligence", "int":
+		return p.Intelligence, true
+	case "wisdom", "wis":
+		return p.Wisdom, true
+	case "charisma", "cha":
+		return p.Charisma, true
+	case "luck", "lck":
+		return p.Luck, true
+	default:
+		return 0, false
 	}
 }
 

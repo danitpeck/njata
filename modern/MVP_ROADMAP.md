@@ -1,44 +1,67 @@
 # NJATA Skills System: Minimal Viable Design
 
-**MVP Progress: 92% Complete** | Last Updated: Feb 17, 2026 | **GAMEPLAY LOOP VALIDATED** ✅
+**MVP Progress: 100% COMPLETE** ✅ | Last Updated: Feb 17, 2026 | **GAMEPLAY LOOP VALIDATED + ITEM SYSTEM COMPLETE + WORLD DISTRIBUTION DONE** 🎉
 
 ## Core MVP Complete ✅
 - **✅ Spell System**: 8 spells with mana cost, cooldown tracking  
 - **✅ Combat Maneuvers**: Slash with proficiency & cooldown  
 - **✅ Discovery-Based Learning**: Find items → Study → Learn spells  
+- **✅ Item Teaching System**: Reusable (libram, furniture) vs consumable (tattered scroll)
 - **✅ Classless Design**: No levels, pure proficiency/equipment progression  
-- **✅ Character System**: Race + starter kit + attributes  
+- **✅ Character System**: Race + 3 starter kits + attributes  
 - **✅ Combat Resolution**: Damage calc (roll + attr + prof), mob HP tracking  
 - **✅ Mob Counterattack**: AI retaliation with scaled damage  
-- **✅ Keeper Tools**: Restore (instant HP/Mana/Move reset), spawn mobs, teleport  
+- **✅ Equipment System**: Wear/remove with auto-slot detection, wield slot for weapons
+- **✅ Keeper Tools**: Restore (instant HP/Mana reset), spawn mobs, teleport  
 - **✅ Full Gameplay Loop**: Explore → Find items → Study → Learn → Cast → Combat ✓
 - **✅ Help System**: Spell/maneuver descriptions with `help <name>` command ✓
 
 ## Features Complete
 - `abilities` - Lists all learned spells with proficiency
 - `help <spell_name>` - Shows detailed spell card with description, mana cost, cooldown, targeting, damage formula, proficiency %
+- `wear`/`remove`/`equipment` - Full equipping system with auto-slot detection and wield support
+- `study <item>` - Universal command for all players to learn from teaching items (reusable or consumable)
 - Partial name matching - `help fire` finds Leviathan's Fire, `help shadow` finds Shadow Veil
 - Streamlined learning curve - quick overview + detailed info on demand
+- **Starter Kit Philosophy**: Scholar (knowledge seeker), Warrior (combat focused), Wanderer (independent/balanced)
+- **Teaching Items Distributed Across World** with respawn logic:
+  - **5001** (Arcane Bolt wand) → Room 4751 (aina.json - Academic area)
+  - **5002** (Leviathan's Fire wand) → Room 1425 (immak.json - Cove of the Naiad Queen)
+  - **5003** (Mend scroll) → Room 5104 (sedna.json - Tavern/healing area)
+  - **5004** (Shadow Veil wand) → Room 5003 (forgotten.json - Forgotten Caverns)
+  - **5005** (Ephemeral Step feather) → Room 8002 (immakwoods.json - Fey/woodland area)
+  - **5006** (Path Shift scroll) → Room 4745 (aina.json - Trading District)
+  - **5007** (Knowing scroll) → Room 31219 (desert.json - Copper Caverns)
+  - **5008** → Room 4830 (aina.json)
+  - Each item configured with `object_resets` (count: 1, respects area reset_minutes)
 
 ## Validation Complete
 Full end-to-end test suite passes:
 - Connection/login, stats display, ability tracking
+- Character creation with 3 distinct starter kits
 - Restore command resets player state (idempotent)
-- 8 magical items in Library (room 9001)
-- Study command finds items, extracts spells, teaches at 30% proficiency
-- Items consumed after study (scarcity mechanic)
-- Mobs spawn, take damage, counterattack
+- Study system: discover items → extract spell → learn at custom proficiency
+- Consumable items (scrolls) destroyed after use, reusable items (books) persist
+- Equipment system with auto-detection and manual override
+- Weapon equipping (wield slot) with proper UX messaging
+- **8 magical items distributed across 8 world areas** with teaching capability
+  - Each area respawns items on reset cycle (immak: 15 min, sedna: varies, etc.)
+  - Multi-player item sharing enabled (Warriors can borrow Scholar's books)
+  - Consumable items regenerate after being consumed
+- Mobs spawn, take damage, counterattack with scaled damage
 - Damage scales to proficiency + attributes
 - Cooldowns properly enforced
 - Test can run repeatedly without manual reset
 - Help command with descriptions and proficiency display
+- Kit philosophy validated: Warriors can borrow Scholar's books, Wanderers self-sufficient
+- **World exploration incentivizes learning**: Items scattered thematically, encourages discovery
 
 ## Next Steps (Post-MVP)
-- **Optional**: Spread items across 8 different world areas (thematic placement)
-- **Optional**: Extended mob AI (wandering between rooms, ability use, grouping)
-- **Optional**: Trainer NPCs for guided skill advancement
-- **Polish**: Balance pass on damage/proficiency progression
-- **Polish**: Extended spell list and maneuver variety
+- **Extended mob AI** (wandering between rooms, ability use, grouping)
+- **Trainer NPCs** for guided skill advancement (optional for MVP+)
+- **Balance pass** on damage/proficiency progression (observe gameplay first)
+- **Extended spell list** (add spells based on observed gameplay gaps)
+- **Component system** (if spell balance requires gatekeeping)
 
 ---
 
@@ -446,6 +469,245 @@ func StudyItem(player *Player, itemName string) {
 - Performance-based inspiration system (bard-style buffing)
 
 **Time estimate**: 3-4 days for one developer (includes 8 item definitions)
+
+---
+
+## Phase 2: Post-MVP (Weeks 2-4)
+
+**Goal**: Transform MVP into living game world—add depth through observation, not speculation.
+
+### Phase 2 Priority Stack
+
+**Priority 1: Gameplay Observation & Balance (Week 2)**
+
+*What to do*: Play for 10-20 hours with fresh eyes
+- Notice what feels fun vs tedious
+- Identify balance issues (is combat too easy? spells overpowered?)
+- Document player friction points (confusing commands? missing info?)
+- Watch for exploit opportunities
+
+*Why first*: You can't improve what you haven't tested. Real gameplay always reveals surprises.
+
+*Success criteria*:
+- [ ] 10+ hours played across multiple characters
+- [ ] List of "feels broken" items
+- [ ] List of "feels great" items
+- [ ] One surprising discovery (something works better than expected)
+
+---
+
+**Priority 2: Trainer NPCs & Maneuver Expansion (Weeks 2-3)**
+
+*What to do*: Add NPC trainers who teach combat maneuvers (mirror to spell discovery)
+
+**High-impact maneuvers to add:**
+- **Power Attack**: Higher damage, longer cooldown (risk/reward)
+- **Defensive Stance**: Reduce incoming damage, reduce outgoing damage (tactical choice)
+- **Riposte**: Counter-attack after successful dodge (reactive combat)
+- **Cleave**: Multi-target attack (AoE combat)
+
+**Implementation sketch:**
+```go
+// Trainer system (parallel to Study, but for maneuvers)
+type Trainer struct {
+    Vnum     int
+    Name     string
+    Teaches  int  // maneuver ID (e.g., 2002 for Power Attack)
+    DC       int  // difficulty to learn
+}
+
+// Learning from trainer (like Study, but for combat)
+func cmdTrain(p *Player, args []string) {
+    trainer := FindTrainerInRoom(p, args[0])
+    
+    // Make check against trainer DC
+    roll := Rand(1, 100)
+    if roll > trainer.DC {
+        p.LearnManeuver(trainer.Teaches, 10)  // Start at 10%
+    }
+}
+```
+
+**Placement strategy** (thematic):
+- **Immak Blacksmith** (Nissa) → teaches Power Attack
+- **Aina Warrior Guild** (new room) → teaches Defensive Stance  
+- **Sedna Tavern** (Harald) → teaches Riposte
+- **Desert Nomad Camp** (new mob) → teaches Cleave
+
+**Why this matters**: Warriors no longer plateau at Slash—they have a skill tree via exploration.
+
+**Success criteria**:
+- [ ] 4 trainers placed in thematic locations
+- [ ] 4 new maneuvers learned and working
+- [ ] Warriors can explore to find advanced techniques
+- [ ] Maneuvers feel distinct (not just stat bumps)
+
+---
+
+**Priority 3: Extended Mob AI (Weeks 3-4)**
+
+*What to do*: Make mobs feel alive, not just damage sponges
+
+**Tier 1 (Low effort, high impact):**
+- **Mob Ability Use**: Mobs cast spells or use maneuvers in combat
+  - Goblin Mage casts Arcane Bolt back
+  - Goblin Warrior uses Power Attack
+  - Adds tactical depth without tons of code
+  
+- **Mob Coordination**: Simple grouping behavior
+  - Mobs in same room assist allies when attacked
+  - "Goblin reinforcements!" message when nearby goblins join fight
+  - Encourages player tactic change (run vs stand/fight)
+
+- **Mob Wandering**: NPCs patrol between connected rooms
+  ```go
+  // Every N ticks, mob moves to random exit
+  if rand.Float64() > 0.7 {  // 30% chance per tick
+      exit := exits[rand.Intn(len(exits))]
+      mob.Move(exit)
+  }
+  ```
+  - Makes world feel populated, not static
+  - Adds ambush/surprise factor
+
+**Tier 2 (Medium effort, medium payoff):**
+- **Mob Loot Tables**: Semi-random drops
+  - Goblin always drops: dagger + 5-10 gold
+  - Goblin sometimes drops: healing potion or ring
+  - Creates incentive to hunt different mob types
+
+- **Mob Scaling**: Harder mobs in deeper areas
+  - Goblins: 10-20 HP
+  - Orc Warriors: 30-50 HP, use Power Attack
+  - Demon Lords: 100+ HP, cast multiple spells
+  - World naturally routes players: weak → medium → hard
+
+**Implementation priority**:
+1. Start with Tier 1 (wandering + ability use) - Week 3
+2. Add Tier 2 (loot tables + scaling) - Week 4
+3. Observe what players actually encounter
+
+**Success criteria**:
+- [ ] Mobs wander between connected rooms
+- [ ] Mobs use spells/maneuvers in combat (not just attack)
+- [ ] Mobs assist nearby allies
+- [ ] Loot feels rewarding (gear upgrades observable)
+- [ ] World feels alive between player sessions
+
+---
+
+**Priority 4: Content Expansion (Week 4, ongoing)**
+
+*What to do*: Grow world based on what players explore and what feels empty
+
+**Low-hanging fruit:**
+- Create 2-3 new dungeon areas (15-20 rooms each)
+- Place themed mobs in each (goblin cave, zombie crypt, etc.)
+- Stock with appropriate loot (weak gear in easy areas, better gear deeper)
+- Add 1-2 new trainer NPCs per area
+
+**Trigger for this phase**: After Priority 2-3, player will have explored most of starting areas. Adding new unexplored regions keeps progression fresh.
+
+**Example: Beneath the Forgotten Temple (New 20-room dungeon)**
+```
+- Levels 1-2: Skeleton guards (15 HP), teach players about undead
+- Levels 3-5: Zombie warriors (30 HP), use Cleave maneuver
+- Boss chamber: Ancient Lich (80 HP), casts Shadow Veil + Winter's Whisper
+- Loot: Lich's Staff (spell focus), Bone Ring (+INT), Cursed Plate (armor penalty, +DEF)
+```
+
+This creates a natural progression: explore → collect gear → tackle harder challenge → loop.
+
+---
+
+### Phase 2 Architecture Decisions
+
+**Decision 1: NPC Dialogue System?**
+
+*Option A (MVP approach)*: Simple keyword-based interaction
+```
+> talk trainer
+Trainer Thale: I teach warriors the arts of combat. Use 'train <maneuver>' to learn.
+```
+
+*Option B (Extended)*: Full conversation tree
+```
+> greet thale
+> ask about power attack
+> offer to trade (item for training)
+```
+
+**Recommendation**: Start with 1A. The simple option is enough for MVP+1. Only add complexity if players demand it.
+
+---
+
+**Decision 2: Spell/Maneuver Balance**
+
+*Current state within MVP*:
+- Mages: 8 spells, 15-30 mana cost, 2-5 sec cooldown
+- Warriors: 1 maneuver (Slash), 0 mana, 2 sec cooldown
+
+*Phase 2 action*:
+- Add 3-4 warrior maneuvers (as above)
+- Observe which path feels stronger
+- If mages too strong → add mana cost to maneuvers or cooldown tweaking
+- If warriors too strong → boost spell damage or reduce cooldown scaling
+
+**Rule of thumb**: Don't balance preemptively. Wait for 50+ hours of real gameplay, then tune based on what you see.
+
+---
+
+**Decision 3: Loot vs Crafting**
+
+*Option A (Recommended)* - Drop-based progression
+- Mobs simply drop better gear
+- Players naturally upgrade as they hunt
+- Simple, discoverable, satisfying
+
+*Option B* - Crafting system
+- Gather components, craft items
+- More complex, takes more code
+- Deferred to Phase 3
+
+**Recommendation**: A for Post-MVP. Crafting can wait until you know what players actually want.
+
+---
+
+### Phase 2 Timeline
+
+**Week 2 (Gameplay Observation)**
+- [ ] Play 10+ hours
+- [ ] Document observations
+- [ ] Identify balance issues
+- [ ] Plan Priority 2 trainer locations
+
+**Week 3 (Trainers + Maneuvers)**
+- [ ] Create 4 new maneuvers (Power Attack, Defensive, Riposte, Cleave)
+- [ ] Place 4 trainers in world
+- [ ] Test learning from trainers works
+- [ ] Balance maneuver progression
+
+**Week 4 (Mob AI + Content)**
+- [ ] Implement mob wandering
+- [ ] Implement mob ability use
+- [ ] Implement mob coordination (grouping)
+- [ ] Create 1-2 new dungeon areas
+- [ ] Tune difficulty based on player feedback
+
+**Ongoing**: Observe, adjust, repeat
+
+---
+
+### Phase 2 Success Metrics
+
+By end of Phase 2, game should feel:
+- **Alive**: Mobs wander, cooperate, use abilities (not static)
+- **Progressive**: Warriors have skill tree (trainers), mages have discovery (study)
+- **Rewarding**: Loot feels tangible, gear upgrades observable
+- **Balanced**: Magic and combat both viable paths
+- **Explorable**: Multiple area types, different mob difficulties
+
+If you nail these 5, you've moved from "system" to "game".
 
 ---
 

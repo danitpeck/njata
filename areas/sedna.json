@@ -90,8 +90,7 @@
       "object_resets": [
         {
           "vnum": 5003,
-          "count": 1,
-          "room": 5104
+          "count": 1
         }
       ]
     },
@@ -112,8 +111,7 @@
       "mobile_resets": [
         {
           "vnum": 5103,
-          "count": 1,
-          "room": 5105
+          "count": 1
         }
       ],
       "object_resets": []
@@ -135,15 +133,13 @@
       "mobile_resets": [
         {
           "vnum": 21059,
-          "count": 2,
-          "room": 5106
+          "count": 2
         }
       ],
       "object_resets": [
         {
           "vnum": 5101,
-          "count": 1,
-          "room": 5106
+          "count": 1
         }
       ]
     },
@@ -729,8 +725,7 @@
       "mobile_resets": [
         {
           "vnum": 5101,
-          "count": 1,
-          "room": 5140
+          "count": 1
         }
       ],
       "object_resets": []
@@ -758,8 +753,7 @@
       "mobile_resets": [
         {
           "vnum": 5102,
-          "count": 1,
-          "room": 5141
+          "count": 1
         }
       ],
       "object_resets": []
@@ -797,8 +791,7 @@
       "mobile_resets": [
         {
           "vnum": 5104,
-          "count": 1,
-          "room": 5143
+          "count": 1
         }
       ],
       "object_resets": []
@@ -1719,15 +1712,13 @@
       "mobile_resets": [
         {
           "vnum": 5199,
-          "count": 1,
-          "room": 5199
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 5199,
-          "count": 1,
-          "room": 5199
+          "count": 1
         }
       ]
     }
@@ -1758,8 +1749,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5101": {
       "vnum": 5101,
@@ -1787,8 +1777,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5102": {
       "vnum": 5102,
@@ -1816,8 +1805,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5103": {
       "vnum": 5103,
@@ -1845,8 +1833,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5104": {
       "vnum": 5104,
@@ -1875,8 +1862,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5149": {
       "vnum": 5149,
@@ -1903,8 +1889,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5199": {
       "vnum": 5199,
@@ -1930,8 +1915,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     }
   },
   "objects": {
@@ -1946,8 +1930,7 @@
       "long": "Some god dropped a newly created first obj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5101": {
       "vnum": 5101,
@@ -1960,8 +1943,7 @@
       "long": "A strange wardrobe is here, pushed up against the wall.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5102": {
       "vnum": 5102,
@@ -1973,8 +1955,7 @@
       "long": "A cup of refeshing cold water",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5103": {
       "vnum": 5103,
@@ -1986,8 +1967,7 @@
       "long": "A glass of ice cold beer",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5104": {
       "vnum": 5104,
@@ -1999,8 +1979,7 @@
       "long": "a glass of Ale on the rocks.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5105": {
       "vnum": 5105,
@@ -2012,8 +1991,7 @@
       "long": "a shot of Whiskey",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5106": {
       "vnum": 5106,
@@ -2026,8 +2004,7 @@
       "long": "a cup of Hot Tea",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5107": {
       "vnum": 5107,
@@ -2039,8 +2016,7 @@
       "long": "a hot cup of Coffee",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5110": {
       "vnum": 5110,
@@ -2054,8 +2030,7 @@
       "long": "an innroom key labelled 'one' is here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5111": {
       "vnum": 5111,
@@ -2069,8 +2044,7 @@
       "long": "an innroom key labelled 'two' is here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5112": {
       "vnum": 5112,
@@ -2084,8 +2058,7 @@
       "long": "an innroom key labelled 'three' is here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5149": {
       "vnum": 5149,
@@ -2098,8 +2071,7 @@
       "long": "Some god dropped a newly created last obj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5199": {
       "vnum": 5199,
@@ -2111,8 +2083,7 @@
       "long": "Some god dropped a newly created lastobj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     }
   }
 }

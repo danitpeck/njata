@@ -20,43 +20,35 @@
       "object_resets": [
         {
           "vnum": 5001,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5002,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5003,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5004,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5005,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5006,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5007,
-          "count": 1,
-          "room": 9001
+          "count": 1
         },
         {
           "vnum": 5008,
-          "count": 1,
-          "room": 9001
+          "count": 1
         }
       ]
     }
@@ -104,7 +96,9 @@
       "flags": {
         "magic": true,
         "flaming": true
-      }
+      },
+      "teaches_spell_id": 1002,
+      "consumable": true
     },
     "5003": {
       "vnum": 5003,

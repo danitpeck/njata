@@ -30,9 +30,9 @@ func TestLoadSpells(t *testing.T) {
 		t.Fatal("Expected spells to be loaded, got none")
 	}
 
-	// We expect 8 MVP spells + 1 Slash ability
-	if len(spells) != 9 {
-		t.Errorf("Expected 9 spells, got %d", len(spells))
+	// We expect 12 spells + 1 maneuver ability
+	if len(spells) != 13 {
+		t.Errorf("Expected 13 spells, got %d", len(spells))
 	}
 }
 
@@ -275,8 +275,8 @@ func TestAllSpells(t *testing.T) {
 	}
 
 	spells := AllSpells()
-	if len(spells) != 9 {
-		t.Errorf("Expected 9 spells, got %d", len(spells))
+	if len(spells) != 13 {
+		t.Errorf("Expected 13 spells, got %d", len(spells))
 	}
 
 	// Verify we can iterate through all spells
@@ -291,8 +291,8 @@ func TestAllSpells(t *testing.T) {
 		spellCount++
 	}
 
-	if spellCount != 9 {
-		t.Errorf("Expected 9 spells in iteration, got %d", spellCount)
+	if spellCount != 13 {
+		t.Errorf("Expected 13 spells in iteration, got %d", spellCount)
 	}
 }
 

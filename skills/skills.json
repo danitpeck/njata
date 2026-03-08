@@ -237,5 +237,102 @@
       "miss": "$actor's slash misses you!",
       "cast_room": "$actor slashes at $target!"
     }
+  },
+  {
+    "id": 2002,
+    "name": "Power Attack",
+    "description": "A devastating overhead strike with all your strength behind it. Deals significantly more damage with longer cooldown. Requires STR 18 to learn from Nissa.",
+    "mana_cost": 0,
+    "cooldown_seconds": 8,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 1,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "2d6 + S",
+      "damage_type": "physical",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You raise your weapon high and strike $target with all your might!",
+      "hit": "$actor's devastating blow strikes you for $damage damage!",
+      "miss": "$actor's powerful strike misses you!",
+      "cast_room": "$actor raises their weapon and delivers a devastating blow to $target!"
+    }
+  },
+  {
+    "id": 2003,
+    "name": "Defensive Stance",
+    "description": "Adopt a defensive posture, reducing incoming damage. You become harder to hit but deal reduced damage yourself. Lasts until you attack. Requires CON 18 to learn from the Aina Fighter.",
+    "mana_cost": 0,
+    "cooldown_seconds": 3,
+    "level_required": 1,
+    "targeting": {
+      "mode": "self",
+      "range": 0,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "0",
+      "damage_type": "physical",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You adopt a defensive stance, ready to block incoming attacks.",
+      "cast_room": "$actor takes a defensive stance."
+    }
+  },
+  {
+    "id": 2004,
+    "name": "Riposte",
+    "description": "A quick counter-attack executed with precision and timing. Deals good damage with a medium cooldown. Requires DEX 18 to learn from Harald the Barkeeper.",
+    "mana_cost": 0,
+    "cooldown_seconds": 5,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_single",
+      "range": 1,
+      "radius": 0
+    },
+    "effects": {
+      "damage": "1d8 + D/2",
+      "damage_type": "physical",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You see an opening and riposte at $target!",
+      "hit": "$actor's riposte catches you off guard for $damage damage!",
+      "miss": "$actor's riposte misses as $target dodges!",
+      "cast_room": "$actor executes a riposte against $target!"
+    }
+  },
+  {
+    "id": 2005,
+    "name": "Cleave",
+    "description": "Swing your weapon in a wide arc, hitting all enemies in a small area. Powerful group attack. Requires STR 20 to learn from the Desert Nomad.",
+    "mana_cost": 0,
+    "cooldown_seconds": 6,
+    "level_required": 1,
+    "targeting": {
+      "mode": "hostile_area",
+      "range": 3,
+      "radius": 2
+    },
+    "effects": {
+      "damage": "1d6 + S/3",
+      "damage_type": "physical",
+      "save_type": "none",
+      "save_dc": 0
+    },
+    "messages": {
+      "cast": "You swing your weapon in a wide arc!",
+      "hit": "$actor's cleaving strike catches you for $damage damage!",
+      "cast_room": "$actor swings their weapon in a wide, devastating arc hitting everything nearby!"
+    }
   }
 ]

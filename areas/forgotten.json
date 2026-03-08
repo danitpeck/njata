@@ -97,8 +97,7 @@
       "object_resets": [
         {
           "vnum": 5004,
-          "count": 1,
-          "room": 5003
+          "count": 1
         }
       ]
     },
@@ -1390,8 +1389,7 @@
       "object_resets": [
         {
           "vnum": 5002,
-          "count": 1,
-          "room": 5078
+          "count": 1
         }
       ]
     },
@@ -1672,15 +1670,13 @@
       "mobile_resets": [
         {
           "vnum": 5099,
-          "count": 1,
-          "room": 5099
+          "count": 1
         }
       ],
       "object_resets": [
         {
           "vnum": 5099,
-          "count": 1,
-          "room": 5099
+          "count": 1
         }
       ]
     }
@@ -1711,8 +1707,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     },
     "5099": {
       "vnum": 5099,
@@ -1738,8 +1733,7 @@
         13,
         13,
         13
-      ],
-      "room_vnum": 0
+      ]
     }
   },
   "objects": {
@@ -1754,8 +1748,7 @@
       "long": "Some god dropped a newly created first obj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5002": {
       "vnum": 5002,
@@ -1769,8 +1762,7 @@
       "long": "The key to the treasure room has been left here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     },
     "5099": {
       "vnum": 5099,
@@ -1782,8 +1774,7 @@
       "long": "Some god dropped a newly created lastobj here.",
       "weight": 0,
       "value": 0,
-      "flags": {},
-      "room_vnum": 0
+      "flags": {}
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "name": "zoie",
-  "location": 8111,
+  "location": 1403,
   "race": 25,
   "sex": 2,
   "hair": "shoulder-length pig-tailed \"hair\"",
   "eyes": "large dark green eyes",
   "hp": 1000,
   "max_hp": 1000,
-  "mana": 961,
+  "mana": 891,
   "max_mana": 976,
   "gold": 51130,
   "strength": 20,
@@ -17,7 +17,7 @@
   "wisdom": 12,
   "charisma": 15,
   "luck": 18,
-  "armor": 138,
+  "armor": 136,
   "skills": {
     "1001": {
       "spell_id": 1001,
@@ -49,17 +49,17 @@
     },
     "1005": {
       "spell_id": 1005,
-      "proficiency": 30,
+      "proficiency": 31,
       "learned": true,
-      "lifetime_casts": 0,
-      "last_cast_time": 0
+      "lifetime_casts": 1,
+      "last_cast_time": 1771483830665619700
     },
     "1006": {
       "spell_id": 1006,
-      "proficiency": 30,
+      "proficiency": 31,
       "learned": true,
-      "lifetime_casts": 0,
-      "last_cast_time": 0
+      "lifetime_casts": 1,
+      "last_cast_time": 1771483868852751100
     },
     "1007": {
       "spell_id": 1007,
@@ -74,10 +74,42 @@
       "learned": true,
       "lifetime_casts": 0,
       "last_cast_time": 0
+    },
+    "2002": {
+      "spell_id": 2002,
+      "proficiency": 12,
+      "learned": true,
+      "lifetime_casts": 2,
+      "last_cast_time": 1771396449772359000
     }
   },
   "is_keeper": true,
-  "inventory": [],
+  "inventory": [
+    {
+      "Vnum": 8107,
+      "Keywords": [
+        "brown",
+        "muffin",
+        "hat"
+      ],
+      "Type": "armor",
+      "Short": "a brown muffin hat",
+      "Long": "A brown muffin hat lies here.",
+      "Weight": 0,
+      "Value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Flags": {},
+      "EquipSlot": "head",
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
+    }
+  ],
   "equipment": {
     "back": {
       "Vnum": 8111,
@@ -98,7 +130,10 @@
       ],
       "Flags": {},
       "EquipSlot": "back",
-      "ArmorVal": 2
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "body": {
       "Vnum": 8105,
@@ -119,28 +154,10 @@
       ],
       "Flags": {},
       "EquipSlot": "body",
-      "ArmorVal": 2
-    },
-    "head": {
-      "Vnum": 8107,
-      "Keywords": [
-        "brown",
-        "muffin",
-        "hat"
-      ],
-      "Type": "armor",
-      "Short": "a brown muffin hat",
-      "Long": "A brown muffin hat lies here.",
-      "Weight": 0,
-      "Value": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "Flags": {},
-      "EquipSlot": "head",
-      "ArmorVal": 2
+      "ArmorVal": 2,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "neck": {
       "Vnum": 8110,
@@ -160,7 +177,10 @@
       ],
       "Flags": {},
       "EquipSlot": "neck",
-      "ArmorVal": 1
+      "ArmorVal": 1,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     },
     "waist": {
       "Vnum": 8114,
@@ -180,7 +200,10 @@
       ],
       "Flags": {},
       "EquipSlot": "waist",
-      "ArmorVal": 1
+      "ArmorVal": 1,
+      "TeachesSpellID": 0,
+      "TeachesAmount": 0,
+      "Consumable": false
     }
   }
 }
